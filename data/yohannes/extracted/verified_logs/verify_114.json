@@ -1,0 +1,17 @@
+{
+  "pdf_page": 114,
+  "book_page_ethiopic": "፮፻፳፬",
+  "elapsed_sec": 8.1,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 11,
+      "old_text": "ጌታ ከዚያ አልፎ ሲሄድ ዕውር ሆኖ የተወለደው",
+      "corrected_text": "ጌታ ከዚያ አልፎ ሲሄድ ዕውር ሁኖ የተወለደው",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሆኖ -> ሁኖ",
+      "reason": "The printed glyph in the image is clearly 2nd order 'ሁ' (ሁኖ, archaic Andemta form of ሆኖ), with the horizontal stroke on the right leg."
+    }
+  ]
+}

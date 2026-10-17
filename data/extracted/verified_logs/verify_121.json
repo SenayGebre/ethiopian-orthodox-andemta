@@ -1,0 +1,44 @@
+{
+  "pdf_page": 121,
+  "book_page_ethiopic": "፪፻፵",
+  "elapsed_sec": 21.6,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 21,
+      "old_text": "ምስት ሽህ ሰው በበላሁ ጊዜ",
+      "corrected_text": "ምስት ሽህ ሰው ባበላሁ ጊዜ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በበላሁ -> ባበላሁ",
+      "reason": "Both visually (shorter left leg on 4th-order ባ compared to adjacent 1st-order በ) and grammatically (causative 'when I fed [ባበላሁ] five thousand people', not 'when I ate'), the printed text is ባበላሁ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 34,
+      "old_text": "ት ሽህ ሰው በበላሁ ጊዜ የ",
+      "corrected_text": "ት ሽህ ሰው ባበላሁ ጊዜ የ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በበላሁ -> ባበላሁ",
+      "reason": "The printed glyph clearly shows 4th-order ባ (shorter left leg than the following በ) in ባበላሁ ('when I fed four thousand people')."
+    },
+    {
+      "column_index": 2,
+      "line_num": 3,
+      "old_text": "ዓቀቡ እምብኑኦሙ ለፈሪሳው",
+      "corrected_text": "ዓቀቡ እምብኅኦሙ ለፈሪሳው",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኑ -> ኅ",
+      "reason": "Canonical Ge'ez Matthew 16:11 and the printed glyph clearly show 6th-order ኅ in እምብኅኦሙ ('from the leaven of the Pharisees'), misread as ኑ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 26,
+      "old_text": "ልጶስዩስ እንደተባለች። ይህ ፊ",
+      "corrected_text": "ልጶስያስ እንደተባለች። ይህ ፊ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዩ -> ያ",
+      "reason": "The printed glyph in ፊልጶስያስ is 4th-order ያ, not 2nd-order ዩ."
+    }
+  ]
+}

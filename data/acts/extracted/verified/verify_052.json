@@ -1,0 +1,17 @@
+{
+  "pdf_page": 52,
+  "book_page_ethiopic": "፻፲፯ | ፻፲፰",
+  "elapsed_sec": 19.6,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 4,
+      "line_num": 32,
+      "old_text": "ሕዝቡምን ፡ መክረው ፡ አስተምረው ፡ በሃ",
+      "corrected_text": "ሕዝቡንም ፡ መክረው ፡ አስተምረው ፡ በሃ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሕዝቡምን -> ሕዝቡንም",
+      "reason": "The printed text clearly reads ሕዝቡንም (accusative marker -ን followed by conjunction -ም), which was transposed as ሕዝቡምን in Stage 1."
+    }
+  ]
+}

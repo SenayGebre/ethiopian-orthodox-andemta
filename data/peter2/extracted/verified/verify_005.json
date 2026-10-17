@@ -1,0 +1,44 @@
+{
+  "pdf_page": 5,
+  "book_page_ethiopic": "፻፷ | ፻፷፩",
+  "elapsed_sec": 24.7,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 9,
+      "old_text": "⟪ይቤ ፡ ዝንቱ ፡ ውእቱ ፡ ወልድየ ፡ ዘአፈቅር ፡ ዘኪያሁ ፡",
+      "corrected_text": "⟪ይቤ ፡ ዝንቱ ፡ ውእቱ ፡ ወልድየ ፡ ዘአፈቅር ፡ ዘአነ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዘኪያሁ -> ዘአነ",
+      "reason": "The printed Ge'ez scripture text on line 9 clearly reads 'ዘአነ ፡' (followed by 'ኀረይኩ ።' on line 10), not 'ዘኪያሁ ፡'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 10,
+      "old_text": "ገንዘብ ፡ ሽሕ ፡ የላዝብ ፡ እንዲሉ ፡ ነቢይ ፡",
+      "corrected_text": "ገንዘብ ፡ ሽሕ ፡ የሕዝብ ፡ እንዲሉ ፡ ነቢይ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "የላዝብ -> የሕዝብ",
+      "reason": "Ink bleed on 'ሕ' caused it to be misread as 'ላ'. The proverb reads 'ያንድ ገንዘብ ሽሕ የሕዝብ' (what belongs to one belongs to a thousand/the people)."
+    },
+    {
+      "column_index": 4,
+      "line_num": 24,
+      "old_text": "ወደ ፡ ምስጢር፡ ሂዶ ፡ ዘበያርህ ፡ አለ ። አ↵",
+      "corrected_text": "ወደ ፡ ምስጢር፡ ሂዶ ፡ ዘያበርህ ፡ አለ ። አ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዘበያርህ -> ዘያበርህ",
+      "reason": "The printed text clearly reads 'ዘያበርህ' (quoting the Ge'ez root word from line 22), which was transposed in Stage 1 as 'ዘበያርህ'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 25,
+      "old_text": "ንድም ፡ (ዕለት) ፡ ሥጋዊ ፡ እስትትገለጽ↵",
+      "corrected_text": "ንድም ፡ (ዕለት) ፡ ሥጋዌ ፡ እስትትገለጽ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሥጋዊ -> ሥጋዌ",
+      "reason": "The glyph has the 5th-order (ኀምስ) loop at the bottom ('ሥጋዌ' = the Incarnation, treated as feminine singular matching 'እስትትገለጽላችሁ'), rather than 3rd-order 'ሥጋዊ'."
+    }
+  ]
+}

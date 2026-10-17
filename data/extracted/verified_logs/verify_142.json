@@ -1,0 +1,62 @@
+{
+  "pdf_page": 142,
+  "book_page_ethiopic": "፪፻፷፩",
+  "elapsed_sec": 29.6,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 21,
+      "old_text": "ን ቀርነ ቅብዑን ይዘህ ሂደህ",
+      "corrected_text": "ን ቀርነ ቅብዑን ይዘህ ሄደህ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሂ -> ሄ",
+      "reason": "The 5th-order ring of ሄ in ሄደህ was misread as 3rd-order ሂ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 24,
+      "old_text": "ት ብሎ ላከው ። ቢሂድ ኢዩን",
+      "corrected_text": "ት ብሎ ላከው ። ቢሄድ ኢዩን",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሂ -> ሄ",
+      "reason": "Standard Amharic verb ቢሄድ with 5th-order ሄ visible in the print."
+    },
+    {
+      "column_index": 1,
+      "line_num": 29,
+      "old_text": "ምን ነው ከሊላ ቢለው ኀቤከ",
+      "corrected_text": "ምን ነው ከሌላ ቢለው ኀቤከ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሊ -> ሌ",
+      "reason": "The 5th-order loop on the right leg of ሌ in ከሌላ (glossing እምኀበ መኑ, 'from whom / from another') was misread as ሊ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 2,
+      "old_text": "ሣለህ ብሎ ቀብቶኝ ሂደ አላቸ↵",
+      "corrected_text": "ሣለህ ብሎ ቀብቶኝ ሄደ አላቸ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሂ -> ሄ",
+      "reason": "The 5th-order ሄ in ሄደ was misread as 3rd-order ሂ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 30,
+      "old_text": "ይት ጽኑዕ ነው ጽኑዓ ባሕር↵",
+      "corrected_text": "ይት ጽኑዕ ነው ጽኑዐ ባሕር↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዓ -> ዐ",
+      "reason": "Classical Ge'ez construct state ጽኑዐ ባሕርይ uses 1st-order ዐ, which is clearly printed in the image."
+    },
+    {
+      "column_index": 2,
+      "line_num": 32,
+      "old_text": "ሃ ባሕርይ ነህ ሲሉ ። መሥዋ↵",
+      "corrected_text": "ሀ ባሕርይ ነህ ሲሉ ። መሥዋ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሃ -> ሀ",
+      "reason": "Classical Ge'ez construct state ብሩሀ ባሕርይ uses 1st-order ሀ, matching the symmetrical legs of ሀ in the image."
+    }
+  ]
+}

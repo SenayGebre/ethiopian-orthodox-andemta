@@ -1,0 +1,35 @@
+{
+  "pdf_page": 100,
+  "book_page_ethiopic": "፮፻፲",
+  "elapsed_sec": 16.7,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 28,
+      "old_text": "አግበርከ ።⟫ ምን አድርግሃለሁ በ",
+      "corrected_text": "አግበርከ ።⟫ ምን አድርጌሃለሁ በ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ግ -> ጌ",
+      "reason": "The printed glyph has the 5th-order (ኀምስ) loop on the right leg (አድርጌሃለሁ, 'What have I done to you?'), which was misread as 6th-order ግ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 34,
+      "old_text": "የኔ መንግሥቲ ከዚህ ዓለም የ",
+      "corrected_text": "የኔ መንግሥቴ ከዚህ ዓለም የ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቲ -> ቴ",
+      "reason": "The 1st-person possessive suffix on መንግሥቴ ('my kingdom') is printed with the 5th-order ring ቴ, misread as 3rd-order ቲ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 16,
+      "old_text": "⟪ወባሕቱ ሀሎ ዘናለምድ ዘእሐ",
+      "corrected_text": "⟪ወባሕቱ ሀሎ ዘናለምድ ዘእሕ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሐ -> ሕ",
+      "reason": "Both visually (top-left hook of 6th-order ሕ) and philologically (Classical Ge'ez ዘእሕዩ ለክሙ, repeated explicitly in L20 እሕዩ ለክሙ), the character at the line wrap is ሕ, not ሐ."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "pdf_page": 66,
+  "book_page_ethiopic": "፻፴፬ | ፻፴፭",
+  "elapsed_sec": 12.7,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 25,
+      "old_text": "እንዲህ ፡ ባለ ፡ ነገር ፡ ወንጌል ፡ ጽና ፡ ተረዳ ፡",
+      "corrected_text": "እንዲህ ፡ ባለ ፡ ነገር ፡ ወንጌል ፡ ጸና ፡ ተረዳ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጽና -> ጸና",
+      "reason": "The printed glyph is 1st-order 'ጸ' (ጸና - 'became strong/firm', glossing Ge'ez ፀንዐ), not 6th-order 'ጽ'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 1,
+      "old_text": "፳፯ ፤ ⟪ወዓዲ ፡ አኮ ፡ በዝ ፡ ባሕቲቱ ፡ ዘንትመነሰ ፡⟫",
+      "corrected_text": "፳፯ ፤ ⟪ወዓዲ ፡ አኮ ፡ በዝ ፡ ባሕቲቱ ፡ ዘንትመነስ ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዘንትመነሰ -> ዘንትመነስ",
+      "reason": "In Classical Ge'ez imperfective 1st person plural passive/reflexive (ዘንትመነስ - 'that we are despised/harmed'), the final consonant takes the 6th order 'ስ', which is clearly visible on the page with its top-left bend."
+    },
+    {
+      "column_index": 4,
+      "line_num": 14,
+      "old_text": "⟪ወይቤሉ፡ ብዙኀ፡ ዕበያ፡ ለአርጤምስ፡ እንተ፡ ኤፌሶን፥⟫",
+      "corrected_text": "⟪ወይቤሉ፡ ብዙኅ፡ ዕበያ፡ ለአርጤምስ፡ እንተ፡ ኤፌሶን፥⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ብዙኀ -> ብዙኅ",
+      "reason": "Nominative predicate 'ብዙኅ' ('great is her majesty') has the 6th-order 'ኅ' with its top hook clearly printed, not 4th-order 'ኀ'."
+    }
+  ]
+}

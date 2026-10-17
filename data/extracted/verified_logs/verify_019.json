@@ -1,0 +1,62 @@
+{
+  "pdf_page": 19,
+  "book_page_ethiopic": "፻፴፰",
+  "elapsed_sec": 24.3,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 3,
+      "old_text": "ራኤል ከተማ አልፍ ሙቶ አ↵",
+      "corrected_text": "ራኤል ከተማ እልፍ ሙቶ እ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አ -> እ",
+      "reason": "Both occurrences of እልፍ are printed with 6th-order እ (matching እስራኤል on the line above), not 1st-order አ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 6,
+      "old_text": "ርና ፡ ስም ማሪከላዊ ገለጸላቸው",
+      "corrected_text": "ርና ፡ ስም ማእከላዊ ገልጾላቸው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ማሪከላዊ ገለጸላቸው -> ማእከላዊ ገልጾላቸው",
+      "reason": "The printed text clearly reads ስም ማእከላዊ (middle/mediating title, contrasting with ስም ታሕታዊ on the previous page) and ገልጾላቸው."
+    },
+    {
+      "column_index": 1,
+      "line_num": 21,
+      "old_text": "በመሂዱ ። ኮከብ መጥቆ ይሄ↵",
+      "corrected_text": "በመሄዱ ። ኮከብ መጥቆ ይሄ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሂ -> ሄ",
+      "reason": "The printed glyph is 5th-order ሄ in በመሄዱ, matching line 24."
+    },
+    {
+      "column_index": 2,
+      "line_num": 7,
+      "old_text": "ተደረጸች።የንጉሥ ሞት የፀ↵",
+      "corrected_text": "ተሸበረች።የንጉሥ ሞት የፀ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ተደረጸች -> ተሸበረች",
+      "reason": "Visually and philologically, the printed word translating ተሀውከት is ተሸበረች ('she was troubled/agitated'), misread as non-word ተደረጸች."
+    },
+    {
+      "column_index": 3,
+      "line_num": 10,
+      "old_text": "ሠይምሙ ለለነገዶሙ እንዲል",
+      "corrected_text": "ሠይሞሙ ለለነገዶሙ እንዲል",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ምሙ -> ሞሙ",
+      "reason": "Classical Ge'ez verb with 3rd person plural object suffix is ወተሠይሞሙ (7th-order ሞ), which is clearly visible in the image."
+    },
+    {
+      "column_index": 3,
+      "line_num": 12,
+      "old_text": "ተወጽئተው ርስት ከርስት",
+      "corrected_text": "ተወጽእተው ርስት ከርስት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ئ -> እ",
+      "reason": "OCR artifact substituted an Arabic character ئ for the printed Ethiopic Fidel እ in ተወጽእተው."
+    }
+  ]
+}

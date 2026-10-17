@@ -1,0 +1,98 @@
+{
+  "pdf_page": 4,
+  "book_page_ethiopic": "፳ | ፳፩",
+  "elapsed_sec": 33.6,
+  "applied_count": 10,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "ምን ፡ አለህ ፡ አንት ፡ ለራስህ ፡ ዕወቅ ፡",
+      "corrected_text": "ምን ፡ አለህ ፡ አንተ ፡ ለራስህ ፡ ዕወቅ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አንት -> አንተ",
+      "reason": "The printed glyph has the straight vertical stem of 1st-order ተ (አንተ), not the left-jutting cross-bar of 6th-order ት."
+    },
+    {
+      "column_index": 1,
+      "line_num": 6,
+      "old_text": "ክሣፍ ፡ እሠረ ፡ ነስሕ ፡ ከመ ፡ እኍከ ፡ ጴጥ",
+      "corrected_text": "ክሣፍ ፡ አሠረ ፡ ነስሕ ፡ ከመ ፡ እኍከ ፡ ጴጥ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እሠረ -> አሠረ",
+      "reason": "The initial character is 1st-order አ (አሠረ, 'he tied'), not 6th-order እ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 9,
+      "old_text": "ነሥሕ ፡ ከመ ፡ እኍከ ፡ ጴጥሮስ ፡ አለችው",
+      "corrected_text": "ነስሕ ፡ ከመ ፡ እኍከ ፡ ጴጥሮስ ፡ አለችው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ነሥሕ -> ነስሕ",
+      "reason": "The middle character is clearly 6th-order ስ (ነስሕ, Ge'ez imperative 'repent', matching line 6), not ሥ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 11,
+      "old_text": "ዕፀዋት ፡ ሁሉ ፡ አድንኖ፡ አድርገዋል፡ አን",
+      "corrected_text": "ዕፀዋት ፡ ሁሉ ፡ አድጎ፡ አድርገዋል፡ አን",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አድንኖ -> አድጎ",
+      "reason": "Visually the word has only three glyphs: አድጎ (part of the compound expression አድጎ አድርገዋል, 'bowed down at midday'), not አድንኖ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 18,
+      "old_text": "ታል ፡ ወቀቢዎ ፡ ነቅዓ ፡ እማዕከሉ ፡ቀበ",
+      "corrected_text": "ታል ፡ ወቀቢዎ ፡ ነቅዓ ፡ እማዕከሉ ፡ቀብ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቀበ -> ቀብ",
+      "reason": "The line ends with 6th-order ብ (forming the Ge'ez verb ቀብወ across the line wrap, 'he swelled up'), clearly showing the left-side notch of ብ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 27,
+      "old_text": "አያለሁ ፡ ብሎ ፡ ሲወጣ ፡ መላእክት ፡ ጎፀ ፡",
+      "corrected_text": "አያለሁ ፡ ብሎ ፡ ሲወጣ ፡ መላእክት ፡ ነፀ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጎፀ -> ነፀ",
+      "reason": "The first glyph is 1st-order ነ (ነፀ እሳት, Ge'ez construct 'arrows/darts of fire' paired with ኵናተ እሳት 'spears of fire'), misread as ጎ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 23,
+      "old_text": "⟪፳፪ ፤ አኒዞ፡ እምጥምቀተ ፡ ዮሐንስ፡ እስከ ፡ አመ ፡⟫",
+      "corrected_text": "⟪፳፪ ፤ አኀዞ፡ እምጥምቀተ ፡ ዮሐንስ፡ እስከ ፡ አመ ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አኒዞ -> አኀዞ",
+      "reason": "In the canonical Ge'ez text of Acts 1:22, the gerundive is አኀዞ ('beginning from the baptism of John'), and the middle glyph in the image is ኀ, not ኒ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 8,
+      "old_text": "ውቅ ፡ አቤቱ ፡ ከሊህ ፡ ከሁለቱ ፡ የመረጥ",
+      "corrected_text": "ውቅ ፡ አቤቱ ፡ ከኒህ ፡ ከሁለቱ ፡ የመረጥ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከሊህ -> ከኒህ",
+      "reason": "The printed glyph is ኒ (archaic Amharic demonstrative ከኒህ ከሁለቱ, 'from these two'), with the top horizontal bar of ነ/ኒ misread as ሊ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 13,
+      "old_text": "ገንዘብ ፡ የሚያደርጋትን ፡ ከሊህ ፡ ከሁ",
+      "corrected_text": "ገንዘብ ፡ የሚያደርጋትን ፡ ከኒህ ፡ ከሁ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከሊህ -> ከኒህ",
+      "reason": "The printed glyph is ኒ in ከኒህ ('from these [two]'), misread as ሊ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 18,
+      "old_text": "ትን ፡ ከሊህ ፡ ከሁለቱ ፡ የመረጥኸውን ፡",
+      "corrected_text": "ትን ፡ ከኒህ ፡ ከሁለቱ ፡ የመረጥኸውን ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ከሊህ -> ከኒህ",
+      "reason": "The printed glyph is ኒ in ከኒህ ('from these two'), misread as ሊ."
+    }
+  ]
+}

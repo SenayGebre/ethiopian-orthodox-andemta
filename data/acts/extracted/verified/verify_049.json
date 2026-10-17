@@ -1,0 +1,35 @@
+{
+  "pdf_page": 49,
+  "book_page_ethiopic": "፻፲ | ፻፲፩",
+  "elapsed_sec": 22.8,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 4,
+      "line_num": 9,
+      "old_text": "ከመ ፡ ኢይግብእኒ ፡ ውስተ ፡ መስና ።⟫",
+      "corrected_text": "ከመ ፡ ኢይግብእኒ ፡ ውስተ ፡ ሙስና ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "መስና -> ሙስና",
+      "reason": "The Ge'ez noun for 'corruption' is 'ሙስና' (2nd order 'ሙ'), and the short right-hand vowel stroke on 'ሙ' is clearly visible in the scan and confirmed by the immediate Amharic gloss 'ሙስና ፡ መቃብር' on line 10."
+    },
+    {
+      "column_index": 4,
+      "line_num": 21,
+      "old_text": "ቅከ ፡ ይርአይ ፡ መስና ፡ ብሏል ፡ ብዬ ፡",
+      "corrected_text": "ቅከ ፡ ይርአይ ፡ ሙስና ፡ ብሏል ፡ ብዬ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "መስና -> ሙስና",
+      "reason": "The printed glyph clearly has the 2nd-order stroke of 'ሙ' in 'ሙስና' ('ይርአይ ፡ ሙስና', Psalm 15:10 / Acts 13:35), matching line 28 below."
+    },
+    {
+      "column_index": 4,
+      "line_num": 25,
+      "old_text": "⟪ኢትሁቦ ፡ ለጻድቅከ ፡ ይርአይ ፡ መስና ፥⟫",
+      "corrected_text": "⟪ኢትሁቦ ፡ ለጻድቅከ ፡ ይርአይ ፡ ሙስና ፥⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "መስና -> ሙስና",
+      "reason": "Both the visual scan (showing the right-side 'ሙ' tick) and canonical Ge'ez scripture (Acts 13:35 / Ps 15:10) confirm 'ሙስና', which is immediately echoed on line 26 ('ሙስና ፡ መቃብርም')."
+    }
+  ]
+}

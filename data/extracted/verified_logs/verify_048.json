@@ -1,0 +1,53 @@
+{
+  "pdf_page": 48,
+  "book_page_ethiopic": "፻፷፯",
+  "elapsed_sec": 13.9,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 34,
+      "old_text": "ሉት አውቆ ታበውሑኒሁ እሰ",
+      "corrected_text": "ሉት አውቆ ታበውሑኒሁ ዕደ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እሰ -> ዕደ",
+      "reason": "Canonical Ge'ez vocative phrase 'ዕደው አኃዊነ' / 'ዕደ ብእሲ' (Acts 2:29 'ታበውሑኒሁ ዕደው አኃዊነ ንንግርክሙ ክሡተ በእንተ ዳዊት ርእሰ አበው'; here printed 'ዕደ↵ብእ'); 'ዕደ' was misread as 'እሰ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 34,
+      "old_text": "ይላሉ አንዲት ጭራ ናት ቅ",
+      "corrected_text": "ይላሉ አንዲት ጭራ ናት کز",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቅ -> አ",
+      "reason": "Wait: the word across L34-35 is 'አ↵ዝል ቅጽል የላትም' (corresponding to 'ዕዝል ቅጥል የላትም' in L36-37). In the image, the last character of L34 is clearly 'አ' ('አ↵ዝል'), misread as 'ቅ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 34,
+      "old_text": "ይላሉ አንዲት ጭራ ናት ቅ",
+      "corrected_text": "ይላሉ አንዲት ጭራ ናት አ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቅ -> አ",
+      "reason": "The word wrapping across L34-L35 is 'አዝል' ('አዝል ቅጽል የላትም'), matching the parallel 'ዕዝል ቅጥል የላትም' in L36-L37; the glyph at the end of L34 is clearly 'አ', misread as 'ቅ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 22,
+      "old_text": "ፈ.ል ነው ከመንግሥተ ሰማያ",
+      "corrected_text": "ፊል ነው ከመንግሥተ ሰማያ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ፈ.ል -> ፊል",
+      "reason": "In traditional Andemta terminology, 'ውፁእ ፊል ነው' (an excluded/cast-out letter or element, glossing 'ሕፁፀ ይከውን') has 'ፊል' where the bottom right loop of 3rd-order 'ፊ' was misread as 'ፈ.ል'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 25,
+      "old_text": "ወሐፀ መንፈቆ ወየሐፅፆሙ",
+      "corrected_text": "ወሐፀ መንፈቆ ወያሐፅፆሙ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "የ -> ያ",
+      "reason": "Ge'ez causative imperfect 'ወያሐፅፆሙ እመንግሥተ አቡሁ' (4th order 'ያ' in 'ወያሐፅፆሙ'), visually distinct in the image with the shorter right leg of 'ያ'."
+    }
+  ]
+}

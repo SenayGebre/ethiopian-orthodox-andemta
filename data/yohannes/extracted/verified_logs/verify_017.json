@@ -1,0 +1,26 @@
+{
+  "pdf_page": 17,
+  "book_page_ethiopic": "፭፻፳፯",
+  "elapsed_sec": 20.0,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 19,
+      "old_text": "እሱም አውቆባቸው ጠርጥራ",
+      "corrected_text": "እሱም አውቆባቸው ጠርጥረ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ራ -> ረ",
+      "reason": "Both visually on the page and grammatically in Amharic (gerundive ጠርጥረውኝ across the line wrap), the final character on line 19 is first-order ረ, not fourth-order ራ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 38,
+      "old_text": "ሃ ክሠተ ሎሙ አእመሩ ወለበ",
+      "corrected_text": "ሃ ከሠተ ሎሙ አእመሩ ወለበ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ክ -> ከ",
+      "reason": "In the patristic Ge'ez citation (ሶቤሃ ከሠተ ሎሙ), the verb is the 3rd person masculine singular perfective ከሠተ ('he revealed to them'), and the printed glyph is first-order ከ rather than sixth-order ክ."
+    }
+  ]
+}

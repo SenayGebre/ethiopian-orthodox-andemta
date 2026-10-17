@@ -1,0 +1,80 @@
+{
+  "pdf_page": 104,
+  "book_page_ethiopic": "፪፻፳፫",
+  "elapsed_sec": 30.7,
+  "applied_count": 8,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 2,
+      "old_text": "ንደሆነ።ሦክ የተባለ በቀሙ ሦ↵",
+      "corrected_text": "ንደሆነ።ሦክ የተባለ በቁሙ ሦ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቀ -> ቁ",
+      "reason": "The standard Andemta technical term for literal meaning is 'በቁሙ' (2nd order ቁ, clearly visible in the image), misread as 'በቀሙ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 20,
+      "old_text": "⟪ወሎሙሰ ኢተውህቦሙ ።⟫ ለ↵",
+      "corrected_text": "⟪ወሎሙሰ ኢተውህበ ።⟫ ለ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቦሙ -> በ",
+      "reason": "The printed Ge'ez text in the image reads 'ወሎሙሰ ኢተውህበ ።' (matching the citation 'ወሎሙሰ ኢተውህበ ላለው' in Col 1 L35 and Col 2 L03-04), without '-ቦሙ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 3,
+      "old_text": "ይቆሙታልና ወሎሙሰ ኢተ↵",
+      "corrected_text": "ይቀሙታልና ወሎሙሰ ኢተ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቆ -> ቀ",
+      "reason": "Amharic verb 'ይቀሙታልና' ('they rob/deprive him of it', matching Col 1 L33 'ይቀሙታልና') is printed with 1st-order 'ቀ', misread as 7th-order 'ቆ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 19,
+      "old_text": "፳፮፥ሮሜ ፪ ፰ ፥ሉቃ፲ ፳፬።",
+      "corrected_text": "፳፮፥ሮሜ ፲፩ ፰ ፥ሉቃ፲ ፳፬።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፪ -> ፲፩",
+      "reason": "The canonical cross-reference for Isaiah's prophecy of spiritual blindness is Romans 11:8 ('ሮሜ ፲፩ ፰'), and both numerals '፲፩' are printed in the image."
+    },
+    {
+      "column_index": 2,
+      "line_num": 23,
+      "old_text": "⟪ሰሚዓ ትሰምኡ ወኢትሌብዉ⟫",
+      "corrected_text": "⟪ሰሚዓ ትሰምዑ ወኢትሌብዉ⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኡ -> ዑ",
+      "reason": "Classical Ge'ez verb 'ትሰምዑ' (from ሰምዐ with pharyngeal ዐ) is printed with 'ዑ', misread as 'ኡ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 18,
+      "old_text": "⟪ወእዕዛኒክሙ እስመ ይሰምዓ።⟫",
+      "corrected_text": "⟪ወአዕዛኒክሙ እስመ ይሰምዓ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እ -> አ",
+      "reason": "Ge'ez broken plural 'ወአዕዛኒክሙ' ('and your ears', Matthew 13:16) begins with 1st-order 'አ', misread as 6th-order 'እ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 24,
+      "old_text": "ይርአዩ እንትሙ ዘትሬእዩ ወ↵",
+      "corrected_text": "ይርአዩ አንትሙ ዘትሬእዩ ወ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እ -> አ",
+      "reason": "Ge'ez 2nd person plural pronoun 'አንትሙ' (Matthew 13:17) begins with 1st-order 'አ', misread as 'እ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 38,
+      "old_text": "ፋት ሰርተዋልና ። ኢርእዩ ወ↵",
+      "corrected_text": "ፋት ሠርተዋልና ። ኢርእዩ ወ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሰ -> ሠ",
+      "reason": "The printed glyph in the image is 'ሠርተዋልና' with 'ሠ' (ንጉሡ ሠ), misread as 'ሰ'."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "pdf_page": 89,
+  "book_page_ethiopic": "፭፻፺፱",
+  "elapsed_sec": 24.7,
+  "applied_count": 7,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "ዕዳ ባልሆነባቸው ነበር ክፉዳ",
+      "corrected_text": "ዕዳ ባልሆነባቸው ነበር ከፍዳ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ክፉዳ -> ከፍዳ",
+      "reason": "The printed glyphs are clearly 'ከፍዳ' (combining with 'ም' on the next line to form 'ከፍዳም በዳኑ ነበር' - 'they would have been saved from condemnation/punishment'). Stage 1 misread 1st-order 'ከ' and 6th-order 'ፍ' as 'ክፉ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 29,
+      "old_text": "ቤ ፀልዑኒ በከንቱ ።⟫ መዝ ፷፱",
+      "corrected_text": "ቤ ፀልዑኒ በከንቱ ።⟫ መዝ ፷፰",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፷፱ -> ፷፰",
+      "reason": "The Ge'ez Psalter reference for 'ፀልዑኒ በከንቱ' is Psalm 68 (መዝ ፷፰ in Septuagint/Ge'ez numbering), and the printed numeral clearly shows ፰ (8) rather than ፱ (9)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 30,
+      "old_text": "ሉቃ ፳፬ ፵፭ ።",
+      "corrected_text": "ሉቃ ፳፬ ፵፬ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፵፭ -> ፵፬",
+      "reason": "The cross-reference is Luke 24:44 (ሉቃ ፳፬ ፵፬), and the second digit lacks the top loop of ፭, matching ፬ just like the preceding ፳፬."
+    },
+    {
+      "column_index": 1,
+      "line_num": 34,
+      "old_text": "⟪ወሶበ መጽአ ጰራጶሊጦስ ዘአ",
+      "corrected_text": "⟪ወሶበ መጽአ ጰራቅሊጦስ ዘአ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጶ -> ቅ",
+      "reason": "The canonical Ge'ez term is 'ጰራቅሊጦስ' (Paraclete), and the printed glyph is clearly 6th-order 'ቅ', not 'ጶ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 38,
+      "old_text": "ላችሁ ጰራጶሊጦስ በመጣ ጊዜ",
+      "corrected_text": "ላችሁ ጰራቅሊጦስ በመጣ ጊዜ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጶ -> ቅ",
+      "reason": "The printed glyph in 'ጰራቅሊጦስ' is clearly 'ቅ', misread as 'ጶ' in Stage 1."
+    },
+    {
+      "column_index": 3,
+      "line_num": 26,
+      "old_text": "ዘከመ ኤስፈዎሙ ኢየሱስ መ",
+      "corrected_text": "ዘከመ አስፈዎሙ ኢየሱስ መ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኤ -> አ",
+      "reason": "In the Classical Ge'ez section heading 'ዘከመ አስፈዎሙ ኢየሱስ መንፈሰ ቅዱሰ' ('How Jesus promised them the Holy Spirit', from አስፈወ), the initial letter is 1st-order 'አ' with slight bottom ink bleed misread as 'ኤ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 34,
+      "old_text": "ይመጽእ ጰራጶሊጦስ ኀቤክሙ⟫",
+      "corrected_text": "ይመጽእ ጰራቅሊጦስ ኀቤክሙ⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጶ -> ቅ",
+      "reason": "The printed glyph in 'ጰራቅሊጦስ' is clearly 'ቅ', misread as 'ጶ' in Stage 1."
+    }
+  ]
+}

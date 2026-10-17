@@ -1,0 +1,62 @@
+{
+  "pdf_page": 96,
+  "book_page_ethiopic": "፪፻፲፭",
+  "elapsed_sec": 24.7,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 9,
+      "old_text": "ግረከ አላ በበይነ ፅርፈትከ እን↵",
+      "corrected_text": "ግረከ አላ በበይነ ፅርፈትከ እ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እን -> እ",
+      "reason": "Line break boundary: 'እ' is at the end of L09 and 'ንዲል' begins L10 in the printed image."
+    },
+    {
+      "column_index": 1,
+      "line_num": 10,
+      "old_text": "ዲል ታምራቱንም ትምርቱን↵",
+      "corrected_text": "ንዲል ታምራቱንም ትምርቱን↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዲል -> ንዲል",
+      "reason": "Line break boundary: 'ንዲል' is printed at the start of L10."
+    },
+    {
+      "column_index": 2,
+      "line_num": 9,
+      "old_text": "ፍዳውን ያመጹበታል ብዬ እ↵",
+      "corrected_text": "ፍዳውን ያመጡበታል ብዬ እ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጹ -> ጡ",
+      "reason": "The printed glyph has the three legs of 'ጡ' ('ያመጡበታል', Amharic translation of 'ያገብኡ ሎቱ'), misread as 'ጹ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 26,
+      "old_text": "ሄድ ምስለኔዩ ወሬኛዬ መን↵",
+      "corrected_text": "ሄድ ምስለኔው ወሬኛዬ መን↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዩ -> ው",
+      "reason": "The printed glyph is 'ው' ('ምስለኔው' = the governor/deputy), misread as 'ዩ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 5,
+      "old_text": "ያሉትን ልቃ ለውጦ አነበበው",
+      "corrected_text": "ያሉትን ልዋ ለውጦ አነበበው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ልቃ -> ልዋ",
+      "reason": "Traditional Andemta technical phrase 'ልዋ ለውጦ አነበበው' (quoting by paraphrasing/adapting the wording); the printed glyph is clearly 'ዋ', misread as 'ቃ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 7,
+      "old_text": "[፴፰] ⟪ወእሜሃ መጽኡ ሰብእ እምጸ↵",
+      "corrected_text": "[፴፰] ⟪ወአሜሃ መጽኡ ሰብእ እምጸ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወእሜሃ -> ወአሜሃ",
+      "reason": "Canonical Ge'ez 'ወአሜሃ' (1st order 'አ'); the printed glyph is 'አ', misread as 'እ'."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "pdf_page": 33,
+  "book_page_ethiopic": "፷፰ | ፷፱",
+  "elapsed_sec": 25.5,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 6,
+      "old_text": "አኑረው ፡ አስጠበቁ ፡ ሐተታ ፡ ሕግን ፡ ነ",
+      "corrected_text": "አኑረው ፡ አስጠበቁ ፡ ሐተታ ፡ ሕፃን ፡ ነ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሕግን -> ሕፃን",
+      "reason": "The printed glyph is ፃ (ሕፃን, 'a youth/child', explaining why he would fear blood 'ደም ይፈራል' and contrasting with 'ጐበዝ' in the alternative interpretation), which was misread as ግ (ሕግን)."
+    },
+    {
+      "column_index": 4,
+      "line_num": 19,
+      "old_text": "ነበረበት ፡ ሉቃ ፡ ፳፫ ፡ ፴፮ ። ም ፡ ፯ ፡ ፶፯ ።",
+      "corrected_text": "ነበረበት ፡ ሉቃ ፡ ፳፫ ፡ ፵፮ ። ም ፡ ፯ ፡ ፶፯ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፴፮ -> ፵፮",
+      "reason": "The numeral is ፵፮ (Luke 23:46, matching the citation in Col 3 L15), where ፵ was misread as ፴."
+    }
+  ]
+}

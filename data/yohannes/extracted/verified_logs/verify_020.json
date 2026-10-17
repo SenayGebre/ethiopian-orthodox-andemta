@@ -1,0 +1,44 @@
+{
+  "pdf_page": 20,
+  "book_page_ethiopic": "፭፻፴",
+  "elapsed_sec": 21.1,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "ፈቀደ ሲል አይመችም ግዕዘ",
+      "corrected_text": "ፈቀደ ሲል አይመችም ግዕዙ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ግዕዘ -> ግዕዙ",
+      "reason": "The final character has the 2nd-order (ካዕብ) right-side stroke of ዙ, forming ግዕዙን ('its Ge'ez text/reading') with ን on the next line."
+    },
+    {
+      "column_index": 1,
+      "line_num": 17,
+      "old_text": "እስመ መንፈሰ አያልክ መልስ",
+      "corrected_text": "እስመ መንፈስ እያልክ መልስ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "መንፈሰ አያልክ -> መንፈስ እያልክ",
+      "reason": "The image shows 6th-order ስ in መንፈስ (citing the nominative Ge'ez lemma 'እስመ መንፈስ') and 6th-order እ in the Amharic gerundive phrase እያልክ መልስ ('go back saying...')."
+    },
+    {
+      "column_index": 1,
+      "line_num": 33,
+      "old_text": "አለ ከወዲያ የለም ከወዲሀ",
+      "corrected_text": "አለ ከወዲያ የለም ከወዲህ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ከወዲሀ -> ከወዲህ",
+      "reason": "The final glyph is 6th-order ህ (ከወዲህ), matching the parallel phrases on lines 31-32."
+    },
+    {
+      "column_index": 3,
+      "line_num": 21,
+      "old_text": "ለው በጭር ቁመት በጠባብ",
+      "corrected_text": "ለው ባጭር ቁመት በጠባብ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በጭር -> ባጭር",
+      "reason": "Both visually (shortened left leg of 4th-order ባ) and grammatically in the classic Andemta Christological formula 'ባጭር ቁመት በጠባብ ደረት ተወስኖ' (beka + አጭር -> ባጭር), the printed character is ባ."
+    }
+  ]
+}

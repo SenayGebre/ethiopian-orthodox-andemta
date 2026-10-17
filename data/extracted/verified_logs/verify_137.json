@@ -1,0 +1,35 @@
+{
+  "pdf_page": 137,
+  "book_page_ethiopic": "፪፻፶፮",
+  "elapsed_sec": 12.1,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 21,
+      "old_text": "እናንተም ሂዳችሁ ወይኔን",
+      "corrected_text": "እናንተም ሂዳችሁ ወይኔን",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሂ -> ሄ",
+      "reason": "No change needed if printed ሂዳችሁ, wait let's check Col 1 L21: it clearly has ሂዳችሁ (or ሄዳችሁ? Wait: it has the diagonal stroke at bottom right of ሀ, which is ሂ or ሄ; actually no change needed)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 8,
+      "old_text": "[፱] ⟪ወመጽኡ እለ አሠርቱ ወ፩",
+      "corrected_text": "[፱] ⟪ወመጽኡ እለ አሠርቱ ወ፩ዱ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወ፩ -> ወ፩ዱ",
+      "reason": "In the image at the end of Col 2 L08, the glyph after ወ is the ligature/numeral ፩ with ዱ underneath/attached (ወ፩ዱ), matching Col 3 L38 (ወመጽኡ እለ አሠርቱ ወ፩ዱ ሰዓት)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 15,
+      "old_text": "⟪ወመሰሎሙ ዘያበዝኀ ሎሙ",
+      "corrected_text": "⟪ወመሰሎሙ ዘያበዝኅ ሎሙ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኀ -> ኅ",
+      "reason": "Classical Ge'ez imperfective verb ዘያበዝኅ takes 6th order (ሳድስ) ኅ, and the printed glyph has the 6th-order top hook of ኅ."
+    }
+  ]
+}

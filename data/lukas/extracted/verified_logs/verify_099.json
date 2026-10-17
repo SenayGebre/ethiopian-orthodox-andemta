@@ -1,0 +1,26 @@
+{
+  "pdf_page": 99,
+  "book_page_ethiopic": "፬፻፹፩",
+  "elapsed_sec": 13.7,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 5,
+      "old_text": "ልነግሥባቸው የማይወዱ እኔ",
+      "corrected_text": "ልነግሥባቸው የማይወዱ እኒ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እኔ -> እኒ",
+      "reason": "The printed glyph at the end of line 5 is 3rd-order ኒ (እኒህን across the line break), not 5th-order ኔ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 1,
+      "old_text": "⟪ወሖዊሮሙ እለ ተፈነዉ ረ",
+      "corrected_text": "⟪ወሐዊሮሙ እለ ተፈነዉ ረ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሖ -> ሐ",
+      "reason": "Classical Ge'ez gerundive is ወሐዊሮሙ (from ሖረ) with 1st-order ሐ, which matches the printed glyph."
+    }
+  ]
+}

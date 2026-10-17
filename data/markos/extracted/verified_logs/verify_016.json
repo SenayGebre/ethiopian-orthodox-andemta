@@ -1,0 +1,80 @@
+{
+  "pdf_page": 16,
+  "book_page_ethiopic": "፫፻፴፭",
+  "elapsed_sec": 27.5,
+  "applied_count": 8,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 4,
+      "old_text": "ከዚያ ብዙ የኔ መንጋ በተ",
+      "corrected_text": "ከዚያ ብዙ የጔ መንጋ በተ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "የኔ -> የጔ",
+      "reason": "The classic Andemta Amharic term translating Ge'ez 'አኅርው' (swine/pigs) is 'እጔ' (genitive 'የጔ'). Visually, the top horizontal bar of 'ጔ' is clearly present on the page, distinguishing it from 'ኔ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 10,
+      "old_text": "በእኔዎች እንገባባቸው ዘንድ",
+      "corrected_text": "በእጔዎች እንገባባቸው ዘንድ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በእኔዎች -> በእጔዎች",
+      "reason": "Translating 'ውስተ አኅርው' ('into the swine'). Both visually (top bar of 'ጔ') and philologically, the word is 'በእጔዎች' ('into the pigs'), not 'በእኔዎች'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 17,
+      "old_text": "ጥተው በእኔዎች ገቡ ።",
+      "corrected_text": "ጥተው በእጔዎች ገቡ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በእኔዎች -> በእጔዎች",
+      "reason": "Translating 'ቦኡ ላእለ አኅርው' ('they entered into the swine'). The glyph is 'ጔ' with its top bar, giving 'በእጔዎች'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 20,
+      "old_text": "የኔውም መንጋ ሁሉ ሮጠው",
+      "corrected_text": "የጔውም መንጋ ሁሉ ሮጠው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "የኔውም -> የጔውም",
+      "reason": "Translating 'እሙንቱ መራዕይ' ('the herd of swine'). Visually and philologically 'የጔውም መንጋ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 28,
+      "old_text": "እኔ ጠባቆች ግን ሸሽተው",
+      "corrected_text": "እጔ ጠባቆች ግን ሸሽተው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እኔ -> እጔ",
+      "reason": "Translating 'ኖሎት' (the swineherds = 'እጔ ጠባቆች'). Visually the glyph has the top bar of 'ጔ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 16,
+      "old_text": "ን በእኔዎችም የተደረገውን",
+      "corrected_text": "ን በእጔዎችም የተደረገውን",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በእኔዎችም -> በእጔዎችም",
+      "reason": "Translating 'ወዘበእንተ አኅርው' ('and concerning the swine'). Visually and contextually 'በእጔዎችም'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 20,
+      "old_text": "ከገራቸው ይሄድ ዘንድ ይለም",
+      "corrected_text": "ካገራቸው ይሄድ ዘንድ ይለም",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከገራቸው -> ካገራቸው",
+      "reason": "Contraction of ከ + አገራቸው is printed as 4th-order 'ካገራቸው' with a shortened right leg."
+    },
+    {
+      "column_index": 3,
+      "line_num": 13,
+      "old_text": "ዘከመ ፈወሰኒ ለእንተ ደም ይ",
+      "corrected_text": "ዘከመ ፈወሳ ለእንተ ደም ይ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ፈወሰኒ -> ፈወሳ",
+      "reason": "In this Ge'ez chapter-section rubric ('ዘከመ ፈወሳ ለእንተ ደም ይውኅዛ' = 'How He healed her who had an issue of blood'), the verb carries the 3rd-person feminine singular object suffix ('ፈወሳ'), and visually on the page there is no 'ኒ' character—only 'ፈወሳ'."
+    }
+  ]
+}

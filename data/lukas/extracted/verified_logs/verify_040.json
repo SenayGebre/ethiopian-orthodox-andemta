@@ -1,0 +1,17 @@
+{
+  "pdf_page": 40,
+  "book_page_ethiopic": "፬፻፳፪",
+  "elapsed_sec": 16.2,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 25,
+      "old_text": "እኔም አንጂ ገዢ ነኝ ።",
+      "corrected_text": "እኔም አዛዥ ገዢ ነኝ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አንጂ -> አዛዥ",
+      "reason": "The printed word is clearly 'አዛዥ' ('commander/one who orders', glossing Ge'ez 'መኰንን' alongside 'ገዢ'), which was visually misread as 'አንጂ' due to ink bleed on 'ዛ' and 'ዥ'."
+    }
+  ]
+}

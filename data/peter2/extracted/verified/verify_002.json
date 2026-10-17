@@ -1,0 +1,53 @@
+{
+  "pdf_page": 2,
+  "book_page_ethiopic": "፪፻፶፬ | ፪፻፶፭",
+  "elapsed_sec": 30.4,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 9,
+      "old_text": "በሃይማኖት ፡ አንድ ፡ ሆነን ፡ በልጅነት ፡",
+      "corrected_text": "በሃይማኖት ፡ አንድ ፡ ሁነን ፡ በልጅነት ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሆነን -> ሁነን",
+      "reason": "The printed glyph clearly has the Ka'eb right-leg stroke 'ሁ' (ሁነን), preserving the authentic archaic Andemta form."
+    },
+    {
+      "column_index": 4,
+      "line_num": 12,
+      "old_text": "ጽውዐነ ፡ ላለው ፡",
+      "corrected_text": "ጸውዐነ ፡ ላለው ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጽውዐነ -> ጸውዐነ",
+      "reason": "Both visually on the page and grammatically in Ge'ez (quoting 'ዘጸውዐነ' from Col 3 L12), the initial character is 1st-order 'ጸ' (ጸውዐነ = 'He called us'), not 6th-order 'ጽ'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 26,
+      "old_text": "በውስጥ ፡ በአፍአ ፡ ችኮላን ፡ አድርጋችሁ ፡",
+      "corrected_text": "በውስጥ ፡ በአፍአ ፡ ትኩላን ፡ አድርጋችሁ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ችኮላን -> ትኩላን",
+      "reason": "Visually the printed characters are 'ትኩላን' (diligence/attentiveness, standard Andemta gloss for Ge'ez 'ጕጕኡ'), where 'ት' and 'ኩ' were misread as 'ች' and 'ኮ'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 31,
+      "old_text": "፭ ፡ ፮ ፡ ፳፪ ።",
+      "corrected_text": "፭ ፡ ቍ ፡ ፳፪ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፮ -> ቍ",
+      "reason": "The citation for Galatians 5:22 ('ገላት ፡ ፭ ፡ ቍ ፡ ፳፪ ።') uses the abbreviation 'ቍ' (ቍጥር = verse), which was misread as the numeral '፮'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 32,
+      "old_text": "⟪፮ ፤ ወበአእምሮ ፡ ለአዚምዎ ፡⟫",
+      "corrected_text": "⟪፮ ፤ ወበአእምሮ ፡ ለኢዘምዎ ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ለአዚምዎ -> ለኢዘምዎ",
+      "reason": "In the canonical Ge'ez root text of 2 Peter 1:6 (and repeated at the top of the next page 'ወበኢዘምዎ'), the word is 'ለኢዘምዎ' (continental/chastity, lit. 'not fornicating', glossed on L33 as 'ንጽሕናን'), with 3rd-order 'ኢ' and 1st-order 'ዘ'."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "pdf_page": 40,
+  "book_page_ethiopic": "፻፶፱",
+  "elapsed_sec": 9.9,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 10,
+      "old_text": "እንዲል ። ፩ም ድል መንሳቱ ለ↵",
+      "corrected_text": "እንዲል ። ፩ም ድል መንሣቱ ለ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሳ -> ሣ",
+      "reason": "The printed glyph in መንሣቱ is 4th order ሣ (ሠውት), matching ድል ነሣ throughout the page."
+    },
+    {
+      "column_index": 2,
+      "line_num": 29,
+      "old_text": "እንጀ ኑሮው በኛ ነው እያሉ",
+      "corrected_text": "እንጂ ኑሮው በኛ ነው እያሉ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጀ -> ጂ",
+      "reason": "The printed glyph has the 3rd-order right-leg hook of ጂ in እንጂ ('the livelihood/bread of all these is by us')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 27,
+      "old_text": "ቶላቸዋልና ። መጡ አለ ። ድል",
+      "corrected_text": "ቶላቸዋልና ፥ መጡ አለ ። ድል",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "። -> ፥",
+      "reason": "After ቶላቸዋልና the printed punctuation is a single colon-like ነጠላ ሰረዝ (፥), not አራት ነጥብ (።)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 35,
+      "old_text": "ነሱ ይገለጽላችኋል ለማለት ።",
+      "corrected_text": "ነሡ ይገለጽላችኋል ለማለት ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሱ -> ሡ",
+      "reason": "The printed glyph in ብትነሡ is 2nd order ሡ (ሠውት), consistent with ድል ነሣ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 36,
+      "old_text": "አንዳንድ ባሕታዊ ሰይጣን መ↵",
+      "corrected_text": "አንድ ባሕታዊ ሰይጣን መ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አንዳንድ -> አንድ",
+      "reason": "The image clearly prints the three-letter word አንድ ('a certain hermit'), not አንዳንድ."
+    }
+  ]
+}

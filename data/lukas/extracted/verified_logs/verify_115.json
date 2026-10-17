@@ -1,0 +1,71 @@
+{
+  "pdf_page": 115,
+  "book_page_ethiopic": "፬፻፺፯",
+  "elapsed_sec": 18.3,
+  "applied_count": 7,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 4,
+      "old_text": "ው ልብሳቸውን ገፈው ሂዱ።",
+      "corrected_text": "ው ልብሳቸውን ገፈው ሄዱ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሂዱ -> ሄዱ",
+      "reason": "The printed glyph has the 5th-order (ኀምስ) loop on the right leg (ሄዱ, 'they went'), not 3rd-order ሂ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 10,
+      "old_text": "ንነትህ ጀምረህ ይህን የስተ",
+      "corrected_text": "ንነትህ ጀምረህ ይህን ያስተ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "የስተ -> ያስተ",
+      "reason": "Both visually on the page and grammatically in Amharic (ያስተማርከን, 'who taught us'), the first character is 4th-order ያ, not 1st-order የ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 30,
+      "old_text": "ኑን ተቀበለውት ሲሸኛቸው አነ",
+      "corrected_text": "ኑን ተቀብለውት ሲሸኛቸው አነ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ተቀበለውት -> ተቀብለውት",
+      "reason": "The third character is 6th-order ብ (ተቀብለውት, gerundive 'having received him'), with the left-side notch clearly visible in the zoomed image."
+    },
+    {
+      "column_index": 2,
+      "line_num": 6,
+      "old_text": "ቢይ ቃል ወይቤ አባ አመሐ",
+      "corrected_text": "ቢይ ቃል ወይቤ አባ አመሕ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አመሐ -> አመሕ",
+      "reason": "In the canonical Ge'ez verb አመሕፅን (Luke 23:46), the character before ፅን is 6th-order ሕ as printed on the line."
+    },
+    {
+      "column_index": 3,
+      "line_num": 5,
+      "old_text": "ምክር ወናይ ኀር።⟫ማቴ ፳፯",
+      "corrected_text": "ምክር ወናይ ኄር።⟫ማቴ ፳፯",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኀር -> ኄር",
+      "reason": "Canonical Ge'ez reading of Luke 23:50 is ኄር ('good'), confirmed by the Amharic translation ቸር in L07 and the explicit back-reference ኄር ላለው in L29–30."
+    },
+    {
+      "column_index": 3,
+      "line_num": 28,
+      "old_text": "ወደጲላጦስም ሄደ የጌታን ሥ",
+      "corrected_text": "ወደጲላጦስም ሄዶ የጌታን ሥ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሄደ -> ሄዶ",
+      "reason": "The printed glyph is 7th-order ዶ (ሄዶ, gerundive 'having gone to Pilate, he asked'), not 1st-order ደ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 36,
+      "old_text": "ስ ዘውቅሮ ዘአውቀረ ዘአልቦ",
+      "corrected_text": "ስ ዘውቅር ዘአውቀረ ዘአልቦ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዘውቅሮ -> ዘውቅር",
+      "reason": "The printed Ge'ez word is ዘውቅር (6th-order ር, 'which was hewn in stone', Luke 23:53), translated on the next page as በታነጸ መቃብርም."
+    }
+  ]
+}

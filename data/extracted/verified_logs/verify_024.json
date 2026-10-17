@@ -1,0 +1,143 @@
+{
+  "pdf_page": 24,
+  "book_page_ethiopic": "፻፵፫",
+  "elapsed_sec": 24.5,
+  "applied_count": 15,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 18,
+      "old_text": "ጣ የዥያ ዓመት ነው ፤ መንግ↵",
+      "corrected_text": "ጣ የኻያ ዓመት ነው ፤ መንግሥ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዥ -> ኻ, መንግ -> መንግሥ",
+      "reason": "The word is የኻያ (twenty, written with ኻ) rather than የዥያ, and at the end of the line the small ሥ of መንግሥት is printed before wrapping to ት on L19."
+    },
+    {
+      "column_index": 1,
+      "line_num": 20,
+      "old_text": "ባል ለማለት ። ዕጣን ያመጣ የ",
+      "corrected_text": "ባል ለማለት ። ዕጣን ያመጣ የአ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "የ -> የአ",
+      "reason": "At the end of L20, the አ of የአርባ (forty) is printed before wrapping to ርባ on L21."
+    },
+    {
+      "column_index": 1,
+      "line_num": 22,
+      "old_text": "መት ከዚህ በላይ በምሳ ዘመን",
+      "corrected_text": "መት ከዚህ በላይ በ፶ ዘመን",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ምሳ -> ፶",
+      "reason": "The Ethiopic numeral ፶ (50) is printed here (በ፶ ዘመን, matching በ፴ ዘመን above and የ፷ ዘመን below), not ምሳ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 24,
+      "old_text": "የ፷ ዘመን ነው ከዚህ በላይ ም↵",
+      "corrected_text": "የ፷ ዘመን ነው ከዚህ በላይ ሞ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ም -> ሞ",
+      "reason": "7th order ሞ in ሞት ('death is uncertain/expected after 60 years'), misread as 6th order ም."
+    },
+    {
+      "column_index": 1,
+      "line_num": 30,
+      "old_text": "ዱ መልከም ብላቴና አለ ። መ↵",
+      "corrected_text": "ዱ መልካም ብላቴና አለ ። መ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከ -> ካ",
+      "reason": "4th order ካ in መልካም ('good/handsome youth')."
+    },
+    {
+      "column_index": 1,
+      "line_num": 31,
+      "old_text": "ልከም ጐልማሳ እንጂ ። መልካ↵",
+      "corrected_text": "ልካም ጐልማሳ እንጂ ። መልካ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከ -> ካ",
+      "reason": "4th order ካ in መልካም."
+    },
+    {
+      "column_index": 1,
+      "line_num": 39,
+      "old_text": "በኋላ ወጥተው ነገር አንዳ↵",
+      "corrected_text": "በኋላ ወጥተው ነገር እንዳ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አ -> እ",
+      "reason": "6th order እ in እንዳንተ ('as you said')."
+    },
+    {
+      "column_index": 1,
+      "line_num": 40,
+      "old_text": "ንተ መልከም ብላቴና አ↵",
+      "corrected_text": "ንተ መልካም ብላቴና አ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከ -> ካ",
+      "reason": "4th order ካ in መልካም."
+    },
+    {
+      "column_index": 2,
+      "line_num": 2,
+      "old_text": "ማሳ እንጂ እንዳንተ መልከም",
+      "corrected_text": "ማሳ እንጂ እንዳንተ መልካም",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ከ -> ካ",
+      "reason": "4th order ካ in መልካም."
+    },
+    {
+      "column_index": 2,
+      "line_num": 14,
+      "old_text": "ነቱን በዚህ ተረድተው ሂደዋ↵",
+      "corrected_text": "ነቱን በዚህ ተረድተው ሄደዋ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሂ -> ሄ",
+      "reason": "5th order ሄ in ሄደዋል ('they went')."
+    },
+    {
+      "column_index": 2,
+      "line_num": 16,
+      "old_text": "ሉ የላቸውም ። ዕድሜተ በለዓ↵",
+      "corrected_text": "ሉ የላቸውም ። ዕድግተ በለዓ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሜ -> ግ",
+      "reason": "Classical Ge'ez ዕድግተ በለዓምን ('Balaam's donkey', from ዕድግት), where ግ was misread as ሜ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 26,
+      "old_text": "ቸው ዕልፍ፡ ለዕፍ፡ ሠራዊት እ↵",
+      "corrected_text": "ቸው ዕልፍ፡ አእላፍ፡ ሠራዊት እ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ለዕፍ -> አእላፍ",
+      "reason": "The printed text reads ዕልፍ፡ አእላፍ፡ ሠራዊት ('ten thousand, myriads of troops')."
+    },
+    {
+      "column_index": 2,
+      "line_num": 28,
+      "old_text": "ው ሲደርሱ ደግን ነገር ከከተ↵",
+      "corrected_text": "ው ሲደርሱ ይህን ነገር ከከተ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ደግን -> ይህን",
+      "reason": "The printed word is ይህን ነገር ('this thing'), where ይህን was misread as ደግን."
+    },
+    {
+      "column_index": 3,
+      "line_num": 2,
+      "old_text": "እስኪ አሳዩን አላቸው ። ቢሂ↵",
+      "corrected_text": "እስኪ አሳዩን አሏቸው ። ቢሄ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ላ -> ሏ, ሂ -> ሄ",
+      "reason": "The printed text has plural አሏቸው and 5th order ሄ in ቢሄዱ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 5,
+      "old_text": "እምልኩ ሲለን ነው ብለው",
+      "corrected_text": "አምልኩ ሲለን ነው ብለው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እ -> አ",
+      "reason": "1st order አ in imperative አምልኩ ('worship!')."
+    }
+  ]
+}

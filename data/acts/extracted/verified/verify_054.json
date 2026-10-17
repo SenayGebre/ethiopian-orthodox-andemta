@@ -1,0 +1,17 @@
+{
+  "pdf_page": 54,
+  "book_page_ethiopic": "፻፳ | ፻፳፩",
+  "elapsed_sec": 35.6,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 4,
+      "line_num": 18,
+      "old_text": "ወገን ፡ ጴዋዌ ፡ ሥጋውን ፡ ሚጠተ ፡ ሥጋ",
+      "corrected_text": "ወገን ፡ ፄዋዌ ፡ ሥጋውን ፡ ሚጠተ ፡ ሥጋ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጴ -> ፄ",
+      "reason": "The printed glyph in the image is clearly ፄ (ፄዋዌ ሥጋውን, meaning 'the captivity of the flesh', paired with ሚጠተ ሥጋውን 'the return/restoration from captivity'), which was visually misread as ጴ."
+    }
+  ]
+}

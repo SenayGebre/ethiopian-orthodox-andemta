@@ -1,0 +1,44 @@
+{
+  "pdf_page": 47,
+  "book_page_ethiopic": "፭፻፶፯",
+  "elapsed_sec": 14.4,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 7,
+      "old_text": "ሥሥ አይሁድ ይቅትልዎ።⟫",
+      "corrected_text": "ሥዉ አይሁድ ይቅትልዎ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሥ -> ዉ",
+      "reason": "Joining with the previous line ዘየኃ↵ሥዉ, the plural subject አይሁድ requires the 3rd person masculine plural verb ዘየኃሥዉ ('whom the Jews seek to kill', John 7:25). Visually, ዉ is clearly printed after ሥ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 8,
+      "old_text": "በኢየሩሳሌም ከሉ ሰዎች ወ↵",
+      "corrected_text": "በኢየሩሳሌም ካሉ ሰዎች ወ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከሉ -> ካሉ",
+      "reason": "Amharic relative clause translating እምሰብአ ኢየሩሳሌም ('from the people who are in Jerusalem'): በኢየሩሳሌም ካሉ ሰዎች ወገን. Visually, the shortened right leg of ካ (4th order) is clear."
+    },
+    {
+      "column_index": 3,
+      "line_num": 36,
+      "old_text": "ወርኢኩ ዓቢይ ነፋስ ይወጽ↵",
+      "corrected_text": "ወርኢኩ ዓቢየ ነፋሰ ይወጽ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዓቢይ ነፋስ -> ዓቢየ ነፋሰ",
+      "reason": "In Classical Ge'ez (quoting 4 Ezra / ዕዝራ ሱቱኤል), the direct object of ወርኢኩ ('and I saw') takes the accusative 4th order: ዓቢየ ነፋሰ ('a great wind'). Visually, both የ and ሰ are 1st-order/4th-order glyphs without the 6th-order hooks of ይ/ስ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 38,
+      "old_text": "ር ጥቁል ነፋስ ሲወጣ አየሁታ↵",
+      "corrected_text": "ር ጥቁል ነፋስ ሲወጣ አየሁ ይ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ታ -> ይ",
+      "reason": "Joining across the line wrap to L39 (ይ↵ል), the commentary citation formula is ከባሕር ጥቁል ነፋስ ሲወጣ አየሁ ይል ('He says: I saw a whirlwind coming out of the sea'). Visually, the final character on L38 is ይ, not ታ."
+    }
+  ]
+}

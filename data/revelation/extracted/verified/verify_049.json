@@ -1,0 +1,26 @@
+{
+  "pdf_page": 49,
+  "book_page_ethiopic": "፬፻፶፬ | ፬፻፶፭",
+  "elapsed_sec": 22.1,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 3,
+      "old_text": "⟪ወጠዎሙ ፡ ለእልክቱ ፡ ሰብዐቱ ፡ መላእክት ፡ ሰብዐተ ፡",
+      "corrected_text": "⟪ወመጠዎሙ ፡ ለእልክቱ ፡ ሰብዐቱ ፡ መላእክት ፡ ሰብዐተ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወጠዎሙ -> ወመጠዎሙ",
+      "reason": "The printed Ge'ez text clearly has 'ወመጠዎሙ' ('and he gave/handed over to them', from መጠወ), where Stage 1 skipped the second Fidel 'መ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 5,
+      "old_text": "ዘመስ ፡ ብለው ፡ በጻፉ ፡ በእሱ ፡ ለተማ↵",
+      "corrected_text": "ዘመስ ፡ ብለው ፡ በጻፉ ፡ በእሱ ፡ ለተሣ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ለተማ -> ለተሣ",
+      "reason": "Across the line wrap to L06 ('ለው ፡ ሥዕል'), the word is 'ለተሣለው ፡ ሥዕል' ('to the painted image/icon'). Visually the glyph at the end of L05 has the top crown of 'ሣ' (not 'ማ')."
+    }
+  ]
+}

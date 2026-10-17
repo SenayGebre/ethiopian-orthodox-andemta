@@ -1,0 +1,17 @@
+{
+  "pdf_page": 81,
+  "book_page_ethiopic": "፻፸፰ | ፻፸፱",
+  "elapsed_sec": 23.4,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 4,
+      "line_num": 3,
+      "old_text": "⟪ሕሩመ ፡ ኢይሤንኑ ፡ ሰብአ ፡ ሮሜ ፡ በከመ ፡ ረከቡ ፡⟫",
+      "corrected_text": "⟪ሕሩመ ፡ ኢይኴንኑ ፡ ሰብአ ፡ ሮሜ ፡ በከመ ፡ ረከቡ ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሤ -> ኴ",
+      "reason": "The Ge'ez verb for condemning/judging is ኰነነ (ኢይኴንኑ, 'they do not condemn/execute'), matching the glyph ኴ on the page and the Amharic gloss አይገሉም."
+    }
+  ]
+}

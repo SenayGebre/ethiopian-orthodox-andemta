@@ -1,0 +1,26 @@
+{
+  "pdf_page": 121,
+  "book_page_ethiopic": "፮፻፴",
+  "elapsed_sec": 30.4,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 17,
+      "old_text": "፷፬ ፷፪ ፷፱ ፴፮",
+      "corrected_text": "፷፬ ፷፪ ፷፪ ፴፮",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፷፱ -> ፷፪",
+      "reason": "The third numeral (Luke verse reference) is clearly printed as ፷፪ (62, preceding ፷፫ on the next line), not ፷፱."
+    },
+    {
+      "column_index": 2,
+      "line_num": 32,
+      "old_text": "ወጊዜ ተሰዓቱ ሰዓት ።",
+      "corrected_text": "ወጊዜ ተስዓቱ ሰዓት ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ተሰዓቱ -> ተስዓቱ",
+      "reason": "Classical Ge'ez ordinal for 'ninth hour' is ተስዓቱ ሰዓት with 6th-order ስ, which is clearly visible with its top-left serif in the image."
+    }
+  ]
+}

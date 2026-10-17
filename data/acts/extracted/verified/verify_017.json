@@ -1,0 +1,26 @@
+{
+  "pdf_page": 17,
+  "book_page_ethiopic": "፶፮ | ፶፯",
+  "elapsed_sec": 16.0,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 18,
+      "old_text": "፳፩ ፤ ⟪ወሰሚዖሙ ፡ ዘንተ ፡ ጌሠ ፡ ነግሀ ፡ በጽባሕ ።⟫",
+      "corrected_text": "፳፩ ፤ ⟪ወሰሚዖሙ ፡ ዘንተ ፡ ጌሡ ፡ ነግሀ ፡ በጽባሕ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጌሠ -> ጌሡ",
+      "reason": "Both the printed glyph (showing the 2nd-order ಕಾዕብ stroke on the right leg of ሡ) and Ge'ez plural agreement with ወሰሚዖሙ and the Amharic gloss ማልደው ፡ ገስግሰው confirm ጌሡ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 30,
+      "old_text": "ራሉ ፡ ብሎ ፡ ነገሮ ፡ ሠራ ።",
+      "corrected_text": "ራሉ ፡ ብሎ ፡ ነገር ፡ ሠራ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ነገሮ -> ነገር",
+      "reason": "The printed glyph in Column 2 Line 30 is clearly 6th-order ር (ነገር ፡ ሠራ, standard Amharic Andemta idiom for 'he informed / made a report'), not 7th-order ሮ."
+    }
+  ]
+}

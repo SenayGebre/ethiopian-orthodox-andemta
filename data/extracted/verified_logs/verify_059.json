@@ -1,0 +1,26 @@
+{
+  "pdf_page": 59,
+  "book_page_ethiopic": "፻፸፰",
+  "elapsed_sec": 12.9,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "በአጋንንት መከከል ዋጋችሁ",
+      "corrected_text": "በአጋንንት መካከል ዋጋችሁ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከ -> ካ",
+      "reason": "The 4th-order right leg of ካ in መካከል is visible in the print and required by standard Amharic orthography."
+    },
+    {
+      "column_index": 3,
+      "line_num": 2,
+      "old_text": "ቱ ኩለንታከ ጽልመተ ይከው",
+      "corrected_text": "ቱ ኵለንታከ ጽልመተ ይከው",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኩ -> ኵ",
+      "reason": "The Ge'ez labiovelar ኵ in ኵለንታከ has the characteristic three-prong/looped side stroke rather than plain 2nd-order ኩ."
+    }
+  ]
+}

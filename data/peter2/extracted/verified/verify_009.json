@@ -1,0 +1,62 @@
+{
+  "pdf_page": 9,
+  "book_page_ethiopic": "፪፻፳፰ | ፪፻፳፱",
+  "elapsed_sec": 26.5,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "ቢያጠፉ፡ የማይወድ፡ እግዚአብሔር፡ ተቀ",
+      "corrected_text": "ቢያጠፋ፡ የማይወድ፡ እግዚአብሔር፡ ተቀ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ፉ -> ፋ",
+      "reason": "The verb agrees with the singular subject Balaam from the end of the previous page ('በለዓምንስ ቁሞ ረግሞ ቢያጠፋ'), and the glyph on the page is clearly the 4th-order 'ፋ' (parallel to L02 'ቢያጠፋ'), not 'ፉ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 25,
+      "old_text": "ቡም፡ ቢያንስው፡ ይሆናል፡ ብሎ፡ ለደጋግ፡",
+      "corrected_text": "ቡም፡ ቢያንሰው፡ ይሆናል፡ ብሎ፡ ለደጋግ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ስ -> ሰ",
+      "reason": "Before the 3rd-person masculine singular object suffix '-ው', the verb stem takes the 1st-order 'ሰ' ('ቢያንሰው'), which matches the straight-legged glyph in the image."
+    },
+    {
+      "column_index": 2,
+      "line_num": 6,
+      "old_text": "ቸው ፡ ይመታት ፡ ዠመር ፡ ለምን ፡ ትመ",
+      "corrected_text": "ቸው ፡ ይመታት ፡ ዠመረ ፡ ለምን ፡ ትመ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ር -> ረ",
+      "reason": "Standard 3rd-person masculine singular perfective 'ዠመረ' (consistent with L01, L03); the image shows 'ረ' with a slight ink break on the top curve."
+    },
+    {
+      "column_index": 2,
+      "line_num": 10,
+      "old_text": "ብያ ፡ እንዲህ ፡ ትጫወችብኝ ፡ አለሽ ፡",
+      "corrected_text": "ብየ ፡ እንዲህ ፡ ትጫወችብኝ ፡ አለሽ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ያ -> የ",
+      "reason": "The printed character is the 1st-order 'የ' ('ብየ'), with both legs of equal length."
+    },
+    {
+      "column_index": 2,
+      "line_num": 24,
+      "old_text": "አለው፡ሂደ፡ሂደው፡ መጣ፡ ብለው፡ ነገሩት፡",
+      "corrected_text": "አለው፡ሂዶ፡ሂደው፡ መጣ፡ ብለው፡ ነገሩት፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ደ -> ዶ",
+      "reason": "The 3rd-person masculine singular gerundive is 'ሂዶ' ('he having gone, they having gone...'), and the top ring of 'ዶ' is visible in the image."
+    },
+    {
+      "column_index": 3,
+      "line_num": 32,
+      "old_text": "እየመረጥህ ፡ ጣዖቱን ፡ ኢያሳዘልኸ ፡ መ",
+      "corrected_text": "እየመረጥህ ፡ ጣዖቱን ፡ እያሳዘልኸ ፡ መ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኢ -> እ",
+      "reason": "The Amharic distributive prefix 'እያ-' ('እያሳዘልኸ', parallel to L33 'እያሲያዝህ' and Col 4 L07 'እያሳዘለ') begins with 6th-order 'እ', not 3rd-order 'ኢ'."
+    }
+  ]
+}

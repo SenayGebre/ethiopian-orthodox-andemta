@@ -1,0 +1,35 @@
+{
+  "pdf_page": 12,
+  "book_page_ethiopic": "፻፶፭ | ፻፶፮",
+  "elapsed_sec": 16.0,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 2,
+      "old_text": "በቍርጥ ፡ ፍርድ ፡ ቀን ፡ ከእሱ ፡ ዘንድ ፡ ባለ",
+      "corrected_text": "በቍርጥ ፡ ፍርድ ፡ ቀን ፡ ከእሱ ፡ ዘንድ ፡ ባለ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ባለ -> ባለ-",
+      "reason": "The word ባለሟልነትን splits across the line break from line 2 (ባለ) to line 3 (ሟልነትን)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 24,
+      "old_text": "ወኢያብላዕክሙኒ ፡ እስኝታ ፡ ሑሩ ፡ እም",
+      "corrected_text": "ወኢያብላዕክሙ ፡ አሰኝታ ፡ ሑሩ ፡ እም",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወኢያብላዕክሙኒ ፡ እስኝታ -> ወኢያብላዕክሙ ፡ አሰኝታ",
+      "reason": "The printed text clearly reads ወኢያብላዕክሙ (without -ኒ) followed by አሰኝታ (with 1st-order አ and ሰ, matching Col 3 L09 አሰኝታ), not እስኝታ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 3,
+      "old_text": "⟪እስመ ፡ ዘያፈቅሮ ፡ ለቢጹ ፡ ዘይሬኢ ፡ ለእግዚአብ",
+      "corrected_text": "⟪እስመ ፡ ዘያፈቅሮ ፡ ለቢጾ ፡ ዘይሬኢ ፡ ለእግዚአብ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ለቢጹ -> ለቢጾ",
+      "reason": "The glyph has the top loop of 7th-order ጾ (ለቢጾ, matching ቢጾ in Col 3 L26 and Col 4 L08) rather than a right-leg ጹ."
+    }
+  ]
+}

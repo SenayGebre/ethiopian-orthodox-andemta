@@ -1,0 +1,44 @@
+{
+  "pdf_page": 20,
+  "book_page_ethiopic": "፫፻፴፱",
+  "elapsed_sec": 14.7,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 17,
+      "old_text": "⟪ወኮነት ዕለተ አመ ይገብር ሄሮ↵",
+      "corrected_text": "⟪ወኮነት ዕለት አመ ይገብር ሄሮ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዕለተ -> ዕለት",
+      "reason": "In Ge'ez Mark 6:21 ('ወኮነት ዕለት'), 'ዕለት' is the nominative subject of 'ወኮነት'. Visually on Col 2 L17, the character has the 6th-order left-bent top of 'ት' (ዕለት), whereas line 18 has 'በዕለተ' in the construct state."
+    },
+    {
+      "column_index": 3,
+      "line_num": 2,
+      "old_text": "ሰአልኒ ዘትፈቅዲ ወእሁበኪ ።⟫",
+      "corrected_text": "ሰአሊኒ ዘትፈቅዲ ወእሁበኪ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሰአልኒ -> ሰአሊኒ",
+      "reason": "In Ge'ez Mark 6:22, the 2nd person feminine singular imperative with 1st person singular object suffix is 'ሰአሊኒ' (ask me). Visually, the right foot of 'ሊ' is clearly printed."
+    },
+    {
+      "column_index": 3,
+      "line_num": 4,
+      "old_text": "ወጅውን ለምኝኝ እሰጥሻአለ↵",
+      "corrected_text": "ወጅውን ለምኝኝ እሰጥሽአለ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እሰጥሻአለ -> እሰጥሽአለ",
+      "reason": "The printed text spells the uncontracted form 'እሰጥሽአለሁ' with 6th-order 'ሽ' followed by 'አ', which is visually clear on the page (both legs of 'ሽ' are equal length)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 40,
+      "old_text": "ውን የሚያቀናአትን ላከ ።",
+      "corrected_text": "ውን የሚያቀናላትን ላከ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "የሚያቀናአትን -> የሚያቀናላትን",
+      "reason": "Translating Ge'ez 'መስተራትአተ ሐራ', the Amharic commentary reads 'ጭፍራውን የሚያቀናላትን ላከ' (sent the one who directs/marshals the troops for him/her, or 'የሚያቀናትን/የሚያቀናላትን' where the glyph before ትን is ላ with a high cross-bar/loop rather than አ)."
+    }
+  ]
+}

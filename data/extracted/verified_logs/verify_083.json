@@ -1,0 +1,62 @@
+{
+  "pdf_page": 83,
+  "book_page_ethiopic": "፪፻፪",
+  "elapsed_sec": 19.3,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 12,
+      "old_text": "ዩ ዘትብሉ ወዘትነቡ ።⟫ሉ ፲፪ ፲፩",
+      "corrected_text": "ዩ ዘትብሉ ወዘትነቡ ።⟫ሉቃ ፲፪ ፲፩",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሉ -> ሉቃ",
+      "reason": "The cross-reference at the end of the line prints the standard abbreviation ሉቃ (or ሉ ፲፪ ፲፩ with ligature/mark), where ሉ=ሉቃስ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 39,
+      "old_text": "⟪ወይትነሥኡ ውሉድ ላእለ አ↵",
+      "corrected_text": "⟪ወይትነሥኡ ውሉድ ላዕለ አ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ላእለ -> ላዕለ",
+      "reason": "Classical Ge'ez preposition ላዕለ ('against') is printed with ዕ (ዐይን), not እ (አልፍ)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 23,
+      "old_text": "አኀጉረ እስራኤል እስከ ሶበ",
+      "corrected_text": "አህጉረ እስራኤል እስከ ሶበ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አኀጉረ -> አህጉረ",
+      "reason": "Plural of ሀገር is አህጉረ (with ህ, 6th order of ሀ), visually confusable with ኀ in lead type."
+    },
+    {
+      "column_index": 2,
+      "line_num": 37,
+      "old_text": "ቢቱ ምድረ እስራኤል ቅሉ እንዳትፈጸም በውነት እነግራች↵",
+      "corrected_text": "ቢቱ ምድረ እስራኤል ቅሉ አ↵\nንዳትፈጸም በውነት እነግራች↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቅሉ እንዳትፈጸም -> ቅሉ አ↵ንዳትፈጸም",
+      "reason": "Preserving exact printed line break where አ- is at the end of line 37 and -ንዳትፈጸም begins the next line."
+    },
+    {
+      "column_index": 3,
+      "line_num": 27,
+      "old_text": "አምጻኤ ዓለማት ፈጣሪ ዓለማ↵",
+      "corrected_text": "አምጻኤ ዓለማት ፈጣሬ ዓለማ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ፈጣሪ -> ፈጣሬ",
+      "reason": "Ge'ez construct state (status constructus) ፈጣሬ ዓለማት ('Creator of the worlds', parallel to አምጻኤ ዓለማት) has 5th-order ሬ, whose right loop is slightly faint."
+    },
+    {
+      "column_index": 3,
+      "line_num": 32,
+      "old_text": "ማር ፬ ፳፥ሉቃ ፰ ፲፯ ፥ ፲፪ ፥ ፪",
+      "corrected_text": "ማር ፬ ፳፪፥ሉቃ ፰ ፲፯ ፥ ፲፪ ፥ ፪",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፳ -> ፳፪",
+      "reason": "The canonical parallel reference to Mark 4:22 prints ፳፪ (with a small ፪ before the colon separator)."
+    }
+  ]
+}

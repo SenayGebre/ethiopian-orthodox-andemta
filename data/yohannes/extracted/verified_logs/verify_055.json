@@ -1,0 +1,44 @@
+{
+  "pdf_page": 55,
+  "book_page_ethiopic": "፭፻፷፭",
+  "elapsed_sec": 19.8,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 31,
+      "old_text": "እንዳል ።",
+      "corrected_text": "እንዲል ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዳ -> ዲ",
+      "reason": "The standard Andemta citation formula is 'እንዲል ።', and the 3rd-order foot on 'ዲ' is visible in the image."
+    },
+    {
+      "column_index": 2,
+      "line_num": 32,
+      "old_text": "⟪ወአንሰ እስመ ጽድቀ እነግር",
+      "corrected_text": "⟪ወአነሰ እስመ ጽድቀ እነግር",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ን -> ነ",
+      "reason": "Canonical Ge'ez pronoun for John 8:45 is 1st-order 'ወአነሰ' (and as for me), matching the printed glyph without a 6th-order top bend."
+    },
+    {
+      "column_index": 2,
+      "line_num": 36,
+      "old_text": "እኔ እውነት በስተምር ባትቀበ",
+      "corrected_text": "እኔ እውነት ባስተምር ባትቀበ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በ -> ባ",
+      "reason": "4th-order 'ባ' in 'ባስተምር' (matching line 34 above) has a shortened right leg in the print and is required by Amharic conditional grammar ('በ + አስተምር -> ባስተምር')."
+    },
+    {
+      "column_index": 2,
+      "line_num": 38,
+      "old_text": "⟪መኑ እምኔክሙ ዘይዘለፈኒ በ",
+      "corrected_text": "⟪መኑ እምኔክሙ ዘይዛለፈኒ በ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዘ -> ዛ",
+      "reason": "Canonical Ge'ez verb form in John 8:46 is 'ዘይዛለፈኒ' with 4th-order 'ዛ', visible in the image with a shorter left leg."
+    }
+  ]
+}

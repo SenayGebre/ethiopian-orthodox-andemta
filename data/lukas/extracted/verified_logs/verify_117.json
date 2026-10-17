@@ -1,0 +1,71 @@
+{
+  "pdf_page": 117,
+  "book_page_ethiopic": "፬፻፺፱",
+  "elapsed_sec": 31.2,
+  "applied_count": 7,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 7,
+      "old_text": "በእንተ አርድዕት ዘኤማሑስ",
+      "corrected_text": "በእንተ አርድእት ዘኤማሑስ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዕ -> እ",
+      "reason": "Both visually on the page and in standard Ge'ez orthography ('አርድእት', plural of 'ረድእ'), the character is 'እ' (Alf), not 'ዕ' (Ayn)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 8,
+      "old_text": "⟪ወይዕተ ዕለተ እንዘ የሐውሩ",
+      "corrected_text": "⟪ወይእተ ዕለተ እንዘ የሐውሩ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወይዕተ -> ወይእተ",
+      "reason": "The printed glyph in the first word is 'እ' (Alf), forming the canonical Ge'ez demonstrative 'ወይእተ ዕለተ' (Luke 24:13), whereas the second word 'ዕለተ' has 'ዕ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 9,
+      "old_text": "፪ቱ እምውስቴቶሙ ሀገረ እን",
+      "corrected_text": "፪ቱ እምውስቴቶሙ ሀገረ እ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እን -> እ",
+      "reason": "On the physical page, Line 9 ends with 'እ' and Line 10 begins with 'ንተ' to form 'እንተ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 10,
+      "old_text": "ተ ርኅቅት እምኢየሩሳሌም",
+      "corrected_text": "ንተ ርኅቅት እምኢየሩሳሌም⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ተ -> ንተ",
+      "reason": "Line 10 visually begins with 'ንተ' completing 'እንተ' from the end of Line 9."
+    },
+    {
+      "column_index": 2,
+      "line_num": 25,
+      "old_text": "⟪ዘኮነ ክሂሌ በቃሉ ወበምግባሩ",
+      "corrected_text": "⟪ዘኮነ ከሃሌ በቃሉ ወበምግባሩ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ክሂሌ -> ከሃሌ",
+      "reason": "The printed Ge'ez text clearly reads 'ከሃሌ' ('mighty/powerful', Luke 24:19 'ዘኮነ ከሃሌ በቃሉ ወበምግባሩ'), which was misread as 'ክሂሌ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 22,
+      "old_text": "መቃብር ወረከባ ከማሁ በከ",
+      "corrected_text": "መቃብር ወረከቡ ከማሁ በከ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወረከባ -> ወረከቡ",
+      "reason": "The printed glyph has the 2nd-order (ka'ib) side stroke 'ቡ' ('ወረከቡ', masculine plural matching 'እለ ሖሩ' in Luke 24:24), not 4th-order 'ባ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 33,
+      "old_text": "ሉ ልቡናችሁ ክማመን የዘገ",
+      "corrected_text": "ሉ ልቡናችሁ ከማመን የዘገ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ክማመን -> ከማመን",
+      "reason": "The initial character is 1st-order 'ከ' (Amharic preposition 'ከ-' + 'ማመን', translating 'ለኢአሚን'), not 6th-order 'ክ'."
+    }
+  ]
+}

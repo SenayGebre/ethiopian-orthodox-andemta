@@ -1,0 +1,44 @@
+{
+  "pdf_page": 6,
+  "book_page_ethiopic": "፫፻፳፪ | ፫፻፳፫",
+  "elapsed_sec": 15.6,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "ህን ፡ ዓለም ፡ ነዳያን ፡ ልብደ ፡ ሠሪ ፡ ዓሣ ፡",
+      "corrected_text": "ህን ፡ ዓለም ፡ ነዳያን ፡ ልብድ ፡ ሠሪ ፡ ዓሣ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ልብደ -> ልብድ",
+      "reason": "The word printed is 'ልብድ ፡ ሠሪ' (tentmaker / felt-maker, referring to St. Paul/Apostles), with 6th-order 'ድ' (ሳድስ) clearly visible."
+    },
+    {
+      "column_index": 1,
+      "line_num": 21,
+      "old_text": "ይነቅፉሉ ፡ እንጅ ፡ የሚሏችሁ ፡ የለም ፡",
+      "corrected_text": "ይነቅፋሉ ፡ እንጅ ፡ የሚሏችሁ ፡ የለም ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ይነቅፉሉ -> ይነቅፋሉ",
+      "reason": "The verb is 3rd person plural 'ይነቅፋሉ' (they criticize/blaspheme) with 4th-order 'ፋ' (ራብዕ), misread as 'ፉ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 25,
+      "old_text": "ሁሉንስ ፡ አስተካክላችሁ ፡ ብትወዱ ፡ ፈጸ",
+      "corrected_text": "ሁሉንስ ፡ አስተካክላችሁ ፡ ብትወዱ ፡ ፈጻ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ፈጸ -> ፈጻ",
+      "reason": "Rejoined across the line wrap, the Ge'ez plural agent noun is 'ፈጻምያነ ፡ ሕግ' (fulfillers of the law), with 4th-order 'ጻ' (ራብዕ) at the end of line 25."
+    },
+    {
+      "column_index": 4,
+      "line_num": 22,
+      "old_text": "አልቦ)፡ ሃይማኖት ፡ ያለው ፡ ምግባር ፡ የሌ",
+      "corrected_text": "አልብየ)፡ ሃይማኖት ፡ ያለው ፡ ምግባር ፡ የሌ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አልቦ -> አልብየ",
+      "reason": "The parenthetical gloss quotes the Ge'ez root text from line 18: 'ምግባረ ፡ ሠናይ ፡ አልብየ' (I do not have good works). Visually 'አልብየ' is printed before the closing parenthesis."
+    }
+  ]
+}

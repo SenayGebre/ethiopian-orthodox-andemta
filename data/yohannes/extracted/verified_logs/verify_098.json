@@ -1,0 +1,35 @@
+{
+  "pdf_page": 98,
+  "book_page_ethiopic": "፮፻፰",
+  "elapsed_sec": 18.1,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "ልቋም እንደሁነት አልታወ",
+      "corrected_text": "ልጇም እንደሁነች አልታወ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ልቋም -> ልጇም, እንደሁነት -> እንደሁነች",
+      "reason": "Continuing from the previous page ('ይህች ልጁም'), the commentary says 'ልጇም እንደሁነች አልታወቀም' (whether she was his daughter or her daughter was not known). Visually, ጇ was misread as ቋ and feminine ች was misread as ት."
+    },
+    {
+      "column_index": 2,
+      "line_num": 3,
+      "old_text": "ያልከ መሾምህ በምን ነገር ነ",
+      "corrected_text": "ያልክ መሾምህ በምን ነገር ነ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከ -> ክ",
+      "reason": "The Amharic gerundive phrase is 'እያልክ መሾምህ' with 6th-order ክ, clearly visible on the page."
+    },
+    {
+      "column_index": 3,
+      "line_num": 19,
+      "old_text": "ነው እንጂ ፡ ምንም ቢሆን ጎዳ",
+      "corrected_text": "ነው እንጂ ፡ ምንም ቢሆን ዳኛ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጎዳ -> ዳኛ",
+      "reason": "In the context of 'ከዳኛ ፊት መማታት አይገባም', the commentary explains 'ምንም ቢሆን ዳኛ ብሏልና' (for whatever may be, Scripture called him a judge). Visually, faded ዳኛ was transposed/misread as ጎዳ."
+    }
+  ]
+}

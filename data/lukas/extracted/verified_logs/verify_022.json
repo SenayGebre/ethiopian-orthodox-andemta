@@ -1,0 +1,53 @@
+{
+  "pdf_page": 22,
+  "book_page_ethiopic": "፬፻፬",
+  "elapsed_sec": 18.4,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 28,
+      "old_text": "⟪ራሕነ እንዘ ነሐሥሠከ ።⟫",
+      "corrected_text": "⟪ራሕነ እንዘ ነኀሥሠከ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሐ -> ኀ",
+      "reason": "The printed Ge'ez verb uses ኀ (ነኀሥሠከ, from ኀሠሠ 'to seek'), matching የኀሥሥዎ in L01."
+    },
+    {
+      "column_index": 1,
+      "line_num": 31,
+      "old_text": "⟪ወይቤሎሙ ለምንት ተሐሥ⟫",
+      "corrected_text": "⟪ወይቤሎሙ ለምንት ተኀሥ⟫",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሐ -> ኀ",
+      "reason": "The printed Ge'ez glyph is ኀ (ተኀሥሠኒ, from ኀሠሠ 'to seek'), misread as ሐ due to ink spread."
+    },
+    {
+      "column_index": 3,
+      "line_num": 29,
+      "old_text": "⟪ወፊልጶስ እኁሁ መልአከ ኢ⟫",
+      "corrected_text": "⟪ወፊልጶስ እኁሁ መልአከ ኤ⟫",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኢ -> ኤ",
+      "reason": "The printed glyph at the end of the line is 5th-order ኤ (ኤጡርያስ 'Ituraea'), with the loop on the right leg."
+    },
+    {
+      "column_index": 3,
+      "line_num": 31,
+      "old_text": "ወንድሙ ፊልጶስ በኢጡርያስ",
+      "corrected_text": "ወንድሙ ፊልጶስ በኤጡርያስ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኢ -> ኤ",
+      "reason": "Matches ኤጡርያስ in L29-30; the printed character is clearly 5th-order ኤ (በኤጡርያስ)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 38,
+      "old_text": "በተሾመ ጊዜ ፥ ሊሳንዩ ሀበ እን",
+      "corrected_text": "በተሾመ ጊዜ ፥ ሊሳንዩ ሀበ እ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እን -> እ",
+      "reason": "Line 38 ends with single character እ, while ንተ is printed at the start of Line 39 (forming እንተ across the line break without duplicating ን)."
+    }
+  ]
+}

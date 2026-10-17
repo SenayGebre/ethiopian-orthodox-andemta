@@ -1,0 +1,44 @@
+{
+  "pdf_page": 83,
+  "book_page_ethiopic": "፬፻፷፭",
+  "elapsed_sec": 18.0,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 9,
+      "old_text": "ረሱ። ወአንሊቆ ብለህ ወኢ",
+      "corrected_text": "ረሱ። ወአንፈቆ ብለህ ወኢ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሊ -> ፈ",
+      "reason": "Canonical Ge'ez Gospel of Luke 15:14 root word 'ወአንፈቆ' (and when he had spent all); the horizontal bar and bottom loop of 'ፈ' were misread as 'ሊ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 10,
+      "old_text": "ይደልወኒ እስከለው ጣዖትን",
+      "corrected_text": "ይደልወኒ እስካለው ጣዖትን",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ከ -> ካ",
+      "reason": "Amharic Andemta formula 'እስካለው' (up to where it says); the shortened right leg of 4th-order 'ካ' is visible in the image."
+    },
+    {
+      "column_index": 1,
+      "line_num": 19,
+      "old_text": "አምጽኡ አልባሰ ቅድወ⟫ ልጅ",
+      "corrected_text": "አምጽኡ አልባሰ ቅድመ⟫ ልጅ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወ -> መ",
+      "reason": "Canonical Ge'ez Luke 15:22 'አልባሰ ቅድመ' (the first/best robe); ink bleed between the two loops of 'መ' made it resemble 'ወ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 31,
+      "old_text": "ጅ፡ደቂቀ አዳም ናቸው።እስተ",
+      "corrected_text": "ጅ፡ደቂቀ አዳም ናቸው።አስተ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እ -> አ",
+      "reason": "Patristic Ge'ez citation 'አስተሐምሞተ አኀው ዓቢያን ከመ ዘለንዑሳን እንዲል' requires the verbal noun prefix 'አስተ-' (1st order 'አ'), which matches the printed glyph."
+    }
+  ]
+}

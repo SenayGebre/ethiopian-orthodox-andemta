@@ -1,0 +1,26 @@
+{
+  "pdf_page": 33,
+  "book_page_ethiopic": "፫፻፶፪",
+  "elapsed_sec": 8.6,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 35,
+      "old_text": "ፈ ኅድጋቲሃ ወንድኃራ ይሉታ↵",
+      "corrected_text": "ፈ ኅዳጋቲሃ ወንድኃራ ይሉታ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኅድጋቲሃ -> ኅዳጋቲሃ",
+      "reason": "The printed glyph in Col 1 L35 is ዳ (4th order, with a single straight right leg and shorter left leg), matching ኅዳጋቲሃ in Col 2 L07-08 (መጽሐፈ ኅዳጋቲሃ = bill of divorcement)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 12,
+      "old_text": "ጌታም አይቶ ተቆጣ ።",
+      "corrected_text": "ጌታም አይቶ ተቈጣ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ተቆጣ -> ተቈጣ",
+      "reason": "The printed glyph is ቈ (labiovelar, with horizontal crossbar ring at the bottom of the stem, identical to ተቈጧቸው in L10), not ቆ."
+    }
+  ]
+}

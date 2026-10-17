@@ -1,0 +1,26 @@
+{
+  "pdf_page": 62,
+  "book_page_ethiopic": "፻፳፩ | ፻፳፪",
+  "elapsed_sec": 18.8,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 2,
+      "old_text": "ኀበ ፡ ሃይማኖት ፡ ለኵሉ ፡ ሰብእ ፡ ኪያሁ ፡ በአንሥኦቱ ፡",
+      "corrected_text": "ኀበ ፡ ሃይማኖት ፡ ለኵሉ ፡ ሰብእ ፡ ኪያሁ ፡ በአንሥኦ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በአንሥኦቱ -> በአንሥኦ",
+      "reason": "The printed text at the end of Col 2 L02 is 'በአንሥኦ ፡' without '-ቱ', which is also directly confirmed when the Andemta commentary quotes this exact phrase in L09 ('ኪያሁ ፡ በአንሥኦ ፡ እሙታን ፡ ያለውን ፡')."
+    },
+    {
+      "column_index": 4,
+      "line_num": 15,
+      "old_text": "ጳውሎስም ፡ ቅዳም ፡ ቅዳም ፡ ከምኵራብ ፡",
+      "corrected_text": "ጳውሎስም ፡ ቅዳም ፡ ቅዳም ፡ ከምኵራቡ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ብ -> ቡ",
+      "reason": "The final character of 'ከምኵራቡ' clearly has the 2nd-order vowel mark (ካዕብ 'ቡ' with the horizontal stroke on the right leg), meaning 'into the synagogue'."
+    }
+  ]
+}

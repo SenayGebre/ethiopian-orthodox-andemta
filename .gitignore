@@ -1,0 +1,32 @@
+# Environment & Secrets (NEVER commit)
+.env
+.env.*
+*.pem
+*.key
+
+# Virtual Environment & Python Cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS & Editor Files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.vscode/
+.idea/
+
+# Intermediate 300-DPI Raw Image Scans & Column Crops (1.2 GB)
+data/raw_images/
+data/columns/
+data/debug_vision/
+data/*/raw_images/
+data/*/columns/
+data/*/debug_vision/
+
+# Redundant local duplicate export mirrors (root 00..13 JSONs & data/extracted/ are tracked)
+clean_app_jsons/
+json_exports/

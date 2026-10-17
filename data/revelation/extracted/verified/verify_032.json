@@ -1,0 +1,17 @@
+{
+  "pdf_page": 32,
+  "book_page_ethiopic": "፻፳፰",
+  "elapsed_sec": 16.2,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 4,
+      "line_num": 33,
+      "old_text": "ለፀቢአ ፡ አጋንንት ፡ እንደሚፈጠኑ ፡",
+      "corrected_text": "ለፀቢአ ፡ አጋንንት ፡ እንደሚፈጥኑ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጠ -> ጥ",
+      "reason": "The printed glyph in እንደሚፈጥኑ is clearly the 6th-order ሳድስ 'ጥ' (with the bent right leg), which is also required by Amharic verb morphology (እንደሚፈጥኑ 'as they hasten')."
+    }
+  ]
+}

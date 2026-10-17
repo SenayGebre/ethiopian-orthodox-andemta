@@ -1,0 +1,44 @@
+{
+  "pdf_page": 118,
+  "book_page_ethiopic": "፪፻፴፯",
+  "elapsed_sec": 25.2,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 17,
+      "old_text": "[፲፰] በአፍ የሚያወጣው ግን ከል↵",
+      "corrected_text": "[፲፰] በአፍ የሚወጣው ግን ከል↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "የሚያወጣው -> የሚወጣው",
+      "reason": "The printed word in the image has five characters (የሚወጣው, intransitive 'that which comes out'), translating Ge'ez ይወፅእ without an extra ያ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 10,
+      "old_text": "በእንተ ክነናዊት ።",
+      "corrected_text": "በእንተ ከነናዊት ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ክ -> ከ",
+      "reason": "The initial character is 1st-order ከ (ከነናዊት, 'Concerning the Canaanite woman'), matching the spelling in lines 11–14."
+    },
+    {
+      "column_index": 3,
+      "line_num": 25,
+      "old_text": "⟪ከለባትኒ ጓ ይበልዑ እምፍርፋ↵",
+      "corrected_text": "⟪ከለባትኒ ኑ ይበልዑ እምፍርፋ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጓ -> ኑ",
+      "reason": "The Ge'ez enclitic particle is ኑ (ከለባትኒ ኑ ይበልዑ, Matthew 15:27, glossed in the Andemta at L28 as ውሾችም እንጂ ውሾችም እኮን), misread as non-word ጓ due to ink bleed."
+    },
+    {
+      "column_index": 3,
+      "line_num": 37,
+      "old_text": "⟪ወይቤላ ብእሲቶ ዓቢይ ሃይማ↵",
+      "corrected_text": "⟪ወይቤላ ብእሲቶ ዓባይ ሃይማ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዓቢይ -> ዓባይ",
+      "reason": "Both the printed glyph (4th-order ባ without a right foot) and Classical Ge'ez gender agreement with feminine ሃይማኖትኪ require the feminine adjective ዓባይ (Matthew 15:28)."
+    }
+  ]
+}

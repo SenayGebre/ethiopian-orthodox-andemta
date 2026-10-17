@@ -1,0 +1,26 @@
+{
+  "pdf_page": 118,
+  "book_page_ethiopic": "፭፻",
+  "elapsed_sec": 14.9,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 27,
+      "old_text": "እርሳቸውም በመንገድ የሆነው↵",
+      "corrected_text": "እርሳቸውም በመንገድ የሁነው",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "የሆነው -> የሁነው",
+      "reason": "The printed glyph in the image has the bottom-right stroke of 2nd-order ሁ (የሁነው), the standard archaic Andemta spelling."
+    },
+    {
+      "column_index": 3,
+      "line_num": 28,
+      "old_text": "⟪ወዘንተ ብሂሎ አርአዮሙ አ↵",
+      "corrected_text": "⟪ወዘንተ ብሂሎ አርአዮሙ እ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አ -> እ",
+      "reason": "Both visually on the page (6th-order እ with the top zig-zag) and grammatically in Classical Ge'ez (እደዊሁ, 'his hands', cf. L16 እደውየ), the word begins with እ, not አ."
+    }
+  ]
+}

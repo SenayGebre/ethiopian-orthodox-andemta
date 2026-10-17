@@ -1,0 +1,26 @@
+{
+  "pdf_page": 12,
+  "book_page_ethiopic": "፴፮ | ፴፯",
+  "elapsed_sec": 16.2,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "ባማረ ፡ በተገባ ፡ ነበር ፡ ድኅነትስ ፡ ከኛ",
+      "corrected_text": "ባማረ ፡ በተገባ ፡ ነበር ፡ ድኅነትስ ፡ ከሻ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከኛ -> ከሻ",
+      "reason": "When joined across the line break with ችሁ on L02, the word is ከሻችሁ ('if you desire/seek [salvation]'). Visually, the glyph at the end of L01 is ሻ (fourth-order ሸ), not ኛ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 27,
+      "old_text": "እግዚአብሔር ፡ ለአባቶቻችን ፡ ያናገረ",
+      "corrected_text": "እግዚአብሔር ፡ ለአባቶቻችን ፡ የናገረ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ያናገረ -> የናገረ",
+      "reason": "The printed glyph has symmetrical legs of first-order የ (የናገረውን ተስፋ), not fourth-order ያ."
+    }
+  ]
+}

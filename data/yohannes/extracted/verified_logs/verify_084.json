@@ -1,0 +1,71 @@
+{
+  "pdf_page": 84,
+  "book_page_ethiopic": "፭፻፺፬",
+  "elapsed_sec": 21.0,
+  "applied_count": 7,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 4,
+      "old_text": "ፈትል ሣራት ለንፍሐተ ነፋስ",
+      "corrected_text": "ፈትለ ሣሬት ለንፍሐተ ነፋስ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፈትል ሣራት -> ፈትለ ሣሬት",
+      "reason": "Classical Ge'ez construct phrase 'ፈትለ ሣሬት' (spider's web/thread); the 1st-order 'ለ' and 5th-order 'ሬ' (with right-leg loop) are visible on the page."
+    },
+    {
+      "column_index": 2,
+      "line_num": 15,
+      "old_text": "ዐንቀስ በሥጋ ለማለት ደገመ",
+      "corrected_text": "ወነፍስ በሥጋ ለማለት ደገመ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዐንቀስ -> ወነፍስ",
+      "reason": "The printed text reads 'ወነፍስ በሥጋ ለማለት ደገመው' (theological commentary explaining indwelling in soul and body); 'ወነፍስ' was misread as 'ዐንቀስ' due to ink bleed."
+    },
+    {
+      "column_index": 3,
+      "line_num": 3,
+      "old_text": "እቱ ይፈቅረኒ ፥⟫",
+      "corrected_text": "እቱ ያፈቅረኒ ፥⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ይፈቅረኒ -> ያፈቅረኒ",
+      "reason": "In Ge'ez (John 14:21), the verb 'አፍቀረ' takes the imperfect 'ያፈቅረኒ' (4th-order 'ያ'), which is clearly printed."
+    },
+    {
+      "column_index": 3,
+      "line_num": 9,
+      "old_text": "⟪ወአነሂ እፈቅሮ ።⟫",
+      "corrected_text": "⟪ወአነሂ አፈቅሮ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እፈቅሮ -> አፈቅሮ",
+      "reason": "In Ge'ez (John 14:21), the 1st-person singular imperfect of causative 'አፍቀረ' is 'አፈቅሮ' (with 1st-order 'አ'), matching the printed glyph."
+    },
+    {
+      "column_index": 3,
+      "line_num": 12,
+      "old_text": "⟪ወእሬእዮ ርእስየ ።⟫",
+      "corrected_text": "⟪ወአርእዮ ርእስየ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወእሬእዮ -> ወአርእዮ",
+      "reason": "In John 14:21 ('and I will manifest myself to him', translated in L13 as 'ራሴንም እገልጽለታለሁ'), the printed Ge'ez verb is causative 'ወአርእዮ' (1st-order 'አ' and 6th-order 'ር'), not 'ወእሬእዮ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 16,
+      "old_text": "ዳ ታዲዎስ አለ ።",
+      "corrected_text": "ዳ ታዴዎስ አለ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ታዲዎስ -> ታዴዎስ",
+      "reason": "The proper name Thaddaeus is printed 'ታዴዎስ' with 5th-order 'ዴ' (ring on the right leg)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 23,
+      "old_text": "⟪ወአውሥአ እግዚእ ኢየሱስ⟫",
+      "corrected_text": "⟪ወአውሥኦ እግዚእ ኢየሱስ⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወአውሥአ -> ወአውሥኦ",
+      "reason": "The Ge'ez verb has the 3rd-person masculine object suffix '-ኦ' ('ወአውሥኦ', 'answered him', rendered in L24 as 'መለሰለት'), visibly printed with 7th-order 'ኦ'."
+    }
+  ]
+}

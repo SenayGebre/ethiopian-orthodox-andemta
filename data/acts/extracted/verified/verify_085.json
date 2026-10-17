@@ -1,0 +1,53 @@
+{
+  "pdf_page": 85,
+  "book_page_ethiopic": "፻፷፪ | ፻፷፫",
+  "elapsed_sec": 115.2,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 23,
+      "old_text": "ባለ ፡ ጊዜ ፡ አግብእሙ ፡ እንዳለበት ።",
+      "corrected_text": "ባለ ፡ ጊዜ ፡ አግብኦሙ ፡ እንዳለበት ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እ -> ኦ",
+      "reason": "The Ge'ez plural object suffix on 'አግብእ' is 7th-order 'ኦ' ('አግብኦሙ', 'hand them over'), contrasting the singular verb 'አግብእ' with the plural 'አግብኦሙ', which is clearly visible in the print."
+    },
+    {
+      "column_index": 3,
+      "line_num": 6,
+      "old_text": "አካሄዷ ፡ ዝግ ፡ ያለ ፡ ነበር ።",
+      "corrected_text": "አካሂዷ ፡ ዝግ ፡ ያለ ፡ ነበር ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሄ -> ሂ",
+      "reason": "The printed glyph has the 3rd-order horizontal foot stroke 'ሂ' ('አካሂዷ'), consistent with 'ሂደች' (L04) and 'አካሂዳችን' (Col 4 L08)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 31,
+      "old_text": "ያን፡ ጊዜ፡ ሰዎች፡ ሁሉ፡ በባሕር፡ ሊሄዱ ፡",
+      "corrected_text": "ያን፡ ጊዜ፡ ሰዎች፡ ሁሉ፡ በባሕር፡ ሊሂዱ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሄ -> ሂ",
+      "reason": "The printed text uses the 3rd-order 'ሂ' ('ሊሂዱ') rather than 5th-order 'ሄ'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 17,
+      "old_text": "ሰውነታችንንም ፡ ታጡናላችሁ ፡ ብዬ ፡",
+      "corrected_text": "ሰውነታችንንም ፡ ታጡናላችሁ ፡ ብየ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዬ -> የ",
+      "reason": "The printed glyph is 1st-order 'የ' ('ብየ') without a 5th-order loop, matching 'ብየ' two lines below in L19."
+    },
+    {
+      "column_index": 4,
+      "line_num": 30,
+      "old_text": "፲፪ ፤ ⟪ወውእቱሰ ፡ መርሶ ፡ ኢይደሉ ፡ ይክርሙ ፡",
+      "corrected_text": "፲፪ ፤ ⟪ወውእቱሰ ፡ መርስ ፡ ኢይደሉ ፡ ይክርሙ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሶ -> ስ",
+      "reason": "The Ge'ez noun for harbor/port is 'መርስ' with 6th-order 'ስ' (as seen in Col 3 L19 and L23), and the image clearly shows the bent top-left of 'ስ' rather than 'ሶ'."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "pdf_page": 27,
+  "book_page_ethiopic": "፶፪ | ፶፫",
+  "elapsed_sec": 152.9,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 9,
+      "old_text": "ለሊህ ፡ ለሰባቱ ፡ መላእክት ፡ ሰባት ፡ ገን",
+      "corrected_text": "ለኒህ ፡ ለሰባቱ ፡ መላእክት ፡ ሰባት ፡ ገን",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሊ -> ኒ",
+      "reason": "The printed glyph has the top bar of ኒ (ለኒህ, standard Andemta demonstrative 'to these'), which was misread as ሊ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 4,
+      "old_text": "ጽሩይ ፡ ፍርድ ፡ በሚፈርድበት ፡ በዓለመ ፡",
+      "corrected_text": "ጽሩይ ፡ ፍርድ ፡ በሚፈረድበት ፡ በዓለመ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ር -> ረ",
+      "reason": "Both visually on the page (smooth 1st-order ረ without a top-left kink) and grammatically in parallel with Col 2 L18 and Col 3 L25, the passive relative verb is በሚፈረድበት ('where pure judgment is judged')."
+    }
+  ]
+}

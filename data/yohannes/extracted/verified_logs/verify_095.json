@@ -1,0 +1,44 @@
+{
+  "pdf_page": 95,
+  "book_page_ethiopic": "፮፻፭",
+  "elapsed_sec": 21.8,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 32,
+      "old_text": "ህን አስታወቅኋቸው ።",
+      "corrected_text": "ሁን አስታወቅኋቸው ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ህ -> ሁ",
+      "reason": "The word split across L31-L32 is ስምሁን ('Your name'), and the image clearly shows the second-order horizontal stroke on ሁ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 39,
+      "old_text": "⟪ወአነሂ እሄሉ በሙ ።⟫",
+      "corrected_text": "⟪ወአነሂ እሄሉ ቦሙ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በሙ -> ቦሙ",
+      "reason": "Classical Ge'ez preposition በ with 3rd person masculine plural suffix is ቦሙ ('in them', John 17:26), matching the shortened left leg of 7th-order ቦ on the page."
+    },
+    {
+      "column_index": 2,
+      "line_num": 19,
+      "old_text": "ረ ዘይት ይላል ፡ ከዚህ እንደዚ",
+      "corrected_text": "ረ ዘይት ይላል ፡ ከዚህ እንዲ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እንደዚ -> እንዲ",
+      "reason": "The image at the end of Col 2 L19 shows እንዲ (continuing onto L20 as ህ to form እንዲህ አለ), not እንደዚ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 28,
+      "old_text": "⟪ወነሥአ ረድኤተ ወዓልደኒ",
+      "corrected_text": "⟪ወነሥአ ረድኤተ ወዓዕደኒ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወዓልደኒ -> ወዓዕደኒ",
+      "reason": "Canonical Ge'ez of John 18:3 is ወዓዕደኒሆሙ ('and their officers/attendants', glossed in Amharic as ብላቴኖቻቸውን), and the image clearly shows the triangular 6th-order ዕ rather than ል."
+    }
+  ]
+}

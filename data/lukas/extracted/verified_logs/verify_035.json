@@ -1,0 +1,17 @@
+{
+  "pdf_page": 35,
+  "book_page_ethiopic": "፬፻፲፯",
+  "elapsed_sec": 7.6,
+  "applied_count": 0,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 19,
+      "old_text": "ና ፡ ጥሩ ጠጅ አላት ወንጌል",
+      "corrected_text": "ና ፡ ጥሩ ጠጅ አላት ወንጌል",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "none (verification)",
+      "reason": "Actually let's check Col 2 L27: ወለዘሂ አበጠከ ፩ደ -> in image it is አበጠከ ፩ደ."
+    }
+  ]
+}

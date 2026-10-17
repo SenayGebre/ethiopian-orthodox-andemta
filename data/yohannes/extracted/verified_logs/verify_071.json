@@ -1,0 +1,44 @@
+{
+  "pdf_page": 71,
+  "book_page_ethiopic": "፭፻፹፩",
+  "elapsed_sec": 17.7,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 6,
+      "old_text": "⟪ይኄይሰነ አhad ብእሲ ንቅትል ።⟫",
+      "corrected_text": "⟪ይኄይሰነ ፩ደ ብእሴ ንቅትል ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አhad ብእሲ -> ፩ደ ብእሴ",
+      "reason": "Stage 1 introduced Latin characters ('አhad') for the Ethiopic numeral and accusative ending '፩ደ', and misread the 5th-order accusative 'ብእሴ' as 'ብእሲ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 36,
+      "old_text": "እራተኛ ፋሲካ ነው ፡ አይሁድ",
+      "corrected_text": "አራተኛ ፋሲካ ነው ፡ አይሁድ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እ -> አ",
+      "reason": "The initial character of 'አራተኛ' (fourth) is 1st-order 'አ', misread as 6th-order 'እ' due to slight ink wear."
+    },
+    {
+      "column_index": 3,
+      "line_num": 10,
+      "old_text": "ሥዋዕት ሠውቶ ማየ ምንዝሐ",
+      "corrected_text": "ሥዋዕት ሠውቶ ማየ ምንዝሕ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሐ -> ሕ",
+      "reason": "The Ge'ez term 'ማየ ምንዝሕ' (water of sprinkling/purification) ends in 6th-order 'ሕ', which is clearly visible on the page image."
+    },
+    {
+      "column_index": 3,
+      "line_num": 34,
+      "old_text": "እሲ ኀበ ሀሎ ይቅድብዎሙ",
+      "corrected_text": "እሲ ኀበ ሀሎ ይቅጽብዎሙ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ድ -> ጽ",
+      "reason": "The printed Ge'ez verb is 'ይቅጽብዎሙ' (from ቀጸበ, to signal/tip off, rendered in the Amharic commentary on L36-37 as 'ጠቁሶ'); 'ጽ' was misread as 'ድ'."
+    }
+  ]
+}

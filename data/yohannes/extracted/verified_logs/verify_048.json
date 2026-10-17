@@ -1,0 +1,62 @@
+{
+  "pdf_page": 48,
+  "book_page_ethiopic": "፭፻፶፰",
+  "elapsed_sec": 26.0,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 37,
+      "old_text": "ን እለ አምኑ በቱ ።⟫",
+      "corrected_text": "ን እለ አምኑ ቦቱ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በቱ -> ቦቱ",
+      "reason": "Classical Ge'ez preposition with 3rd person masculine singular suffix is 'ቦቱ' ('in him', John 7:31), and the 7th-order shortened left leg of 'ቦ' is visible in the print."
+    },
+    {
+      "column_index": 2,
+      "line_num": 28,
+      "old_text": "⟪ተኀሥሠኒ ወኢትረክቡኒ።⟫ዮሐ",
+      "corrected_text": "⟪ተኀሥሡኒ ወኢትረክቡኒ።⟫ዮሐ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ተኀሥሠኒ -> ተኀሥሡኒ",
+      "reason": "The Ge'ez verb is 2nd person masculine plural imperfect 'ተኀሥሡኒ' ('you [pl.] will seek me', matching 'ወኢትረክቡኒ' and the Amharic 'ትሹኛላችሁ'), with the 2nd-order side stroke on 'ሡ' visible."
+    },
+    {
+      "column_index": 2,
+      "line_num": 35,
+      "old_text": "ሥሠኒ⟫ እያልክ መልስ።በፈቃ↵",
+      "corrected_text": "ሥሡኒ⟫ እያልክ መልስ።በፈቃ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሥሠኒ -> ሥሡኒ",
+      "reason": "Matches the 2nd person plural Ge'ez citation 'ተኀሥሡኒ' from line 28, with the 2nd-order vowel mark on 'ሡ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 39,
+      "old_text": "ኝም በፈቃድ የምሞተውን ሞ↵",
+      "corrected_text": "ኝም በፈቃዴ የምሞተውን ሞ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በፈቃድ -> በፈቃዴ",
+      "reason": "The 5th-order ring on the right leg of 'ዴ' ('በፈቃዴ የምሞተውን ሞት', 'the death that I die by my own will', parallel to lines 35-36) is present on the page image."
+    },
+    {
+      "column_index": 3,
+      "line_num": 29,
+      "old_text": "አንዳች ግزሩ ሥርዓት አፍ↵",
+      "corrected_text": "አንዳች ግዙፍ ሥርዓት አፍ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ግزሩ -> ግዙፍ",
+      "reason": "Stage-1 hallucinated a non-Ethiopic Arabic character inside 'ግዙፍ' ('አንዳች ግዙፍ ሥርዓት አፍርሶ', 'having abolished some major/great ordinance'). The printed glyphs are clearly 'ግዙፍ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 34,
+      "old_text": "ተኀሥሠኒ ወኢትረክቡኒ ።⟫",
+      "corrected_text": "ተኀሥሡኒ ወኢትረክቡኒ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ተኀሥሠኒ -> ተኀሥሡኒ",
+      "reason": "Canonical Ge'ez 2nd person plural 'ተኀሥሡኒ' ('you will seek me', John 7:36), matching 'ወኢትረክቡኒ' and 'ትሹኛላችሁ', with the 2nd-order mark on 'ሡ' visible."
+    }
+  ]
+}

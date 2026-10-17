@@ -1,0 +1,53 @@
+{
+  "pdf_page": 76,
+  "book_page_ethiopic": "፭፻፹፮",
+  "elapsed_sec": 26.0,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 22,
+      "old_text": "ብርሃን እኔ ጥቂት ቀን ክናን",
+      "corrected_text": "ብርሃን እኔ ጥቂት ቀን ከናን",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ክ -> ከ",
+      "reason": "The preposition printed on the page is 1st-order 'ከ' (ከናንተ ጋራ), not 6th-order 'ክ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 13,
+      "old_text": "ቅ መለኮት እንዲሆነ ረቂቅ መ",
+      "corrected_text": "ቅ መለኮት እንደሆነ ረቂቅ መ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዲ -> ደ",
+      "reason": "Both visually and grammatically the word is 'እንደሆነ' (1st-order ደ with a small ink speck near the right leg, parallel to 'እንደ ተዋሐደ' on the next line)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 39,
+      "old_text": "⟪ፆረ አዕይንቲሆሙ ።⟫",
+      "corrected_text": "⟪ፆራ አዕይንቲሆሙ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፆረ -> ፆራ",
+      "reason": "In Ge'ez grammar 'አዕይንቲሆሙ' takes the 3rd-person feminine plural verb 'ፆራ' (4th-order ራ, matching 'ወገዝፋ አልባቢሆሙ' in Col 3 L01 and the citation 'ፆራ ገዝፋ' in Col 3 L17), which is clearly printed on the page."
+    },
+    {
+      "column_index": 3,
+      "line_num": 11,
+      "old_text": "ይቅር እንዳልላቸው ።",
+      "corrected_text": "ይቅር እንዳላቸው ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እንዳልላቸው -> እንዳላቸው",
+      "reason": "The printed text on Col 3 L11 has five glyphs 'እንዳላቸው' (without an extra 'ል')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 22,
+      "old_text": "ይፈር ሳያፍር ደፍሮ እንዲህ",
+      "corrected_text": "ይፈራ ሳያፍር ደፍሮ እንዲህ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ይፈር -> ይፈራ",
+      "reason": "Joined with 'ሳ-' at the end of L21, the negative subordinate verb is 'ሳይፈራ' (ending in 4th-order 'ራ', lacking the top-left serif of 6th-order 'ር' seen in 'ሳያፍር' right next to it)."
+    }
+  ]
+}

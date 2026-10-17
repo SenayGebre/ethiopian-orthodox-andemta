@@ -1,0 +1,44 @@
+{
+  "pdf_page": 17,
+  "book_page_ethiopic": "፫፻፳ | ፫፻፳፩",
+  "elapsed_sec": 35.3,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 34,
+      "old_text": "ብዑ) ፡ ከሊህ ፡ ተመስጦ ፡ ያላቸው ፡ ና",
+      "corrected_text": "ብዑ) ፡ ኅሊና ፡ ተመስጦ ፡ ያላቸው ፡ ና",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከሊህ -> ኅሊና",
+      "reason": "The printed glyphs are clearly 'ኅሊና' (mind/contemplation, paired with 'ተመስጦ'), where 'ኅ' and 'ና' were visually misread as 'ከ' and 'ህ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 6,
+      "old_text": "⟪(ወአልቦሙ) ፡⟫ የፈተኛውን ፡ ይዞ ፡ ይሄ",
+      "corrected_text": "⟪(ወአልቦሙ) ፡⟫ የፊተኛውን ፡ ይዞ ፡ ይሄ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "የፈተኛውን -> የፊተኛውን",
+      "reason": "The 3rd-order vowel ring on the right leg of 'ፊ' is visible in the image and required by the Amharic word 'የፊተኛውን' ('the former/preceding one')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 24,
+      "old_text": "አራቱ ፡ ሊቃናት ፡ ስግደለት ፡ ተሰጥዎ ፡",
+      "corrected_text": "አራቱ ፡ ሊቃናት ፡ ሰገዱለት ፡ ተሰጥዎ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ስግደለት -> ሰገዱለት",
+      "reason": "Translating the Ge'ez root 'ወሰገዱ ሎቱ', the printed Amharic verb is clearly 'ሰገዱለት' ('they bowed down to Him'), with 1st-order 'ሰ', 'ገ', and 2nd-order 'ዱ'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 33,
+      "old_text": "(ወኅትምት) ፡ በሰባት ፡ መንፈቀ ፡ የምት",
+      "corrected_text": "(ወኅትምት) ፡ በሰባት ፡ መንፈቀ ፡ ዓመት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "የምት -> ዓመት",
+      "reason": "The final word on the line is 'ዓመት' ('በሰባት መንፈቀ ዓመት' - in seven half-years / periods), which is a complete word and does not wrap mid-word into 'ፈጽሞ' on the next page."
+    }
+  ]
+}

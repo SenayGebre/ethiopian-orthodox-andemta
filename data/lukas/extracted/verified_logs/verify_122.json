@@ -1,0 +1,44 @@
+{
+  "pdf_page": 122,
+  "book_page_ethiopic": "፭፻፬",
+  "elapsed_sec": 16.4,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 2,
+      "old_text": "የቀደሙ ሐዋርያት ስለ ተጸሩ ።",
+      "corrected_text": "የቀደሙ ሐዋርያት ስለ ተጠሩ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጸ -> ጠ",
+      "reason": "The printed glyph in 'ተጠሩ' ('were called', translating Ge'ez 'ተጸውዖቶሙ') is clearly the three-legged Fidel ጠ, which was misread as ጸ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 11,
+      "old_text": "ስለ ሌሎች ትእዛዛት ፡፡",
+      "corrected_text": "ስለ ሌሎች ትእዛዛት ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፡፡ -> ።",
+      "reason": "Standardize the Ethiopic full stop ። at the end of the line instead of two separate word-space colons."
+    },
+    {
+      "column_index": 2,
+      "line_num": 12,
+      "old_text": "ስለ ሹም ባንድያ።",
+      "corrected_text": "ስለ ሹም ባሪያ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ንድ -> ሪ",
+      "reason": "Translating Ge'ez 'ወዓሊ ዘመስፍን' (the centurion's/official's servant), the printed Amharic word is clearly 'ባሪያ' (servant), where 'ሪ' with ink bleed was misread as 'ንድ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 13,
+      "old_text": "የባልቲቲቱን ልጅ ስለ አነሣው ፡",
+      "corrected_text": "የባልቴቲቱን ልጅ ስለ አነሣው ፤",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቲ -> ቴ, ፡ -> ፤",
+      "reason": "The first dental in 'የባልቴቲቱን' ('of the widow', translating 'መበለት') has the 5th-order loop (ቴ) on the right leg, and the punctuation at the end of the line is ፤."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "pdf_page": 23,
+  "book_page_ethiopic": "፻፳፩ | ፻፳፪",
+  "elapsed_sec": 18.7,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 6,
+      "old_text": "ለእግዚአብሔር ፡ ኀበ ፡ ጻድቃኑ ፡ ወዕዝኑ",
+      "corrected_text": "ለእግዚአብሔር ፡ ኀበ ፡ ጻድቃን ፡ ወዕዝኑ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጻድቃኑ -> ጻድቃን",
+      "reason": "The printed Ge'ez word is ጻድቃን (6th order ን without a 2nd-order vowel stroke), matching Psalm 33:15 (34:15) and 1 Peter 3:12."
+    },
+    {
+      "column_index": 3,
+      "line_num": 25,
+      "old_text": "ር ፡ አትፍሩት ፡ ም ፡ ፪ ፥ ፳ ።",
+      "corrected_text": "ር ፡ አትፍሩት ፡ ም ፡ ፪ ፥ ፰ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፳ -> ፰",
+      "reason": "The Ethiopic numeral printed is ፰ (8, with a middle horizontal bar), cross-referencing Chapter 2 verse 8."
+    },
+    {
+      "column_index": 4,
+      "line_num": 5,
+      "old_text": "ም ፡ ፪ ፥ ፳ ።",
+      "corrected_text": "ም ፡ ፪ ፥ ፰ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፳ -> ፰",
+      "reason": "The Ethiopic numeral printed is ፰ (8, with a middle horizontal bar), cross-referencing Chapter 2 verse 8."
+    }
+  ]
+}

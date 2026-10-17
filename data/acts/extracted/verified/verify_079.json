@@ -1,0 +1,44 @@
+{
+  "pdf_page": 79,
+  "book_page_ethiopic": "፻፶፬ | ፻፶፭",
+  "elapsed_sec": 19.3,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 1,
+      "old_text": "ዳኛቸው ፡ ገዢቸው ፡ እንደሆንህ ፡ አው↵",
+      "corrected_text": "ዳኛቸው ፡ ገዣቸው ፡ እንደሆንህ ፡ አው",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዢ -> ዣ",
+      "reason": "Both visually on the page and grammatically in Amharic ('their ruler', ገዥ + አቸው -> ገዣቸው), the second character is fourth-order ዣ, not third-order ዢ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 30,
+      "old_text": "፲፬ ፤ ⟪ወባሕቱ ፡ ዘይብሉኒ ፡ ይሜህር ፡ ክሕደ ፡ (ጋእዘ)፡",
+      "corrected_text": "፲፬ ፤ ⟪ወባሕቱ ፡ ዘይብሉኒ ፡ ይሜህር ፡ ክሕደ ፡ (ጋእዘ)፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "missing ⟫ -> ⟫",
+      "reason": "Restore closing Ge'ez scripture marker ⟫ at the end of the root text line."
+    },
+    {
+      "column_index": 3,
+      "line_num": 3,
+      "old_text": "ወነبيያት ፡⟫",
+      "corrected_text": "ወነቢያት ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "بي -> ቢ",
+      "reason": "Stage-1 OCR hallucinated non-Ethiopic (Arabic) characters in place of the Ethiopic Fidel ቢ in ወነቢያት."
+    },
+    {
+      "column_index": 4,
+      "line_num": 10,
+      "old_text": "ዋድዩነ ፡⟫",
+      "corrected_text": "ዋድዩኒ ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ነ -> ኒ",
+      "reason": "The Ge'ez verb takes the 1st person singular object suffix -ኒ (ያስተዋድዩኒ, translated in the Andemta immediately below as እንዲመሰክሩብኝ 'that they testify against me'); the bottom bar of ኒ is slightly faded."
+    }
+  ]
+}

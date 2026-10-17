@@ -1,0 +1,53 @@
+{
+  "pdf_page": 6,
+  "book_page_ethiopic": "፫፻፶፰ | ፫፻፶፱",
+  "elapsed_sec": 26.6,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 9,
+      "old_text": "ዮሐ ፡ ፲፰ ፥ ፴፯ ። ቈላ ፡ ፲፰ ። ቆላ ፡ ፩ ፥ ፲፰ ።",
+      "corrected_text": "ዮሐ ፡ ፲፰ ፥ ፴፯ ። ቍ ፡ ፲፰ ። ቆላ ፡ ፩ ፥ ፲፰ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቈላ -> ቍ",
+      "reason": "The printed citation abbreviation after John 18:37 is 'ቍ ፡ ፲፰ ።' (ቍጥር 18, i.e., verse 18), not 'ቈላ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 32,
+      "old_text": "ፍጥረትኒ፡ ትሬእዮ፡ ለፈጣሪራ ፡ ከዊኖ ፡ በ",
+      "corrected_text": "ፍጥረትኒ፡ ትሬእዮ፡ ለፈጣሪሃ ፡ ከዊኖ ፡ በ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ራ -> ሃ",
+      "reason": "In Classical Ge'ez grammar, the feminine noun 'ፍጥረትኒ' takes the 3rd person feminine singular pronominal suffix '-ሃ' ('ለፈጣሪሃ' = her Creator), which is clearly printed on the page."
+    },
+    {
+      "column_index": 3,
+      "line_num": 6,
+      "old_text": "እንዲል ። አንድም ፡ አንድ ፡ በወረወር ፡",
+      "corrected_text": "እንዲል ። አንድም ፡ አንድ ፡ በወረወረ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ር -> ረ",
+      "reason": "The proverbial Amharic verb is in the 3rd person masculine singular perfective 'በወረወረ' (1st order ረ), matching the printed glyph without a 6th-order top-left notch."
+    },
+    {
+      "column_index": 3,
+      "line_num": 7,
+      "old_text": "ሽሕ፡ በመከር ፡ እንዲሉ፡ ፈቃድ፡ ለሁሉ፡",
+      "corrected_text": "ሽሕ፡ በመከረ ፡ እንዲሉ፡ ፈቃድ፡ ለሁሉ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ር -> ረ",
+      "reason": "Parallel to 'አንድ በወረወረ', the rhyming verb is 'ሽሕ በመከረ' (1st order ረ), as visibly printed on the page."
+    },
+    {
+      "column_index": 4,
+      "line_num": 9,
+      "old_text": "⟪፰ ፤ አነ ፡ ውእቱ ፡ አልፋ ፡ ወአ ፡⟫",
+      "corrected_text": "⟪፰ ፤ አነ ፡ ውእቱ ፡ አልፋ ፡ ወኦ ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወአ -> ወኦ",
+      "reason": "The canonical Ge'ez text of Revelation 1:8 and the immediate commentary on line 10 ('አልፋ ፡ ኦ ፡ እኔ ፡ ነኝ') confirm the 7th-order 'ወኦ' (Alpha and Omega)."
+    }
+  ]
+}

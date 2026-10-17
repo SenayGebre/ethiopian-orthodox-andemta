@@ -1,0 +1,26 @@
+{
+  "pdf_page": 13,
+  "book_page_ethiopic": "፭፻፳፫",
+  "elapsed_sec": 15.0,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 2,
+      "old_text": "እዮ ለእግዚአብሔር ፡ ነጻሪ ክ",
+      "corrected_text": "እዮ ለእግዚአብሔር ፡ ነጸረ ክ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ነጻሪ -> ነጸረ",
+      "reason": "The printed glyphs on Col 2 L02 are clearly 1st-order 'ጸ' and 'ረ' ('ነጸረ', perfect verb 'he beheld'), which pairs with the gerundive 'ክሂሎ' on the next line ('ነጸረ ክሂሎ ምስለ አምላኩ', standard Onomastica/Andemta etymology of Israel)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 3,
+      "old_text": "ሂለ ምስለ አምላኩ፡ሕዝበ እ",
+      "corrected_text": "ሂሎ ምስለ አምላኩ፡ሕዝበ እ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሂለ -> ሂሎ",
+      "reason": "The second character on Col 2 L03 has the distinct top-right loop of 7th-order 'ሎ', completing the Ge'ez gerundive 'ክሂሎ' ('having prevailed / been able')."
+    }
+  ]
+}

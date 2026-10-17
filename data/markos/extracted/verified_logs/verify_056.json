@@ -1,0 +1,44 @@
+{
+  "pdf_page": 56,
+  "book_page_ethiopic": "፫፻፸፭",
+  "elapsed_sec": 19.5,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 3,
+      "old_text": "⟪ወይእቲ ሖዊራ ዜነወቶሙ ለ↵",
+      "corrected_text": "⟪ወይእቲ ሐዊራ ዜነወቶሙ ለ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሖዊራ -> ሐዊራ",
+      "reason": "Classical Ge'ez feminine singular gerundive of ሖረ is ሐዊራ (1st order ሐ), clearly visible on the page."
+    },
+    {
+      "column_index": 1,
+      "line_num": 13,
+      "old_text": "ውም እንደሆነ በሰሙ ጊዜ አ↵",
+      "corrected_text": "ውም እንደሁነ በሰሙ ጊዜ አ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እንደሆነ -> እንደሁነ",
+      "reason": "The printed text has the archaic Andemta form እንደሁነ with 2nd order ሁ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 14,
+      "old_text": "ላመኗዋትም ።",
+      "corrected_text": "ላመኑዋትም ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ላመኗዋትም -> ላመኑዋትም",
+      "reason": "The printed glyph is 2nd order ኑ (አላመኑዋትም), not ኗ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 4,
+      "old_text": "ጭናሉ ያኖራሉም ።",
+      "corrected_text": "ቃጣሉ ያኖራሉም ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጭናሉ -> ቃጣሉ",
+      "reason": "Joined with ይ- from L03, the word is ይቃጣሉ (Andemta gloss for ወይሜጥኑ), clearly printed as ቃጣሉ."
+    }
+  ]
+}

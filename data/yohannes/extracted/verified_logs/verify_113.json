@@ -1,0 +1,80 @@
+{
+  "pdf_page": 113,
+  "book_page_ethiopic": "፮፻፳፫",
+  "elapsed_sec": 15.8,
+  "applied_count": 8,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 2,
+      "old_text": "ጻፍ ሰማይና ምድር ፤ ሰሌዳ ፡ እ",
+      "corrected_text": "ጻፍ ሰማይና ምድር ፤ ሰሌዳ ፡ አ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እ -> አ",
+      "reason": "The broken plural of ዕብን (stone) in Classical Ge'ez is አዕባን (split across lines 2 and 3 as አ-ዕባን), and the glyph at the end of line 2 is 1st-order አ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 8,
+      "old_text": "መልዓ ጽሕፈተ ብስራቱ ለዮ",
+      "corrected_text": "⟪መልዓ ጽሕፈተ ብስራቱ ለዮ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "መልዓ -> ⟪መልዓ",
+      "reason": "Lines 8-10 are the Ge'ez colophon root text translated in lines 11-13, requiring the opening ⟪ marker."
+    },
+    {
+      "column_index": 2,
+      "line_num": 10,
+      "old_text": "ዎስ ፩ዱ እም፲ወ፪ቱ ሐዋርያት",
+      "corrected_text": "ዎስ ፩ዱ እም፲ወ፪ቱ ሐዋርያት⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሐዋርያት -> ሐዋርያት⟫",
+      "reason": "Closes the Ge'ez colophon root text block (lines 8-10) before the Amharic translation in line 11."
+    },
+    {
+      "column_index": 2,
+      "line_num": 14,
+      "old_text": "ዘጸሐፎ በልሳነ ዮናኒ ለሰብአ",
+      "corrected_text": "⟪ዘጸሐፎ በልሳነ ዮናኒ ለሰብአ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዘጸሐፎ -> ⟪ዘጸሐፎ",
+      "reason": "Starts the Ge'ez root text block (Col 2 L14 to Col 3 L03) that is translated in Col 3 L04-06."
+    },
+    {
+      "column_index": 3,
+      "line_num": 3,
+      "old_text": "ሰማይ በ፴ ዓመት ።",
+      "corrected_text": "ሰማይ በ፴ ዓመት ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዓመት ። -> ዓመት ።⟫",
+      "reason": "Closes the Ge'ez root text block before its Amharic translation in line 4."
+    },
+    {
+      "column_index": 3,
+      "line_num": 7,
+      "old_text": "ወበ፯ቱ ዓመተ መንግሥቱ ለ",
+      "corrected_text": "⟪ወበ፯ቱ ዓመተ መንግሥቱ ለ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወበ፯ቱ -> ⟪ወበ፯ቱ",
+      "reason": "Starts the Ge'ez root text block (lines 7-8) translated in lines 9-10."
+    },
+    {
+      "column_index": 3,
+      "line_num": 8,
+      "old_text": "ኔሮን ቄሣር ንጉሠ ሮም ።",
+      "corrected_text": "ኔሮን ቄሣር ንጉሠ ሮም ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሮም ። -> ሮም ።⟫",
+      "reason": "Closes the Ge'ez root text block (lines 7-8) before its Amharic translation in line 9."
+    },
+    {
+      "column_index": 3,
+      "line_num": 11,
+      "old_text": "ወስብሐት ለእግዚአብሔር ።",
+      "corrected_text": "⟪ወስብሐት ለእግዚአብሔር ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወስብሐት ለእግዚአብሔር ። -> ⟪ወስብሐት ለእግዚአብሔር ።⟫",
+      "reason": "Marks the Ge'ez doxology root text translated in lines 12-14."
+    }
+  ]
+}

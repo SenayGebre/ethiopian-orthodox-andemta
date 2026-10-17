@@ -1,0 +1,71 @@
+{
+  "pdf_page": 176,
+  "book_page_ethiopic": "፪፻፺፭",
+  "elapsed_sec": 21.7,
+  "applied_count": 7,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "ና ወርከ ይበርህ እንዲል ። ከ↵",
+      "corrected_text": "ና ሠርከ ይበርህ እንዲል ። ከ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወ -> ሠ",
+      "reason": "Ge'ez biblical citation 'ወፍና ሠርከ ይበርህ' (at evening time it shall be light); the printed glyph has the top indentations of 'ሠ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 30,
+      "old_text": "ከንዱ ወደ አንዱ አትውሰዱ↵",
+      "corrected_text": "ካንዱ ወደ አንዱ አትውሰዱ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከ -> ካ",
+      "reason": "Amharic contraction 'ካንዱ ወደ አንዱ' (ከአንዱ); the right leg of 4th-order 'ካ' is extended downward."
+    },
+    {
+      "column_index": 1,
+      "line_num": 34,
+      "old_text": "ሥዋዕት ከንዱ ሠርቶ ወዳን↵",
+      "corrected_text": "ሥዋዕት ካንዱ ሠርቶ ወዳን↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከ -> ካ",
+      "reason": "Amharic 'ካንዱ ሠርቶ ወዳንዱ ወስዶ' (from one place to another); the printed glyph is 4th-order 'ካ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 3,
+      "old_text": "ለ ብኄዕ ረብርቡበት ማለቱ",
+      "corrected_text": "ለ ብኵዕ ረብርቡበት ማለቱ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኄ -> ኵ",
+      "reason": "Ge'ez biblical term 'ሐምለ ብኵዕ' (bitter herbs, Exod 12:8); the labiovelar 'ኵ' was misread as 'ኄ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 10,
+      "old_text": "ነውና ። ጫማችሁን አገባችሁ",
+      "corrected_text": "ነውና ። ጫማችሁን አግብታችሁ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ገባ -> ግብታ",
+      "reason": "Amharic converb 'ጫማችሁን አግብታችሁ' (having put on your sandals); the printed line clearly has 'አግብታችሁ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 15,
+      "old_text": "ለ ሦክን እያሰባችሁ በሎታች↵",
+      "corrected_text": "ለ ሦክን እያሰባችሁ በትራች↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሎታ -> ትራ",
+      "reason": "Amharic 'በትራችሁን ይዛችሁ' (holding your staff, Exod 12:11); 'ትራ' was misread as 'ሎታ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 2,
+      "old_text": "ሱም ወንጌልን የሚሰራ ነውና",
+      "corrected_text": "ሱም ወንጌልን የሚሠራ ነውና",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሰ -> ሠ",
+      "reason": "The printed glyph is 'ሠ' in 'የሚሠራ' (instituting/establishing the Gospel)."
+    }
+  ]
+}

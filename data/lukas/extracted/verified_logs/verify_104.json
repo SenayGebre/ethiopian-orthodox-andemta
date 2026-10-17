@@ -1,0 +1,17 @@
+{
+  "pdf_page": 104,
+  "book_page_ethiopic": "፬፻፹፮",
+  "elapsed_sec": 11.6,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 8,
+      "old_text": "ኩውን ስምዓ ላዕሌሆሙ።⟫",
+      "corrected_text": "ከውን ስምዓ ላዕሌሆሙ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኩ -> ከ",
+      "reason": "The word split across lines 7 and 8 is the Classical Ge'ez subjunctive verb 'ይከውን' (ከመ ይከውን ስምዓ ላዕሌሆሙ - Luke 21:13). The first glyph on line 8 is clearly 1st-order 'ከ' (ከውን), which Stage 1 misread as 2nd-order 'ኩ'."
+    }
+  ]
+}

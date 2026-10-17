@@ -1,0 +1,17 @@
+{
+  "pdf_page": 127,
+  "book_page_ethiopic": "፪፻፵፮",
+  "elapsed_sec": 10.2,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 36,
+      "old_text": "ርህ ደኅ አይኖርምን አለው",
+      "corrected_text": "ርህ ደግ አይኖርምን አለው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኅ -> ግ",
+      "reason": "Visual and contextual correction: the printed glyph has the left-facing top hook of 'ግ' (ደግ, 'a righteous/good person' in 'በሀገርህ ደግ አይኖርምን', 'Is there no righteous person in your country?'), which was misread as 'ኅ'."
+    }
+  ]
+}

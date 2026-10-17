@@ -1,0 +1,26 @@
+{
+  "pdf_page": 11,
+  "book_page_ethiopic": "፭፻፳፩",
+  "elapsed_sec": 14.9,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 16,
+      "old_text": "ችው።ኤልሳቤጥ አጎትሽ ዐዕ",
+      "corrected_text": "ችው።ኤልሳቤጥ አጎትሽ አዕ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዐዕ -> አዕ",
+      "reason": "The printed glyph at the end of line 16 is clearly አዕ (አዕረፈት 'she passed away/rested'), not ዐዕ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 34,
+      "old_text": "ርእዮሙ እንዘ ይተልውዎ ዚ",
+      "corrected_text": "ርእዮሙ እንዘ ይተልውዎ ጊዜ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዚ -> ጊዜ",
+      "reason": "The printed word at the end of line 34 is ጊዜሆሙ (split across lines 34-35 as ጊዜ-ሆሙ, an archaic Ge'ez variant of ዚአሆሙ 'those two disciples of John'). The ligature/crowded type of ጊዜ at the right margin was misread as ዚ."
+    }
+  ]
+}

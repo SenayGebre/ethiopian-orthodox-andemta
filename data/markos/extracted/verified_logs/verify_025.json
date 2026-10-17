@@ -1,0 +1,26 @@
+{
+  "pdf_page": 25,
+  "book_page_ethiopic": "፫፻፵፬",
+  "elapsed_sec": 13.3,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 37,
+      "old_text": "ልጅዋን ልብሷንም ልብሳ ባ",
+      "corrected_text": "ልጅዋን ልብሷንም ለብሳ ባ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ልብሳ -> ለብሳ",
+      "reason": "The printed glyph is 1st-order ለ (ለብሳ, Amharic feminine gerundive 'having put on clothes', translating Ge'ez ልብስታ), not 6th-order ል."
+    },
+    {
+      "column_index": 3,
+      "line_num": 6,
+      "old_text": "እሳቸው ግን በከለከላቸው መ",
+      "corrected_text": "እሳቶው ግን በከለከላቸው መ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እሳቸው -> እሳቶው",
+      "reason": "The third character is clearly printed as ቶ (እሳቶው, the classic archaic Amharic 3rd-person plural pronoun 'they', subject of ይናገሩ ነበር), which was misread as ቸ."
+    }
+  ]
+}

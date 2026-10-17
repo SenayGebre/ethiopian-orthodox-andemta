@@ -1,0 +1,35 @@
+{
+  "pdf_page": 108,
+  "book_page_ethiopic": "፬፻፺",
+  "elapsed_sec": 16.8,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 20,
+      "old_text": "ገዢዎቻውንም ረዳቶች ይሏ",
+      "corrected_text": "ገዢዎቻቸውንም ረዳቶች ይሏ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ገዢዎቻውንም -> ገዢዎቻቸውንም",
+      "reason": "The character ቸ in ገዢዎቻቸውንም is clearly printed on the page and required by Amharic plural possessive grammar (translating ወመኳንንቲሆሙ)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 39,
+      "old_text": "ናሁ ከመ ላእክ ማእከሌሆሙ ።⟫",
+      "corrected_text": "ናሁ ከመ ላእክ ማእከሌክሙ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ማእከሌሆሙ -> ማእከሌክሙ",
+      "reason": "Both the printed glyph (ክሙ) and canonical Ge'ez Luke 22:27 ('among you', translated in Col 2 L02 as አገለገልኋችሁ) confirm ማእከሌክሙ rather than ማእከሌሆሙ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 19,
+      "old_text": "⟪ወይቤሎ አጴጥሮስ ዮም ዘእ",
+      "corrected_text": "⟪ወይቤሎ ኦጴጥሮስ ዮም ዘእ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አጴጥሮስ -> ኦጴጥሮስ",
+      "reason": "Classical Ge'ez vocative particle ኦ (ኦጴጥሮስ = 'ጴጥሮስ ሆይ' in L23) is printed with the 7th-order loop on the right leg, misread as 1st-order አ."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "pdf_page": 10,
+  "book_page_ethiopic": "፪፻፷፬ | ፪፻፷፭",
+  "elapsed_sec": 18.9,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 11,
+      "old_text": "ነሥተን ፡ አድሮብን ፡ እንዲኖር ፡ በዚሀ ፡",
+      "corrected_text": "ነሥተን ፡ አድሮብን ፡ እንዲኖር ፡ በዚህ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሀ -> ህ",
+      "reason": "The 6th-order (sades) top-left hook on ህ in the standard Amharic demonstrative በዚህ ('by this') was slightly faint and misread as 1st-order ሀ."
+    }
+  ]
+}

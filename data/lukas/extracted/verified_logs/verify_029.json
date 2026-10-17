@@ -1,0 +1,44 @@
+{
+  "pdf_page": 29,
+  "book_page_ethiopic": "፬፻፲፩",
+  "elapsed_sec": 18.7,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 11,
+      "old_text": "ሎ አጸፈ መጽሐፉን ገልጾ ሣ",
+      "corrected_text": "ሎ አጸፈ መጽሐፉን ገልጾ ስ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሣ -> ስ",
+      "reason": "The final character on L11 is ስ, which wraps onto L12 (ለ ማስተማር) to form the preposition ስለ ማስተማር ('for teaching'), matching L23-24 (ስለ ማስተማርም)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 20,
+      "old_text": "አንጾኪያ ተርጉምታልና ብሎ",
+      "corrected_text": "አንጾኪያ ተርጉሞታልና ብሎ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ም -> ሞ",
+      "reason": "Both the printed glyph (showing the 7th-order right-loop of ሞ) and Amharic grammar require ተርጉሞታልና ('for he has interpreted it')."
+    },
+    {
+      "column_index": 2,
+      "line_num": 4,
+      "old_text": "⟪ወእፈውሶሙ ለቁሱላን።⟫",
+      "corrected_text": "⟪ወእፈውሶሙ ለቁሡላን።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሱ -> ሡ",
+      "reason": "The printed glyph in the root Ge'ez quote clearly shows the two-crowned ሠ (ሡ) in ለቁሡላን, matching ቁሡላነ on lines 5 and 6 immediately below."
+    },
+    {
+      "column_index": 2,
+      "line_num": 35,
+      "old_text": "ል።አንግፎሙ አፍትሆሙ እፈ",
+      "corrected_text": "ል።አንግፎሙ አፍትሖሙ እፈ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሆ -> ሖ",
+      "reason": "The printed glyph is ሖ (7th order of ሐ) in አፍትሖሙ, quoting the Ge'ez root verb from Col 1 L40."
+    }
+  ]
+}

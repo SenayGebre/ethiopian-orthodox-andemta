@@ -1,0 +1,26 @@
+{
+  "pdf_page": 105,
+  "book_page_ethiopic": "፬፻፹፯",
+  "elapsed_sec": 25.9,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 36,
+      "old_text": "ነገር ግን ለፀነሡ በዚያ ወራ",
+      "corrected_text": "ነገር ግን ለፀነሱ በዚያ ወራ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሡ -> ሱ",
+      "reason": "The printed glyph in ለፀነሱ is 2nd-order ሱ (ሰ series without top crown), not ሡ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 21,
+      "old_text": "ረታ ስግደት ስገዱ ኢራሳች",
+      "corrected_text": "ረታ ስግደት ስገዱ እራሳች",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኢ -> እ",
+      "reason": "The prosthetic vowel on እራሳችሁን ('your heads') is 6th-order እ, misread as 3rd-order ኢ."
+    }
+  ]
+}

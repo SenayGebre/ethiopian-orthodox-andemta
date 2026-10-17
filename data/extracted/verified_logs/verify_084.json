@@ -1,0 +1,44 @@
+{
+  "pdf_page": 84,
+  "book_page_ethiopic": "፪፻፫",
+  "elapsed_sec": 50.4,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 38,
+      "old_text": "ኝ እንደሆነ ። ፪ ፥ ነገ ፥ ፲፱ ፥ ፲፩ ።",
+      "corrected_text": "ኝ እንደሆነ ። ፩ ፥ ነገ ፥ ፲፱ ፥ ፲፬ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፪ -> ፩, ፲፩ -> ፲፬",
+      "reason": "The printed biblical reference is ፩ ነገ ፲፱ ፥ ፲፬ (1 Kings 19:14), where ፩ and ፬ were misread as ፪ and ፩."
+    },
+    {
+      "column_index": 2,
+      "line_num": 36,
+      "old_text": "ላችሁ እናንት ትበልጣላችሁና",
+      "corrected_text": "ላችሁ እናንተ ትበልጣላችሁና",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ት -> ተ",
+      "reason": "The 1st-order Fidel ተ in the pronoun እናንተ was misread as 6th-order ት."
+    },
+    {
+      "column_index": 3,
+      "line_num": 12,
+      "old_text": "ሉቃ ፱ ፴፮ ፥ ፲፪ ፰ ። ፪ጢሞ ፪",
+      "corrected_text": "ሉቃ ፱ ፳፮ ፥ ፲፪ ፰ ። ፪ጢሞ ፪",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፴፮ -> ፳፮",
+      "reason": "The canonical cross-reference is Luke 9:26 (ሉቃ ፱ ፳፮); the numeral ፳ (20) was misread as ፴ (30)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 25,
+      "old_text": "ለሁ አንድም በቤተ ዮሴፍ ሰ↵",
+      "corrected_text": "ለሁ አንድም በቤተ ዮሴፍ ስ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሰ -> ስ",
+      "reason": "The 6th-order prefix ስ in ስበላ (matching ስጠጣ and L28 ስበላ) was misread as 1st-order ሰ."
+    }
+  ]
+}

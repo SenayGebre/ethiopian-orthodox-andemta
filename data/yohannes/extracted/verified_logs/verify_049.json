@@ -1,0 +1,80 @@
+{
+  "pdf_page": 49,
+  "book_page_ethiopic": "፭፻፶፱",
+  "elapsed_sec": 21.7,
+  "applied_count": 8,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 20,
+      "old_text": "መጻሕፍት ጻድቅአ በአማን",
+      "corrected_text": "መጻሕፍት ጻድቅሰ በአማን",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጻድቅአ -> ጻድቅሰ",
+      "reason": "Classical Ge'ez enclitic particle -ሰ ('ጻድቅሰ በአማን የሐዩ' - 'but the righteous shall live by faith'); the glyph ሰ was misread as አ due to ink bleed."
+    },
+    {
+      "column_index": 1,
+      "line_num": 35,
+      "old_text": "ወአለ ጸምኡ ይሑሩ ኀበ ማ",
+      "corrected_text": "ወእለ ጸምኡ ይሑሩ ኀበ ማ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወአለ -> ወእለ",
+      "reason": "Ge'ez plural relative pronoun እለ ('and those who thirst'); 6th-order እ was misread as 1st-order አ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 29,
+      "old_text": "⟪ነبيይ ውእቱ ዝንቱ።⟫",
+      "corrected_text": "⟪ነቢይ ውእቱ ዝንቱ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ነبيይ -> ነቢይ",
+      "reason": "Stage-1 OCR hallucinated non-Ethiopic (Arabic) script inside the Ge'ez word ነቢይ ('prophet')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 11,
+      "old_text": "የለም አሉ ። መካህ ይወጽእ እ",
+      "corrected_text": "የለም አሉ ። መኑዝ ይወጽእ እ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "መካህ -> መኑዝ",
+      "reason": "Canonical Ge'ez citation from Isaiah 63:1 ('መኑ ዝ ይወጽእ እምኤዶም' - 'Who is this that comes from Edom?'); ኑዝ was misread as ካህ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 12,
+      "old_text": "ምኤዶም ያለውን ጠተርጕም",
+      "corrected_text": "ምኤዶም ያለውን መተርጕም",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጠተርጕም -> መተርጕም",
+      "reason": "Standard Andemta term መተርጕም ('the interpreter/commentator'); the initial መ was misread as ጠ due to ink bleed closing the loops."
+    },
+    {
+      "column_index": 3,
+      "line_num": 14,
+      "old_text": "ተ ገሊላ ብሎ እንያ ተረጐ",
+      "corrected_text": "ተ ገሊላ ብሎ እንደ ተረጐ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እንያ -> እንደ",
+      "reason": "Amharic conjunction እንደ ('እንደ ተረጐመው' - 'as he interpreted it'); ደ with a faded right leg was misread as ያ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 23,
+      "old_text": "⟪ዴሁ ፡›⟫",
+      "corrected_text": "⟪ዴሁ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፡› -> ።",
+      "reason": "Standard Ethiopic full stop (አራት ነጥብ ።) at the end of the verse was misread as a colon and angle bracket."
+    },
+    {
+      "column_index": 3,
+      "line_num": 31,
+      "old_text": "⟪ወይቤልዎሙ እሙንቱ እፎኑ⟫",
+      "corrected_text": "⟪ወይቤልዎሙ እሙንቱ እፎኑ⟫",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እፎኑ መ -> እፎኑመ",
+      "reason": "Ge'ez interrogative እፎኑመ ('why then?') wraps across lines 31 and 32."
+    }
+  ]
+}

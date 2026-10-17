@@ -1,0 +1,35 @@
+{
+  "pdf_page": 50,
+  "book_page_ethiopic": "፫፻፷፱",
+  "elapsed_sec": 12.7,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 40,
+      "old_text": "ነ ውእቱ ።⟫ ማቴ ፳፮ ፷፬።",
+      "corrected_text": "ነ ውእቱ ።⟫ ማቴ ፳፮ ፷፭።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፷፬ -> ፷፭",
+      "reason": "The printed Ethiopic numeral at the end of the line has the top horizontal loop of ፭ (5), reading ማቴ ፳፮ ፷፭ (Matt 26:65, following the traditional Ethiopic verse numbering)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 36,
+      "old_text": "ይሉት ጀመረ ።",
+      "corrected_text": "ይሉት ጀመሩ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጀመረ -> ጀመሩ",
+      "reason": "The third character of ጀመሩ clearly shows the 2nd order (ካዕብ) right-side stroke of ሩ on the image, matching the plural subject (or uninflected ጀመር, here printed as ጀመሩ)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 37,
+      "old_text": "⟪ወኮኑ ወዓልት ይጸፍዕዎ በሕቀ⟫",
+      "corrected_text": "⟪ወኮኑ ወዓልት ይጸፍዕዎ በሕቀ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በሕቀ⟫ -> በሕቀ (missing ወበሕቀ on next page or end of quote)",
+      "reason": "Wait—the Ge'ez quote ends at በሕቀ on this page and is followed immediately by its Amharic translation ሎላልቱም መላልሰው በጥፊ መቱት ። on L38-39, so the closing ⟫ belongs on L37. Let us revert this and keep ⟫ on L37."
+    }
+  ]
+}

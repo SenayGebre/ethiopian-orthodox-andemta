@@ -1,0 +1,71 @@
+{
+  "pdf_page": 155,
+  "book_page_ethiopic": "፪፻፸፬",
+  "elapsed_sec": 20.8,
+  "applied_count": 7,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "⟪ወለእለሂ ይበውዑ ትከልዕዎ",
+      "corrected_text": "⟪ወለእለሂ ይበውኡ ትከልዕዎ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዑ -> ኡ",
+      "reason": "The printed glyph in the image is 'ኡ' (ይበውኡ, from በውአ 'to enter'), not 'ዑ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 25,
+      "old_text": "⟪እለ ትብሉ ዘመሀለ በቤተ መ",
+      "corrected_text": "⟪እለ ትብሉ ዘመሐለ በቤተ መ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሀ -> ሐ",
+      "reason": "Both the printed glyph and canonical Ge'ez spelling of the verb 'to swear' are 'ዘመሐለ' with ሐመሩ ሐ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 29,
+      "old_text": "⟪ወዘሰ መሀለ በወርቀ ቤተ መ",
+      "corrected_text": "⟪ወዘሰ መሐለ በወርቀ ቤተ መ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሀ -> ሐ",
+      "reason": "Both the printed glyph and canonical Ge'ez spelling of the verb 'to swear' are 'መሐለ' with ሐመሩ ሐ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 35,
+      "old_text": "ለ በቱ ፥⟫",
+      "corrected_text": "ለ ቦቱ ፥⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በቱ -> ቦቱ",
+      "reason": "Canonical Ge'ez preposition with 3rd person masculine singular suffix is 'ቦቱ' (7th order ቦ 'by it/therein'), which matches the printed glyph."
+    },
+    {
+      "column_index": 2,
+      "line_num": 40,
+      "old_text": "መሐለ በቱ ።⟫",
+      "corrected_text": "መሐለ ቦቱ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በቱ -> ቦቱ",
+      "reason": "Canonical Ge'ez 'መሐለ ቦቱ' ('swears by it', 7th order ቦ) matches the printed text."
+    },
+    {
+      "column_index": 3,
+      "line_num": 15,
+      "old_text": "ተዋሀዶትም ባለው በመለኮት",
+      "corrected_text": "ተዋህዶትም ባለው በመለኮት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሀ -> ህ",
+      "reason": "The printed glyph is 6th-order 'ህ' in 'ተዋህዶትም' ('having united with Him')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 18,
+      "old_text": "ለ ወበዘይነብር ዲቤሁ ፥ ተዋሀ",
+      "corrected_text": "ለ ወበዘይነብር ዲቤሁ ፥ ተዋህ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሀ -> ህ",
+      "reason": "The printed glyph at the end of the line is 6th-order 'ህ' in 'ተዋህ↵ዶትም'."
+    }
+  ]
+}

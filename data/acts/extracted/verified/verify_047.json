@@ -1,0 +1,35 @@
+{
+  "pdf_page": 47,
+  "book_page_ethiopic": "፻፯ | ፻፰",
+  "elapsed_sec": 19.3,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 13,
+      "old_text": "ሳለው ፡",
+      "corrected_text": "ላለው ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሳ -> ላ",
+      "reason": "A stray ink mark on the left leg of ላ made it look like ሳ. Both visually and philologically it is ላለው ('ሊቃውንት ፡ ላለው ፡', parallel to line 9 'ነቢያት ፡ ላለው ፡ አመጣ ፡')."
+    },
+    {
+      "column_index": 4,
+      "line_num": 11,
+      "old_text": "ሔር ፡ ልታጠፋኸ ፡ ተቃጥታለች ፡",
+      "corrected_text": "ሔር ፡ ልታጠፋህ ፡ ተቃጥታለች ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኸ -> ህ",
+      "reason": "The final character of ልታጠፋህ is ህ with slight ink bleed at the top, not ኸ, matching the 2nd person masculine singular object suffix -ህ translating ላዕሌከ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 30,
+      "old_text": "ጊዜ ፡ ስሙን ፡ አበርክቶታል ፡ የበረያሱ↵",
+      "corrected_text": "ጊዜ ፡ ስሙን ፡ አበርክቶታል ፡ የበርያሱ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ረ -> ር",
+      "reason": "The third character in የበርያሱስን clearly has the top-left bend of 6th-order ር (matching በርያሱስ in Col 3 L01-02), not 1st-order ረ."
+    }
+  ]
+}

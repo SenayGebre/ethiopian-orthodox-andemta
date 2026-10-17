@@ -1,0 +1,53 @@
+{
+  "pdf_page": 44,
+  "book_page_ethiopic": "፭፻፶፬",
+  "elapsed_sec": 20.4,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 13,
+      "old_text": "⟪ወይቤሎሙ ዝኑ ያአቅፈክሙ⟫",
+      "corrected_text": "⟪ወይቤሎሙ ዝኑ የአቅፈክሙ⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ያ -> የ",
+      "reason": "The printed Ge'ez verb is የአቅፈክሙ (1st order የ, matching L31 below), where uneven ink on the left leg caused Stage 1 to read ያ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 32,
+      "old_text": "መልስ ። ይህ ይደንቃችኋል እ",
+      "corrected_text": "መልስ ። ይህ ይደንቃችኋል አ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እ -> አ",
+      "reason": "Joining across the line wrap with L33 (ላ) forms the standard particle አላ ('rather / but rather' before አዋሀጄ አስነሥቼ); the printed glyph at the end of L32 is 1st-order አ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 39,
+      "old_text": "ይህን ይደንቃችኋል ። ወእፎ እ",
+      "corrected_text": "ይህ ይደንቃችኋል ። ⟪ወእፎ እ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ይህን -> ይህ",
+      "reason": "The printed text at the start of L39 is simply ይህ ይደንቃችኋል ። (no ን is printed), followed by the root Ge'ez Gospel citation ወእፎ እንከ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 40,
+      "old_text": "ንከ ፡ ይኸን ዓለም እምኀበ ቦ",
+      "corrected_text": "ንከ ፡⟫ ይኸን ዓለም እምኀበ ቦ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ንከ ፡ -> ንከ ፡⟫",
+      "reason": "Closes the root Ge'ez Gospel quote ⟪ወእፎ እንከ ፡⟫ (John 6:62) before the Amharic commentary resumes."
+    },
+    {
+      "column_index": 2,
+      "line_num": 22,
+      "old_text": "ት ላዕሌሁ ይእቲ ትገብሮ እ",
+      "corrected_text": "ት ላዕሌሃ ይእቲ ትገብሮ እ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ላዕሌሁ -> ላዕሌሃ",
+      "reason": "Both visually on the page and grammatically in the patristic Ge'ez citation (referring to feminine ኅብስትሰ መብልዕ ይእቲ), the printed word is ላዕሌሃ."
+    }
+  ]
+}

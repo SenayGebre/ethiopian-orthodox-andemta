@@ -1,0 +1,17 @@
+{
+  "pdf_page": 59,
+  "book_page_ethiopic": "፭፻፷፱",
+  "elapsed_sec": 13.3,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 7,
+      "old_text": "⟪ወይእዜሰ ዘከመ እፎ ይሬኢ",
+      "corrected_text": "⟪ወይእዜሰ ዘከመ እፎ ይሬኢ፥⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ይሬኢ -> ይሬኢ፥⟫",
+      "reason": "Added the printed ነጠላ ሰረዝ (፥) at the end of the Ge'ez phrase and closed the root Gospel quotation bracket ⟫ before the Amharic translation on line 8."
+    }
+  ]
+}

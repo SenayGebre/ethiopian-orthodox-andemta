@@ -1,0 +1,35 @@
+{
+  "pdf_page": 27,
+  "book_page_ethiopic": "፫፻፵፮",
+  "elapsed_sec": 15.9,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 26,
+      "old_text": "⟪ወይቤሎሙ አመኬ ሰብዑ ኅ",
+      "corrected_text": "⟪ወይቤሎሙ አመኬ ሰብዐ ኅ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሰብዑ -> ሰብዐ",
+      "reason": "Both the printed glyph in Column 1 Line 26 and Classical Ge'ez grammar (accusative numeral modifying 'ኅብስተ') confirm 1st-order 'ዐ' ('ሰብዐ'), not 2nd-order 'ዑ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 5,
+      "old_text": "ሁለተኛ ቢዳስሰው ፈጽሞ እንዳየ",
+      "corrected_text": "ሁለተኛ ቢዳስሰው ፈጽሞ እ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እንዳየ -> እ",
+      "reason": "In the image, Line 5 ends with just 'እ-' and wraps onto Line 6 ('ንዳየ'); Stage 1 erroneously completed the word at the end of Line 5, creating a duplicate 'እንዳየንዳየ' in the rejoined stream."
+    },
+    {
+      "column_index": 3,
+      "line_num": 26,
+      "old_text": "⟪አው ፩ዱ እምነቢያት ፥⟫",
+      "corrected_text": "⟪አው ፩ደ እምነቢያት ፥⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፩ዱ -> ፩ደ",
+      "reason": "Visual inspection of Column 3 Line 26 shows 1st-order 'ደ' ('፩ደ', accusative 'አሐደ እምነቢያት' governed by 'ይብሉኒ' / 'ወይቤልዎ', translated in Line 27 as 'አንዱን') without a 2nd-order right-side stroke."
+    }
+  ]
+}

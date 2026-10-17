@@ -1,0 +1,53 @@
+{
+  "pdf_page": 80,
+  "book_page_ethiopic": "፬፻፷፪",
+  "elapsed_sec": 14.4,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 6,
+      "old_text": "መቶው የነጥ አለቃ ዓሥር",
+      "corrected_text": "መቶው የነገድ አለቃ ዓሥሩ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "የነጥ -> የነገድ, ዓሥር -> ዓሥሩ",
+      "reason": "Visual inspection of Col 2 L06 shows 'የነገድ' (the 'ገድ' was compressed/bled and misread as 'ጥ') and 'ዓሥሩ' with the 2nd-order vowel mark on ሩ, matching the parallel phrase in L13-17 ('በነገድ መቶ... ከመቶው ነገድ')."
+    },
+    {
+      "column_index": 2,
+      "line_num": 8,
+      "old_text": "ቶው የነጥ አለቃ አንዱ ዲ",
+      "corrected_text": "ቶው የነገድ አለቃ አንዱ ዲ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "የነጥ -> የነገድ",
+      "reason": "Same as L06: the printed word is 'የነገድ' ('leader of the tribe'), where 'ገድ' bled together and was misread as 'ጥ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 10,
+      "old_text": "መቶ አለ ከሥሩ ደምሳሽ አ",
+      "corrected_text": "መቶ አለ ካሥሩ ደምሳሽ አ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከሥሩ -> ካሥሩ",
+      "reason": "The shortened right leg of 4th-order 'ካ' ('ካሥሩ' = ከ+አሥሩ, 'from the ten') is clearly visible on the image and required by Amharic grammar."
+    },
+    {
+      "column_index": 2,
+      "line_num": 14,
+      "old_text": "መቶ ናቸውና ከሥሩ ከተማ",
+      "corrected_text": "መቶ ናቸውና ካሥሩ ከተማ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ከሥሩ -> ካሥሩ",
+      "reason": "The 4th-order 'ካ' ('ካሥሩ' = ከ+አሥሩ, 'from the ten cities') is clearly printed with the shortened right leg."
+    },
+    {
+      "column_index": 2,
+      "line_num": 29,
+      "old_text": "ገንዘብህ የሚደርሰኝን ክፍልህ",
+      "corrected_text": "ገንዘብህ የሚደርሰኝን ከፍለህ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ክፍልህ -> ከፍለህ",
+      "reason": "Both visually and grammatically, the word is the Amharic gerund 'ከፍለህ' ('having divided for me, give me' — translating 'ሀበኒ መክፈልተ'), not 'ክፍልህ'."
+    }
+  ]
+}

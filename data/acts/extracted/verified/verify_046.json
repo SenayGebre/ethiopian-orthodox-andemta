@@ -1,0 +1,35 @@
+{
+  "pdf_page": 46,
+  "book_page_ethiopic": "፻፬ | ፻፭",
+  "elapsed_sec": 28.7,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 3,
+      "old_text": "ጸልዩበት ፡ ሄደ ፡ ም ፡ ፲፭ ፥ ፴፮ ።",
+      "corrected_text": "ጸልዩበት ፡ ሄደ ፡ ም ፡ ፲፭ ፥ ፴፯ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፴፮ -> ፴፯",
+      "reason": "The numeral at the end of the line is ፴፯ (37), referring to Acts 15:37 (John Mark), not ፴፮."
+    },
+    {
+      "column_index": 1,
+      "line_num": 18,
+      "old_text": "ከልፍ ፡ ክልፍ ፡ ስትል ፡ አይተው ፡ አእ↵",
+      "corrected_text": "ክልፍ ፡ ክልፍ ፡ ስትል ፡ አይተው ፡ አእ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከልፍ -> ክልፍ",
+      "reason": "The reduplicated Amharic ideophone is ክልፍ ፡ ክልፍ (6th order ክ on both words, clearly visible with the top-left hook of ክ)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 29,
+      "old_text": "፲፮ ፤ ⟪ወጐንደየ ፡ ጴጥሮስ ፡ እንዘ ፡ ይጐደጕድ ፡⟫",
+      "corrected_text": "፲፮ ፤ ⟪ወጐንደየ ፡ ጴጥሮስ ፡ እንዘ ፡ ይጐድጕድ ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ይጐደጕድ -> ይጐድጕድ",
+      "reason": "Classical Ge'ez imperfective of ጐድጐደ is ይጐድጕድ (with 6th-order ድ, clearly visible on the page)."
+    }
+  ]
+}

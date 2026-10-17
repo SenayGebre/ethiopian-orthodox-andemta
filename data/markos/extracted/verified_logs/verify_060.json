@@ -1,0 +1,44 @@
+{
+  "pdf_page": 60,
+  "book_page_ethiopic": "፫፻፸፱",
+  "elapsed_sec": 20.7,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 19,
+      "old_text": "ራተ በጌንሴሬጥ በገ",
+      "corrected_text": "ራት በጌንሴሬጥ በገ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ተ -> ት",
+      "reason": "Both visually (the horizontal cross-bar of 6th-order ት is clearly visible) and grammatically in Ge'ez ('ተገብረ መንክራት' - miracles were wrought, nominative plural subject of passive verb ተገብረ), the word is መንክራት."
+    },
+    {
+      "column_index": 1,
+      "line_num": 28,
+      "old_text": "በእንተ ዘከመ ኀሠሠ ትእም",
+      "corrected_text": "በእንተ ዘከመ ኀሠሡ ትእም",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሠ -> ሡ",
+      "reason": "The 2nd-order vowel mark on the right leg of ሡ is visible on the page, matching the plural Ge'ez verb 'ኀሠሡ' (they sought) and the corresponding Amharic translation in Col 2 L16 ('እንደ ፈለጉ')."
+    },
+    {
+      "column_index": 1,
+      "line_num": 39,
+      "old_text": "ተራገፆ ጋኔኑ። ቍ ፲፬",
+      "corrected_text": "ተራገጾ ጋኔን። ቍ ፲፬",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፆ -> ጾ, ኑ -> ን",
+      "reason": "The printed characters are 7th-order ጾ (ተራገጾ) and 6th-order ን (ጋኔን, without a 2nd-order hook), matching Col 2 L23 ('ጋኔን የሚያንዘፈዝፈው')."
+    },
+    {
+      "column_index": 1,
+      "line_num": 41,
+      "old_text": "መዊቶቶ። ቍ ፴",
+      "corrected_text": "መዊቶቱ። ቍ ፴",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቶ -> ቱ",
+      "reason": "Visually the final character has the 2nd-order right-side stroke of ቱ (መዊቶቱ, 'his death'), which corresponds to the 3rd-person masculine singular possessive suffix in Ge'ez and 'የሞቱን ነገር' in Col 2 L24."
+    }
+  ]
+}

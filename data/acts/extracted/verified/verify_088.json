@@ -1,0 +1,17 @@
+{
+  "pdf_page": 88,
+  "book_page_ethiopic": "፻፸፰ | ፻፸፱",
+  "elapsed_sec": 15.1,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 18,
+      "old_text": "⟪ወነጽሐ ፡ ለአፍዖት ፡ ውስተ ፡ እሳት ፡⟫",
+      "corrected_text": "⟪ወነጽሓ ፡ ለአፍዖት ፡ ውስተ ፡ እሳት ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወነጽሐ -> ወነጽሓ",
+      "reason": "The printed glyph in the image is 4th-order ሓ (ወነጽሓ, with the shorter left leg of ራብዕ), carrying the feminine singular object suffix referring to ለአፍዖት, which is directly rendered in the Amharic commentary on the next line as ጣላት ('he cast her/it')."
+    }
+  ]
+}

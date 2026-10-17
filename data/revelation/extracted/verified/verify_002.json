@@ -1,0 +1,62 @@
+{
+  "pdf_page": 2,
+  "book_page_ethiopic": "፫፻፬ | ፫፻፭",
+  "elapsed_sec": 46.8,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "ቶ ፡ ቆመ ፡ ማለለት ፡ አንሥቶ ፡ አንቦ ፡ ለመቤቴ ፡ ለአርጤምስ ፡ አምላክነቷን ፡",
+      "corrected_text": "ቶ ፡ ቆመ ፡ ማለት ፡ አንሥቶ ፡ አንቦ ፡ ለመቤቴ ፡ ለአርጤምስ ፡ አምላክነቷን ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ማለለት -> ማለት",
+      "reason": "Stage 1 duplicated the letter ለ in ማለት. The image clearly prints the standard Amharic explanatory term ማለት."
+    },
+    {
+      "column_index": 1,
+      "line_num": 4,
+      "old_text": "ነ ፡ መንገኒጦስ ፡ የሚሉት ፡ እንደ ፡ ቅርበት ፡ ሐሊም ፡ ያለ ፡ ነው ። ሰብቆ ፡ ሣር ፡",
+      "corrected_text": "ነ ፡ መንገኒጦስ ፡ የሚሉት ፡ እንደ ፡ ቁርበት ፡ ሐሊም ፡ ያለ ፡ ነው ። ሰብቆ ፡ ሣር ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቅርበት -> ቁርበት",
+      "reason": "The printed glyph has the 2nd-order (ካዕብ) right-side stroke of ቁ (ቁርበት, 'leather/hide'), which was misread as 6th-order ቅ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 18,
+      "old_text": "ማስተማር ፡ በሚወጡበት ፡ ጊዜ ፡ ምድረ ፡ ዕርእ ፡ ለቅዱስ ፡ ዮሐንስ ፡ ደርሳዋለች ፤",
+      "corrected_text": "ማስተማር ፡ በሚወጡበት ፡ ጊዜ ፡ ምድረ ፡ ዕስያ ፡ ለቅዱስ ፡ ዮሐንስ ፡ ደርሳዋለች ፤",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዕርእ -> ዕስያ",
+      "reason": "The image clearly prints ምድረ ፡ ዕስያ ('the land of Asia', St. John's apostolic lot in Asia Minor), where ስያ was misread as ርእ due to ink wear."
+    },
+    {
+      "column_index": 1,
+      "line_num": 26,
+      "old_text": "ውስ ፡ አርጤምስ ፡ ቢሏችሁ ፡ ምን ፡ ቁም ፡ ነገር ፡ ናቸው ፡ ጥንቱንም ፡ የዕለት ፡ ዐ",
+      "corrected_text": "ውስ ፡ አርጤምስ ፡ ቢሏችሁ ፡ ምን ፡ ቁም ፡ ነገር ፡ ናቸው ፡ ጥንቱንም ፡ የዕለተ ፡ ዐ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "የዕለት -> የዕለተ",
+      "reason": "The construct state form የዕለተ (before ዐርብ on the next line, matching የዕለተ ፡ ረቡዕ on line 28) is printed with 1st-order ተ, not 6th-order ት."
+    },
+    {
+      "column_index": 2,
+      "line_num": 19,
+      "old_text": "ተ ፡ ጸሐፍኩ ፡ እምሎዶቅያ ፡ እንዲል ። ይህስ ፡ እሱም ፡ እንደ ፡ መምህሩ ፡ ክባቴ ፡",
+      "corrected_text": "ተ ፡ ጸሐፍኩ ፡ እምሎዶቅያ ፡ እንዲል ። ይህስ ፡ እሱም ፡ እንደ ፡ መምህሩ ፡ ከባቴ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ክባቴ -> ከባቴ",
+      "reason": "The Ge'ez active participle phrase ከባቴ ፡ አበሳ ('one who conceals/covers transgression') begins with 1st-order ከ, which is clearly visible in the image without the 6th-order top-left bend of ክ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 21,
+      "old_text": "⟪ወእምዝ ፡ ርኢኩ ፡ ኆኅተ ፡ ርኅተ⟫ ፡ እስከሚለው ፡ ድረስ ፡ በየራሱ ፡ አድ",
+      "corrected_text": "⟪ወእምዝ ፡ ርኢኩ ፡ ኆኅተ ፡ ርኅውተ⟫ ፡ እስከሚለው ፡ ድረስ ፡ በየራሱ ፡ አድ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ርኅተ -> ርኅውተ",
+      "reason": "In the canonical Ge'ez quote of Rev 4:1 (ኆኅተ ፡ ርኅውተ, 'an open door'), the character ው between ኅ and ተ is clearly printed on the page but was omitted in Stage 1."
+    }
+  ]
+}

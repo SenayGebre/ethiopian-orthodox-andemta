@@ -1,0 +1,17 @@
+{
+  "pdf_page": 172,
+  "book_page_ethiopic": "፪፻፺፩",
+  "elapsed_sec": 9.6,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 9,
+      "old_text": "ነው ረቡ እስከ የወደቀβት ሐ↵",
+      "corrected_text": "ነው ረቡ እስከ የወደቀበት ሐ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "β -> በ",
+      "reason": "The Ethiopic character በ in የወደቀበት was misread as the Greek character β."
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "pdf_page": 52,
+  "book_page_ethiopic": "፫፻፸፩",
+  "elapsed_sec": 27.5,
+  "applied_count": 14,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 9,
+      "old_text": "⟪እስከ አንከሮ ጺላጦስ ።⟫",
+      "corrected_text": "⟪እስከ አንከሮ ጲላጦስ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጺ -> ጲ",
+      "reason": "The printed glyph is ጲ (Pait, three legs) in the proper name ጲላጦስ (Pilate), misread as ጺ (Tsadai)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 10,
+      "old_text": "ጺላጦስ እስኪያደንቀው ድረስ፤",
+      "corrected_text": "ጲላጦስ እስኪያደንቀው ድረስ፤",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጺ -> ጲ",
+      "reason": "The printed glyph is ጲ in ጲላጦስ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 21,
+      "old_text": "ከነፍሰ ገዳዮችና ከሽፋቶች",
+      "corrected_text": "ከነፍሰ ገዳዮችና ከሽፍቶች",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፋ -> ፍ",
+      "reason": "Both the image and Amharic plural noun morphology confirm 6th-order ፍ in ከሽፍቶች (bandits/rebels, plural of ሽፍታ), not 4th-order ፋ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 28,
+      "old_text": "⟪ወአውሥአ ጺላጦስ ።⟫",
+      "corrected_text": "⟪ወአውሥአ ጲላጦስ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጺ -> ጲ",
+      "reason": "The printed glyph is ጲ in ጲላጦስ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 29,
+      "old_text": "ጺላጦስም መለሰ ።",
+      "corrected_text": "ጲላጦስም መለሰ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጺ -> ጲ",
+      "reason": "The printed glyph is ጲ in ጲላጦስም."
+    },
+    {
+      "column_index": 2,
+      "line_num": 6,
+      "old_text": "⟪ወካዕበ አውሥአ ጺላጦስ⟫ ማቴ",
+      "corrected_text": "⟪ወካዕበ አውሥአ ጲላጦስ⟫ ማቴ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጺ -> ጲ",
+      "reason": "The printed glyph is ጲ in ጲላጦስ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 8,
+      "old_text": "ጺላጦስም ሁለተኛ ተናገረ ።",
+      "corrected_text": "ጲላጦስም ሁለተኛ ተናገረ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጺ -> ጲ",
+      "reason": "The printed glyph is ጲ in ጲላጦስም."
+    },
+    {
+      "column_index": 2,
+      "line_num": 17,
+      "old_text": "ጮሁ። ⟪ወይቤሎሙ ጺ↵",
+      "corrected_text": "ጮሁ። ⟪ወይቤሎሙ ጲ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጺ -> ጲ",
+      "reason": "The printed glyph at the end of the line is ጲ in ጲላጦስ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 19,
+      "old_text": "ጺላጦስም ምን ክፉ ሥራ ሠራ",
+      "corrected_text": "ጲላጦስም ምን ክፉ ሥራ ሠራ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጺ -> ጲ",
+      "reason": "The printed glyph is ጲ in ጲላጦስም."
+    },
+    {
+      "column_index": 2,
+      "line_num": 24,
+      "old_text": "⟪ወመከረ ጺላጦስ ይግበር ፈቃ↵",
+      "corrected_text": "⟪ወመከረ ጲላጦስ ይግበር ፈቃ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጺ -> ጲ",
+      "reason": "The printed glyph is ጲ in ጲላጦስ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 26,
+      "old_text": "ጺላጦስም የሕዝቡን ፈቃድ",
+      "corrected_text": "ጲላጦስም የሕዝቡን ፈቃድ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጺ -> ጲ",
+      "reason": "The printed glyph is ጲ in ጲላጦስም."
+    },
+    {
+      "column_index": 3,
+      "line_num": 8,
+      "old_text": "⟪ወይሳለቅዎ ።⟫ ዘበቱበት ።",
+      "corrected_text": "⟪ወይሣለቅዎ ።⟫ ዘበቱበት ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሳ -> ሣ",
+      "reason": "The printed Ge'ez verb uses ሠ (ወይሣለቅዎ, consistent with ተሣለቁ in Col 2 L34 and Col 3 L22)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 29,
+      "old_text": "⟪ወአበጡ ፩ደ ኃላፊ ፍኖት ስ↵",
+      "corrected_text": "⟪ወአበጡ ፩ደ ኃላፌ ፍኖት ስ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ፊ -> ፌ",
+      "reason": "Classical Ge'ez construct state requires 5th-order ፌ (ኃላፌ ፍኖት, 'passer-by of the way'), and the image shows the bottom loop of ፌ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 34,
+      "old_text": "ንዱን ከቀራንዮ ሰው ስምዖን↵",
+      "corrected_text": "ንዱን ከቀሬንዮ ሰው ስምዖን",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ራ -> ሬ",
+      "reason": "The image clearly shows the 5th-order loop on ሬ in ከቀሬንዮ (rendering ቀሬናዌ, Cyrene)."
+    }
+  ]
+}

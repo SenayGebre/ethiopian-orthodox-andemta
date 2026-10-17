@@ -1,0 +1,215 @@
+{
+  "pdf_page": 123,
+  "book_page_ethiopic": "፪፻፵፪",
+  "elapsed_sec": 32.6,
+  "applied_count": 23,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 28,
+      "old_text": "እንደሌፈው።ም፲ ቍ ፴፱ ።",
+      "corrected_text": "እንዳለፈው።ም፲ ቍ ፴፱ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ደሌ -> ዳለ",
+      "reason": "The standard Andemta cross-reference phrase is 'ትርጓሜ እንዳለፈው' (as the interpretation passed earlier in Ch 10 v 39); visually ዳለ is printed."
+    },
+    {
+      "column_index": 2,
+      "line_num": 1,
+      "old_text": "ምን በሰጠ ነበር ፤ ⟪ምንት እምእ⟫",
+      "corrected_text": "ምን በሰጠ ነበር ፤ ⟪ምንተ እምኢ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ት እምእ -> ተ እምኢ",
+      "reason": "In the alternative Ge'ez reading 'ምንተ እምኢወሀበ' (ምን እልስጥ ባለ ነበር), the printed glyphs are 1st-order ተ and 3rd-order ኢ wrapping into ወሀበ on the next line."
+    },
+    {
+      "column_index": 2,
+      "line_num": 2,
+      "old_text": "⟪ወሀበ⟫ ምን እልስጥ ባለ ነበር።",
+      "corrected_text": "ወሀበ⟫ ምን አልስጥ ባለ ነበር።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እልስጥ -> አልስጥ",
+      "reason": "First-person negative imperfective in Amharic 'ምን አልስጥ ባለ ነበር' (what would he have said I will not give), printed with 1st-order አ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 20,
+      "old_text": "ቱ ።⟫ ማር ፱ ፴፱።ሉቃ ፱ ፳ ።",
+      "corrected_text": "ቱ ።⟫ ማር ፰ ፴፱።ሉቃ ፱ ፳፯ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፱ -> ፰, ፳ -> ፳፯",
+      "reason": "The printed marginal cross-references are ማር ፰ ፴፱ (Mark 8:39 in Ge'ez numbering) and ሉቃ ፱ ፳፯ (Luke 9:27), where ፯ is visible after ፳."
+    },
+    {
+      "column_index": 2,
+      "line_num": 26,
+      "old_text": "ቦር አላለፈም ቢሉ የተመቸ አ↵",
+      "corrected_text": "ቦር አላለፉም ቢሉ የተመቸ አ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ፈ -> ፉ",
+      "reason": "Plural verb 'አላለፉም ቢሉ' referring to the three disciples at Debre Tabor, contrasting with 'አልፈዋል ቢሉ' in the next line."
+    },
+    {
+      "column_index": 2,
+      "line_num": 27,
+      "old_text": "ልፋዋል ቢሉ ዮሐንስን ያያል።",
+      "corrected_text": "ልፈዋል ቢሉ ዮሐንስን ያያል።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፋ -> ፈ",
+      "reason": "Amharic plural perfective 'አልፈዋል' (1st-order ፈ, not 4th-order ፋ)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 35,
+      "old_text": "ኃ እንተ በሕቲቶሙ።⟫ማር ፱ ፳",
+      "corrected_text": "ኃ እንተ በሕቲቶሙ።⟫ማር ፱ ፪",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፳ -> ፪",
+      "reason": "Canonical reference to the Transfiguration in Mark is ማር ፱ ፪ (Mark 9:2), and the printed numeral is ፪."
+    },
+    {
+      "column_index": 3,
+      "line_num": 1,
+      "old_text": "ር ያወጣዋል ። አማን እብለክ↵",
+      "corrected_text": "ር ያወጣዋል ። ⟪አማን እብለክ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አማን -> ⟪አማን",
+      "reason": "Ge'ez Gospel quotation from Matt 16:28 begins here and continues to line 6."
+    },
+    {
+      "column_index": 3,
+      "line_num": 6,
+      "old_text": "ይመጽእ በመንግሥቱ ብሎ ነ↵",
+      "corrected_text": "ይመጽእ በመንግሥቱ⟫ ብሎ ነ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በመንግሥቱ -> በመንግሥቱ⟫",
+      "reason": "End of the Ge'ez Gospel quotation."
+    },
+    {
+      "column_index": 3,
+      "line_num": 7,
+      "old_text": "በርና ከዚያ ለማይደዝ ፡ እሞታ↵",
+      "corrected_text": "በርና ከዚያ ለማይይዝ ፡ እሞታ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ደ -> ይ",
+      "reason": "Traditional Andemta idiom 'ከዚያ ለማይይዝ' (so as not to delay/hold back from that promise); the second glyph is ይ, not ደ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 9,
+      "old_text": "ሐሰ ለከ ብሎት ነበርና ሎቱ",
+      "corrected_text": "⟪ሐሰ ለከ⟫ ብሎት ነበርና ⟪ሎቱ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሐሰ -> ⟪ሐሰ",
+      "reason": "Ge'ez biblical quotations 'ሐሰ ለከ' (Matt 16:22) and 'ሎቱ ስምዕዎ' (Matt 17:5)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 10,
+      "old_text": "ስምዕዎ ለማለት በባሪያ ቃል",
+      "corrected_text": "ስምዕዎ⟫ ለማለት በባሪያ ቃል",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ስምዕዎ -> ስምዕዎ⟫",
+      "reason": "Closing tag for the Ge'ez quotation 'ሎቱ ስምዕዎ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 12,
+      "old_text": "ስመስከር።ከመ ፩ዱ እምነቢ↵",
+      "corrected_text": "ስመስከር።⟪ከመ ፩ዱ እምነቢ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከመ -> ⟪ከመ",
+      "reason": "Ge'ez quotation 'ከመ ፩ዱ እምነቢያት' (Matt 16:14)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 13,
+      "old_text": "ያት ብለውታልና ፡ እግዚአ ነቢ↵",
+      "corrected_text": "ያት⟫ ብለውታልና ፡ እግዚአ ነቢ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ያት -> ያት⟫",
+      "reason": "Closing tag for the Ge'ez quotation."
+    },
+    {
+      "column_index": 3,
+      "line_num": 16,
+      "old_text": "ሳርያ መነ ይብልዎ ሰብእ ለወ↵",
+      "corrected_text": "ሳርያ ⟪መነ ይብልዎ ሰብእ ለወ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "መነ -> ⟪መነ",
+      "reason": "Ge'ez quotation from Matt 16:13."
+    },
+    {
+      "column_index": 3,
+      "line_num": 17,
+      "old_text": "ልደ እመሕያው ባላቸው በሰ↵",
+      "corrected_text": "ልደ እመሕያው⟫ ባላቸው በሰ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እመሕያው -> እመሕያው⟫",
+      "reason": "Closing tag for the Ge'ez quotation."
+    },
+    {
+      "column_index": 3,
+      "line_num": 20,
+      "old_text": "ራ ይዟቸው ወጣ።ሐተታ ገ1↵",
+      "corrected_text": "ራ ይዟቸው ወጣ።ሐተታ ዝ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ገ1 -> ዝ",
+      "reason": "The word wrapping across L20-L21 is 'ዝቅ ብሎ ቢሆን' (contrasting with 'ከፍ ብሎ ቢሆን' in L22); the wide glyph ዝ was misread as 'ገ1'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 23,
+      "old_text": "ርና አመሀይ ቀን ሽቶ። ባለሟ↵",
+      "corrected_text": "ርና አማካይ ቀን ሽቶ። ባለሟ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "መሀ -> ማካ",
+      "reason": "The printed word is 'አማካይ ቀን ሽቶ' (seeking a middle/moderate number of days, neither too soon nor too late)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 24,
+      "old_text": "ሎቹሽ እነማናቸው ቢሉ ጌታ",
+      "corrected_text": "ሎቹስ እነማናቸው ቢሉ ጌታ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሽ -> ስ",
+      "reason": "Amharic topicalizing enclitic '-ስ' in 'ባለሟሎቹስ እነማናቸው ቢሉ'; visually ስ without top bar."
+    },
+    {
+      "column_index": 3,
+      "line_num": 35,
+      "old_text": "ደለምን ፡ እኒያስ አሐድነ በየማ↵",
+      "corrected_text": "ደለምን ፡ እኒያስ ⟪አሐዱነ በየማ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ድ -> ዱ",
+      "reason": "Ge'ez quotation from Matt 20:21 'አሐዱነ በየማንከ ወአሐዱነ በፀጋምከ' has 2nd-order ዱ (not 6th-order ድ)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 36,
+      "old_text": "ንከ ወአሐድነ በፀጋምከ ማለ↵",
+      "corrected_text": "ንከ ወአሐዱነ በፀጋምከ⟫ ማለ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ድ -> ዱ",
+      "reason": "Ge'ez quotation 'ወአሐዱነ በፀጋምከ' has 2nd-order ዱ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 37,
+      "old_text": "ታቸው ሹመት ሽልማት ሸተ↵",
+      "corrected_text": "ታቸው ሹመት ሽልማት ሽተ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሸ -> ሽ",
+      "reason": "Plural converb 'ሽተው' from 'ሻተ/ሽቶ' (matching 'ሽቶ' in L34); printed with 6th-order ሽ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 40,
+      "old_text": "ሳሳሉና በፍቅሩ ይናደዳሉና",
+      "corrected_text": "ሳሳሉና በፍቅሩ ይናደዳሉና↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ይናደዳሉና -> ይናደዳሉና↵",
+      "reason": "Continues onto the next page."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "pdf_page": 97,
+  "book_page_ethiopic": "፪፻፲፮",
+  "elapsed_sec": 20.3,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 8,
+      "old_text": "እላልሁምን አለው ፡ ዮናስ ማለት",
+      "corrected_text": "አላልሁምን አለው ፡ ዮናስ ማለት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እ -> አ",
+      "reason": "The initial character on this line is 1st-order አ ('አላልሁምን' — 'Did I not say so?'), misread as 6th-order እ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 21,
+      "old_text": "ቀር ያኑ አስተማረ ። ያገሩ",
+      "corrected_text": "ቀር ፆኑ አስተማረ ። ያገሩ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ያኑ -> ፆኑ",
+      "reason": "The printed word is archaic/Andemta gerund 'ፆኑ' ('having fasted, he taught'), where ፆ was visually misread as ያ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 29,
+      "old_text": "ከሳር ከውሀ አይሰማሩ ብሎ",
+      "corrected_text": "ከሣር ከውሀ አይሰማሩ ብሎ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሳ -> ሣ",
+      "reason": "The printed glyph is ሣ ('ከሣር'), misread as ሳ."
+    }
+  ]
+}

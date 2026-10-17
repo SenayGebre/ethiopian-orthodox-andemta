@@ -1,0 +1,44 @@
+{
+  "pdf_page": 2,
+  "book_page_ethiopic": "፫፻፶፪ | ፫፻፶፫",
+  "elapsed_sec": 22.6,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 6,
+      "old_text": "ኑ ፡ ብሎ ፡ በፊት ፡ በፊት ፡ እየመራ ፡ ይዟዋ",
+      "corrected_text": "ኑ ፡ ብሎ ፡ በፊት ፡ በፊት ፡ እየመራ ፡ ይዞዋ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዟ -> ዞ",
+      "reason": "The glyph printed is 7th-order ዞ (ይዞዋቸው), not ዟ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 1,
+      "old_text": "⟪ወእሊናቲሰ ፡ ዘሥጋ ፡ የአምሩ ፥⟫",
+      "corrected_text": "⟪ወእለናቲሰ ፡ ዘሥጋ ፡ የአምሩ ፥⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሊ -> ለ",
+      "reason": "Both visually on the page and in Classical Ge'ez morphology (ወእለናቲሰ), the third character is 1st-order ለ, not 3rd-order ሊ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 17,
+      "old_text": "⟪ወበካሕዱ ፡ ለቆሬ ፡ ወእለ ፡ ምስሌሁ ፡ ተሐጉሉ ።⟫",
+      "corrected_text": "⟪ወበክሕዱ ፡ ለቆሬ ፡ ወእለ ፡ ምስሌሁ ፡ ተሐጉሉ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ካ -> ክ",
+      "reason": "The printed Ge'ez noun is በክሕዱ (6th-order ክ with top-left hook), matching standard Ge'ez morphology (ክሕድ)."
+    },
+    {
+      "column_index": 4,
+      "line_num": 1,
+      "old_text": "⟪ወዘእንበለ ፡ ፍርሀት ፡ ይሬእዩ ፡ ርእሶሙ ፥⟫",
+      "corrected_text": "⟪ወዘእንበለ ፡ ፍርሀት ፡ ይርእዩ ፡ ርእሶሙ ፥⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሬ -> ር",
+      "reason": "Visually on the page and in Ge'ez verbal morphology (ይርእዩ from ርእየ/ረአየ), the character is 6th-order ር without a 5th-order loop."
+    }
+  ]
+}

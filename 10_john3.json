@@ -1,0 +1,2831 @@
+{
+  "schema_version": "2.0.0",
+  "book_order": 10,
+  "book_key": "john3",
+  "category": "Catholic Epistle",
+  "title_geez": "መልእክተ ዮሐንስ ሣልስ አንድምታ ትርጓሜ",
+  "title_short_geez": "፫ ዮሐ",
+  "title_english": "Third Epistle of St. John Andemta Commentary (፫ኛ ዮሐንስ)",
+  "title_short_english": "3 John",
+  "biranna_color_rules": {
+    "red_ink_hex": "#9e1b1b",
+    "black_ink_hex": "#1f1a14",
+    "red_categories": [
+      "geez_scripture",
+      "sacred_divine_name",
+      "sacred_mariology",
+      "sacred_saint_angel",
+      "andemta_rubric",
+      "rubric_numeral_punct"
+    ],
+    "black_categories": [
+      "amharic_commentary"
+    ]
+  },
+  "stats": {
+    "total_pdf_pages": 3,
+    "extracted_pages_count": 3,
+    "total_chapters": 1,
+    "total_verses": 16,
+    "total_diplomatic_lines": 224,
+    "total_topical_index_entries": 2,
+    "total_canon_table_pages": 0,
+    "total_stage2_corrections": 8,
+    "total_uncertain_apparatus_flags": 0,
+    "biranna_rubrication_counts": {
+      "amharic_commentary": 142,
+      "sacred_saint_angel": 4,
+      "rubric_numeral_punct": 85,
+      "geez_scripture": 38,
+      "andemta_rubric": 23,
+      "sacred_divine_name": 5
+    },
+    "total_exegetical_clauses": 39
+  },
+  "chapters": [
+    {
+      "id": "john3:1",
+      "book_key": "john3",
+      "chapter_num": 1,
+      "chapter_ethiopic": "፩",
+      "title_geez": "ምዕራፍ ፩ ።",
+      "geez_incipit": "እምነ ፡ ቀሲስ ፡ ለጋይዮስ ፡ ለእኍነ ፡ ዘአነ ፡ አፈቅር ፡ በጽድቅ ፥",
+      "amharic_incipit": "ከኔ ፡ ከቄሱ ፡ የተላከች ፡ ክታብ ፥",
+      "start_pdf_page": 1,
+      "start_book_page_ethiopic": "፻፺፱",
+      "chapter_topics": [
+        {
+          "topic_id": 1,
+          "chapter_num": 1,
+          "chapter_ethiopic": "፩",
+          "verse_num": 0,
+          "verse_ethiopic": "መቅድም",
+          "geez_title": "መልእክተ ፡ ዮሐንስ ፡ ሣልሲት ።",
+          "amharic_title": "መልእክተ ፡ ዮሐንስ ፡ ሣልሲት ። ሦስተኛዪቱ ፡ የዮሐንስ ፡ መልእክት ። ሦስተኛ ፡ ይጽፋል ፤ ጋይዮስ ፡ የሚባል ፡ ደግ፡ ሰው ፡ ነበረ፡ በ",
+          "index_pdf_page": 1,
+          "index_book_page_ethiopic": "፻፺፱"
+        },
+        {
+          "topic_id": 2,
+          "chapter_num": 1,
+          "chapter_ethiopic": "፩",
+          "verse_num": 1,
+          "verse_ethiopic": "፩",
+          "geez_title": "እምነ ፡ ቀሲስ ፡ ለጋይዮስ ፡ ለእኍነ ፡ ዘአነ ፡ አፈቅር ፡ በጽድቅ ፥",
+          "amharic_title": "፩ ፤  ከኔ ፡ ከቄሱ ፡ የተላከች ፡ ክታብ ፥ ሐተታ ፡ እንደ ፡ ፪ኛው ፡ ክታብ ፡ ቍ ፡ ፩ ፡ ለኛ ፡ ለ ፡ አንድ ፡ ወገን ፡ ነው ፡ በሃ",
+          "index_pdf_page": 1,
+          "index_book_page_ethiopic": "፻፺፱"
+        }
+      ],
+      "verse_count": 16,
+      "verses": [
+        {
+          "id": "john3:1:0",
+          "book_key": "john3",
+          "chapter_num": 1,
+          "chapter_ethiopic": "፩",
+          "verse_num": 0,
+          "verse_ethiopic": "መቅድም",
+          "is_prologue": true,
+          "reference_geez": "መልእክተ ዮሐንስ ሣልስ አንድምታ ትርጓሜ — መቅድም",
+          "reference_short_geez": "፫ ዮሐ መቅድም",
+          "reference_english": "3 John Prologue",
+          "reference_arabic": "1:0",
+          "section_title": "መልእክተ ፡ ዮሐንስ ፡ ሣልሲት ።",
+          "linked_topics": [
+            {
+              "topic_id": 1,
+              "chapter_num": 1,
+              "chapter_ethiopic": "፩",
+              "verse_num": 0,
+              "verse_ethiopic": "መቅድም",
+              "geez_title": "መልእክተ ፡ ዮሐንስ ፡ ሣልሲት ።",
+              "amharic_title": "መልእክተ ፡ ዮሐንስ ፡ ሣልሲት ። ሦስተኛዪቱ ፡ የዮሐንስ ፡ መልእክት ። ሦስተኛ ፡ ይጽፋል ፤ ጋይዮስ ፡ የሚባል ፡ ደግ፡ ሰው ፡ ነበረ፡ በ",
+              "index_pdf_page": 1,
+              "index_book_page_ethiopic": "፻፺፱"
+            }
+          ],
+          "start_pdf_page": 1,
+          "start_book_page_ethiopic": "፻፺፱",
+          "geez_text": "",
+          "geez_root_text": "",
+          "geez_clauses": [],
+          "geez_root_lemmas": [],
+          "amharic_commentary_text": "መልእክተ ፡ ዮሐንስ ፡ ሣልሲት ። ሦስተኛዪቱ ፡ የዮሐንስ ፡ መልእክት ። ሦስተኛ ፡ ይጽፋል ፤ ጋይዮስ ፡ የሚባል ፡ ደግ፡ ሰው ፡ ነበረ፡ በቀላውዴዎስ፡ ቄሣር ፡ ጊዜ ፡ የተሰደዱትን ፡ እንግድነት ፡ እየተተቀበለ ፡ እያበላ ፡ እያጠጣ ፡ እያሳደረ ፡ ሥንቅ ፡ እየሰጠ ፡ እየሸኘ ፡ ይሰዳቸዋል ፤ ከማን ፡ አደራችሁ ፡ ከጋይዮስ ፡ ማን ፡ አበላችሁ ፡ ጋይዮስ ፡ ማን ፡ አጠጣችሁ ፡ ጋይዮስ ፡ እያሉ ፡ እያመሰገኑ ፡ ነግረውታል ፡ ይህን ፡ ሰምቶ ፡ ሲያመሰግን ፡ ጽፎ ፡ ይልክለታል ፤ (ምክንያት) ፡ ተፈሣሕኩ ፡ ጥቀ፡ ሶበ ፡ መጽኡ ፡ በል ፡ ቍ ፡ ፫ ። እምዛቲ ፡ ትፍሥሕት ፡ በል ፡ ቍ ፡ ፬ ። ኦ ፡ እኁየ ፡ በል ፡ ቍ ፡ ፭ ። ወዘንተ ፡ ሠናየ ፡ ግብረ ፡ በል ፡ ቍ ፡ ፮ ። ወጸሐፍኩ ፡ ዘንተ፡ ለቤተ ፡ ክርስቲያን ፡ በል ፡ ቍ ፡ ፱ ። ኦ፡ እኁየ ፡ ኢትኩን ፡ ከመ ፡ ገባሬ ፡ እኪት ፡ በል ፡ ቍ ፡ ፲፩ ። ወበእንተ ፡ ድሜጥሮስኒ ፡ በል ፡ ቍ ፡ ፲፪ ። ወብዙኀ ፡ ብየ ፡ በል ፡ ቍ ፡ ፲፫ ። ወአምኀ ፡ ቢጸነ ፡ በበአስማቲሆሙ ፡ በል ፡ ቍ ፡ ፲፭ ፤ የጻፈበት ፡ ሀገር ፡ በመካከል ፡ ክታብ ፡ ወሳጅ ፡ የለም ።",
+          "clause_by_clause": [
+            {
+              "clause_index": 1,
+              "geez_lemma": "",
+              "amharic_explanation": "መልእክተ ፡ ዮሐንስ ፡ ሣልሲት ። ሦስተኛዪቱ ፡ የዮሐንስ ፡ መልእክት ። ሦስተኛ ፡ ይጽፋል ፤ ጋይዮስ ፡ የሚባል ፡ ደግ፡ ሰው ፡ ነበረ፡ በቀላውዴዎስ፡ ቄሣር ፡ ጊዜ ፡ የተሰደዱትን ፡ እንግድነት ፡ እየተተቀበለ ፡ እያበላ ፡ እያጠጣ ፡ እያሳደረ ፡ ሥንቅ ፡ እየሰጠ ፡ እየሸኘ ፡ ይሰዳቸዋል ፤ ከማን ፡ አደራችሁ ፡ ከጋይዮስ ፡ ማን ፡ አበላችሁ ፡ ጋይዮስ ፡ ማን ፡ አጠጣችሁ ፡ ጋይዮስ ፡ እያሉ ፡ እያመሰገኑ ፡ ነግረውታል ፡ ይህን ፡ ሰምቶ ፡ ሲያመሰግን ፡ ጽፎ ፡ ይልክለታል ፤ (ምክንያት) ፡ ተፈሣሕኩ ፡ ጥቀ፡ ሶበ ፡ መጽኡ ፡ በል ፡ ቍ ፡ ፫ ። እምዛቲ ፡ ትፍሥሕት ፡ በል ፡ ቍ ፡ ፬ ። ኦ ፡ እኁየ ፡ በል ፡ ቍ ፡ ፭ ። ወዘንተ ፡ ሠናየ ፡ ግብረ ፡ በል ፡ ቍ ፡ ፮ ። ወጸሐፍኩ ፡ ዘንተ፡ ለቤተ ፡ ክርስቲያን ፡ በል ፡ ቍ ፡ ፱ ። ኦ፡ እኁየ ፡ ኢትኩን ፡ ከመ ፡ ገባሬ ፡ እኪት ፡ በል ፡ ቍ ፡ ፲፩ ። ወበእንተ ፡ ድሜጥሮስኒ ፡ በል ፡ ቍ ፡ ፲፪ ። ወብዙኀ ፡ ብየ ፡ በል ፡ ቍ ፡ ፲፫ ። ወአምኀ ፡ ቢጸነ ፡ በበአስማቲሆሙ ፡ በል ፡ ቍ ፡ ፲፭ ፤ የጻፈበት ፡ ሀገር ፡ በመካከል ፡ ክታብ ፡ ወሳጅ ፡ የለም ።",
+              "primary_interpretation": "መልእክተ ፡ ዮሐንስ ፡ ሣልሲት ። ሦስተኛዪቱ ፡ የዮሐንስ ፡ መልእክት ። ሦስተኛ ፡ ይጽፋል ፤ ጋይዮስ ፡ የሚባል ፡ ደግ፡ ሰው ፡ ነበረ፡ በቀላውዴዎስ፡ ቄሣር ፡ ጊዜ ፡ የተሰደዱትን ፡ እንግድነት ፡ እየተተቀበለ ፡ እያበላ ፡ እያጠጣ ፡ እያሳደረ ፡ ሥንቅ ፡ እየሰጠ ፡ እየሸኘ ፡ ይሰዳቸዋል ፤ ከማን ፡ አደራችሁ ፡ ከጋይዮስ ፡ ማን ፡ አበላችሁ ፡ ጋይዮስ ፡ ማን ፡ አጠጣችሁ ፡ ጋይዮስ ፡ እያሉ ፡ እያመሰገኑ ፡ ነግረውታል ፡ ይህን ፡ ሰምቶ ፡ ሲያመሰግን ፡ ጽፎ ፡ ይልክለታል ፤ (ምክንያት) ፡ ተፈሣሕኩ ፡ ጥቀ፡ ሶበ ፡ መጽኡ ፡ በል ፡ ቍ ፡ ፫ ። እምዛቲ ፡ ትፍሥሕት ፡ በል ፡ ቍ ፡ ፬ ። ኦ ፡ እኁየ ፡ በል ፡ ቍ ፡ ፭ ። ወዘንተ ፡ ሠናየ ፡ ግብረ ፡ በል ፡ ቍ ፡ ፮ ። ወጸሐፍኩ ፡ ዘንተ፡ ለቤተ ፡ ክርስቲያን ፡ በል ፡ ቍ ፡ ፱ ። ኦ፡ እኁየ ፡ ኢትኩን ፡ ከመ ፡ ገባሬ ፡ እኪት ፡ በል ፡ ቍ ፡ ፲፩ ። ወበእንተ ፡ ድሜጥሮስኒ ፡ በል ፡ ቍ ፡ ፲፪ ። ወብዙኀ ፡ ብየ ፡ በል ፡ ቍ ፡ ፲፫ ። ወአምኀ ፡ ቢጸነ ፡ በበአስማቲሆሙ ፡ በል ፡ ቍ ፡ ፲፭ ፤ የጻፈበት ፡ ሀገር ፡ በመካከል ፡ ክታብ ፡ ወሳጅ ፡ የለም ።",
+              "andem_interpretations": [],
+              "hateta_explanations": []
+            }
+          ],
+          "biranna_spans": [
+            {
+              "text": "መልእክተ ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "ዮሐንስ",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "sacred_saint_angel"
+            },
+            {
+              "text": " ፡ ሣልሲት ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ሦስተኛዪቱ ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "የዮሐንስ",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "sacred_saint_angel"
+            },
+            {
+              "text": " ፡ መልእክት ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ሦስተኛ ፡ ይጽፋል ፤ ጋይዮስ ፡ የሚባል ፡ ደግ፡ ሰው ፡ ነበረ፡ በቀላውዴዎስ፡ ቄሣር ፡ ጊዜ ፡ የተሰደዱትን ፡ እንግድነት ፡ እየተተቀበለ ፡ እያበላ ፡ እያጠጣ ፡ እያሳደረ ፡ ሥንቅ ፡ እየሰጠ ፡ እየሸኘ ፡ ይሰዳቸዋል ፤ ከማን ፡ አደራችሁ ፡ ከጋይዮስ ፡ ማን ፡ አበላችሁ ፡ ጋይዮስ ፡ ማን ፡ አጠጣችሁ ፡ ጋይዮስ ፡ እያሉ ፡ እያመሰገኑ ፡ ነግረውታል ፡ ይህን ፡ ሰምቶ ፡ ሲያመሰግን ፡ ጽፎ ፡ ይልክለታል ፤ (ምክንያት) ፡ ተፈሣሕኩ ፡ ጥቀ፡ ሶበ ፡ መጽኡ ፡ በል ፡ ቍ ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "፫",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " እምዛቲ ፡ ትፍሥሕት ፡ በል ፡ ቍ ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "፬",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ኦ ፡ እኁየ ፡ በል ፡ ቍ ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "፭",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ወዘንተ ፡ ሠናየ ፡ ግብረ ፡ በል ፡ ቍ ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "፮",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ወጸሐፍኩ ፡ ዘንተ፡ ለቤተ ፡ ክርስቲያን ፡ በል ፡ ቍ ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "፱",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ኦ፡ እኁየ ፡ ኢትኩን ፡ ከመ ፡ ገባሬ ፡ እኪት ፡ በል ፡ ቍ ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "፲፩",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ወበእንተ ፡ ድሜጥሮስኒ ፡ በል ፡ ቍ ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "፲፪",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ወብዙኀ ፡ ብየ ፡ በል ፡ ቍ ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "፲፫",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ወአምኀ ፡ ቢጸነ ፡ በበአስማቲሆሙ ፡ በል ፡ ቍ ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "፲፭",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ፤ የጻፈበት ፡ ሀገር ፡ በመካከል ፡ ክታብ ፡ ወሳጅ ፡ የለም ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            }
+          ],
+          "rejoined_marked_text": "መልእክተ ፡ ዮሐንስ ፡ ሣልሲት ። ሦስተኛዪቱ ፡ የዮሐንስ ፡ መልእክት ። ሦስተኛ ፡ ይጽፋል ፤ ጋይዮስ ፡ የሚባል ፡ ደግ፡ ሰው ፡ ነበረ፡ በቀላውዴዎስ፡ ቄሣር ፡ ጊዜ ፡ የተሰደዱትን ፡ እንግድነት ፡ እየተተቀበለ ፡ እያበላ ፡ እያጠጣ ፡ እያሳደረ ፡ ሥንቅ ፡ እየሰጠ ፡ እየሸኘ ፡ ይሰዳቸዋል ፤ ከማን ፡ አደራችሁ ፡ ከጋይዮስ ፡ ማን ፡ አበላችሁ ፡ ጋይዮስ ፡ ማን ፡ አጠጣችሁ ፡ ጋይዮስ ፡ እያሉ ፡ እያመሰገኑ ፡ ነግረውታል ፡ ይህን ፡ ሰምቶ ፡ ሲያመሰግን ፡ ጽፎ ፡ ይልክለታል ፤ (ምክንያት) ፡ ተፈሣሕኩ ፡ ጥቀ፡ ሶበ ፡ መጽኡ ፡ በል ፡ ቍ ፡ ፫ ። እምዛቲ ፡ ትፍሥሕት ፡ በል ፡ ቍ ፡ ፬ ። ኦ ፡ እኁየ ፡ በል ፡ ቍ ፡ ፭ ። ወዘንተ ፡ ሠናየ ፡ ግብረ ፡ በል ፡ ቍ ፡ ፮ ። ወጸሐፍኩ ፡ ዘንተ፡ ለቤተ ፡ ክርስቲያን ፡ በል ፡ ቍ ፡ ፱ ። ኦ፡ እኁየ ፡ ኢትኩን ፡ ከመ ፡ ገባሬ ፡ እኪት ፡ በል ፡ ቍ ፡ ፲፩ ። ወበእንተ ፡ ድሜጥሮስኒ ፡ በል ፡ ቍ ፡ ፲፪ ። ወብዙኀ ፡ ብየ ፡ በል ፡ ቍ ፡ ፲፫ ። ወአምኀ ፡ ቢጸነ ፡ በበአስማቲሆሙ ፡ በል ፡ ቍ ፡ ፲፭ ፤ የጻፈበት ፡ ሀገር ፡ በመካከል ፡ ክታብ ፡ ወሳጅ ፡ የለም ።",
+          "rejoined_plain_text": "መልእክተ ፡ ዮሐንስ ፡ ሣልሲት ። ሦስተኛዪቱ ፡ የዮሐንስ ፡ መልእክት ። ሦስተኛ ፡ ይጽፋል ፤ ጋይዮስ ፡ የሚባል ፡ ደግ፡ ሰው ፡ ነበረ፡ በቀላውዴዎስ፡ ቄሣር ፡ ጊዜ ፡ የተሰደዱትን ፡ እንግድነት ፡ እየተተቀበለ ፡ እያበላ ፡ እያጠጣ ፡ እያሳደረ ፡ ሥንቅ ፡ እየሰጠ ፡ እየሸኘ ፡ ይሰዳቸዋል ፤ ከማን ፡ አደራችሁ ፡ ከጋይዮስ ፡ ማን ፡ አበላችሁ ፡ ጋይዮስ ፡ ማን ፡ አጠጣችሁ ፡ ጋይዮስ ፡ እያሉ ፡ እያመሰገኑ ፡ ነግረውታል ፡ ይህን ፡ ሰምቶ ፡ ሲያመሰግን ፡ ጽፎ ፡ ይልክለታል ፤ (ምክንያት) ፡ ተፈሣሕኩ ፡ ጥቀ፡ ሶበ ፡ መጽኡ ፡ በል ፡ ቍ ፡ ፫ ። እምዛቲ ፡ ትፍሥሕት ፡ በል ፡ ቍ ፡ ፬ ። ኦ ፡ እኁየ ፡ በል ፡ ቍ ፡ ፭ ። ወዘንተ ፡ ሠናየ ፡ ግብረ ፡ በል ፡ ቍ ፡ ፮ ። ወጸሐፍኩ ፡ ዘንተ፡ ለቤተ ፡ ክርስቲያን ፡ በል ፡ ቍ ፡ ፱ ። ኦ፡ እኁየ ፡ ኢትኩን ፡ ከመ ፡ ገባሬ ፡ እኪት ፡ በል ፡ ቍ ፡ ፲፩ ። ወበእንተ ፡ ድሜጥሮስኒ ፡ በል ፡ ቍ ፡ ፲፪ ። ወብዙኀ ፡ ብየ ፡ በል ፡ ቍ ፡ ፲፫ ። ወአምኀ ፡ ቢጸነ ፡ በበአስማቲሆሙ ፡ በል ፡ ቍ ፡ ፲፭ ፤ የጻፈበት ፡ ሀገር ፡ በመካከል ፡ ክታብ ፡ ወሳጅ ፡ የለም ።"
+        },
+        {
+          "id": "john3:1:1",
+          "book_key": "john3",
+          "chapter_num": 1,
+          "chapter_ethiopic": "፩",
+          "verse_num": 1,
+          "verse_ethiopic": "፩",
+          "is_prologue": false,
+          "reference_geez": "ምዕራፍ ፩ ፥ ቍጥር ፩",
+          "reference_short_geez": "፫ ዮሐ ፩፥፩",
+          "reference_english": "3 John 1:1",
+          "reference_arabic": "1:1",
+          "section_title": null,
+          "linked_topics": [
+            {
+              "topic_id": 2,
+              "chapter_num": 1,
+              "chapter_ethiopic": "፩",
+              "verse_num": 1,
+              "verse_ethiopic": "፩",
+              "geez_title": "እምነ ፡ ቀሲስ ፡ ለጋይዮስ ፡ ለእኍነ ፡ ዘአነ ፡ አፈቅር ፡ በጽድቅ ፥",
+              "amharic_title": "፩ ፤  ከኔ ፡ ከቄሱ ፡ የተላከች ፡ ክታብ ፥ ሐተታ ፡ እንደ ፡ ፪ኛው ፡ ክታብ ፡ ቍ ፡ ፩ ፡ ለኛ ፡ ለ ፡ አንድ ፡ ወገን ፡ ነው ፡ በሃ",
+              "index_pdf_page": 1,
+              "index_book_page_ethiopic": "፻፺፱"
+            }
+          ],
+          "start_pdf_page": 1,
+          "start_book_page_ethiopic": "፻፺፱",
+          "geez_text": "እምነ ፡ ቀሲስ ፡ ለጋይዮስ ፡ ለእኍነ ፡ ዘአነ ፡ አፈቅር ፡ በጽድቅ ፥",
+          "geez_root_text": "እምነ ፡ ቀሲስ ፡ ለጋይዮስ ፡ ለእኍነ ፡ ዘአነ ፡ አፈቅር ፡ በጽድቅ ፥",
+          "geez_clauses": [
+            "እምነ ፡ ቀሲስ ፡ ለጋይዮስ ፡ ለእኍነ ፡ ዘአነ ፡ አፈቅር ፡ በጽድቅ ፥"
+          ],
+          "geez_root_lemmas": [
+            "እምነ ፡ ቀሲስ ፡ ለጋይዮስ ፡ ለእኍነ ፡ ዘአነ ፡ አፈቅር ፡ በጽድቅ ፥"
+          ],
+          "amharic_commentary_text": "ከኔ ፡ ከቄሱ ፡ የተላከች ፡ ክታብ ፥ ሐተታ ፡ እንደ ፡ ፪ኛው ፡ ክታብ ፡ ቍ ፡ ፩ ፡ ለኛ ፡ ለ ፡ አንድ ፡ ወገን ፡ ነው ፡ በሃይማኖት ፡ ጸንቶ ፡ ምግባር ፡ ሲሠራ ፡ ቢገኝ ፡ ለምወደው ፡ ለወንድማችን ፡ ለጋይዮስ ፡ ትድረስለት ፡ ፪ ፡ ዮሐ ፡ ቍ ፡ ፩ ።",
+          "clause_by_clause": [
+            {
+              "clause_index": 1,
+              "geez_lemma": "እምነ ፡ ቀሲስ ፡ ለጋይዮስ ፡ ለእኍነ ፡ ዘአነ ፡ አፈቅር ፡ በጽድቅ ፥",
+              "amharic_explanation": "ከኔ ፡ ከቄሱ ፡ የተላከች ፡ ክታብ ፥ ሐተታ ፡ እንደ ፡ ፪ኛው ፡ ክታብ ፡ ቍ ፡ ፩ ፡ ለኛ ፡ ለ ፡ አንድ ፡ ወገን ፡ ነው ፡ በሃይማኖት ፡ ጸንቶ ፡ ምግባር ፡ ሲሠራ ፡ ቢገኝ ፡ ለምወደው ፡ ለወንድማችን ፡ ለጋይዮስ ፡ ትድረስለት ፡ ፪ ፡ ዮሐ ፡ ቍ ፡ ፩ ።",
+              "primary_interpretation": "ከኔ ፡ ከቄሱ ፡ የተላከች ፡ ክታብ ፥",
+              "andem_interpretations": [],
+              "hateta_explanations": [
+                "ሐተታ ፡ እንደ ፡ ፪ኛው ፡ ክታብ ፡ ቍ ፡ ፩ ፡ ለኛ ፡ ለ ፡ አንድ ፡ ወገን ፡ ነው ፡ በሃይማኖት ፡ ጸንቶ ፡ ምግባር ፡ ሲሠራ ፡ ቢገኝ ፡ ለምወደው ፡ ለወንድማችን ፡ ለጋይዮስ ፡ ትድረስለት ፡ ፪ ፡ ዮሐ ፡ ቍ ፡ ፩ ።"
+              ]
+            }
+          ],
+          "biranna_spans": [
+            {
+              "text": "እምነ ፡ ቀሲስ ፡ ለጋይዮስ ፡ ለእኍነ ፡ ዘአነ ፡ አፈቅር ፡ በጽድቅ ፥",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " ከኔ ፡ ከቄሱ ፡ የተላከች ፡ ክታብ ፥ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "ሐተታ",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "andemta_rubric"
+            },
+            {
+              "text": " ፡ እንደ ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "፪",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": "ኛው ፡ ክታብ ፡ ቍ ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "፩",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ፡ ለኛ ፡ ለ ፡ አንድ ፡ ወገን ፡ ነው ፡ በሃይማኖት ፡ ጸንቶ ፡ ምግባር ፡ ሲሠራ ፡ ቢገኝ ፡ ለምወደው ፡ ለወንድማችን ፡ ለጋይዮስ ፡ ትድረስለት ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "፪",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ፡ ዮሐ ፡ ቍ ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "፩",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            }
+          ],
+          "rejoined_marked_text": "⟪እምነ ፡ ቀሲስ ፡ ለጋይዮስ ፡ ለእኍነ ፡ ዘአነ ፡ አፈቅር ፡ በጽድቅ ፥⟫ ከኔ ፡ ከቄሱ ፡ የተላከች ፡ ክታብ ፥ ሐተታ ፡ እንደ ፡ ፪ኛው ፡ ክታብ ፡ ቍ ፡ ፩ ፡ ለኛ ፡ ለ ፡ አንድ ፡ ወገን ፡ ነው ፡ በሃይማኖት ፡ ጸንቶ ፡ ምግባር ፡ ሲሠራ ፡ ቢገኝ ፡ ለምወደው ፡ ለወንድማችን ፡ ለጋይዮስ ፡ ትድረስለት ፡ ፪ ፡ ዮሐ ፡ ቍ ፡ ፩ ።",
+          "rejoined_plain_text": "እምነ ፡ ቀሲስ ፡ ለጋይዮስ ፡ ለእኍነ ፡ ዘአነ ፡ አፈቅር ፡ በጽድቅ ፥ ከኔ ፡ ከቄሱ ፡ የተላከች ፡ ክታብ ፥ ሐተታ ፡ እንደ ፡ ፪ኛው ፡ ክታብ ፡ ቍ ፡ ፩ ፡ ለኛ ፡ ለ ፡ አንድ ፡ ወገን ፡ ነው ፡ በሃይማኖት ፡ ጸንቶ ፡ ምግባር ፡ ሲሠራ ፡ ቢገኝ ፡ ለምወደው ፡ ለወንድማችን ፡ ለጋይዮስ ፡ ትድረስለት ፡ ፪ ፡ ዮሐ ፡ ቍ ፡ ፩ ።"
+        },
+        {
+          "id": "john3:1:2",
+          "book_key": "john3",
+          "chapter_num": 1,
+          "chapter_ethiopic": "፩",
+          "verse_num": 2,
+          "verse_ethiopic": "፪",
+          "is_prologue": false,
+          "reference_geez": "ምዕራፍ ፩ ፥ ቍጥር ፪",
+          "reference_short_geez": "፫ ዮሐ ፩፥፪",
+          "reference_english": "3 John 1:2",
+          "reference_arabic": "1:2",
+          "section_title": null,
+          "linked_topics": [],
+          "start_pdf_page": 1,
+          "start_book_page_ethiopic": "፻፺፱",
+          "geez_text": "ኦ፡ እኁየ ፡ እስመ ፡ አነ ፡ በእንተ ፡ ኵሉ ፡ እጼሊ ፡ ለከ ። ፤ ከመ ፡ ትሠራሕ ፡ ፍኖትከ ፥ ፤ ወትሕየው ፡ በዘይኤድማ ፡ ለነፍስከ ፥",
+          "geez_root_text": "ኦ፡ እኁየ ፡ እስመ ፡ አነ ፡ በእንተ ፡ ኵሉ ፡ እጼሊ ፡ ለከ ። ፤ ከመ ፡ ትሠራሕ ፡ ፍኖትከ ፥ ፤ ወትሕየው ፡ በዘይኤድማ ፡ ለነፍስከ ፥",
+          "geez_clauses": [
+            "ኦ፡ እኁየ ፡ እስመ ፡ አነ ፡ በእንተ ፡ ኵሉ ፡ እጼሊ ፡ ለከ ።",
+            "ከመ ፡ ትሠራሕ ፡ ፍኖትከ ፥",
+            "ወትሕየው ፡ በዘይኤድማ ፡ ለነፍስከ ፥"
+          ],
+          "geez_root_lemmas": [
+            "ኦ፡ እኁየ ፡ እስመ ፡ አነ ፡ በእንተ ፡ ኵሉ ፡ እጼሊ ፡ ለከ ።",
+            "ከመ ፡ ትሠራሕ ፡ ፍኖትከ ፥",
+            "ወትሕየው ፡ በዘይኤድማ ፡ ለነፍስከ ፥"
+          ],
+          "amharic_commentary_text": "አባትህ ፡ ነኝና ፡ እጸልይልሃለሁ ። አንድም ፡ እጸልይልሃለሁ ፡ እኮን ፡ ሥራህ ፡ ትከናወን ፡ ዘንድ ። አንድም ፡ እጸልይልሃለሁና ፡ እንዲህ ፡ የምጸልይልህ ፡ ሥራህ ፡ ትከናወን ፡ ዘንድ ፡ ነው ፡ ልቡናህን ፡ ደስ ፡ በሚያሰኛት ፡ ግብር ፡ ጸንተህ ፡ ትኖር ፡ ዘንድ ።",
+          "clause_by_clause": [
+            {
+              "clause_index": 1,
+              "geez_lemma": "ኦ፡ እኁየ ፡ እስመ ፡ አነ ፡ በእንተ ፡ ኵሉ ፡ እጼሊ ፡ ለከ ።",
+              "amharic_explanation": "አባትህ ፡ ነኝና ፡ እጸልይልሃለሁ ። አንድም ፡ እጸልይልሃለሁ ፡ እኮን ፡",
+              "primary_interpretation": "አባትህ ፡ ነኝና ፡ እጸልይልሃለሁ ።",
+              "andem_interpretations": [
+                "አንድም ፡ እጸልይልሃለሁ ፡ እኮን ፡"
+              ],
+              "hateta_explanations": []
+            },
+            {
+              "clause_index": 2,
+              "geez_lemma": "ከመ ፡ ትሠራሕ ፡ ፍኖትከ ፥",
+              "amharic_explanation": "ሥራህ ፡ ትከናወን ፡ ዘንድ ። አንድም ፡ እጸልይልሃለሁና ፡ እንዲህ ፡ የምጸልይልህ ፡ ሥራህ ፡ ትከናወን ፡ ዘንድ ፡ ነው ፡",
+              "primary_interpretation": "ሥራህ ፡ ትከናወን ፡ ዘንድ ።",
+              "andem_interpretations": [
+                "አንድም ፡ እጸልይልሃለሁና ፡ እንዲህ ፡ የምጸልይልህ ፡ ሥራህ ፡ ትከናወን ፡ ዘንድ ፡ ነው ፡"
+              ],
+              "hateta_explanations": []
+            },
+            {
+              "clause_index": 3,
+              "geez_lemma": "ወትሕየው ፡ በዘይኤድማ ፡ ለነፍስከ ፥",
+              "amharic_explanation": "ልቡናህን ፡ ደስ ፡ በሚያሰኛት ፡ ግብር ፡ ጸንተህ ፡ ትኖር ፡ ዘንድ ።",
+              "primary_interpretation": "ልቡናህን ፡ ደስ ፡ በሚያሰኛት ፡ ግብር ፡ ጸንተህ ፡ ትኖር ፡ ዘንድ ።",
+              "andem_interpretations": [],
+              "hateta_explanations": []
+            }
+          ],
+          "biranna_spans": [
+            {
+              "text": "ኦ፡ እኁየ ፡ እስመ ፡ አነ ፡ በእንተ ፡ ኵሉ ፡ እጼሊ ፡ ለከ ።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " አባትህ ፡ ነኝና ፡ እጸልይልሃለሁ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "አንድም",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "andemta_rubric"
+            },
+            {
+              "text": " ፡ እጸልይልሃለሁ ፡ እኮን ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "ከመ ፡ ትሠራሕ ፡ ፍኖትከ ፥",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " ሥራህ ፡ ትከናወን ፡ ዘንድ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "አንድም",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "andemta_rubric"
+            },
+            {
+              "text": " ፡ እጸልይልሃለሁና ፡ እንዲህ ፡ የምጸልይልህ ፡ ሥራህ ፡ ትከናወን ፡ ዘንድ ፡ ነው ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "ወትሕየው ፡ በዘይኤድማ ፡ ለነፍስከ ፥",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " ልቡናህን ፡ ደስ ፡ በሚያሰኛት ፡ ግብር ፡ ጸንተህ ፡ ትኖር ፡ ዘንድ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            }
+          ],
+          "rejoined_marked_text": "⟪ኦ፡ እኁየ ፡ እስመ ፡ አነ ፡ በእንተ ፡ ኵሉ ፡ እጼሊ ፡ ለከ ።⟫ አባትህ ፡ ነኝና ፡ እጸልይልሃለሁ ። አንድም ፡ እጸልይልሃለሁ ፡ እኮን ፡ ⟪ከመ ፡ ትሠራሕ ፡ ፍኖትከ ፥⟫ ሥራህ ፡ ትከናወን ፡ ዘንድ ። አንድም ፡ እጸልይልሃለሁና ፡ እንዲህ ፡ የምጸልይልህ ፡ ሥራህ ፡ ትከናወን ፡ ዘንድ ፡ ነው ፡ ⟪ወትሕየው ፡ በዘይኤድማ ፡ ለነፍስከ ፥⟫ ልቡናህን ፡ ደስ ፡ በሚያሰኛት ፡ ግብር ፡ ጸንተህ ፡ ትኖር ፡ ዘንድ ።",
+          "rejoined_plain_text": "ኦ፡ እኁየ ፡ እስመ ፡ አነ ፡ በእንተ ፡ ኵሉ ፡ እጼሊ ፡ ለከ ። አባትህ ፡ ነኝና ፡ እጸልይልሃለሁ ። አንድም ፡ እጸልይልሃለሁ ፡ እኮን ፡ ከመ ፡ ትሠራሕ ፡ ፍኖትከ ፥ ሥራህ ፡ ትከናወን ፡ ዘንድ ። አንድም ፡ እጸልይልሃለሁና ፡ እንዲህ ፡ የምጸልይልህ ፡ ሥራህ ፡ ትከናወን ፡ ዘንድ ፡ ነው ፡ ወትሕየው ፡ በዘይኤድማ ፡ ለነፍስከ ፥ ልቡናህን ፡ ደስ ፡ በሚያሰኛት ፡ ግብር ፡ ጸንተህ ፡ ትኖር ፡ ዘንድ ።"
+        },
+        {
+          "id": "john3:1:3",
+          "book_key": "john3",
+          "chapter_num": 1,
+          "chapter_ethiopic": "፩",
+          "verse_num": 3,
+          "verse_ethiopic": "፫",
+          "is_prologue": false,
+          "reference_geez": "ምዕራፍ ፩ ፥ ቍጥር ፫",
+          "reference_short_geez": "፫ ዮሐ ፩፥፫",
+          "reference_english": "3 John 1:3",
+          "reference_arabic": "1:3",
+          "section_title": null,
+          "linked_topics": [],
+          "start_pdf_page": 1,
+          "start_book_page_ethiopic": "፻፺፱",
+          "geez_text": "ተፈሣሕኩ ፡ ጥቀ ፥ ፤ ሶበ ፡ መጽኡ ፡ አኀዊነ ፡ ወሰምዐ ፡ ኮኑ ፡ ላዕለ ፡ ተፋቅሮትከ ፡ ከመ ፡ በጽድቅ ፡ ተሐውር ፥",
+          "geez_root_text": "ተፈሣሕኩ ፡ ጥቀ ፥ ፤ ሶበ ፡ መጽኡ ፡ አኀዊነ ፡ ወሰምዐ ፡ ኮኑ ፡ ላዕለ ፡ ተፋቅሮትከ ፡ ከመ ፡ በጽድቅ ፡ ተሐውር ፥",
+          "geez_clauses": [
+            "ተፈሣሕኩ ፡ ጥቀ ፥",
+            "ሶበ ፡ መጽኡ ፡ አኀዊነ ፡ ወሰምዐ ፡ ኮኑ ፡ ላዕለ ፡ ተፋቅሮትከ ፡ ከመ ፡ በጽድቅ ፡ ተሐውር ፥"
+          ],
+          "geez_root_lemmas": [
+            "ተፈሣሕኩ ፡ ጥቀ ፥",
+            "ሶበ ፡ መጽኡ ፡ አኀዊነ ፡ ወሰምዐ ፡ ኮኑ ፡ ላዕለ ፡ ተፋቅሮትከ ፡ ከመ ፡ በጽድቅ ፡ ተሐውር ፥"
+          ],
+          "amharic_commentary_text": "እጅግ ፡ ፈጽሞ ፡ ደስ ፡ አለኝ ፡ ወንድሞቻችን ፡ መጥተው ፡ በሃይማኖት ፡ ጸንተህ ፡ ምግባር ፡ እንድትሠራ ፡ በመሰከሩልህ ፡ ጊዜ ፡ ደስ ፡ አለኝ ። ሐተታ ፡ ማን ፡ አበላችሁ ፡ ጋይዮስ ፡ ማን ፡ አጠጣችሁ ፡ ጋይዮስ ፡ እያሉ ፡ ሲነግሩት ፡ ደስ ፡ ይለዋልና ፡ ፪ ፡ ዮሐ ፡ ፬ ።",
+          "clause_by_clause": [
+            {
+              "clause_index": 1,
+              "geez_lemma": "ተፈሣሕኩ ፡ ጥቀ ፥",
+              "amharic_explanation": "እጅግ ፡ ፈጽሞ ፡ ደስ ፡ አለኝ ፡",
+              "primary_interpretation": "እጅግ ፡ ፈጽሞ ፡ ደስ ፡ አለኝ ፡",
+              "andem_interpretations": [],
+              "hateta_explanations": []
+            },
+            {
+              "clause_index": 2,
+              "geez_lemma": "ሶበ ፡ መጽኡ ፡ አኀዊነ ፡ ወሰምዐ ፡ ኮኑ ፡ ላዕለ ፡ ተፋቅሮትከ ፡ ከመ ፡ በጽድቅ ፡ ተሐውር ፥",
+              "amharic_explanation": "ወንድሞቻችን ፡ መጥተው ፡ በሃይማኖት ፡ ጸንተህ ፡ ምግባር ፡ እንድትሠራ ፡ በመሰከሩልህ ፡ ጊዜ ፡ ደስ ፡ አለኝ ። ሐተታ ፡ ማን ፡ አበላችሁ ፡ ጋይዮስ ፡ ማን ፡ አጠጣችሁ ፡ ጋይዮስ ፡ እያሉ ፡ ሲነግሩት ፡ ደስ ፡ ይለዋልና ፡ ፪ ፡ ዮሐ ፡ ፬ ።",
+              "primary_interpretation": "ወንድሞቻችን ፡ መጥተው ፡ በሃይማኖት ፡ ጸንተህ ፡ ምግባር ፡ እንድትሠራ ፡ በመሰከሩልህ ፡ ጊዜ ፡ ደስ ፡ አለኝ ።",
+              "andem_interpretations": [],
+              "hateta_explanations": [
+                "ሐተታ ፡ ማን ፡ አበላችሁ ፡ ጋይዮስ ፡ ማን ፡ አጠጣችሁ ፡ ጋይዮስ ፡ እያሉ ፡ ሲነግሩት ፡ ደስ ፡ ይለዋልና ፡ ፪ ፡ ዮሐ ፡ ፬ ።"
+              ]
+            }
+          ],
+          "biranna_spans": [
+            {
+              "text": "ተፈሣሕኩ ፡ ጥቀ ፥",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " እጅግ ፡ ፈጽሞ ፡ ደስ ፡ አለኝ ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "ሶበ ፡ መጽኡ ፡ አኀዊነ ፡ ወሰምዐ ፡ ኮኑ ፡ ላዕለ ፡ ተፋቅሮትከ ፡ ከመ ፡ በጽድቅ ፡ ተሐውር ፥",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " ወንድሞቻችን ፡ መጥተው ፡ በሃይማኖት ፡ ጸንተህ ፡ ምግባር ፡ እንድትሠራ ፡ በመሰከሩልህ ፡ ጊዜ ፡ ደስ ፡ አለኝ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "ሐተታ",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "andemta_rubric"
+            },
+            {
+              "text": " ፡ ማን ፡ አበላችሁ ፡ ጋይዮስ ፡ ማን ፡ አጠጣችሁ ፡ ጋይዮስ ፡ እያሉ ፡ ሲነግሩት ፡ ደስ ፡ ይለዋልና ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "፪",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ፡ ዮሐ ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "፬",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            }
+          ],
+          "rejoined_marked_text": "⟪ተፈሣሕኩ ፡ ጥቀ ፥⟫ እጅግ ፡ ፈጽሞ ፡ ደስ ፡ አለኝ ፡ ⟪ሶበ ፡ መጽኡ ፡ አኀዊነ ፡ ወሰምዐ ፡ ኮኑ ፡ ላዕለ ፡ ተፋቅሮትከ ፡ ከመ ፡ በጽድቅ ፡ ተሐውር ፥⟫ ወንድሞቻችን ፡ መጥተው ፡ በሃይማኖት ፡ ጸንተህ ፡ ምግባር ፡ እንድትሠራ ፡ በመሰከሩልህ ፡ ጊዜ ፡ ደስ ፡ አለኝ ። ሐተታ ፡ ማን ፡ አበላችሁ ፡ ጋይዮስ ፡ ማን ፡ አጠጣችሁ ፡ ጋይዮስ ፡ እያሉ ፡ ሲነግሩት ፡ ደስ ፡ ይለዋልና ፡ ፪ ፡ ዮሐ ፡ ፬ ።",
+          "rejoined_plain_text": "ተፈሣሕኩ ፡ ጥቀ ፥ እጅግ ፡ ፈጽሞ ፡ ደስ ፡ አለኝ ፡ ሶበ ፡ መጽኡ ፡ አኀዊነ ፡ ወሰምዐ ፡ ኮኑ ፡ ላዕለ ፡ ተፋቅሮትከ ፡ ከመ ፡ በጽድቅ ፡ ተሐውር ፥ ወንድሞቻችን ፡ መጥተው ፡ በሃይማኖት ፡ ጸንተህ ፡ ምግባር ፡ እንድትሠራ ፡ በመሰከሩልህ ፡ ጊዜ ፡ ደስ ፡ አለኝ ። ሐተታ ፡ ማን ፡ አበላችሁ ፡ ጋይዮስ ፡ ማን ፡ አጠጣችሁ ፡ ጋይዮስ ፡ እያሉ ፡ ሲነግሩት ፡ ደስ ፡ ይለዋልና ፡ ፪ ፡ ዮሐ ፡ ፬ ።"
+        },
+        {
+          "id": "john3:1:4",
+          "book_key": "john3",
+          "chapter_num": 1,
+          "chapter_ethiopic": "፩",
+          "verse_num": 4,
+          "verse_ethiopic": "፬",
+          "is_prologue": false,
+          "reference_geez": "ምዕራፍ ፩ ፥ ቍጥር ፬",
+          "reference_short_geez": "፫ ዮሐ ፩፥፬",
+          "reference_english": "3 John 1:4",
+          "reference_arabic": "1:4",
+          "section_title": null,
+          "linked_topics": [],
+          "start_pdf_page": 1,
+          "start_book_page_ethiopic": "፻፺፱",
+          "geez_text": "እምዛቲ ፡ ትፍሥሕት ፡ እንተ ፡ ተዐቢ ፡ አልብየ ፥ ፤ ከመ ፡ እስማዕ ፡ እንዘ ፡ በጽድቅ ፡ የሐውሩ ፡ ደቂቅየ ።",
+          "geez_root_text": "እምዛቲ ፡ ትፍሥሕት ፡ እንተ ፡ ተዐቢ ፡ አልብየ ፥ ፤ ከመ ፡ እስማዕ ፡ እንዘ ፡ በጽድቅ ፡ የሐውሩ ፡ ደቂቅየ ።",
+          "geez_clauses": [
+            "እምዛቲ ፡ ትፍሥሕት ፡ እንተ ፡ ተዐቢ ፡ አልብየ ፥",
+            "ከመ ፡ እስማዕ ፡ እንዘ ፡ በጽድቅ ፡ የሐውሩ ፡ ደቂቅየ ።"
+          ],
+          "geez_root_lemmas": [
+            "እምዛቲ ፡ ትፍሥሕት ፡ እንተ ፡ ተዐቢ ፡ አልብየ ፥",
+            "ከመ ፡ እስማዕ ፡ እንዘ ፡ በጽድቅ ፡ የሐውሩ ፡ ደቂቅየ ።"
+          ],
+          "amharic_commentary_text": "ከዚች ፡ የሚበልጥ ፡ ተድላ ፡ ደስታ ፡ የለኝም ፡ ዛቲ ፡ ትፍሥሕት ፡ ያለውን ፡ ከመ ፡ እስማዕ ፡ ብሎ ፡ አመጣው ፡ ልጆቼ ፡ በሃይማኖት ፡ ጸንተው ፡ ምግባር ፡ እንዲሠሩ ፡ እንድሰማ ፡ ከመሆን ። አንድም ፡ እንዲሠሩ ፡ ከመስማት ፡ የሚበልጥ ፡ ተድላ ፡ ደስታ ፡ የለኝም ፥",
+          "clause_by_clause": [
+            {
+              "clause_index": 1,
+              "geez_lemma": "እምዛቲ ፡ ትፍሥሕት ፡ እንተ ፡ ተዐቢ ፡ አልብየ ፥",
+              "amharic_explanation": "ከዚች ፡ የሚበልጥ ፡ ተድላ ፡ ደስታ ፡ የለኝም ፡",
+              "primary_interpretation": "ከዚች ፡ የሚበልጥ ፡ ተድላ ፡ ደስታ ፡ የለኝም ፡",
+              "andem_interpretations": [],
+              "hateta_explanations": []
+            },
+            {
+              "clause_index": 2,
+              "geez_lemma": "ከመ ፡ እስማዕ ፡ እንዘ ፡ በጽድቅ ፡ የሐውሩ ፡ ደቂቅየ ።",
+              "amharic_explanation": "ዛቲ ፡ ትፍሥሕት ፡ ያለውን ፡ ከመ ፡ እስማዕ ፡ ብሎ ፡ አመጣው ፡ ልጆቼ ፡ በሃይማኖት ፡ ጸንተው ፡ ምግባር ፡ እንዲሠሩ ፡ እንድሰማ ፡ ከመሆን ። አንድም ፡ እንዲሠሩ ፡ ከመስማት ፡ የሚበልጥ ፡ ተድላ ፡ ደስታ ፡ የለኝም ፥",
+              "primary_interpretation": "ዛቲ ፡ ትፍሥሕት ፡ ያለውን ፡ ከመ ፡ እስማዕ ፡ ብሎ ፡ አመጣው ፡ ልጆቼ ፡ በሃይማኖት ፡ ጸንተው ፡ ምግባር ፡ እንዲሠሩ ፡ እንድሰማ ፡ ከመሆን ።",
+              "andem_interpretations": [
+                "አንድም ፡ እንዲሠሩ ፡ ከመስማት ፡ የሚበልጥ ፡ ተድላ ፡ ደስታ ፡ የለኝም ፥"
+              ],
+              "hateta_explanations": []
+            }
+          ],
+          "biranna_spans": [
+            {
+              "text": "እምዛቲ ፡ ትፍሥሕት ፡ እንተ ፡ ተዐቢ ፡ አልብየ ፥",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " ከዚች ፡ የሚበልጥ ፡ ተድላ ፡ ደስታ ፡ የለኝም ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "ከመ ፡ እስማዕ ፡ እንዘ ፡ በጽድቅ ፡ የሐውሩ ፡ ደቂቅየ ።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " ዛቲ ፡ ትፍሥሕት ፡ ያለውን ፡ ከመ ፡ እስማዕ ፡ ብሎ ፡ አመጣው ፡ ልጆቼ ፡ በሃይማኖት ፡ ጸንተው ፡ ምግባር ፡ እንዲሠሩ ፡ እንድሰማ ፡ ከመሆን ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "አንድም",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "andemta_rubric"
+            },
+            {
+              "text": " ፡ እንዲሠሩ ፡ ከመስማት ፡ የሚበልጥ ፡ ተድላ ፡ ደስታ ፡ የለኝም ፥",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            }
+          ],
+          "rejoined_marked_text": "⟪እምዛቲ ፡ ትፍሥሕት ፡ እንተ ፡ ተዐቢ ፡ አልብየ ፥⟫ ከዚች ፡ የሚበልጥ ፡ ተድላ ፡ ደስታ ፡ የለኝም ፡ ⟪ከመ ፡ እስማዕ ፡ እንዘ ፡ በጽድቅ ፡ የሐውሩ ፡ ደቂቅየ ።⟫ ዛቲ ፡ ትፍሥሕት ፡ ያለውን ፡ ከመ ፡ እስማዕ ፡ ብሎ ፡ አመጣው ፡ ልጆቼ ፡ በሃይማኖት ፡ ጸንተው ፡ ምግባር ፡ እንዲሠሩ ፡ እንድሰማ ፡ ከመሆን ። አንድም ፡ እንዲሠሩ ፡ ከመስማት ፡ የሚበልጥ ፡ ተድላ ፡ ደስታ ፡ የለኝም ፥",
+          "rejoined_plain_text": "እምዛቲ ፡ ትፍሥሕት ፡ እንተ ፡ ተዐቢ ፡ አልብየ ፥ ከዚች ፡ የሚበልጥ ፡ ተድላ ፡ ደስታ ፡ የለኝም ፡ ከመ ፡ እስማዕ ፡ እንዘ ፡ በጽድቅ ፡ የሐውሩ ፡ ደቂቅየ ። ዛቲ ፡ ትፍሥሕት ፡ ያለውን ፡ ከመ ፡ እስማዕ ፡ ብሎ ፡ አመጣው ፡ ልጆቼ ፡ በሃይማኖት ፡ ጸንተው ፡ ምግባር ፡ እንዲሠሩ ፡ እንድሰማ ፡ ከመሆን ። አንድም ፡ እንዲሠሩ ፡ ከመስማት ፡ የሚበልጥ ፡ ተድላ ፡ ደስታ ፡ የለኝም ፥"
+        },
+        {
+          "id": "john3:1:5",
+          "book_key": "john3",
+          "chapter_num": 1,
+          "chapter_ethiopic": "፩",
+          "verse_num": 5,
+          "verse_ethiopic": "፭",
+          "is_prologue": false,
+          "reference_geez": "ምዕራፍ ፩ ፥ ቍጥር ፭",
+          "reference_short_geez": "፫ ዮሐ ፩፥፭",
+          "reference_english": "3 John 1:5",
+          "reference_arabic": "1:5",
+          "section_title": null,
+          "linked_topics": [],
+          "start_pdf_page": 1,
+          "start_book_page_ethiopic": "፻፺፱",
+          "geez_text": "ኦ፡ እኁየ ፡ እሙን ፡ ግብር ፡ ዘገበርከ ፡ ለአኀዊነ ፥",
+          "geez_root_text": "ኦ፡ እኁየ ፡ እሙን ፡ ግብር ፡ ዘገበርከ ፡ ለአኀዊነ ፥",
+          "geez_clauses": [
+            "ኦ፡ እኁየ ፡ እሙን ፡ ግብር ፡ ዘገበርከ ፡ ለአኀዊነ ፥"
+          ],
+          "geez_root_lemmas": [
+            "ኦ፡ እኁየ ፡ እሙን ፡ ግብር ፡ ዘገበርከ ፡ ለአኀዊነ ፥"
+          ],
+          "amharic_commentary_text": "ወንድሜ ፡ ለወንድሞቻችን ፡ ያደረግኸው ሥራ ፡ ደግ ፡ ነው ፡",
+          "clause_by_clause": [
+            {
+              "clause_index": 1,
+              "geez_lemma": "ኦ፡ እኁየ ፡ እሙን ፡ ግብር ፡ ዘገበርከ ፡ ለአኀዊነ ፥",
+              "amharic_explanation": "ወንድሜ ፡ ለወንድሞቻችን ፡ ያደረግኸው ሥራ ፡ ደግ ፡ ነው ፡",
+              "primary_interpretation": "ወንድሜ ፡ ለወንድሞቻችን ፡ ያደረግኸው ሥራ ፡ ደግ ፡ ነው ፡",
+              "andem_interpretations": [],
+              "hateta_explanations": []
+            }
+          ],
+          "biranna_spans": [
+            {
+              "text": "ኦ፡ እኁየ ፡ እሙን ፡ ግብር ፡ ዘገበርከ ፡ ለአኀዊነ ፥",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " ወንድሜ ፡ ለወንድሞቻችን ፡ ያደረግኸው ሥራ ፡ ደግ ፡ ነው ፡",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            }
+          ],
+          "rejoined_marked_text": "⟪ኦ፡ እኁየ ፡ እሙን ፡ ግብር ፡ ዘገበርከ ፡ ለአኀዊነ ፥⟫ ወንድሜ ፡ ለወንድሞቻችን ፡ ያደረግኸው ሥራ ፡ ደግ ፡ ነው ፡",
+          "rejoined_plain_text": "ኦ፡ እኁየ ፡ እሙን ፡ ግብር ፡ ዘገበርከ ፡ ለአኀዊነ ፥ ወንድሜ ፡ ለወንድሞቻችን ፡ ያደረግኸው ሥራ ፡ ደግ ፡ ነው ፡"
+        },
+        {
+          "id": "john3:1:6",
+          "book_key": "john3",
+          "chapter_num": 1,
+          "chapter_ethiopic": "፩",
+          "verse_num": 6,
+          "verse_ethiopic": "፮",
+          "is_prologue": false,
+          "reference_geez": "ምዕራፍ ፩ ፥ ቍጥር ፮",
+          "reference_short_geez": "፫ ዮሐ ፩፥፮",
+          "reference_english": "3 John 1:6",
+          "reference_arabic": "1:6",
+          "section_title": null,
+          "linked_topics": [],
+          "start_pdf_page": 1,
+          "start_book_page_ethiopic": "፻፺፱",
+          "geez_text": "ወከመ ፡ ዝንቱ ፡ ግብር ፡ ለነኪራን ፡ እለ ፡ ይከውኑ ፡ ለከ ፡ ሰምዐ ፡ ላዕለ ፡ ተፋቅሮትከ ፡ በቅድመ ፡ ቤተ ፡ ክርስቲያን ፥ ፤ ወዘንተ ፡ ሠናየ ፡ ግብረ ፡ ፈኖከ ፡ ቅድሜከ ፡ ዘይደሉ ፡ ለእግዚአብሔር ፥",
+          "geez_root_text": "ወከመ ፡ ዝንቱ ፡ ግብር ፡ ለነኪራን ፡ እለ ፡ ይከውኑ ፡ ለከ ፡ ሰምዐ ፡ ላዕለ ፡ ተፋቅሮትከ ፡ በቅድመ ፡ ቤተ ፡ ክርስቲያን ፥ ፤ ወዘንተ ፡ ሠናየ ፡ ግብረ ፡ ፈኖከ ፡ ቅድሜከ ፡ ዘይደሉ ፡ ለእግዚአብሔር ፥",
+          "geez_clauses": [
+            "ወከመ ፡ ዝንቱ ፡ ግብር ፡ ለነኪራን ፡ እለ ፡ ይከውኑ ፡ ለከ ፡ ሰምዐ ፡ ላዕለ ፡ ተፋቅሮትከ ፡ በቅድመ ፡ ቤተ ፡ ክርስቲያን ፥",
+            "ወዘንተ ፡ ሠናየ ፡ ግብረ ፡ ፈኖከ ፡ ቅድሜከ ፡ ዘይደሉ ፡ ለእግዚአብሔር ፥"
+          ],
+          "geez_root_lemmas": [
+            "ወከመ ፡ ዝንቱ ፡ ግብር ፡ ለነኪራን ፡ እለ ፡ ይከውኑ ፡ ለከ ፡ ሰምዐ ፡ ላዕለ ፡ ተፋቅሮትከ ፡ በቅድመ ፡ ቤተ ፡ ክርስቲያን ፥",
+            "ወዘንተ ፡ ሠናየ ፡ ግብረ ፡ ፈኖከ ፡ ቅድሜከ ፡ ዘይደሉ ፡ ለእግዚአብሔር ፥"
+          ],
+          "amharic_commentary_text": "ከሃይማኖት ፡ ከምግባር ፡ በአፍአ ፡ ባሉ ፡ ሰዎች ፡ ፊት ፡ ፍቅር ፡ መያዝህን ፡ ለሚመሰክሩልህ ፡ ለምእመናን ። አንድም ፡ መያዝህን ፡ በምእመናን ፡ ፊት ፡ ለሚመሰክሩልህ ፡ ሰዎች፡ እንዲህ ፡ ያለውን ፡ ሥራ ፡ ልትሠራ ፡ ይገባል ። አንድም ፡ ከመዝ ፡ ግበር ፡ እንዲህ ፡ ሥራ ፡ ለእግዚአብሔር ፡ የሚገባውን ፡ ይህን ፡ በጎውን ፡ ሥራ ፡ አስቀድመህ ፡ ሰደድህ ፡ ማለት ፡ ሠራህ ። ሐተታ ፡ ወደ ፡ ንጉሥ ፡ የሚሄድ ፡ ሰው ፡ አስቀድሞ ፡ ለንጉሥ ፡ የሚገባውን ፡ መልካሙን ፡ ዕቃ ፡ ይሰዳል ፡ ኋላ ፡ እሱ ፡ ይሄዳል ፡ ንጉሥ ፡ አክብሮ ፡ በባለሟልነት ፡ ይቀበለዋል ፥ እንደዚሁም ፡ በወዲሁ ፡ ሰጥተው ፡ መጽውተው ፡ በወዲያው ፡ ዋጋቸውን ፡ አግኝተው ፡ ይኖራሉና ። አንድም ፡ ወደ ፡ እግዚአብሔር ፡ ለመሄድ ፡ አስቀድመህ ፡ ይህን ፡ በጎ ፡ ሥራ ፡ ሠራህ ። ሐተታ ፡ ወደ ፡ ንጉሥ ፡ የሚሄድ ፡ ሰው ፡ አስቀድሞ ፡ ሥንቁን ፡ አሰናድቶ ፡ ይሰዳል ፡ ኋላ ፡ እሱ ፡ ሂዶ ፡ ያን ፡ እየበላ ፡ ነገሩን ፡ ይቆርጣል ፥ ወርቁ ፡ አንድ ፡ ነው ፡ ቲቶ ፡ ፫ ፥ ፲፫ ።",
+          "clause_by_clause": [
+            {
+              "clause_index": 1,
+              "geez_lemma": "ወከመ ፡ ዝንቱ ፡ ግብር ፡ ለነኪራን ፡ እለ ፡ ይከውኑ ፡ ለከ ፡ ሰምዐ ፡ ላዕለ ፡ ተፋቅሮትከ ፡ በቅድመ ፡ ቤተ ፡ ክርስቲያን ፥",
+              "amharic_explanation": "ከሃይማኖት ፡ ከምግባር ፡ በአፍአ ፡ ባሉ ፡ ሰዎች ፡ ፊት ፡ ፍቅር ፡ መያዝህን ፡ ለሚመሰክሩልህ ፡ ለምእመናን ። አንድም ፡ መያዝህን ፡ በምእመናን ፡ ፊት ፡ ለሚመሰክሩልህ ፡ ሰዎች፡ እንዲህ ፡ ያለውን ፡ ሥራ ፡ ልትሠራ ፡ ይገባል ። አንድም ፡ ከመዝ ፡ ግበር ፡ እንዲህ ፡ ሥራ ፡",
+              "primary_interpretation": "ከሃይማኖት ፡ ከምግባር ፡ በአፍአ ፡ ባሉ ፡ ሰዎች ፡ ፊት ፡ ፍቅር ፡ መያዝህን ፡ ለሚመሰክሩልህ ፡ ለምእመናን ።",
+              "andem_interpretations": [
+                "አንድም ፡ መያዝህን ፡ በምእመናን ፡ ፊት ፡ ለሚመሰክሩልህ ፡ ሰዎች፡ እንዲህ ፡ ያለውን ፡ ሥራ ፡ ልትሠራ ፡ ይገባል ።",
+                "አንድም ፡ ከመዝ ፡ ግበር ፡ እንዲህ ፡ ሥራ ፡"
+              ],
+              "hateta_explanations": []
+            },
+            {
+              "clause_index": 2,
+              "geez_lemma": "ወዘንተ ፡ ሠናየ ፡ ግብረ ፡ ፈኖከ ፡ ቅድሜከ ፡ ዘይደሉ ፡ ለእግዚአብሔር ፥",
+              "amharic_explanation": "ለእግዚአብሔር ፡ የሚገባውን ፡ ይህን ፡ በጎውን ፡ ሥራ ፡ አስቀድመህ ፡ ሰደድህ ፡ ማለት ፡ ሠራህ ። ሐተታ ፡ ወደ ፡ ንጉሥ ፡ የሚሄድ ፡ ሰው ፡ አስቀድሞ ፡ ለንጉሥ ፡ የሚገባውን ፡ መልካሙን ፡ ዕቃ ፡ ይሰዳል ፡ ኋላ ፡ እሱ ፡ ይሄዳል ፡ ንጉሥ ፡ አክብሮ ፡ በባለሟልነት ፡ ይቀበለዋል ፥ እንደዚሁም ፡ በወዲሁ ፡ ሰጥተው ፡ መጽውተው ፡ በወዲያው ፡ ዋጋቸውን ፡ አግኝተው ፡ ይኖራሉና ። አንድም ፡ ወደ ፡ እግዚአብሔር ፡ ለመሄድ ፡ አስቀድመህ ፡ ይህን ፡ በጎ ፡ ሥራ ፡ ሠራህ ። ሐተታ ፡ ወደ ፡ ንጉሥ ፡ የሚሄድ ፡ ሰው ፡ አስቀድሞ ፡ ሥንቁን ፡ አሰናድቶ ፡ ይሰዳል ፡ ኋላ ፡ እሱ ፡ ሂዶ ፡ ያን ፡ እየበላ ፡ ነገሩን ፡ ይቆርጣል ፥ ወርቁ ፡ አንድ ፡ ነው ፡ ቲቶ ፡ ፫ ፥ ፲፫ ።",
+              "primary_interpretation": "ለእግዚአብሔር ፡ የሚገባውን ፡ ይህን ፡ በጎውን ፡ ሥራ ፡ አስቀድመህ ፡ ሰደድህ ፡ ማለት ፡ ሠራህ ።",
+              "andem_interpretations": [
+                "አንድም ፡ ወደ ፡ እግዚአብሔር ፡ ለመሄድ ፡ አስቀድመህ ፡ ይህን ፡ በጎ ፡ ሥራ ፡ ሠራህ ።"
+              ],
+              "hateta_explanations": [
+                "ሐተታ ፡ ወደ ፡ ንጉሥ ፡ የሚሄድ ፡ ሰው ፡ አስቀድሞ ፡ ለንጉሥ ፡ የሚገባውን ፡ መልካሙን ፡ ዕቃ ፡ ይሰዳል ፡ ኋላ ፡ እሱ ፡ ይሄዳል ፡ ንጉሥ ፡ አክብሮ ፡ በባለሟልነት ፡ ይቀበለዋል ፥ እንደዚሁም ፡ በወዲሁ ፡ ሰጥተው ፡ መጽውተው ፡ በወዲያው ፡ ዋጋቸውን ፡ አግኝተው ፡ ይኖራሉና ።",
+                "ሐተታ ፡ ወደ ፡ ንጉሥ ፡ የሚሄድ ፡ ሰው ፡ አስቀድሞ ፡ ሥንቁን ፡ አሰናድቶ ፡ ይሰዳል ፡ ኋላ ፡ እሱ ፡ ሂዶ ፡ ያን ፡ እየበላ ፡ ነገሩን ፡ ይቆርጣል ፥ ወርቁ ፡ አንድ ፡ ነው ፡ ቲቶ ፡ ፫ ፥ ፲፫ ።"
+              ]
+            }
+          ],
+          "biranna_spans": [
+            {
+              "text": "ወከመ ፡ ዝንቱ ፡ ግብር ፡ ለነኪራን ፡ እለ ፡ ይከውኑ ፡ ለከ ፡ ሰምዐ ፡ ላዕለ ፡ ተፋቅሮትከ ፡ በቅድመ ፡ ቤተ ፡ ክርስቲያን ፥",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " ከሃይማኖት ፡ ከምግባር ፡ በአፍአ ፡ ባሉ ፡ ሰዎች ፡ ፊት ፡ ፍቅር ፡ መያዝህን ፡ ለሚመሰክሩልህ ፡ ለምእመናን ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "አንድም",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "andemta_rubric"
+            },
+            {
+              "text": " ፡ መያዝህን ፡ በምእመናን ፡ ፊት ፡ ለሚመሰክሩልህ ፡ ሰዎች፡ እንዲህ ፡ ያለውን ፡ ሥራ ፡ ልትሠራ ፡ ይገባል ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "አንድም",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "andemta_rubric"
+            },
+            {
+              "text": " ፡ ከመዝ ፡ ግበር ፡ እንዲህ ፡ ሥራ ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "ወዘንተ ፡ ሠናየ ፡ ግብረ ፡ ፈኖከ ፡ ቅድሜከ ፡ ዘይደሉ ፡ ለእግዚአብሔር ፥",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "ለእግዚአብሔር",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "sacred_divine_name"
+            },
+            {
+              "text": " ፡ የሚገባውን ፡ ይህን ፡ በጎውን ፡ ሥራ ፡ አስቀድመህ ፡ ሰደድህ ፡ ማለት ፡ ሠራህ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "ሐተታ",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "andemta_rubric"
+            },
+            {
+              "text": " ፡ ወደ ፡ ንጉሥ ፡ የሚሄድ ፡ ሰው ፡ አስቀድሞ ፡ ለንጉሥ ፡ የሚገባውን ፡ መልካሙን ፡ ዕቃ ፡ ይሰዳል ፡ ኋላ ፡ እሱ ፡ ይሄዳል ፡ ንጉሥ ፡ አክብሮ ፡ በባለሟልነት ፡ ይቀበለዋል ፥ እንደዚሁም ፡ በወዲሁ ፡ ሰጥተው ፡ መጽውተው ፡ በወዲያው ፡ ዋጋቸውን ፡ አግኝተው ፡ ይኖራሉና ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "አንድም",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "andemta_rubric"
+            },
+            {
+              "text": " ፡ ወደ ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "እግዚአብሔር",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "sacred_divine_name"
+            },
+            {
+              "text": " ፡ ለመሄድ ፡ አስቀድመህ ፡ ይህን ፡ በጎ ፡ ሥራ ፡ ሠራህ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "ሐተታ",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "andemta_rubric"
+            },
+            {
+              "text": " ፡ ወደ ፡ ንጉሥ ፡ የሚሄድ ፡ ሰው ፡ አስቀድሞ ፡ ሥንቁን ፡ አሰናድቶ ፡ ይሰዳል ፡ ኋላ ፡ እሱ ፡ ሂዶ ፡ ያን ፡ እየበላ ፡ ነገሩን ፡ ይቆርጣል ፥ ወርቁ ፡ አንድ ፡ ነው ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "ቲቶ",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "sacred_saint_angel"
+            },
+            {
+              "text": " ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "፫",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ፥ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "፲፫",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            }
+          ],
+          "rejoined_marked_text": "⟪ወከመ ፡ ዝንቱ ፡ ግብር ፡ ለነኪራን ፡ እለ ፡ ይከውኑ ፡ ለከ ፡ ሰምዐ ፡ ላዕለ ፡ ተፋቅሮትከ ፡ በቅድመ ፡ ቤተ ፡ ክርስቲያን ፥⟫ ከሃይማኖት ፡ ከምግባር ፡ በአፍአ ፡ ባሉ ፡ ሰዎች ፡ ፊት ፡ ፍቅር ፡ መያዝህን ፡ ለሚመሰክሩልህ ፡ ለምእመናን ። አንድም ፡ መያዝህን ፡ በምእመናን ፡ ፊት ፡ ለሚመሰክሩልህ ፡ ሰዎች፡ እንዲህ ፡ ያለውን ፡ ሥራ ፡ ልትሠራ ፡ ይገባል ። አንድም ፡ ከመዝ ፡ ግበር ፡ እንዲህ ፡ ሥራ ፡ ⟪ወዘንተ ፡ ሠናየ ፡ ግብረ ፡ ፈኖከ ፡ ቅድሜከ ፡ ዘይደሉ ፡ ለእግዚአብሔር ፥⟫ ለእግዚአብሔር ፡ የሚገባውን ፡ ይህን ፡ በጎውን ፡ ሥራ ፡ አስቀድመህ ፡ ሰደድህ ፡ ማለት ፡ ሠራህ ። ሐተታ ፡ ወደ ፡ ንጉሥ ፡ የሚሄድ ፡ ሰው ፡ አስቀድሞ ፡ ለንጉሥ ፡ የሚገባውን ፡ መልካሙን ፡ ዕቃ ፡ ይሰዳል ፡ ኋላ ፡ እሱ ፡ ይሄዳል ፡ ንጉሥ ፡ አክብሮ ፡ በባለሟልነት ፡ ይቀበለዋል ፥ እንደዚሁም ፡ በወዲሁ ፡ ሰጥተው ፡ መጽውተው ፡ በወዲያው ፡ ዋጋቸውን ፡ አግኝተው ፡ ይኖራሉና ። አንድም ፡ ወደ ፡ እግዚአብሔር ፡ ለመሄድ ፡ አስቀድመህ ፡ ይህን ፡ በጎ ፡ ሥራ ፡ ሠራህ ። ሐተታ ፡ ወደ ፡ ንጉሥ ፡ የሚሄድ ፡ ሰው ፡ አስቀድሞ ፡ ሥንቁን ፡ አሰናድቶ ፡ ይሰዳል ፡ ኋላ ፡ እሱ ፡ ሂዶ ፡ ያን ፡ እየበላ ፡ ነገሩን ፡ ይቆርጣል ፥ ወርቁ ፡ አንድ ፡ ነው ፡ ቲቶ ፡ ፫ ፥ ፲፫ ።",
+          "rejoined_plain_text": "ወከመ ፡ ዝንቱ ፡ ግብር ፡ ለነኪራን ፡ እለ ፡ ይከውኑ ፡ ለከ ፡ ሰምዐ ፡ ላዕለ ፡ ተፋቅሮትከ ፡ በቅድመ ፡ ቤተ ፡ ክርስቲያን ፥ ከሃይማኖት ፡ ከምግባር ፡ በአፍአ ፡ ባሉ ፡ ሰዎች ፡ ፊት ፡ ፍቅር ፡ መያዝህን ፡ ለሚመሰክሩልህ ፡ ለምእመናን ። አንድም ፡ መያዝህን ፡ በምእመናን ፡ ፊት ፡ ለሚመሰክሩልህ ፡ ሰዎች፡ እንዲህ ፡ ያለውን ፡ ሥራ ፡ ልትሠራ ፡ ይገባል ። አንድም ፡ ከመዝ ፡ ግበር ፡ እንዲህ ፡ ሥራ ፡ ወዘንተ ፡ ሠናየ ፡ ግብረ ፡ ፈኖከ ፡ ቅድሜከ ፡ ዘይደሉ ፡ ለእግዚአብሔር ፥ ለእግዚአብሔር ፡ የሚገባውን ፡ ይህን ፡ በጎውን ፡ ሥራ ፡ አስቀድመህ ፡ ሰደድህ ፡ ማለት ፡ ሠራህ ። ሐተታ ፡ ወደ ፡ ንጉሥ ፡ የሚሄድ ፡ ሰው ፡ አስቀድሞ ፡ ለንጉሥ ፡ የሚገባውን ፡ መልካሙን ፡ ዕቃ ፡ ይሰዳል ፡ ኋላ ፡ እሱ ፡ ይሄዳል ፡ ንጉሥ ፡ አክብሮ ፡ በባለሟልነት ፡ ይቀበለዋል ፥ እንደዚሁም ፡ በወዲሁ ፡ ሰጥተው ፡ መጽውተው ፡ በወዲያው ፡ ዋጋቸውን ፡ አግኝተው ፡ ይኖራሉና ። አንድም ፡ ወደ ፡ እግዚአብሔር ፡ ለመሄድ ፡ አስቀድመህ ፡ ይህን ፡ በጎ ፡ ሥራ ፡ ሠራህ ። ሐተታ ፡ ወደ ፡ ንጉሥ ፡ የሚሄድ ፡ ሰው ፡ አስቀድሞ ፡ ሥንቁን ፡ አሰናድቶ ፡ ይሰዳል ፡ ኋላ ፡ እሱ ፡ ሂዶ ፡ ያን ፡ እየበላ ፡ ነገሩን ፡ ይቆርጣል ፥ ወርቁ ፡ አንድ ፡ ነው ፡ ቲቶ ፡ ፫ ፥ ፲፫ ።"
+        },
+        {
+          "id": "john3:1:7",
+          "book_key": "john3",
+          "chapter_num": 1,
+          "chapter_ethiopic": "፩",
+          "verse_num": 7,
+          "verse_ethiopic": "፯",
+          "is_prologue": false,
+          "reference_geez": "ምዕራፍ ፩ ፥ ቍጥር ፯",
+          "reference_short_geez": "፫ ዮሐ ፩፥፯",
+          "reference_english": "3 John 1:7",
+          "reference_arabic": "1:7",
+          "section_title": null,
+          "linked_topics": [],
+          "start_pdf_page": 2,
+          "start_book_page_ethiopic": "፻፳፰ | ፻፳፱",
+          "geez_text": "እስመ ፡ በእንተ ፡ ስሙ ፡ ወፅኡ ፡ ወአልቦ ፡ ዘነሥኡ ፡ እምነ ፡ አሕዛብ ፥",
+          "geez_root_text": "እስመ ፡ በእንተ ፡ ስሙ ፡ ወፅኡ ፡ ወአልቦ ፡ ዘነሥኡ ፡ እምነ ፡ አሕዛብ ፥",
+          "geez_clauses": [
+            "እስመ ፡ በእንተ ፡ ስሙ ፡ ወፅኡ ፡ ወአልቦ ፡ ዘነሥኡ ፡ እምነ ፡ አሕዛብ ፥"
+          ],
+          "geez_root_lemmas": [
+            "እስመ ፡ በእንተ ፡ ስሙ ፡ ወፅኡ ፡ ወአልቦ ፡ ዘነሥኡ ፡ እምነ ፡ አሕዛብ ፥"
+          ],
+          "amharic_commentary_text": "ወፅኡ ፡ በእንተ ፡ ስሙ ፡ ወፅኡ ፡ እምአሕዛብ ፡ ብለህ ፡ ግጠም ፥ ስሙን ፡ ስለማስተማር ፥ ከሀገራቸው ፡ ወጥተዋልና ፡ (ወአልቦ ፡ ዘነሥኡ) ፡ አስተምረናል ፡ ብለውም ፡ ከአሕዛብ ፡ የተቀበሉት ፡ የለምና ። አንድም ፡ በስሙ ፡ ስላመኑ ፡ በስሙ ፡ ስለተጠሩ ፡ ስሙን ፡ ስላስተማሩ ፡ (ወፅኡ ፡ እምአሕዛብ) ፡ ከአሕዛብ ፡ ተለይተዋልና ፡ (ወአልቦ) ፡ የያዙትም ፡ ሥንቅ ፡ የለምና ፡ ማቴ ፡ ፲ ፥ ፰ ። ፪ ፡ ቆሮ ፡ ፱ ፥ ፲፪ ፥ ፲፭ ።",
+          "clause_by_clause": [
+            {
+              "clause_index": 1,
+              "geez_lemma": "እስመ ፡ በእንተ ፡ ስሙ ፡ ወፅኡ ፡ ወአልቦ ፡ ዘነሥኡ ፡ እምነ ፡ አሕዛብ ፥",
+              "amharic_explanation": "ወፅኡ ፡ በእንተ ፡ ስሙ ፡ ወፅኡ ፡ እምአሕዛብ ፡ ብለህ ፡ ግጠም ፥ ስሙን ፡ ስለማስተማር ፥ ከሀገራቸው ፡ ወጥተዋልና ፡ (ወአልቦ ፡ ዘነሥኡ) ፡ አስተምረናል ፡ ብለውም ፡ ከአሕዛብ ፡ የተቀበሉት ፡ የለምና ። አንድም ፡ በስሙ ፡ ስላመኑ ፡ በስሙ ፡ ስለተጠሩ ፡ ስሙን ፡ ስላስተማሩ ፡ (ወፅኡ ፡ እምአሕዛብ) ፡ ከአሕዛብ ፡ ተለይተዋልና ፡ (ወአልቦ) ፡ የያዙትም ፡ ሥንቅ ፡ የለምና ፡ ማቴ ፡ ፲ ፥ ፰ ። ፪ ፡ ቆሮ ፡ ፱ ፥ ፲፪ ፥ ፲፭ ።",
+              "primary_interpretation": "ወፅኡ ፡ በእንተ ፡ ስሙ ፡ ወፅኡ ፡ እምአሕዛብ ፡ ብለህ ፡ ግጠም ፥ ስሙን ፡ ስለማስተማር ፥ ከሀገራቸው ፡ ወጥተዋልና ፡ (ወአልቦ ፡ ዘነሥኡ) ፡ አስተምረናል ፡ ብለውም ፡ ከአሕዛብ ፡ የተቀበሉት ፡ የለምና ።",
+              "andem_interpretations": [
+                "አንድም ፡ በስሙ ፡ ስላመኑ ፡ በስሙ ፡ ስለተጠሩ ፡ ስሙን ፡ ስላስተማሩ ፡ (ወፅኡ ፡ እምአሕዛብ) ፡ ከአሕዛብ ፡ ተለይተዋልና ፡ (ወአልቦ) ፡ የያዙትም ፡ ሥንቅ ፡ የለምና ፡ ማቴ ፡ ፲ ፥ ፰ ። ፪ ፡ ቆሮ ፡ ፱ ፥ ፲፪ ፥ ፲፭ ።"
+              ],
+              "hateta_explanations": []
+            }
+          ],
+          "biranna_spans": [
+            {
+              "text": "እስመ ፡ በእንተ ፡ ስሙ ፡ ወፅኡ ፡ ወአልቦ ፡ ዘነሥኡ ፡ እምነ ፡ አሕዛብ ፥",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " ወፅኡ ፡ በእንተ ፡ ስሙ ፡ ወፅኡ ፡ እምአሕዛብ ፡ ብለህ ፡ ግጠም ፥ ስሙን ፡ ስለማስተማር ፥ ከሀገራቸው ፡ ወጥተዋልና ፡ (ወአልቦ ፡ ዘነሥኡ) ፡ አስተምረናል ፡ ብለውም ፡ ከአሕዛብ ፡ የተቀበሉት ፡ የለምና ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "አንድም",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "andemta_rubric"
+            },
+            {
+              "text": " ፡ በስሙ ፡ ስላመኑ ፡ በስሙ ፡ ስለተጠሩ ፡ ስሙን ፡ ስላስተማሩ ፡ (ወፅኡ ፡ እምአሕዛብ) ፡ ከአሕዛብ ፡ ተለይተዋልና ፡ (ወአልቦ) ፡ የያዙትም ፡ ሥንቅ ፡ የለምና ፡ ማቴ ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "፲",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ፥ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "፰",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "፪",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ፡ ቆሮ ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "፱",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ፥ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "፲፪",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ፥ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "፲፭",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            }
+          ],
+          "rejoined_marked_text": "⟪እስመ ፡ በእንተ ፡ ስሙ ፡ ወፅኡ ፡ ወአልቦ ፡ ዘነሥኡ ፡ እምነ ፡ አሕዛብ ፥⟫ ወፅኡ ፡ በእንተ ፡ ስሙ ፡ ወፅኡ ፡ እምአሕዛብ ፡ ብለህ ፡ ግጠም ፥ ስሙን ፡ ስለማስተማር ፥ ከሀገራቸው ፡ ወጥተዋልና ፡ (ወአልቦ ፡ ዘነሥኡ) ፡ አስተምረናል ፡ ብለውም ፡ ከአሕዛብ ፡ የተቀበሉት ፡ የለምና ። አንድም ፡ በስሙ ፡ ስላመኑ ፡ በስሙ ፡ ስለተጠሩ ፡ ስሙን ፡ ስላስተማሩ ፡ (ወፅኡ ፡ እምአሕዛብ) ፡ ከአሕዛብ ፡ ተለይተዋልና ፡ (ወአልቦ) ፡ የያዙትም ፡ ሥንቅ ፡ የለምና ፡ ማቴ ፡ ፲ ፥ ፰ ። ፪ ፡ ቆሮ ፡ ፱ ፥ ፲፪ ፥ ፲፭ ።",
+          "rejoined_plain_text": "እስመ ፡ በእንተ ፡ ስሙ ፡ ወፅኡ ፡ ወአልቦ ፡ ዘነሥኡ ፡ እምነ ፡ አሕዛብ ፥ ወፅኡ ፡ በእንተ ፡ ስሙ ፡ ወፅኡ ፡ እምአሕዛብ ፡ ብለህ ፡ ግጠም ፥ ስሙን ፡ ስለማስተማር ፥ ከሀገራቸው ፡ ወጥተዋልና ፡ (ወአልቦ ፡ ዘነሥኡ) ፡ አስተምረናል ፡ ብለውም ፡ ከአሕዛብ ፡ የተቀበሉት ፡ የለምና ። አንድም ፡ በስሙ ፡ ስላመኑ ፡ በስሙ ፡ ስለተጠሩ ፡ ስሙን ፡ ስላስተማሩ ፡ (ወፅኡ ፡ እምአሕዛብ) ፡ ከአሕዛብ ፡ ተለይተዋልና ፡ (ወአልቦ) ፡ የያዙትም ፡ ሥንቅ ፡ የለምና ፡ ማቴ ፡ ፲ ፥ ፰ ። ፪ ፡ ቆሮ ፡ ፱ ፥ ፲፪ ፥ ፲፭ ።"
+        },
+        {
+          "id": "john3:1:8",
+          "book_key": "john3",
+          "chapter_num": 1,
+          "chapter_ethiopic": "፩",
+          "verse_num": 8,
+          "verse_ethiopic": "፰",
+          "is_prologue": false,
+          "reference_geez": "ምዕራፍ ፩ ፥ ቍጥር ፰",
+          "reference_short_geez": "፫ ዮሐ ፩፥፰",
+          "reference_english": "3 John 1:8",
+          "reference_arabic": "1:8",
+          "section_title": null,
+          "linked_topics": [],
+          "start_pdf_page": 2,
+          "start_book_page_ethiopic": "፻፳፰ | ፻፳፱",
+          "geez_text": "ወንሕነሰ ፡ አኀዊነ ፡ ይደልወነ ፡ ንትቀበሎሙ፡ ለእለ ፡ ከመዝ ፡ ፤ ከመ ፡ ንኩን ፡ ሱታፌ ፡ ለጽድቅ ፡",
+          "geez_root_text": "ወንሕነሰ ፡ አኀዊነ ፡ ይደልወነ ፡ ንትቀበሎሙ፡ ለእለ ፡ ከመዝ ፡ ፤ ከመ ፡ ንኩን ፡ ሱታፌ ፡ ለጽድቅ ፡",
+          "geez_clauses": [
+            "ወንሕነሰ ፡ አኀዊነ ፡ ይደልወነ ፡ ንትቀበሎሙ፡ ለእለ ፡ ከመዝ ፡",
+            "ከመ ፡ ንኩን ፡ ሱታፌ ፡ ለጽድቅ ፡"
+          ],
+          "geez_root_lemmas": [
+            "ወንሕነሰ ፡ አኀዊነ ፡ ይደልወነ ፡ ንትቀበሎሙ፡ ለእለ ፡ ከመዝ ፡",
+            "ከመ ፡ ንኩን ፡ ሱታፌ ፡ ለጽድቅ ፡"
+          ],
+          "amharic_commentary_text": "ወንድሞቻችን ፡ እኛ ፡ ግን ፡ እንዲህ ፡ እንዲህ ፡ ያሉትን ፡ ልንቀበላቸው ፡ ይገባል ፡ ማለት ፡ ዘመድ ፡ ዘመድ ፡ ልንላቸው ፡ ይገባናል ፥ የወንጌል ። አንድም ፡ የክርስቶስ ፡ ተባባሮች ፡ እንሆን ፡ ዘንድ ። ሐተታ ፡ ጽድቅ ፡ አለው ፡ በግብሩ ፡ ዕብ ፡ ፲፫ ፥ ፪ ።",
+          "clause_by_clause": [
+            {
+              "clause_index": 1,
+              "geez_lemma": "ወንሕነሰ ፡ አኀዊነ ፡ ይደልወነ ፡ ንትቀበሎሙ፡ ለእለ ፡ ከመዝ ፡",
+              "amharic_explanation": "ወንድሞቻችን ፡ እኛ ፡ ግን ፡ እንዲህ ፡ እንዲህ ፡ ያሉትን ፡ ልንቀበላቸው ፡ ይገባል ፡ ማለት ፡ ዘመድ ፡ ዘመድ ፡ ልንላቸው ፡ ይገባናል ፥",
+              "primary_interpretation": "ወንድሞቻችን ፡ እኛ ፡ ግን ፡ እንዲህ ፡ እንዲህ ፡ ያሉትን ፡ ልንቀበላቸው ፡ ይገባል ፡ ማለት ፡ ዘመድ ፡ ዘመድ ፡ ልንላቸው ፡ ይገባናል ፥",
+              "andem_interpretations": [],
+              "hateta_explanations": []
+            },
+            {
+              "clause_index": 2,
+              "geez_lemma": "ከመ ፡ ንኩን ፡ ሱታፌ ፡ ለጽድቅ ፡",
+              "amharic_explanation": "የወንጌል ። አንድም ፡ የክርስቶስ ፡ ተባባሮች ፡ እንሆን ፡ ዘንድ ። ሐተታ ፡ ጽድቅ ፡ አለው ፡ በግብሩ ፡ ዕብ ፡ ፲፫ ፥ ፪ ።",
+              "primary_interpretation": "የወንጌል ።",
+              "andem_interpretations": [
+                "አንድም ፡ የክርስቶስ ፡ ተባባሮች ፡ እንሆን ፡ ዘንድ ።"
+              ],
+              "hateta_explanations": [
+                "ሐተታ ፡ ጽድቅ ፡ አለው ፡ በግብሩ ፡ ዕብ ፡ ፲፫ ፥ ፪ ።"
+              ]
+            }
+          ],
+          "biranna_spans": [
+            {
+              "text": "ወንሕነሰ ፡ አኀዊነ ፡ ይደልወነ ፡ ንትቀበሎሙ፡ ለእለ ፡ ከመዝ ፡",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " ወንድሞቻችን ፡ እኛ ፡ ግን ፡ እንዲህ ፡ እንዲህ ፡ ያሉትን ፡ ልንቀበላቸው ፡ ይገባል ፡ ማለት ፡ ዘመድ ፡ ዘመድ ፡ ልንላቸው ፡ ይገባናል ፥ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "ከመ ፡ ንኩን ፡ ሱታፌ ፡ ለጽድቅ ፡",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " የወንጌል ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "አንድም",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "andemta_rubric"
+            },
+            {
+              "text": " ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "የክርስቶስ",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "sacred_divine_name"
+            },
+            {
+              "text": " ፡ ተባባሮች ፡ እንሆን ፡ ዘንድ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "ሐተታ",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "andemta_rubric"
+            },
+            {
+              "text": " ፡ ጽድቅ ፡ አለው ፡ በግብሩ ፡ ዕብ ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "፲፫",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ፥ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "፪",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            }
+          ],
+          "rejoined_marked_text": "⟪ወንሕነሰ ፡ አኀዊነ ፡ ይደልወነ ፡ ንትቀበሎሙ፡ ለእለ ፡ ከመዝ ፡⟫ ወንድሞቻችን ፡ እኛ ፡ ግን ፡ እንዲህ ፡ እንዲህ ፡ ያሉትን ፡ ልንቀበላቸው ፡ ይገባል ፡ ማለት ፡ ዘመድ ፡ ዘመድ ፡ ልንላቸው ፡ ይገባናል ፥ ⟪ከመ ፡ ንኩን ፡ ሱታፌ ፡ ለጽድቅ ፡⟫ የወንጌል ። አንድም ፡ የክርስቶስ ፡ ተባባሮች ፡ እንሆን ፡ ዘንድ ። ሐተታ ፡ ጽድቅ ፡ አለው ፡ በግብሩ ፡ ዕብ ፡ ፲፫ ፥ ፪ ።",
+          "rejoined_plain_text": "ወንሕነሰ ፡ አኀዊነ ፡ ይደልወነ ፡ ንትቀበሎሙ፡ ለእለ ፡ ከመዝ ፡ ወንድሞቻችን ፡ እኛ ፡ ግን ፡ እንዲህ ፡ እንዲህ ፡ ያሉትን ፡ ልንቀበላቸው ፡ ይገባል ፡ ማለት ፡ ዘመድ ፡ ዘመድ ፡ ልንላቸው ፡ ይገባናል ፥ ከመ ፡ ንኩን ፡ ሱታፌ ፡ ለጽድቅ ፡ የወንጌል ። አንድም ፡ የክርስቶስ ፡ ተባባሮች ፡ እንሆን ፡ ዘንድ ። ሐተታ ፡ ጽድቅ ፡ አለው ፡ በግብሩ ፡ ዕብ ፡ ፲፫ ፥ ፪ ።"
+        },
+        {
+          "id": "john3:1:9",
+          "book_key": "john3",
+          "chapter_num": 1,
+          "chapter_ethiopic": "፩",
+          "verse_num": 9,
+          "verse_ethiopic": "፱",
+          "is_prologue": false,
+          "reference_geez": "ምዕራፍ ፩ ፥ ቍጥር ፱",
+          "reference_short_geez": "፫ ዮሐ ፩፥፱",
+          "reference_english": "3 John 1:9",
+          "reference_arabic": "1:9",
+          "section_title": null,
+          "linked_topics": [],
+          "start_pdf_page": 2,
+          "start_book_page_ethiopic": "፻፳፰ | ፻፳፱",
+          "geez_text": "ወጸሐፍኩ ፡ ዘንተ ፡ ለቤተ ፡ ክርስቲያን ፡ ወአቅደምኩ ፡ ፤ ወባሕቱ ፡ ዲዮጥራጥስሰ ፡ ዘይፈቅድ ፡ ይኩን ፡ ሊቀ ፡ ላዕሌሆሙ ፥ ፤ ኢይሰጠወነ ፥",
+          "geez_root_text": "ወጸሐፍኩ ፡ ዘንተ ፡ ለቤተ ፡ ክርስቲያን ፡ ወአቅደምኩ ፡ ፤ ወባሕቱ ፡ ዲዮጥራጥስሰ ፡ ዘይፈቅድ ፡ ይኩን ፡ ሊቀ ፡ ላዕሌሆሙ ፥ ፤ ኢይሰጠወነ ፥",
+          "geez_clauses": [
+            "ወጸሐፍኩ ፡ ዘንተ ፡ ለቤተ ፡ ክርስቲያን ፡ ወአቅደምኩ ፡",
+            "ወባሕቱ ፡ ዲዮጥራጥስሰ ፡ ዘይፈቅድ ፡ ይኩን ፡ ሊቀ ፡ ላዕሌሆሙ ፥",
+            "ኢይሰጠወነ ፥"
+          ],
+          "geez_root_lemmas": [
+            "ወጸሐፍኩ ፡ ዘንተ ፡ ለቤተ ፡ ክርስቲያን ፡ ወአቅደምኩ ፡",
+            "ወባሕቱ ፡ ዲዮጥራጥስሰ ፡ ዘይፈቅድ ፡ ይኩን ፡ ሊቀ ፡ ላዕሌሆሙ ፥",
+            "ኢይሰጠወነ ፥"
+          ],
+          "amharic_commentary_text": "አስቀድሜ ፡ ይህን ፡ ለምእመናን ፡ ጻፍሁ ፤ ወአልቦ ፡ ፍርሃት ፡ ውስተ ፡ ተፋቅሮትነ ፡ ብዬ ፡ ያንዳንድስ ፡ ክታብ ፡ ላንዱ ፡ አያመጣም ፡ ብሎ ፡ ኦእኀየ ፡ እሙን ፡ ግብር ፡ ዘገበርከ ፡ ለአኃዊነ ፡ ብዬ ። አንድም ፡ በጥንተ ፡ ስብከት ፡ ተናግርያለሁ ፡ ብዬ ። ነገር ፡ ግን ፡ በምእመናን ፡ ላይ ፡ ሊሾም ፡ የሚወድ ፡ ዲዮጥራጥስ ፥ ነገራችንን ፡ አይቀበለንም ። ሐተታ ፡ ሂዶ ፡ ሐዋርያትን ፡ ሹሙኝ ፡ ብሏቸዋል ፤ አይሆንም ፡ ብለውታል ፥ ሐዋርያት ፡ የበቃውንና ፡ ያልበቃውን ፡ አያውቁም ፡ ብሏቸው ፡ ሂዷል ።",
+          "clause_by_clause": [
+            {
+              "clause_index": 1,
+              "geez_lemma": "ወጸሐፍኩ ፡ ዘንተ ፡ ለቤተ ፡ ክርስቲያን ፡ ወአቅደምኩ ፡",
+              "amharic_explanation": "አስቀድሜ ፡ ይህን ፡ ለምእመናን ፡ ጻፍሁ ፤ ወአልቦ ፡ ፍርሃት ፡ ውስተ ፡ ተፋቅሮትነ ፡ ብዬ ፡ ያንዳንድስ ፡ ክታብ ፡ ላንዱ ፡ አያመጣም ፡ ብሎ ፡ ኦእኀየ ፡ እሙን ፡ ግብር ፡ ዘገበርከ ፡ ለአኃዊነ ፡ ብዬ ። አንድም ፡ በጥንተ ፡ ስብከት ፡ ተናግርያለሁ ፡ ብዬ ።",
+              "primary_interpretation": "አስቀድሜ ፡ ይህን ፡ ለምእመናን ፡ ጻፍሁ ፤ ወአልቦ ፡ ፍርሃት ፡ ውስተ ፡ ተፋቅሮትነ ፡ ብዬ ፡ ያንዳንድስ ፡ ክታብ ፡ ላንዱ ፡ አያመጣም ፡ ብሎ ፡ ኦእኀየ ፡ እሙን ፡ ግብር ፡ ዘገበርከ ፡ ለአኃዊነ ፡ ብዬ ።",
+              "andem_interpretations": [
+                "አንድም ፡ በጥንተ ፡ ስብከት ፡ ተናግርያለሁ ፡ ብዬ ።"
+              ],
+              "hateta_explanations": []
+            },
+            {
+              "clause_index": 2,
+              "geez_lemma": "ወባሕቱ ፡ ዲዮጥራጥስሰ ፡ ዘይፈቅድ ፡ ይኩን ፡ ሊቀ ፡ ላዕሌሆሙ ፥",
+              "amharic_explanation": "ነገር ፡ ግን ፡ በምእመናን ፡ ላይ ፡ ሊሾም ፡ የሚወድ ፡ ዲዮጥራጥስ ፥",
+              "primary_interpretation": "ነገር ፡ ግን ፡ በምእመናን ፡ ላይ ፡ ሊሾም ፡ የሚወድ ፡ ዲዮጥራጥስ ፥",
+              "andem_interpretations": [],
+              "hateta_explanations": []
+            },
+            {
+              "clause_index": 3,
+              "geez_lemma": "ኢይሰጠወነ ፥",
+              "amharic_explanation": "ነገራችንን ፡ አይቀበለንም ። ሐተታ ፡ ሂዶ ፡ ሐዋርያትን ፡ ሹሙኝ ፡ ብሏቸዋል ፤ አይሆንም ፡ ብለውታል ፥ ሐዋርያት ፡ የበቃውንና ፡ ያልበቃውን ፡ አያውቁም ፡ ብሏቸው ፡ ሂዷል ።",
+              "primary_interpretation": "ነገራችንን ፡ አይቀበለንም ።",
+              "andem_interpretations": [],
+              "hateta_explanations": [
+                "ሐተታ ፡ ሂዶ ፡ ሐዋርያትን ፡ ሹሙኝ ፡ ብሏቸዋል ፤ አይሆንም ፡ ብለውታል ፥ ሐዋርያት ፡ የበቃውንና ፡ ያልበቃውን ፡ አያውቁም ፡ ብሏቸው ፡ ሂዷል ።"
+              ]
+            }
+          ],
+          "biranna_spans": [
+            {
+              "text": "ወጸሐፍኩ ፡ ዘንተ ፡ ለቤተ ፡ ክርስቲያን ፡ ወአቅደምኩ ፡",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " አስቀድሜ ፡ ይህን ፡ ለምእመናን ፡ ጻፍሁ ፤ ወአልቦ ፡ ፍርሃት ፡ ውስተ ፡ ተፋቅሮትነ ፡ ብዬ ፡ ያንዳንድስ ፡ ክታብ ፡ ላንዱ ፡ አያመጣም ፡ ብሎ ፡ ኦእኀየ ፡ እሙን ፡ ግብር ፡ ዘገበርከ ፡ ለአኃዊነ ፡ ብዬ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "አንድም",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "andemta_rubric"
+            },
+            {
+              "text": " ፡ በጥንተ ፡ ስብከት ፡ ተናግርያለሁ ፡ ብዬ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "ወባሕቱ ፡ ዲዮጥራጥስሰ ፡ ዘይፈቅድ ፡ ይኩን ፡ ሊቀ ፡ ላዕሌሆሙ ፥",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " ነገር ፡ ግን ፡ በምእመናን ፡ ላይ ፡ ሊሾም ፡ የሚወድ ፡ ዲዮጥራጥስ ፥ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "ኢይሰጠወነ ፥",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " ነገራችንን ፡ አይቀበለንም ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "ሐተታ",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "andemta_rubric"
+            },
+            {
+              "text": " ፡ ሂዶ ፡ ሐዋርያትን ፡ ሹሙኝ ፡ ብሏቸዋል ፤ አይሆንም ፡ ብለውታል ፥ ሐዋርያት ፡ የበቃውንና ፡ ያልበቃውን ፡ አያውቁም ፡ ብሏቸው ፡ ሂዷል ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            }
+          ],
+          "rejoined_marked_text": "⟪ወጸሐፍኩ ፡ ዘንተ ፡ ለቤተ ፡ ክርስቲያን ፡ ወአቅደምኩ ፡⟫ አስቀድሜ ፡ ይህን ፡ ለምእመናን ፡ ጻፍሁ ፤ ወአልቦ ፡ ፍርሃት ፡ ውስተ ፡ ተፋቅሮትነ ፡ ብዬ ፡ ያንዳንድስ ፡ ክታብ ፡ ላንዱ ፡ አያመጣም ፡ ብሎ ፡ ኦእኀየ ፡ እሙን ፡ ግብር ፡ ዘገበርከ ፡ ለአኃዊነ ፡ ብዬ ። አንድም ፡ በጥንተ ፡ ስብከት ፡ ተናግርያለሁ ፡ ብዬ ። ⟪ወባሕቱ ፡ ዲዮጥራጥስሰ ፡ ዘይፈቅድ ፡ ይኩን ፡ ሊቀ ፡ ላዕሌሆሙ ፥⟫ ነገር ፡ ግን ፡ በምእመናን ፡ ላይ ፡ ሊሾም ፡ የሚወድ ፡ ዲዮጥራጥስ ፥ ⟪ኢይሰጠወነ ፥⟫ ነገራችንን ፡ አይቀበለንም ። ሐተታ ፡ ሂዶ ፡ ሐዋርያትን ፡ ሹሙኝ ፡ ብሏቸዋል ፤ አይሆንም ፡ ብለውታል ፥ ሐዋርያት ፡ የበቃውንና ፡ ያልበቃውን ፡ አያውቁም ፡ ብሏቸው ፡ ሂዷል ።",
+          "rejoined_plain_text": "ወጸሐፍኩ ፡ ዘንተ ፡ ለቤተ ፡ ክርስቲያን ፡ ወአቅደምኩ ፡ አስቀድሜ ፡ ይህን ፡ ለምእመናን ፡ ጻፍሁ ፤ ወአልቦ ፡ ፍርሃት ፡ ውስተ ፡ ተፋቅሮትነ ፡ ብዬ ፡ ያንዳንድስ ፡ ክታብ ፡ ላንዱ ፡ አያመጣም ፡ ብሎ ፡ ኦእኀየ ፡ እሙን ፡ ግብር ፡ ዘገበርከ ፡ ለአኃዊነ ፡ ብዬ ። አንድም ፡ በጥንተ ፡ ስብከት ፡ ተናግርያለሁ ፡ ብዬ ። ወባሕቱ ፡ ዲዮጥራጥስሰ ፡ ዘይፈቅድ ፡ ይኩን ፡ ሊቀ ፡ ላዕሌሆሙ ፥ ነገር ፡ ግን ፡ በምእመናን ፡ ላይ ፡ ሊሾም ፡ የሚወድ ፡ ዲዮጥራጥስ ፥ ኢይሰጠወነ ፥ ነገራችንን ፡ አይቀበለንም ። ሐተታ ፡ ሂዶ ፡ ሐዋርያትን ፡ ሹሙኝ ፡ ብሏቸዋል ፤ አይሆንም ፡ ብለውታል ፥ ሐዋርያት ፡ የበቃውንና ፡ ያልበቃውን ፡ አያውቁም ፡ ብሏቸው ፡ ሂዷል ።"
+        },
+        {
+          "id": "john3:1:10",
+          "book_key": "john3",
+          "chapter_num": 1,
+          "chapter_ethiopic": "፩",
+          "verse_num": 10,
+          "verse_ethiopic": "፲",
+          "is_prologue": false,
+          "reference_geez": "ምዕራፍ ፩ ፥ ቍጥር ፲",
+          "reference_short_geez": "፫ ዮሐ ፩፥፲",
+          "reference_english": "3 John 1:10",
+          "reference_arabic": "1:10",
+          "section_title": null,
+          "linked_topics": [],
+          "start_pdf_page": 2,
+          "start_book_page_ethiopic": "፻፳፰ | ፻፳፱",
+          "geez_text": "ወበእንተ ፡ ዝንቱ ፡ አመ ፡ መጻእኩ ፡ አነ ፡ አዜክሮ ፡ ሎሙ ፡ ምግባሮ ፡ ዘይገብር ፤ ፤ እስመ ፡ ኢየአክሎ ፡ ዘይነብብ ፡ ንባበ ፡ እኩየ ፡ ላዕሌነ ፡ እስከ ፡ ኢይትዌከፎሙ ፡ ለአኀዊነ ፥ ፤ ወለእለኒ ፡ ይፈቅዱ ፡ ተቀብሎቶሙ ፡ ይከልእ ። ፤ ወያወፅኦሙ ፡ ዓዲ ፡ እምቤተ ፡ ክርስቲያን ።",
+          "geez_root_text": "ወበእንተ ፡ ዝንቱ ፡ አመ ፡ መጻእኩ ፡ አነ ፡ አዜክሮ ፡ ሎሙ ፡ ምግባሮ ፡ ዘይገብር ፤ ፤ እስመ ፡ ኢየአክሎ ፡ ዘይነብብ ፡ ንባበ ፡ እኩየ ፡ ላዕሌነ ፡ እስከ ፡ ኢይትዌከፎሙ ፡ ለአኀዊነ ፥ ፤ ወለእለኒ ፡ ይፈቅዱ ፡ ተቀብሎቶሙ ፡ ይከልእ ። ፤ ወያወፅኦሙ ፡ ዓዲ ፡ እምቤተ ፡ ክርስቲያን ።",
+          "geez_clauses": [
+            "ወበእንተ ፡ ዝንቱ ፡ አመ ፡ መጻእኩ ፡ አነ ፡ አዜክሮ ፡ ሎሙ ፡ ምግባሮ ፡ ዘይገብር ፤",
+            "እስመ ፡ ኢየአክሎ ፡ ዘይነብብ ፡ ንባበ ፡ እኩየ ፡ ላዕሌነ ፡ እስከ ፡ ኢይትዌከፎሙ ፡ ለአኀዊነ ፥",
+            "ወለእለኒ ፡ ይፈቅዱ ፡ ተቀብሎቶሙ ፡ ይከልእ ።",
+            "ወያወፅኦሙ ፡ ዓዲ ፡ እምቤተ ፡ ክርስቲያን ።"
+          ],
+          "geez_root_lemmas": [
+            "ወበእንተ ፡ ዝንቱ ፡ አመ ፡ መጻእኩ ፡ አነ ፡ አዜክሮ ፡ ሎሙ ፡ ምግባሮ ፡ ዘይገብር ፤",
+            "እስመ ፡ ኢየአክሎ ፡ ዘይነብብ ፡ ንባበ ፡ እኩየ ፡ ላዕሌነ ፡ እስከ ፡ ኢይትዌከፎሙ ፡ ለአኀዊነ ፥",
+            "ወለእለኒ ፡ ይፈቅዱ ፡ ተቀብሎቶሙ ፡ ይከልእ ።",
+            "ወያወፅኦሙ ፡ ዓዲ ፡ እምቤተ ፡ ክርስቲያን ።"
+          ],
+          "amharic_commentary_text": "ስለዚህም ፡ በመጣሁ ፡ ጊዜ ፡ የሚሠራውን ፡ ሥራ ፡ አስረዳችኋለሁ ፥ ወንድሞቻችንን ፡ አትቀበሏቸው ፡ እስከ ፡ ማለት ፡ ድረስ ፡ ደርሶ ፡ በኛ ፡ ላይ ፡ የሚናገረው ፡ ክፉ ፡ ነገር ፡ አልበቃው ፤ ብሏልና ፥ ይነብብን ፡ ሲያይ ፡ ንባበ ፡ እኩየ ፡ ብሏል ፡ እንጅ ፡ ንባብ ፡ እኩይ ፡ ቢል ፡ ይቀናል ። አንድም ፡ በኛ ፡ ላይ ፡ የሚናገረው ፡ ክፉ ፡ ነገር ፡ አልበቃው ፡ ብሎ ፡ ወንድሞቻችንን ፡ አትቀበሏቸው ፡ እስከ ፡ ማለት ፡ ደርሰዋልና ። አንድም ፡ በኛ ፡ ላይ ፡ የሚናገረው ፡ ክፉ ፡ ነገር ፡ አልበቃው ፡ ብሏልና ፡ ወንድሞቻችንን ፡ አትቀበሏቸው ፡ እስከ ፡ ማለት ፡ ደረሰ ፥ ሊቀበሏቸው ፡ የሚወዱትንም ፡ እንዳይቀበሏቸው ፡ ይከለክላል ፥ ዳግመኛም ፡ ከምእመናን ፡ ይለያቸዋል ። ሐተታ ፡ ከባላገር ፡ እንዳይገቡ ፡ ባዋጅ ፡ ከስዱዳን ፡ እንዳይገቡ ፡ በጐስጓሽ ፡ ያስወጣቸዋል ።",
+          "clause_by_clause": [
+            {
+              "clause_index": 1,
+              "geez_lemma": "ወበእንተ ፡ ዝንቱ ፡ አመ ፡ መጻእኩ ፡ አነ ፡ አዜክሮ ፡ ሎሙ ፡ ምግባሮ ፡ ዘይገብር ፤",
+              "amharic_explanation": "ስለዚህም ፡ በመጣሁ ፡ ጊዜ ፡ የሚሠራውን ፡ ሥራ ፡ አስረዳችኋለሁ ፥",
+              "primary_interpretation": "ስለዚህም ፡ በመጣሁ ፡ ጊዜ ፡ የሚሠራውን ፡ ሥራ ፡ አስረዳችኋለሁ ፥",
+              "andem_interpretations": [],
+              "hateta_explanations": []
+            },
+            {
+              "clause_index": 2,
+              "geez_lemma": "እስመ ፡ ኢየአክሎ ፡ ዘይነብብ ፡ ንባበ ፡ እኩየ ፡ ላዕሌነ ፡ እስከ ፡ ኢይትዌከፎሙ ፡ ለአኀዊነ ፥",
+              "amharic_explanation": "ወንድሞቻችንን ፡ አትቀበሏቸው ፡ እስከ ፡ ማለት ፡ ድረስ ፡ ደርሶ ፡ በኛ ፡ ላይ ፡ የሚናገረው ፡ ክፉ ፡ ነገር ፡ አልበቃው ፤ ብሏልና ፥ ይነብብን ፡ ሲያይ ፡ ንባበ ፡ እኩየ ፡ ብሏል ፡ እንጅ ፡ ንባብ ፡ እኩይ ፡ ቢል ፡ ይቀናል ። አንድም ፡ በኛ ፡ ላይ ፡ የሚናገረው ፡ ክፉ ፡ ነገር ፡ አልበቃው ፡ ብሎ ፡ ወንድሞቻችንን ፡ አትቀበሏቸው ፡ እስከ ፡ ማለት ፡ ደርሰዋልና ። አንድም ፡ በኛ ፡ ላይ ፡ የሚናገረው ፡ ክፉ ፡ ነገር ፡ አልበቃው ፡ ብሏልና ፡ ወንድሞቻችንን ፡ አትቀበሏቸው ፡ እስከ ፡ ማለት ፡ ደረሰ ፥",
+              "primary_interpretation": "ወንድሞቻችንን ፡ አትቀበሏቸው ፡ እስከ ፡ ማለት ፡ ድረስ ፡ ደርሶ ፡ በኛ ፡ ላይ ፡ የሚናገረው ፡ ክፉ ፡ ነገር ፡ አልበቃው ፤ ብሏልና ፥ ይነብብን ፡ ሲያይ ፡ ንባበ ፡ እኩየ ፡ ብሏል ፡ እንጅ ፡ ንባብ ፡ እኩይ ፡ ቢል ፡ ይቀናል ።",
+              "andem_interpretations": [
+                "አንድም ፡ በኛ ፡ ላይ ፡ የሚናገረው ፡ ክፉ ፡ ነገር ፡ አልበቃው ፡ ብሎ ፡ ወንድሞቻችንን ፡ አትቀበሏቸው ፡ እስከ ፡ ማለት ፡ ደርሰዋልና ።",
+                "አንድም ፡ በኛ ፡ ላይ ፡ የሚናገረው ፡ ክፉ ፡ ነገር ፡ አልበቃው ፡ ብሏልና ፡ ወንድሞቻችንን ፡ አትቀበሏቸው ፡ እስከ ፡ ማለት ፡ ደረሰ ፥"
+              ],
+              "hateta_explanations": []
+            },
+            {
+              "clause_index": 3,
+              "geez_lemma": "ወለእለኒ ፡ ይፈቅዱ ፡ ተቀብሎቶሙ ፡ ይከልእ ።",
+              "amharic_explanation": "ሊቀበሏቸው ፡ የሚወዱትንም ፡ እንዳይቀበሏቸው ፡ ይከለክላል ፥",
+              "primary_interpretation": "ሊቀበሏቸው ፡ የሚወዱትንም ፡ እንዳይቀበሏቸው ፡ ይከለክላል ፥",
+              "andem_interpretations": [],
+              "hateta_explanations": []
+            },
+            {
+              "clause_index": 4,
+              "geez_lemma": "ወያወፅኦሙ ፡ ዓዲ ፡ እምቤተ ፡ ክርስቲያን ።",
+              "amharic_explanation": "ዳግመኛም ፡ ከምእመናን ፡ ይለያቸዋል ። ሐተታ ፡ ከባላገር ፡ እንዳይገቡ ፡ ባዋጅ ፡ ከስዱዳን ፡ እንዳይገቡ ፡ በጐስጓሽ ፡ ያስወጣቸዋል ።",
+              "primary_interpretation": "ዳግመኛም ፡ ከምእመናን ፡ ይለያቸዋል ።",
+              "andem_interpretations": [],
+              "hateta_explanations": [
+                "ሐተታ ፡ ከባላገር ፡ እንዳይገቡ ፡ ባዋጅ ፡ ከስዱዳን ፡ እንዳይገቡ ፡ በጐስጓሽ ፡ ያስወጣቸዋል ።"
+              ]
+            }
+          ],
+          "biranna_spans": [
+            {
+              "text": "ወበእንተ ፡ ዝንቱ ፡ አመ ፡ መጻእኩ ፡ አነ ፡ አዜክሮ ፡ ሎሙ ፡ ምግባሮ ፡ ዘይገብር ፤",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " ስለዚህም ፡ በመጣሁ ፡ ጊዜ ፡ የሚሠራውን ፡ ሥራ ፡ አስረዳችኋለሁ ፥ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "እስመ ፡ ኢየአክሎ ፡ ዘይነብብ ፡ ንባበ ፡ እኩየ ፡ ላዕሌነ ፡ እስከ ፡ ኢይትዌከፎሙ ፡ ለአኀዊነ ፥",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " ወንድሞቻችንን ፡ አትቀበሏቸው ፡ እስከ ፡ ማለት ፡ ድረስ ፡ ደርሶ ፡ በኛ ፡ ላይ ፡ የሚናገረው ፡ ክፉ ፡ ነገር ፡ አልበቃው ፤ ብሏልና ፥ ይነብብን ፡ ሲያይ ፡ ንባበ ፡ እኩየ ፡ ብሏል ፡ እንጅ ፡ ንባብ ፡ እኩይ ፡ ቢል ፡ ይቀናል ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "አንድም",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "andemta_rubric"
+            },
+            {
+              "text": " ፡ በኛ ፡ ላይ ፡ የሚናገረው ፡ ክፉ ፡ ነገር ፡ አልበቃው ፡ ብሎ ፡ ወንድሞቻችንን ፡ አትቀበሏቸው ፡ እስከ ፡ ማለት ፡ ደርሰዋልና ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "አንድም",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "andemta_rubric"
+            },
+            {
+              "text": " ፡ በኛ ፡ ላይ ፡ የሚናገረው ፡ ክፉ ፡ ነገር ፡ አልበቃው ፡ ብሏልና ፡ ወንድሞቻችንን ፡ አትቀበሏቸው ፡ እስከ ፡ ማለት ፡ ደረሰ ፥ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "ወለእለኒ ፡ ይፈቅዱ ፡ ተቀብሎቶሙ ፡ ይከልእ ።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " ሊቀበሏቸው ፡ የሚወዱትንም ፡ እንዳይቀበሏቸው ፡ ይከለክላል ፥ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "ወያወፅኦሙ ፡ ዓዲ ፡ እምቤተ ፡ ክርስቲያን ።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " ዳግመኛም ፡ ከምእመናን ፡ ይለያቸዋል ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "ሐተታ",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "andemta_rubric"
+            },
+            {
+              "text": " ፡ ከባላገር ፡ እንዳይገቡ ፡ ባዋጅ ፡ ከስዱዳን ፡ እንዳይገቡ ፡ በጐስጓሽ ፡ ያስወጣቸዋል ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            }
+          ],
+          "rejoined_marked_text": "⟪ወበእንተ ፡ ዝንቱ ፡ አመ ፡ መጻእኩ ፡ አነ ፡ አዜክሮ ፡ ሎሙ ፡ ምግባሮ ፡ ዘይገብር ፤⟫ ስለዚህም ፡ በመጣሁ ፡ ጊዜ ፡ የሚሠራውን ፡ ሥራ ፡ አስረዳችኋለሁ ፥ ⟪እስመ ፡ ኢየአክሎ ፡ ዘይነብብ ፡ ንባበ ፡ እኩየ ፡ ላዕሌነ ፡ እስከ ፡ ኢይትዌከፎሙ ፡ ለአኀዊነ ፥⟫ ወንድሞቻችንን ፡ አትቀበሏቸው ፡ እስከ ፡ ማለት ፡ ድረስ ፡ ደርሶ ፡ በኛ ፡ ላይ ፡ የሚናገረው ፡ ክፉ ፡ ነገር ፡ አልበቃው ፤ ብሏልና ፥ ይነብብን ፡ ሲያይ ፡ ንባበ ፡ እኩየ ፡ ብሏል ፡ እንጅ ፡ ንባብ ፡ እኩይ ፡ ቢል ፡ ይቀናል ። አንድም ፡ በኛ ፡ ላይ ፡ የሚናገረው ፡ ክፉ ፡ ነገር ፡ አልበቃው ፡ ብሎ ፡ ወንድሞቻችንን ፡ አትቀበሏቸው ፡ እስከ ፡ ማለት ፡ ደርሰዋልና ። አንድም ፡ በኛ ፡ ላይ ፡ የሚናገረው ፡ ክፉ ፡ ነገር ፡ አልበቃው ፡ ብሏልና ፡ ወንድሞቻችንን ፡ አትቀበሏቸው ፡ እስከ ፡ ማለት ፡ ደረሰ ፥ ⟪ወለእለኒ ፡ ይፈቅዱ ፡ ተቀብሎቶሙ ፡ ይከልእ ።⟫ ሊቀበሏቸው ፡ የሚወዱትንም ፡ እንዳይቀበሏቸው ፡ ይከለክላል ፥ ⟪ወያወፅኦሙ ፡ ዓዲ ፡ እምቤተ ፡ ክርስቲያን ።⟫ ዳግመኛም ፡ ከምእመናን ፡ ይለያቸዋል ። ሐተታ ፡ ከባላገር ፡ እንዳይገቡ ፡ ባዋጅ ፡ ከስዱዳን ፡ እንዳይገቡ ፡ በጐስጓሽ ፡ ያስወጣቸዋል ።",
+          "rejoined_plain_text": "ወበእንተ ፡ ዝንቱ ፡ አመ ፡ መጻእኩ ፡ አነ ፡ አዜክሮ ፡ ሎሙ ፡ ምግባሮ ፡ ዘይገብር ፤ ስለዚህም ፡ በመጣሁ ፡ ጊዜ ፡ የሚሠራውን ፡ ሥራ ፡ አስረዳችኋለሁ ፥ እስመ ፡ ኢየአክሎ ፡ ዘይነብብ ፡ ንባበ ፡ እኩየ ፡ ላዕሌነ ፡ እስከ ፡ ኢይትዌከፎሙ ፡ ለአኀዊነ ፥ ወንድሞቻችንን ፡ አትቀበሏቸው ፡ እስከ ፡ ማለት ፡ ድረስ ፡ ደርሶ ፡ በኛ ፡ ላይ ፡ የሚናገረው ፡ ክፉ ፡ ነገር ፡ አልበቃው ፤ ብሏልና ፥ ይነብብን ፡ ሲያይ ፡ ንባበ ፡ እኩየ ፡ ብሏል ፡ እንጅ ፡ ንባብ ፡ እኩይ ፡ ቢል ፡ ይቀናል ። አንድም ፡ በኛ ፡ ላይ ፡ የሚናገረው ፡ ክፉ ፡ ነገር ፡ አልበቃው ፡ ብሎ ፡ ወንድሞቻችንን ፡ አትቀበሏቸው ፡ እስከ ፡ ማለት ፡ ደርሰዋልና ። አንድም ፡ በኛ ፡ ላይ ፡ የሚናገረው ፡ ክፉ ፡ ነገር ፡ አልበቃው ፡ ብሏልና ፡ ወንድሞቻችንን ፡ አትቀበሏቸው ፡ እስከ ፡ ማለት ፡ ደረሰ ፥ ወለእለኒ ፡ ይፈቅዱ ፡ ተቀብሎቶሙ ፡ ይከልእ ። ሊቀበሏቸው ፡ የሚወዱትንም ፡ እንዳይቀበሏቸው ፡ ይከለክላል ፥ ወያወፅኦሙ ፡ ዓዲ ፡ እምቤተ ፡ ክርስቲያን ። ዳግመኛም ፡ ከምእመናን ፡ ይለያቸዋል ። ሐተታ ፡ ከባላገር ፡ እንዳይገቡ ፡ ባዋጅ ፡ ከስዱዳን ፡ እንዳይገቡ ፡ በጐስጓሽ ፡ ያስወጣቸዋል ።"
+        },
+        {
+          "id": "john3:1:11",
+          "book_key": "john3",
+          "chapter_num": 1,
+          "chapter_ethiopic": "፩",
+          "verse_num": 11,
+          "verse_ethiopic": "፲፩",
+          "is_prologue": false,
+          "reference_geez": "ምዕራፍ ፩ ፥ ቍጥር ፲፩",
+          "reference_short_geez": "፫ ዮሐ ፩፥፲፩",
+          "reference_english": "3 John 1:11",
+          "reference_arabic": "1:11",
+          "section_title": null,
+          "linked_topics": [],
+          "start_pdf_page": 2,
+          "start_book_page_ethiopic": "፻፳፰ | ፻፳፱",
+          "geez_text": "ኦ ፡ እኀየ ፡ ኢትኩን ፡ ከመ ፡ ገባሬ ፡ እኪት ፥ ፤ አላ ፡ ከመ ፡ ገባሬ ፡ ሠናይት ፥ ፤ እስመ ፡ ገባሬ ፡ ሠናይት ፡ እምእግዚአብሔር ፡ ውእቱ ፥ ፤ ወገባሬ ፡ እኪትሰ ፡ ኢይሬእዮ ፡ ለእግዚአብሔር ፥",
+          "geez_root_text": "ኦ ፡ እኀየ ፡ ኢትኩን ፡ ከመ ፡ ገባሬ ፡ እኪት ፥ ፤ አላ ፡ ከመ ፡ ገባሬ ፡ ሠናይት ፥ ፤ እስመ ፡ ገባሬ ፡ ሠናይት ፡ እምእግዚአብሔር ፡ ውእቱ ፥ ፤ ወገባሬ ፡ እኪትሰ ፡ ኢይሬእዮ ፡ ለእግዚአብሔር ፥",
+          "geez_clauses": [
+            "ኦ ፡ እኀየ ፡ ኢትኩን ፡ ከመ ፡ ገባሬ ፡ እኪት ፥",
+            "አላ ፡ ከመ ፡ ገባሬ ፡ ሠናይት ፥",
+            "እስመ ፡ ገባሬ ፡ ሠናይት ፡ እምእግዚአብሔር ፡ ውእቱ ፥",
+            "ወገባሬ ፡ እኪትሰ ፡ ኢይሬእዮ ፡ ለእግዚአብሔር ፥"
+          ],
+          "geez_root_lemmas": [
+            "ኦ ፡ እኀየ ፡ ኢትኩን ፡ ከመ ፡ ገባሬ ፡ እኪት ፥",
+            "አላ ፡ ከመ ፡ ገባሬ ፡ ሠናይት ፥",
+            "እስመ ፡ ገባሬ ፡ ሠናይት ፡ እምእግዚአብሔር ፡ ውእቱ ፥",
+            "ወገባሬ ፡ እኪትሰ ፡ ኢይሬእዮ ፡ ለእግዚአብሔር ፥"
+          ],
+          "amharic_commentary_text": "አንተም ፡ ወንድሜ ፡ እንደማናቸው ፡ ክፉ ፡ አድራጊ ፡ አትሁን ፥ እንደ ፡ ማናቸው ፡ በጎ ፡ አድራጊ ፡ ሁን ፡ እንጅ ። አንድም ፡ እንደ ፡ ዲዮጥራጥስ ፡ አትሁን ፡ እንደ ፡ ድሜጥሮስ ፡ ሁን ፡ እንጅ ፥ በጎ ፡ የሚሠራ ፡ ከእግዚአብሔር ፡ የተወለደ ፡ የተማረ ፡ ነውና ፥ አላ ፡ ከመ ፡ ገባሬ ፡ ሠናይት ፡ ላለው ፥ ክፉ ፡ የሚሠራ ፡ ግን ፡ እግዚአብሔርን ፡ አያምነውም ፡ አያየውምና ፡ ኢትኩን ፡ ከመ ፡ ገባሬ ፡ እኪት ፡ ላለው ፡ ፩ ፡ ዮሐ ፡ ፫ ፥ ፮ ።",
+          "clause_by_clause": [
+            {
+              "clause_index": 1,
+              "geez_lemma": "ኦ ፡ እኀየ ፡ ኢትኩን ፡ ከመ ፡ ገባሬ ፡ እኪት ፥",
+              "amharic_explanation": "አንተም ፡ ወንድሜ ፡ እንደማናቸው ፡ ክፉ ፡ አድራጊ ፡ አትሁን ፥",
+              "primary_interpretation": "አንተም ፡ ወንድሜ ፡ እንደማናቸው ፡ ክፉ ፡ አድራጊ ፡ አትሁን ፥",
+              "andem_interpretations": [],
+              "hateta_explanations": []
+            },
+            {
+              "clause_index": 2,
+              "geez_lemma": "አላ ፡ ከመ ፡ ገባሬ ፡ ሠናይት ፥",
+              "amharic_explanation": "እንደ ፡ ማናቸው ፡ በጎ ፡ አድራጊ ፡ ሁን ፡ እንጅ ። አንድም ፡ እንደ ፡ ዲዮጥራጥስ ፡ አትሁን ፡ እንደ ፡ ድሜጥሮስ ፡ ሁን ፡ እንጅ ፥",
+              "primary_interpretation": "እንደ ፡ ማናቸው ፡ በጎ ፡ አድራጊ ፡ ሁን ፡ እንጅ ።",
+              "andem_interpretations": [
+                "አንድም ፡ እንደ ፡ ዲዮጥራጥስ ፡ አትሁን ፡ እንደ ፡ ድሜጥሮስ ፡ ሁን ፡ እንጅ ፥"
+              ],
+              "hateta_explanations": []
+            },
+            {
+              "clause_index": 3,
+              "geez_lemma": "እስመ ፡ ገባሬ ፡ ሠናይት ፡ እምእግዚአብሔር ፡ ውእቱ ፥",
+              "amharic_explanation": "በጎ ፡ የሚሠራ ፡ ከእግዚአብሔር ፡ የተወለደ ፡ የተማረ ፡ ነውና ፥ አላ ፡ ከመ ፡ ገባሬ ፡ ሠናይት ፡ ላለው ፥",
+              "primary_interpretation": "በጎ ፡ የሚሠራ ፡ ከእግዚአብሔር ፡ የተወለደ ፡ የተማረ ፡ ነውና ፥ አላ ፡ ከመ ፡ ገባሬ ፡ ሠናይት ፡ ላለው ፥",
+              "andem_interpretations": [],
+              "hateta_explanations": []
+            },
+            {
+              "clause_index": 4,
+              "geez_lemma": "ወገባሬ ፡ እኪትሰ ፡ ኢይሬእዮ ፡ ለእግዚአብሔር ፥",
+              "amharic_explanation": "ክፉ ፡ የሚሠራ ፡ ግን ፡ እግዚአብሔርን ፡ አያምነውም ፡ አያየውምና ፡ ኢትኩን ፡ ከመ ፡ ገባሬ ፡ እኪት ፡ ላለው ፡ ፩ ፡ ዮሐ ፡ ፫ ፥ ፮ ።",
+              "primary_interpretation": "ክፉ ፡ የሚሠራ ፡ ግን ፡ እግዚአብሔርን ፡ አያምነውም ፡ አያየውምና ፡ ኢትኩን ፡ ከመ ፡ ገባሬ ፡ እኪት ፡ ላለው ፡ ፩ ፡ ዮሐ ፡ ፫ ፥ ፮ ።",
+              "andem_interpretations": [],
+              "hateta_explanations": []
+            }
+          ],
+          "biranna_spans": [
+            {
+              "text": "ኦ ፡ እኀየ ፡ ኢትኩን ፡ ከመ ፡ ገባሬ ፡ እኪት ፥",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " አንተም ፡ ወንድሜ ፡ እንደማናቸው ፡ ክፉ ፡ አድራጊ ፡ አትሁን ፥ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "አላ ፡ ከመ ፡ ገባሬ ፡ ሠናይት ፥",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " እንደ ፡ ማናቸው ፡ በጎ ፡ አድራጊ ፡ ሁን ፡ እንጅ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "አንድም",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "andemta_rubric"
+            },
+            {
+              "text": " ፡ እንደ ፡ ዲዮጥራጥስ ፡ አትሁን ፡ እንደ ፡ ድሜጥሮስ ፡ ሁን ፡ እንጅ ፥ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "እስመ ፡ ገባሬ ፡ ሠናይት ፡ እምእግዚአብሔር ፡ ውእቱ ፥",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " በጎ ፡ የሚሠራ ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "ከእግዚአብሔር",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "sacred_divine_name"
+            },
+            {
+              "text": " ፡ የተወለደ ፡ የተማረ ፡ ነውና ፥ አላ ፡ ከመ ፡ ገባሬ ፡ ሠናይት ፡ ላለው ፥ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "ወገባሬ ፡ እኪትሰ ፡ ኢይሬእዮ ፡ ለእግዚአብሔር ፥",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " ክፉ ፡ የሚሠራ ፡ ግን ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "እግዚአብሔርን",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "sacred_divine_name"
+            },
+            {
+              "text": " ፡ አያምነውም ፡ አያየውምና ፡ ኢትኩን ፡ ከመ ፡ ገባሬ ፡ እኪት ፡ ላለው ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "፩",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ፡ ዮሐ ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "፫",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ፥ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "፮",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            }
+          ],
+          "rejoined_marked_text": "⟪ኦ ፡ እኀየ ፡ ኢትኩን ፡ ከመ ፡ ገባሬ ፡ እኪት ፥⟫ አንተም ፡ ወንድሜ ፡ እንደማናቸው ፡ ክፉ ፡ አድራጊ ፡ አትሁን ፥ ⟪አላ ፡ ከመ ፡ ገባሬ ፡ ሠናይት ፥⟫ እንደ ፡ ማናቸው ፡ በጎ ፡ አድራጊ ፡ ሁን ፡ እንጅ ። አንድም ፡ እንደ ፡ ዲዮጥራጥስ ፡ አትሁን ፡ እንደ ፡ ድሜጥሮስ ፡ ሁን ፡ እንጅ ፥ ⟪እስመ ፡ ገባሬ ፡ ሠናይት ፡ እምእግዚአብሔር ፡ ውእቱ ፥⟫ በጎ ፡ የሚሠራ ፡ ከእግዚአብሔር ፡ የተወለደ ፡ የተማረ ፡ ነውና ፥ አላ ፡ ከመ ፡ ገባሬ ፡ ሠናይት ፡ ላለው ፥ ⟪ወገባሬ ፡ እኪትሰ ፡ ኢይሬእዮ ፡ ለእግዚአብሔር ፥⟫ ክፉ ፡ የሚሠራ ፡ ግን ፡ እግዚአብሔርን ፡ አያምነውም ፡ አያየውምና ፡ ኢትኩን ፡ ከመ ፡ ገባሬ ፡ እኪት ፡ ላለው ፡ ፩ ፡ ዮሐ ፡ ፫ ፥ ፮ ።",
+          "rejoined_plain_text": "ኦ ፡ እኀየ ፡ ኢትኩን ፡ ከመ ፡ ገባሬ ፡ እኪት ፥ አንተም ፡ ወንድሜ ፡ እንደማናቸው ፡ ክፉ ፡ አድራጊ ፡ አትሁን ፥ አላ ፡ ከመ ፡ ገባሬ ፡ ሠናይት ፥ እንደ ፡ ማናቸው ፡ በጎ ፡ አድራጊ ፡ ሁን ፡ እንጅ ። አንድም ፡ እንደ ፡ ዲዮጥራጥስ ፡ አትሁን ፡ እንደ ፡ ድሜጥሮስ ፡ ሁን ፡ እንጅ ፥ እስመ ፡ ገባሬ ፡ ሠናይት ፡ እምእግዚአብሔር ፡ ውእቱ ፥ በጎ ፡ የሚሠራ ፡ ከእግዚአብሔር ፡ የተወለደ ፡ የተማረ ፡ ነውና ፥ አላ ፡ ከመ ፡ ገባሬ ፡ ሠናይት ፡ ላለው ፥ ወገባሬ ፡ እኪትሰ ፡ ኢይሬእዮ ፡ ለእግዚአብሔር ፥ ክፉ ፡ የሚሠራ ፡ ግን ፡ እግዚአብሔርን ፡ አያምነውም ፡ አያየውምና ፡ ኢትኩን ፡ ከመ ፡ ገባሬ ፡ እኪት ፡ ላለው ፡ ፩ ፡ ዮሐ ፡ ፫ ፥ ፮ ።"
+        },
+        {
+          "id": "john3:1:12",
+          "book_key": "john3",
+          "chapter_num": 1,
+          "chapter_ethiopic": "፩",
+          "verse_num": 12,
+          "verse_ethiopic": "፲፪",
+          "is_prologue": false,
+          "reference_geez": "ምዕራፍ ፩ ፥ ቍጥር ፲፪",
+          "reference_short_geez": "፫ ዮሐ ፩፥፲፪",
+          "reference_english": "3 John 1:12",
+          "reference_arabic": "1:12",
+          "section_title": null,
+          "linked_topics": [],
+          "start_pdf_page": 2,
+          "start_book_page_ethiopic": "፻፳፰ | ፻፳፱",
+          "geez_text": "ወበእንተ ፡ ድሜጥሮስኒ ፡ ስምዐ ፡ ኮነ ፡ ኵሉ ፥ ፤ ወለሊሃኒ ፡ ጽድቅ ፡ ስምዐ ፡ ኮነት ፡ ሎቱ ፥ ፤ ወንሕነኒ ፡ ስምዐ ፡ ኮነ ፡ ሎቱ ፥ ፤ ወታአምሩ ፡ ከመ ፡ ርትዕት ፡ ይእቲ ፡ ስምዕነ ፥",
+          "geez_root_text": "ወበእንተ ፡ ድሜጥሮስኒ ፡ ስምዐ ፡ ኮነ ፡ ኵሉ ፥ ፤ ወለሊሃኒ ፡ ጽድቅ ፡ ስምዐ ፡ ኮነት ፡ ሎቱ ፥ ፤ ወንሕነኒ ፡ ስምዐ ፡ ኮነ ፡ ሎቱ ፥ ፤ ወታአምሩ ፡ ከመ ፡ ርትዕት ፡ ይእቲ ፡ ስምዕነ ፥",
+          "geez_clauses": [
+            "ወበእንተ ፡ ድሜጥሮስኒ ፡ ስምዐ ፡ ኮነ ፡ ኵሉ ፥",
+            "ወለሊሃኒ ፡ ጽድቅ ፡ ስምዐ ፡ ኮነት ፡ ሎቱ ፥",
+            "ወንሕነኒ ፡ ስምዐ ፡ ኮነ ፡ ሎቱ ፥",
+            "ወታአምሩ ፡ ከመ ፡ ርትዕት ፡ ይእቲ ፡ ስምዕነ ፥"
+          ],
+          "geez_root_lemmas": [
+            "ወበእንተ ፡ ድሜጥሮስኒ ፡ ስምዐ ፡ ኮነ ፡ ኵሉ ፥",
+            "ወለሊሃኒ ፡ ጽድቅ ፡ ስምዐ ፡ ኮነት ፡ ሎቱ ፥",
+            "ወንሕነኒ ፡ ስምዐ ፡ ኮነ ፡ ሎቱ ፥",
+            "ወታአምሩ ፡ ከመ ፡ ርትዕት ፡ ይእቲ ፡ ስምዕነ ፥"
+          ],
+          "amharic_commentary_text": "ስለ ፡ ድሜጥሮስ ፡ ሰው ፡ ሁሉ ፡ መሰከረለት ፥ ሃይማኖት ። አንድም ፡ ተአምራት ፡ ምጽዋት ፡ መሰከረችለት ። ታሪክ ፡ ይህ ፡ ሰው ፡ ገንዘቡን ፡ ጨርሶ ፡ መጽውቶ ፡ በዘመነ ፡ ረኃብ ፡ ድስት ፡ ሙሉ ፡ ወርቅ ፡ አግኝቶ ፡ ራሱን ፡ ምእመናንን ፡ ረድቶበታል ፥ እኛም ፡ መሰከርንለት ። የናንት ፡ ምስክርነት ፡ ምን ፡ ይረባል ፤ ምን ፡ ይጠቅማል ፡ ትሉኝ ፡ እንደ ፡ ሆነ ፡ የኛስ ፡ ምስክርነት ፡ ዕውነት ፡ እንደ ፡ ሆነች ፡ ታውቃላችሁ ፡ ዮሐ ፡ ፲፱ ፥ ፴፭ና ፡ ፳፩ ፥ ፳፬ ።",
+          "clause_by_clause": [
+            {
+              "clause_index": 1,
+              "geez_lemma": "ወበእንተ ፡ ድሜጥሮስኒ ፡ ስምዐ ፡ ኮነ ፡ ኵሉ ፥",
+              "amharic_explanation": "ስለ ፡ ድሜጥሮስ ፡ ሰው ፡ ሁሉ ፡ መሰከረለት ፥",
+              "primary_interpretation": "ስለ ፡ ድሜጥሮስ ፡ ሰው ፡ ሁሉ ፡ መሰከረለት ፥",
+              "andem_interpretations": [],
+              "hateta_explanations": []
+            },
+            {
+              "clause_index": 2,
+              "geez_lemma": "ወለሊሃኒ ፡ ጽድቅ ፡ ስምዐ ፡ ኮነት ፡ ሎቱ ፥",
+              "amharic_explanation": "ሃይማኖት ። አንድም ፡ ተአምራት ፡ ምጽዋት ፡ መሰከረችለት ። ታሪክ ፡ ይህ ፡ ሰው ፡ ገንዘቡን ፡ ጨርሶ ፡ መጽውቶ ፡ በዘመነ ፡ ረኃብ ፡ ድስት ፡ ሙሉ ፡ ወርቅ ፡ አግኝቶ ፡ ራሱን ፡ ምእመናንን ፡ ረድቶበታል ፥",
+              "primary_interpretation": "ሃይማኖት ።",
+              "andem_interpretations": [
+                "አንድም ፡ ተአምራት ፡ ምጽዋት ፡ መሰከረችለት ።"
+              ],
+              "hateta_explanations": [
+                "ታሪክ ፡ ይህ ፡ ሰው ፡ ገንዘቡን ፡ ጨርሶ ፡ መጽውቶ ፡ በዘመነ ፡ ረኃብ ፡ ድስት ፡ ሙሉ ፡ ወርቅ ፡ አግኝቶ ፡ ራሱን ፡ ምእመናንን ፡ ረድቶበታል ፥"
+              ]
+            },
+            {
+              "clause_index": 3,
+              "geez_lemma": "ወንሕነኒ ፡ ስምዐ ፡ ኮነ ፡ ሎቱ ፥",
+              "amharic_explanation": "እኛም ፡ መሰከርንለት ።",
+              "primary_interpretation": "እኛም ፡ መሰከርንለት ።",
+              "andem_interpretations": [],
+              "hateta_explanations": []
+            },
+            {
+              "clause_index": 4,
+              "geez_lemma": "ወታአምሩ ፡ ከመ ፡ ርትዕት ፡ ይእቲ ፡ ስምዕነ ፥",
+              "amharic_explanation": "የናንት ፡ ምስክርነት ፡ ምን ፡ ይረባል ፤ ምን ፡ ይጠቅማል ፡ ትሉኝ ፡ እንደ ፡ ሆነ ፡ የኛስ ፡ ምስክርነት ፡ ዕውነት ፡ እንደ ፡ ሆነች ፡ ታውቃላችሁ ፡ ዮሐ ፡ ፲፱ ፥ ፴፭ና ፡ ፳፩ ፥ ፳፬ ።",
+              "primary_interpretation": "የናንት ፡ ምስክርነት ፡ ምን ፡ ይረባል ፤ ምን ፡ ይጠቅማል ፡ ትሉኝ ፡ እንደ ፡ ሆነ ፡ የኛስ ፡ ምስክርነት ፡ ዕውነት ፡ እንደ ፡ ሆነች ፡ ታውቃላችሁ ፡ ዮሐ ፡ ፲፱ ፥ ፴፭ና ፡ ፳፩ ፥ ፳፬ ።",
+              "andem_interpretations": [],
+              "hateta_explanations": []
+            }
+          ],
+          "biranna_spans": [
+            {
+              "text": "ወበእንተ ፡ ድሜጥሮስኒ ፡ ስምዐ ፡ ኮነ ፡ ኵሉ ፥",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " ስለ ፡ ድሜጥሮስ ፡ ሰው ፡ ሁሉ ፡ መሰከረለት ፥ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "ወለሊሃኒ ፡ ጽድቅ ፡ ስምዐ ፡ ኮነት ፡ ሎቱ ፥",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " ሃይማኖት ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "አንድም",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "andemta_rubric"
+            },
+            {
+              "text": " ፡ ተአምራት ፡ ምጽዋት ፡ መሰከረችለት ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "ታሪክ",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "andemta_rubric"
+            },
+            {
+              "text": " ፡ ይህ ፡ ሰው ፡ ገንዘቡን ፡ ጨርሶ ፡ መጽውቶ ፡ በዘመነ ፡ ረኃብ ፡ ድስት ፡ ሙሉ ፡ ወርቅ ፡ አግኝቶ ፡ ራሱን ፡ ምእመናንን ፡ ረድቶበታል ፥ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "ወንሕነኒ ፡ ስምዐ ፡ ኮነ ፡ ሎቱ ፥",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " እኛም ፡ መሰከርንለት ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "ወታአምሩ ፡ ከመ ፡ ርትዕት ፡ ይእቲ ፡ ስምዕነ ፥",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " የናንት ፡ ምስክርነት ፡ ምን ፡ ይረባል ፤ ምን ፡ ይጠቅማል ፡ ትሉኝ ፡ እንደ ፡ ሆነ ፡ የኛስ ፡ ምስክርነት ፡ ዕውነት ፡ እንደ ፡ ሆነች ፡ ታውቃላችሁ ፡ ዮሐ ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "፲፱",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ፥ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "፴፭",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": "ና ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "፳፩",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ፥ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "፳፬",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            }
+          ],
+          "rejoined_marked_text": "⟪ወበእንተ ፡ ድሜጥሮስኒ ፡ ስምዐ ፡ ኮነ ፡ ኵሉ ፥⟫ ስለ ፡ ድሜጥሮስ ፡ ሰው ፡ ሁሉ ፡ መሰከረለት ፥ ⟪ወለሊሃኒ ፡ ጽድቅ ፡ ስምዐ ፡ ኮነት ፡ ሎቱ ፥⟫ ሃይማኖት ። አንድም ፡ ተአምራት ፡ ምጽዋት ፡ መሰከረችለት ። ታሪክ ፡ ይህ ፡ ሰው ፡ ገንዘቡን ፡ ጨርሶ ፡ መጽውቶ ፡ በዘመነ ፡ ረኃብ ፡ ድስት ፡ ሙሉ ፡ ወርቅ ፡ አግኝቶ ፡ ራሱን ፡ ምእመናንን ፡ ረድቶበታል ፥ ⟪ወንሕነኒ ፡ ስምዐ ፡ ኮነ ፡ ሎቱ ፥⟫ እኛም ፡ መሰከርንለት ። ⟪ወታአምሩ ፡ ከመ ፡ ርትዕት ፡ ይእቲ ፡ ስምዕነ ፥⟫ የናንት ፡ ምስክርነት ፡ ምን ፡ ይረባል ፤ ምን ፡ ይጠቅማል ፡ ትሉኝ ፡ እንደ ፡ ሆነ ፡ የኛስ ፡ ምስክርነት ፡ ዕውነት ፡ እንደ ፡ ሆነች ፡ ታውቃላችሁ ፡ ዮሐ ፡ ፲፱ ፥ ፴፭ና ፡ ፳፩ ፥ ፳፬ ።",
+          "rejoined_plain_text": "ወበእንተ ፡ ድሜጥሮስኒ ፡ ስምዐ ፡ ኮነ ፡ ኵሉ ፥ ስለ ፡ ድሜጥሮስ ፡ ሰው ፡ ሁሉ ፡ መሰከረለት ፥ ወለሊሃኒ ፡ ጽድቅ ፡ ስምዐ ፡ ኮነት ፡ ሎቱ ፥ ሃይማኖት ። አንድም ፡ ተአምራት ፡ ምጽዋት ፡ መሰከረችለት ። ታሪክ ፡ ይህ ፡ ሰው ፡ ገንዘቡን ፡ ጨርሶ ፡ መጽውቶ ፡ በዘመነ ፡ ረኃብ ፡ ድስት ፡ ሙሉ ፡ ወርቅ ፡ አግኝቶ ፡ ራሱን ፡ ምእመናንን ፡ ረድቶበታል ፥ ወንሕነኒ ፡ ስምዐ ፡ ኮነ ፡ ሎቱ ፥ እኛም ፡ መሰከርንለት ። ወታአምሩ ፡ ከመ ፡ ርትዕት ፡ ይእቲ ፡ ስምዕነ ፥ የናንት ፡ ምስክርነት ፡ ምን ፡ ይረባል ፤ ምን ፡ ይጠቅማል ፡ ትሉኝ ፡ እንደ ፡ ሆነ ፡ የኛስ ፡ ምስክርነት ፡ ዕውነት ፡ እንደ ፡ ሆነች ፡ ታውቃላችሁ ፡ ዮሐ ፡ ፲፱ ፥ ፴፭ና ፡ ፳፩ ፥ ፳፬ ።"
+        },
+        {
+          "id": "john3:1:13",
+          "book_key": "john3",
+          "chapter_num": 1,
+          "chapter_ethiopic": "፩",
+          "verse_num": 13,
+          "verse_ethiopic": "፲፫",
+          "is_prologue": false,
+          "reference_geez": "ምዕራፍ ፩ ፥ ቍጥር ፲፫",
+          "reference_short_geez": "፫ ዮሐ ፩፥፲፫",
+          "reference_english": "3 John 1:13",
+          "reference_arabic": "1:13",
+          "section_title": null,
+          "linked_topics": [],
+          "start_pdf_page": 2,
+          "start_book_page_ethiopic": "፻፳፰ | ፻፳፱",
+          "geez_text": "ወብዙኀ ፡ ብየ ፡ ዘእጽሕፍ ፡ ለከ ፥ ፤ አላ ፡ ኢፈቀድኩ ፡ በማየ ፡ ሕመት ፡ ወበቀለም ፡ እጽሕፍ ፡ ለከ ።",
+          "geez_root_text": "ወብዙኀ ፡ ብየ ፡ ዘእጽሕፍ ፡ ለከ ፥ ፤ አላ ፡ ኢፈቀድኩ ፡ በማየ ፡ ሕመት ፡ ወበቀለም ፡ እጽሕፍ ፡ ለከ ።",
+          "geez_clauses": [
+            "ወብዙኀ ፡ ብየ ፡ ዘእጽሕፍ ፡ ለከ ፥",
+            "አላ ፡ ኢፈቀድኩ ፡ በማየ ፡ ሕመት ፡ ወበቀለም ፡ እጽሕፍ ፡ ለከ ።"
+          ],
+          "geez_root_lemmas": [
+            "ወብዙኀ ፡ ብየ ፡ ዘእጽሕፍ ፡ ለከ ፥",
+            "አላ ፡ ኢፈቀድኩ ፡ በማየ ፡ ሕመት ፡ ወበቀለም ፡ እጽሕፍ ፡ ለከ ።"
+          ],
+          "amharic_commentary_text": "የምጽፍልህ ፡ ብዙ ፡ ነበረኝ ፥ ብርዕ ፡ ቀርጬ ፡ ቀለም ፡ በጥብጬ ፡ ልጽፍልህ ፡ አልወደድሁምና ፡ ተውሁት ፡ እንጅ ፡ ፪ ፡ ዮሐ ፡ ቍ ፥ ፲፪ ።",
+          "clause_by_clause": [
+            {
+              "clause_index": 1,
+              "geez_lemma": "ወብዙኀ ፡ ብየ ፡ ዘእጽሕፍ ፡ ለከ ፥",
+              "amharic_explanation": "የምጽፍልህ ፡ ብዙ ፡ ነበረኝ ፥",
+              "primary_interpretation": "የምጽፍልህ ፡ ብዙ ፡ ነበረኝ ፥",
+              "andem_interpretations": [],
+              "hateta_explanations": []
+            },
+            {
+              "clause_index": 2,
+              "geez_lemma": "አላ ፡ ኢፈቀድኩ ፡ በማየ ፡ ሕመት ፡ ወበቀለም ፡ እጽሕፍ ፡ ለከ ።",
+              "amharic_explanation": "ብርዕ ፡ ቀርጬ ፡ ቀለም ፡ በጥብጬ ፡ ልጽፍልህ ፡ አልወደድሁምና ፡ ተውሁት ፡ እንጅ ፡ ፪ ፡ ዮሐ ፡ ቍ ፥ ፲፪ ።",
+              "primary_interpretation": "ብርዕ ፡ ቀርጬ ፡ ቀለም ፡ በጥብጬ ፡ ልጽፍልህ ፡ አልወደድሁምና ፡ ተውሁት ፡ እንጅ ፡ ፪ ፡ ዮሐ ፡ ቍ ፥ ፲፪ ።",
+              "andem_interpretations": [],
+              "hateta_explanations": []
+            }
+          ],
+          "biranna_spans": [
+            {
+              "text": "ወብዙኀ ፡ ብየ ፡ ዘእጽሕፍ ፡ ለከ ፥",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " የምጽፍልህ ፡ ብዙ ፡ ነበረኝ ፥ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "አላ ፡ ኢፈቀድኩ ፡ በማየ ፡ ሕመት ፡ ወበቀለም ፡ እጽሕፍ ፡ ለከ ።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " ብርዕ ፡ ቀርጬ ፡ ቀለም ፡ በጥብጬ ፡ ልጽፍልህ ፡ አልወደድሁምና ፡ ተውሁት ፡ እንጅ ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "፪",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ፡ ዮሐ ፡ ቍ ፥ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "፲፪",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            }
+          ],
+          "rejoined_marked_text": "⟪ወብዙኀ ፡ ብየ ፡ ዘእጽሕፍ ፡ ለከ ፥⟫ የምጽፍልህ ፡ ብዙ ፡ ነበረኝ ፥ ⟪አላ ፡ ኢፈቀድኩ ፡ በማየ ፡ ሕመት ፡ ወበቀለም ፡ እጽሕፍ ፡ ለከ ።⟫ ብርዕ ፡ ቀርጬ ፡ ቀለም ፡ በጥብጬ ፡ ልጽፍልህ ፡ አልወደድሁምና ፡ ተውሁት ፡ እንጅ ፡ ፪ ፡ ዮሐ ፡ ቍ ፥ ፲፪ ።",
+          "rejoined_plain_text": "ወብዙኀ ፡ ብየ ፡ ዘእጽሕፍ ፡ ለከ ፥ የምጽፍልህ ፡ ብዙ ፡ ነበረኝ ፥ አላ ፡ ኢፈቀድኩ ፡ በማየ ፡ ሕመት ፡ ወበቀለም ፡ እጽሕፍ ፡ ለከ ። ብርዕ ፡ ቀርጬ ፡ ቀለም ፡ በጥብጬ ፡ ልጽፍልህ ፡ አልወደድሁምና ፡ ተውሁት ፡ እንጅ ፡ ፪ ፡ ዮሐ ፡ ቍ ፥ ፲፪ ።"
+        },
+        {
+          "id": "john3:1:14",
+          "book_key": "john3",
+          "chapter_num": 1,
+          "chapter_ethiopic": "፩",
+          "verse_num": 14,
+          "verse_ethiopic": "፲፬",
+          "is_prologue": false,
+          "reference_geez": "ምዕራፍ ፩ ፥ ቍጥር ፲፬",
+          "reference_short_geez": "፫ ዮሐ ፩፥፲፬",
+          "reference_english": "3 John 1:14",
+          "reference_arabic": "1:14",
+          "section_title": null,
+          "linked_topics": [],
+          "start_pdf_page": 2,
+          "start_book_page_ethiopic": "፻፳፰ | ፻፳፱",
+          "geez_text": "አላ ፡ እትአመን ፡ ባሕቱ ፡ ከመ ፡ ፍጡነ ፡ እሬእየከ ፡ ወእትናገረከ ፡ አፈ ፡ በአፍ ።",
+          "geez_root_text": "አላ ፡ እትአመን ፡ ባሕቱ ፡ ከመ ፡ ፍጡነ ፡ እሬእየከ ፡ ወእትናገረከ ፡ አፈ ፡ በአፍ ።",
+          "geez_clauses": [
+            "አላ ፡ እትአመን ፡ ባሕቱ ፡ ከመ ፡ ፍጡነ ፡ እሬእየከ ፡ ወእትናገረከ ፡ አፈ ፡ በአፍ ።"
+          ],
+          "geez_root_lemmas": [
+            "አላ ፡ እትአመን ፡ ባሕቱ ፡ ከመ ፡ ፍጡነ ፡ እሬእየከ ፡ ወእትናገረከ ፡ አፈ ፡ በአፍ ።"
+          ],
+          "amharic_commentary_text": "ነገር ፡ ግን ፡ ፈጥኜ ፡ እንድመጣ ፡ ቃል ፡ ለቃል ፡ እንድነጋገርህ ፡ አምናለሁና ፡ ተሁት ። አንድም ፡ የምጽፍልህ ፡ ብዙ ፡ ነበረኝ ፥ ነገር ፡ ግን ፡ ብርዕ ፡ ቀርጬ ፡ ብራና ፡ ዳምጬ ፡ ቀለም ፡ በጥብጬ ፡ ልጽፍልህ ፡ አልወደድሁም ። (ጥቅ) ፡ ጽሑፍ ፡ ኃጢአታ ፡ ለይሁዳ ፡ በቀለመ ፡ ኀፂን ፡ ወብርት ፡ ውስተ ፡ ሰሌዳ ፡ ኰኵሕ ፡ ወእብን ፡ እንዲል ፤ ፈጥኜ ፡ እንድመጣ ፡ ቃል ፡ ለቃል ፡ እንድነጋገርህ ፡ አምናለሁና ፡ ተሁት ፡ እንጅ ።",
+          "clause_by_clause": [
+            {
+              "clause_index": 1,
+              "geez_lemma": "አላ ፡ እትአመን ፡ ባሕቱ ፡ ከመ ፡ ፍጡነ ፡ እሬእየከ ፡ ወእትናገረከ ፡ አፈ ፡ በአፍ ።",
+              "amharic_explanation": "ነገር ፡ ግን ፡ ፈጥኜ ፡ እንድመጣ ፡ ቃል ፡ ለቃል ፡ እንድነጋገርህ ፡ አምናለሁና ፡ ተሁት ። አንድም ፡ የምጽፍልህ ፡ ብዙ ፡ ነበረኝ ፥ ነገር ፡ ግን ፡ ብርዕ ፡ ቀርጬ ፡ ብራና ፡ ዳምጬ ፡ ቀለም ፡ በጥብጬ ፡ ልጽፍልህ ፡ አልወደድሁም ። (ጥቅ) ፡ ጽሑፍ ፡ ኃጢአታ ፡ ለይሁዳ ፡ በቀለመ ፡ ኀፂን ፡ ወብርት ፡ ውስተ ፡ ሰሌዳ ፡ ኰኵሕ ፡ ወእብን ፡ እንዲል ፤ ፈጥኜ ፡ እንድመጣ ፡ ቃል ፡ ለቃል ፡ እንድነጋገርህ ፡ አምናለሁና ፡ ተሁት ፡ እንጅ ።",
+              "primary_interpretation": "ነገር ፡ ግን ፡ ፈጥኜ ፡ እንድመጣ ፡ ቃል ፡ ለቃል ፡ እንድነጋገርህ ፡ አምናለሁና ፡ ተሁት ።",
+              "andem_interpretations": [
+                "አንድም ፡ የምጽፍልህ ፡ ብዙ ፡ ነበረኝ ፥ ነገር ፡ ግን ፡ ብርዕ ፡ ቀርጬ ፡ ብራና ፡ ዳምጬ ፡ ቀለም ፡ በጥብጬ ፡ ልጽፍልህ ፡ አልወደድሁም ። (ጥቅ) ፡ ጽሑፍ ፡ ኃጢአታ ፡ ለይሁዳ ፡ በቀለመ ፡ ኀፂን ፡ ወብርት ፡ ውስተ ፡ ሰሌዳ ፡ ኰኵሕ ፡ ወእብን ፡ እንዲል ፤ ፈጥኜ ፡ እንድመጣ ፡ ቃል ፡ ለቃል ፡ እንድነጋገርህ ፡ አምናለሁና ፡ ተሁት ፡ እንጅ ።"
+              ],
+              "hateta_explanations": []
+            }
+          ],
+          "biranna_spans": [
+            {
+              "text": "አላ ፡ እትአመን ፡ ባሕቱ ፡ ከመ ፡ ፍጡነ ፡ እሬእየከ ፡ ወእትናገረከ ፡ አፈ ፡ በአፍ ።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " ነገር ፡ ግን ፡ ፈጥኜ ፡ እንድመጣ ፡ ቃል ፡ ለቃል ፡ እንድነጋገርህ ፡ አምናለሁና ፡ ተሁት ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "አንድም",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "andemta_rubric"
+            },
+            {
+              "text": " ፡ የምጽፍልህ ፡ ብዙ ፡ ነበረኝ ፥ ነገር ፡ ግን ፡ ብርዕ ፡ ቀርጬ ፡ ብራና ፡ ዳምጬ ፡ ቀለም ፡ በጥብጬ ፡ ልጽፍልህ ፡ አልወደድሁም ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "(ጥቅ)",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "andemta_rubric"
+            },
+            {
+              "text": " ፡ ጽሑፍ ፡ ኃጢአታ ፡ ለይሁዳ ፡ በቀለመ ፡ ኀፂን ፡ ወብርት ፡ ውስተ ፡ ሰሌዳ ፡ ኰኵሕ ፡ ወእብን ፡ እንዲል ፤ ፈጥኜ ፡ እንድመጣ ፡ ቃል ፡ ለቃል ፡ እንድነጋገርህ ፡ አምናለሁና ፡ ተሁት ፡ እንጅ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            }
+          ],
+          "rejoined_marked_text": "⟪አላ ፡ እትአመን ፡ ባሕቱ ፡ ከመ ፡ ፍጡነ ፡ እሬእየከ ፡ ወእትናገረከ ፡ አፈ ፡ በአፍ ።⟫ ነገር ፡ ግን ፡ ፈጥኜ ፡ እንድመጣ ፡ ቃል ፡ ለቃል ፡ እንድነጋገርህ ፡ አምናለሁና ፡ ተሁት ። አንድም ፡ የምጽፍልህ ፡ ብዙ ፡ ነበረኝ ፥ ነገር ፡ ግን ፡ ብርዕ ፡ ቀርጬ ፡ ብራና ፡ ዳምጬ ፡ ቀለም ፡ በጥብጬ ፡ ልጽፍልህ ፡ አልወደድሁም ። (ጥቅ) ፡ ጽሑፍ ፡ ኃጢአታ ፡ ለይሁዳ ፡ በቀለመ ፡ ኀፂን ፡ ወብርት ፡ ውስተ ፡ ሰሌዳ ፡ ኰኵሕ ፡ ወእብን ፡ እንዲል ፤ ፈጥኜ ፡ እንድመጣ ፡ ቃል ፡ ለቃል ፡ እንድነጋገርህ ፡ አምናለሁና ፡ ተሁት ፡ እንጅ ።",
+          "rejoined_plain_text": "አላ ፡ እትአመን ፡ ባሕቱ ፡ ከመ ፡ ፍጡነ ፡ እሬእየከ ፡ ወእትናገረከ ፡ አፈ ፡ በአፍ ። ነገር ፡ ግን ፡ ፈጥኜ ፡ እንድመጣ ፡ ቃል ፡ ለቃል ፡ እንድነጋገርህ ፡ አምናለሁና ፡ ተሁት ። አንድም ፡ የምጽፍልህ ፡ ብዙ ፡ ነበረኝ ፥ ነገር ፡ ግን ፡ ብርዕ ፡ ቀርጬ ፡ ብራና ፡ ዳምጬ ፡ ቀለም ፡ በጥብጬ ፡ ልጽፍልህ ፡ አልወደድሁም ። (ጥቅ) ፡ ጽሑፍ ፡ ኃጢአታ ፡ ለይሁዳ ፡ በቀለመ ፡ ኀፂን ፡ ወብርት ፡ ውስተ ፡ ሰሌዳ ፡ ኰኵሕ ፡ ወእብን ፡ እንዲል ፤ ፈጥኜ ፡ እንድመጣ ፡ ቃል ፡ ለቃል ፡ እንድነጋገርህ ፡ አምናለሁና ፡ ተሁት ፡ እንጅ ።"
+        },
+        {
+          "id": "john3:1:15",
+          "book_key": "john3",
+          "chapter_num": 1,
+          "chapter_ethiopic": "፩",
+          "verse_num": 15,
+          "verse_ethiopic": "፲፭",
+          "is_prologue": false,
+          "reference_geez": "ምዕራፍ ፩ ፥ ቍጥር ፲፭",
+          "reference_short_geez": "፫ ዮሐ ፩፥፲፭",
+          "reference_english": "3 John 1:15",
+          "reference_arabic": "1:15",
+          "section_title": null,
+          "linked_topics": [],
+          "start_pdf_page": 2,
+          "start_book_page_ethiopic": "፻፳፰ | ፻፳፱",
+          "geez_text": "ሰላም ፡ ለከ ፥ ፤ ወይኤምኁከ ፡ አኀዊነ ፥ ፤ ወአምኅ ፡ ቢጸነ ፡ በበአስማቲሆሙ ። ፤ መልአት ፡ መልእክተ ፡ ዮሐንስ ፡ ሣልሲት ። ፤ ወስብሐት ፡ ለእግዚአብሔር ። ፤ አሜን ።",
+          "geez_root_text": "ሰላም ፡ ለከ ፥ ፤ ወይኤምኁከ ፡ አኀዊነ ፥ ፤ ወአምኅ ፡ ቢጸነ ፡ በበአስማቲሆሙ ። ፤ መልአት ፡ መልእክተ ፡ ዮሐንስ ፡ ሣልሲት ። ፤ ወስብሐት ፡ ለእግዚአብሔር ። ፤ አሜን ።",
+          "geez_clauses": [
+            "ሰላም ፡ ለከ ፥",
+            "ወይኤምኁከ ፡ አኀዊነ ፥",
+            "ወአምኅ ፡ ቢጸነ ፡ በበአስማቲሆሙ ።",
+            "መልአት ፡ መልእክተ ፡ ዮሐንስ ፡ ሣልሲት ።",
+            "ወስብሐት ፡ ለእግዚአብሔር ።",
+            "አሜን ።"
+          ],
+          "geez_root_lemmas": [
+            "ሰላም ፡ ለከ ፥",
+            "ወይኤምኁከ ፡ አኀዊነ ፥",
+            "ወአምኅ ፡ ቢጸነ ፡ በበአስማቲሆሙ ።",
+            "መልአት ፡ መልእክተ ፡ ዮሐንስ ፡ ሣልሲት ።",
+            "ወስብሐት ፡ ለእግዚአብሔር ።",
+            "አሜን ።"
+          ],
+          "amharic_commentary_text": "ቸር ፡ አለህን ፥ ወንድሞቻችን ፡ ቸር ፡ አለህን ፡ ይሉሃል ፥ ወንድሞቻችንን ፡ በየስማቸው ፡ ቸር ፡ አላችሁን ፡ በል ። ሦስተኛይቱ ፡ የዮሐንስ ፡ ክታብ ፡ ደረሰች ፡ ተፈጸመች ። አስዠምሮ ፡ ላስጨረሰን ፡ ጌታ ፡ ክብር ፡ ምሥጋና ፡ ይግባው ፡ ይሁን ።",
+          "clause_by_clause": [
+            {
+              "clause_index": 1,
+              "geez_lemma": "ሰላም ፡ ለከ ፥",
+              "amharic_explanation": "ቸር ፡ አለህን ፥",
+              "primary_interpretation": "ቸር ፡ አለህን ፥",
+              "andem_interpretations": [],
+              "hateta_explanations": []
+            },
+            {
+              "clause_index": 2,
+              "geez_lemma": "ወይኤምኁከ ፡ አኀዊነ ፥",
+              "amharic_explanation": "ወንድሞቻችን ፡ ቸር ፡ አለህን ፡ ይሉሃል ፥",
+              "primary_interpretation": "ወንድሞቻችን ፡ ቸር ፡ አለህን ፡ ይሉሃል ፥",
+              "andem_interpretations": [],
+              "hateta_explanations": []
+            },
+            {
+              "clause_index": 3,
+              "geez_lemma": "ወአምኅ ፡ ቢጸነ ፡ በበአስማቲሆሙ ።",
+              "amharic_explanation": "ወንድሞቻችንን ፡ በየስማቸው ፡ ቸር ፡ አላችሁን ፡ በል ።",
+              "primary_interpretation": "ወንድሞቻችንን ፡ በየስማቸው ፡ ቸር ፡ አላችሁን ፡ በል ።",
+              "andem_interpretations": [],
+              "hateta_explanations": []
+            },
+            {
+              "clause_index": 4,
+              "geez_lemma": "መልአት ፡ መልእክተ ፡ ዮሐንስ ፡ ሣልሲት ።",
+              "amharic_explanation": "ሦስተኛይቱ ፡ የዮሐንስ ፡ ክታብ ፡ ደረሰች ፡ ተፈጸመች ።",
+              "primary_interpretation": "ሦስተኛይቱ ፡ የዮሐንስ ፡ ክታብ ፡ ደረሰች ፡ ተፈጸመች ።",
+              "andem_interpretations": [],
+              "hateta_explanations": []
+            },
+            {
+              "clause_index": 5,
+              "geez_lemma": "ወስብሐት ፡ ለእግዚአብሔር ።",
+              "amharic_explanation": "አስዠምሮ ፡ ላስጨረሰን ፡ ጌታ ፡ ክብር ፡ ምሥጋና ፡ ይግባው ፡",
+              "primary_interpretation": "አስዠምሮ ፡ ላስጨረሰን ፡ ጌታ ፡ ክብር ፡ ምሥጋና ፡ ይግባው ፡",
+              "andem_interpretations": [],
+              "hateta_explanations": []
+            },
+            {
+              "clause_index": 6,
+              "geez_lemma": "አሜን ።",
+              "amharic_explanation": "ይሁን ።",
+              "primary_interpretation": "ይሁን ።",
+              "andem_interpretations": [],
+              "hateta_explanations": []
+            }
+          ],
+          "biranna_spans": [
+            {
+              "text": "ሰላም ፡ ለከ ፥",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " ቸር ፡ አለህን ፥ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "ወይኤምኁከ ፡ አኀዊነ ፥",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " ወንድሞቻችን ፡ ቸር ፡ አለህን ፡ ይሉሃል ፥ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "ወአምኅ ፡ ቢጸነ ፡ በበአስማቲሆሙ ።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " ወንድሞቻችንን ፡ በየስማቸው ፡ ቸር ፡ አላችሁን ፡ በል ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "መልአት ፡ መልእክተ ፡ ዮሐንስ ፡ ሣልሲት ።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " ሦስተኛይቱ ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "የዮሐንስ",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "sacred_saint_angel"
+            },
+            {
+              "text": " ፡ ክታብ ፡ ደረሰች ፡ ተፈጸመች ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            },
+            {
+              "text": " ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "ወስብሐት ፡ ለእግዚአብሔር ።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " አስዠምሮ ፡ ላስጨረሰን ፡ ጌታ ፡ ክብር ፡ ምሥጋና ፡ ይግባው ፡ ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "አሜን ።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "geez_scripture"
+            },
+            {
+              "text": " ይሁን ",
+              "color": "black",
+              "hex": "#1f1a14",
+              "category": "amharic_commentary"
+            },
+            {
+              "text": "።",
+              "color": "red",
+              "hex": "#9e1b1b",
+              "category": "rubric_numeral_punct"
+            }
+          ],
+          "rejoined_marked_text": "⟪ሰላም ፡ ለከ ፥⟫ ቸር ፡ አለህን ፥ ⟪ወይኤምኁከ ፡ አኀዊነ ፥⟫ ወንድሞቻችን ፡ ቸር ፡ አለህን ፡ ይሉሃል ፥ ⟪ወአምኅ ፡ ቢጸነ ፡ በበአስማቲሆሙ ።⟫ ወንድሞቻችንን ፡ በየስማቸው ፡ ቸር ፡ አላችሁን ፡ በል ። ⟪መልአት ፡ መልእክተ ፡ ዮሐንስ ፡ ሣልሲት ።⟫ ሦስተኛይቱ ፡ የዮሐንስ ፡ ክታብ ፡ ደረሰች ፡ ተፈጸመች ። ⟪ወስብሐት ፡ ለእግዚአብሔር ።⟫ አስዠምሮ ፡ ላስጨረሰን ፡ ጌታ ፡ ክብር ፡ ምሥጋና ፡ ይግባው ፡ ⟪አሜን ።⟫ ይሁን ።",
+          "rejoined_plain_text": "ሰላም ፡ ለከ ፥ ቸር ፡ አለህን ፥ ወይኤምኁከ ፡ አኀዊነ ፥ ወንድሞቻችን ፡ ቸር ፡ አለህን ፡ ይሉሃል ፥ ወአምኅ ፡ ቢጸነ ፡ በበአስማቲሆሙ ። ወንድሞቻችንን ፡ በየስማቸው ፡ ቸር ፡ አላችሁን ፡ በል ። መልአት ፡ መልእክተ ፡ ዮሐንስ ፡ ሣልሲት ። ሦስተኛይቱ ፡ የዮሐንስ ፡ ክታብ ፡ ደረሰች ፡ ተፈጸመች ። ወስብሐት ፡ ለእግዚአብሔር ። አስዠምሮ ፡ ላስጨረሰን ፡ ጌታ ፡ ክብር ፡ ምሥጋና ፡ ይግባው ፡ አሜን ። ይሁን ።"
+        }
+      ]
+    }
+  ],
+  "chapter_index": [
+    {
+      "chapter_num": 1,
+      "chapter_ethiopic": "፩",
+      "geez_incipit": "እምነ ፡ ቀሲስ ፡ ለጋይዮስ ፡ ለእኍነ ፡ ዘአነ ፡ አፈቅር ፡ በጽድቅ ፥",
+      "amharic_incipit": "፩ ፤ እምነ ፡ ቀሲስ ፡ ለጋይዮስ ፡ ለእኍነ ፡ ዘአነ ፡ አፈቅር ፡ በጽድቅ ፥ ከኔ ፡ ከቄሱ ፡ የተላከች ፡ ክታብ ፥ ሐተታ ፡ እንደ ፡ ፪ኛ"
+    }
+  ],
+  "topical_index": [
+    {
+      "topic_id": 1,
+      "pdf_page": 1,
+      "book_page_ethiopic": "፻፺፱",
+      "chapter_num": 1,
+      "chapter_ethiopic": "፩",
+      "verse_num": 0,
+      "verse_ethiopic": "መቅድም",
+      "geez_title": "መልእክተ ፡ ዮሐንስ ፡ ሣልሲት ።",
+      "amharic_title": "መልእክተ ፡ ዮሐንስ ፡ ሣልሲት ። ሦስተኛዪቱ ፡ የዮሐንስ ፡ መልእክት ። ሦስተኛ ፡ ይጽፋል ፤ ጋይዮስ ፡ የሚባል ፡ ደግ፡ ሰው ፡ ነበረ፡ በ"
+    },
+    {
+      "topic_id": 2,
+      "pdf_page": 1,
+      "book_page_ethiopic": "፻፺፱",
+      "chapter_num": 1,
+      "chapter_ethiopic": "፩",
+      "verse_num": 1,
+      "verse_ethiopic": "፩",
+      "geez_title": "እምነ ፡ ቀሲስ ፡ ለጋይዮስ ፡ ለእኍነ ፡ ዘአነ ፡ አፈቅር ፡ በጽድቅ ፥",
+      "amharic_title": "፩ ፤  ከኔ ፡ ከቄሱ ፡ የተላከች ፡ ክታብ ፥ ሐተታ ፡ እንደ ፡ ፪ኛው ፡ ክታብ ፡ ቍ ፡ ፩ ፡ ለኛ ፡ ለ ፡ አንድ ፡ ወገን ፡ ነው ፡ በሃ"
+    }
+  ],
+  "canon_tables": []
+}

@@ -1,0 +1,26 @@
+{
+  "pdf_page": 14,
+  "book_page_ethiopic": "፫፻፴፫",
+  "elapsed_sec": 13.0,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 2,
+      "old_text": "ተዘርዓት ውስተ ምድር⟫ ₍ማቴ",
+      "corrected_text": "ተዘርዓት ውስተ ምድር⟫ ፡ ማቴ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "₍ -> ፡",
+      "reason": "The Ethiopic word-space/colon punctuation mark (፡) before the cross-reference ማቴ was misread as a subscript parenthesis character."
+    },
+    {
+      "column_index": 3,
+      "line_num": 38,
+      "old_text": "፳፫ ሉቃ ፰ ፳፪ ፱፻ ።",
+      "corrected_text": "፳፫ ሉቃ ፰ ፳፪ ፳፭ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፱፻ -> ፳፭",
+      "reason": "In the Gospel cross-reference for the calming of the storm (Luke 8:22-25), the numeral ፳፭ (25) has heavy ink bleed and was misread as ፱፻."
+    }
+  ]
+}

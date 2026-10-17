@@ -1,0 +1,26 @@
+{
+  "pdf_page": 39,
+  "book_page_ethiopic": "፬፻፳፩",
+  "elapsed_sec": 16.6,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 6,
+      "old_text": "ምነት ክብሩንም በዚህ ያው ልክ",
+      "corrected_text": "ምነት ክብሩንም በዚያው ልክ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በዚህ ያው -> በዚያው",
+      "reason": "The printed word is በዚያው ('in that same [measure]'), where the right leg of ዚ was misread as ዚህ + ያው."
+    },
+    {
+      "column_index": 2,
+      "line_num": 4,
+      "old_text": "ሥ እአትየ አውፅእ ኃሠረ እ↵",
+      "corrected_text": "ሥ እኁየ አውፅእ ኃሠረ እ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እአትየ -> እኁየ",
+      "reason": "Canonical Ge'ez Luke 6:42 vocative እኁየ ('my brother', glossed in L06 as ወንድምህን); the 2nd-order ኁ was misread as አት due to ink bleed."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "pdf_page": 179,
+  "book_page_ethiopic": "፪፻፺፰",
+  "elapsed_sec": 9.8,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 22,
+      "old_text": "ተታ ከሱን ሌባ ቢሰኛ ጠበኛ",
+      "corrected_text": "ተታ ራሱን ሌባ ቢሰኛ ጠበኛ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ከሱን -> ራሱን",
+      "reason": "The printed glyph is ራሱን ('calling himself a thief, enemy'), where ራ was misread as ከ."
+    }
+  ]
+}

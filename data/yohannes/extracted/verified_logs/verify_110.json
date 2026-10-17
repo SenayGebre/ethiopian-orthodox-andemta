@@ -1,0 +1,26 @@
+{
+  "pdf_page": 110,
+  "book_page_ethiopic": "፮፻፳",
+  "elapsed_sec": 9.5,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 7,
+      "old_text": "ሰንዱነ ዘይትአጽፍ ቀነተ ውስ",
+      "corrected_text": "ሰንዱነ ዘይትአጽፍ፡ ቀነተ ውስ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዘይትአጽፍ -> ዘይትአጽፍ፡",
+      "reason": "There is a clearly printed two-dot word divider (ነቁጥ ፡) after ዘይትአጽፍ in the image."
+    },
+    {
+      "column_index": 3,
+      "line_num": 37,
+      "old_text": "ማዕዱ ተሰርቶ አገኙ፤ዘአስተ",
+      "corrected_text": "ማዕዱ ተሰርቶ አገኙ ፥ ዘአስተ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "፤ -> ፥",
+      "reason": "The punctuation after አገኙ is a single-stroke comma/colon-dash (ነጠላ ሰረዝ ፥), not ድርብ ሰረዝ (፤)."
+    }
+  ]
+}

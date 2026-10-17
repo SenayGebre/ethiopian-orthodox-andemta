@@ -1,0 +1,71 @@
+{
+  "pdf_page": 38,
+  "book_page_ethiopic": "፬፻፳",
+  "elapsed_sec": 22.7,
+  "applied_count": 7,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 8,
+      "old_text": "ቸዋልና በሐሰት ቢያመሰግኗዋ",
+      "corrected_text": "ቸዋልና በሐሰት ቢያመሰግኑዋ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኗ -> ኑ",
+      "reason": "The printed glyph before ዋ is 2nd-order ኑ (ቢያመሰግኑዋችሁ), not ኗ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 37,
+      "old_text": "ሚጥ ሎቱ ካልዕታሂ ።⟫ ማቴ ፭",
+      "corrected_text": "ሚጥ ሎቱ ካልእታሂ ።⟫ ማቴ ፭",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዕ -> እ",
+      "reason": "Both the image and canonical Ge'ez spelling of the feminine adjective have ካልእታሂ with አልፍ (እ), not ዐይን (ዕ)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 39,
+      "old_text": "ፊትህን ለጻፋህም ሁለተኛው",
+      "corrected_text": "ፊትህን ለጸፋህም ሁለተኛው",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጻ -> ጸ",
+      "reason": "The printed glyph has two equal legs of 1st-order ጸ (ለጸፋህም, 'to him who slapped you'), not 4th-order ጻ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 8,
+      "old_text": "ክልዖ ።⟫",
+      "corrected_text": "ክልኦ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዖ -> ኦ",
+      "reason": "The printed glyph is 7th-order ኦ (ኢትክልኦ, matching L02 above), not ዖ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 9,
+      "old_text": "የሚቀማሕንም አትከልክለው",
+      "corrected_text": "የሚቀማህንም አትከልክለው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሕ -> ህ",
+      "reason": "The printed 2nd-person singular suffix is ህ (የሚቀማህንም), not ሕ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 36,
+      "old_text": "ታደርጓዋቸው የምታበድሩ ከ",
+      "corrected_text": "ታደርጉዋቸው የምታበድሩ ከ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጓ -> ጉ",
+      "reason": "When spelled with explicit ዋ, the preceding character is 2nd-order ጉ (ለምታደርጉዋቸው), not labiovelar ጓ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 2,
+      "old_text": "ለኃጥአን ያበድሯዋቸዋልና ፥",
+      "corrected_text": "ለኃጥአን ያበድሩዋቸዋልና ፥",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሯ -> ሩ",
+      "reason": "The printed glyph before ዋ is 2nd-order ሩ (ያበድሩዋቸዋልና), not ሯ."
+    }
+  ]
+}

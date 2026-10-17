@@ -1,0 +1,26 @@
+{
+  "pdf_page": 28,
+  "book_page_ethiopic": "፭፻፴፰",
+  "elapsed_sec": 15.8,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "ድረሽ ⟪አንተኑ ተዓብ እምያዕ",
+      "corrected_text": "ድረሽ ⟪አንተኑ ተዓቢ እምያዕ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ብ -> ቢ",
+      "reason": "Both visually (the 3rd-order foot on the right leg of ቢ is visible) and grammatically in Classical Ge'ez (John 4:12: አንተኑ ተዓቢ እምያዕቆብ አቡነ), the 2nd person masculine singular imperfective of ዐብየ is ተዓቢ, not ተዓብ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 2,
+      "old_text": "ኵሉ ገጸ መካን ይላል ባራቱ",
+      "corrected_text": "ኵሉ ገጸ መካን⟫ ይላል ባራቱ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "መካን -> መካን⟫",
+      "reason": "Closes the Ge'ez root variant quote ⟪አላ በኵሉ ገጸ መካን⟫ before the Amharic citation marker ይላል."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "pdf_page": 41,
+  "book_page_ethiopic": "፷፬ | ፷፭",
+  "elapsed_sec": 25.4,
+  "applied_count": 9,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "ርኅ ፡ የፈጠረውን ፡ ፍጥረት ፡ አንተ ፡ አት",
+      "corrected_text": "ርጎ ፡ የፈጠረውን ፡ ፍጥረት ፡ አንተ ፡ አት",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ርኅ -> ርጎ",
+      "reason": "Continues 'አድ-' from the end of the previous page to form 'አድርጎ' (having made pure); the 7th-order 'ጎ' was misread as 'ኅ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 28,
+      "old_text": "፲፯ ፤ ⟪ወእንዘ ፡ ይጼሊ ፡ ጴጥሮስ ፡ ምንት ፡ ውእቱ ፡",
+      "corrected_text": "፲፯ ፤ ⟪ወእንዘ ፡ ይሔሊ ፡ ጴጥሮስ ፡ ምንት ፡ ውእቱ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ይጼሊ -> ይሔሊ",
+      "reason": "Canonical Ge'ez Acts 10:17 and visual inspection show 'ይሔሊ' (while Peter was pondering, translated 'ሲያወጣ ሲያወርድ'), not 'ይጼሊ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 30,
+      "old_text": "ኀበ ፡ ቆርኔሌዎስ ፡ እንዘ ፡ የኀሥሥ ፡ ቤቶ ፡ ለስም",
+      "corrected_text": "ኀበ ፡ ቆርኔሌዎስ ፡ እንዘ ፡ የኀሥሡ ፡ ቤቶ ፡ ለስም",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "የኀሥሥ -> የኀሥሡ",
+      "reason": "Plural verb agreeing with 'ዕደው' (men): 'የኀሥሡ' (seeking), with the 2nd-order vowel stroke on the second 'ሡ' clearly visible."
+    },
+    {
+      "column_index": 2,
+      "line_num": 9,
+      "old_text": "የኀሥሥከ ።⟫",
+      "corrected_text": "የኀሥሡከ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "የኀሥሥከ -> የኀሥሡከ",
+      "reason": "Plural verb agreeing with 'ሠለስቱ ዕደው': 'የኀሥሡከ' (they seek you), with the 2nd-order stroke on 'ሡ' visible."
+    },
+    {
+      "column_index": 3,
+      "line_num": 12,
+      "old_text": "በሦስተኛው ፡ ቀን ፡ አብሯቸው ፡ ሂደ ።",
+      "corrected_text": "በሦስተኛው ፡ ቀን ፡ አብሯቸው ፡ ሄደ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሂደ -> ሄደ",
+      "reason": "The printed glyph is 5th-order 'ሄደ' (he went), not 3rd-order 'ሂደ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 16,
+      "old_text": "ናን ፡ ጴጥሮስን ፡ ተከትለውት ፡ የሂዱ ፡",
+      "corrected_text": "ናን ፡ ጴጥሮስን ፡ ተከትለውት ፡ የሄዱ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "የሂዱ -> የሄዱ",
+      "reason": "The printed glyph is 5th-order 'የሄዱ' (who went), not 'የሂዱ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 23,
+      "old_text": "ቆርኔሌዎስም ፡ ዘመዶቹን ፡ አሞቾቹን ፡",
+      "corrected_text": "ቆርኔሌዎስም ፡ ዘመዶቹን ፡ አማቾቹን ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አሞቾቹን -> አማቾቹን",
+      "reason": "The printed word is 'አማቾቹን' (his in-laws/close friends, translating 'ማኅፈሮ'), with 4th-order 'ማ' misread as 'ሞ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 30,
+      "old_text": "ክብሮ ፡ ስግደት ፡ ነው ፡ ሐተታ ፡ ቄስ",
+      "corrected_text": "ክብሮ ፡ ስግደት ፡ ነው ፡ ሐተታ ፡ ቆስ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቄስ -> ቆስ",
+      "reason": "Splits mid-word across lines 30-31 to form 'ቆስጠንጢኖስ' (Constantine); the 7th-order 'ቆ' was misread as 'ቄ'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 23,
+      "old_text": "፳፱ ፤ ⟪ወይእዜኒ ፡ ኢናፈቅየ ፡ መጻእኩ ፡ ኀቤክሙ ፡",
+      "corrected_text": "፳፱ ፤ ⟪ወይእዜኒ ፡ ኢናፊቅየ ፡ መጻእኩ ፡ ኀቤክሙ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኢናፈቅየ -> ኢናፊቅየ",
+      "reason": "Classical Ge'ez 1st person singular gerundive of 'ናፈቀ' is 'ኢናፊቅየ' (without doubting), and the 3rd-order 'ፊ' is clearly printed."
+    }
+  ]
+}

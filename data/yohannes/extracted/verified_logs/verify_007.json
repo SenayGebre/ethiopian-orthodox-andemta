@@ -1,0 +1,26 @@
+{
+  "pdf_page": 7,
+  "book_page_ethiopic": "፭፻፲፯",
+  "elapsed_sec": 16.4,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 9,
+      "old_text": "⟪ወዓለምኒ በቱ ኮነ ።⟫",
+      "corrected_text": "⟪ወዓለምኒ ቦቱ ኮነ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በቱ -> ቦቱ",
+      "reason": "Canonical Ge'ez Gospel of John 1:10 reads 'ወዓለምኒ ቦቱ ኮነ' (and the world was made through Him). In the column image, the shortened right leg of 7th-order 'ቦ' is visible."
+    },
+    {
+      "column_index": 3,
+      "line_num": 40,
+      "old_text": "ለ እንዲል ።",
+      "corrected_text": "ል እንዲል ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ለ -> ል",
+      "reason": "Completes the word 'ቃል' split across lines 39-40 ('ነበረ ከመ ቃል እንዲል'). The 6th-order 'ል' top loop is clearly visible in the image."
+    }
+  ]
+}

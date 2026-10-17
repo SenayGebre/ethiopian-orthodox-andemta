@@ -1,0 +1,107 @@
+{
+  "pdf_page": 33,
+  "book_page_ethiopic": "፭፻፵፫",
+  "elapsed_sec": 30.7,
+  "applied_count": 11,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 16,
+      "old_text": "ጥምቀት ፭ ዕርከን ያ፭ አዕማ",
+      "corrected_text": "ጥምቀት ፭ ዕርከን የ፭ አዕማ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ያ፭ -> የ፭",
+      "reason": "The genitive prefix before the numeral ፭ is 1st-order የ (የ፭ አዕማደ ምሥጢር), parallel to የ፭ቱ on the following line."
+    },
+    {
+      "column_index": 1,
+      "line_num": 21,
+      "old_text": "ነኮሳት።የአዕሩግ ፆራቸው ፍ",
+      "corrected_text": "ነኮሳት።የአዕሩግ ጦራቸው ፍ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ፆራቸው -> ጦራቸው",
+      "reason": "The word is ጦራቸው ('their spiritual warfare/weapon'), matching ጦራቸው in lines 32 and 36; a faint center leg caused ጦ to be misread as ፆ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 25,
+      "old_text": "በወራዙት ፆር በዝሙት ይ",
+      "corrected_text": "በወራዙት ጦር በዝሙት ይ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ፆር -> ጦር",
+      "reason": "The word is ጦር ('spear/warfare'), matching ጦር in line 34; faint ink on the middle leg of ጦ made it look like ፆ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 28,
+      "old_text": "ወራዙት ፆር ዝሙት ነው ይ",
+      "corrected_text": "ወራዙት ጦር ዝሙት ነው ይ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ፆር -> ጦር",
+      "reason": "Same glyph ጦር ('warfare/temptation') with a lightly inked middle leg misread as ፆር."
+    },
+    {
+      "column_index": 1,
+      "line_num": 40,
+      "old_text": "ፆር ይቃወማቸዋል በጥምቀ",
+      "corrected_text": "ጦር ይቃወማቸዋል በጥምቀ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ፆር -> ጦር",
+      "reason": "The word is በሌላ ጦር ('with another weapon/temptation'), matching በሌላ ጦር in lines 33-34."
+    },
+    {
+      "column_index": 2,
+      "line_num": 12,
+      "old_text": "መት የሆነው ድውይ ከዚያ",
+      "corrected_text": "መት የሁነው ድውይ ከዚያ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "የሆነው -> የሁነው",
+      "reason": "The image clearly prints the archaic Andemta form የሁነው with 2nd-order ሁ (bottom-right stroke visible), not የሆነው."
+    },
+    {
+      "column_index": 2,
+      "line_num": 37,
+      "old_text": "ውን አይተውምና።አንድም እ",
+      "corrected_text": "ውን አይተውምና።አንድም አ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እ -> አ",
+      "reason": "Joining across the line wrap gives አስፈቅዶ ('having asked permission/consent'), and the glyph at the end of line 37 is 1st-order አ without a center loop."
+    },
+    {
+      "column_index": 3,
+      "line_num": 1,
+      "old_text": "የቀለብላብነቱን አድኖኛል እ",
+      "corrected_text": "የቀልብላብነቱን አድኖኛል እ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "የቀለብላብነቱን -> የቀልብላብነቱን",
+      "reason": "The third character has the top-right hook of 6th-order ል (የቀልብላብነቱን, 'out of his own hastiness/meddling')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 3,
+      "old_text": "ልን እንዳይል ።",
+      "corrected_text": "ምን እንዳይል ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ልን -> ምን",
+      "reason": "Joined with line 2 (አይደለ-), the word is አይደለምን ('is it not?'). Visually the first character of line 3 clearly has the double loops and descender of ም, not ል."
+    },
+    {
+      "column_index": 3,
+      "line_num": 20,
+      "old_text": "ንሥእ ነሣእ ዓራተከ ወሑር⟫",
+      "corrected_text": "ንሥእ ንሣእ ዓራተከ ወሑር⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ነሣእ -> ንሣእ",
+      "reason": "The Classical Ge'ez imperative of ነሥአ is ንሣእ (with 6th-order ን), and the top bend of ን is clearly visible on the page."
+    },
+    {
+      "column_index": 3,
+      "line_num": 33,
+      "old_text": "መፃጕዕ የተፈወሰበት ቀኑ ቀ",
+      "corrected_text": "መፃጕዕ የተፈወሰበት ቀኑ ቅ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቀ -> ቅ",
+      "reason": "Joined with line 34 (-ዳሜ), the word is ቅዳሜ ('Saturday', matching line 35), and the final character on line 33 has the horizontal crossbar projection of 6th-order ቅ."
+    }
+  ]
+}

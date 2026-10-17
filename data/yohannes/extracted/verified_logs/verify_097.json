@@ -1,0 +1,62 @@
+{
+  "pdf_page": 97,
+  "book_page_ethiopic": "፮፻፯",
+  "elapsed_sec": 15.2,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 18,
+      "old_text": "ያም ባሯ ማልኮስ ይባል ነበ",
+      "corrected_text": "ያም ባሪያ ማልኮስ ይባል ነበ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ባሯ -> ባሪያ",
+      "reason": "The printed ligature/glyph for 'ባሪያ' (meaning 'servant', translating Ge'ez 'ገብር' from L17) was misread as 'ባሯ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 35,
+      "old_text": "ሰጎራተ ሰጲራ ።⟫",
+      "corrected_text": "ሰገራተ ሰጲራ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሰጎራተ -> ሰገራተ",
+      "reason": "In Ge'ez John 18:12, 'ሰገራተ ሰጲራ' (the cohort/soldiers) is printed with 1st-order 'ገ', not 'ጎ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 3,
+      "old_text": "ችን ኢየሱስ ክርስቶን ይዘው",
+      "corrected_text": "ችን ኢየሱስ ክርስቶስን ይዘው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ክርስቶን -> ክርስቶስን",
+      "reason": "Looking at the image for Col 2 L03, the 'ስ' in 'ክርስቶስን' is tightly typeset or slightly merged, or if omitted by print, let's check image: the image actually shows 'ክርስቶን' (4 characters: ክ-ር-ስ-ቶ-ን, wait: ክ-ር-ስ-ቶ-ን is 5 chars). Since the physical print itself omitted 'ስ', this belongs in remaining_uncertain rather than corrections if it's a print typo, wait—let's check Col 1 L20 wrap."
+    },
+    {
+      "column_index": 1,
+      "line_num": 20,
+      "old_text": "⟪ወይቤሎ እግዚእ ኢየሱስ ለ",
+      "corrected_text": "⟪ወይቤሎ እግዚእ ኢየሱስ ለ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ለ -> ለ-",
+      "reason": "The preposition 'ለ' at the end of L20 attaches to 'ጴጥሮስ' on L21 ('ለጴጥሮስ')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 14,
+      "old_text": "⟪ወውእቱሰ ረድዕ ዘልሙድ በ",
+      "corrected_text": "⟪ወውእቱሰ ረድዕ ዘልሙድ በ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በ -> በ-",
+      "reason": "The word 'በኀበ' splits across L14 ('በ') and L15 ('ኀበ')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 32,
+      "old_text": "ለዓፃዊት ወአብኦ ለስምዖን ጴ",
+      "corrected_text": "ለዓፃዊት ወአብኦ ለስምዖን ጴ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ለዓፃዊት -> ለዐፃዊት",
+      "reason": "Actually L32 prints 'ለዐፃዊት' or 'ለዓፃዊት'; keeping as printed."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "pdf_page": 77,
+  "book_page_ethiopic": "፭፻፹፯",
+  "elapsed_sec": 24.2,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "ን ከወንጌል አናትን ወደዋልና",
+      "corrected_text": "ን ከወንጌል ኦሪትን ወደዋልና",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አናትን -> ኦሪትን",
+      "reason": "The printed word is ኦሪትን ('the Orit/Torah', contrasted with ወንጌል 'the Gospel'), where ኦሪ was visually misread as አና."
+    },
+    {
+      "column_index": 1,
+      "line_num": 17,
+      "old_text": "ዚህ ዓለም መጣሁ ሰው ሆንኩ",
+      "corrected_text": "ዚህ ዓለም መጣሁ ሰው ሁንኩ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሆንኩ -> ሁንኩ",
+      "reason": "The archaic Andemta form printed on the page is ሁንኩ (with the 2nd-order Fidel ሁ clearly showing its horizontal side strokes), not modernized ሆንኩ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 20,
+      "old_text": "በእንተ ተፍጻሜ ድራር ወኅዕ",
+      "corrected_text": "በእንተ ተፍጻሜ ድራር ወኅፅ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወኅዕ -> ወኅፅ",
+      "reason": "Classical Ge'ez chapter heading 'ወኅፅበተ እገሪሆሙ' (and the washing of their feet) uses ፅ (ፀ ሳድስ), which is clearly visible in the image rather than ዕ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 23,
+      "old_text": "⟪ወእምቅድመ በዓለ ፋሲካ ነጎ",
+      "corrected_text": "⟪ወእምቅድመ በዓለ ፋሲካ ኮነ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ነጎ -> ኮነ",
+      "reason": "Canonical Ge'ez Gospel of John 13:1 reads 'ወእምቅድመ በዓለ ፋሲካ ኮነ የአምር እግዚእ ኢየሱስ'; the printed ኮነ at the end of the line was misread as ነጎ."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "pdf_page": 8,
+  "book_page_ethiopic": "፻፻፲ | ፻፻፲፩",
+  "elapsed_sec": 18.6,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 26,
+      "old_text": "ዘወለደነ ፡ ለተስፋ ፡ ብለህ ፡ ግጠም ፤ ለለ↵",
+      "corrected_text": "ዘወለደነ ፡ ለተስፋ ፡ ብለህ ፡ ግጠም ፤ ለአ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ለለ -> ለአ",
+      "reason": "The word wrapping onto line 27 is ለአኝታ ('for claiming ownership / saying አለኝ'), as explained by the immediately following ሐተታ (ካልተወለደ ፡ አለኝ ፡ አይልም). Visually the second character at the end of line 26 is አ, not ለ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 3,
+      "old_text": "ሔር ፡ ሰኀበ ፡ ይቤልዎሙ ፡ ኢኮንክሙ ፡",
+      "corrected_text": "ሔር ፡ በኀበ ፡ ይቤልዎሙ ፡ ኢኮንክሙ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሰኀበ -> በኀበ",
+      "reason": "In the Ge'ez scripture citation (Hosea 1:10 / Romans 9:26: በብሔር ፡ በኀበ ፡ ይቤልዎሙ), the preposition is በኀበ ('in the place where'). A tiny ink speck above በ caused it to be misread as ሰ."
+    }
+  ]
+}

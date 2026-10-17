@@ -1,0 +1,17 @@
+{
+  "pdf_page": 90,
+  "book_page_ethiopic": "፮፻",
+  "elapsed_sec": 10.3,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 39,
+      "old_text": "ከኔ በህልው የሰማውን ያስ",
+      "corrected_text": "ከኔ በህልውና የሰማውን ያስ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በህልው -> በህልውና",
+      "reason": "In Column 2 Line 39, there is a faint 'ና' at the end of 'በህልውና' (matching Col 3 Line 2 'በህልውና የሰማውንም'), where the ink of 'ና' was faded and missed in Stage 1."
+    }
+  ]
+}

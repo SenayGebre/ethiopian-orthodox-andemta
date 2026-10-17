@@ -1,0 +1,83 @@
+{
+  "pdf_page": 3,
+  "book_page_arabic": 362,
+  "book_page_ethiopic": "፫፻፷፪",
+  "page_type": "commentary_2col",
+  "running_header": "ሰብዐቱ ፡ መልእክታተ ፡ ሐዋርያ ።",
+  "column_boxes": [
+    [
+      514,
+      0,
+      1145,
+      1654
+    ],
+    [
+      1061,
+      0,
+      1847,
+      1654
+    ]
+  ],
+  "columns": [
+    {
+      "column_index": 1,
+      "lines": [
+        {
+          "line_num": 1,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "⟪መልአት ፡ መልእክተ ፡ ዮሐንስ ፡ ሣልሲት ።⟫",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 2,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሦስተኛይቱ ፡ የዮሐንስ ፡ ክታብ ፡ ደረ",
+          "word_wraps_to_next_line": true,
+          "uncertain": []
+        },
+        {
+          "line_num": 3,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሰች ፡ ተፈጸመች ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        }
+      ]
+    },
+    {
+      "column_index": 2,
+      "lines": [
+        {
+          "line_num": 1,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "⟪ወስብሐት ፡ ለእግዚአብሔር ።⟫",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 2,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "አስዠምሮ ፡ ላስጨረሰን ፡ ጌታ ፡ ክብር ፡",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 3,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ምሥጋና ፡ ይግባው ፡ ⟪አሜን ።⟫ ይሁን ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        }
+      ]
+    }
+  ],
+  "stage2_verified": true,
+  "stage2_corrections_count": 0
+}

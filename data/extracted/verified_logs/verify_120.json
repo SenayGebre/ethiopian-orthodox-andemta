@@ -1,0 +1,62 @@
+{
+  "pdf_page": 120,
+  "book_page_ethiopic": "፪፻፴፱",
+  "elapsed_sec": 26.9,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "መሳይምተ መዝርዓ አክፋረ እ↵",
+      "corrected_text": "መሳይምተ መዝርዓ አክፋረ አ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እ -> አ",
+      "reason": "The final letter on L01 is 1st-order አ (forming አስፈሪዳት across the line break), not 6th-order እ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 2,
+      "old_text": "ስፈፈዳት ይላል ። የተረፈውን",
+      "corrected_text": "ስፈሪዳት ይላል ። የተረፈውን",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፈ -> ሪ",
+      "reason": "The third character in ስፈሪዳት is 3rd-order ሪ (matching አስፈሪዳት on the previous page), misread as ፈ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 32,
+      "old_text": "ተጭኖ ወደ መጌዶል ሂደ ።",
+      "corrected_text": "ተጭኖ ወደ መጌዶል ሄደ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሂ -> ሄ",
+      "reason": "The printed glyph has the 5th-order loop ሄ (ሄደ), not 3rd-order ሂ (ሂደ)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 33,
+      "old_text": "ዘከመ ኀሠሠ ትእምርተ",
+      "corrected_text": "ዘከመ ኀሠሡ ትእምርተ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሠ -> ሡ",
+      "reason": "Both the printed 2nd-order stroke and Ge'ez plural subject agreement (ፈሪሳውያን ወሰዱቃውያን) show ኀሠሡ rather than singular ኀሠሠ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 18,
+      "old_text": "ሰኔ ይዘንም⟫",
+      "corrected_text": "ሰኒ ይዘንም⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኔ -> ኒ",
+      "reason": "Canonical Ge'ez enclitic particle ዮምሰኒ ('even today') has 3rd-order ኒ (ሰኒ), visible in the image rather than 5th-order ኔ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 25,
+      "old_text": "በእንተ ብኅዐ ፈሪሳውያን",
+      "corrected_text": "በእንተ ብኁዐ ፈሪሳውያን",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኅ -> ኁ",
+      "reason": "Classical Ge'ez construct noun for 'leaven of' is ብኁዐ (2nd-order ኁ, matching እምብኁዖሙ in L34), which is visible on the right leg of the glyph."
+    }
+  ]
+}

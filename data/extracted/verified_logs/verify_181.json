@@ -1,0 +1,17 @@
+{
+  "pdf_page": 181,
+  "book_page_ethiopic": "፫፻",
+  "elapsed_sec": 18.6,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 8,
+      "old_text": "ያት ልብሱን የቀደደ ፈቱን",
+      "corrected_text": "ያት ልብሱን የቀደደ ፊቱን",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፈ -> ፊ",
+      "reason": "The 3rd-order Fidel ፊ in ፊቱን ('his face', in 'ልብሱን የቀደደ ፊቱን የነጨ') was misread as 1st-order ፈ due to a faint bottom-right vowel leg."
+    }
+  ]
+}

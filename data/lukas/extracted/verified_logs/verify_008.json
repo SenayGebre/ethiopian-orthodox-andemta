@@ -1,0 +1,44 @@
+{
+  "pdf_page": 8,
+  "book_page_ethiopic": "፫፻፺",
+  "elapsed_sec": 11.9,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "ውሳ ልብሰ እጅ ነሥታ ስትመ",
+      "corrected_text": "ውሳ ልብስ እጅ ነሥታ ስትመ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ልብሰ -> ልብስ",
+      "reason": "Joining with previous page end 'ተውሳ ልብስ' (having borrowed clothes). Visually the 6th-order 'ስ' has its top-left notch clearly visible."
+    },
+    {
+      "column_index": 1,
+      "line_num": 22,
+      "old_text": "ላም ለኪ ኦ እምኒውቱ ለፀ",
+      "corrected_text": "ላም ለኪ ኦ እምሄውቱ ለፀ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እምኒውቱ -> እምሄውቱ",
+      "reason": "Canonical Ge'ez Marian salutation 'ሰላም ለኪ ኦ እምሄውቱ ለፀሐየ ጽድቅ' (Peace be to thee, O grandmother of the Sun of Righteousness). Visually the character is 'ሄ' (5th order of ሀ), not 'ኒ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 25,
+      "old_text": "ልም ያልሆነላትን ተርጐሞ ኦ",
+      "corrected_text": "ልም ያልሆነላትን ተርጐሞ አ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኦ -> አ",
+      "reason": "Joining with next line 'አርፏል' (he rested/died). Visually the last character on L25 is 1st-order 'አ', not 'ኦ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 23,
+      "old_text": "ዙ ግምጃ ብዙ ክብት ሰጡት ፤",
+      "corrected_text": "ዙ ግምጃ ብዙ ከብት ሰጡት ፤",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ክብት -> ከብት",
+      "reason": "Amharic 'ከብት' (cattle/livestock). Visually the first character is 1st-order 'ከ', not 6th-order 'ክ'."
+    }
+  ]
+}

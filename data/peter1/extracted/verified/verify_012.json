@@ -1,0 +1,17 @@
+{
+  "pdf_page": 12,
+  "book_page_ethiopic": "፻፲፰ | ፻፲፱",
+  "elapsed_sec": 21.7,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 13,
+      "old_text": "አድርጓት ። ኤፌ ፡ ፫ ፥ ፰ ።",
+      "corrected_text": "አድርጓት ። ኤፌ ፡ ፫ ፥ ፩ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፰ -> ፩",
+      "reason": "The Ethiopic numeral printed for the verse reference is ፩ (1), not ፰ (8)."
+    }
+  ]
+}

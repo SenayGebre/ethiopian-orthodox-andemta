@@ -1,0 +1,17 @@
+{
+  "pdf_page": 171,
+  "book_page_ethiopic": "፪፻፺",
+  "elapsed_sec": 13.2,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 1,
+      "old_text": "[፴፰] ⟪ወፅሙዓከ ወአስተይናከ ።⟫",
+      "corrected_text": "[፴፰] ⟪ወጽሙዓከ ወአስተይናከ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፅ -> ጽ",
+      "reason": "The printed glyph in the image is clearly three-legged ጽ (ወጽሙዓከ), matching canonical Ge'ez spelling."
+    }
+  ]
+}

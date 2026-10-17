@@ -1,0 +1,62 @@
+{
+  "pdf_page": 21,
+  "book_page_ethiopic": "፵፬ | ፵፭",
+  "elapsed_sec": 16.7,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 16,
+      "old_text": "⟪ወይቀንይዎሙ ፡ ግብዕ ፡ ወያሐምምዎሙ ፡ አርባዕተ፡",
+      "corrected_text": "⟪ወይቀንይዎሙ ፡ ግብፅ ፡ ወያሐምምዎሙ ፡ አርባዕተ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ግብዕ -> ግብፅ",
+      "reason": "The printed glyph in the root scripture quote is clearly ፅ (ግብፅ 'Egypt'), with the horizontal cross-stroke of ፅ visible; Stage 1 misread it as ዕ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 17,
+      "old_text": "አስራ ፡ አምስት ፡ ይሆናል ፡ ርደተ ፡",
+      "corrected_text": "አሥራ ፡ አምስት ፡ ይሆናል ፡ ርደተ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አስራ -> አሥራ",
+      "reason": "The printed glyph is ሥ (አሥራ 'fifteen'), not ስ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 29,
+      "old_text": "ግብዕ ፡ ወያሐምምዎሙ ፡ አርባዕተ ፡ ምዕ↵",
+      "corrected_text": "ግብፅ ፡ ወያሐምምዎሙ ፡ አርባዕተ ፡ ምዕ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ግብዕ -> ግብፅ",
+      "reason": "The first word on the line is clearly printed as ግብፅ ('Egypt') with ፅ, whereas ምዕተ at the end of the line is printed with ዕ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 32,
+      "old_text": "ብሔር ፡ ወእምዝ ፡ ይወጽኡ ፡ ዝየ ፡ ወያ↵",
+      "corrected_text": "ብሔር ፡ ወእምዝ ፡ ይወፅኡ ፡ ዝየ ፡ ወያ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ይወጽኡ -> ይወፅኡ",
+      "reason": "The printed glyph is ፅ (ይወፅኡ 'they shall come out'), matching both the image (circular ፅ rather than three-legged ጽ) and Ge'ez orthography."
+    },
+    {
+      "column_index": 3,
+      "line_num": 37,
+      "old_text": "ብሎታል፡ ኢይክል፡ ኈልቆቶሙ፡ ቢለው፡",
+      "corrected_text": "ብሎታል፡ ኢይክል፡ ኆልቆቶሙ፡ ቢለው፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኈልቆቶሙ -> ኆልቆቶሙ",
+      "reason": "The printed initial character is 7th-order ኆ (ኆልቆቶሙ, with the loop on the right leg), matching ኆልቍ in the preceding line."
+    },
+    {
+      "column_index": 4,
+      "line_num": 4,
+      "old_text": "ታል ፡ ኢይክል ፡ ኈልቆቶሙ ፡ ቢለው ፡",
+      "corrected_text": "ታል ፡ ኢይክል ፡ ኆልቆቶሙ ፡ ቢለው ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኈልቆቶሙ -> ኆልቆቶሙ",
+      "reason": "The printed initial character is 7th-order ኆ (ኆልቆቶሙ, with the loop on the right leg), matching ኆልቍ in the preceding line."
+    }
+  ]
+}

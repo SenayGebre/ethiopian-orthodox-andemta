@@ -1,0 +1,17 @@
+{
+  "pdf_page": 43,
+  "book_page_ethiopic": "፭፻፶፫",
+  "elapsed_sec": 11.1,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 20,
+      "old_text": "⟪ወተባአዙ አይሁድ በበይናቲ↵",
+      "corrected_text": "⟪ወተጋአዙ አይሁድ በበይናቲ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ባ -> ጋ",
+      "reason": "In John 6:52, the canonical Ge'ez verb for 'strove/contended among themselves' is ወተጋአዙ (from ተጋአዘ), and the printed glyph on Col 1 L20 clearly shows ጋ rather than ባ."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "pdf_page": 131,
+  "book_page_ethiopic": "፪፻፶",
+  "elapsed_sec": 20.0,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 6,
+      "old_text": "ያባሪያ ወድቆ ማለደው ።",
+      "corrected_text": "ያባርያ ወድቆ ማለደው ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሪያ -> ርያ",
+      "reason": "The printed glyph in the image is 6th-order ር ('ያባርያ'), consistent with Col 2 L28 and Col 3 L11."
+    },
+    {
+      "column_index": 2,
+      "line_num": 13,
+      "old_text": "[፳፯] ለዚያ ባሪያ ጌታው አዘነለት",
+      "corrected_text": "[፳፯] ለዚያ ባርያ ጌታው አዘነለት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሪያ -> ርያ",
+      "reason": "The printed glyph in the image is 6th-order ር ('ባርያ')."
+    },
+    {
+      "column_index": 2,
+      "line_num": 18,
+      "old_text": "[፳፰] ያ ባሪያ ወጥቶ ከባልንጀሮቹ",
+      "corrected_text": "[፳፰] ያ ባርያ ወጥቶ ከባልንጀሮቹ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሪያ -> ርያ",
+      "reason": "The printed glyph in the image is 6th-order ር ('ባርያ')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 3,
+      "old_text": "ወሖዊሮሙ ነገርዎ ለእግዚኦ↵",
+      "corrected_text": "ወሐዊሮሙ ነገርዎ ለእግዚኦ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሖ -> ሐ",
+      "reason": "Classical Ge'ez gerundive 'ወሐዊሮሙ' (Matthew 18:31) uses 1st-order ሐ, which is clearly printed in the image."
+    },
+    {
+      "column_index": 3,
+      "line_num": 5,
+      "old_text": "ሂደው ያደረገውን ሁሉ ለጌ↵",
+      "corrected_text": "ሄደው ያደረገውን ሁሉ ለጌ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሂ -> ሄ",
+      "reason": "The 5th-order loop on the right leg of ሄ ('ሄደው') is clearly visible in the zoomed image."
+    },
+    {
+      "column_index": 3,
+      "line_num": 7,
+      "old_text": "[፴፪] ⟪ወእምዝ ጸውዖ እግዚኡ አገ↵",
+      "corrected_text": "[፴፪] ⟪ወእምዝ ጸውዖ እግዚኡ ኦገ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አገ -> ኦገ",
+      "reason": "Ge'ez vocative particle ኦ in 'ኦ ገብር እኩይ' (Matthew 18:32, translated in L10-11 as 'አንተ ክፉ ባርያ') was misread as 1st-order አ."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "pdf_page": 78,
+  "book_page_ethiopic": "፭፻፹፰",
+  "elapsed_sec": 19.0,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 18,
+      "old_text": "አልብከ ከፍል ምስሌየ ።⟫",
+      "corrected_text": "አልብከ ክፍል ምስሌየ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ከፍል -> ክፍል",
+      "reason": "Classical Ge'ez noun for 'part/share' (John 13:8) is ክፍል (6th order ክ), which is clearly visible in the print."
+    },
+    {
+      "column_index": 2,
+      "line_num": 40,
+      "old_text": "⟪ወአንትሙሰ ንጹሐን አንትሙ.⟫",
+      "corrected_text": "⟪ወአንትሙሰ ንጹሐን አንትሙ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": ". -> ።",
+      "reason": "The end of the Ge'ez clause in John 13:10 has a faded Ethiopic full stop (።) at the margin, misread as an ASCII period."
+    },
+    {
+      "column_index": 3,
+      "line_num": 30,
+      "old_text": "በርኩ ለክሙ ኣነ ፥⟫ ያደረግሁላ↵",
+      "corrected_text": "በርኩ ለክሙ አነ ፥⟫ ያደረግሁላ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኣነ -> አነ",
+      "reason": "The Classical Ge'ez 1st person singular pronoun is አነ (1st order አ, not 4th order ኣ), matching the printed glyph."
+    }
+  ]
+}

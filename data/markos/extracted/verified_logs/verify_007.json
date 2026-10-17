@@ -1,0 +1,44 @@
+{
+  "pdf_page": 7,
+  "book_page_ethiopic": "፫፻፳፮",
+  "elapsed_sec": 15.2,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 34,
+      "old_text": "⟪ወሶበ ስዕኑ አብዮቶ ኀቤሁ እ↵",
+      "corrected_text": "⟪ወሶበ ስዕኑ አብዎቶ ኀቤሁ እ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አብዮቶ -> አብዎቶ",
+      "reason": "Classical Ge'ez causative infinitive of ቦአ ('to bring in') is አብዎቶ (Mark 2:4: ወሶበ ስዕኑ አብዎቶ ኀቤሁ); the 7th-order ዎ was misread as ዮ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 1,
+      "old_text": "ቸው ጊዜ ወጽፉቅ በዋፄ ቤታ",
+      "corrected_text": "ቸው ጊዜ ወጽፉቅ ዐዋፄ ቤታ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በዋፄ -> ዐዋፄ",
+      "reason": "The patristic/variant Ge'ez citation reads 'ወጽፉቅ ዐዋፄ ቤታ' (the courtyard/enclosure of the house was crowded); initial ዐ was misread as በ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 29,
+      "old_text": "⟪ወአንከሩ ኵሎሙ ሕዝብ ወ",
+      "corrected_text": "⟪ወአንከሩ ኵሎሙ ሕዝብ ወ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወ -> ወ↵",
+      "reason": "The conjunction ወ at the end of line 29 is a prefix that wraps directly onto አእኰትዎ on line 30 (ወአእኰትዎ)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 38,
+      "old_text": "ስ ካዕበ መንገለ ድንፈ ባሕር።⟫",
+      "corrected_text": "ስ ካዕበ መንገለ ጽንፈ ባሕር።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ድንፈ -> ጽንፈ",
+      "reason": "Canonical Ge'ez Mark 2:13 'መንገለ ጽንፈ ባሕር' ('toward the seashore'); the glyph ጽ was misread as ድ due to ink bleed."
+    }
+  ]
+}

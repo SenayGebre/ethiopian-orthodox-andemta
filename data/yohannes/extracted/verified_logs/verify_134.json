@@ -1,0 +1,35 @@
+{
+  "pdf_page": 134,
+  "book_page_ethiopic": "፮፻፵፫",
+  "elapsed_sec": 18.4,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 3,
+      "old_text": "ዕቀ ኢትግበሩ ምጽዋተክሙ ።",
+      "corrected_text": "ዑቁ ኢትግበሩ ምጽዋተክሙ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዕቀ -> ዑቁ",
+      "reason": "The printed Ge'ez imperative plural of ዐቀበ (Matthew 6:1) is clearly ዑቁ ('Take heed'), where the 2nd-order strokes on ዑ and ቁ were misread as ዕቀ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 30,
+      "old_text": "ወእምጽኡ ኀቤሁ ዕውራነ ።",
+      "corrected_text": "ወአምጽኡ ኀቤሁ ዕውራነ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወእምጽኡ -> ወአምጽኡ",
+      "reason": "The causative perfect verb in Matthew 21:14 is ወአምጽኡ ('and they brought'), printed with 1st-order አ rather than 6th-order እ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 36,
+      "old_text": "እለ ፃፀተ ትነጥፉ።።",
+      "corrected_text": "እለ ፃፀተ ትነጥፉ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "።። -> ።",
+      "reason": "Removed duplicate four-dot punctuation mark at the end of the line."
+    }
+  ]
+}

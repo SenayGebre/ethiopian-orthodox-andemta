@@ -1,0 +1,71 @@
+{
+  "pdf_page": 85,
+  "book_page_ethiopic": "፪፻፬",
+  "elapsed_sec": 22.1,
+  "applied_count": 7,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 38,
+      "old_text": "ልክዱም ። በሃይማኖት እናት",
+      "corrected_text": "ልካዱም ። በሃይማኖት እናት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ክ -> ካ",
+      "reason": "The printed glyph has the 4th-order right leg (ካ), forming አልካዱም ('did not deny'), matching Col 2 L09."
+    },
+    {
+      "column_index": 2,
+      "line_num": 33,
+      "old_text": "በኔ ዘንድ ጽድልት ብርህት ሆ↵",
+      "corrected_text": "በኔ ዘንድ ጽድልት ብርህት ሁ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሆ -> ሁ",
+      "reason": "The printed character at the end of the line is 2nd-order ሁ (ሁና), the standard archaic Andemta form."
+    },
+    {
+      "column_index": 2,
+      "line_num": 36,
+      "old_text": "ሰውነቱን በገሪሆተ መስቀል",
+      "corrected_text": "ሰውነቱን በገሪሁተ መስቀል",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሆ -> ሁ",
+      "reason": "The printed glyph clearly shows 2nd-order ሁ (በገሪሁተ መስቀል)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 38,
+      "old_text": "የ።⟫በኔ ስላመነ በገሪሆተ መስ↵",
+      "corrected_text": "የ።⟫በኔ ስላመነ በገሪሁተ መስ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሆ -> ሁ",
+      "reason": "The printed glyph clearly shows 2nd-order ሁ (በገሪሁተ መስቀል)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 3,
+      "old_text": "[፵] ሉቃ ፳ ፲፮ ዮሐ ፲፫ ፳ እናንተ↵",
+      "corrected_text": "[፵] ሉቃ ፲ ፲፮ ዮሐ ፲፫ ፳ እናንተ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "፳ -> ፲",
+      "reason": "The printed numeral is ፲ (Luke 10:16: ሉቃ ፲ ፲፮), not ፳."
+    },
+    {
+      "column_index": 3,
+      "line_num": 35,
+      "old_text": "ያገኛል።ዝራዕ አክለከ ውስተ",
+      "corrected_text": "ያገኛል።ዝራዕ እክለከ ውስተ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አ -> እ",
+      "reason": "Both the printed 6th-order glyph እ and the canonical Ge'ez citation (ዝራዕ እክለከ ውስተ መቃብረ ጻድቃን, 'sow thy bread/grain upon the graves of the righteous') require እክለከ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 38,
+      "old_text": "ወለእመ እግረ ጻድቃን ሖፀ",
+      "corrected_text": "ወለእመ እግረ ጻድቃን ሕፅ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሖፀ -> ሕፅ",
+      "reason": "The word wraps across L38-L39 as ሕፅ↵በት ('washing the feet of the righteous')."
+    }
+  ]
+}

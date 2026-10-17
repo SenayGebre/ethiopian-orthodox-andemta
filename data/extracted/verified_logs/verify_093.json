@@ -1,0 +1,53 @@
+{
+  "pdf_page": 93,
+  "book_page_ethiopic": "፪፻፲፪",
+  "elapsed_sec": 14.4,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 20,
+      "old_text": "ጤያጢያስ የጧፍ ኩስታሪ አ↵",
+      "corrected_text": "ጤያጢያስ የጧፍ ኩስታሬ አ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሪ -> ሬ",
+      "reason": "The printed glyph has the 5th-order (ኃምስ) loop on the right leg: 'ኩስታሬ' (standard Amharic form for smoking wick)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 30,
+      "old_text": "ዓኒ ዘይጠይስ ኢያጠፍዕ ይላ↵",
+      "corrected_text": "ዕኒ ዘይጠይስ ኢያጠፍዕ ይላ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዓ -> ዕ",
+      "reason": "Ge'ez noun 'ወውዕኒ' (flax/wick) uses 6th-order 'ዕ', clearly visible with the top-left bend in the zoomed image."
+    },
+    {
+      "column_index": 2,
+      "line_num": 36,
+      "old_text": "ኩስታሪስ እንኳ አያጠፋም",
+      "corrected_text": "ኩስታሬስ እንኳ አያጠፋም",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሪ -> ሬ",
+      "reason": "The printed glyph has the 5th-order loop: 'ኩስታሬስ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 17,
+      "old_text": "[፳፫] ⟪ወተደመ ኵሎሙ አሕዛብ።⟫",
+      "corrected_text": "[፳፫] ⟪ወተደሙ ኵሎሙ አሕዛብ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "መ -> ሙ",
+      "reason": "Canonical Ge'ez plural verb 'ወተደሙ' (Matthew 12:23) agreeing with 'ኵሎሙ አሕዛብ'; the 2nd-order stroke on 'ሙ' is visible."
+    },
+    {
+      "column_index": 3,
+      "line_num": 29,
+      "old_text": "⟪ከሙ ለአጋንንት ።⟫ ማቴ ፱ ፴፬",
+      "corrected_text": "⟪ኮሙ ለአጋንንት ።⟫ ማቴ ፱ ፴፬",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ከ -> ኮ",
+      "reason": "Canonical Ge'ez 'መልአኮሙ ለአጋንንት' ('their prince of the demons', Matthew 12:24) with 7th-order 'ኮ'."
+    }
+  ]
+}

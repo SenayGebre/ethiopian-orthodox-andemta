@@ -1,0 +1,44 @@
+{
+  "pdf_page": 107,
+  "book_page_ethiopic": "፪፻፳፮",
+  "elapsed_sec": 19.4,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 9,
+      "old_text": "[፴፩] ⟪ካልዕተ ምሳሌ አምጽአ ሎሙ›",
+      "corrected_text": "[፴፩] ⟪ካልዕተ ምሳሌ አምጽአ ሎሙ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "› -> ።⟫",
+      "reason": "The line ends with the Ge'ez full stop ። and closing quotation tag ⟫."
+    },
+    {
+      "column_index": 2,
+      "line_num": 28,
+      "old_text": "ዕት ሁሉ ትበልጣለች ፡ እን ሷ",
+      "corrected_text": "ዕት ሁሉ ትበልጣለች ፡ እንደሷ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እን ሷ -> እንደሷ",
+      "reason": "The character ደ in እንደሷ is faint in the print and was dropped as a space."
+    },
+    {
+      "column_index": 2,
+      "line_num": 39,
+      "old_text": "ሐያ ቤተ ሰቡ መገቦመሯን ትን",
+      "corrected_text": "ሐያ ቤተ ሰብ መጀመሯን ትን",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሰቡ መገቦመሯን -> ሰብ መጀመሯን",
+      "reason": "The wide glyph ጀ in መጀመሯን ('her beginning') was split-read as ገቦ, and ቤተ ሰብ has 6th-order ብ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 40,
+      "old_text": "ስአ አለ፤በጉባዔ በተነገረች ጊዜ",
+      "corrected_text": "ዕስ አለ፤በጉባዔ በተነገረች ጊዜ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ስአ -> ዕስ",
+      "reason": "Continuation of the Ge'ez citation verb ትን↵ዕስ ('she is smaller') from L39, misread as ስአ."
+    }
+  ]
+}

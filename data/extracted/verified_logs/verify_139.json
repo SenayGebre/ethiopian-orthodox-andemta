@@ -1,0 +1,44 @@
+{
+  "pdf_page": 139,
+  "book_page_ethiopic": "፪፻፶፰",
+  "elapsed_sec": 17.4,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "⟪ወይሰቅልዎ ።⟫ አሰቅላ↵",
+      "corrected_text": "⟪ወይሰቅልዎ ።⟫ እሰቀላ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አሰቅ -> እሰቀ",
+      "reason": "The printed text reads እሰቀላለሁ ('I will be crucified', passive stem matching ⟪ወይሰቅልዎ⟫ and Col 2 L02 እሰቀላለሁ), with 6th-order እ and 1st-order ቀ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 38,
+      "old_text": "ለት የባለጸጋ ልጅ ጎዘን ቢነግ↵",
+      "corrected_text": "ለት የባለጸጋ ልጅ ኀዘን ቢነግ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጎ -> ኀ",
+      "reason": "The printed glyph is ኀ in the proverbial expression የባለጸጋ ልጅ ኀዘን ቢነግሩት አደን እንዲሉ ('when they tell a rich man's child of mourning/grief [ኀዘን], he speaks of hunting [አደን]')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 18,
+      "old_text": "ብቻ አይደለም ለምዕመናን",
+      "corrected_text": "ብቻ አይደለም ለምእመናን",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዕ -> እ",
+      "reason": "The printed glyph is 6th-order አልፍ (እ) in ለምእመናን, not ዐይን (ዕ)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 25,
+      "old_text": "ስ ከዚህ አኑረውን ሹመት ይሻ↵",
+      "corrected_text": "ስ ከዚህ አኑረውን ሹመት ይካ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሻ -> ካ",
+      "reason": "The printed glyph at the line break is ካ without a top crown, forming ይካሰሱብን ጀመር."
+    }
+  ]
+}

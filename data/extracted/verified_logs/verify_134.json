@@ -1,0 +1,35 @@
+{
+  "pdf_page": 134,
+  "book_page_ethiopic": "፪፻፶፫",
+  "elapsed_sec": 15.0,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 19,
+      "old_text": "ዓለም ።⟫ ማር ፲ ፲፮ ሉቃ ፲፰ ፲፰",
+      "corrected_text": "ዓለም ።⟫ ማር ፲ ፲፯ ሉቃ ፲፰ ፲፰",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፲፮ -> ፲፯",
+      "reason": "The printed numeral in the cross-reference is clearly ፲፯ (Mark 10:17, the parallel passage for the Rich Young Ruler), not ፲፮."
+    },
+    {
+      "column_index": 2,
+      "line_num": 25,
+      "old_text": "[፲፯] እላመነም ብሎ ሳታምንብኝ ለ↵",
+      "corrected_text": "[፲፯] አላመነም ብሎ ሳታምንብኝ ለ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እ -> አ",
+      "reason": "Both visually in the scan and grammatically in Amharic (አላመነም ብሎ = 'saying/knowing that he did not believe'), the initial letter is 1st-order አ, not 6th-order እ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 35,
+      "old_text": "ፍጹምነትስ ከወደድህ ሂደህ",
+      "corrected_text": "ፍጹምነትን ከወደድህ ሂደህ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ስ -> ን",
+      "reason": "The printed glyph at the end of ፍጹምነትን is clearly the accusative marker ን (translating Ge'ez ፍጹመ ከመ ትኩን), not ስ."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "pdf_page": 30,
+  "book_page_ethiopic": "፶፪ | ፶፫",
+  "elapsed_sec": 14.1,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 18,
+      "old_text": "ዘትልእክ ፡ እስመ ፡ ላዕላዓ ፡ ልሳን ፡ አነ ፡",
+      "corrected_text": "ዘትልእክ ፡ እስመ ፡ ላዕላዐ ፡ ልሳን ፡ አነ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ላዕላዓ -> ላዕላዐ",
+      "reason": "In Classical Ge'ez construct state (ተጸውዖ), 'stammerer of tongue' (Ex 4:10) is ላዕላዐ ፡ ልሳን with 1st-order ዐ (which is also clearly printed with a round loop on the page), not 4th-order ዓ."
+    }
+  ]
+}

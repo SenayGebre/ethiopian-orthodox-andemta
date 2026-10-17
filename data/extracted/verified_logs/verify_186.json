@@ -1,0 +1,53 @@
+{
+  "pdf_page": 186,
+  "book_page_ethiopic": "፫፻፭",
+  "elapsed_sec": 28.5,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 28,
+      "old_text": "ታል ፡ ያሳ የመካከለኛው ይላል",
+      "corrected_text": "ታል ፡ ያስ የመካከለኛው ይላል",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሳ -> ስ",
+      "reason": "Amharic contrastive particle ያስ ('and what about that one?'), parallel to ያስ on the next line; 6th-order ስ was misread as 4th-order ሳ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 29,
+      "old_text": "ያስ ከዚህን ልዩ ነው ለማለት",
+      "corrected_text": "ያስ ከዚህም ልዩ ነው ለማለት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ን -> ም",
+      "reason": "The printed glyph is ከዚህም ('different from this too'), where a faint right loop on ም caused it to be misread as ን."
+    },
+    {
+      "column_index": 1,
+      "line_num": 30,
+      "old_text": "አንድም ተኈለቈ ምስለ ጌጉ↵",
+      "corrected_text": "አንድም ተኈለቈ ምስለ ጌጋ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጉ -> ጋ",
+      "reason": "Canonical Ge'ez citation (Isa 53:12 / Mark 15:28) ተኈለቈ ምስለ ጌጋያን ('he was numbered with the transgressors'); 4th-order ጋ was misread as 2nd-order ጉ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 16,
+      "old_text": "ረስ ጨለማ ሆነ ፡",
+      "corrected_text": "ረስ ጨለማ ሁነ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሆ -> ሁ",
+      "reason": "The printed glyph in the image is clearly 2nd-order ሁ (ሁነ) with the lower-right horizontal stroke."
+    },
+    {
+      "column_index": 3,
+      "line_num": 31,
+      "old_text": "ንት ተውከኝ አለ ኀደገ ብየ",
+      "corrected_text": "ንት ተውከኝ አለ ኀደገኒየ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ብ -> ኒ",
+      "reason": "In the image the printed word is ኀደገኒየ (quoting ኀደገኒ from the Gospel verse: 'ኀደገኒየ ሲል በኀዳጋኑ ተገብቶ ይጸልያል'); ኒ was misread as ብ."
+    }
+  ]
+}

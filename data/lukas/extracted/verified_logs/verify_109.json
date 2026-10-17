@@ -1,0 +1,35 @@
+{
+  "pdf_page": 109,
+  "book_page_ethiopic": "፬፻፺፩",
+  "elapsed_sec": 12.5,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 5,
+      "old_text": "⟪ወተንሢኦ እምኀበ ይጼሊ ሖ↵",
+      "corrected_text": "⟪ወተንሢኦ እምኀበ ይጸሊ ሖ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ይጼሊ -> ይጸሊ",
+      "reason": "The printed Ge'ez text clearly has 1st-order ጸ (ይጸሊ, imperfective 'from where he was praying'), without a 5th-order ጼ loop."
+    },
+    {
+      "column_index": 3,
+      "line_num": 20,
+      "old_text": "በእንተ አግብኦቱ ዘይሁዳ ወ",
+      "corrected_text": "በእንተ አግብኦት ዘይሁዳ ወ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አግብኦቱ -> አግብኦት",
+      "reason": "The section heading prints the verbal noun in the 6th order (አግብኦት) followed by the analytic genitive ዘይሁዳ, with no 2nd-order -u stroke on ት."
+    },
+    {
+      "column_index": 3,
+      "line_num": 21,
+      "old_text": "ተአኅዞቱ ዘኢየሱስ ።",
+      "corrected_text": "ተአኅዞት ዘኢየሱስ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ተአኅዞቱ -> ተአኅዞት",
+      "reason": "Parallel to አግብኦት ዘይሁዳ on the preceding line, the printed glyph is 6th-order ት (ተአኅዞት ዘኢየሱስ) without a 2nd-order -u marker."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "pdf_page": 14,
+  "book_page_ethiopic": "፫፻፵፰ | ፫፻፵፱",
+  "elapsed_sec": 12.6,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 32,
+      "old_text": "እምካልእኒሁ ፡ እንዘ ፡ ሐካይ ፡ በነፍሱ ፡",
+      "corrected_text": "እምካልአኒሁ ፡ እንዘ ፡ ሐካይ ፡ በነፍሱ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እ -> አ",
+      "reason": "Visually, the fourth glyph in እምካልአኒሁ has straight legs (1st-order አ), unlike the 6th-order እ in እም- and እንዘ on the same line; philologically, it represents the Ge'ez plural stem ካልኣን/ካልአን ('others') with the suffix -ኢሁ (እምካልአኒሁ)."
+    }
+  ]
+}

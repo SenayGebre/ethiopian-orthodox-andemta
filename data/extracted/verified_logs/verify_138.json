@@ -1,0 +1,17 @@
+{
+  "pdf_page": 138,
+  "book_page_ethiopic": "፪፻፶፯",
+  "elapsed_sec": 11.4,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 17,
+      "old_text": "ምኔሆሙ ኦርከየ ።⟫ ከደኃርት",
+      "corrected_text": "ምኔሆሙ አርከየ ።⟫ ከደኃርት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኦ -> አ",
+      "reason": "The printed glyph is 1st-order አ ('አርከየ', variant of ዓርክየ 'my friend' in Matt 20:13), misread as 7th-order ኦ."
+    }
+  ]
+}

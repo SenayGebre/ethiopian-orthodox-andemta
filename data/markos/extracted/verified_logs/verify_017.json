@@ -1,0 +1,26 @@
+{
+  "pdf_page": 17,
+  "book_page_ethiopic": "፫፻፴፮",
+  "elapsed_sec": 13.1,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 13,
+      "old_text": "እናድናታለን እያሉ ብዙ በለ",
+      "corrected_text": "እናድናታለን እያሉ ብዙ ባለ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በለ -> ባለ",
+      "reason": "The printed text reads 'ባለ መድኃኒቶች' (physicians/healers, translating ዓቀብተ ሥራይ), where the shortened right leg of 4th-order ባ was misread as 1st-order በ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 40,
+      "old_text": "አሕየወትኪ እትዊ በሰላም ።",
+      "corrected_text": "አሕየወትኪ እትዊ በሰላም ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "። -> ።⟫",
+      "reason": "Restore missing closing ⟫ marker for the Ge'ez Gospel quote opened on line 39."
+    }
+  ]
+}

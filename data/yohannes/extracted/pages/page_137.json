@@ -1,0 +1,761 @@
+{
+  "pdf_page": 137,
+  "book_page_arabic": 646,
+  "book_page_ethiopic": "፮፻፵፮",
+  "page_type": "canon_table",
+  "running_header": "፮፻፵፮ | ፮፻፵፮ አስረኛው ሰንጠረዥ አራቱ ወንጌላውያ ማቴዎስና ማርቆስ ሉቃስና ዮሐንስ የተለያዩበት።",
+  "toc_entries": [
+    {
+      "row_num": 1,
+      "geez_title": "ወብዙኃን እምአይሁድ እለ ሖሩ።",
+      "chapter_ethiopic": "፲፪",
+      "verse_ethiopic": "፲፩",
+      "amharic_title": "፲፭ ቦአ ዝኩ ረድእ ዘልሙድ።",
+      "uncertain": []
+    },
+    {
+      "row_num": 2,
+      "geez_title": "ወቀዲሙሰ ኢያእመሩ አርዳኢሁ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፲፮",
+      "amharic_title": "፲፮ ወጴጥሮስሰ ቆመ።",
+      "uncertain": []
+    },
+    {
+      "row_num": 3,
+      "geez_title": "እመ ኢወድቀት።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፳፬",
+      "amharic_title": "፲፮ ወወጽአ ዝኩ ረድእ።",
+      "uncertain": []
+    },
+    {
+      "row_num": 4,
+      "geez_title": "ሰባሕኩክሂ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፳፰",
+      "amharic_title": "፲፱ ወተስእሎ ሊቀ ካህናት።",
+      "uncertain": []
+    },
+    {
+      "row_num": 5,
+      "geez_title": "ወበእንተዝ ስዕኑ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፵",
+      "amharic_title": "፳ አንሰ ክሠተ ተናገርኩ፤",
+      "uncertain": []
+    },
+    {
+      "row_num": 6,
+      "geez_title": "ወብዙኃን እመላእክተ ሕዝብ እለ አምኑ በቱ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፵፪",
+      "amharic_title": "፳፪ ከመዝኑ ትትዋሥእ፤",
+      "uncertain": [
+        {
+          "printed_text": "በቱ",
+          "alternative": "ቦቱ",
+          "note": "print typo"
+        }
+      ]
+    },
+    {
+      "row_num": 7,
+      "geez_title": "ወጸርሐ እግዚእ ኢየሱስ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፵፬",
+      "amharic_title": "፳፬ ወፈነዎ ሕሙዮ፤",
+      "uncertain": []
+    },
+    {
+      "row_num": 8,
+      "geez_title": "እምቅድመ በዓለ ፋሲካ።",
+      "chapter_ethiopic": "፲፫",
+      "verse_ethiopic": "፩",
+      "amharic_title": "፳፰ ወኢቦኡ አይሁድ ውስተ ዓውድ",
+      "uncertain": []
+    },
+    {
+      "row_num": 9,
+      "geez_title": "ነሥአ መክፈ ዘለንጽ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፭",
+      "amharic_title": "፴፬ ዘእምልብከኑ ትብል ዘንተ፤",
+      "uncertain": []
+    },
+    {
+      "row_num": 10,
+      "geez_title": "ሶበ አነ ሊቅክሙ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፲፬",
+      "amharic_title": "፴፯ እንከሰኬ ንጉሥ አንተ።",
+      "uncertain": []
+    },
+    {
+      "row_num": 11,
+      "geez_title": "አኮ በእንተ ኵልክሙ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፲፰",
+      "amharic_title": "፴፰ ምንትኑ ውእቱ ጽድቁ፣",
+      "uncertain": []
+    },
+    {
+      "row_num": 12,
+      "geez_title": "ወጸብሐ ኅብስተ፤",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፳፮",
+      "amharic_title": "፲፱ ፯ ንሕነሰ ሕግ ብነ፡",
+      "uncertain": []
+    },
+    {
+      "row_num": 13,
+      "geez_title": "አይቴኑ ተሐውር እግዚኦ፡",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፴፮",
+      "amharic_title": "፲ ሊተኒ ኢትነብበኒኑ፤",
+      "uncertain": []
+    },
+    {
+      "row_num": 14,
+      "geez_title": "ወዘሰአልክምዎ ለአብ በስምየ፤",
+      "chapter_ethiopic": "፲፬",
+      "verse_ethiopic": "፲፬",
+      "amharic_title": "፲፬ ነዋ ንጉሥክሙ።",
+      "uncertain": []
+    },
+    {
+      "row_num": 15,
+      "geez_title": "ወዘንተ ነገርኩክሙ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፳፭",
+      "amharic_title": "፲፭ አልብነ ንጉሥ ዘእንበለ ቄሣር።",
+      "uncertain": []
+    },
+    {
+      "row_num": 16,
+      "geez_title": "ወእመሰ ነበርክሙ።",
+      "chapter_ethiopic": "፲፭",
+      "verse_ethiopic": "፯",
+      "amharic_title": "፳፭ ወይቀውማ ኀበ መስቀሉ።",
+      "uncertain": []
+    },
+    {
+      "row_num": 17,
+      "geez_title": "ወዘንተ አዘዝኩክሙ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፲፯",
+      "amharic_title": "፳፰ ይቤ ጸማዕኩ።",
+      "uncertain": []
+    },
+    {
+      "row_num": 18,
+      "geez_title": "እመኒ ዓለም ጸልአክሙ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፲፰",
+      "amharic_title": "፴፩ ኢይበታ ዲበ መስቀሊሆን።",
+      "uncertain": []
+    },
+    {
+      "row_num": 19,
+      "geez_title": "እምከመ ኪያየ ሰደዱ፤",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፳",
+      "amharic_title": "፴፱ ወመጽአ ኒቆዲሞስኒ።",
+      "uncertain": []
+    },
+    {
+      "row_num": 20,
+      "geez_title": "ሶበሰ ኢመጻእኩ ወኢነገርክዎሙ",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፳፪",
+      "amharic_title": "፳ ፲ ወአተዉ ቤቶሙ።",
+      "uncertain": []
+    },
+    {
+      "row_num": 21,
+      "geez_title": "ዘጸልአ ኪያየ ጸልአ ለአቡየ፤",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፳፫",
+      "amharic_title": "፳፪ ነፍሐ ላዕሌሆሙ።",
+      "uncertain": []
+    },
+    {
+      "row_num": 22,
+      "geez_title": "ወሶበ ኢገበርኩ ሎሙ፤",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፳፬",
+      "amharic_title": "፳፮ እምድኅረ ሰሙን ዕለት።",
+      "uncertain": []
+    },
+    {
+      "row_num": 23,
+      "geez_title": "ወቀዲሙሰ ኢነገርኩክሙ፤",
+      "chapter_ethiopic": "፲፮",
+      "verse_ethiopic": "፭",
+      "amharic_title": "፳፩ ፩ በብሔረ ጥብርያዶስ፤",
+      "uncertain": []
+    },
+    {
+      "row_num": 24,
+      "geez_title": "እምዚአየ ይነሥእ ወይነግረክሙ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፲፬",
+      "amharic_title": "፱ ወረከቡ ፍሕመ ብቁዐ።",
+      "uncertain": []
+    },
+    {
+      "row_num": 25,
+      "geez_title": "ወዘንተ ነገረ ተናጊሮ፤",
+      "chapter_ethiopic": "፲፯",
+      "verse_ethiopic": "፩",
+      "amharic_title": "፲፪ ንዑ ንምሳሕ።",
+      "uncertain": []
+    },
+    {
+      "row_num": 26,
+      "geez_title": "ወወጽአ አፍአ።",
+      "chapter_ethiopic": "፲፰",
+      "verse_ethiopic": "፬",
+      "amharic_title": "፲፭ ረዓይኬ አባግዕየ፤",
+      "uncertain": []
+    },
+    {
+      "row_num": 27,
+      "geez_title": "ወቦ መጥባሕት",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፲",
+      "amharic_title": "፲፰ ወአመ ወሬዛ አንተ።",
+      "uncertain": []
+    },
+    {
+      "row_num": 28,
+      "geez_title": "ወወሰድዎ ኀበ ሐና ቀዲሙ",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፲፫",
+      "amharic_title": "፲፰ ወእመሰ ልሕቀ ፡",
+      "uncertain": []
+    }
+  ],
+  "columns": [
+    {
+      "column_index": 1,
+      "lines": [
+        {
+          "line_num": 1,
+          "margin_tag": null,
+          "line_type": "section_title",
+          "text": "ዮሐንስ የተለየበት።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 2,
+          "margin_tag": null,
+          "line_type": "section_title",
+          "text": "ም ቍ",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 3,
+          "margin_tag": "፲፪ ፲፩",
+          "line_type": "body",
+          "text": "ወብዙኃን እምአይሁድ እለ ሖሩ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 4,
+          "margin_tag": "፲፮",
+          "line_type": "body",
+          "text": "ወቀዲሙሰ ኢያእመሩ አርዳኢሁ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 5,
+          "margin_tag": "፳፬",
+          "line_type": "body",
+          "text": "እመ ኢወድቀት።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 6,
+          "margin_tag": "፳፰",
+          "line_type": "body",
+          "text": "ሰባሕኩከሂ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": [],
+          "stage1_text": "ሰባሕኩክሂ።",
+          "stage2_correction": {
+            "pair": "ክ -> ከ",
+            "reason": "The 2nd person masculine singular object suffix on ሰባሕኩ- (John 12:28) is -ከሂ (ሰባሕኩከሂ), clearly printed with the 1st-order ከ."
+          }
+        },
+        {
+          "line_num": 7,
+          "margin_tag": "፵",
+          "line_type": "body",
+          "text": "ወበእንተዝ ስዕኑ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 8,
+          "margin_tag": "፵፪",
+          "line_type": "body",
+          "text": "ወብዙኃን እመላእክተ ሕዝብ እለ አ",
+          "word_wraps_to_next_line": true,
+          "uncertain": []
+        },
+        {
+          "line_num": 9,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ምኑ ቦቱ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": [],
+          "stage1_text": "ምኑ በቱ።",
+          "stage2_correction": {
+            "pair": "በ -> ቦ",
+            "reason": "The Ge'ez preposition + suffix 'in him' (John 12:42) is printed ቦቱ (7th order ቦ with shortened right leg), not በቱ."
+          }
+        },
+        {
+          "line_num": 10,
+          "margin_tag": "፵፬",
+          "line_type": "body",
+          "text": "ወጸርሐ እግዚእ ኢየሱስ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 11,
+          "margin_tag": "፲፫ ፩",
+          "line_type": "body",
+          "text": "እምቅድመ በዓለ ፋሲካ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 12,
+          "margin_tag": "፭",
+          "line_type": "body",
+          "text": "ነሥአ መካፈ ዘለንጽ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": [],
+          "stage1_text": "ነሥአ መክፈ ዘለንጽ።",
+          "stage2_correction": {
+            "pair": "መክፈ -> መካፈ",
+            "reason": "In John 13:5 ('he took a towel'), the printed glyph has the shortened right leg of 4th-order ካ (መካፈ ዘለንጽ)."
+          }
+        },
+        {
+          "line_num": 13,
+          "margin_tag": "፲፬",
+          "line_type": "body",
+          "text": "ሶበ አነ ሊቅክሙ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 14,
+          "margin_tag": "፲፰",
+          "line_type": "body",
+          "text": "አኮ በእንተ ኵልክሙ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 15,
+          "margin_tag": "፳፮",
+          "line_type": "body",
+          "text": "ወጸብሐ ኅብስተ፤",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 16,
+          "margin_tag": "፴፮",
+          "line_type": "body",
+          "text": "አይቴኑ ተሐውር እግዚኦ፡",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 17,
+          "margin_tag": "፲፬ ፲፬",
+          "line_type": "body",
+          "text": "ወዘሰአልክምዎ ለአብ በስምየ፤",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 18,
+          "margin_tag": "፳፭",
+          "line_type": "body",
+          "text": "ወዘንተ ነገርኩክሙ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 19,
+          "margin_tag": "፲፭ ፯",
+          "line_type": "body",
+          "text": "ወእመሰ ነበርክሙ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 20,
+          "margin_tag": "፲፯",
+          "line_type": "body",
+          "text": "ወዘንተ አዘዝኩክሙ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 21,
+          "margin_tag": "፲፰",
+          "line_type": "body",
+          "text": "እመኒ ዓለም ጸልአክሙ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 22,
+          "margin_tag": "፳",
+          "line_type": "body",
+          "text": "እምከመ ኪያየ ሰደዱ፤",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 23,
+          "margin_tag": "፳፪",
+          "line_type": "body",
+          "text": "ሶበሰ ኢመጻእኩ ወኢነገርክዎሙ",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 24,
+          "margin_tag": "፳፫",
+          "line_type": "body",
+          "text": "ዘጸልአ ኪያየ ጸልአ ለአቡየ፤",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 25,
+          "margin_tag": "፳፬",
+          "line_type": "body",
+          "text": "ወሶበ ኢገበርኩ ሎሙ፤",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 26,
+          "margin_tag": "፲፮ ፭",
+          "line_type": "body",
+          "text": "ወቀዲሙሰ ኢነገርኩክሙ፤",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 27,
+          "margin_tag": "፲፬",
+          "line_type": "body",
+          "text": "እምዚአየ ይነሥእ ወይነግረክሙ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 28,
+          "margin_tag": "፲፯ ፩",
+          "line_type": "body",
+          "text": "ወዘንተ ነገረ ተናጊሮ፤",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 29,
+          "margin_tag": "፲፰ ፬",
+          "line_type": "body",
+          "text": "ወወጽአ አፍአ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 30,
+          "margin_tag": "፲",
+          "line_type": "body",
+          "text": "ወቦ መጥባሕት",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 31,
+          "margin_tag": "፲፫",
+          "line_type": "body",
+          "text": "ወወሰድዎ ኀበ ሐና ቀዲሙ",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        }
+      ]
+    },
+    {
+      "column_index": 2,
+      "lines": [
+        {
+          "line_num": 1,
+          "margin_tag": null,
+          "line_type": "section_title",
+          "text": "ዮሐንስ የተለየበት",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 2,
+          "margin_tag": null,
+          "line_type": "section_title",
+          "text": "ም ቍ",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 3,
+          "margin_tag": "፲፭",
+          "line_type": "body",
+          "text": "ቦአ ዝኩ ረድእ ዘልሙድ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 4,
+          "margin_tag": "፲፮",
+          "line_type": "body",
+          "text": "ወጴጥሮስሰ ቆመ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 5,
+          "margin_tag": "፲፮",
+          "line_type": "body",
+          "text": "ወወጽአ ዝኩ ረድእ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 6,
+          "margin_tag": "፲፱",
+          "line_type": "body",
+          "text": "ወተስእሎ ሊቀ ካህናት።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 7,
+          "margin_tag": "፳",
+          "line_type": "body",
+          "text": "አንሰ ክሡተ ተናገርኩ፤",
+          "word_wraps_to_next_line": false,
+          "uncertain": [],
+          "stage1_text": "አንሰ ክሠተ ተናገርኩ፤",
+          "stage2_correction": {
+            "pair": "ሠ -> ሡ",
+            "reason": "In John 18:20 ('I spoke openly'), the adverbial accusative passive participle is ክሡተ (2nd-order ሡ with the right-side hook clearly visible on the image)."
+          }
+        },
+        {
+          "line_num": 8,
+          "margin_tag": "፳፪",
+          "line_type": "body",
+          "text": "ከመዝኑ ትትዋሥእ፤",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 9,
+          "margin_tag": "፳፬",
+          "line_type": "body",
+          "text": "ወፈነዎ ሕሙዮ፤",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 10,
+          "margin_tag": "፳፰",
+          "line_type": "body",
+          "text": "ወኢቦኡ አይሁድ ውስተ ዓውድ",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 11,
+          "margin_tag": "፴፬",
+          "line_type": "body",
+          "text": "ዘእምልብከኑ ትብል ዘንተ፤",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 12,
+          "margin_tag": "፴፯",
+          "line_type": "body",
+          "text": "እንከሰኬ ንጉሥ አንተ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 13,
+          "margin_tag": "፴፰",
+          "line_type": "body",
+          "text": "ምንትኑ ውእቱ ጽድቁ፣",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 14,
+          "margin_tag": "፲፱ ፯",
+          "line_type": "body",
+          "text": "ንሕነሰ ሕግ ብነ፡",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 15,
+          "margin_tag": "፲",
+          "line_type": "body",
+          "text": "ሊተኒ ኢትነብበኒኑ፤",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 16,
+          "margin_tag": "፲፬",
+          "line_type": "body",
+          "text": "ነዋ ንጉሥክሙ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 17,
+          "margin_tag": "፲፭",
+          "line_type": "body",
+          "text": "አልብነ ንጉሥ ዘእንበለ ቄሣር።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 18,
+          "margin_tag": "፳፭",
+          "line_type": "body",
+          "text": "ወይቀውማ ኀበ መስቀሉ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 19,
+          "margin_tag": "፳፰",
+          "line_type": "body",
+          "text": "ይቤ ጸማዕኩ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 20,
+          "margin_tag": "፴፩",
+          "line_type": "body",
+          "text": "ኢይበታ ዲበ መስቀሊሆን።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 21,
+          "margin_tag": "፴፱",
+          "line_type": "body",
+          "text": "ወመጽአ ኒቆዲሞስኒ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 22,
+          "margin_tag": "፳ ፲",
+          "line_type": "body",
+          "text": "ወአተዉ ቤቶሙ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 23,
+          "margin_tag": "፳፪",
+          "line_type": "body",
+          "text": "ነፍሐ ላዕሌሆሙ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 24,
+          "margin_tag": "፳፮",
+          "line_type": "body",
+          "text": "እምድኅረ ሰሙን ዕለት።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 25,
+          "margin_tag": "፳፩ ፩",
+          "line_type": "body",
+          "text": "በብሔረ ጥብርያዶስ፤",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 26,
+          "margin_tag": "፱",
+          "line_type": "body",
+          "text": "ወረከቡ ፍሕመ ብቁዐ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 27,
+          "margin_tag": "፲፪",
+          "line_type": "body",
+          "text": "ንዑ ንምሳሕ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 28,
+          "margin_tag": "፲፭",
+          "line_type": "body",
+          "text": "ረዓይኬ አባግዕየ፤",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 29,
+          "margin_tag": "፲፰",
+          "line_type": "body",
+          "text": "ወአመ ወሬዛ አንተ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 30,
+          "margin_tag": "፲፰",
+          "line_type": "body",
+          "text": "ወእመሰ ልሕቀ ፡",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        }
+      ]
+    }
+  ],
+  "stage2_verified": true,
+  "stage2_corrections_count": 4
+}

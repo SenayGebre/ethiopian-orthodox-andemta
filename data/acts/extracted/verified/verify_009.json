@@ -1,0 +1,26 @@
+{
+  "pdf_page": 9,
+  "book_page_ethiopic": "፴ | ፴፩",
+  "elapsed_sec": 13.1,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 33,
+      "old_text": "ክርስቶስ ፡ እምዉታን ።⟫",
+      "corrected_text": "ክርስቶስ ፡ እምውታን ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዉ -> ው",
+      "reason": "The printed glyph in እምውታን is the 6th-order sadis ው (with left hook), not 2nd-order ka'eb ዉ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 6,
+      "old_text": "ምሮ ፡ ፍጹማን ፡ ያልሆኑ ፡ ናቸውና ፡ አኀ↵",
+      "corrected_text": "ምሮ ፡ ፍጹማን ፡ ያልሆኑ ፡ ናቸውና ፡ አኃ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኀ -> ኃ",
+      "reason": "The printed character at the end of line 6 is 4th-order ኃ (forming አኃዊነ across the line wrap, matching line 2), not 1st-order ኀ."
+    }
+  ]
+}

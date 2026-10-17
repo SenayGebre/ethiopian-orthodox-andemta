@@ -1,0 +1,35 @@
+{
+  "pdf_page": 34,
+  "book_page_ethiopic": "፭፻፵፬",
+  "elapsed_sec": 15.2,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 14,
+      "old_text": "አሱም መለሰ ።",
+      "corrected_text": "እሱም መለሰ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አ -> እ",
+      "reason": "The initial character is 6th-order እ (እሱም 'he also'), where ink fill on the central bend made it resemble 1st-order አ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 18,
+      "old_text": "ያዳነኝ እሱ አልጋህን ተሸከመ",
+      "corrected_text": "ያዳነኝ እሱ አልጋህን ተሸክመ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከ -> ክ",
+      "reason": "The gerundive form across the line wrap is ተሸክመህ ('having carried'), printed with 6th-order ክ rather than 1st-order ከ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 35,
+      "old_text": "ል ተሠውሮ ነበርና ይህ ቆሎ ከ",
+      "corrected_text": "ል ተሠውሮ ነበርና ይህ ሁሉ ከ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቆሎ -> ሁሉ",
+      "reason": "Both visually and contextually the printed word is ሁሉ ('ይህ ሁሉ ከስንፍና አያወጣውም' — 'all this does not excuse him from negligence'), misread as ቆሎ due to heavy ink bleed on the right-side vowel rings."
+    }
+  ]
+}

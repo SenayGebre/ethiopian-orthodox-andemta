@@ -1,0 +1,98 @@
+{
+  "pdf_page": 21,
+  "book_page_ethiopic": "፻፵",
+  "elapsed_sec": 52.5,
+  "applied_count": 8,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 17,
+      "old_text": "ያደርሰን ይሆን ። ከባሕር ይጨ",
+      "corrected_text": "ያደርሰን ይሆን ። ከባሕር ይጠ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ይጨ -> ይጠ",
+      "reason": "The printed glyph at the end of line 17 is clearly ጠ (in ይጠልቀን 'would it drown us in the sea'), not ጨ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 18,
+      "old_text": "ልቀን ከገደል ይጥለን ከፆር ያ",
+      "corrected_text": "ልቀን ከገደል ይጥለን ከጦር ያ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከፆር -> ከጦር",
+      "reason": "The printed word is ከጦር ('to war/battle', ጦ with three legs), misread as ከፆር."
+    },
+    {
+      "column_index": 1,
+      "line_num": 23,
+      "old_text": "[፲፩] ⟪ወበዊፆሙ ውስተ ቤት ረከብ",
+      "corrected_text": "[፲፩] ⟪ወበዊዖሙ ውስተ ቤት ረከብ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ፆ -> ዖ",
+      "reason": "Canonical Ge'ez Matthew 2:11 has ወበዊዖሙ (from በውዐ 'having entered'), printed with ዖ, misread as ፆ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 25,
+      "old_text": "መዝ ፻፩ ፲",
+      "corrected_text": "መዝ ፻፯ ፲",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፻፩ -> ፻፯",
+      "reason": "The cross-reference numeral is clearly printed as ፻፯ (107), not ፻፩."
+    },
+    {
+      "column_index": 1,
+      "line_num": 30,
+      "old_text": "ላቸው ። ቤት በዓት ጎል ይላል",
+      "corrected_text": "ላቸው ። ቤት በዓት ጎል ይላል",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጎል -> ጐል",
+      "reason": "The printed glyph uses the labiovelar ጐ (ጐል)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 7,
+      "old_text": "ል ። ዳግም እልፍ ይሰግዳል ።",
+      "corrected_text": "ል ። ዳግም አልፎ ይሰግዳል ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እልፍ -> አልፎ",
+      "reason": "The printed text clearly reads አልፎ ('passing forward again, he bows'), misread as እልፍ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 24,
+      "old_text": "አመጡለት ይህን የምንገብራ",
+      "corrected_text": "አመጡለት ይህን የምንገብራ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ይህን -> ይሁን",
+      "reason": "The printed word after አመጡለት is ይሁን (2nd order ሁ, parallel to line 30 ይሁን), misread as ይህን."
+    },
+    {
+      "column_index": 2,
+      "line_num": 30,
+      "old_text": "ይህን የምናጥናቸው ጣዖታት",
+      "corrected_text": "ይሁን የምናጥናቸው ጣዖታት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ይህን -> ይሁን",
+      "reason": "The first word on line 30 is clearly printed ይሁን (2nd order ሁ with the right-side hook), misread as ይህን."
+    },
+    {
+      "column_index": 3,
+      "line_num": 4,
+      "old_text": "ያደርጋል ። አንተም ከማህበረ",
+      "corrected_text": "ያደርጋል ። አንተም ከማኅበረ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ከማህበረ -> ከማኅበረ",
+      "reason": "The printed word is ከማኅበረ with ኅ, misread as ህ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 15,
+      "old_text": "ተ ዓርብ ያቀምሱታልና ። እን",
+      "corrected_text": "ተ ዓርብ ያቀምሱታልና ። አን",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እን -> አን",
+      "reason": "The heading word wrapping across L15-L16 is አንድም ('Andem / Another interpretation'), printed with አ, misread as እን."
+    }
+  ]
+}

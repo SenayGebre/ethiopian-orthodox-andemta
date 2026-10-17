@@ -1,0 +1,44 @@
+{
+  "pdf_page": 95,
+  "book_page_ethiopic": "፪፻፲፬",
+  "elapsed_sec": 14.3,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "አጁን ከያዘ በኋላ ገንዘቡን ይ↵",
+      "corrected_text": "እጁን ከያዘ በኋላ ገንዘቡን ይ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አ -> እ",
+      "reason": "6th-order እ in እጁን ('his hand') misread as 1st-order አ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 2,
+      "old_text": "ወስዳል እንዲዚሁም ሁሉ ሰይ↵",
+      "corrected_text": "ወስዳል እንደዚሁም ሁሉ ሰይ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዲ -> ደ",
+      "reason": "1st-order ደ in እንደዚሁም misread as 3rd-order ዲ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 22,
+      "old_text": "ይሁዳ ፤ በመዕመናን፡አንድም በ↵",
+      "corrected_text": "ይሁዳ ፤ በምዕመናን፡አንድም በ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "መ -> ም",
+      "reason": "6th-order ም in በምዕመናን misread as 1st-order መ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 28,
+      "old_text": "ኃጢአቱ ይሰርይለታል ብዬ እ↵",
+      "corrected_text": "ኃጢአቱ ይሰረይለታል ብዬ እ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ር -> ረ",
+      "reason": "1st-order ረ in ይሰረይለታል misread as 6th-order ር."
+    }
+  ]
+}

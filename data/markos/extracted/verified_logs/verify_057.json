@@ -1,0 +1,17 @@
+{
+  "pdf_page": 57,
+  "book_page_ethiopic": "፫፻፸፮",
+  "elapsed_sec": 9.1,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 4,
+      "old_text": "ዓመት ፤",
+      "corrected_text": "ዓመት ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፤ -> ።",
+      "reason": "The punctuation mark at the end of Column 1 Line 4 is clearly the four-dot full stop (ነጥብ ።) with slight vertical ink connection, not a semicolon (፤)."
+    }
+  ]
+}

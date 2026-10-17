@@ -1,0 +1,17 @@
+{
+  "pdf_page": 19,
+  "book_page_ethiopic": "፫፻፴፰",
+  "elapsed_sec": 6.6,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 3,
+      "old_text": "ራ በፍርድ ቀን ሰረፍትን እንዲ",
+      "corrected_text": "ራ በፍርድ ቀን ዕረፍትን እንዲ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሰ -> ዕ",
+      "reason": "The word translating Ge'ez ሳሕተ (clemency/relief/rest) is ዕረፍትን, not ሰረፍትን; the image clearly shows the loop of ዕ at the start of ዕረፍትን."
+    }
+  ]
+}

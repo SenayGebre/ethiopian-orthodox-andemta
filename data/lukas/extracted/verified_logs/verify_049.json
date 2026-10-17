@@ -1,0 +1,35 @@
+{
+  "pdf_page": 49,
+  "book_page_ethiopic": "፬፻፴፩",
+  "elapsed_sec": 16.5,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 24,
+      "old_text": "ዘከመ መሰጠው እግዚእ ኢ",
+      "corrected_text": "ዘከመ መጠዎሙ እግዚእ ኢ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "መሰጠው -> መጠዎሙ",
+      "reason": "The Ge'ez section heading reads 'ዘከመ መጠዎሙ እግዚእ ኢየሱስ ለሐዋርያት' (How the Lord Jesus entrusted/gave authority to the Apostles). The wide Ge'ez glyph ጠ and ዎሙ were misread as Amharic መሰጠው."
+    },
+    {
+      "column_index": 2,
+      "line_num": 34,
+      "old_text": "⟪ወወጺዖሙ ሐዋርያት ዖዱ አ",
+      "corrected_text": "⟪ወወፂኦሙ ሐዋርያት ዖዱ አ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጺዖ -> ፂኦ",
+      "reason": "Canonical Ge'ez gerundive of ወፅአ is ወፂኦሙ (with ኦ, as visible in the triangular loop of the glyph, rather than ዖ)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 39,
+      "old_text": "ድውይ እየፈወሱ በፊቱ ማዕ",
+      "corrected_text": "ድውይ እየፈወሱ በ፬ቱ ማዕ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በፊቱ -> በ፬ቱ",
+      "reason": "The numeral ፬ (in በ፬ቱ ማዕዘን, 'in the four corners', glossing Ge'ez በኵለሄ 'everywhere') was misread as ፊ (በፊቱ)."
+    }
+  ]
+}

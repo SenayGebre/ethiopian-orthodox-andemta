@@ -1,0 +1,80 @@
+{
+  "pdf_page": 15,
+  "book_page_ethiopic": "፻፴፬",
+  "elapsed_sec": 29.3,
+  "applied_count": 8,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 34,
+      "old_text": "ካንተን ነው ከሌላ አለው።አ",
+      "corrected_text": "ካንተን ነው ከሌላ አለው።እ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አ -> እ",
+      "reason": "First-person pronoun 'እኔስ' (እ-ኔስ) begins with 6th-order 'እ', clearly visible at the end of line 34."
+    },
+    {
+      "column_index": 2,
+      "line_num": 6,
+      "old_text": "ነበርና ተከላ አለምልማ አሳ",
+      "corrected_text": "ነበርና ተክላ አለምልማ አሳ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ተከላ -> ተክላ",
+      "reason": "Amharic converb 'ተክላ' (having planted, 6th-order 'ክ') is clearly printed in the image."
+    },
+    {
+      "column_index": 2,
+      "line_num": 9,
+      "old_text": "እዕዋምን እንዲያፈሩ የሚያ",
+      "corrected_text": "አዕዋምን እንዲያፈሩ የሚያ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እዕዋምን -> አዕዋምን",
+      "reason": "Ge'ez plural noun 'አዕዋም' (trees, with Amharic accusative '-ን') starts with 1st-order 'አ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 4,
+      "old_text": "ቃለ አፈኅርኖ ይሆናል።ቃለ",
+      "corrected_text": "ቃለ አርኅርሆ ይሆናል።ቃለ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አፈኅርኖ -> አርኅርሆ",
+      "reason": "Ge'ez grammatical term 'ቃለ አርኅርሆ' (expression of compassion/pity, from አርኅርሀ) is clearly printed as 'አርኅርሆ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 8,
+      "old_text": "ኃውየ ፍቁራን፥ቃለ አፈኅርኖ",
+      "corrected_text": "ኃውየ ፍቁራን፥ቃለ አርኅርሆ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አፈኅርኖ -> አርኅርሆ",
+      "reason": "Ge'ez grammatical term 'ቃለ አርኅርሆ' is clearly printed as 'አርኅርሆ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 11,
+      "old_text": "ዊት ልጅ ዮሴፍ ሆይ አትህ",
+      "corrected_text": "ዊት ልጅ ዮሴፍ ሆይ እትህ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አትህ -> እትህ",
+      "reason": "Traditional Andemta gloss for 'ፍኅርትከ' ('እትህናትና ራራላት' = she is your betrothed/sister, so have compassion on her) begins with 6th-order 'እ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 25,
+      "old_text": "ከሷዋ የሚወለደው በግብረ",
+      "corrected_text": "ከሱዋ የሚወለደው በግብረ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ከሷዋ -> ከሱዋ",
+      "reason": "The printed glyph in the image is clearly 2nd-order 'ሱ' followed by 'ዋ' ('ከሱዋ')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 40,
+      "old_text": "፩ ፴፩ ግብረ ሐ ፲ ፴፪ ።",
+      "corrected_text": "፩ ፴፩ ግብረ ሐ ፲ ፴፰ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፴፪ -> ፴፰",
+      "reason": "The biblical cross-reference for Peter's speech on the anointing of Jesus by the Holy Spirit is Acts 10:38 ('ግብረ ሐ ፲ ፴፰ ።')."
+    }
+  ]
+}

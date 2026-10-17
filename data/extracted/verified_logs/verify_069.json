@@ -1,0 +1,44 @@
+{
+  "pdf_page": 69,
+  "book_page_ethiopic": "፻፹፰",
+  "elapsed_sec": 11.9,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 14,
+      "old_text": "ደጅ ሲጠና የሰነበተውን ሂድ",
+      "corrected_text": "ደጅ ሲጠና የሰነበተውን ሂደ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሂድ -> ሂደ",
+      "reason": "The word wraps across L14-L15 as 'ሂደ↵ህ' (converb 'having gone'). In L14 the final glyph is 1st-order 'ደ' (ሂደ-ህ), not 6th-order 'ድ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 24,
+      "old_text": "ያትስ ባንተ ዘንድ ምን ቁሩም",
+      "corrected_text": "ያትስ ባንተ ዘንድ ምን ቁም",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቁሩም -> ቁም",
+      "reason": "The printed word is 'ቁም' (as in 'ምን ቁም ነገር ናቸው', matching Col 2 L30-31), with the wide labiovelar/serif of 'ቍ/ቁ' misread as two letters 'ቁሩ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 28,
+      "old_text": "⟪ወሐይወ ወልዱ በይእቲ ሰአት⟫",
+      "corrected_text": "⟪ወሐይወ ወልዱ በይእቲ ሰዓት⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሰአት -> ሰዓት",
+      "reason": "In the zoomed image, the middle character of 'ሰዓት' is the triangular Pharyngeal 'ዓ', not 'አ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 32,
+      "old_text": "ረከቦ ለወልዱ ሕያዎ ።⟫",
+      "corrected_text": "ረከቦ ለወልዱ ሕያወ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሕያዎ -> ሕያወ",
+      "reason": "In the Ge'ez Gospel text ('ረከቦ ለወልዱ ሕያወ', accusative state, glossed in L33-34 where both 'ሐይዎ' and 'ሕያወ' are contrasted), the printed glyph in L32 is 1st-order 'ወ'."
+    }
+  ]
+}

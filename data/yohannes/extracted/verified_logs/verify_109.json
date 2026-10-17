@@ -1,0 +1,44 @@
+{
+  "pdf_page": 109,
+  "book_page_ethiopic": "፮፻፲፱",
+  "elapsed_sec": 23.8,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 1,
+      "old_text": "ቶማስም ከርሳቸው ጋራ ሳለ",
+      "corrected_text": "ቶማስም ከርሳቸው ጋራ ሳለ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "none",
+      "reason": "No change needed"
+    },
+    {
+      "column_index": 2,
+      "line_num": 2,
+      "old_text": "⟪ወእንዘ ዕፅው ኖኀት ።⟫",
+      "corrected_text": "⟪ወእንዘ ዕፁው ኖኀት ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፅ -> ፁ",
+      "reason": "The passive participle of ዐፀወ is ዕፁው (with 2nd order ፁ, clearly showing the right-side hook on the glyph in the image)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 21,
+      "old_text": "ባት ዳሰኝ ።",
+      "corrected_text": "ባት ዳስኝ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሰ -> ስ",
+      "reason": "Amharic imperative 'touch me' is ዳስኝ (or ዳሰሰኝ -> ዳስኝ with 6th order ስ)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 37,
+      "old_text": "የምትኖር በመት በመት በመ↵",
+      "corrected_text": "የምትኖር ባመት ባመት በመ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በመት -> ባመት",
+      "reason": "Printed text clearly has 4th order ባ ('ባመት ባመት' = በዓመት በዓመት 'every year', matching Col 3 L01 'ባመቱ')."
+    }
+  ]
+}

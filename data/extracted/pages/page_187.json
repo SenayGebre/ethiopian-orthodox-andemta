@@ -1,0 +1,48 @@
+{
+  "pdf_page": 187,
+  "book_page_arabic": 306,
+  "book_page_ethiopic": "፫፻፮",
+  "page_type": "illustration",
+  "running_header": "፫፻፮",
+  "illustration": {
+    "title_inscription": "ኢየንአ",
+    "caption_lines": [
+      {
+        "line_num": 1,
+        "margin_tag": null,
+        "line_type": "body",
+        "text": "ተዘከረኒ፡እግዚኦ፡በውስተ፡መንግሥትከ፡ዘበሰማያት፡በከመ፡ተዘከ",
+        "word_wraps_to_next_line": true
+      },
+      {
+        "line_num": 2,
+        "margin_tag": null,
+        "line_type": "body",
+        "text": "ርኮ፡ለፈያታዊ፡ዘየማን፡እንዘ፡ሀሎከ፡ዲበ፡ዕፀ፡መስቀል፡ቅዱስ፡—",
+        "word_wraps_to_next_line": false
+      }
+    ],
+    "description": "Full-page ornate framed engraving of the Crucifixion of Christ with the titulus 'ኢየንአ' (Iesus Nazarenus Rex Iudaeorum) at the top of the Cross. Streams of blood flow from Christ's hands and side onto the two hemispheres of the globe (labeled with continents in Ge'ez and French). At the foot of the Cross reclines Ras Tafari Makonnen (later Emperor Haile Selassie I) in royal attire beside an open Gospel book, above a scroll bearing a two-line Ge'ez supplication prayer."
+  },
+  "columns": [
+    {
+      "column_index": 1,
+      "lines": [
+        {
+          "line_num": 1,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ተዘከረኒ፡እግዚኦ፡በውስተ፡መንግሥትከ፡ዘበሰማያት፡በከመ፡ተዘከ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 2,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ርኮ፡ለፈያታዊ፡ዘየማን፡እንዘ፡ሀሎከ፡ዲበ፡ዕፀ፡መስቀል፡ቅዱስ፡—",
+          "word_wraps_to_next_line": false
+        }
+      ]
+    }
+  ]
+}

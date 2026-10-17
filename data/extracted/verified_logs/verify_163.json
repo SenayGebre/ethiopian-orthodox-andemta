@@ -1,0 +1,26 @@
+{
+  "pdf_page": 163,
+  "book_page_ethiopic": "፪፻፹፪",
+  "elapsed_sec": 13.9,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 19,
+      "old_text": "ወርኀ ወርኃ መጋቢት ዕለቱ",
+      "corrected_text": "ወርኁ ወርኃ መጋቢት ዕለቱ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኀ -> ኁ",
+      "reason": "Parallelism with ዘመኑ ... ወርኁ ... ዕለቱ ... ሰዓቱ ('its month is the month of Megabit'); the 2nd-order ካዕብ stroke on ኁ is visible on the right side of the glyph."
+    },
+    {
+      "column_index": 2,
+      "line_num": 40,
+      "old_text": "ይሄልው ውስተ ፩ዱ ገራህት።⟫",
+      "corrected_text": "ይሄልዉ ውስተ ፩ዱ ገራህት።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ው -> ዉ",
+      "reason": "Classical Ge'ez 3rd person masculine plural imperfect verb ይሄልዉ (with 2nd-order ዉ, matching the quotation in Col 3 L23 and L37)."
+    }
+  ]
+}

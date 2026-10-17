@@ -1,0 +1,17 @@
+{
+  "pdf_page": 2,
+  "book_page_ethiopic": "፭፻፲፪",
+  "elapsed_sec": 13.5,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 16,
+      "old_text": "ቢናገር፡ አዳም ቆሎ ከኅቱም",
+      "corrected_text": "ቢናገር፡ አዳም ቀሎ ከኅቱም",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቆሎ -> ቀሎ",
+      "reason": "Visual inspection of Col 2 L16 shows first-order ቀ without a top loop (ቀሎ, standard Andemta idiom meaning 'earlier/previously', i.e., 'Wasn't Adam previously found from virgin earth?'), not ቆሎ."
+    }
+  ]
+}

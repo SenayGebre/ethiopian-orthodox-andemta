@@ -1,0 +1,62 @@
+{
+  "pdf_page": 159,
+  "book_page_ethiopic": "፪፻፸፰",
+  "elapsed_sec": 110.0,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 2,
+      "old_text": "ሉ ሾተል እልፎ ሲሄድ አበጅ↵",
+      "corrected_text": "ሉ ሾተል አልፎ ሲሄድ አበጅ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እ -> አ",
+      "reason": "The printed glyph is 1st-order አ ('አልፎ ሲሄድ', passing through), misread as 6th-order እ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 33,
+      "old_text": "፯ ። ሉቃ ፳፩ ፲፪ ። ዮሐ ፲፮ ፩",
+      "corrected_text": "፯ ። ሉቃ ፳፩ ፲፪ ። ዮሐ ፲፮ ፪",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፩ -> ፪",
+      "reason": "The cross-reference at the end of the line is John 16:2 (ዮሐ ፲፮ ፪), where ፪ was misread as ፩."
+    },
+    {
+      "column_index": 1,
+      "line_num": 34,
+      "old_text": "፲፯ ፪ ።",
+      "corrected_text": "፲፭ ፳ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፲፯ ፪ -> ፲፭ ፳",
+      "reason": "The second Johannine cross-reference is John 15:20 (፲፭ ፳ ።), misread as ፲፯ ፪ ።."
+    },
+    {
+      "column_index": 2,
+      "line_num": 13,
+      "old_text": "⟪ወያገብዑ በደሙ ለሞት ይትቃ↵",
+      "corrected_text": "⟪ወያገብኡ በደመ ለሞት ይትቃ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዑ -> ኡ, ሙ -> መ",
+      "reason": "The printed Ge'ez text clearly reads 'ወያገብኡ በደመ ለሞት' (with 2nd-order ኡ and 1st-order መ in the construct state 'በደመ ለሞት')."
+    },
+    {
+      "column_index": 2,
+      "line_num": 28,
+      "old_text": "ብነት የሐፅፅ ሲል ነው ። ወይሴ↵",
+      "corrected_text": "ብነት ተሐፅፅ ሲል ነው ። ወይሴ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "የ -> ተ",
+      "reason": "The gloss explains the variant 'ትሴኰስ' as meaning 'ተሐፅፅ ሲል ነው' (citing the lemma ተሐፅፅ from L23-24); the initial ተ was misread as የ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 16,
+      "old_text": "ኛም ሂዶ ያም መጥቶ በእስክን↵",
+      "corrected_text": "ኛም ሄዶ ያም መጥቶ በእስክን↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሂ -> ሄ",
+      "reason": "The printed glyph is 5th-order ሄ ('ሄዶ'), misread as 3rd-order ሂ ('ሂዶ')."
+    }
+  ]
+}

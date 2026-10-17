@@ -1,0 +1,53 @@
+{
+  "pdf_page": 16,
+  "book_page_ethiopic": "፪፻፳፰ | ፪፻፳፱",
+  "elapsed_sec": 17.6,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 7,
+      "old_text": "ንጹሐን ፡ አንጋድ ፡ ናችሁ ።",
+      "corrected_text": "ንጹሐን ፡ አንገድ ፡ ናችሁ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጋ -> ገ",
+      "reason": "The word is 'አንገድ' (tribe/clan, glossing ሕዝብ), printed with 1st-order 'ገ' rather than 4th-order 'ጋ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 11,
+      "old_text": "ሐተታ ፡ መንገደኛ ፡ አጀ ፡ ግርግርታ ፡",
+      "corrected_text": "ሐተታ ፡ መንገደኛ ፡ አጅ ፡ ግርግርታ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጀ -> ጅ",
+      "reason": "The Amharic compound 'አጅ ግርግርታ' (retinue/crowd commotion) is printed with 6th-order 'ጅ' ('አጅ')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 20,
+      "old_text": "ሄደበት ፡ ሀገር፡ ቦታ ፡ ሰጠውት ፡ ቤት ፡",
+      "corrected_text": "ሄደበት ፡ ሀገር፡ ቦታ ፡ ሰጥተውት ፡ ቤት ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጠ -> ጥተ",
+      "reason": "The image clearly shows the 4-character word 'ሰጥተውት' (having given him), matching Col 3 L02; 'ጥተ' was compressed into 'ጠ' in Stage 1."
+    },
+    {
+      "column_index": 4,
+      "line_num": 6,
+      "old_text": "ሥጋችሁን ፡ ጸብት ፡ አድርጋ ፡ ነፍሳች↵",
+      "corrected_text": "ሥጋችሁን ፡ ረዳት ፡ አድርጋ ፡ ነፍሳች",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጸብ -> ረዳ",
+      "reason": "In the standard Andemta gloss of 'እንተ ትፀብአ ለነፍስክሙ', the flesh's desire makes the body a helper/ally ('ሥጋችሁን ረዳት አድርጋ') to wage war against the soul. Visually, 'ረዳት' was misread as 'ጸብት'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 31,
+      "old_text": "ላለው ፤ ሐተታ ፡ እንደነዚህ ፡ ያለ ፡ የት↵",
+      "corrected_text": "ላለው ፤ ሐተታ ፡ እንደኒህ ፡ ያለ ፡ የት",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ነዚ -> ኒ",
+      "reason": "The printed text has the authentic 4-character archaic Andemta form 'እንደኒህ' (not 'እንደነዚህ')."
+    }
+  ]
+}

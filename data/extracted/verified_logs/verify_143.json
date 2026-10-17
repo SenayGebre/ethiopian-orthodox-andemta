@@ -1,0 +1,26 @@
+{
+  "pdf_page": 143,
+  "book_page_ethiopic": "፪፻፷፪",
+  "elapsed_sec": 18.1,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 13,
+      "old_text": "ብቱ ሂዶ ይቆማል ወግሻቶ ይ",
+      "corrected_text": "ብቱ ሂዶ ይቆማል ወግሽቶ ይ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሻ -> ሽ",
+      "reason": "The printed glyph is 6th-order ሽ in the Amharic converb ወግሽቶ (from ወገሸ, 'having been startled/spooked, it enters'), misread as 4th-order ሻ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 10,
+      "old_text": "ቂቆኒ እንዘ ይጸርኑ በቤተ መ",
+      "corrected_text": "ቂቀኒ እንዘ ይጸርሑ በቤተ መ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቆ -> ቀ, ኑ -> ሑ",
+      "reason": "Canonical Ge'ez Gospel text (Matt 21:15) and printed glyphs read ወደቂቀኒ እንዘ ይጸርሑ ('and the children crying out'), where 1st-order ቀ was misread as ቆ and 2nd-order ሑ in ይጸርሑ was misread as ኑ."
+    }
+  ]
+}

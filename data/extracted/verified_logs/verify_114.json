@@ -1,0 +1,26 @@
+{
+  "pdf_page": 114,
+  "book_page_ethiopic": "፪፻፴፫",
+  "elapsed_sec": 21.0,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 6,
+      "old_text": "ይሳየጡ ለርእሶሙ መብልዓ⟫",
+      "corrected_text": "ይሣየጡ ለርእሶሙ መብልዓ⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሳ -> ሣ",
+      "reason": "The printed glyph in the zoomed image is clearly ሠ-series ሣ (ይሣየጡ, Classical Ge'ez verb ሣየጠ/ተሣየጠ 'to buy provisions'), misread as ሳ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 18,
+      "old_text": "⟪ወአግኃሠ ዘተርፈ ፍተታተ ።⟫",
+      "corrected_text": "⟪ወአንሥኡ ዘተርፈ ፍትታተ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወአግኃሠ -> ወአንሥኡ, ፍተታተ -> ፍትታተ",
+      "reason": "Both the zoomed image and canonical Matthew 14:20 (as well as the Amharic gloss የተረፈውን አነሡ on L19) clearly read ወአንሥኡ ዘተርፈ ፍትታተ ('and they took up what remained of the fragments')."
+    }
+  ]
+}

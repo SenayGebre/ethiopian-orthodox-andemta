@@ -1,0 +1,26 @@
+{
+  "pdf_page": 80,
+  "book_page_ethiopic": "፭፻፺",
+  "elapsed_sec": 25.7,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 19,
+      "old_text": "አቤቱ የሚያሲዝኅ ማነው አ",
+      "corrected_text": "አቤቱ የሚያሲዝህ ማነው አ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኅ -> ህ",
+      "reason": "The 2nd person masculine singular object suffix on የሚያሲዝህ (translating ዘያገብአከ) is printed with ህ (6th order ሀ), which was misread as ኅ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 29,
+      "old_text": "ይሁዳ ዘንድ ስላለው ጥራን ለ",
+      "corrected_text": "ይሁዳ ዘንድ ስላለው ግዛን ለ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጥራን -> ግዛን",
+      "reason": "Translating the Ge'ez imperative 'ሑር ተሣየጥ ዘንገብር ለበዓል' ('Go buy what we need for the feast'), the printed Amharic word is ግዛን ('buy for us'), where ግዛ was visually misread as ጥራ due to ink bleed between the vertical strokes of ዛ."
+    }
+  ]
+}

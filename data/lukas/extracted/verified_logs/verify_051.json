@@ -1,0 +1,71 @@
+{
+  "pdf_page": 51,
+  "book_page_ethiopic": "፬፻፴፫",
+  "elapsed_sec": 25.0,
+  "applied_count": 7,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "ደሞዛሙርቱ ከሱ ጋራ ሳሉ",
+      "corrected_text": "ደቀመዛሙርቱ ከሱ ጋራ ሳሉ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ደሞዛሙርቱ -> ደቀመዛሙርቱ",
+      "reason": "The printed text clearly reads ደቀመዛሙርቱ ('his disciples'), which was compressed and misread as ደሞዛሙርቱ in Stage 1."
+    },
+    {
+      "column_index": 1,
+      "line_num": 32,
+      "old_text": "ምዎ።⟫ማቴ ፲፮ ፳፩ ማር ፰ 卅፫",
+      "corrected_text": "ምዎ።⟫ማቴ ፲፮ ፳፩ ማር ፰ ፴፫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "卅 -> ፴",
+      "reason": "Replaced non-Ethiopic CJK character 卅 with the proper Ethiopic numeral ፴ (30) for Mark 8:31/33."
+    },
+    {
+      "column_index": 2,
+      "line_num": 7,
+      "old_text": "ሱ ፡፡⟫ ማቴ ፲ 卅፰ ፲፮ ፳፬ ማር ፰",
+      "corrected_text": "ሱ ፡፡⟫ ማቴ ፲ ፴፰ ፲፮ ፳፬ ማር ፰",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "卅 -> ፴",
+      "reason": "Replaced non-Ethiopic character 卅 with the Ethiopic numeral ፴ (30) in Matthew 10:38."
+    },
+    {
+      "column_index": 2,
+      "line_num": 8,
+      "old_text": "卅፬ ሉቃ ፲፬ ፳፮ ዮሐ ፲፪ ፳፭",
+      "corrected_text": "፴፬ ሉቃ ፲፬ ፳፮ ዮሐ ፲፪ ፳፭",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "卅 -> ፴",
+      "reason": "Replaced non-Ethiopic character 卅 with the Ethiopic numeral ፴ (30) in Mark 8:34."
+    },
+    {
+      "column_index": 2,
+      "line_num": 16,
+      "old_text": "ሱ ይገድፋ ፤⟫",
+      "corrected_text": "ሱ ይግድፋ ፤⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ገ -> ግ",
+      "reason": "Both the image (6th-order ግ with left-side notch) and Classical Ge'ez grammar require the jussive form ይግድፋ (or indicative/jussive in Luke 9:24) as printed."
+    },
+    {
+      "column_index": 2,
+      "line_num": 26,
+      "old_text": "በነፍሱ ክጠፋ ዓለሙን ሁሉ",
+      "corrected_text": "በነፍሱ ከጠፋ ዓለሙን ሁሉ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ክ -> ከ",
+      "reason": "The printed glyph is 1st-order ከ (ከጠፋ 'if he is lost/perishes'), misread as 6th-order ክ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 34,
+      "old_text": "ማቴ ፲ 卅፫ ማር ፰ 卅፰ ፡፡",
+      "corrected_text": "ማቴ ፲ ፴፫ ማር ፰ ፴፰ ፡፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "卅 -> ፴",
+      "reason": "Replaced non-Ethiopic character 卅 with the Ethiopic numeral ፴ (30) in Matthew 10:33 and Mark 8:38."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "pdf_page": 57,
+  "book_page_ethiopic": "፻፸፮",
+  "elapsed_sec": 17.4,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 2,
+      "old_text": "በር።እኛ ግን ከባብርናተ ዲያ↵",
+      "corrected_text": "በር።እኛ ግን ከግብርናተ ዲያ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ባ -> ግ",
+      "reason": "The printed glyph is 6th-order ግ in ከግብርናተ ዲያብሎስ ('from the servitude of the devil', matching the previous page ending), misread as ባ due to ink fill in the upper loop."
+    },
+    {
+      "column_index": 1,
+      "line_num": 28,
+      "old_text": "ላም ሐይዉ ከመ መላእክትን",
+      "corrected_text": "ላም ሐይወ ከመ መላእክትን",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዉ -> ወ",
+      "reason": "Classical Ge'ez infinitive construct ሐይወ ከመ መላእክት ('living like the angels'); a tiny ink speck next to 1st-order ወ caused it to be misread as ዉ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 16,
+      "old_text": "ትሄድ ሁና አይደለም ትገል↵",
+      "corrected_text": "ትሄድ ሁና አይደለም ትገለ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ል -> ለ",
+      "reason": "Both the printed glyph at the end of the line (symmetric two-legged 1st-order ለ without a top-left hook) and Amharic passive-jussive morphology require ትገለጽልን ('that it be revealed to us'), not ትገልጽልን."
+    }
+  ]
+}

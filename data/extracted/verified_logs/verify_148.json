@@ -1,0 +1,35 @@
+{
+  "pdf_page": 148,
+  "book_page_ethiopic": "፪፻፷፯",
+  "elapsed_sec": 18.5,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 37,
+      "old_text": "⟪የሐርፆ ።⟫ በአርባ ዘመን በጥጦ↵",
+      "corrected_text": "⟪ተሐርፆ ።⟫ በአርባ ዘመን በጥጦ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "የ -> ተ",
+      "reason": "The printed Ge'ez citation clearly begins with 'ተ' ('ተሐርፆ ።', matching Matthew 21:44 in L27 and Col 2 L05), where the crossbar of 'ተ' was misread as 'የ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 20,
+      "old_text": "⟪ናሁ ምሳህየ አስተዳሎኩ⟫",
+      "corrected_text": "⟪ናሁ ምሳሕየ አስተዳሎኩ⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ህ -> ሕ",
+      "reason": "The canonical Ge'ez word in Matthew 22:4 is 'ምሳሕየ' (printed with 6th-order ሐመሩ 'ሕ', not 'ህ')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 24,
+      "old_text": "ሚል ጎች አርጃለሁ ።",
+      "corrected_text": "ሚሰ ጎች አርጃለሁ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ል -> ሰ",
+      "reason": "The printed glyph is 'ሰ' forming 'ሚሰ ጎች' (ሚሰጎች, traditional Amharic Andemta gloss for fatted calves/oxen 'መጋዝዕትየ ወአስዋርየ'), misread as 'ሚል ጎች'."
+    }
+  ]
+}

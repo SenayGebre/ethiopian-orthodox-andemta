@@ -1,0 +1,53 @@
+{
+  "pdf_page": 61,
+  "book_page_ethiopic": "፻፹",
+  "elapsed_sec": 15.1,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 8,
+      "old_text": "ው በረኃብ በጽምፅ የሚያል↵",
+      "corrected_text": "ው በረኃብ በጽምዕ የሚያል↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ፅ -> ዕ",
+      "reason": "The word for thirst in Ge'ez/Amharic is ጽምዕ (with 6th-order ዕ), not ጽምፅ. Visually, the glyph at the end of በጽምዕ is ዕ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 25,
+      "old_text": "ከት አላቸው ። በታ መጣፍ ሰ↵",
+      "corrected_text": "ከት አላቸው ። በቷ መጣፍ ሰ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ታ -> ቷ",
+      "reason": "Traditional Andemta abbreviation 'በቷ' (በተባለው / በተጠቀሰው) before 'መጣፍ ሰጥተውት'. Visually, the character has the labialized/wa-hook at the bottom of ተ (ቷ)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 32,
+      "old_text": "ብሎ ቢያይ የማይጠሩት ሆነ",
+      "corrected_text": "ብሎ ቢያይ የማይጠሩት ሁነ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሆ -> ሁ",
+      "reason": "The printed glyph has the side stroke of 2nd-order ሁ ('ሁነ'), matching the archaic spelling used throughout this column."
+    },
+    {
+      "column_index": 1,
+      "line_num": 33,
+      "old_text": "ተደራኑ አኃው እያለ እሱ ካ↵",
+      "corrected_text": "ተደራሩ አኃው እያለ እሱ ካ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኑ -> ሩ",
+      "reason": "In the story of Abba Silvanus, the monk asks 'ተደራሩ አኃው' ('Did the brothers eat dinner / ተደራሩ?'), which is answered on the next line by 'እወ ተደሩ'. Visually, the glyph is ሩ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 24,
+      "old_text": "ለጸግነቱ ከጽጌያት እንዳንዲ አ↵",
+      "corrected_text": "ለጸግነቱ ከጽጌያት እንዳንዱ አ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዲ -> ዱ",
+      "reason": "The word is 'እንዳንዱ' (like one of them, translating 'ከመ ፩ እምእሉ'). Visually, the right-side stroke of 2nd-order ዱ is present."
+    }
+  ]
+}

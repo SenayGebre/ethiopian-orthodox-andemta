@@ -1,0 +1,17 @@
+{
+  "pdf_page": 54,
+  "book_page_ethiopic": "፬፻፴፮",
+  "elapsed_sec": 14.0,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 38,
+      "old_text": "⟪ወርዕዮሙ አርዳኢሁ ያዕቆብ",
+      "corrected_text": "⟪ወርእዮሙ አርዳኢሁ ያዕቆብ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዕ -> እ",
+      "reason": "Visual inspection of Col 1 L38 and standard Ge'ez orthography of the root ርእየ ('to see') confirm the glyph is 6th-order አልፍ (እ) in ወርእዮሙ, not ዐይን (ዕ)."
+    }
+  ]
+}

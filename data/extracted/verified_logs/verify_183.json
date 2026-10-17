@@ -1,0 +1,35 @@
+{
+  "pdf_page": 183,
+  "book_page_ethiopic": "፫፻፪",
+  "elapsed_sec": 17.0,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 27,
+      "old_text": "፳፫ ፫ ዮሐ ፲፰ ፳፫ ።",
+      "corrected_text": "፳፫ ፫ ዮሐ ፲፰ ፴፫ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፳፫ -> ፴፫",
+      "reason": "The Ethiopic numeral ፴ (30, with its double top loop) was misread as ፳ (20); the canonical cross-reference for Jesus standing before Pilate is John 18:33 (ዮሐ ፲፰ ፴፫)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 27,
+      "old_text": "ድ ነበረው ። አንድም በሙ ል↵",
+      "corrected_text": "ድ ነበረው ። አንድም ቦሙ ል↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በሙ -> ቦሙ",
+      "reason": "7th-order ቦ in the Ge'ez textual variant 'ቦሙ ልማድ' ('they had a custom', contrasted with 'ወቦ ልማድ ለመስፍን' and glossed below as 'ለሕዝቡ ልማድ ነበራቸው') was misread as 1st-order በ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 32,
+      "old_text": "⟪እንዘ ትብል ዑቅእ ኢትአብስ",
+      "corrected_text": "⟪እንዘ ትብል ዑቅኬ ኢትአብስ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዑቅእ -> ዑቅኬ",
+      "reason": "In the canonical Ge'ez text of Matthew 27:19, the imperative with enclitic particle is 'ዑቅኬ' ('Take heed then'); the 5th-order ኬ was misread as እ."
+    }
+  ]
+}

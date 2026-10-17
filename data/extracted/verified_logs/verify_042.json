@@ -1,0 +1,26 @@
+{
+  "pdf_page": 42,
+  "book_page_ethiopic": "፻፷፩",
+  "elapsed_sec": 14.4,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 10,
+      "old_text": "ህን ቃሉ ካልተማሩ አያውቁ↵",
+      "corrected_text": "ህን ቀሎ ካልተማሩ አያውቁ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቃሉ -> ቀሎ",
+      "reason": "The printed glyph in Column 2 Line 10 is clearly ቀሎ ('easily / lightly without being taught, they would not know this'), not ቃሉ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 3,
+      "old_text": "ለዚሀም ምልክት በሕዝቡ ዘን↵",
+      "corrected_text": "ለዚህም ምልክት በሕዝቡ ዘን↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሀ -> ህ",
+      "reason": "6th-order ህ in ለዚህም was misread as 1st-order ሀ."
+    }
+  ]
+}

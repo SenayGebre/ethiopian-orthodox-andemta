@@ -1,0 +1,62 @@
+{
+  "pdf_page": 5,
+  "book_page_ethiopic": "፭፻፲፭",
+  "elapsed_sec": 27.0,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 26,
+      "old_text": "በ፪፻ ዘመን ኢሳይያስ ፡ በዓመተ",
+      "corrected_text": "በ፰፻ ዘመን ኢሳይያስ ፡ በዓመተ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፪፻ -> ፰፻",
+      "reason": "The Ethiopic numeral printed is ፰፻ (800), referring to the traditional 800-year reckoning between David and Isaiah, which was misread as ፪፻ (200)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 27,
+      "old_text": "ሞቱ የዝያን ንጉሥ ርኢክዎ",
+      "corrected_text": "ሞቱ ለዖዝያን ንጉሥ ርኢክዎ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "የዝያን -> ለዖዝያን",
+      "reason": "Canonical Ge'ez citation of Isaiah 6:1 ('በዓመተ ሞቱ ለዖዝያን ንጉሥ'). The ligature/spacing of ለዖዝያን was misread as የዝያን."
+    },
+    {
+      "column_index": 2,
+      "line_num": 7,
+      "old_text": "መንፈስ ቅዱስ ብሏል ። ከዚሀም",
+      "corrected_text": "መንፈስ ቅዱስ ብሏል ። ከዚህም",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ከዚሀም -> ከዚህም",
+      "reason": "6th-order ህ in ከዚህም was misread as 1st-order ሀ due to ink fill."
+    },
+    {
+      "column_index": 2,
+      "line_num": 19,
+      "old_text": "⟪ወኵሉ በቱ ኮነ ።⟫",
+      "corrected_text": "⟪ወኵሉ ቦቱ ኮነ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በቱ -> ቦቱ",
+      "reason": "Canonical Ge'ez Gospel of John 1:3 ('ወኵሉ ቦቱ ኮነ') and clear 7th-order ቦ on the page image."
+    },
+    {
+      "column_index": 2,
+      "line_num": 28,
+      "old_text": "የነቢብ የግቢሩን ለወልድ ሰ",
+      "corrected_text": "የነቢብ የገቢሩን ለወልድ ሰ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "የግቢሩን -> የገቢሩን",
+      "reason": "Standard triad of faculties in Andemta theology (ሐልዮ, ነቢብ, ገቢር). The glyph is 1st-order ገ (የገቢሩን), not 6th-order ግ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 11,
+      "old_text": "ብከ ሰማዕት ወካልዕ መምሕ",
+      "corrected_text": "ብከ ሰማዕት ወካልዕ መምህ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "መምሕ -> መምህ",
+      "reason": "The printed character at the end of the line is 6th-order ህ (መምህር), not ሕ."
+    }
+  ]
+}

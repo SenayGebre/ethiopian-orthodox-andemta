@@ -1,0 +1,35 @@
+{
+  "pdf_page": 130,
+  "book_page_ethiopic": "፮፻፴፱",
+  "elapsed_sec": 10.6,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "አምስተኛው ሰንጠረዠ ሁለቱ ወንጌላውያን ማቴዎስና ሉቃስ የሚተባበሩበት",
+      "corrected_text": "አምስተኛው ሰንጠረዥ ሁለቱ ወንጌላውያን ማቴዎስና ሉቃስ የሚተባበሩበት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዠ -> ዥ",
+      "reason": "The word for table/canon in Amharic is ሰንጠረዥ (6th order ዥ, clearly visible on the page with its top-right hook), not 1st order ዠ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 12,
+      "old_text": "ስድስተኛው ሰንጠረዠ ሁለቱ ወንጌላውያን ማቴዎስና ማርቆስ የሚተባበሩበት ።",
+      "corrected_text": "ስድስተኛው ሰንጠረዥ ሁለቱ ወንጌላውያን ማቴዎስና ማርቆስ የሚተባበሩበት ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዠ -> ዥ",
+      "reason": "The printed word is ሰንጠረዥ (6th order ዥ), standard Amharic spelling for table/canon."
+    },
+    {
+      "column_index": 2,
+      "line_num": 12,
+      "old_text": "ወእዲዎ እምህየ ።",
+      "corrected_text": "ወአዲዎ እምህየ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እ -> አ",
+      "reason": "Ge'ez Matthew 4:21 / Mark 1:19 gerundive is ወአዲዎ (4th order አ, from አደወ 'having passed on from there'), clearly printed with straight legs as ወአዲዎ."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "pdf_page": 68,
+  "book_page_ethiopic": "፻፹፯",
+  "elapsed_sec": 16.3,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 5,
+      "old_text": "⟪ዘከመ አዘዘ ሙሴ ።⟫",
+      "corrected_text": "⟪በከመ አዘዘ ሙሴ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዘ -> በ",
+      "reason": "Canonical Ge'ez Gospel text (Matt 8:4 'በከመ አዘዘ ሙሴ', repeated in Col 3 L02); the bold lead-type glyph at the start of the line is 'በ', not 'ዘ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 1,
+      "old_text": "ፍዳህ ስለ ዳንከ ቀኖናህን ፈጽ↵",
+      "corrected_text": "ፍዳህ ስለ ዳንክ ቀኖናህን ፈጽ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከ -> ክ",
+      "reason": "The printed glyph has the 6th-order (ሳድስ) top hook of 'ክ' in the Amharic verb 'ዳንክ' ('ስለ ዳንክ')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 35,
+      "old_text": "ጥፋር ቤትየ ሲል ነው ። ስጠተ",
+      "corrected_text": "ጥፉር ቤትየ ሲል ነው ። ስጠተ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፋ -> ፉ",
+      "reason": "Both the zoomed image (showing the 2nd-order ካዕብ right-side marker on 'ፉ') and the grammatical parallel that immediately follows ('ስጠተ ልብስ ንፍቀ ታቦት ... ስጡጠ ልብስ ንፉቀ ታቦት ሲል') confirm the Ge'ez passive participle 'ጥፉር' (explaining 'ጠፈረ ቤትየ')."
+    }
+  ]
+}

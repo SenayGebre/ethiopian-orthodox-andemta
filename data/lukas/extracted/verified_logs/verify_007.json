@@ -1,0 +1,26 @@
+{
+  "pdf_page": 7,
+  "book_page_ethiopic": "፫፻፹፱",
+  "elapsed_sec": 20.0,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 5,
+      "old_text": "⟪ወአምዝ ፈጺሞ መዋዕለ ዕብ",
+      "corrected_text": "⟪ወእምዝ ፈጺሞ መዋዕለ ዕብ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አ -> እ",
+      "reason": "Classical Ge'ez preposition/adverbial phrase 'ወእምዝ' (and after this, Luke 1:23) uses 6th-order 'እ', which was misread as 1st-order 'አ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 28,
+      "old_text": "ተፍኅሮስ ነገር እንደምን ነው",
+      "corrected_text": "ተፍኅሮቱ ነገር እንደምን ነው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ስ -> ቱ",
+      "reason": "Joined across the line wrap from L27 ('የተፍኅሮቱ ነገር እንደምን ነው' - 'how is the matter of the betrothal?'), the final character on the image clearly has the crossbar and right-side vowel mark of 'ቱ', misread as 'ስ'."
+    }
+  ]
+}

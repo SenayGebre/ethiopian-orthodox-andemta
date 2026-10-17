@@ -1,0 +1,26 @@
+{
+  "pdf_page": 45,
+  "book_page_ethiopic": "፻፪ | ፻፫",
+  "elapsed_sec": 12.1,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 18,
+      "old_text": "፬ ፤ ⟪ወበዓለ ፡ ፋሲካ ፡ ውእተ ፡ አሚረ ፡ ወአኒዞ ፡",
+      "corrected_text": "፬ ፤ ⟪ወበዓለ ፡ ፋሲካ ፡ ውእተ ፡ አሚረ ፡ ወአኀዞ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወአኒዞ -> ወአኀዞ",
+      "reason": "The Ge'ez verb 'and he seized him' is ወአኀዞ (rendered in the Amharic commentary on L21 as ይዞ). The ኀ glyph was misread as ኒ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 31,
+      "old_text": "ወርደ ፡ በይእቲ ፡ ሌሊት ፡ በዚያች ፡ ሌሊ↵",
+      "corrected_text": "ወረደ ፡ በይእቲ ፡ ሌሊት ፡ በዚያች ፡ ሌሊ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወርደ -> ወረደ",
+      "reason": "The Ge'ez citation word from verse 7 (ወወረደ) is ወረደ ('he descended'), printed clearly with 1st-order ረ, not 6th-order ር."
+    }
+  ]
+}

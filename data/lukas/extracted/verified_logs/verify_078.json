@@ -1,0 +1,17 @@
+{
+  "pdf_page": 78,
+  "book_page_ethiopic": "፬፻፷",
+  "elapsed_sec": 10.1,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 22,
+      "old_text": "⟪እስመ ብዙኃን ዕዉራን ወኅዳ↵",
+      "corrected_text": "⟪እስመ ብዙኃን ዕዉዓን ወኅዳ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ራ -> ዓ",
+      "reason": "The canonical Ge'ez Gospel phrase meaning 'many are called' (የታደሙ ብዙ ናቸውና in L24) is 'ብዙኃን ዕዉዓን', and the printed glyph on the page is clearly 'ዓ' (ዕዉዓን), not 'ራ' (ዕዉራን)."
+    }
+  ]
+}

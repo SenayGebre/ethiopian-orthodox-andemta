@@ -1,0 +1,35 @@
+{
+  "pdf_page": 65,
+  "book_page_ethiopic": "፭፻፸፭",
+  "elapsed_sec": 18.9,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 7,
+      "old_text": "⟪ወይተልዋኒ አማኒቱ ድኅሬየ።⟫",
+      "corrected_text": "⟪ወይተልዋኒ እማንቱ ድኅሬየ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አማኒቱ -> እማንቱ",
+      "reason": "The canonical Ge'ez feminine plural pronoun referring to አባግዕ (sheep) is እማንቱ ('they [fem. pl.] follow me'), clearly printed on the page."
+    },
+    {
+      "column_index": 1,
+      "line_num": 28,
+      "old_text": "ማለት እዱ መንፈዕቱ ከተባለ",
+      "corrected_text": "ማለት እዱ መዝራዕቱ ከተባል",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "መንፈዕቱ ከተባለ -> መዝራዕቱ ከተባል",
+      "reason": "Standard Andemta Christological expression 'እዱ መዝራዕቱ ከተባልሁ' ('since I am called His hand and His arm [መዝራዕቱ]'). Visually, ዝራ was misread as ንፈ and the 6th-order ል before ሁ on the next line was misread as 1st-order ለ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 33,
+      "old_text": "ልክ ያዋሐደኝ እኔ አምላክ ነኝ",
+      "corrected_text": "አብ ያዋሐደኝ እኔ አምላክ ነኝ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ልክ -> አብ",
+      "reason": "Translates the Ge'ez root 'ዘቀደሶ አብ' ('whom the Father sanctified/united'). Visually, the printed word after the verse number ፴፮ is አብ, which was misread as ልክ due to ink wear."
+    }
+  ]
+}

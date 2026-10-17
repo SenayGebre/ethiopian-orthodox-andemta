@@ -1,0 +1,35 @@
+{
+  "pdf_page": 11,
+  "book_page_ethiopic": "፫፻፺፫",
+  "elapsed_sec": 22.9,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 2,
+      "old_text": "እስከለው ዓሥር ይሆናል የዚ",
+      "corrected_text": "እስካለው ዓሥር ይሆናል የዚ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከ -> ካ",
+      "reason": "The fourth-order Fidel ካ (እስካለው, 'up to where it says') is clearly printed with a shortened left leg and longer right leg, and is required by Amharic grammar."
+    },
+    {
+      "column_index": 1,
+      "line_num": 5,
+      "old_text": "ነው ። እንዲህ በወር በዕለት ይ",
+      "corrected_text": "ነው ። እንኳን በወር በዕለት ይ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እንዲህ -> እንኳን",
+      "reason": "Visual inspection of the zoomed image shows እንኳን ('even by month and by day he likens it'), where ኳን was misread as ዲህ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 25,
+      "old_text": "ኗዋ ተቀርጿዋል ። ሐተታ እ",
+      "corrected_text": "ኗ ተቀርፆዋል ። ሐተታ እ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኗዋ ተቀርጿዋል -> ኗ ተቀርፆዋል",
+      "reason": "Line 25 begins with the single character ኗ completing በማኅፀኗ from line 24, followed by ተቀርፆዋል."
+    }
+  ]
+}

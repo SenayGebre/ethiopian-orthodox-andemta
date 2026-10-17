@@ -1,0 +1,35 @@
+{
+  "pdf_page": 9,
+  "book_page_ethiopic": "፻፹፪ | ፻፹፫",
+  "elapsed_sec": 22.6,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 11,
+      "old_text": "ብእሲ ፡ ዘይፈኢ ፡ አክሊላቲሁ ፡ ኢይሜ",
+      "corrected_text": "ብእሲ ፡ ዘይሬኢ ፡ አክሊላቲሁ ፡ ኢይሜ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ፈ -> ሬ",
+      "reason": "In Classical Ge'ez, 'a man who sees his crowns' is 'ብእሲ ፡ ዘይሬኢ ፡ አክሊላቲሁ' (directly glossing the preceding Amharic 'ሹመቱን ፡ ሽልማቱን ፡ ያየ ፡ አርበኛ'). The fifth-order 'ሬ' was misread as 'ፈ' due to ink bleed on the lower right loop."
+    },
+    {
+      "column_index": 4,
+      "line_num": 21,
+      "old_text": "ይትዌሰክ ፡ ስነ ፡ በዲበ፡ ስን ፡ እንዲል ።",
+      "corrected_text": "ይትዌሰክ ፡ ስኑ ፡ በዲበ፡ ስን ፡ እንዲል ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ስነ -> ስኑ",
+      "reason": "The printed glyph has the second-order (ካዕብ) right-side marker for 'ስኑ' ('his beauty increases upon beauty' in the passive/intransitive 'ይትዌሰክ ፡ ስኑ'), which was misread as 'ስነ'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 30,
+      "old_text": "ዙኅ ፡ ግሀደት ፡ አንጻረ ፡ ቅድመ ፡ እለ ፡",
+      "corrected_text": "ዙኅ ፡ ግህደት ፡ አንጻረ ፡ ቅድመ ፡ እለ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ግሀደት -> ግህደት",
+      "reason": "Both visually on the page and morphologically in Ge'ez (Wisdom 5:1, 'በብዙኅ ፡ ግህደት'), the sixth-order 'ህ' is printed rather than first-order 'ሀ'."
+    }
+  ]
+}

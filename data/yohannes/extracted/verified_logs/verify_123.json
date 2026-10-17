@@ -1,0 +1,26 @@
+{
+  "pdf_page": 123,
+  "book_page_ethiopic": "፮፻፴፪",
+  "elapsed_sec": 26.4,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 9,
+      "old_text": "ንግፉ ፀበለ እግሪክሙ ።",
+      "corrected_text": "ንግፉ ፀበለ እግረክሙ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እግሪክሙ -> እግረክሙ",
+      "reason": "The printed glyph in the third word is first-order ረ (እግረክሙ), not third-order ሪ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 23,
+      "old_text": "ትመስል ሕጠተ ሰናፔ ።",
+      "corrected_text": "ትመስል ኅጠተ ሰናፔ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሕጠተ -> ኅጠተ",
+      "reason": "Visually and philologically, the word for 'grain' (of mustard seed) is printed with ኅ (ኅጠተ ሰናፔ) rather than ሕ."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "pdf_page": 87,
+  "book_page_ethiopic": "፻፷፯ | ፻፷፰",
+  "elapsed_sec": 16.8,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 4,
+      "line_num": 23,
+      "old_text": "⟪ነፍስ ፡⟫",
+      "corrected_text": "⟪ነፋስ ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፍ -> ፋ",
+      "reason": "The printed Ge'ez text clearly shows 4th-order ፋ in 'ነፋስ' (wind, in 'ንፍሐተ ፡ ነፋስ'), which is also confirmed by the Amharic commentary 'ነፋሱ' on the next line."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "pdf_page": 89,
+  "book_page_ethiopic": "፻፸ | ፻፸፩",
+  "elapsed_sec": 32.8,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 23,
+      "old_text": "ቆሪዲስ ፡ የሚባል ፡ ሰው ፡ ስም ፡ ተጽፎ",
+      "corrected_text": "ቆሪዶስ ፡ የሚባል ፡ ሰው ፡ ስም ፡ ተጽፎ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዲ -> ዶ",
+      "reason": "The third character is 7th-order ዶ (matching ዲዮስቆሪዶስ on lines 19 and 20), misread as ዲ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 17,
+      "old_text": "⟪ትምጽኡ ፡ ኀቤየ ፡ ከመ ፡ አስምዕክሙ ፡ ወእንግር⟫",
+      "corrected_text": "⟪ትምጽኡ ፡ ኀቤየ ፡ ከመ ፡ አስምዕክሙ ፡ ወእንግ⟫",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወእንግር -> ወእንግ",
+      "reason": "The line ends with ወእንግ and wraps onto line 18 as ርክሙ (forming ወእንግርክሙ); Stage 1 duplicated the ር at the end of line 17."
+    },
+    {
+      "column_index": 4,
+      "line_num": 25,
+      "old_text": "ም ፡ ፳፯ ፡ ፮ ፡ ፯ ።",
+      "corrected_text": "ም ፡ ፳፮ ፡ ፮ ፡ ፯ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፳፯ -> ፳፮",
+      "reason": "The chapter numeral printed on the page is ፳፮ (Acts 26:6-7, referring to Paul being judged for the hope of Israel), where ፮ was misread as ፯."
+    }
+  ]
+}

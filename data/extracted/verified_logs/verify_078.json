@@ -1,0 +1,62 @@
+{
+  "pdf_page": 78,
+  "book_page_ethiopic": "፻፺፯",
+  "elapsed_sec": 33.0,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 10,
+      "old_text": "⟪ወይፌውስ ኩሎ ደወያነ ወ⟫↵",
+      "corrected_text": "⟪ወይፌውስ ኩሎ ድውያነ ወ⟫↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ደወያነ -> ድውያነ",
+      "reason": "Canonical Ge'ez Matthew 9:35 and visual inspection show 6th-order 'ድውያነ' (the sick), not 'ደወያነ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 16,
+      "old_text": "⟪ህሮዎ ። ወተሣሃሎሙ ።⟫",
+      "corrected_text": "⟪ህርዎ ። ወተሣሃሎሙ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሮ -> ር",
+      "reason": "Ge'ez verb 'እምህርዎ' (from 'ምህረ') has 6th-order 'ር' before the object suffix '-ዎ', as clearly printed in the image."
+    },
+    {
+      "column_index": 2,
+      "line_num": 5,
+      "old_text": "ራን አድርጌ እሰነሣችሁ ዘ ንድ ፡",
+      "corrected_text": "ራን አድርጌ አስነሣችሁ ዘንድ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እሰነሣችሁ ዘ ንድ -> አስነሣችሁ ዘንድ",
+      "reason": "The printed text reads 'አስነሣችሁ ዘንድ' (matching line 24 'አስነሣችሁ ዘንድ') with 1st-order 'አ', 6th-order 'ስ', and no space inside 'ዘንድ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 14,
+      "old_text": "ለዚህ ነው እንዳይሉ ። ምነዋ",
+      "corrected_text": "ለዚህ ነው እንዳይሉ ። ምነው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዋ -> ው",
+      "reason": "The glyph at the end of the line is 6th-order 'ው' ('ምነው'), not 'ዋ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 18,
+      "old_text": "ፍተ ነበያት ንባባቸው ብዙ ነ↵",
+      "corrected_text": "ፍተ ነቢያት ንባባቸው ብዙ ነ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በ -> ቢ",
+      "reason": "Standard Ge'ez plural 'መጻሕፍተ ነቢያት' has 3rd-order 'ቢ' with its bottom-right foot visible."
+    },
+    {
+      "column_index": 3,
+      "line_num": 6,
+      "old_text": "ሰንደቅ አላማ ማሠፈ ነጋሪት",
+      "corrected_text": "ሰንደቅ አላማ ማሠረ ነጋሪት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፈ -> ረ",
+      "reason": "Traditional royal insignia term is 'ማሠረ ነጋሪት' (kettledrum binding/privilege), and the printed glyph is 'ረ' without the right loop of 'ፈ'."
+    }
+  ]
+}

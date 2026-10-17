@@ -1,0 +1,26 @@
+{
+  "pdf_page": 61,
+  "book_page_ethiopic": "፫፻፹",
+  "elapsed_sec": 8.7,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 12,
+      "old_text": "ጽኡ ኅቤሁ ። ቍ ፲፫",
+      "corrected_text": "ጽኡ ኀቤሁ ። ቍ ፲፫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኅ -> ኀ",
+      "reason": "The preposition printed on the page is ኀቤሁ (with 1st order ኀ, not 6th order ኅ)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 3,
+      "old_text": "ጌታ ከኢየሩሳሌም እንደ ሄደ ።",
+      "corrected_text": "ጌታ ከኢየሩሳሌም እንደ ሂደ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሄደ -> ሂደ",
+      "reason": "The printed glyph has the 3rd order right-leg hook ሂ (ሂደ, an authentic archaic spelling of ሄደ in this edition), not 5th order ሄ."
+    }
+  ]
+}

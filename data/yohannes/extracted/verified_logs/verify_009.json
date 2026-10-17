@@ -1,0 +1,26 @@
+{
+  "pdf_page": 9,
+  "book_page_ethiopic": "፭፻፲፱",
+  "elapsed_sec": 15.4,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 22,
+      "old_text": "ቱ ይህ ነው ፡ ገI ያለውን ያመ",
+      "corrected_text": "ቱ ይህ ነው ፡ ገና ያለውን ያመ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ገI -> ገና",
+      "reason": "The second character of 'ገና' ('ና') was misread as a Latin 'I' due to a light horizontal top bar; both the image and Andemta phrase ('ገና ያለውን ያመጣዋል') confirm 'ገና'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 11,
+      "old_text": "ልክተኞችን ቢቃል አምጣ ። አ",
+      "corrected_text": "ልክተኞችን በቃል አምጣ ። አ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቢቃል -> በቃል",
+      "reason": "Slight ink bleed at the bottom of the right leg of 'በ' caused it to be misread as 'ቢ'; the standard Andemta technical term for supplying an implied word is 'በቃል አምጣ'."
+    }
+  ]
+}

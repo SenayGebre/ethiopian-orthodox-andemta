@@ -1,0 +1,26 @@
+{
+  "pdf_page": 98,
+  "book_page_ethiopic": "፬፻፹",
+  "elapsed_sec": 10.3,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 21,
+      "old_text": "ደንጊያንም በደንጊያ ላይ አ ይ",
+      "corrected_text": "ደንጊያንም በደንጊያ ላይ አይ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አ ይ -> አይ",
+      "reason": "The negative prefix አይ- in አይተውልሽም is a single word split across the line wrap, with slight kerning between አ and ይ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 17,
+      "old_text": "⟪ወየኃሥሥ ሊቃነ ካህናት ወጸ",
+      "corrected_text": "⟪ወየኃሥሡ ሊቃነ ካህናት ወጸ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሥ -> ሡ",
+      "reason": "Both visually on the right leg of the second ሠ and grammatically in Classical Ge'ez (plural subject ሊቃነ ካህናት ወጸሐፍት), the verb is 3rd person masculine plural ወየኃሥሡ (Luke 19:47)."
+    }
+  ]
+}

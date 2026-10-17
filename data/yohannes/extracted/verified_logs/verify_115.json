@@ -1,0 +1,17 @@
+{
+  "pdf_page": 115,
+  "book_page_ethiopic": "፮፻፳፭",
+  "elapsed_sec": 11.0,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 12,
+      "old_text": "ጌታ የንጉሥን ባለሟል ልጅ በገሊላ ስለ አዳነው።",
+      "corrected_text": "ጌታ የንጉሥን ባሪያ ልጅ በገሊላ ስለ አዳነው።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ባለሟል -> ባሪያ",
+      "reason": "The printed text on Col 2 L12 clearly reads 'ባሪያ' (translating Ge'ez 'ገብረ ንጉሥ' in Col 1 L24), which was hallucinated/misread as 'ባለሟል' in Stage 1."
+    }
+  ]
+}

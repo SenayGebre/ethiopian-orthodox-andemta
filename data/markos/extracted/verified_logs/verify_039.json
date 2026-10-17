@@ -1,0 +1,35 @@
+{
+  "pdf_page": 39,
+  "book_page_ethiopic": "፫፻፶፰",
+  "elapsed_sec": 18.1,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 40,
+      "old_text": "⟪ወይቤሎሙ አነኒ ኢይነግረክ",
+      "corrected_text": "⟪ወይቤሎሙ አነኒ ኢእነግረክ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኢይነግረክሙ -> ኢእነግረክሙ",
+      "reason": "The printed glyph after ኢ has the two legs of እ (ኢእነግረክሙ, 1st person singular 'I will not tell you'), which was misread as ይ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 27,
+      "old_text": "ንድ ባሪያውን በጊዜው ወደ ጠ",
+      "corrected_text": "ንድ ባሪውን በጊዜው ወደ ጠ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ባሪያውን -> ባሪውን",
+      "reason": "The printed text uses the ligature ሪ (ባሪውን) without a separate ያ character."
+    },
+    {
+      "column_index": 3,
+      "line_num": 37,
+      "old_text": "ደግሞ ሌላውንም ባሪያውንም",
+      "corrected_text": "ደግሞ ሌላውንም ባሪውንም",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ባሪያውንም -> ባሪውንም",
+      "reason": "The printed text uses the ligature ሪ (ባሪውንም) without a separate ያ character."
+    }
+  ]
+}

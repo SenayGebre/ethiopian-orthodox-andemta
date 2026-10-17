@@ -1,0 +1,17 @@
+{
+  "pdf_page": 24,
+  "book_page_ethiopic": "፫፻፵፫",
+  "elapsed_sec": 13.4,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 17,
+      "old_text": "ቡ ዘእንበለ ውስተ ከርሠ ዚአሁ⟫",
+      "corrected_text": "ቡ ዘእንበለ ውስተ ከርሡ ከመ⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ከርሠ ዚአሁ -> ከርሡ ከመ",
+      "reason": "Visual inspection of Column 2 Line 17 clearly shows 'ውስተ ከርሡ ከመ' printed on the page rather than 'ከርሠ ዚአሁ'."
+    }
+  ]
+}

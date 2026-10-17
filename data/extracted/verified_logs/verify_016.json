@@ -1,0 +1,53 @@
+{
+  "pdf_page": 16,
+  "book_page_ethiopic": "፻፴፭",
+  "elapsed_sec": 19.1,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 14,
+      "old_text": "[፳፫] ር በነبي እንዘ ይብል ፡ ናሁ ድ↵",
+      "corrected_text": "[፳፫] ር በነቢይ እንዘ ይብል ፡ ናሁ ድ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "بي -> ቢይ",
+      "reason": "OCR script-mixing artifact replaced Ethiopic 'ቢይ' in 'በነቢይ' (Matthew 1:22) with Arabic characters."
+    },
+    {
+      "column_index": 2,
+      "line_num": 25,
+      "old_text": "ማቴዎስ ወንጌልን ለሰብአ ኢ↵",
+      "corrected_text": "ማቴዎስ ወንጌልን ለሰብአ ኤ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኢ -> ኤ",
+      "reason": "The 5th-order 'ኤ' in 'ኤላንሳን' (as in L29 and L31) at the end of the line was misread as 3rd-order 'ኢ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 29,
+      "old_text": "አላወቃትም ሲል ነው ሥጋ",
+      "corrected_text": "አላወቃትም ሲል ነው ሥጋ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሥጋ -> ሥጋ↵",
+      "reason": "The word 'ሥጋዌው' wraps mid-word across lines 29 and 30."
+    },
+    {
+      "column_index": 3,
+      "line_num": 30,
+      "old_text": "ዌው በብዙ ኅብረት ትንቢት የ↵",
+      "corrected_text": "ዌው በብዙ ኅብረ ትንቢት የ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኅብረት -> ኅብረ",
+      "reason": "Visual inspection of Col 3 L30 shows 'በብዙ ኅብረ ትንቢት' (construct state matching 'በብዙ ኅብረ አምሳል' on the next line), without a final 'ት' on 'ኅብረ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 36,
+      "old_text": "እንዲል ስንኳን የሥላየ ጽድ↵",
+      "corrected_text": "እንዲል ስንኳን የፀሐየ ጽድ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "የሥላየ -> የፀሐየ",
+      "reason": "Faint print caused 'የፀሐየ' in the classic Marian epithet 'የፀሐየ ጽድቅ ሰሌዳ ድንግልን' (the tablet of the Sun of Righteousness, the Virgin) to be misread as 'የሥላየ'."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "pdf_page": 30,
+  "book_page_ethiopic": "፻፵፱",
+  "elapsed_sec": 79.7,
+  "applied_count": 7,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 3,
+      "old_text": "በልጣል ።አንድም ፳ወገን ነው",
+      "corrected_text": "በልጣል ።አንድም ፲ወገን ነው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፳ -> ፲",
+      "reason": "The numeral is ፲ (10 kinds of baptism, divided on the next line into ፮/6 symbolic and ፬/4 true baptisms), misread as ፳."
+    },
+    {
+      "column_index": 1,
+      "line_num": 4,
+      "old_text": "፲ቱ ምሳሌ ፲ቱ አማናዊ።ምሳ↵",
+      "corrected_text": "፮ቱ ምሳሌ ፬ቱ አማናዊ።ምሳ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "፲ቱ ... ፲ቱ -> ፮ቱ ... ፬ቱ",
+      "reason": "The ten baptisms are divided into ፮ቱ ምሳሌ (6 symbolic) and ፬ቱ አማናዊ (4 true, listed in lines 10-14); both numerals were misread as ፲ቱ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 6,
+      "old_text": "ይህ።ወለኵሎሙ አበዊነ አጥ↵",
+      "corrected_text": "ይኅ።ወለኵሎሙ አበዊነ አጥ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ህ -> ኅ",
+      "reason": "Ge'ez 'በማየ አይኅ' (by the water of the flood) is printed with ኅ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 10,
+      "old_text": "ንስ፤ ይህ ምሳሌ ነው ። ኦሪቱ",
+      "corrected_text": "ንስ፤ ይህ ምሳሌ ነው ። አራቱ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኦሪቱ -> አራቱ",
+      "reason": "Clearly printed 'አራቱ' ('the four [true baptisms]: the Lord's baptism, tears of repentance, blood of martyrs, sea of fire'), misread as 'ኦሪቱ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 24,
+      "old_text": "ሻ የወንጌልን መታነሚ እና↵",
+      "corrected_text": "ሻ የወንጌልን መታነጺ እና↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሚ -> ጺ",
+      "reason": "Andemta contrast 'የኦሪትን መፍረሻ የወንጌልን መታነጺ' (the tearing down of the Orit and the building up [መታነጺ] of the Gospel); ጺ was misread as ሚ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 23,
+      "old_text": "ለዋለች እባላ ዘሩን ቆርጣ ታ↵",
+      "corrected_text": "ለዋለች አባለ ዘሩን ቆርጣ ታ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እባላ -> አባለ",
+      "reason": "The Ge'ez/Amharic construct 'አባለ ዘሩን' (his generative organ) is printed with 1st-order አ and 1st-order ለ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 12,
+      "old_text": "ኦሪትን ነቢያትን ሲያሳልፋቸው",
+      "corrected_text": "ኦሪትን ነቢያትን ሊያሳልፋቸው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሲ -> ሊ",
+      "reason": "Purposive 'ሊያሳልፋቸው መጥቷል' (He has come to abolish them, introducing Matt 5:17), where ሊ was misread as ሲ."
+    }
+  ]
+}

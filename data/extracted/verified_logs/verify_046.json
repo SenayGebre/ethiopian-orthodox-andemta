@@ -1,0 +1,17 @@
+{
+  "pdf_page": 46,
+  "book_page_ethiopic": "፻፷፭",
+  "elapsed_sec": 12.2,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 39,
+      "old_text": "በመጀመሪያ ግንዛቱ ለአዳም",
+      "corrected_text": "በመጀመሪያ ማንሣቱ ለአዳም",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ግንዛቱ -> ማንሣቱ",
+      "reason": "The printed glyph in Col 2 L39 is clearly 'ማንሣቱ' ('raising/mentioning it at the beginning'), matching 'በ፰ኛው ማንሣቱ' two lines below; ink bleed on 'ማ' and 'ሣ' caused the OCR to misread it as 'ግንዛቱ'."
+    }
+  ]
+}

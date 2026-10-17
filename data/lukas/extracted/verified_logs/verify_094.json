@@ -1,0 +1,17 @@
+{
+  "pdf_page": 94,
+  "book_page_ethiopic": "፬፻፸፮",
+  "elapsed_sec": 13.8,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 2,
+      "old_text": "፳፱ ፴፭ ማር ፲ ፵፮ ።",
+      "corrected_text": "፳፱ ፴፬ ማር ፲ ፵፮ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፴፭ -> ፴፬",
+      "reason": "The cross-reference to Matthew 20 (ማቴ ፳) cites verses 29 to 34 (፳፱ ፴፬), which is the parallel account of the healing of the blind at Jericho (and the final verse of Matthew 20); the numeral ፬ was misread as ፭."
+    }
+  ]
+}

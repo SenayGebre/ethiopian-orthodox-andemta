@@ -1,0 +1,17 @@
+{
+  "pdf_page": 44,
+  "book_page_ethiopic": "፫፻፷፫",
+  "elapsed_sec": 8.4,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 34,
+      "old_text": "ስና ዘይቤ ዳንኤል ነبيይ ዘይ↵",
+      "corrected_text": "ስና ዘይቤ ዳንኤል ነቢይ ዘይ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ነبيይ -> ነቢይ",
+      "reason": "Stage 1 accidentally output non-Ethiopic (Arabic) characters inside the Ge'ez word ነቢይ ('prophet'); the page clearly prints the Ethiopic Fidel ቢ in ነቢይ."
+    }
+  ]
+}

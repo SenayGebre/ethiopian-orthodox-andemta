@@ -1,0 +1,35 @@
+{
+  "pdf_page": 6,
+  "book_page_ethiopic": "፫፻፹፰",
+  "elapsed_sec": 21.7,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 6,
+      "old_text": "ማቴ ፲፩ ፳፬።",
+      "corrected_text": "ማቴ ፲፩ ፲፬።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፳፬ -> ፲፬",
+      "reason": "The cross-reference is to Matthew 11:14 (ማቴ ፲፩ ፲፬), concerning John the Baptist coming in the spirit of Elijah; visually the numeral ten (፲) was misread as twenty (፳)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 14,
+      "old_text": "ፏዋል።",
+      "corrected_text": "ፏል።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፏዋል -> ፏል",
+      "reason": "Joining across the line break from L13 (አል-) gives አልፏል (has passed). Visually only ፏል ። is printed on L14 without an extra ዋ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 10,
+      "old_text": "⟪ወሀለዉ ሕዝብ ይዴልዩ ወይ",
+      "corrected_text": "⟪ወሀለዉ ሕዝብ ይጸልዩ ወይ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ይዴልዩ -> ይጸልዩ",
+      "reason": "Canonical Ge'ez Luke 1:21 reads ይጸልዩ (as confirmed by the Amharic gloss ይጸልዩለት ነበር in L13); the printed ጸ was misread as ዴ due to ink bleed at the base."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "pdf_page": 145,
+  "book_page_ethiopic": "፪፻፷፬",
+  "elapsed_sec": 17.2,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 13,
+      "old_text": "ሜህር መጽኡ ኅቤሁ ሊቃነ",
+      "corrected_text": "ሜሕር መጽኡ ኅቤሁ ሊቃነ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ህ -> ሕ",
+      "reason": "The printed Ge'ez verb is ይሜሕር with ሕ (6th order ሐመሩ ሐ), not ህ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 29,
+      "old_text": "ኒ አሐተ ቃለ።⟫",
+      "corrected_text": "ሂ አሐተ ቃለ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኒ -> ሂ",
+      "reason": "The printed enclitic at the start of the line completing አነሂ (Matthew 21:24) is ሂ, not ኒ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 34,
+      "old_text": "[፳፯] እናውቅም አሉት።",
+      "corrected_text": "[፳፯] አናውቅም አሉት።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እ -> አ",
+      "reason": "Both visually in the image and grammatically in Amharic negative imperfective translating ኢነአምር, the initial letter is 1st-order አ (አናውቅም), not 6th-order እ."
+    }
+  ]
+}

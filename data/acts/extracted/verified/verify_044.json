@@ -1,0 +1,35 @@
+{
+  "pdf_page": 44,
+  "book_page_ethiopic": "፻ | ፻፩",
+  "elapsed_sec": 18.5,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 11,
+      "old_text": "ማኅበር ፡ ላይ፡ ነው፡ ም፡ ፮፡ ፭፡ ም፡ ፭፡ ፲፬።",
+      "corrected_text": "ማኅበር ፡ ላይ፡ ነው፡ ም፡ ፪፡ ፵፩፡ ም፡ ፭፡ ፲፬።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፮፡ ፭ -> ፪፡ ፵፩",
+      "reason": "The first cross-reference clearly reads ም፡ ፪፡ ፵፩ (Acts 2:41, referring to the 3,000/8,000 added to the community), where ፪ was misread as ፮ and ፵፩ was compressed/misread as ፭."
+    },
+    {
+      "column_index": 3,
+      "line_num": 15,
+      "old_text": "ፈለገ ፡ ወደ ፡ ጠርሶን ፡ ሄደ ፡ ከዚህ ፡ ምር",
+      "corrected_text": "ፈለገ ፡ ወደ ፡ ጠርሶን ፡ ሂደ ፡ ከዚህ ፡ ምር",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሄደ -> ሂደ",
+      "reason": "The printed glyph has the 3rd-order (ሣልስ) leg of ሂደ ('ወደ ፡ ጠርሶን ፡ ሂደ'), consistent with the book's orthography (cf. Col 2 L07, Col 4 L09)."
+    },
+    {
+      "column_index": 4,
+      "line_num": 28,
+      "old_text": "ውን ፡ ያህል ፡ ገንዘብ ፡ አውጥተው ፡",
+      "corrected_text": "ውን ፡ ያህል ፡ ገንዘብ ፡ አዋጥተው ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ው -> ዋ",
+      "reason": "Both visually on the page (4th-order ዋ with a straight single leg and top loop) and philologically translating Ge'ez 'አስተዋፅኡ' ('contributed/pooled together'), the printed word is 'አዋጥተው'."
+    }
+  ]
+}

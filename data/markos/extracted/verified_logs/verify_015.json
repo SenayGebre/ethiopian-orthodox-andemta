@@ -1,0 +1,17 @@
+{
+  "pdf_page": 15,
+  "book_page_ethiopic": "፫፻፴፬",
+  "elapsed_sec": 11.7,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 36,
+      "old_text": "⟪ወዘልፈ የዓወዩ መዓልተ ወሌ⟫",
+      "corrected_text": "⟪ወዘልፈ የዓውዩ መዓልተ ወሌ⟫",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወ -> ው",
+      "reason": "Both the printed glyph (which clearly shows the left-side loop of 6th-order ው) and Classical Ge'ez verbal morphology for Mark 5:5 confirm የዓውዩ rather than የዓወዩ."
+    }
+  ]
+}

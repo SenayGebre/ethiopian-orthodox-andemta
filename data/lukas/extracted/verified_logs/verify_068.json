@@ -1,0 +1,26 @@
+{
+  "pdf_page": 68,
+  "book_page_ethiopic": "፬፻፶",
+  "elapsed_sec": 15.1,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 36,
+      "old_text": "ቀውምሙ ለካህናት በየማኑ ወ",
+      "corrected_text": "ቀውሞሙ ለካህናት በየማኑ ወ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ም -> ሞ",
+      "reason": "The fourth glyph in the line has a single central leg (ሞ in ወይቀውሞሙ), distinct from the two-legged ሙ immediately following it."
+    },
+    {
+      "column_index": 2,
+      "line_num": 40,
+      "old_text": "ሮ ይሰጣቸዋልና ። ያን ጊዜስ ስ",
+      "corrected_text": "ሮ ይሰጣቸዋልና ። ያን ጊዜስ እ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ስ -> እ",
+      "reason": "The final character wraps onto Column 3 Line 1 (ንኳን) to form the Amharic word እንኳን ('ያን ጊዜስ እንኳን በሱ በሌሎችም የለባቸውም'); the slightly faded glyph at the end of the line is እ, not ስ."
+    }
+  ]
+}

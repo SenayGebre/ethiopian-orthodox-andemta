@@ -1,0 +1,26 @@
+{
+  "pdf_page": 72,
+  "book_page_ethiopic": "፭፻፹፪",
+  "elapsed_sec": 16.2,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 26,
+      "old_text": "የሰውን ገንዘብ ያነሳ ነበርና",
+      "corrected_text": "የሰውን ገንዘብ ያነሣ ነበርና",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሳ -> ሣ",
+      "reason": "The printed glyph in ያነሣ is clearly ሣ (ንጉሥ ሠ in 4th order), matching the standard Andemta orthography on this page (cf. ያስነሣው in Col 1 L15)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 33,
+      "old_text": "ስቴቱ ።›⟫",
+      "corrected_text": "ስቴቱ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "።› -> ።",
+      "reason": "Removed stray › artifact after the Ge'ez full stop ።."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "pdf_page": 30,
+  "book_page_ethiopic": "፶፮ | ፶፯",
+  "elapsed_sec": 150.7,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 31,
+      "old_text": "⟪ወሕማሞሙሰ ፡ ከመ ፡ ሕማመ ፡ ዐቅራብ ፡ ሰበ ፡ ይነ",
+      "corrected_text": "⟪ወሕማሞሙሰ ፡ ከመ ፡ ሕማመ ፡ ዐቅራብ ፡ ሶበ ፡ ይነ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሰበ -> ሶበ",
+      "reason": "Classical Ge'ez temporal conjunction 'ሶበ' ('when it stings a man', Rev 9:5) is clearly printed with the 7th-order top ring on 'ሶ', which was misread as 1st-order 'ሰ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 13,
+      "old_text": "ይመስላሉ ፡ ለሰልፍ ፡ ተደርረው ፡ ያሉ ፡",
+      "corrected_text": "ይመስላሉ ፡ ለሰልፍ ፡ ተዳርረው ፡ ያሉ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ተደርረው -> ተዳርረው",
+      "reason": "The Amharic gerundive meaning 'lined up / arrayed (for battle)' (translating Ge'ez ዘድልዋን ለፀብዕ) is 'ተዳርረው' (from ተዳረረ), and the 4th-order 'ዳ' with its shortened right leg is visible in the print."
+    },
+    {
+      "column_index": 4,
+      "line_num": 33,
+      "old_text": "እንደዚያ ፡ የሚያቅበዘብዝ ፡ ነው ፡ (⟪ወበ",
+      "corrected_text": "እንደዚያ ፡ የሚያቅበዘብዝ ፡ ነው ፡ (⟪ወበ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወበ -> ወበ-",
+      "reason": "The Ge'ez word 'ወበውእቶን' splits mid-word at the end of line 33 onto line 34, so word_wraps_to_next_line must be true."
+    }
+  ]
+}

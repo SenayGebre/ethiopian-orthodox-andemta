@@ -1,0 +1,35 @@
+{
+  "pdf_page": 36,
+  "book_page_ethiopic": "፬፻፲፰",
+  "elapsed_sec": 15.7,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 8,
+      "old_text": "ይፈውሰው እንደሆነ ብለው",
+      "corrected_text": "ይፈውሰው እንደሁነ ብለው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሆ -> ሁ",
+      "reason": "The printed glyph in እንደሁነ is clearly the 2nd order ሁ (with the right-side horizontal stroke), preserving the authentic archaic Andemta form."
+    },
+    {
+      "column_index": 2,
+      "line_num": 26,
+      "old_text": "⟪ዘይደሉ ዘይክውን በሰንበት ።⟫",
+      "corrected_text": "⟪ዘይደሉ ዘይከውን በሰንበት ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ክ -> ከ",
+      "reason": "Both visually on the page and grammatically in Classical Ge'ez (imperfective of ኮነ), the verb is ዘይከውን with 1st-order ከ, not 6th-order ክ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 5,
+      "old_text": "እንደ ግራዪቱ ሆነች ።",
+      "corrected_text": "እንደ ግራዪቱ ሁነች ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሆ -> ሁ",
+      "reason": "The printed glyph is clearly 2nd-order ሁ (ሁነች) rather than 7th-order ሆ (ሆነች)."
+    }
+  ]
+}

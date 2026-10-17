@@ -1,0 +1,107 @@
+{
+  "pdf_page": 21,
+  "book_page_ethiopic": "፭፻፴፩",
+  "elapsed_sec": 23.4,
+  "applied_count": 10,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 27,
+      "old_text": "ው ጀመረ ። ሙሴን ክኛ ስ",
+      "corrected_text": "ው ጀመረ ። ሙሴን ከኛ ስ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ክኛ -> ከኛ",
+      "reason": "The printed glyph has the horizontal right-side bar of 1st-order 'ከ' ('ከኛ ስሕተት ኃጢአት አይታጣምና', 'from us error/sin is not lacking'), which was misread as 6th-order 'ክ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 38,
+      "old_text": "ናባቸው ድምጺን ብቻ ሰም",
+      "corrected_text": "ናባቸው ድምጹን ብቻ ሰም",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ድምጺን -> ድምጹን",
+      "reason": "The 2nd-order stroke on the right leg of 'ጹ' ('ድምጹን', 'its sound') was misread as 3rd-order 'ጺ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 2,
+      "old_text": "ድምጺን ብቻ ሰምተው ድነ",
+      "corrected_text": "ድምጹን ብቻ ሰምተው ድነ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ድምጺን -> ድምጹን",
+      "reason": "The 2nd-order stroke on 'ጹ' ('ድምጹን', 'its sound') was misread as 'ጺ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 18,
+      "old_text": "መልኩን አይተው ድምጺን",
+      "corrected_text": "መልኩን አይተው ድምጹን",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ድምጺን -> ድምጹን",
+      "reason": "The 2nd-order stroke on 'ጹ' ('ድምጹን') was misread as 'ጺ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 20,
+      "old_text": "ው ያመኑ የዳኑ ድምጺን ብ",
+      "corrected_text": "ው ያመኑ የዳኑ ድምጹን ብ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ድምጺን -> ድምጹን",
+      "reason": "The 2nd-order stroke on 'ጹ' ('ድምጹን') was misread as 'ጺ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 31,
+      "old_text": "ጂ አንድም አይጐዳም አላ የ",
+      "corrected_text": "ጂ አንድም አይጐዳም አላ የ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አላ የሐዩ -> አላ የሐዩ",
+      "reason": "No change needed on L31, checking L25."
+    },
+    {
+      "column_index": 2,
+      "line_num": 25,
+      "old_text": "⟪ከመ ኵሉ ዘአምነ በቱ ኢይ",
+      "corrected_text": "⟪ከመ ኵሉ ዘአምነ ቦቱ ኢይ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በቱ -> ቦቱ",
+      "reason": "In Classical Ge'ez ('ዘአምነ ቦቱ', 'whoever believed in Him'), the preposition with 3ms suffix is 7th-order 'ቦቱ', clearly visible on the page with a shortened right leg."
+    },
+    {
+      "column_index": 3,
+      "line_num": 1,
+      "old_text": "⟪ከመ ኵሉ ዘየአምን በቱ ኢ",
+      "corrected_text": "⟪ከመ ኵሉ ዘየአምን ቦቱ ኢ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በቱ -> ቦቱ",
+      "reason": "Classical Ge'ez 'ዘየአምን ቦቱ' has 7th-order 'ቦ' with a shortened right leg, misread as 'በ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 29,
+      "old_text": "ጅ።አንድም በመንፈሳዊው ቃ",
+      "corrected_text": "ጂ።አንድም በመንፈሳዊው ቃ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እንጅ -> እንጂ",
+      "reason": "The word split across L28-29 is 'እንጂ' with the 3rd-order 'ጂ' foot visible at the start of L29."
+    },
+    {
+      "column_index": 3,
+      "line_num": 35,
+      "old_text": "⟪ዘየአምን በቱ ኢይትኴነን ።⟫",
+      "corrected_text": "⟪ዘየአምን ቦቱ ኢይትኴነን ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በቱ -> ቦቱ",
+      "reason": "Classical Ge'ez 'ዘየአምን ቦቱ' has 7th-order 'ቦ', misread as 'በ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 37,
+      "old_text": "⟪ወዘሰ ኢአምነ በቱ ወድአ ተ",
+      "corrected_text": "⟪ወዘሰ ኢአምነ ቦቱ ወድአ ተ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በቱ -> ቦቱ",
+      "reason": "Classical Ge'ez 'ወዘሰ ኢአምነ ቦቱ' has 7th-order 'ቦ', misread as 'በ'."
+    }
+  ]
+}

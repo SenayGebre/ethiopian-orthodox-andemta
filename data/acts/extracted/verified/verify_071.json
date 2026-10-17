@@ -1,0 +1,26 @@
+{
+  "pdf_page": 71,
+  "book_page_ethiopic": "፻፵፩ | ፻፵፪",
+  "elapsed_sec": 10.0,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 1,
+      "old_text": "ምዕራፍ ፡ ፳፩ ፤ ክፍል ፡ ፵፩ ።",
+      "corrected_text": "ምዕራፍ ፡ ፳፩ ፤ ክፍል ፡ ፶፩ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፵፩ -> ፶፩",
+      "reason": "The section number printed on the page is ፶፩ (51), not ፵፩ (41). Visually the top loop of ፶ is clear, and the next section on the following page is ክፍል ፡ ፶፪ (52)."
+    },
+    {
+      "column_index": 4,
+      "line_num": 20,
+      "old_text": "ዘእሴፎ ።⟫",
+      "corrected_text": "ዘእሴፉ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዘእሴፎ -> ዘእሴፉ",
+      "reason": "In Classical Ge'ez (Acts 21:13), the 1st person singular imperfective of ተሰፈወ (or ሰፈወ) with relative prefix is ዘእሴፉ ('which I expect/hope for'), and the printed glyph has the 2nd-order (ካዕብ) right-side stroke of ፉ rather than ፎ."
+    }
+  ]
+}

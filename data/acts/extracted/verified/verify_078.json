@@ -1,0 +1,26 @@
+{
+  "pdf_page": 78,
+  "book_page_ethiopic": "፻፶፭ | ፻፶፮",
+  "elapsed_sec": 19.8,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 17,
+      "old_text": "ጠርጠሉስ ፡ የሚባል ፡ ጭብጥ ፡ ያሻ፫ ፡",
+      "corrected_text": "ጠርጠሉስ ፡ የሚባል ፡ ጭብጥ ፡ ያዥ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ያሻ፫ -> ያዥ",
+      "reason": "The agent noun 'ያዥ' (in the legal idiom 'ጭብጥ ያዥ ውርድ ነዥ' glossing 'ዐቃቤ ነቢብ' / orator-advocate) was misread by OCR as 'ያሻ፫' due to the shape of the Fidel 'ዥ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 18,
+      "old_text": "ውርድ ፡ ነሻ፫ ፡ አንድ ፡ ሰው ፡ ነበር ፡",
+      "corrected_text": "ውርድ ፡ ነዥ ፡ አንድ ፡ ሰው ፡ ነበር ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ነሻ፫ -> ነዥ",
+      "reason": "The agent noun 'ነዥ' (in 'ጭብጥ ያዥ ውርድ ነዥ') was misread by OCR as 'ነሻ፫' due to the shape of the Fidel 'ዥ'."
+    }
+  ]
+}

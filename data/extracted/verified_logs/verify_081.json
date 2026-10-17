@@ -1,0 +1,44 @@
+{
+  "pdf_page": 81,
+  "book_page_ethiopic": "፪፻",
+  "elapsed_sec": 23.7,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 23,
+      "old_text": "⟪ወኢይሪቀ ውስተ ቅናውቲ↵",
+      "corrected_text": "⟪ወኢይረቀ ውስተ ቅናውቲ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሪ -> ረ",
+      "reason": "Canonical Ge'ez Matthew 10:9 is 'ወኢይረቀ' (1st order ረ, accusation of ይረቅ 'copper/brass'), and the printed glyph has a plain base without a 3rd-order ሪ serif."
+    },
+    {
+      "column_index": 1,
+      "line_num": 37,
+      "old_text": "ሽጠን ባንመገብ፤አንድምን በ↵",
+      "corrected_text": "ሽጠን ባንመገብ፤እንደምን በ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አንድምን -> እንደምን",
+      "reason": "The printed text reads 'እንደምን በሆነ ነበር' ('how would it have been?'), parallel to Col 2 L06 ('እንደምን ባለፍነው ነበር') and L15 ('እንደምን ባደረገን ነበር')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 4,
+      "old_text": "አንድም ከንዱ ወዳንዱ ሲሉ",
+      "corrected_text": "አንድም ካንዱ ወዳንዱ ሲሉ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ከ -> ካ",
+      "reason": "The printed glyph has the shortened right leg of 4th-order 'ካ' ('ካንዱ ወዳንዱ' = 'from one to another')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 35,
+      "old_text": "ተለንም ለማለት።እኛ ደከመ↵",
+      "corrected_text": "ተለንም ለማለት።እኛ ደከም↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "መ -> ም",
+      "reason": "The final character on the line is 6th-order 'ም', forming the 1st person plural verb 'እኛ ደከምንላችሁ' ('we labored for you')."
+    }
+  ]
+}

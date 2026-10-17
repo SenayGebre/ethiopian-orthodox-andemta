@@ -1,0 +1,62 @@
+{
+  "pdf_page": 3,
+  "book_page_ethiopic": "፫፻፲፯ | ፫፻፲፰",
+  "elapsed_sec": 33.6,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 6,
+      "old_text": "ነው) ፡ ከሚሆን ፡ ከአብ ፡ ዘንድ ፡ ተሠር",
+      "corrected_text": "ነው) ፡ ከሚሆን ፡ ከአብ ፡ ዘንድ ፡ ተወር",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ተሠር -> ተወር",
+      "reason": "The printed glyph in the last word is clearly 'ወ' (ተወርታለች, glossing ትወርድ), not 'ሠ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 17,
+      "old_text": "ለፍጥረቱ ፡ ገዢች ፡ እንሆን ፡ ዘን",
+      "corrected_text": "ለፍጥረቱ ፡ ገዦች ፡ እንሆን ፡ ዘን",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ገዢች -> ገዦች",
+      "reason": "The plural of ገዢ in the printed text is ገዦች with 7th-order 'ዦ', misread as 'ዢ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 29,
+      "old_text": "አንዱን ፡ አለ ። የመምህሩን ፡ ቁጣ፡ ደቀ ፡",
+      "corrected_text": "አንዱን ፡ አለ ። የመምህሩ ፡ ቁጣ፡ ደቀ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "የመምህሩን -> የመምህሩ",
+      "reason": "Both visually on the page and grammatically (genitive modifier of the subject ቁጣ), there is no accusative '-ን' on የመምህሩ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 30,
+      "old_text": "መዝሙርቱን ፡ የደቀ ፡ መዛሙርቱ ፡ ቁጣ ፡",
+      "corrected_text": "መዛሙርቱን ፡ የደቀ ፡ መዛሙርቱ ፡ ቁጣ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "መዝሙርቱን -> መዛሙርቱን",
+      "reason": "The second character is 4th-order 'ዛ' (መዛሙርቱን, 'the disciples'), matching the second occurrence on the same line."
+    },
+    {
+      "column_index": 3,
+      "line_num": 31,
+      "old_text": "መምህሩኑን ፡ እግዚአብሔር ፡ የሚወደ",
+      "corrected_text": "መምህሩን ፡ እግዚአብሔር ፡ የሚወደ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "መምህሩኑን -> መምህሩን",
+      "reason": "The printed word has five letters (መምህሩን, 'the teacher [acc.]'), without an extra 'ኑ'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 17,
+      "old_text": "ይዘሀን ፡ በል ፡ እኮን ፡ ከባትህ ፡ ተመ",
+      "corrected_text": "ይዘሃን ፡ በል ፡ እኮን ፡ ከባትህ ፡ ተመ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ይዘሀን -> ይዘሃን",
+      "reason": "The third character is 4th-order 'ሃ' (ይዘሃን = ይዘኸዋልን) with a shorter left leg, misread as 1st-order 'ሀ'."
+    }
+  ]
+}

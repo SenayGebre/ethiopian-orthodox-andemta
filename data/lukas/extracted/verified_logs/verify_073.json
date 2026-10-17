@@ -1,0 +1,35 @@
+{
+  "pdf_page": 73,
+  "book_page_ethiopic": "፬፻፶፭",
+  "elapsed_sec": 35.8,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 15,
+      "old_text": "ሠሯዋ ልትፈታ አይገባምን",
+      "corrected_text": "ሠሪያዋ ልትፈታ አይገባምን",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሯ -> ሪያ",
+      "reason": "Joining with L14 'ማ-', the printed word has four glyphs 'ሠሪያዋ' (forming 'ማሠሪያዋ', translating Ge'ez 'ማዕሠራ' = her bond); 'ሪ' and 'ያ' were visually merged into 'ሯ' in Stage 1."
+    },
+    {
+      "column_index": 3,
+      "line_num": 6,
+      "old_text": "ነሥአ ብእሲ ወዘርእ ውስተ",
+      "corrected_text": "ነሥአ ብእሲ ወዘርአ ውስተ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወዘርእ -> ወዘርአ",
+      "reason": "Canonical Ge'ez perfect verb with object suffix 'ወዘርአ' (and he sowed it, translated by Amharic 'የዘራትን'); the 4th-order 'አ' is printed on the page."
+    },
+    {
+      "column_index": 3,
+      "line_num": 12,
+      "old_text": "ታላቅ ዛፍ ሆነች ።",
+      "corrected_text": "ታላቅ ዛፍ ሁነች ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሆነች -> ሁነች",
+      "reason": "The printed glyph clearly shows 2nd-order 'ሁ' with the right-side vowel stroke ('ሁነች'), preserving the authentic archaic Andemta spelling."
+    }
+  ]
+}

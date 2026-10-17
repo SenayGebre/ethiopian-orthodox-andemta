@@ -1,0 +1,44 @@
+{
+  "pdf_page": 37,
+  "book_page_ethiopic": "፭፻፵፯",
+  "elapsed_sec": 20.9,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 23,
+      "old_text": "ትሹ እንደናንተ ካለ ዕሩቅ",
+      "corrected_text": "ትሹ እንደናንተ ካለ ከዕሩቅ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዕሩቅ -> ከዕሩቅ",
+      "reason": "The preposition ከ before ዕሩቅ ('ከዕሩቅ ብእሲ') is clearly printed on the page and required by the parallel Amharic construction ('ከእግዚአብሔር ... እንደናንተ ካለ ከዕሩቅ ብእሲ')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 23,
+      "old_text": "፲፬ ፲፫ ማር ፮ ፴ ሉቃ ፱ ዘ ፲",
+      "corrected_text": "፲፬ ፲፫ ማር ፮ ፴ ሉቃ ፱ ፡ ፲",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዘ -> ፡",
+      "reason": "In the marginal Gospel cross-reference 'ሉቃ ፱ ፡ ፲' (Luke 9:10), the word-separator colon (፡) between chapter 9 and verse 10 has vertical ink bleed that was misread as ዘ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 25,
+      "old_text": "ዚሀ በኋላ ጌታችን በገሊላ ባ",
+      "corrected_text": "ዚህ በኋላ ጌታችን በገሊላ ባ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሀ -> ህ",
+      "reason": "Joined with ከ- at the end of line 24, the word is ከዚህ ('ከዚህ በኋላ'); the 6th-order ህ was misread as 1st-order ሀ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 28,
+      "old_text": "ወደሚሆን ወደጥብርያዶስ ሂደ",
+      "corrected_text": "ወደሚሆን ወደጥብርያዶስ ሄደ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሂደ -> ሄደ",
+      "reason": "The verb is ሄደ (5th-order ሄ, matching line 26 right above it), where the right-leg ring of ሄ was misread as ሂ."
+    }
+  ]
+}

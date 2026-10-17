@@ -1,0 +1,62 @@
+{
+  "pdf_page": 28,
+  "book_page_ethiopic": "፻፵፯",
+  "elapsed_sec": 11.6,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "ከ እንደ አለው ከዚሀም በግ↵",
+      "corrected_text": "ከ እንደ አለው ከዚህም በግ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሀ -> ህ",
+      "reason": "Amharic demonstrative ከዚህም ('and here') uses 6th-order ህ, not 1st-order ሀ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 34,
+      "old_text": "አልህንሡር እንዲል በዓረብ",
+      "corrected_text": "አልመንሡር እንዲል በዓረብ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ህ -> መ",
+      "reason": "The printed glyph after አል is መ (አልመንሡር), an Arabic loan/gloss in the Andemta."
+    },
+    {
+      "column_index": 1,
+      "line_num": 37,
+      "old_text": "ልጁ አጽቃያዊ ጽጌያዊ ይባል",
+      "corrected_text": "ልጁ አጽቃዊ ጽጌያዊ ይባል",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አጽቃያዊ -> አጽቃዊ",
+      "reason": "The image clearly shows three characters አጽቃዊ (without ያ)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 39,
+      "old_text": "እንደ ጉንድ ኖሁ ምዕመናንን",
+      "corrected_text": "እንደ ጉንድ ሁኖ ምዕመናንን",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኖሁ -> ሁኖ",
+      "reason": "Archaic Amharic gerundive ሁኖ ('being like a trunk') is printed in the image, not ኖሁ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 24,
+      "old_text": "⟪ወይብል ጺሑአ ፍኖቶ ለእግ↵",
+      "corrected_text": "⟪ወይብል ጺሑ ፍኖቶ ለእግ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጺሑአ -> ጺሑ",
+      "reason": "Canonical Matthew 3:3 Ge'ez imperative plural is ጺሑ ('prepare/clear ye'); the image has ጺሑ followed by space, with no አ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 32,
+      "old_text": "መልቶ ሥሩ ተነቅሎ ድንጋጊው",
+      "corrected_text": "መልቶ ሥሩ ተነቅሎ ደንጊያው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ድንጋጊው -> ደንጊያው",
+      "reason": "Traditional Andemta form ደንጊያው ('the stone') is clearly printed in the image."
+    }
+  ]
+}

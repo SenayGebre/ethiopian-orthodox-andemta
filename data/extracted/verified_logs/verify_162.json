@@ -1,0 +1,26 @@
+{
+  "pdf_page": 162,
+  "book_page_ethiopic": "፪፻፹፩",
+  "elapsed_sec": 14.7,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 11,
+      "old_text": "ላባ ጳኩሚስ እንዳታየው፡ሲ↵",
+      "corrected_text": "ላባ ጳኩሚስ እንደታየው፡ሲ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዳ -> ደ",
+      "reason": "Visual and grammatical check: the printed glyph has the symmetrical legs of 1st-order ደ ('እንደታየው' - 'as it appeared to Abba Pachomius'), not 4th-order ዳ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 22,
+      "old_text": "ረ ሕማሞን ብለህ መልስ።በ↵",
+      "corrected_text": "ረ ሕማሞሙ ብለህ መልስ።በ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ን -> ሙ",
+      "reason": "Canonical Ge'ez citation of Matthew 24:29 ('ወእምድኅረ ሕማሞሙ ለእማንቱ መዋዕል') and visual verification: the glyph after ሞ is clearly 2nd-order ሙ ('ሕማሞሙ'), not ን."
+    }
+  ]
+}

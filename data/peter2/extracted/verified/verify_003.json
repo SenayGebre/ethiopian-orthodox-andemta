@@ -1,0 +1,44 @@
+{
+  "pdf_page": 3,
+  "book_page_ethiopic": "፪፻፶፭ | ፪፻፶፮",
+  "elapsed_sec": 21.8,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 2,
+      "old_text": "በንጽሕናም ፡ ላይ ፡ ትእዕሥትን ፡ ያዙ ፡",
+      "corrected_text": "በንጽሕናም ፡ ላይ ፡ ትእግሥትን ፡ ያዙ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዕ -> ግ",
+      "reason": "The printed glyph in ትእግሥትን is ግ (with a slightly faded left leg), which Stage 1 misread as ዕ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 28,
+      "old_text": "(ጥቅ) ፡ እስመ ፡ እሙንቱ ፡ መለኮዋ ፡ በር",
+      "corrected_text": "(ጥቅ) ፡ እስመ ፡ እሙንቱ ፡ መለክዋ ፡ በር",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኮ -> ክ",
+      "reason": "Classical Ge'ez patristic citation 'እስመ እሙንቱ መለክዋ በርስት መለኮታዊት' (3rd pl. Masc. Perfect of መለከ with 3rd sg. Fem. Object suffix -ዋ: መለክዋ). The 6th-order ክ was misread as ኮ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 3,
+      "old_text": "ሐዊ ፡ ባሕታዊ ፡ ነው ፡ ፩ ፡ እሆ ፡ በሀሊ ፡",
+      "corrected_text": "ሐዊ ፡ ባሕታዊ ፡ ነው ፡ ፩ ፡ እወ ፡ በሀሊ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሆ -> ወ",
+      "reason": "The standard Ge'ez compound for an obedient disciple is 'እወ በሀሊ' (one who says 'yes'). The printed glyph is clearly ወ, misread as ሆ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 14,
+      "old_text": "ይነቅል ፡ ገቦመር ፤ ያ ፡ ዝጉሐዊ ፡ ባሕታ",
+      "corrected_text": "ይነቅል ፡ ዠመር ፤ ያ ፡ ዝጉሐዊ ፡ ባሕታ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ገቦ -> ዠ",
+      "reason": "The printed word is ዠመር ('ይነቅል ዠመር' - he began to uproot/pluck). Stage 1 split the two-legged ዠ into ገቦ."
+    }
+  ]
+}

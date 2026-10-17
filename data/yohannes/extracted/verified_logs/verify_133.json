@@ -1,0 +1,26 @@
+{
+  "pdf_page": 133,
+  "book_page_ethiopic": "፮፻፵፪",
+  "elapsed_sec": 19.5,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 23,
+      "old_text": "አስረኛው ሰንጠረዠ አራቱ ወንጌላውያን ማቴዎስና ማርቆስ ሉቃስና ዮሐንስ የተለያዩበት ።",
+      "corrected_text": "አስረኛው ሰንጠረዥ አራቱ ወንጌላውያን ማቴዎስና ማርቆስ ሉቃስና ዮሐንስ የተለያዩበት ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዠ -> ዥ",
+      "reason": "The 6th order Fidel ዥ in ሰንጠረዥ was misread as 1st order ዠ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 5,
+      "old_text": "ሰራኅነ ኩላ ሌሊተ ።",
+      "corrected_text": "ሰራኅነ ኵላ ሌሊተ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኩ -> ኵ",
+      "reason": "The labiovelar Fidel ኵ in ኵላ (all night) was misread as ኩ."
+    }
+  ]
+}

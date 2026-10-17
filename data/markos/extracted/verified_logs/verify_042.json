@@ -1,0 +1,44 @@
+{
+  "pdf_page": 42,
+  "book_page_ethiopic": "፫፻፷፩",
+  "elapsed_sec": 16.7,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 21,
+      "old_text": "ከነዚሀ ትእዛዛት የሚበልጥ",
+      "corrected_text": "ከነዚህ ትእዛዛት የሚበልጥ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሀ -> ህ",
+      "reason": "The printed glyph at the end of ከነዚህ is the 6th-order ህ (with the left-indented stem), forming the standard Amharic demonstrative ከነዚህ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 13,
+      "old_text": "ጌታም ብልሀ እንደሆነ አይቶ",
+      "corrected_text": "ጌታም ብልህ እንደሆነ አይቶ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሀ -> ህ",
+      "reason": "The word translating Ge'ez ጠቢብ is Amharic ብልህ ('wise/clever') with 6th-order ህ, which is clearly visible in the column image."
+    },
+    {
+      "column_index": 3,
+      "line_num": 13,
+      "old_text": "⟪ዑቁ ወተገኃሠ እምጸሐፍት",
+      "corrected_text": "⟪ዑቁ ወተገኃሡ እምጸሐፍት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሠ -> ሡ",
+      "reason": "In Mark 12:38, the Ge'ez plural imperative matching ዑቁ ('beware') and the Amharic gloss ተለዩም ('and separate yourselves') is ወተገኃሡ (2nd-order ሡ), with the right-side vowel stroke visible on the glyph."
+    },
+    {
+      "column_index": 3,
+      "line_num": 31,
+      "old_text": "የድኃችን ቤት የሚበሉባቸው",
+      "corrected_text": "የድኆችን ቤት የሚበሉባቸው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኃ -> ኆ",
+      "reason": "The plural of ድኃ is ድኆች ('the poor/widows'), and the 7th-order ring of ኆ in የድኆችን is clearly printed in the image."
+    }
+  ]
+}

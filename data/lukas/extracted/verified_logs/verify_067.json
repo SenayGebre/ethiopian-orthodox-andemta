@@ -1,0 +1,17 @@
+{
+  "pdf_page": 67,
+  "book_page_ethiopic": "፬፻፵፱",
+  "elapsed_sec": 18.3,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 4,
+      "old_text": "ይህን በተናገረ ጊዜ ኀrc ያ",
+      "corrected_text": "ይህን በተናገረ ጊዜ ጆሮ ያ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኀrc -> ጆሮ",
+      "reason": "Stage 1 misread the Amharic word 'ጆሮ' (ear, translating Ge'ez 'እዕዛን' from L02) as Latin characters 'ኀrc'."
+    }
+  ]
+}

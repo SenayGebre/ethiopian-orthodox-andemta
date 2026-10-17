@@ -1,0 +1,53 @@
+{
+  "pdf_page": 26,
+  "book_page_ethiopic": "፭፻፴፮",
+  "elapsed_sec": 24.2,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 5,
+      "old_text": "ዋቸው አንታቸውን ይዘው ወ",
+      "corrected_text": "ዋቸው እኅታቸውን ይዘው ወ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አን -> እኅ",
+      "reason": "Simeon and Levi took their sister (እኅታቸውን, Dinah) after slaying the men of Shechem; visually the glyphs are እኅታቸውን."
+    },
+    {
+      "column_index": 1,
+      "line_num": 11,
+      "old_text": "በኁልቈየ ጻዕሙ አትቀጠቀጥ",
+      "corrected_text": "በኁልቈየ ዳዕሙ እትቀጠቀጥ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጻ -> ዳ, አ -> እ",
+      "reason": "In the Ge'ez citation of Genesis 34:30, the particle is ዳዕሙ ('rather/moreover') and the 1st-person singular verb matching አነ is እትቀጠቀጥ ('I shall be crushed')."
+    },
+    {
+      "column_index": 1,
+      "line_num": 12,
+      "old_text": "አነ ወቤትየ ብሏል ፤ እንዲህ ሲ",
+      "corrected_text": "አነ ወቤትየ ብሏል ፤ እንዲህ ስ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሲ -> ስ",
+      "reason": "Joined with ላለ on the next line, the word is ስላለ ('because he said thus'), with 6th-order ስ clearly printed at the end of line 12."
+    },
+    {
+      "column_index": 2,
+      "line_num": 23,
+      "old_text": "ህ አለችው ። አንድም ⟪አፎኑ ት",
+      "corrected_text": "ህ አለችው ። አንድም ⟪እፎኑ ት",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አፎኑ -> እፎኑ",
+      "reason": "The Ge'ez interrogative adverb repeated from line 16-17 is እፎኑ ('how is it?')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 34,
+      "old_text": "የነቀፈብኝ መስሏት በዚያውስ",
+      "corrected_text": "የነቀፈባት መስሏት በዚያውስ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ብኝ -> ባት",
+      "reason": "Both visually on the page and grammatically with the 3rd-person feminine suffix in መስሏት, the printed word is የነቀፈባት ('thinking that He disparaged it to her')."
+    }
+  ]
+}

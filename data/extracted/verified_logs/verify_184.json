@@ -1,0 +1,44 @@
+{
+  "pdf_page": 184,
+  "book_page_ethiopic": "፫፻፫",
+  "elapsed_sec": 64.6,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 17,
+      "old_text": "ሕዝብ ጌጥዎሙ ለሕዝብ ወአ↵",
+      "corrected_text": "ሕዝብ ኄጥዎሙ ለሕዝብ ወአ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጌ -> ኄ",
+      "reason": "The canonical Ge'ez verb in Matthew 27:20 is 'ኄጥዎሙ' (from ኄጠ, to persuade/beguile), and the printed glyph clearly shows 'ኄ' rather than 'ጌ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 25,
+      "old_text": "ዘንድ ሕዝቡን አባበሏቸው እሸ",
+      "corrected_text": "ዘንድ ሕዝቡን አባበሏቸው እሽ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እሸ -> እሽ",
+      "reason": "The Amharic idiom is 'እሽ በጂ አሰኟቸው' (6th order 'ሽ'), which matches the printed glyph."
+    },
+    {
+      "column_index": 1,
+      "line_num": 39,
+      "old_text": "ን አደርገዋለሁ ። አንድም እረ↵",
+      "corrected_text": "ን አደርገዋለሁ ። አንድም እር↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እረ -> እር",
+      "reason": "The alternative Ge'ez reading 'እርስዮ' (subjunctive, translated as 'ምን ላድርገው') is printed with 6th-order 'ር', contrasting with indicative 'እሬስዮ' ('ምን አደርገዋለሁ')."
+    },
+    {
+      "column_index": 2,
+      "line_num": 7,
+      "old_text": "⟪ወአፈድፈዱ ጸሪሃ እንዘ ይብሉ",
+      "corrected_text": "⟪ወአፈድፈዱ ጸሪኀ እንዘ ይብሉ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጸሪሃ -> ጸሪኀ",
+      "reason": "The Ge'ez verbal noun from 'ጸርኀ' (to cry out) is 'ጸሪኀ' with 'ኀ', which is clearly visible in the print."
+    }
+  ]
+}

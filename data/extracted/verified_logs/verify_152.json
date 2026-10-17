@@ -1,0 +1,53 @@
+{
+  "pdf_page": 152,
+  "book_page_ethiopic": "፪፻፸፩",
+  "elapsed_sec": 18.0,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 4,
+      "old_text": "አላልም ። በነፍስ ሕያዋን ናቸ↵",
+      "corrected_text": "አላለም ። በነፍስ ሕያዋን ናቸ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ል -> ለ",
+      "reason": "3rd person masculine singular verb 'አላለም' (He did not say), where 1st-order 'ለ' was misread as 6th-order 'ል'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 16,
+      "old_text": "ላስ መሳሳብ ያለም ዓለሙም",
+      "corrected_text": "ላስ መሳሳብ የለም ዓለሙም",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ያ -> የ",
+      "reason": "Amharic negative existential verb 'የለም' (ኋላስ መሳሳብ የለም — 'hereafter there is no conflict/pulling'), where 'የ' was misread as 'ያ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 6,
+      "old_text": "[፴፭] ⟪ወተስእሎ ፩ ጸሓፊ እምኔሆሙ⟫",
+      "corrected_text": "[፴፭] ⟪ወተስእሎ ፩ ጸሐፊ እምኔሆሙ⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሓ -> ሐ",
+      "reason": "Canonical Ge'ez noun 'ጸሐፊ' with 1st-order 'ሐ' as printed in the text."
+    },
+    {
+      "column_index": 3,
+      "line_num": 7,
+      "old_text": "[፴፭] ከሳቸው ወገን አንድ ጸሓፊ",
+      "corrected_text": "[፴፭] ከሳቸው ወገን አንድ ጸሐፊ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሓ -> ሐ",
+      "reason": "Standard spelling 'ጸሐፊ' with 1st-order 'ሐ' matching the printed glyph."
+    },
+    {
+      "column_index": 3,
+      "line_num": 33,
+      "old_text": "[፴፱] ⟪ወካልዕታኒ እንተ ትመስላ አ⟫↵",
+      "corrected_text": "[፴፱] ⟪ወካልእታኒ እንተ ትመስላ አ⟫↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዕ -> እ",
+      "reason": "Canonical Ge'ez feminine ordinal 'ወካልእታኒ' (from root ካልእ) clearly printed with 'እ' rather than 'ዕ'."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "pdf_page": 61,
+  "book_page_ethiopic": "፭፻፸፩",
+  "elapsed_sec": 45.2,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "ክየትም እንደመጣ ለማጠየቅ",
+      "corrected_text": "ከየትም እንደመጣ ለማጠየቅ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ክ -> ከ",
+      "reason": "The first-order Fidel 'ከ' in 'ከየትም' ('from where') was misread as sixth-order 'ክ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 2,
+      "old_text": "ኔር ኖላዊ አይደለም ብለው",
+      "corrected_text": "ኄር ኖላዊ አይደለም ብለው",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኔ -> ኄ",
+      "reason": "The Ge'ez word 'ኄር' ('good' in 'ኄር ኖላዊ' / 'Good Shepherd', matching line 3) had its initial 'ኄ' misread as 'ኔ' due to faded top strokes."
+    },
+    {
+      "column_index": 1,
+      "line_num": 17,
+      "old_text": "በጎችንም በየስማቸው ታ. ጠራቸ",
+      "corrected_text": "በጎችንም በየስማቸው ይጠራቸ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ታ.  -> ይ",
+      "reason": "The prefix 'ይ' of 'ይጠራቸዋል' ('he calls them') was split and misread as 'ታ. ' due to uneven ink on the loop of 'ይ'."
+    }
+  ]
+}

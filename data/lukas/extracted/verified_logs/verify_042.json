@@ -1,0 +1,35 @@
+{
+  "pdf_page": 42,
+  "book_page_ethiopic": "፬፻፳፬",
+  "elapsed_sec": 10.3,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 13,
+      "old_text": "የደነቈሩም ይሰማሉ ּ",
+      "corrected_text": "የደነቈሩም ይሰማሉ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ּ -> ፡",
+      "reason": "Replaced stray non-Ethiopic dagesh dot character with standard Ethiopic wordspace/colon punctuation (፡) visible on the page."
+    },
+    {
+      "column_index": 2,
+      "line_num": 21,
+      "old_text": "ማቴ ፲፩ ፪ ማር ፩ ፪ ።",
+      "corrected_text": "ማቴ ፲፩ ፲ ማር ፩ ፪ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፪ -> ፲",
+      "reason": "The cross-reference for Malachi 3:1 in Matthew is Matthew 11:10 (ማቴ ፲፩ ፲), and visually the numeral after ፲፩ is a single-stroke ፲ (10) rather than ፪ (2)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 38,
+      "old_text": "⟪ወትቤልዎ ጋኔን ቦቱ ፡⟫",
+      "corrected_text": "⟪ወትብልዎ ጋኔን ቦቱ ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቤ -> ብ",
+      "reason": "In Luke 7:33, the Ge'ez imperfect 2nd person plural is ወትብልዎ ('and you say of him', from ይብል), printed with 6th-order ብ (ወትብልዎ) rather than 5th-order ቤ."
+    }
+  ]
+}

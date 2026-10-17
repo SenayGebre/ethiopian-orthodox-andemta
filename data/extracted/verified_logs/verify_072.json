@@ -1,0 +1,89 @@
+{
+  "pdf_page": 72,
+  "book_page_ethiopic": "፻፺፩",
+  "elapsed_sec": 16.0,
+  "applied_count": 8,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "በከመ ዓኅድእ ለባሕር",
+      "corrected_text": "በከመ አኅድአ ለባሕር",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዓኅድእ -> አኅድአ",
+      "reason": "Classical Ge'ez causative verb አኅድአ (he calmed the sea); printed text shows አኅድአ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 2,
+      "old_text": "[፳፫] ⟪ወዓሪጎ ውስተ ሐመር ተለው↵",
+      "corrected_text": "[፳፫] ⟪ወዓሪጎ ውስተ ሐመር ተለዉ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ው -> ዉ",
+      "reason": "Ge'ez plural verb ተለዉዎ is spelled with 2nd order ዉ before ዎ in the print."
+    },
+    {
+      "column_index": 1,
+      "line_num": 24,
+      "old_text": "ሙ እሕፁፃነ ሃይማኖት ።⟫",
+      "corrected_text": "ሙ ኦሕፁፃነ ሃይማኖት ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እ -> ኦ",
+      "reason": "Ge'ez vocative particle ኦ (O ye of little faith - ኦሕፁፃነ ሃይማኖት) has the 7th order loop on the left."
+    },
+    {
+      "column_index": 2,
+      "line_num": 15,
+      "old_text": "ው ወንጌልን አስተዋቸዋልሁ",
+      "corrected_text": "ው ወንጌልን አስተዋቸዋለሁ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ል -> ለ",
+      "reason": "Amharic first-person singular imperfective verb አስተዋቸዋለሁ (1st order ለ, not 6th order ል)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 20,
+      "old_text": "ኑት ። ⟪ምንት ያፈርሃክሙ እኅ↵",
+      "corrected_text": "ኑት ። ⟪ምንት ያፈርሃክሙ ኦሕ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እኅ -> ኦሕ",
+      "reason": "Ge'ez vocative ኦሕፁፃነ ሃይማኖት; printed glyphs at end of line are ኦሕ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 38,
+      "old_text": "ያበዛላችኋል እንጅ ምን ያደር↵",
+      "corrected_text": "ይበዛላችኋል እንጅ ምን ያደር↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ያ -> ይ",
+      "reason": "Printed glyph is 6th order ይ (ይበዛላችኋል, matching line 22)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 9,
+      "old_text": "ጺፆሙ እመቃብራት ።⟫ ማር ፭ ፩",
+      "corrected_text": "ጺኦሙ እመቃብራት ።⟫ ማር ፭ ፩",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፆ -> ኦ",
+      "reason": "Ge'ez gerundive ወጺኦሙ (having come out, root ወፅአ) uses 7th order ኦ, not ፆ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 14,
+      "old_text": "በሉት ። ባንዱ ሽህ ባንዱ ሽህ",
+      "corrected_text": "በሉት ። ባንዱ ሽህ ባንዱ ሽህ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሽ -> ሺ",
+      "reason": "Wait—actually ሽህ is clearly printed with 6th order ሽ (or ሺህ); keeping ሽህ as printed, let's omit this."
+    },
+    {
+      "column_index": 3,
+      "line_num": 34,
+      "old_text": "ል ። ⟪ወወጺፆሙ እመቃብራት⟫",
+      "corrected_text": "ል ። ⟪ወወጺኦሙ እመቃብራት⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፆ -> ኦ",
+      "reason": "Ge'ez gerundive ወወጺኦሙ (having come out) with 7th order ኦ."
+    }
+  ]
+}

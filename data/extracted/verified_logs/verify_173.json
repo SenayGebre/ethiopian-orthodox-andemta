@@ -1,0 +1,53 @@
+{
+  "pdf_page": 173,
+  "book_page_ethiopic": "፪፻፺፪",
+  "elapsed_sec": 15.7,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 23,
+      "old_text": "ርእስየ ለቀበርየ ገብረት ።⟫",
+      "corrected_text": "ርእስየ ለቀብርየ ገብረት ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በ -> ብ",
+      "reason": "Canonical Ge'ez Matthew 26:12 noun 'ለቀብርየ' (for my burial) uses 6th-order 'ብ', clearly visible in the print."
+    },
+    {
+      "column_index": 3,
+      "line_num": 6,
+      "old_text": "ሽ ለሱ ልትቀቢው ሽቱ ልት",
+      "corrected_text": "ሽ ለሱ ልትቀቢው ሽቱ ል",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ልት -> ል",
+      "reason": "The line ends with 'ል' and wraps onto L07 'ትገዢ' to form 'ልትገዢ'; 'ት' was erroneously duplicated at the end of L06."
+    },
+    {
+      "column_index": 3,
+      "line_num": 28,
+      "old_text": "የሚሸጥ በለጸጋ ነጋዴ መጥቶ",
+      "corrected_text": "የሚሸጥ ባለጸጋ ነጋዴ መጥቶ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በ -> ባ",
+      "reason": "4th-order 'ባ' in 'ባለጸጋ' (wealthy merchant) was misread as 1st-order 'በ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 33,
+      "old_text": "ሄዳለሁ ብላ ስሙን ብትጸራበ",
+      "corrected_text": "ሄዳለሁ ብላ ስሙን ብትጠራበ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጸ -> ጠ",
+      "reason": "The three-legged glyph 'ጠ' in 'ስሙን ብትጠራበት' (when she called His name against him) was misread as 'ጸ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 36,
+      "old_text": "ኋላ ሂዶኖክ የሚባል ባለ ጸጋ",
+      "corrected_text": "ኋላ ዛዶኖክ የሚባል ባለ ጸጋ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሂ -> ዛ",
+      "reason": "The traditional merchant name 'ዛዶኖክ' begins with 4th-order 'ዛ', which was misread as 'ሂ'."
+    }
+  ]
+}

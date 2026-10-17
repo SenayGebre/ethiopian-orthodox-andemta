@@ -1,0 +1,26 @@
+{
+  "pdf_page": 41,
+  "book_page_ethiopic": "፫፻፷",
+  "elapsed_sec": 12.7,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 18,
+      "old_text": "ሲቱ ።⟫ ዘፀ ፳፭ ፭ ።",
+      "corrected_text": "ሲቱ ።⟫ ዘዳ ፳፭ ፭ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዘፀ -> ዘዳ",
+      "reason": "The cross-reference for levirate marriage is Deuteronomy 25:5 (ዘዳግም ፳፭ ፥ ፭), and the printed glyph clearly shows ዳ (ዘዳ), not ፀ (ዘፀ)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 31,
+      "old_text": "⟪ወአውሰባ ካልዑኒ ።⟫",
+      "corrected_text": "⟪ወአውሰባ ካልኡኒ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዑ -> ኡ",
+      "reason": "The printed Ge'ez word uses Alf (ኡ in ካልኡኒ), clearly visible with its two vertical legs rather than the round Ayin (ዑ)."
+    }
+  ]
+}

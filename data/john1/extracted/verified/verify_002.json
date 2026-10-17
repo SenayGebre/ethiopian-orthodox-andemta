@@ -1,0 +1,17 @@
+{
+  "pdf_page": 2,
+  "book_page_ethiopic": "፪፻፷፮ | ፪፻፷፯",
+  "elapsed_sec": 21.4,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 4,
+      "old_text": "ዘርእዮ ፡ ለካልኡ ፡ በል ፡ ፲፮ ። የደፈበት ፡",
+      "corrected_text": "ዘርእዮ ፡ ለካልኡ ፡ በል ፡ ፲፮ ። ያረፈበት ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "የደ -> ያረ",
+      "reason": "The printed Amharic word is ያረፈበት ('the land where he rested/settled', followed by ሀገር on L05), where Stage 1 misread ያረ- as የደ-."
+    }
+  ]
+}

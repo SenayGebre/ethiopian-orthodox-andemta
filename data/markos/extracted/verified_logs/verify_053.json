@@ -1,0 +1,53 @@
+{
+  "pdf_page": 53,
+  "book_page_ethiopic": "፫፻፸፪",
+  "elapsed_sec": 14.5,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 4,
+      "old_text": "ባትርጓሜሁ ይብልዎ መካነ ቀ↵",
+      "corrected_text": "በትርጓሜሁ ይብልዎ መካነ ቀ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ባ -> በ",
+      "reason": "The Ge'ez preposition in 'ዘበትርጓሜሁ' is printed with 1st-order 'በ', not 4th-order 'ባ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 24,
+      "old_text": "⟪ወቦቱ ሰዓት ጊዜ ይሰቅልዎ ።⟫",
+      "corrected_text": "⟪ወ፫ቱ ሰዓት ጊዜ ይሰቅልዎ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቦ -> ፫",
+      "reason": "The printed glyph has top and bottom numeral bars ('ወ፫ቱ ሰዓት' = 'And it was the third hour', Mark 15:25, matching '፫ት ሰዓት ነበረ' in L25), which was misread as 'ቦ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 25,
+      "old_text": "ተኛው ቀን የምትሰራው ሆይ",
+      "corrected_text": "ተኛው ቀን የምትሠራው ሆይ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሰ -> ሠ",
+      "reason": "The image clearly shows 'የምትሠራው' with 'ሠ' (ንጉሥ ሠ)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 26,
+      "old_text": "⟪አድህን ርእሰከ።⟫",
+      "corrected_text": "⟪አድኅን ርእሰከ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ህ -> ኅ",
+      "reason": "Both the image and Classical Ge'ez orthography of Mark 15:30 ('አድኅን') have 6th-order 'ኅ' rather than 'ህ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 27,
+      "old_text": "ላኪየ ለምንት ተኃደገኒ ።⟫",
+      "corrected_text": "ላኪየ ለምንት ተኀደገኒ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኃ -> ኀ",
+      "reason": "The printed Ge'ez verb in Mark 15:34 is 'ተኀደገኒ' with 1st-order 'ኀ'."
+    }
+  ]
+}

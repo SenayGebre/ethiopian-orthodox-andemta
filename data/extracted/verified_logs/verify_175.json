@@ -1,0 +1,62 @@
+{
+  "pdf_page": 175,
+  "book_page_ethiopic": "፪፻፺፬",
+  "elapsed_sec": 22.2,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "⟪ወአኃዙ ይበልዎ በበይነ አነኑ",
+      "corrected_text": "⟪ወአኃዙ ይበልዎ በበይኑ አነኑ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ነ -> ኑ",
+      "reason": "Classical Ge'ez adverbial form 'በበይኑ' (one by one / singly, Matt 26:22) with 2nd-order 'ኑ' visible on the right leg."
+    },
+    {
+      "column_index": 1,
+      "line_num": 3,
+      "old_text": "እያንድ እንዳቸው አቤቱ የሚ↵",
+      "corrected_text": "እያንድ አንዳቸው አቤቱ የሚ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እ -> አ",
+      "reason": "Amharic distributive 'እያንድ አንዳቸው' (each one of them) with 1st-order 'አ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 15,
+      "old_text": "ያወጣው በተራ ነው ጌታ አያ↵",
+      "corrected_text": "ያወጣው በተራ ነው ጌታ እያ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አ -> እ",
+      "reason": "Amharic circumstantial 'እያወጣ ይበላል' (He eats dipping/taking stew Himself, without saying 'take it out for Me'), matching L18 'እያወጣ ይበላል'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 3,
+      "old_text": "ብሎ ፈጥሮታልን ቢሉ በፈ↵",
+      "corrected_text": "ብሎ ፈጥሮታልን ቢሉ ቢፈ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በ -> ቢ",
+      "reason": "Amharic conditional 'ቢፈጥረውስ' (even if He created him) with 3rd-order 'ቢ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 7,
+      "old_text": "ወይቤ አነኑ እንጋ ውእቱ ረበ፡⟫",
+      "corrected_text": "ወይቤ አነኑ እንጋ ውእቱ ረቢ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በ -> ቢ",
+      "reason": "Canonical Ge'ez vocative 'ረቢ' (Rabbi, Matt 26:25) with 3rd-order 'ቢ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 33,
+      "old_text": "ሠዉት።ስትሠዉትም ኚት አሥ↵",
+      "corrected_text": "ሠዉት።ስትሠዉትም ፯ት አሥ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኚ -> ፯",
+      "reason": "Ethiopic numeral '፯ት' (ሰባት, i.e., '፯ት አሥር ፲፪ት ሁናችሁ' - being 7, 10, or 12 of you, matching the next page's 'ሰባት አሥር አሥራ ሁለት') misread as 'ኚት'."
+    }
+  ]
+}

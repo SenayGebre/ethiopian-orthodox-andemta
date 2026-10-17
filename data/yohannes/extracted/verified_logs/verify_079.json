@@ -1,0 +1,62 @@
+{
+  "pdf_page": 79,
+  "book_page_ethiopic": "፭፻፹፱",
+  "elapsed_sec": 20.5,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 3,
+      "old_text": "እግዚእክሙ ሐጻብኩክሙ እ",
+      "corrected_text": "እግዚእክሙ ሐጸብኩክሙ እ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጻ -> ጸ",
+      "reason": "The printed glyph is 1st-order ጸ (ሐጸብኩክሙ, canonical Ge'ez perfective verb stem), not 4th-order ጻ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 4,
+      "old_text": "ገሪክሙ።⟫",
+      "corrected_text": "ግረክሙ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ገሪ -> ግረ",
+      "reason": "Joining with እ- from the end of Line 3, the image clearly prints ግረክሙ (forming እግረክሙ, 'your feet'), not ገሪክሙ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 2,
+      "old_text": "ሞ ዐውቆ እንጂ ነው የነገረን",
+      "corrected_text": "ሞ አውቆ እንጂ ነው የነገረን",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዐ -> አ",
+      "reason": "The initial character of አውቆ in the image is clearly አ (Alef), not ዐ (Ayin)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 11,
+      "old_text": "⟪ወዘኪያየ ተወክፈ ተወከፎ ለ",
+      "corrected_text": "⟪ወዘኪያየ ተወክፈ ተወክፎ ለ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከ -> ክ",
+      "reason": "Both occurrences of the verb in this line use 6th-order ክ (ተወክፈ ተወክፎ), clearly showing the bent left leg of ክ in the image."
+    },
+    {
+      "column_index": 3,
+      "line_num": 26,
+      "old_text": "እምኔክሙ ያገብእኒ።⟫",
+      "corrected_text": "እምኔክሙ ያገብአኒ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እ -> አ",
+      "reason": "In Classical Ge'ez verb morphology, the 1st-person singular object suffix '-ni' attaches to the 1st-order stem (ያገብአኒ), and the image clearly shows 1st-order አ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 34,
+      "old_text": "⟪እስመ ኢያአመሩ ወነጥኡ እ",
+      "corrected_text": "⟪እስመ ኢያእመሩ ወነጥኡ እ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አ -> እ",
+      "reason": "The canonical Ge'ez form is ኢያእመሩ (with 6th-order እ), which matches the indented middle stroke visible in the print."
+    }
+  ]
+}

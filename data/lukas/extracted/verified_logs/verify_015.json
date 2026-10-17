@@ -1,0 +1,44 @@
+{
+  "pdf_page": 15,
+  "book_page_ethiopic": "፫፻፺፯",
+  "elapsed_sec": 11.4,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 15,
+      "old_text": "መዝ ፵፫ ፳፪ ።",
+      "corrected_text": "መዝ ፵ ፲፫ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፵፫ ፳፪ -> ፵ ፲፫",
+      "reason": "The printed numerals in the Psalm citation are ፵ ፲፫ (Psalm 40:13 in Ethiopic/LXX numbering: 'ይትባረክ እግዚአብሔር አምላከ እስራኤል'). Stage 1 misread the spacing and digits as ፵፫ ፳፪."
+    },
+    {
+      "column_index": 1,
+      "line_num": 36,
+      "old_text": "ው መንግሥትን ፤ ክህነት የሚ",
+      "corrected_text": "ው መንግሥትን ፥ ክህነት የሚ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "፤ -> ፥",
+      "reason": "The punctuation mark printed between መንግሥትን and ክህነት has a single horizontal bar (ነጠላ ሰረዝ '፥'), not a double bar ('፤')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 37,
+      "old_text": "ተሀቦሙ መድኃኒቶሙ ያእ",
+      "corrected_text": "ተሀቦሙ መድኃኒቶሙ ፥ ያእ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "መድኃኒቶሙ -> መድኃኒቶሙ ፥",
+      "reason": "There is a ነጠላ ሰረዝ ('፥') printed after መድኃኒቶሙ separating the two syntactic pairings."
+    },
+    {
+      "column_index": 3,
+      "line_num": 40,
+      "old_text": "ስን ነዋ በግዑ ብለህ ትዳርጋ",
+      "corrected_text": "ስን ነዋ በግዑ ብለህ ትዳርጋ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "wrap: false -> true",
+      "reason": "The word ትዳርጋ wraps onto the next page (ቸው ዘንድ ። to form ትዳርጋቸው ዘንድ)."
+    }
+  ]
+}

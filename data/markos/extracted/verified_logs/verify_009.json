@@ -1,0 +1,62 @@
+{
+  "pdf_page": 9,
+  "book_page_ethiopic": "፫፻፳፰",
+  "elapsed_sec": 13.3,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 36,
+      "old_text": "የተቃወሰውንም ያቃኑለት ጀ",
+      "corrected_text": "የተቃወሰውንም ያቃኑለት ጀ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጀመረ -> ጀመሩ",
+      "reason": "See L37 correction for the second half of ጀመሩ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 37,
+      "old_text": "መረ ፤",
+      "corrected_text": "መሩ ፤",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ረ -> ሩ",
+      "reason": "The glyph on the page clearly has the right-side horizontal stroke of 2nd-order ሩ (ጀመሩ, 'they began to straighten for Him what was crooked', matching the plural Ge'ez verb ወይደሑ)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 7,
+      "old_text": "ግሙራእ ያንበብክሙኑ ዘገብ",
+      "corrected_text": "ግሙራ ኢያንበብክሙኑ ዘገብ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ግሙራእ -> ግሙራ ኢ",
+      "reason": "The printed glyph is 3rd-order ኢ (with the bottom right foot) attached to the verb ኢያንበብክሙኑ ('have you never read at all?'), whereas Stage 1 misread the foot and spacing as ግሙራእ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 29,
+      "old_text": "ዝም አሉ ፥ ማቴዎስ ይከውንሁ",
+      "corrected_text": "ዝም አሉ ፥ ማቴዎስ ይከውንኑ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሁ -> ኑ",
+      "reason": "The interrogative enclitic in Ge'ez is -ኑ (ይከውንኑ, 'is it lawful?'). Visually on the page, the character is ኑ (with the top bar of ነ and right side-stroke of 2nd order), misread as ሁ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 33,
+      "old_text": "ይጣላም ይከውንሁ ብለው ቢ",
+      "corrected_text": "ይጣላም ይከውንኑ ብለው ቢ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሁ -> ኑ",
+      "reason": "The printed Ge'ez word is ይከውንኑ ('is it lawful?'), where the 2nd-order ኑ was misread as ሁ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 36,
+      "old_text": "ይከውንሁ አላቸው አርመሙ",
+      "corrected_text": "ይከውንኑ አላቸው አርመሙ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሁ -> ኑ",
+      "reason": "The printed Ge'ez word is ይከውንኑ ('is it lawful?'), where the 2nd-order ኑ was misread as ሁ."
+    }
+  ]
+}

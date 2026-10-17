@@ -1,0 +1,53 @@
+{
+  "pdf_page": 3,
+  "book_page_ethiopic": "፬ | ፻፻፩",
+  "elapsed_sec": 38.4,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 17,
+      "old_text": "ለአቡነ ፡ አብርሃም ፡ እግዚአብሔርን ፡ ሰደበ ፡ ብለውት ፡ ነበርና ፡ የክብር ፡ ባለ",
+      "corrected_text": "ለአቡነ ፡ አብርሃም ፡ እግዚአብሔርን ፡ ሰደበ ፡ ብለውት ፡ ነበርና ፡ የክብር ፡ ባለ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ባለ -> ባለ↵",
+      "reason": "The compound word ባለቤት splits across the end of line 17 (ባለ-) and the beginning of line 18 (-ቤት)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 2,
+      "old_text": "፶፭ ፡ ይህን ፡ የሰማ ፡ ጆሮ ፡ ይበጣጠስ ፡ ከቀደመው፡ ይሁኑ ፡ ይባስ ፡ እንዲሉ ፡ ዛሬስ፡",
+      "corrected_text": "፶፭ ፡ ይህን ፡ የሰማ ፡ ጆሮ ፡ ይበጣጠስ ፡ ከቀደመው፡ ይህን ፡ ይባስ ፡ እንዲሉ ፡ ዛሬስ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ይሁኑ -> ይህን",
+      "reason": "Visual inspection of Col 2 Line 2 shows the 6th-order characters ህ and ን in ይህን ('ከቀደመው ይህን ይባስ እንዲሉ'), where slight ink bleed on the bottom of ህ and ን caused Stage 1 to misread them as 2nd-order ሁ and ኑ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 24,
+      "old_text": "ይስምዑ ፡⟫ ይላል ፡ ይህን ፡ ለምን ፡ ይሻዋል ፡ ቢሉ ፡ እሱስ ፡ እንኳ ፡ አጽድቆ ፡ ያይ",
+      "corrected_text": "ይስምዑ ፡⟫ ይላል ፡ ይህን ፡ ለምን ፡ ይሻዋል ፡ ቢሉ ፡ እሱስ ፡ እንኳ ፡ አጽድቆ ፡ ሳይ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ያይ -> ሳይ",
+      "reason": "Both visually on the page and philologically in the classic Andemta Trinitarian/Christological formula ('አጽድቆ ሳይል ጻድቅ ፡ አክብሮ ሳይል ክቡር'), the character is ሳ (forming ሳይል across the line wrap), misread as ያ due to faded left leg."
+    },
+    {
+      "column_index": 2,
+      "line_num": 25,
+      "old_text": "ል ፡ ጻድቅ ፡ አክብሮ ፡ ያይል ፡ ክቡር ፡ ለናንተ ፡ ሲል ፡ መከራ ፡ የተቀበለ ፡ እናን",
+      "corrected_text": "ል ፡ ጻድቅ ፡ አክብሮ ፡ ሳይል ፡ ክቡር ፡ ለናንተ ፡ ሲል ፡ መከራ ፡ የተቀበለ ፡ እናን",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ያይል -> ሳይል",
+      "reason": "The printed glyph in Col 2 Line 25 is ሳይል ('አጽድቆ ሳይል ጻድቅ ፡ አክብሮ ሳይል ክቡር'), where ሳ was misread as ያ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 28,
+      "old_text": "ረቱ ፡⟫ ይላል ፡ ይህን ፡ ለምን ፡ ይሻዋል ፡ ቢሉ ፡ እናንተማ ፡ መከራ ፡ ብትቀበሉ ፡ በ",
+      "corrected_text": "ረቱ ፡⟫ ይላል ፡ ይህን ፡ ለምን ፡ ይሻዋል ፡ ቢሉ ፡ እናንተማ ፡ መከራ ፡ ብትቀበሉ ፡ በ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በ -> በ↵",
+      "reason": "The word በከንቱ splits across the end of line 28 (በ-) and the beginning of line 29 (-ከንቱ)."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "pdf_page": 117,
+  "book_page_ethiopic": "፪፻፴፮",
+  "elapsed_sec": 14.9,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 29,
+      "old_text": "ዳው በፍ የሚገባው እንዳይ↵",
+      "corrected_text": "ዳው ባፍ የሚገባው እንዳይ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በፍ -> ባፍ",
+      "reason": "Amharic contraction of በአፍ is printed as ባፍ (4th-order ባ with shortened left leg, matching Col 3 L40 ባፍ የሚገባው), misread as 1st-order በፍ."
+    }
+  ]
+}

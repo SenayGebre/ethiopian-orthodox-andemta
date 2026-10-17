@@ -1,0 +1,17 @@
+{
+  "pdf_page": 6,
+  "book_page_ethiopic": "፫፻፳፭",
+  "elapsed_sec": 13.4,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 5,
+      "old_text": "ሞ ዘለምጽን አስከተለ አንድም",
+      "corrected_text": "ሞ ዘለምጽን አስከተለ እንደም",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አንድም -> እንደም",
+      "reason": "When joined with 'ን ነው' on the next line, the standard Andemta interrogative phrase is 'እንደምን ነው አይጣላም ቢሉ' ('If one asks: how is it, does it not contradict?'). Visually on the page, the first letter is 6th-order እ and the third letter is 1st-order ደ without a 6th-order hook."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "pdf_page": 135,
+  "book_page_ethiopic": "፪፻፶፬",
+  "elapsed_sec": 18.6,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "ወርሳለህ።ሐተታ አርድና ከም↵",
+      "corrected_text": "ወርሳለህ።ሐተታ እርድና ከም↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አ -> እ",
+      "reason": "Amharic imperative 'እርድና' (help and...) begins with 6th-order 'እ', visible with its central vertical stroke in the image."
+    },
+    {
+      "column_index": 1,
+      "line_num": 3,
+      "old_text": "ሎ አርድና፡ሀብ ብሎ ምጽ↵",
+      "corrected_text": "ሎ እርድና፡ሀብ ብሎ ምጽ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አ -> እ",
+      "reason": "Amharic imperative 'እርድና' begins with 6th-order 'እ' matching line 1 and the printed glyph."
+    },
+    {
+      "column_index": 1,
+      "line_num": 9,
+      "old_text": "ና። አንዳገኙ እንዳይጥሉት ።",
+      "corrected_text": "ና። እንዳገኙ እንዳይጥሉት ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አ -> እ",
+      "reason": "Amharic 'እንዳገኙ' (just as they found it / carelessly) begins with 6th-order 'እ', clearly visible in the scan."
+    },
+    {
+      "column_index": 3,
+      "line_num": 18,
+      "old_text": "ነ ኵሎ ወተሎናከ ምንተ እን↵",
+      "corrected_text": "ነ ኵሎ ወተሎናከ ምንተ እ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እን -> እ",
+      "reason": "Line break boundary: in the printed image, line 18 ends with 'እ' and 'ንከ' begins line 19."
+    },
+    {
+      "column_index": 3,
+      "line_num": 19,
+      "old_text": "ከ ንረክብ።⟫",
+      "corrected_text": "ንከ ንረክብ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ከ -> ንከ",
+      "reason": "Line break boundary: 'ንከ' is printed at the start of line 19."
+    },
+    {
+      "column_index": 3,
+      "line_num": 22,
+      "old_text": "ናገኝ ይሆን አለው፤ሐተታ ም↵",
+      "corrected_text": "ናገኝ ይሆን አለው።ሐተታ ም↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "፤ -> ።",
+      "reason": "The punctuation before 'ሐተታ' is a four-dot full stop '።' with slight vertical ink bleed, not a semicolon '፤'."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "pdf_page": 38,
+  "book_page_ethiopic": "፭፻፵፰",
+  "elapsed_sec": 6.7,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 22,
+      "old_text": "በልተው ከጠገቡ በኋላ ከተራ↵",
+      "corrected_text": "በልተው ከጠገቡ በኋላ ከተረ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ራ -> ረ",
+      "reason": "The printed glyph at the end of line 22 is 'ረ' (1st order), forming 'ከተረፈው' ('from what was left over'), parallel to 'የተረፈው' on the next line."
+    }
+  ]
+}

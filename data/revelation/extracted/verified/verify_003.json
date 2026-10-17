@@ -1,0 +1,44 @@
+{
+  "pdf_page": 3,
+  "book_page_ethiopic": "፫፻፺፪ | ፫፻፺፫",
+  "elapsed_sec": 16.0,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 19,
+      "old_text": "ብላ ፡ አይሆንም ፡ አለች ፡ ቤተ ፡ እግዚአብሔር ፡ አትግቢ ፡ ከምእመናን ፡ አትገ",
+      "corrected_text": "ብላ ፡ አይሆንም ፡ አለች ፤ ቤተ ፡ እግዚአብሔር ፡ አትግቢ ፡ ከምእመናን ፡ አትገ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "፡ -> ፤",
+      "reason": "The punctuation after አለች is clearly a semicolon (፤) on the image."
+    },
+    {
+      "column_index": 1,
+      "line_num": 24,
+      "old_text": "ድሜ ፡ ለምን ፡ አወገዝሃት ፡ የምባርማ ፡ እንጂ ፡ ነገር ፡ እየቀደመ ፡ ይሆናል ፡ ፍ",
+      "corrected_text": "ድሜ ፡ ለምን ፡ አወገዝሃት ፡ የምክርማ ፡ እንጂ ፡ ነገር ፡ እየቀደመ ፡ ይሆናል ፡ ፍ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ባ -> ክ",
+      "reason": "The word printed is የምክርማ ('it is a matter of counsel/advice, after all'), where ክ (6th order) was misread as ባ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 36,
+      "old_text": "አሁን ፡ በሁለቱ ፡ ቅዱሳን ፡ ተቃሕም ፡ ኑሮባቸው ፡ አይደለም ፡ እንደ ፡ ተገለጸ",
+      "corrected_text": "አሁን ፡ በሁለቱ ፡ ቅዱሳን ፡ ቂም ፡ ኑሮባቸው ፡ አይደለም ፡ እንደ ፡ ተገለጸ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ተቃሕም -> ቂም",
+      "reason": "Stage 1 hallucinated ተቃሕም where the image clearly prints ቂም ('grudge/resentment': ቂም ኑሮባቸው አይደለም)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 20,
+      "old_text": "መዲና ፡ ማለት ፡ ነው ። (ጥቅ) ፡ ቆሮንቶስ፡ ሊቅ፡ አካይያ፡ ወይእቲ፡ መዲና፡ መጥራ ፡",
+      "corrected_text": "መዲና ፡ ማለት ፡ ነው ። (ጥቅ) ፡ ቆሮንቶስ፡ ሊቀ፡ አካይያ፡ ወይእቲ፡ መዲና፡ መጥራ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሊቅ -> ሊቀ",
+      "reason": "In the Ge'ez citation 'ቆሮንቶስ ሊቀ አካይያ' (Corinth, capital/chief of Achaia), the construct state ሊቀ (1st order) is printed, not ሊቅ."
+    }
+  ]
+}

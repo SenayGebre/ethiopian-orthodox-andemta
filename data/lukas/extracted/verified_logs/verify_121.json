@@ -1,0 +1,35 @@
+{
+  "pdf_page": 121,
+  "book_page_ethiopic": "፭፻፫",
+  "elapsed_sec": 17.0,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "መካሥተ አርእስት ዘወንጌለ ሉቃስ፡",
+      "corrected_text": "መክሥተ አርእስት ዘወንጌለ ሉቃስ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ካ -> ክ",
+      "reason": "The standard Ge'ez construct noun for 'table/revelation of chapter headings' is መክሥተ (with 6th-order ክ), which matches the printed glyph."
+    },
+    {
+      "column_index": 1,
+      "line_num": 17,
+      "old_text": "በእንተ ኢየሱስ ሕፃን። ቍ ፵፬",
+      "corrected_text": "በእንተ ኢየሱስ ሕፃን። ቍ ፵",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፵፬ -> ፵",
+      "reason": "The printed numeral is a single glyph ፵ (verse 40 of Luke 2, preceding verse ፵፩ on line 19); the wide box of ፵ was misread as two numerals ፵፬."
+    },
+    {
+      "column_index": 1,
+      "line_num": 37,
+      "old_text": "ሱስ ዘቦቱ ጋኔን። ቍ ፵፫",
+      "corrected_text": "ሱስ ዘቦቱ ጋኔን። ቍ ፴፫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፵፫ -> ፴፫",
+      "reason": "Visually and philologically this is verse ፴፫ (33) of Luke 4 (between verse ፴፩ on line 35 and verse ፴፰ on line 41); ink bleed at the bottom of ፴ made it look like ፵."
+    }
+  ]
+}

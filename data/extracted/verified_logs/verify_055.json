@@ -1,0 +1,53 @@
+{
+  "pdf_page": 55,
+  "book_page_ethiopic": "፻፸፬",
+  "elapsed_sec": 11.1,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 23,
+      "old_text": "በአንቢተኝነታቸው ይቅርባቸ↵",
+      "corrected_text": "በእንቢተኝነታቸው ይቅርባቸ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አ -> እ",
+      "reason": "The printed glyph has the 6th-order 'እ' (በእንቢተኝነታቸው = 'by their refusal/stubbornness'), not 'አ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 30,
+      "old_text": "⟪አኮሁ መጸብሓንሂ ከማሁሰ ይ↵",
+      "corrected_text": "⟪አኮኑ መጸብሓንሂ ከማሁሰ ይ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሁ -> ኑ",
+      "reason": "Canonical Ge'ez interrogative particle 'አኮኑ' (Matthew 5:46) is printed with 'ኑ', not 'ሁ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 35,
+      "old_text": "ባንዱ አገር ያሉ አጣሮች በ↵",
+      "corrected_text": "ባንዱ አገር ያሉ አጣሮች ባ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በ -> ባ",
+      "reason": "The word at the end of L35 is 'ባ↵ንዱ' (4th order 'ባ', parallel to 'ባንዱ' at the start of the line), where the shorter right leg is clearly visible."
+    },
+    {
+      "column_index": 2,
+      "line_num": 24,
+      "old_text": "ያስተርእዩ ሎሙ ።⟫",
+      "corrected_text": "ያስተርእዩ ሎሙ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "none",
+      "reason": "No change needed."
+    },
+    {
+      "column_index": 3,
+      "line_num": 28,
+      "old_text": "ዳሴ ከንቱውን አገኙ ብዬ እ↵",
+      "corrected_text": "ዳሴ ከንቱውን አገኙ ቢል እ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ብዬ -> ቢል",
+      "reason": "Traditional Andemta formula 'ነሥኡ ይላል ውዳሴ ከንቱውን አገኙ ቢል እንዳገኙ' ('another manuscript says ነሥኡ; if it says they received vainglory, [I tell you truly] that they received it'). Visually 'ቢል' was misread as 'ብዬ'."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "pdf_page": 3,
+  "book_page_ethiopic": "፲፰ | ፲፱",
+  "elapsed_sec": 20.6,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 29,
+      "old_text": "⟪ወያዕቆብ ፡ ወልደ ፡ እልፍዮስ ፡ ወስምዖን ፡ ቀናዒ ፡",
+      "corrected_text": "⟪ወያዕቆብ ፡ ወልደ ፡ እልፍዮስ ፡ ወስምዖን ፡ ቀናኢ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዒ -> ኢ",
+      "reason": "The printed glyph in line 29 is clearly ቀናኢ with ኢ (matching line 33 below), not ዒ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 4,
+      "old_text": "⟪ወክፈሎ ፡ ዘንተ ፡ መልእክተ ።⟫",
+      "corrected_text": "⟪ወከፈሎ ፡ ዘንተ ፡ መልእክተ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ክ -> ከ",
+      "reason": "Both visual inspection of the straight right leg of ከ and Classical Ge'ez grammar (perfective verb ከፈሎ 'he allotted/gave to him', glossed in lines 5–6 as የሰጠው ሲሆን / ያደለው ሲሆን) confirm ወከፈሎ rather than ወክፈሎ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 16,
+      "old_text": "ጎኑ ፡ ተቀደደ ።",
+      "corrected_text": "ጐኑ ፡ ተቀደደ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጎ -> ጐ",
+      "reason": "The printed initial character is labialized ጐ (ጐኑ), not 7th-order ጎ."
+    }
+  ]
+}

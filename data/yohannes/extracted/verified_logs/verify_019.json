@@ -1,0 +1,26 @@
+{
+  "pdf_page": 19,
+  "book_page_ethiopic": "፭፻፳፱",
+  "elapsed_sec": 13.4,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 15,
+      "old_text": "ፈራ ። ያም ሆነ ያም ሆነ ከግለ",
+      "corrected_text": "ፈራ ። ያም ሆነ ያም ሆነ ከጣለ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ከግለ -> ከጣለ",
+      "reason": "The three-legged character ጣ in ከጣለ (construct state 'from the shadow of [the Law]', ከጣለ ኦሪት) was misread as ግ due to tight spacing between the legs."
+    },
+    {
+      "column_index": 1,
+      "line_num": 22,
+      "old_text": "እላመነም ብሎ መምሕር ከእ↵",
+      "corrected_text": "አላመነም ብሎ መምሕር ከእ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እላመነም -> አላመነም",
+      "reason": "The initial character is 1st-order አ in አላመነም ('he did not believe'), misread as 6th-order እ."
+    }
+  ]
+}

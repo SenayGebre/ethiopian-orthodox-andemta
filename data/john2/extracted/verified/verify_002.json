@@ -1,0 +1,26 @@
+{
+  "pdf_page": 2,
+  "book_page_ethiopic": "፻፻፰ | ፻፻፱",
+  "elapsed_sec": 21.6,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "ሙ ፡ በል ፡ ቍ ፡ ፰ ። ወብዙኅ ፡ ብየ ፡ በል ፡",
+      "corrected_text": "ሙ ፡ በል ፡ ቍ ፡ ፲ ። ወብዙኅ ፡ ብየ ፡ በል ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፰ -> ፲",
+      "reason": "Both visually (single vertical stem matching ፲ in ፲፪ and ፲፫ on line 2) and philologically (the incipit 'ወዘኒ ፡ ይመጽእ ፡ ኀቤክሙ' is 2 John verse 10, following verse 8 'ዑቁ ፡ ርእሰክሙ' at the end of the previous page), the numeral is ፲ (10), not ፰ (8)."
+    },
+    {
+      "column_index": 4,
+      "line_num": 7,
+      "old_text": "⟪ወዝውእቱ ፡ መስሕቲ ፡ ሐሳዌ ፡ መሢሕ ፡⟫",
+      "corrected_text": "⟪ወዝውእቱ ፡ መስሕት ፡ ሐሳዌ ፡ መሢሕ ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "መስሕቲ -> መስሕት",
+      "reason": "The final character is 6th-order ት (with its characteristic lower-left serif), giving the canonical Ge'ez singular form መስሕት ('the deceiver', 2 John 1:7)."
+    }
+  ]
+}

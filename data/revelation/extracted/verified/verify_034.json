@@ -1,0 +1,62 @@
+{
+  "pdf_page": 34,
+  "book_page_ethiopic": "፬፻፲፬ | ፬፻፲፭",
+  "elapsed_sec": 157.3,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 10,
+      "old_text": "ጎዱ ፡ አሉ ። አንድም ፡ (ወይቤሎ ፡ ለዝ",
+      "corrected_text": "ጐዱ ፡ አሉ ። አንድም ፡ (ወይቤሎ ፡ ለዝ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጎ -> ጐ",
+      "reason": "The printed glyph clearly shows the labiovelar Fidel ጐ (የተጐዱ) rather than ጎ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 14,
+      "old_text": "መላእክት ፡ ፈተሕ ፡ ስደዳቸው ፡ ሲለው ፡",
+      "corrected_text": "መላእክት ፡ ፈተህ ፡ ስደዳቸው ፡ ሲለው ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፈተሕ -> ፈተህ",
+      "reason": "Both the page image and Amharic grammar confirm the 2nd person singular gerundive suffix -ህ in ፈተህ (not ሕ)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 15,
+      "old_text": "ሰማሁ ፡ የሊህ ፡ መጋዝ ፡ አይደለም ፡ መወ",
+      "corrected_text": "ሰማሁ ፡ የኒህ ፡ መጋዝ ፡ አይደለም ፡ መወ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "የሊህ -> የኒህ",
+      "reason": "The printed glyph is ኒ in the standard Andemta demonstrative pronoun የኒህ ('of these'), misread as የሊህ due to ink bleed."
+    },
+    {
+      "column_index": 1,
+      "line_num": 35,
+      "old_text": "ቁር ፡ አላቸው ፡ (ወአርእስተ ፡ አፍራሲ",
+      "corrected_text": "ቍር ፡ አላቸው ፡ (ወአርእስተ ፡ አፍራሲ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቁር -> ቍር",
+      "reason": "The printed glyph at the start of the line is the labiovelar ቍ in ቍር ('helmet'), not ቁ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 2,
+      "old_text": "ተኰነኑ) ፡ ጣዖት፡ በማምለክም፡ የተጎዱ፡",
+      "corrected_text": "ተኰነኑ) ፡ ጣዖት፡ በማምለክም፡ የተጐዱ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጎ -> ጐ",
+      "reason": "The printed glyph clearly shows ጐ in የተጐዱ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 19,
+      "old_text": "፲፬ ፡ ፳፬ ። ፩ ፡ ቆሮ ፡ ፲ ፥ ፳ ።",
+      "corrected_text": "፲፪ ፡ ፳፬ ። ፩ ፡ ቆሮ ፡ ፲ ፥ ፳ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፲፬ -> ፲፪",
+      "reason": "The verse reference for Psalm 113 (LXX) is ፲፪ (12), visually showing the two horizontal bars of ፪ rather than the loop of ፬."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "pdf_page": 46,
+  "book_page_ethiopic": "፭፻፶፮",
+  "elapsed_sec": 15.2,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 27,
+      "old_text": "ዋለሁና አሉ ለከመ ጸሐፍት",
+      "corrected_text": "ዋለሁና አሌ ለክሙ ጸሐፍት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አሉ ለከመ -> አሌ ለክሙ",
+      "reason": "Both visually on the page (5th-order ring on ሌ, 6th-order ክ, and 2nd-order ሙ) and philologically, this quotes Christ's rebuke 'አሌ ለክሙ ጸሐፍት ወፈሪሳውያን' ('Woe unto you, scribes and Pharisees')."
+    }
+  ]
+}

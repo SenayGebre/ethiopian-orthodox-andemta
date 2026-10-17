@@ -1,0 +1,17 @@
+{
+  "pdf_page": 91,
+  "book_page_ethiopic": "፬፻፸፫",
+  "elapsed_sec": 14.2,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 4,
+      "old_text": "⟪ወበከመ ኮነ በመዋዕሊሁ ለኖህ",
+      "corrected_text": "⟪ወበከመ ኮነ በመዋዕሊሁ ለኖኅ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ህ -> ኅ",
+      "reason": "The printed glyph at the end of the line is ኅ (ለኖኅ), matching canonical Ge'ez spelling of Noah (ኖኅ) as also seen on lines 8, 13, and 15."
+    }
+  ]
+}

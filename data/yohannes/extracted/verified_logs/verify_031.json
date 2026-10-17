@@ -1,0 +1,26 @@
+{
+  "pdf_page": 31,
+  "book_page_ethiopic": "፭፻፵፩",
+  "elapsed_sec": 18.4,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 35,
+      "old_text": "፪ ማር ፩ ፲፬ ሉቃ ፬ ፲፬ ዮሐ ፪ ፳",
+      "corrected_text": "፪ ማር ፩ ፲፬ ሉቃ ፬ ፲፬ ዮሐ ፪ ፳፫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፳ -> ፳፫",
+      "reason": "The verse numeral ፳፫ (23) for John 2:23 is printed together at the end of line 35, not wrapped onto line 36."
+    },
+    {
+      "column_index": 1,
+      "line_num": 36,
+      "old_text": "፫ ተራ ዋዌ አንድም ⟪ወበዊኦ ገ",
+      "corrected_text": "ተራ ዋዌ አንድም ⟪ወበዊኦ ገ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "፫ ተራ -> ተራ",
+      "reason": "Line 36 begins directly with ተራ ዋዌ after the marginal verse number ፵፭; there is no numeral ፫ at the start of line 36."
+    }
+  ]
+}

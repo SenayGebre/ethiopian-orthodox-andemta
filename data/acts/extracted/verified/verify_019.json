@@ -1,0 +1,26 @@
+{
+  "pdf_page": 19,
+  "book_page_ethiopic": "፴ | ፴፩",
+  "elapsed_sec": 18.7,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 25,
+      "old_text": "እለ ፡ ምሉआን ፡ መንፈሰ ፡ ቅዱሰ ፡ ወጥበበ ፡ እለ ፡",
+      "corrected_text": "እለ ፡ ምሉአን ፡ መንፈሰ ፡ ቅዱሰ ፡ ወጥበበ ፡ እለ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "आ -> አ",
+      "reason": "Stage 1 hallucinated a non-Ethiopic Devanagari character 'आ' in place of the clearly printed Fidel 'አ' in the Ge'ez plural adjective 'ምሉአን' (Acts 6:3)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 14,
+      "old_text": "ብዙ ፡ ናቸው ፡ ም ፡ ፲፪ ፥ ፳ ።",
+      "corrected_text": "ብዙ ፡ ናቸው ፡ ም ፡ ፲፪ ፥ ፯ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፳ -> ፯",
+      "reason": "The printed Ethiopic numeral after '፲፪ ፥' is clearly '፯' (7), not '፳' (20)."
+    }
+  ]
+}

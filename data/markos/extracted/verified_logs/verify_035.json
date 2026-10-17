@@ -1,0 +1,17 @@
+{
+  "pdf_page": 35,
+  "book_page_ethiopic": "፫፻፶፬",
+  "elapsed_sec": 11.0,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 10,
+      "old_text": "ዚሀ ዓለም መቶ ዕጽፍ የማይ",
+      "corrected_text": "ዚህ ዓለም መቶ ዕጽፍ የማይ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሀ -> ህ",
+      "reason": "The 6th-order hook on ህ in 'በዚህ' (across L09-L10) was slightly faint and misread as 1st-order ሀ."
+    }
+  ]
+}

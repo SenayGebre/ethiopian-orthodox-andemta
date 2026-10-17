@@ -1,0 +1,26 @@
+{
+  "pdf_page": 90,
+  "book_page_ethiopic": "፻፷፪ | ፻፷፫",
+  "elapsed_sec": 72.9,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 13,
+      "old_text": "፳፫ ፤ ⟪ወእምዝ ፡ ዐደምሙ ፡ ዕለተ ፡ በዘይመጽኡ ፡",
+      "corrected_text": "፳፫ ፤ ⟪ወእምዝ ፡ ዐደሞሙ ፡ ዕለተ ፡ በዘይመጽኡ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ም -> ሞ",
+      "reason": "The printed Ge'ez verb is ዐደሞሙ ('he appointed for them', Acts 28:23) with 7th-order ሞ, which was misread as 6th-order ም."
+    },
+    {
+      "column_index": 2,
+      "line_num": 21,
+      "old_text": "⟪ወደንቆወ ፡ እዘኒሆሙ ፡ እምሰሚዕ ፡⟫",
+      "corrected_text": "⟪ወደንቀወ ፡ እዘኒሆሙ ፡ እምሰሚዕ ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቆ -> ቀ",
+      "reason": "The printed Ge'ez verb is ወደንቀወ with 1st-order ቀ (matching ደንቀወ in L30 and Col 3 L03), not 7th-order ቆ."
+    }
+  ]
+}

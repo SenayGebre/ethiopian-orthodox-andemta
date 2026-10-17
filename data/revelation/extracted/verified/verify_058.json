@@ -1,0 +1,26 @@
+{
+  "pdf_page": 58,
+  "book_page_ethiopic": "፻፳፪ | ፻፳፫",
+  "elapsed_sec": 9.7,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 3,
+      "old_text": "⟪፲፯ ፤ ወእምዝ፡መጽአ፡አሐዱ፡መልአክ፡ውስተ፡ፀሓይ፡⟫",
+      "corrected_text": "⟪፲፯ ፤ ወእምዝ፡መጽአ፡አሐዱ፡መልአክ፡ውስተ፡ፀሐይ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሓ -> ሐ",
+      "reason": "The printed glyph in ፀሐይ is first-order ሐ (without a fourth-order leg lengthening), matching L06 ለፀሐይ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 4,
+      "old_text": "ከዚህ ፡ በኋላ ፡ አንድ ፡ መልአክ ፡ በፀሓይ፡",
+      "corrected_text": "ከዚህ ፡ በኋላ ፡ አንድ ፡ መልአክ ፡ በፀሐይ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሓ -> ሐ",
+      "reason": "The printed glyph in በፀሐይ is first-order ሐ (both legs of equal length), not fourth-order ሓ."
+    }
+  ]
+}

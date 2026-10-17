@@ -1,0 +1,107 @@
+{
+  "pdf_page": 106,
+  "book_page_ethiopic": "፪፻፳፭",
+  "elapsed_sec": 25.9,
+  "applied_count": 11,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 8,
+      "old_text": "ን ከስንዴው አይታችሁ በየ",
+      "corrected_text": "ን ከስንዴው ለይታችሁ በየ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አ -> ለ",
+      "reason": "The printed glyph is 'ለ' in 'ለይታችሁ' ('having separated [the tares from the wheat]', translating Ge'ez 'ዕርዩ'), misread as 'አይታችሁ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 35,
+      "old_text": "ሙ ፀራዊ ገብረ ዘንተ ።⟫ ጸላ",
+      "corrected_text": "ሙ ፀራዊ ገብረ ዘንተ ።⟫ ጠላ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጸ -> ጠ",
+      "reason": "The printed glyph at the end of the line is 'ጠ' (beginning 'ጠላቱ' = 'his enemy', translating 'ፀራዊ'), misread as 'ጸላ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 36,
+      "old_text": "ቲ ዲያብሎስ እንዲህ አደረገ",
+      "corrected_text": "ቱ ዲያብሎስ እንዲህ አደረገ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቲ -> ቱ",
+      "reason": "The 2nd-order 'ቱ' completing 'ጠላቱ' ('his enemy') was misread as 3rd-order 'ቲ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 37,
+      "old_text": "አንድም የጠላቲ የዲያብሎስ",
+      "corrected_text": "አንድም የጠላቱ የዲያብሎስ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቲ -> ቱ",
+      "reason": "The printed glyph is 2nd-order 'ቱ' in 'የጠላቱ የዲያብሎስ', misread as 'የጠላቲ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 16,
+      "old_text": "ትጻሐይዩ⟫ ኃጥኡን እናጠፋለ",
+      "corrected_text": "ትጻሕይዩ⟫ ኃጥኡን እናጠፋለ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሐ -> ሕ",
+      "reason": "The printed glyph in the Ge'ez verb 'ትጻሕይዩ' is 6th-order 'ሕ', misread as 1st-order 'ሐ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 21,
+      "old_text": "ሎጥ ታውቋል ብሎ ከነዚሀ የ",
+      "corrected_text": "ሎጥ ታውቋል ብሎ ከነዚህ የ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሀ -> ህ",
+      "reason": "The final character of 'ከነዚህ' ('from these') is 6th-order 'ህ', misread as 1st-order 'ሀ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 27,
+      "old_text": "ክትን አዛቸዋለሁ ። ⟪እርዩ ቅድ",
+      "corrected_text": "ክትን አዛቸዋለሁ ። ⟪ዕርዩ ቅድ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እ -> ዕ",
+      "reason": "Both visually and philologically, the canonical Ge'ez imperative is 'ዕርዩ' (with 6th-order 'ዕ'), misread as 'እርዩ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 29,
+      "old_text": "ጻድቃን ለይዋቸው። ⟪ወእስርዎ",
+      "corrected_text": "ጻድቃን ለይዋቸው። ⟪ወዕስርዎ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እ -> ዕ",
+      "reason": "The printed glyph in the Ge'ez citation 'ወዕስርዎ' is 6th-order 'ዕ', misread as 'እ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 6,
+      "old_text": "ተበጠረች የተንጸረጸረች ዘርን",
+      "corrected_text": "ተበጠረች የተንጠረጠረች ዘርን",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጸ -> ጠ",
+      "reason": "The printed glyphs are 'ጠ' in 'የተንጠረጠረች' ('winnowed/sifted', matching Col 3 L01), misread as 'የተንጸረጸረች'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 34,
+      "old_text": "ጠፋለን ስትሉ በጎዉን ሕሊ",
+      "corrected_text": "ጠፋለን ስትሉ በጎውን ሕሊ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዉ -> ው",
+      "reason": "The printed glyph in 'በጎውን' is 6th-order 'ው', misread as 2nd-order 'ዉ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 36,
+      "old_text": "ዋቸው እስከ ተባትሕዎ ድረ",
+      "corrected_text": "ዋቸው እስከ ተባሕትዎ ድረ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ትሕ -> ሕት",
+      "reason": "The printed word is 'ተባሕትዎ' (monastic solitude/asceticism, matching L38 'በተባሕትዎ'), with 'ሕ' before 'ት'."
+    }
+  ]
+}

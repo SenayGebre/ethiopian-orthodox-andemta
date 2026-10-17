@@ -1,0 +1,53 @@
+{
+  "pdf_page": 106,
+  "book_page_ethiopic": "፬፻፹፰",
+  "elapsed_sec": 20.9,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 28,
+      "old_text": "⟪ወየኃሥሠ ሎቱ ሊቃነ ካህና⟫",
+      "corrected_text": "⟪ወየኃሥሡ ሎቱ ሊቃነ ካህና⟫",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሠ -> ሡ",
+      "reason": "The plural subject 'ሊቃነ ካህናት ወጸሐፍት' requires the 3rd person masculine plural verb 'ወየኃሥሡ' (2nd order ሡ), which is visible on the page."
+    },
+    {
+      "column_index": 2,
+      "line_num": 37,
+      "old_text": "⟪ሁዳ አስቆሮታዊ ዘእምነሠርቱ⟫",
+      "corrected_text": "⟪ሁዳ አስቆሮታዊ ዘእምዐሠርቱ⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ነ -> ዐ",
+      "reason": "The Ge'ez numeral for twelve is 'ዐሠርቱ ወክልኤቱ'; the character following 'ዘእም-' is 'ዐ' (ዘእምዐሠርቱ), which was misread as 'ነ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 1,
+      "old_text": "⟪ወክልኤቱ ኍልቆ ።⟫ ማቴ ፳፮",
+      "corrected_text": "⟪ወክልኤቱ ኍልቁ ።⟫ ማቴ ፳፮",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቆ -> ቁ",
+      "reason": "The Ge'ez noun 'ኍልቅ' with the 3rd person masculine singular pronominal suffix '-ኡ' forms 'ኍልቁ' ('his number', translated as 'ቍጥሩ' in L03), and the 2nd order 'ቁ' is visible in the print."
+    },
+    {
+      "column_index": 3,
+      "line_num": 7,
+      "old_text": "እንዴህ አለ ።",
+      "corrected_text": "እንዲህ አለ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዴ -> ዲ",
+      "reason": "The printed word is the standard Amharic 'እንዲህ' with 3rd order 'ዲ' (horizontal foot serif), not 5th order 'ዴ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 39,
+      "old_text": "ጥሮስንና ዮሐንስን ሂዳችሁ የ",
+      "corrected_text": "ጥሮስንና ዮሐንስን ሄዳችሁ የ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሂ -> ሄ",
+      "reason": "The glyph has the 5th order ring 'ሄ' ('ሄዳችሁ') rather than 3rd order 'ሂ'."
+    }
+  ]
+}

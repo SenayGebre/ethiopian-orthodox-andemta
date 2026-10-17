@@ -1,0 +1,44 @@
+{
+  "pdf_page": 35,
+  "book_page_ethiopic": "፭፻፵፭",
+  "elapsed_sec": 19.2,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 10,
+      "old_text": "ዚሀም የበለጠ ሥራ ያሳየዋል ፥",
+      "corrected_text": "ዚሁም የበለጠ ሥራ ያሳየዋል ፥",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሀ -> ሁ",
+      "reason": "The word split across L09-L10 is ከዚሁም ('more than this'). The 2nd-order vowel mark on ሁ was slightly faint and misread as ሀ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 22,
+      "old_text": "ቹም ነው ።",
+      "corrected_text": "ቱም ነው ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቹ -> ቱ",
+      "reason": "Joined with L21 ለሁላ-, the printed word is ለሁላቱም ('for both of them', referring to the Father and the Son). The crossbar of ቱ was misread as ቹ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 32,
+      "old_text": "⟪ከመ ኵሉ ሰብእ ያክብርዎ ለ↵",
+      "corrected_text": "⟪ከመ ኵሉ ሰብእ ያከብርዎ ለ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ክ -> ከ",
+      "reason": "Classical Ge'ez imperfect subjunctive of አክበረ with 3ms object suffix is ያከብርዎ (with 1st-order ከ, matching ያከብርዎ on the very next line)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 27,
+      "old_text": "ይገኛው ትንሣኤ ሥጋ እንዲበ↵",
+      "corrected_text": "ይኸኛው ትንሣኤ ሥጋ እንዲበ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ገ -> ኸ",
+      "reason": "The printed Amharic demonstrative is ይኸኛው ('this [resurrection of the flesh]'), contrasting with ከትንሣኤ ልቡና on L26. The top crown of ኸ was blurred by ink bleed and misread as ገ."
+    }
+  ]
+}

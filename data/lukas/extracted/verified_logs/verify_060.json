@@ -1,0 +1,26 @@
+{
+  "pdf_page": 60,
+  "book_page_ethiopic": "፬፻፵፪",
+  "elapsed_sec": 27.4,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 2,
+      "old_text": "ድስት ይሰጠዋል።አንድም ⟪አ",
+      "corrected_text": "ድስት ይሰጠዋል።አንድም ⟪እ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አ -> እ",
+      "reason": "The Ge'ez conditional particle at the end of line 2 joining onto line 3 is 'እመቦ ብእሲ' (Luke 11:5), with the 6th-order 'እ' clearly visible on the page."
+    },
+    {
+      "column_index": 3,
+      "line_num": 14,
+      "old_text": "⟪ኅሠ ወትረክቡ ።⟫",
+      "corrected_text": "⟪ኅሡ ወትረክቡ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኅሠ -> ኅሡ",
+      "reason": "In Luke 11:9 ('Seek and you shall find'), the plural imperative verb is 'ኅሡ' (with 2nd-order kā'eb 'ሡ' having the right-leg vowel tick), which was misread as 1st-order 'ሠ'."
+    }
+  ]
+}

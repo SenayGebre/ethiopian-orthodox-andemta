@@ -1,0 +1,44 @@
+{
+  "pdf_page": 88,
+  "book_page_ethiopic": "፬፻፸",
+  "elapsed_sec": 10.8,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 19,
+      "old_text": "በዚሀች እሳት ፈጽሜ ተቃጥ↵",
+      "corrected_text": "በዚሁች እሳት ፈጽሜ ተቃጥ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሀ -> ሁ",
+      "reason": "The second character in በዚሁች has the clear horizontal right-side stroke of 2nd-order ሁ (archaic Andemta form በዚሁች), misread as 1st-order ሀ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 25,
+      "old_text": "ወተ ሥጋ ሳለሀ ተድላ ታደ↵",
+      "corrected_text": "ወተ ሥጋ ሳለህ ተድላ ታደ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሀ -> ህ",
+      "reason": "2nd-person masculine singular ending ሳለህ is printed with 6th-order ህ, misread as 1st-order ሀ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 39,
+      "old_text": "ፍስ ትኖራለሀ ።",
+      "corrected_text": "ፍስ ትኖራለህ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሀ -> ህ",
+      "reason": "2nd-person masculine singular verb ending ትኖራለህ is printed with 6th-order ህ, misread as 1st-order ሀ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 34,
+      "old_text": "ደዚሀች ስቃይ ስፍራ እንዳይ↵",
+      "corrected_text": "ደዚሁች ስቃይ ስፍራ እንዳይ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሀ -> ሁ",
+      "reason": "The glyph in ወደዚሁች has the right-side mid-stroke of 2nd-order ሁ (matching በዚሁች in Col 1 L19), misread as ሀ."
+    }
+  ]
+}

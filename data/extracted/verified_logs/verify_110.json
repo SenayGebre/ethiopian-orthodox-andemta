@@ -1,0 +1,53 @@
+{
+  "pdf_page": 110,
+  "book_page_ethiopic": "፪፻፳፱",
+  "elapsed_sec": 19.2,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 5,
+      "old_text": "ችው መልክ መልክም ነሽና",
+      "corrected_text": "ችው መልክ መልካም ነሽና",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ክ -> ካ",
+      "reason": "The printed glyph in the image is fourth-order 'ካ' in 'መልካም' ('መልክ መልካም ነሽና')."
+    },
+    {
+      "column_index": 1,
+      "line_num": 14,
+      "old_text": "ሲያሰነဒዋት የነበሩ አጋንንት",
+      "corrected_text": "ሲያሰናድዋት የነበሩ አጋንንት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ነ -> ና",
+      "reason": "The printed word is 'ሲያሰናድዋት' with fourth-order 'ና'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 4,
+      "old_text": "ዪይኝ ብለሃት ተከትላህ በወ↵",
+      "corrected_text": "ዪኝ ብለሃት ተከትላህ በወ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዪይኝ -> ዪኝ",
+      "reason": "The line begins with 'ዪኝ' (completing 'ተከተ↵ዪኝ' from L03), without an extra 'ይ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 8,
+      "old_text": "ማያት ብእሴ ነጋዴ ዘየኀሥ↵",
+      "corrected_text": "ማያት ብእሴ ሠያጤ ዘየኀሥ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ነጋዴ -> ሠያጤ",
+      "reason": "The image clearly prints the canonical Ge'ez word 'ሠያጤ' (merchant, Matt 13:45 'ብእሴ ሠያጤ'), which was erroneously replaced by its Amharic gloss 'ነጋዴ' in Draft Pass 1."
+    },
+    {
+      "column_index": 3,
+      "line_num": 9,
+      "old_text": "ሩ።አራዩ ኀረዩ በየኑ ቤጹ ይ↵",
+      "corrected_text": "ሩ።አረዩ ኀረዩ በየኑ ቤጹ ይ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ራ -> ረ",
+      "reason": "The printed Ge'ez lexical variant is 'አረዩ' (first-order 'ረ', parallel to 'ኀረዩ በየኑ ቤጹ'), not 'አራዩ'."
+    }
+  ]
+}

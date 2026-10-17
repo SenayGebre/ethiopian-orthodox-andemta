@@ -1,0 +1,26 @@
+{
+  "pdf_page": 5,
+  "book_page_ethiopic": "፻፳፭ | ፻፳፮",
+  "elapsed_sec": 21.9,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "⟪ወኢያለጕም ፡ ልሳኖ ።⟫",
+      "corrected_text": "⟪ወኢያለጕም ፡ ለልሳኑ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ልሳኖ -> ለልሳኑ",
+      "reason": "The printed Ge'ez scripture text on Col 1 Line 1 clearly reads 'ለልሳኑ' (with preposition ለ- and 2nd order ኑ), matching the parallel construction 'ለልቡ' in Line 4."
+    },
+    {
+      "column_index": 2,
+      "line_num": 3,
+      "old_text": "⟪ወትዕቀቡ ፡ ርእሰክሙ ፡ እምዓለም ፡ ዘእንበለ ፡ አብቃቁ ።⟫",
+      "corrected_text": "⟪ወትዕቀቡ ፡ ርእሰክሙ ፡ እምዓለም ፡ ዘእንበለ ፡ ሕብቃቁ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አብቃቁ -> ሕብቃቁ",
+      "reason": "Visually, the initial character has the distinct top crossbar and three vertical legs with the 6th-order hook of 'ሕ' (ሕብቃቁ, meaning 'spot/blemish' in Ge'ez James 1:27), which was misread as 'አ'."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "pdf_page": 24,
+  "book_page_ethiopic": "፭፻፴፬",
+  "elapsed_sec": 23.6,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 8,
+      "old_text": "⟪የሱስ ወአብዝኀ አጥምቆ እ⟫",
+      "corrected_text": "⟪የሱስ ወአብዝኁ አጥምቆ እ⟫",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኀ -> ኁ",
+      "reason": "The printed glyph in the image has the 2nd-order (ካዕብ) stroke on the right side of ኀ, reading ወአብዝኁ (plural verb matching በዝኁ አርዳኢሁ in line 7 and the Amharic translation አብዝተው እንዳጠመቁ in line 13)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 33,
+      "old_text": "⟪ስማ ሲካር ።⟫ ዘፍ፡ ፴፫ ፲፱ ፡ ዘሌ",
+      "corrected_text": "⟪ስማ ሲካር ።⟫ ዘፍ፡ ፴፫ ፲፱ ፡ ዘሴ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዘሌ -> ዘሴ",
+      "reason": "The final character has the two legs of ሴ (ዘሴ = ዘኢያሱ / Book of Joshua 24:32, the canonical cross-reference for Jacob's parcel of ground in Shechem), not the single-legged ሌ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 15,
+      "old_text": "የምንቀባው አጽቀ በለስ ቆር",
+      "corrected_text": "የምንቀባው አፅቀ በለስ ቆር",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አጽቀ -> አፅቀ",
+      "reason": "The printed character is clearly ፅ (with the circular head of ፀ), reading አፅቀ በለስ, not ጽ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 19,
+      "old_text": "ወረዱ ፡ አቤሜሌክም አጽቀ በ",
+      "corrected_text": "ወረዱ ፡ አቤሜሌክም አፅቀ በ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አጽቀ -> አፅቀ",
+      "reason": "The printed character is clearly ፅ (with the circular head of ፀ), reading አፅቀ በለሱን, not ጽ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 29,
+      "old_text": "የማያስኬደው ሆነ እንቅልፉስ",
+      "corrected_text": "የማያስኬደው ሁኖ እንቅልፉስ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሆነ -> ሁኖ",
+      "reason": "Inspecting the image shows ሁ (with the right-side ካዕብ mark) followed by ኖ (with the top ring of ሳብዕ), reading ሁኖ rather than ሆነ."
+    }
+  ]
+}

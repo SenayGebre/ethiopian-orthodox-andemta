@@ -1,0 +1,53 @@
+{
+  "pdf_page": 76,
+  "book_page_ethiopic": "፻፺፭",
+  "elapsed_sec": 13.8,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 36,
+      "old_text": "ከዚህ በኋላ ናሁ ብዙኀ ሰብእ",
+      "corrected_text": "ከዚህ በኋላ ናሁ ብዙኅ ሰብእ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኀ -> ኅ",
+      "reason": "In the nominative Ge'ez phrase 'ናሁ ብዙኅ ሰብእ ይደዓቅ ወይጣወቅ', the adjective modifies nominative 'ሰብእ' and is printed in the 6th order (ሳድስ) as 'ብዙኅ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 1,
+      "old_text": "ጅ እንዳይሉ አአምር ከመ ወ↵",
+      "corrected_text": "ጂ እንዳይሉ አአምር ከመ ወ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጅ -> ጂ",
+      "reason": "Completes 'እን↵ጂ' from the end of Column 2 Line 40; the 3rd order (ሣልስ) 'ጂ' is visible at the start of the line."
+    },
+    {
+      "column_index": 3,
+      "line_num": 11,
+      "old_text": "ሡ መምሕራን።እንተ ደም ይ↵",
+      "corrected_text": "ሡ መምህራን።እንተ ደም ይ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሕ -> ህ",
+      "reason": "The printed glyph in 'መምህራን' is 'ህ' (consistent with line 15 below), not 'ሕ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 30,
+      "old_text": "[፳፬] ⟪ወይቤሎሙ ተግኅሠ ።⟫",
+      "corrected_text": "[፳፬] ⟪ወይቤሎሙ ተግኅሡ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሠ -> ሡ",
+      "reason": "Canonical Ge'ez Matthew 9:24 plural imperative 'ተግኅሡ' (translated in the next line as plural 'ተመለሱ'); the 2nd order (ካዕብ) stroke on 'ሡ' is visible."
+    },
+    {
+      "column_index": 3,
+      "line_num": 40,
+      "old_text": "ያልሞተ የማያውቅ ያስነሣል",
+      "corrected_text": "ያልሞተ የማያውቅ ያስነሣል↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ያስነሣል -> ያስነሣል↵",
+      "reason": "The verb at the end of the page continues mid-word onto the next page ('ያስነሣል↵ናል ብሎ ይዞ መጣ')."
+    }
+  ]
+}

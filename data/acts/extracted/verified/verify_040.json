@@ -1,0 +1,35 @@
+{
+  "pdf_page": 40,
+  "book_page_ethiopic": "፷፪ | ፷፫",
+  "elapsed_sec": 15.9,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 26,
+      "old_text": "ሡተ ፡ ጊዜ ፡ ተሠዓት ፡ ሰዓት ፡ ዘመዓልት ፡⟫",
+      "corrected_text": "ሡተ ፡ ጊዜ ፡ ተሰዓት ፡ ሰዓት ፡ ዘመዓልት ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ተሠዓት -> ተሰዓት",
+      "reason": "The printed glyph in the Ge'ez root text uses Sat (ሰ) in 'ተሰዓት', not Sawt (ሠ)."
+    },
+    {
+      "column_index": 4,
+      "line_num": 5,
+      "old_text": "⟪ወይወርድ ፡ ከመ ፡ ዘሞጣሕት ፡ ዓቢይ ፡ ዲበ ፡ ምድር፡",
+      "corrected_text": "⟪ወይወርድ ፡ ከመ ፡ ዘሞጣሕት ፡ ዐቢይ ፡ ዲበ ፡ ምድር፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዓቢይ -> ዐቢይ",
+      "reason": "The printed initial character of 'ዐቢይ' is first-order 'ዐ' (without a fourth-order leg), matching classical Ge'ez orthography."
+    },
+    {
+      "column_index": 4,
+      "line_num": 6,
+      "old_text": "እኀዝ ፡ በአርባዕቱ ፡ ጽነፊሁ ።⟫",
+      "corrected_text": "እኁዝ ፡ በአርባዕቱ ፡ ጽነፊሁ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እኀዝ -> እኁዝ",
+      "reason": "Both the visual glyph (showing the 2nd-order ka'ib stroke on ኁ) and Ge'ez passive participle morphology ('እኁዝ' = held/bound) confirm 'እኁዝ'."
+    }
+  ]
+}

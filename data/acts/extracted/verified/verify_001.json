@@ -1,0 +1,26 @@
+{
+  "pdf_page": 1,
+  "book_page_ethiopic": "፩",
+  "elapsed_sec": 20.7,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 3,
+      "old_text": "ቀለም ፡ ነው ፡ ፊላ ፡ መፍቀሪ ፡ ታዎ ፡ ስመ ፡",
+      "corrected_text": "ቀለም ፡ ነው ፡ ፊላ ፡ መፍቀሬ ፡ ታዎ ፡ ስመ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "መፍቀሪ -> መፍቀሬ",
+      "reason": "Both the printed glyph (which has the 5th-order loop at the bottom of ሬ rather than the 3rd-order top-left serif of ሪ) and Classical Ge'ez morphology require the 5th-order agentive noun መፍቀሬ ('lover of')."
+    },
+    {
+      "column_index": 2,
+      "line_num": 15,
+      "old_text": "የሚመርጣቸው ፡ ቃለ ፡ ሥግው ፡ ነውና ።",
+      "corrected_text": "የሚመርጣቸው ፡ ቃል ፡ ሥግው ፡ ነውና ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቃለ -> ቃል",
+      "reason": "The printed text clearly shows the 6th-order ሳድስ glyph ል in ቃል ፡ ሥግው ('the Incarnate Word', noun + adjective), not the construct ቃለ."
+    }
+  ]
+}

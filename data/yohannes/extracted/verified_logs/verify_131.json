@@ -1,0 +1,35 @@
+{
+  "pdf_page": 131,
+  "book_page_ethiopic": "፮፻፵",
+  "elapsed_sec": 17.4,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 1,
+      "old_text": "ስድስተኛው ሰንጠረዠ ሁለቱ ወንጌላውያን ማቴዎስና ማርቆስ የሚተባበሩበት ።",
+      "corrected_text": "ስድስተኛው ሰንጠረዥ ሁለቱ ወንጌላውያን ማቴዎስና ማርቆስ የሚተባበሩበት ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዠ -> ዥ",
+      "reason": "The 6th-order ዥ in ሰንጠረዥ was misread as 1st-order ዠ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 3,
+      "old_text": "አስመሁ ኅብስተ ኢነሣዕክሙ ።",
+      "corrected_text": "እስመሁ ኅብስተ ኢነሣዕክሙ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አ -> እ",
+      "reason": "The initial character is 6th-order እ (እስመሁ, 'is it because...'), visually confirmed by the zig-zag middle stroke of እ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 28,
+      "old_text": "ወተሣለቅዎ ሰለብዎ።",
+      "corrected_text": "ወተሣሊቆሙ ሰለብዎ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ለቅዎ -> ሊቆሙ",
+      "reason": "The printed Ge'ez gerundive is clearly ወተሣሊቆሙ ('and having mocked him, they stripped him', Matt 27:31 / Mark 15:20), misread as ወተሣለቅዎ."
+    }
+  ]
+}

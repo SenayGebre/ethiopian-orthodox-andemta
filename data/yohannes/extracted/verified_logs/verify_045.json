@@ -1,0 +1,71 @@
+{
+  "pdf_page": 45,
+  "book_page_ethiopic": "፭፻፶፭",
+  "elapsed_sec": 38.6,
+  "applied_count": 7,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 21,
+      "old_text": "ኩክሙ ለ፲ወ፪ቱ ።⟫ ማቴ ፲ ፩ ፤ ፮",
+      "corrected_text": "ኩክሙ ለ፲ወ፪ቱ ።⟫ ማቴ ፲ ፩ ፤ ፬",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፮ -> ፬",
+      "reason": "The cross-reference for the choosing of the twelve apostles is Matthew 10:1-4 (ማቴ ፲ ፩ ፤ ፬), and the numeral ፬ is clearly visible on the page."
+    },
+    {
+      "column_index": 1,
+      "line_num": 22,
+      "old_text": "ማር ፫ ፳፱ ሉቃ ፬ ፳",
+      "corrected_text": "ማር ፫ ፲፬ ሉቃ ፮ ፲፫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፳፱ -> ፲፬, ፬ ፳ -> ፮ ፲፫",
+      "reason": "The canonical Gospel parallels for choosing the twelve are Mark 3:14 (ማር ፫ ፲፬) and Luke 6:13 (ሉቃ ፮ ፲፫), matching the printed Ethiopic numerals."
+    },
+    {
+      "column_index": 1,
+      "line_num": 27,
+      "old_text": "ነገር ግን በናንተ አንዱ ሰይ",
+      "corrected_text": "ነገር ግን ከናንተ አንዱ ሰይ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በናንተ -> ከናንተ",
+      "reason": "Translating Ge'ez 'እምኔክሙ' (from among you), the printed Amharic word begins with 'ከ' (ከናንተ), not 'በ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 10,
+      "old_text": "ሠ አይሁድ ከመ ይቅትልዎ ።⟫",
+      "corrected_text": "ዎ አይሁድ ከመ ይቅትልዎ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሠ -> ዎ",
+      "reason": "Completing 'የኀሥ↵ዎ' (they sought Him) from line 9; the glyph at the start of line 10 is clearly 'ዎ' with its top loop and single stem, not 'ሠ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 11,
+      "old_text": "አይሁድ ሊገሉት ይሻታልና ።",
+      "corrected_text": "አይሁድ ሊገሉት ይሻሉና ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ይሻታልና -> ይሻሉና",
+      "reason": "Visual inspection and Amharic grammar confirm the plural verb 'ይሻሉና' (for they seek [to kill him]), where 'ሉ' was misread as 'ታል'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 28,
+      "old_text": "ራ ። አንድም በጸያፍ የገባ ነው",
+      "corrected_text": "ሬ ። አንድም በጸያፍ የገባ ነው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ራ -> ሬ",
+      "reason": "Completing 'ትግ↵ሬ' from line 27; the 5th-order ring at the bottom of 'ሬ' is visible."
+    },
+    {
+      "column_index": 3,
+      "line_num": 1,
+      "old_text": "ከጉባዔው ከዋላ ዶቀ መዝሙ",
+      "corrected_text": "ከጉባዔው ከዋለ ደቀ መዝሙ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከዋላ ዶቀ -> ከዋለ ደቀ",
+      "reason": "In the Andemta explanation of 'አርዳኢከኒ' (your disciples), the text reads 'ከጉባዔው ከዋለ ደቀ መዝሙር ማለት ልማድ ነው' (if one spends time in the assembly, it is customary to call him a disciple)."
+    }
+  ]
+}

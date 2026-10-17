@@ -1,0 +1,35 @@
+{
+  "pdf_page": 47,
+  "book_page_ethiopic": "፻፷፮",
+  "elapsed_sec": 15.6,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 11,
+      "old_text": "ም አፍርጁን ሽንኵርቱን በም↵",
+      "corrected_text": "ም አፍርንጁን ሽንኵርቱን በም↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አፍርጁን -> አፍርንጁን",
+      "reason": "The printed text in Column 1, Line 11 clearly contains the letter ን in አፍርንጁን (matching ለአፍርንጁ in Line 15)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 28,
+      "old_text": "ት ናችሁ ፡ እናንተ አብነት ካ↵",
+      "corrected_text": "ተ ናችሁ ፡ እናንተ አብነት ካ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ት -> ተ",
+      "reason": "The word wrapping from Line 27 (እናን↵ተ) begins Line 28 with first-order ተ, not sixth-order ት."
+    },
+    {
+      "column_index": 3,
+      "line_num": 5,
+      "old_text": "ሐተታ ፤ ምነው በሚያመጣው",
+      "corrected_text": "ሐተታ ፤ ምነው በሚመጣው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በሚያመጣው -> በሚመጣው",
+      "reason": "The printed word at the end of Column 3, Line 5 has five characters (በሚመጣው, 'in what is to come / the upcoming passage'), without ያ."
+    }
+  ]
+}

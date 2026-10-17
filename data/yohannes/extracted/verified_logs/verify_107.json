@@ -1,0 +1,35 @@
+{
+  "pdf_page": 107,
+  "book_page_ethiopic": "፮፻፲፯",
+  "elapsed_sec": 15.0,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 21,
+      "old_text": "⟪ወመነ ተኃሥषि ፡⟫",
+      "corrected_text": "⟪ወመነ ተኃሥዪ ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "षि -> ዪ",
+      "reason": "Stage-1 OCR hallucinated a non-Ethiopic Devanagari character in place of the Ge'ez Fidel 'ዪ' in 'ተኃሥዪ' (John 20:13, matching Col 2 L05)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 27,
+      "old_text": "⟪ወኢየአምር ኀበ ሠሰድዎ ።⟫",
+      "corrected_text": "⟪ወኢየአምር ኀበ ወሰድዎ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሠሰድዎ -> ወሰድዎ",
+      "reason": "Slight ink bleed at the top of 'ወ' caused it to be misread as 'ሠ'; both the image and Ge'ez grammar ('ኀበ ወሰድዎ' - where they have laid/taken Him, translated in L28 as 'ከወሰዱበት') confirm 'ወሰድዎ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 24,
+      "old_text": "ዜነወት ዘንተ ዘከመ ይቤላ ።",
+      "corrected_text": "⟪ዜነወት ዘንተ ዘከመ ይቤላ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዜነወት -> ⟪ዜነወት",
+      "reason": "This line is the second part of the root Ge'ez Gospel verse (John 20:18) and should be enclosed in root Ge'ez markers."
+    }
+  ]
+}

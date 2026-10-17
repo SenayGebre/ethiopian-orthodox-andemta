@@ -1,0 +1,62 @@
+{
+  "pdf_page": 87,
+  "book_page_ethiopic": "፭፻፺፯",
+  "elapsed_sec": 28.3,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 12,
+      "old_text": "አባ ምኔቱ ሲቀድስ የሚለብ",
+      "corrected_text": "አበ ምኔቱ ሲቀድስ የሚለብ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አባ -> አበ",
+      "reason": "The printed glyph is 1st-order በ in the standard compound title 'አበ ምኔቱ' (Abbot), with two equal-length legs, not 4th-order ባ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 25,
+      "old_text": "ምጥቶ አኑሮት ሄደ መጥተው",
+      "corrected_text": "ምጥቶ አኑሮት ሂደ መጥተው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሄደ -> ሂደ",
+      "reason": "The printed glyph has the 3rd-order right-pointing foot of ሂ ('ሂደ'), matching 'ሂዶ' (L18) and 'ሂድ' (L24) on the same column."
+    },
+    {
+      "column_index": 3,
+      "line_num": 26,
+      "old_text": "እጅ ነሱ ፡ ወጥቶ ምነው አላ",
+      "corrected_text": "እጅ ዳፉ ፡ ወጥቶ ምነው አላ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ነሱ -> ዳፉ",
+      "reason": "Visually the two characters are ዳፉ ('እጅ ዳፉ', the monastic idiom for knocking/patting on a cell door with the hand before entering: 'መጥተው እጅ ዳፉ ፡ ወጥቶ ምነው አላቸው'), misread as ነሱ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 35,
+      "old_text": "ማፈ ግለው ገርፈው መግደ",
+      "corrected_text": "ማራ ብለው ገርፈው ውግድ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ማፈ ግለው ... መግደ -> ማራ ብለው ... ውግድ",
+      "reason": "Joining with L34 'ቀ-', the word is 'ቀማራ' ('ላይ ደህና ውስጥ ቀማራ ብለው', 'calling him outwardly righteous, inwardly a thief/rogue'), followed by 'ገርፈው ውግድ ውጣልን አሉት' ('having flogged him, they said: Away, get out from among us!'). Note that 'ውግድ' is a complete word and does not wrap."
+    },
+    {
+      "column_index": 3,
+      "line_num": 37,
+      "old_text": "አቀጣለሁን ቀኖናዬን ስጡኝና",
+      "corrected_text": "እቀጣለሁን ቀኖናዬን ስጡኝና",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አቀጣለሁን -> እቀጣለሁን",
+      "reason": "Both visually (6th-order እ with the central zig-zag) and grammatically, the 1st-person passive rhetorical question is 'ሁለት ቅጣት እቀጣለሁን' ('Shall I be punished with two punishments?')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 40,
+      "old_text": "ም አሉት ልብሱን አናንሣው",
+      "corrected_text": "ም አሉት ልብሱን እናንሣው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አናንሣው -> እናንሣው",
+      "reason": "Continuing onto the next page ('እናንሣው ቢሉት የማይነሣ ሆነ', 'When they tried to lift the vestment, saying Let us lift it, it could not be lifted'), the initial character is 6th-order እ (1st plural jussive affirmative), not 1st-order አ."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "pdf_page": 71,
+  "book_page_ethiopic": "፻፺",
+  "elapsed_sec": 15.5,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 10,
+      "old_text": "ቀደም እየበዙ ሊወርሷት ቢታ↵",
+      "corrected_text": "ቀደም እየበዙ ሲወርሷት ቢታ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሊ -> ሲ",
+      "reason": "The glyph has the top horizontal bar of 'ሲ' ('ሲወርሷት' - when they inherit it gradually), misread as 'ሊ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 6,
+      "old_text": "ሞተ መስሏቸው ሊበሉ ይቀ↵",
+      "corrected_text": "ሞተ መስሏቸው ሊበሉት ይቀ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሊበሉ -> ሊበሉት",
+      "reason": "In the image, 'ሊበሉት' is clearly printed with the object suffix 'ት' before 'ይቀርባሉ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 7,
+      "old_text": "ርባሉ እያነቀ ከጉድጓድ ይ↵",
+      "corrected_text": "ርባሉ እያነቀ ከጉድጓዱ ይ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ድ -> ዱ",
+      "reason": "The second 'ድ' in 'ከጉድጓዱ' has the 2nd-order vowel stroke on the right ('ዱ', matching L04 'ከጉድጓዱ')."
+    },
+    {
+      "column_index": 2,
+      "line_num": 13,
+      "old_text": "ቢረታ ዳኝነት ቢረታ መማለ↵",
+      "corrected_text": "ቢረታ ዳኝነት ቢረቱ መማለ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ታ -> ቱ",
+      "reason": "Standard Andemta legal contrast: 'ቢረታ ዳኝነት ቢረቱ መማለጃ ይበሉታልና' (if he wins the case, they eat court fees; if he loses [passive ቢረቱ/ቢረታ], they eat bribes), and the second 'ቢረቱ' shows the side stroke of 'ቱ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 9,
+      "old_text": "ባለው አቡካር የሚል አብነት",
+      "corrected_text": "ባለው አውካር የሚል አብነት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቡ -> ው",
+      "reason": "The printed text reads 'አውካር' (variant manuscript reading for 'ምጽላል' / nest/boudoir) with 'ው' (or 'ብው'), where the rounded loop is 'ው'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 17,
+      "old_text": "አለው።ከገብዔው ከዋለ ሁሉ↵",
+      "corrected_text": "አለው።ከጉባዔው ከዋለ ሁሉ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ገብ -> ጉባ",
+      "reason": "The printed word is 'ከጉባዔው' (if he spent time in the assembly/gathering, it is customary to call everyone a disciple), misread as 'ከገብዔው'."
+    }
+  ]
+}

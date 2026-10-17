@@ -1,0 +1,17 @@
+{
+  "pdf_page": 198,
+  "book_page_ethiopic": "፫፻፲፮",
+  "elapsed_sec": 14.1,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 3,
+      "old_text": "በእንተ ሣህል ዘክርስቲያን ። ቍ ፲፰",
+      "corrected_text": "በእንተ ሣህል ዘክርስቲያን ። ቍ ፳፩",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፲፰ -> ፳፩",
+      "reason": "Visually in the zoomed image and canonically (Matthew 18:21, between v. 15 on L02 and v. 23 on L05), the verse numeral is ፳፩ (21), misread as ፲፰ (18)."
+    }
+  ]
+}

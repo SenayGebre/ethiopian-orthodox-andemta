@@ -1,0 +1,44 @@
+{
+  "pdf_page": 59,
+  "book_page_ethiopic": "፬፻፳፬ | ፬፻፳፭",
+  "elapsed_sec": 34.0,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 9,
+      "old_text": "⟪ወይጸውር ፡ መራኁተ ፡ ዕሐይ ።⟫",
+      "corrected_text": "⟪ወይጸውር ፡ መራኁተ ፡ ፀሐይ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዕሐይ -> ፀሐይ",
+      "reason": "The inner horizontal stroke of 'ፀ' is faint in the print, causing it to be misread as 'ዕ'; confirmed by both the glyph shape and the parallel citation in L11 ('መራኁተ ፡ አወፍዮ ፡ ለፀሐይ')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 29,
+      "old_text": "ክርስቶስ ፡ ወይነግሡም ፡ ስሌሁ ፡ ፲ተ ፡ ፻ተ ፡ ዓመተ ።⟫",
+      "corrected_text": "ክርስቶስ ፡ ወይነግሡ ፡ ምስሌሁ ፡ ፲ተ ፡ ፻ተ ፡ ዓመተ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወይነግሡም ፡ ስሌሁ -> ወይነግሡ ፡ ምስሌሁ",
+      "reason": "The word separator colon is printed after 'ወይነግሡ' and before 'ምስሌሁ' (Ge'ez preposition 'with him', cf. Col 4 L19 '(ወይነግሡ ፡ ምስሌሁ)')."
+    },
+    {
+      "column_index": 4,
+      "line_num": 16,
+      "old_text": "በሊህ ፡ ላይ ፡ ለሞት ፡ ሥልጣን ፡ የለው↵",
+      "corrected_text": "በኒህ ፡ ላይ ፡ ለሞት ፡ ሥልጣን ፡ የለው",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በሊህ -> በኒህ",
+      "reason": "The printed glyph is 'ኒ' in the standard Andemta demonstrative 'በኒህ ፡ ላይ' (translating Ge'ez 'ላዕለ ፡ እሉ' from Col 3 L26), misread as 'ሊ'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 20,
+      "old_text": "ጋራ። ተዋሕደው፡ ሽሕ፡ ዘመን፡ነግሠው ፡",
+      "corrected_text": "ጋራ ፡ ተዋሕደው፡ ሽሕ፡ ዘመን፡ነግሠው ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጋራ። -> ጋራ ፡",
+      "reason": "The punctuation after 'ጋራ' is a single word-divider colon ('፡') with minor ink spread, as 'ከሱ ፡ ጋራ ፡ ተዋሕደው' is a continuous phrase."
+    }
+  ]
+}

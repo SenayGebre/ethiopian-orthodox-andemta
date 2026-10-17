@@ -1,0 +1,26 @@
+{
+  "pdf_page": 9,
+  "book_page_ethiopic": "፫፻፳፬ | ፫፻፳፭",
+  "elapsed_sec": 14.3,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 10,
+      "old_text": "አለ ፡ ብለህ ፡ (ጥቅ) ፡ እግዚአ ፡ አኃዜ ፡",
+      "corrected_text": "አለ ፡ ብለህ ፡ (ጥቅ) ፡ እግዚእ ፡ አኃዜ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እግዚአ -> እግዚእ",
+      "reason": "The final Fidel of እግዚእ is clearly 6th-order ሳድስ (እ) with its left-turning hook, matching the nominative/vocative title እግዚእ አኃዜ ኵሉ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 29,
+      "old_text": "የኒቆላውያን፡ ግብር ፡ ድል፡ የነሣ፡ እንዳይ",
+      "corrected_text": "የኒቆላውያን፡ ግብር ፡ ድል፡ የነሣ፡ እንዳይ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እንዳይ -> እንዳይ↵ጎዳ",
+      "reason": "The word እንዳይጎዳ splits across the line break between line 29 (እንዳይ) and line 30 (ጎዳ)."
+    }
+  ]
+}

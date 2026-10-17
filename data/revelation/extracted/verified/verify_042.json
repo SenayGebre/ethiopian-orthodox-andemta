@@ -1,0 +1,35 @@
+{
+  "pdf_page": 42,
+  "book_page_ethiopic": "፬፻፵ | ፬፻፵፩",
+  "elapsed_sec": 20.8,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "ጎሙስ ፡ ወደ ፡ እንጦርጦስ ፡ አውርዶ",
+      "corrected_text": "ኀሙስ ፡ ወደ ፡ እንጦርጦስ ፡ አውርዶ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጎሙስ -> ኀሙስ",
+      "reason": "Following 'ረቡዕ' (Wednesday) at the end of the previous page, the printed word is 'ኀሙስ' (Thursday); the top-left hook of 'ኀ' was misread as 'ጎ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 2,
+      "old_text": "ታል ፡ በዚሀ፡ የእሱ ፡ ወገን፡ ከሦስት ፡ተከ",
+      "corrected_text": "ታል ፡ በዚህ፡ የእሱ ፡ ወገን፡ ከሦስት ፡ተከ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በዚሀ -> በዚህ",
+      "reason": "The 6th-order 'ህ' in 'በዚህ' (with its middle horizontal bar) was misread as 'ሀ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 6,
+      "old_text": "በዚህ ፡ ዓለም ፡ ቀርተዋል ፥ ነው ፡ ሲጊድ ፡",
+      "corrected_text": "በዚህ ፡ ዓለም ፡ ቀርተዋል ፥ ነው ፡ ስጊድ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሲጊድ -> ስጊድ",
+      "reason": "The printed word is 'ስጊድ' (prostration/worship, 'ስጊድ ይገባዋል'), with 6th-order 'ስ' rather than 'ሲ'."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "pdf_page": 46,
+  "book_page_ethiopic": "፬፻፶፰ | ፬፻፶፱",
+  "elapsed_sec": 13.4,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 19,
+      "old_text": "ለሐሳዌ ፡ መሢሕ ፡ የሰገደ ፡ በሐሳዌ ፡ መ",
+      "corrected_text": "ለሐሳዌ ፡ መሢሕ ፡ የሰገደ ፡ በሐሳዌ ፡ መ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሳ -> ሳ",
+      "reason": "Wait, let's check Col 2 L20: ለተሳለው vs ለተሣለው, Col 3 L29: ለተሳማው -> ለተሣለው."
+    },
+    {
+      "column_index": 2,
+      "line_num": 20,
+      "old_text": "ሢሕ ፡ ለተሳለው ፡ ሥዕል ፡ ለተመሰለው፡",
+      "corrected_text": "ሢሕ ፡ ለተሣለው ፡ ሥዕል ፡ ለተመሰለው፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ለተሳለው -> ለተሣለው",
+      "reason": "The printed glyph in Col 2 L20 has the double-pronged crown of ሣ (ለተሣለው ሥዕል, 'for the painted image'), which was misread as ሳ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 29,
+      "old_text": "ለሐሳዌ፡መሢሕ፡የሰገዱ፡ አለ፡ ለተሳማው፡",
+      "corrected_text": "ለሐሳዌ፡መሢሕ፡የሰገዱ፡ አለ፡ ለተሣለው፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ለተሳማው -> ለተሣለው",
+      "reason": "In Col 3 L29, the word before ሥዕል is clearly printed ለተሣለው ('for the painted [image]', parallel to Col 2 L20), where ሣለ was misread as ሳማ due to ink bleed."
+    }
+  ]
+}

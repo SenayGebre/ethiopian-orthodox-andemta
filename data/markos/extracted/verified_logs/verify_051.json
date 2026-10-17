@@ -1,0 +1,17 @@
+{
+  "pdf_page": 51,
+  "book_page_ethiopic": "፫፻፸",
+  "elapsed_sec": 13.8,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 14,
+      "old_text": "⟪ወሐመይዎ ለኢየሱስ ።⟫",
+      "corrected_text": "⟪ወአመይዎ ለኢየሱስ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሐ -> አ",
+      "reason": "The printed glyph in the image is clearly አ (ወአመይዎ, from አመየ 'to bind/fetter', translated in L15 as አሠሩት), not ሐ."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "pdf_page": 13,
+  "book_page_ethiopic": "፫፻፷፪ | ፫፻፷፫",
+  "elapsed_sec": 9.0,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 14,
+      "old_text": "ማቅናት፡ ምስጢርን ፡ በልቡና ፡ መሳል ፡",
+      "corrected_text": "ማቅናት፡ ምስጢርን ፡ በልቡና ፡ መሣል ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሳ -> ሣ",
+      "reason": "The printed glyph in መሣል clearly shows the three-pronged ሠ (ንጉሥ ሠ) in the 4th order (ሣ), which is the standard orthography for 'to depict/paint' in the mind."
+    }
+  ]
+}

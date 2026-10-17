@@ -1,0 +1,35 @@
+{
+  "pdf_page": 156,
+  "book_page_ethiopic": "፪፻፸፭",
+  "elapsed_sec": 15.5,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 26,
+      "old_text": "ግን እዝኑ ፈሶ ጋጥማቱ ተበ",
+      "corrected_text": "ግን እዡ ፈሶ ጋጥማቱ ተበ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዝኑ -> ዡ",
+      "reason": "The wide Fidel ዡ in እዡ ('its pus/ichor having flowed out', describing a decomposing corpse inside a tomb) was misread as two characters ዝኑ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 15,
+      "old_text": "ከሳቸው ጋራ አንድ ባልሆነ",
+      "corrected_text": "ከሳቸው ጋራ አንድ ባልሆን",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ነ -> ን",
+      "reason": "First person plural conditional ባልሆንም ነበር (translating Ge'ez እምኢተሣተፍነ) is printed with 6th-order ን at the end of line 15."
+    },
+    {
+      "column_index": 3,
+      "line_num": 35,
+      "old_text": "[፴፫] ⟪አትውልደ አራዊተ ምድር እ⟫",
+      "corrected_text": "[፴፫] ⟪ኦትውልደ አራዊተ ምድር እ⟫",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አ -> ኦ",
+      "reason": "Canonical Ge'ez vocative particle ኦ in ኦትውልደ አራዊተ ምድር (Matthew 23:33) was misread as 1st-order አ."
+    }
+  ]
+}

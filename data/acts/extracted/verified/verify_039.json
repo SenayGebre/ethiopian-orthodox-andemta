@@ -1,0 +1,89 @@
+{
+  "pdf_page": 39,
+  "book_page_ethiopic": "፸ | ፸፩",
+  "elapsed_sec": 40.5,
+  "applied_count": 9,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "ሰደዱት ፡ ምርጽ ፡ ዕቃ ፡ ብሎታልና ፡",
+      "corrected_text": "ሰደዱት ፡ ምርፅ ፡ ዕቃ ፡ ብሎታልና ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጽ -> ፅ",
+      "reason": "The printed glyph is ፅ (6th order ፀ with the central crossbar), matching the Ge'ez root ኅሩይ/ምርፅ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 33,
+      "old_text": "ሠላሳ ፡ ስምንት ፡ ቢል ፡ የታመቸ ፡ ስም",
+      "corrected_text": "ሠላሳ ፡ ስምንት ፡ ቢል ፡ የታመመ ፡ ስም",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቸ -> መ",
+      "reason": "The word is የታመመ ('who was sick', contrasting with የዳነበትን 'when he was healed' on the next line); ink bleed on the second መ made it look like ቸ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 34,
+      "old_text": "ንት ፡ ቢል ፡ የዳናበትን ፡ ለይቶ ፡ ሌላ ፡",
+      "corrected_text": "ንት ፡ ቢል ፡ የዳነበትን ፡ ለይቶ ፡ ሌላ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ና -> ነ",
+      "reason": "Both legs of 1st-order ነ are clearly visible in የዳነበትን ('the time in which he was healed')."
+    },
+    {
+      "column_index": 2,
+      "line_num": 1,
+      "old_text": "ነው ፡ ቢሉ ፡ ስምንት ፡ ቢል ፡ የታመቸ ፡",
+      "corrected_text": "ነው ፡ ቢሉ ፡ ስምንት ፡ ቢል ፡ የታመመ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቸ -> መ",
+      "reason": "The word is የታመመ ('that he was sick for eight years'), matching the parallel phrase in Column 1 Line 33."
+    },
+    {
+      "column_index": 2,
+      "line_num": 22,
+      "old_text": "ባዩት ፡ ጊዜ፡ በጌታችን፡ አያመኑ፡ ከገቢረ፡",
+      "corrected_text": "ባዩት ፡ ጊዜ፡ በጌታችን፡ እያመኑ፡ ከገቢረ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አ -> እ",
+      "reason": "Visual inspection and Amharic grammar confirm 6th-order እ in እያመኑ ('believing in our Lord, they turned...'), not negative አያመኑ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 2,
+      "old_text": "ፊያ ፡ አሳዩት ። አንድም ፡ ዘዐራዛቶን ፡",
+      "corrected_text": "ፊያ ፡ አሳዩት ። አንድም ፡ ዘዐራዘቶን ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዛ -> ዘ",
+      "reason": "Both legs of 1st-order ዘ are equal in length in the Ge'ez variant reading ዘዐራዘቶን."
+    },
+    {
+      "column_index": 4,
+      "line_num": 19,
+      "old_text": "⟪፵፩ ፤ ወመጠዋ ፡ እዴሁ ፡ ወአንሥአ ፡⟫",
+      "corrected_text": "⟪፵፩ ፤ ወመጠዋ ፡ እዴሁ ፡ ወአንሥኣ ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አ -> ኣ",
+      "reason": "The 4th-order feminine object suffix ኣ in ወአንሥኣ ('and he raised her up') is visible with the shortened left leg."
+    },
+    {
+      "column_index": 4,
+      "line_num": 29,
+      "old_text": "⟪፵፪ ፤ ወሰምዐ ፡ ኵሉ ፡ ኢዮጴ ፡ ወአምኑ ፡ ብዙ",
+      "corrected_text": "⟪፵፪ ፤ ወሰምዑ ፡ ኵሉ ፡ ኢዮጴ ፡ ወአምኑ ፡ ብዙ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዐ -> ዑ",
+      "reason": "The 2nd-order plural verb ending ዑ in ወሰምዑ is visible on the right side of the character, matching plural ወአምኑ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 33,
+      "old_text": "አመኑ ፡ ዮሐ ፡ ፳ ፥ ፵ ። ፲ ፥ ፵፪ ።",
+      "corrected_text": "አመኑ ፡ ዮሐ ፡ ፲ ፥ ፵ ። ፲ ፥ ፵፪ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፳ -> ፲",
+      "reason": "The cross-reference is John 10:40, 10:42 (ዮሐ ፡ ፲ ፥ ፵ ። ፲ ፥ ፵፪ ።); ink bleed at the base of ፲ made it look like ፳."
+    }
+  ]
+}

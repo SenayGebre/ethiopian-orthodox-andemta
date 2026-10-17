@@ -1,0 +1,53 @@
+{
+  "pdf_page": 129,
+  "book_page_ethiopic": "፪፻፵፰",
+  "elapsed_sec": 15.9,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 29,
+      "old_text": "⟪ሕይወት ሐንካሰከ ወጽውሰከ⟫",
+      "corrected_text": "⟪ሕይወት ሐንካሰከ ወጽውስከ⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሰ -> ስ",
+      "reason": "The printed glyph in ወጽውስከ clearly shows the 6th-order ሳድስ 'ስ' with its top-left bend, matching the Ge'ez adjective ጽውስ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 38,
+      "old_text": "⟪ዘተኃጉለ ።⟫ ሉቃ ፲፱ ፲ ።",
+      "corrected_text": "⟪ዘተኃጐለ ።⟫ ሉቃ ፲፱ ፲ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጉ -> ጐ",
+      "reason": "The printed glyph is the labiovelar 'ጐ' (ዘተኃጐለ), not 2nd-order 'ጉ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 3,
+      "old_text": "ውን ሊያድን ሰው ሁኗዋልና ።",
+      "corrected_text": "ውን ሊያድን ሰው ሁኗልና ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሁኗዋልና -> ሁኗልና",
+      "reason": "The printed word has four characters (ሁኗልና) with no extra 'ዋ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 4,
+      "old_text": "[፲፪] ⟪ምንተ ትብሉ ።⟫ ሉቃ ፲፫ ፬ ።",
+      "corrected_text": "[፲፪] ⟪ምንተ ትብሉ ።⟫ ሉቃ ፲፭ ፬ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፲፫ -> ፲፭",
+      "reason": "The cross-reference numeral is clearly ፲፭ (Luke 15:4, the Parable of the Lost Sheep), where '፭' was misread as '፫'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 15,
+      "old_text": "የጠፋበትን ሊፈልግ ይሂድ የ↵",
+      "corrected_text": "የጠፋበትን ሊፈልግ ይሄድ የ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሂ -> ሄ",
+      "reason": "The printed character clearly has the 5th-order ኃምስ loop at the bottom of the right leg (ይሄድ), not 3rd-order 'ሂ'."
+    }
+  ]
+}

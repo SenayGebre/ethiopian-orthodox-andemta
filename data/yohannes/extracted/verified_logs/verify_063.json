@@ -1,0 +1,26 @@
+{
+  "pdf_page": 63,
+  "book_page_ethiopic": "፭፻፸፫",
+  "elapsed_sec": 9.1,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 25,
+      "old_text": "በር ደቅሐሙ በመድቅሐ እ",
+      "corrected_text": "በር ደቅሖሙ በመድቅሐ እ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ደቅሐሙ -> ደቅሖሙ",
+      "reason": "The 7th-order vowel mark on ሖ (ደቅሖሙ, Ge'ez verbal noun + 3mp suffix 'their crowding/gathering in the courtyard') was misread as 1st-order ሐ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 30,
+      "old_text": "አልፍሞስ መባልስ ይባላሉ",
+      "corrected_text": "አልκιሞስ መናልስ ይባላሉ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አልፍሞስ መባልስ -> አልኪሞስ መናልስ",
+      "reason": "Wait: let's check the actual printed glyphs on Col 3 L30: the printed book actually has አልፍሞስ መባልስ (a known scribal/print corruption of Alcimus and Menelaus in the Andemta). Let's preserve what is printed and note it in remaining_uncertain instead."
+    }
+  ]
+}

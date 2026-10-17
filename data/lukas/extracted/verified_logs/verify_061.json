@@ -1,0 +1,62 @@
+{
+  "pdf_page": 61,
+  "book_page_ethiopic": "፬፻፵፫",
+  "elapsed_sec": 16.0,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 10,
+      "old_text": "መ ወጽሙመ ።⟫ ማቴ ፱ ፴፩ ፡",
+      "corrected_text": "መ ወጽሙመ ።⟫ ማቴ ፱ ፴፪ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፴፩ -> ፴፪",
+      "reason": "The cross-reference to Matthew 9:32 clearly prints ፴፪ (32) rather than ፴፩ (31)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 34,
+      "old_text": "⟪ወየኀሥሠ ትእምርተ እምሰ",
+      "corrected_text": "⟪ወየኀሥሡ ትእምርተ እምሰ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወየኀሥሠ -> ወየኀሥሡ",
+      "reason": "In Ge'ez Luke 11:16, the 3rd person masculine plural imperfect verb is ወየኀሥሡ ('and they were seeking'), with the 2nd order (ካዕብ) suffix on ሡ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 38,
+      "old_text": "⟪ወውእቱ አእመሮሙ ሀይሂልቦ",
+      "corrected_text": "⟪ወውእቱ አእመሮሙ ኅሊና ልቦ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሀይሂልቦ -> ኅሊና ልቦ",
+      "reason": "Canonical Ge'ez Luke 11:17 reads 'ወውእቱ አእመሮሙ ኅሊና ልቦሙ' (knowing the thoughts of their hearts), where the cramped bottom-line glyphs ኅሊና ልቦ were misread as ሀይሂልቦ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 28,
+      "old_text": "⟪ወበእንተ ዝንቱ ይዘለፉክሙ ።⟫",
+      "corrected_text": "⟪ወበእንተ ዝንቱ ይኰንኑክሙ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ይዘለፉክሙ -> ይኰንኑክሙ",
+      "reason": "Both the printed image and canonical Ge'ez Luke 11:19 read ይኰንኑክሙ ('they shall be your judges', glossed in L29 as ይፈራረዱባችኋል)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 29,
+      "old_text": "ስለዚህ እርሳቸው ይፈራረዱ",
+      "corrected_text": "ስለዚህ እርሳቸው ይፈራረዱባ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ይፈራረዱ -> ይፈራረዱባ",
+      "reason": "At the end of line 29, there is a slightly faded ባ after ይፈራረዱ, forming the grammatically required Amharic verb ይፈራረዱባችኋል across the line wrap."
+    },
+    {
+      "column_index": 3,
+      "line_num": 31,
+      "old_text": "⟪ዘኢሀሎ ምስሌየ ሰድውየ ው",
+      "corrected_text": "⟪ዘኢሀሎ ምስሌየ ፀርየ ው",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሰድውየ -> ፀርየ",
+      "reason": "Canonical Ge'ez Luke 11:23 reads 'ዘኢሀሎ ምስሌየ ፀርየ ውእቱ' (glossed as ባለጋራዬ ነው in L33-34). The printed text has ፀርየ (with a smudge/space), which was misread as ሰድውየ."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "pdf_page": 91,
+  "book_page_ethiopic": "፪፻፲",
+  "elapsed_sec": 26.8,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 22,
+      "old_text": "ሰብዕ ትላለችና ።ሕግሰ መዊሐ",
+      "corrected_text": "ሰብዕ ትላለችና ።ሕግሰ መዋሐ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዊ -> ዋ",
+      "reason": "The printed Ge'ez word across L22-L23 is 'መዋሐዊት' (4th order ዋ, from መዋሐዊ 'oceanic/billowing'), not 'መዊሐዊት'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 23,
+      "old_text": "ዊት ተፈነርኃት እንዲል ።አ",
+      "corrected_text": "ዊት ተፈ ፍርኃት እንዲል ።አ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ነ -> ፍ",
+      "reason": "The canonical Ge'ez citation is 'ሕግሰ መዋሐዊት ተፈ ፍርኃት' ('the Law is a billowing sea of fear'); the glyph after 'ተፈ' is clearly 'ፍ' ('ፍርኃት'), not 'ነ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 27,
+      "old_text": "ሔር ወበልዓ ኅብወዘ ቍርባ",
+      "corrected_text": "ሔር ወበልዓ ኅብስተ ቍርባ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወዘ -> ስተ",
+      "reason": "Canonical Matthew 12:4 Ge'ez text and the printed image clearly read 'ኅብስተ ቍርባን' (bread of the presence/offering), where 'ስተ' was misread as 'ወዘ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 6,
+      "old_text": "ን አልተመለከታችሁምን፡ይሥ",
+      "corrected_text": "ን አልተመለከታችሁምን፡ይስ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሥ -> ስ",
+      "reason": "The printed character at the end of the line is 'ስ' forming 'ይስዕርዋ' (matching L03 'ይስዕርዋ'), not 'ሥ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 18,
+      "old_text": "ሌያን ሲያገለግሉ ሰንበትን ቢ",
+      "corrected_text": "ሌውን ሲያገለግሉ ሰንበትን ቢ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ያ -> ው",
+      "reason": "The word wrapping from L17 'ምሳ↵ሌውን' (the type/symbol, contrasting with 'አማናዊ ቤተ መቅደስ እኔን' in L19-20) clearly has 'ው' at the start of L18, not 'ያ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 30,
+      "old_text": "ንቀፍ መሠዋዕት እኒህን አለ",
+      "corrected_text": "ንቀፍ መሥዋዕት እኒህን አለ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሠ -> ሥ",
+      "reason": "The printed glyph in 'መሥዋዕት' is 6th-order 'ሥ', not 1st-order 'ሠ'."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "pdf_page": 196,
+  "book_page_ethiopic": "፫፻፲፬",
+  "elapsed_sec": 15.3,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 7,
+      "old_text": "ለክርስቲያን ጸዊመ ፤ ቍ ፲፬",
+      "corrected_text": "ለክርስቲያን ጾዊመ ፤ ቍ ፲፬",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጸ -> ጾ",
+      "reason": "The printed glyph has the 7th-order loop on the right leg (ጾዊመ)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 6,
+      "old_text": "ሁለት ሰውሮች እንደ ተከተሉት ።",
+      "corrected_text": "ሁለት ዕውሮች እንደ ተከተሉት ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሰ -> ዕ",
+      "reason": "The initial character is ዕ (ዕውሮች, 'blind men', translating ፪ቱ ዕውራን in Col 1 L10), misread as ሰ."
+    }
+  ]
+}

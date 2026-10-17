@@ -1,0 +1,71 @@
+{
+  "pdf_page": 7,
+  "book_page_ethiopic": "፫፻፳፬ | ፫፻፳፭",
+  "elapsed_sec": 31.8,
+  "applied_count": 7,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 2,
+      "old_text": "ለከ ፡ ላንተ ፡ ሃይማኖት ፡ አለህ ፡ የሚልህ ፡",
+      "corrected_text": "ለከ ፡ ላንት ፡ ሃይማኖት ፡ አለህ ፡ የሚልህ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ላንተ -> ላንት",
+      "reason": "The printed glyph has the 6th-order cross-bar of ት (ላንት), consistent with lines 26 and 34 in the same column."
+    },
+    {
+      "column_index": 3,
+      "line_num": 14,
+      "old_text": "ው ፡ ምግባርየ ፡ እምነ ፡ ሃይማኖትየ ፡ በሎ፡",
+      "corrected_text": "ው ፡ ምግባርየ ፡ እምነ ፡ ሃይማኖትየ ፡ ብሎ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በሎ -> ብሎ",
+      "reason": "The first character at the end of the line clearly shows the left-side hook of 6th-order ብ (ብሎ፡)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 30,
+      "old_text": "ሆነ ፡ ታምናለህ ፡",
+      "corrected_text": "ሁነ ፡ ታምናለህ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሆነ -> ሁነ",
+      "reason": "The printed text uses the archaic 2nd-order ሁ (ሁነ) with the side stroke on the right leg, not ሆነ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 6,
+      "old_text": "ትሣቅየኒ ፡ ብለውታልና ።",
+      "corrected_text": "ትሣቅየነ ፡ ብለውታልና ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ትሣቅየኒ -> ትሣቅየነ",
+      "reason": "Both visually (1st-order ነ without a bottom horizontal foot) and grammatically (plural object suffix -ነ parallel to ትስድደነ in line 5, quoting Matt 8:29 by the demons), the word is ትሣቅየነ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 20,
+      "old_text": "ሆነች ፡ ታያለህን ፡ ታውቃለህን ፡",
+      "corrected_text": "ሁነች ፡ ታያለህን ፡ ታውቃለህን ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሆነች -> ሁነች",
+      "reason": "The printed glyph is the archaic Andemta form ሁነች with 2nd-order ሁ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 23,
+      "old_text": "ለት ፡ ታያለህን ፡ (ፍጹም ፡ እንደ ፡ ሆነ↵",
+      "corrected_text": "ለት ፡ ታያለህን ፡ (ፍጹም ፡ እንደ ፡ ሁነ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሆነ -> ሁነ",
+      "reason": "The printed glyph at the end of the line is the archaic Andemta form ሁነ (2nd-order ሁ) wrapping to ለት on the next line."
+    },
+    {
+      "column_index": 4,
+      "line_num": 28,
+      "old_text": "⟪ወተኰለቈ ፡ ጽድቀ ፡⟫",
+      "corrected_text": "⟪ወተኰለቆ ፡ ጽድቀ ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወተኰለቈ -> ወተኰለቆ",
+      "reason": "Canonical Ge'ez of James 2:23 and the visual glyph show 7th-order ቆ (ወተኰለቆ = ወተኰለቀ + ሎቱ/pronominal suffix -ኦ, translated in line 30 as ተቈጠረለት)."
+    }
+  ]
+}

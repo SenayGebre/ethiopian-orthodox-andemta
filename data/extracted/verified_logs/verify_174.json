@@ -1,0 +1,80 @@
+{
+  "pdf_page": 174,
+  "book_page_ethiopic": "፪፻፺፫",
+  "elapsed_sec": 16.4,
+  "applied_count": 8,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "ሀልስ የሚያወጣ የለኝም አላ",
+      "corrected_text": "ህልስ የሚያወጣ የለኝም አላ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሀ -> ህ",
+      "reason": "Rejoins with previous page ending 'ይህን ያ↵ህልስ' ('ይህን ያህልስ የሚያወጣ የለኝም አላት'). The first glyph is 6th order 'ህ' (narrower top opening), not 1st order 'ሀ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 10,
+      "old_text": "ት ሳለ ክልብሱ ላይ ወዘ በ",
+      "corrected_text": "ት ሳለ ከልብሱ ላይ ወዙ ቢ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ክ -> ከ, ወዘ -> ወዙ, በ -> ቢ",
+      "reason": "1) 'ከልብሱ ላይ' (1st order ከ, not ክ). 2) 'ወዙ' (his sweat, 2nd order ዙ with right side stroke). 3) 'ቢያጽቡት' (when they washed it, 3rd order ቢ wrapping to ያጽቡት, not በ)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 38,
+      "old_text": "ዝጎ እኔ ነኝ እኔ ነኝ ይባባሉ",
+      "corrected_text": "ዝህ እኔ ነኝ እኔ ነኝ ይባባሉ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጎ -> ህ",
+      "reason": "Rejoins with L37 'የማሲ↵ዝህ' ('የማሲዝህ እኔ ነኝ እኔ ነኝ ይባባሉ ጀመሩ', i.e. 'Is it I who will betray You?'). 6th order 'ህ' was misread as 'ጎ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 40,
+      "old_text": "ክነበሩ አዕባን አንዱን መጥ",
+      "corrected_text": "ከነበሩ አዕባን አንዱን መጥ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ክ -> ከ",
+      "reason": "Amharic preposition 'ከነበሩ አዕባን' (from the stones that were on Mount of Olives); 1st order 'ከ' was misread as 6th order 'ክ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 14,
+      "old_text": "ው ከመ የሃubuዎ ፴ብሩረ።⟫",
+      "corrected_text": "ው ከመ የሃብዎ ፴ብሩረ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "የሃubuዎ -> የሃብዎ",
+      "reason": "Corrupted Latin characters 'ubu' in Draft Pass 1 for Ge'ez 'የሃብዎ' (that they should give him)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 30,
+      "old_text": "ሥሐ ።⟫ ማር ፲፬፥፳፪ ። ሉቃ ፥ ፳",
+      "corrected_text": "ሥሐ ።⟫ ማር ፲፬፥፲፪ ። ሉቃ ፥ ፳",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "፳፪ -> ፲፪",
+      "reason": "The parallel reference for Matthew 26:17 in Mark is Mark 14:12 ('ማር ፲፬፥፲፪'), clearly printed as '፲፪' in the image, not '፳፪'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 33,
+      "old_text": "ዕለታት በመጀመሯዪቱ ቀን ።",
+      "corrected_text": "ዕለታት በመጀመሪያይቱ ቀን ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሯዪ -> ሪያይ",
+      "reason": "Printed 'በመጀመሪያይቱ ቀን' (cf. L35-36 'በመጀመሪያ↵ይቱ'); 'ሪያይ' was misread as 'ሯዪ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 26,
+      "old_text": "፲፯።ሉቃ ፳፪ ፲፱።ሉቃ ፲፫፥",
+      "corrected_text": "፲፯።ሉቃ ፳፪ ፲፬።ዮሐ ፲፫፥",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፲፱ -> ፲፬, ሉቃ -> ዮሐ",
+      "reason": "Canonical Gospel parallel references for Matthew 26:20: Luke 22:14 ('ሉቃ ፳፪ ፲፬') and John 13:21 ('ዮሐ ፲፫፥፳፩'). In the image, '፲፬' was misread as '፲፱' and 'ዮሐ' was misread as 'ሉቃ'."
+    }
+  ]
+}

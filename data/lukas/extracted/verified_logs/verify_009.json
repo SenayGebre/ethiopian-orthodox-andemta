@@ -1,0 +1,26 @@
+{
+  "pdf_page": 9,
+  "book_page_ethiopic": "፫፻፺፩",
+  "elapsed_sec": 13.2,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 32,
+      "old_text": "ናልና ። በትንቢተ ነቢያት ሰ",
+      "corrected_text": "ናልና ። በትንቢተ ነቢያት በ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሰ -> በ",
+      "reason": "The final character on line 32 is the preposition prefix 'በ-' which wraps onto line 33 to form 'በመላእክት ተልእኮ' ('by the mission/sending of angels', parallel to 'በትንቢተ ነቢያት'). The top bar of 'በ' was misread as 'ሰ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 32,
+      "old_text": "እ ንዲል ። ታሪክ ዘፍ ፳፬ ፩ ።",
+      "corrected_text": "እንዲል ። ታሪክ ዘፍ ፳፬ ፩ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እ ንዲል -> እንዲል",
+      "reason": "The citation marker 'እንዲል' is a single word with slight kerning spacing in the lead type after 'እ'."
+    }
+  ]
+}

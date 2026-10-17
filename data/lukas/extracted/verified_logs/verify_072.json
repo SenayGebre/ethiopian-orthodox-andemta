@@ -1,0 +1,26 @@
+{
+  "pdf_page": 72,
+  "book_page_ethiopic": "፬፻፶፬",
+  "elapsed_sec": 12.4,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 40,
+      "old_text": "ወልድ በ ሉ ሰው ሁኖ ሃይማ",
+      "corrected_text": "ወልድ ቢሉ ሰው ሁኖ ሃይማ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በ ሉ -> ቢሉ",
+      "reason": "Parallel to 'አብ ቢሉ' on line 39, the printed glyph is 'ቢሉ' (with a slightly faded bottom-right vowel stroke on 'ቢ' and loose kerning)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 9,
+      "old_text": "አሁን የተጠمق ጌታ ያስተማረ",
+      "corrected_text": "አሁን የተጠመቀ ጌታ ያስተማረ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "مق -> መቀ",
+      "reason": "Stage-1 OCR hallucinated Arabic characters 'مق' for the Ethiopic syllables 'መቀ' in 'የተጠመቀ'."
+    }
+  ]
+}

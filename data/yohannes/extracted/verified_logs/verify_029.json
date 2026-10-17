@@ -1,0 +1,35 @@
+{
+  "pdf_page": 29,
+  "book_page_ethiopic": "፭፻፴፱",
+  "elapsed_sec": 14.8,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 31,
+      "old_text": "ች ቤተ ሰብእ እያላት መሀ",
+      "corrected_text": "ች ቤተ ሰብእ እያላት ውሀ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "መሀ -> ውሀ",
+      "reason": "The printed glyph at the end of the line is ውሀ ('water'), where the 6th-order loop of ው was misread as መ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 32,
+      "old_text": "ትቅዳለች ቢሉ በሀገራቸው",
+      "corrected_text": "ትቀዳለች ቢሉ በሀገራቸው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ትቅዳለች -> ትቀዳለች",
+      "reason": "The printed verb is ትቀዳለች ('she draws [water]'), with 1st-order ቀ rather than 6th-order ቅ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 27,
+      "old_text": "ሥጋዌ እንደ ድረሰ ዕወቁ እ",
+      "corrected_text": "ሥጋዌ እንደ ደረሰ ዕወቁ እ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ድረሰ -> ደረሰ",
+      "reason": "The printed word is ደረሰ ('has arrived') with 1st-order ደ, matching parallel L07 (እንደ ደረሰ)."
+    }
+  ]
+}

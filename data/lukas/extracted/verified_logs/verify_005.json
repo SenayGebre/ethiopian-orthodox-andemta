@@ -1,0 +1,35 @@
+{
+  "pdf_page": 5,
+  "book_page_ethiopic": "፫፻፹፯",
+  "elapsed_sec": 22.9,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 5,
+      "old_text": "ች በሥር ነው ፥ ዕለቱም ዕለተ",
+      "corrected_text": "ች በ፲ር ነው ፥ ዕለቱም ዕለተ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በሥር -> በ፲ር",
+      "reason": "The glyph after በ has the top and bottom horizontal bars of the Ethiopic numeral ፲ (በ፲ር = በዐሥር, the 10th day of the lunar month, i.e. the Day of Atonement / ዕለተ ዮሴፍ), which was misread as ሥ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 23,
+      "old_text": "አጀም ያስፈራ ነበርና በአፍአ",
+      "corrected_text": "እጅም ያስፈራ ነበርና በአፍአ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አጀም -> እጅም",
+      "reason": "Both the image glyphs (6th-order እ and ጅ) and Andemta idiom confirm እጅም ('solitude / being alone inside the sanctuary'), which was misread as አጀም."
+    },
+    {
+      "column_index": 3,
+      "line_num": 28,
+      "old_text": "ገራቸው እጅግም ያህል ብሎ",
+      "corrected_text": "ገራቸው እጅግም የለ ፤ ብሎ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ያህል -> የለ ፤",
+      "reason": "The printed text clearly shows የለ followed by a semicolon ፤ ('as for honey mead, there is not much in their country'), which Stage 1 misread as ያህል."
+    }
+  ]
+}

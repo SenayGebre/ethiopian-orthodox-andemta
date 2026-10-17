@@ -1,0 +1,17 @@
+{
+  "pdf_page": 14,
+  "book_page_ethiopic": "፫፻፺፮",
+  "elapsed_sec": 13.9,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 4,
+      "old_text": "ችና ጎርስ ርስሐት እንዳያገ",
+      "corrected_text": "ችና ነርስ ርስሐት እንዳያገ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጎርስ -> ነርስ",
+      "reason": "The printed glyph is 'ነ' (ነርስ, synonymous with ርስሐት 'ritual impurity/defilement' in Andemta terminology), which was misread as 'ጎ' due to top-serif ink bleed."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "pdf_page": 8,
+  "book_page_ethiopic": "፳፰ | ፳፱",
+  "elapsed_sec": 19.1,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 17,
+      "old_text": "ከፈተ ፡ የሚገኝ ፡ ሆኗል ፡ ደሙ ፡ በጥጦስ፡",
+      "corrected_text": "ከፈተ ፡ የሚገኝ ፡ ሆኗል ፡ ደሞ ፡ በጥጦስ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ደሙ -> ደሞ",
+      "reason": "The glyph has the upper-right loop of 7th-order ሞ (ደሞ, 'moreover/also'), which was misread as 2nd-order ሙ (ደሙ)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 28,
+      "old_text": "ኤጺስ ፡ ቆጶስ ፡ ፻ ፡ ረበዋትን ፡ ይዞ ፡ ወጥ",
+      "corrected_text": "ኤጲስ ፡ ቆጶስ ፡ ፻ ፡ ረበዋትን ፡ ይዞ ፡ ወጥ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጺ -> ጲ",
+      "reason": "The word is ኤጲስ ቆጶስ (episkopos/bishop); the three-legged ጲ was visually confused with ጺ."
+    }
+  ]
+}

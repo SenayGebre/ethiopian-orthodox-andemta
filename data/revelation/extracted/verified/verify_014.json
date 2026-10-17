@@ -1,0 +1,17 @@
+{
+  "pdf_page": 14,
+  "book_page_ethiopic": "፫፻ፎ፬ | ፫፻ፎ፭",
+  "elapsed_sec": 12.9,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 4,
+      "line_num": 21,
+      "old_text": "እንደ ፡ ብረት ፡ ጎፅዕ ፡ የጸጋ ፡ ተዋሕዶ ፡",
+      "corrected_text": "እንደ ፡ ብረት ፡ ኀፅዕ ፡ የጸጋ ፡ ተዋሕዶ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጎ -> ኀ",
+      "reason": "The first character of the Ge'ez word for iron (ኀፅን/ኀፅዕ) is clearly printed as ኀ, which was misread as ጎ."
+    }
+  ]
+}

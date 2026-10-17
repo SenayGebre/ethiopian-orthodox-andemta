@@ -1,0 +1,17 @@
+{
+  "pdf_page": 31,
+  "book_page_ethiopic": "፬፻፲፫",
+  "elapsed_sec": 12.9,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 36,
+      "old_text": "⟪ወወረዱ እምውእቶን አንማ",
+      "corrected_text": "⟪ወወረዱ እምውእቶን አሕማ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አንማ -> አሕማ",
+      "reason": "Faint middle vertical stroke of ሕ in the split word አሕማ-ር (plural of ሐመር 'ships', matching አሕማረ on L31) was misread as ን."
+    }
+  ]
+}

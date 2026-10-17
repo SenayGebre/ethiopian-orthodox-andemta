@@ -1,0 +1,44 @@
+{
+  "pdf_page": 21,
+  "book_page_ethiopic": "፫፻፹፰ | ፫፻፹፱",
+  "elapsed_sec": 19.5,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 4,
+      "old_text": "(ወአዘዝዎ) ፡ ፍቅርን ፡ አጥፉ ፡ አሉት ፡",
+      "corrected_text": "(ወአዘዝዎ) ፡ ፍቅርን ፡ አጥፋ ፡ አሉት ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አጥፉ -> አጥፋ",
+      "reason": "The printed glyph in Col 1 L04 is the 4th-order राብዕ 'ፋ' (አጥፋ, singular imperative matching 'አሉት'), which was misread as 2nd-order ካዕብ 'ፉ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 26,
+      "old_text": "ያጠፉ ፡ ዘንድ ፡ አጥፉ ፡ አሉት ፡ (ከመ ፡",
+      "corrected_text": "ያጠፋ ፡ ዘንድ ፡ አጥፋ ፡ አሉት ፡ (ከመ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ያጠፉ / አጥፉ -> ያጠፋ / አጥፋ",
+      "reason": "Both verbs on Col 1 L26 are clearly printed with 4th-order 'ፋ' (ያጠፋ ፡ ዘንድ ፡ አጥፋ ፡ አሉት), agreeing in singular number with 'አሉት'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 4,
+      "old_text": "ጠፉ ፡ ዘንድ ፡ አጥፉ ፡ አሉት ፡ አለ ፡ ኢያ",
+      "corrected_text": "ጠፋ ፡ ዘንድ ፡ አጥፋ ፡ አሉት ፡ አለ ፡ ኢያ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጠፉ / አጥፉ -> ጠፋ / አጥፋ",
+      "reason": "In Col 2 L04, the rejoined word 'ያጠፋ' and 'አጥፋ' are clearly printed with 4th-order 'ፋ', agreeing in singular number with 'አሉት'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 16,
+      "old_text": "በጥምቀት ፡ የሚያገኟዋቸው ፡ የሥጋው ፡",
+      "corrected_text": "በጥምቀት ፡ የሚያገኟቸው ፡ የሥጋው ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "የሚያገኟዋቸው -> የሚያገኟቸው",
+      "reason": "Visual inspection of Col 4 L16 confirms the printed word is 'የሚያገኟቸው' (6 characters) without an extra 'ዋ'."
+    }
+  ]
+}

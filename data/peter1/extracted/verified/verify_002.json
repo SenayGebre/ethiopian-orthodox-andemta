@@ -1,0 +1,62 @@
+{
+  "pdf_page": 2,
+  "book_page_ethiopic": "፻፷፮ | ፻፷፯",
+  "elapsed_sec": 37.8,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 8,
+      "old_text": "አኀዞዎ ፡ ጴጥሮስ ፡ ወዮሐንስ ፡ ኀበ ፡ ሕዋረ ፡ ሰሎሞን ፡ ይዘውት ፡ ወደሕዋረ ፡ ሰሎ",
+      "corrected_text": "አኀዝዎ ፡ ጴጥሮስ ፡ ወዮሐንስ ፡ ኀበ ፡ ሕዋረ ፡ ሰሎሞን ፡ ይዘውት ፡ ወደሕዋረ ፡ ሰሎ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አኀዞዎ -> አኀዝዎ",
+      "reason": "Classical Ge'ez verb form (ወእንዘ ይአኀዝዎ, Acts 3:11) uses 6th-order ዝ before the 3ms object suffix -ዎ, which is clearly visible in the print."
+    },
+    {
+      "column_index": 1,
+      "line_num": 16,
+      "old_text": "አይምሰላችሁ ፡ የባቶችችን ፡ ፈጣሪ ፡ የባሕርይ ፡ ልጅ ፡ ኢየሱስ ፡ ክርስቶስን ፡",
+      "corrected_text": "አይምሰላችሁ ፡ ያባቶቻችን ፡ ፈጣሪ ፡ የባሕርይ ፡ ልጅ ፡ ኢየሱስ ፡ ክርስቶስን ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "የባቶችችን -> ያባቶቻችን",
+      "reason": "The printed text clearly shows 4th-order ያ and ቻ in ያባቶቻችን ('of our fathers'), where Stage 1 missed the vowel strokes."
+    },
+    {
+      "column_index": 2,
+      "line_num": 24,
+      "old_text": "ካ፭ ፡ ምኵራባት ፡ ተውጣጥተው ፡ አይሁድ ፡ ለምቀኝነት ፡ አያርፉምና ፡ ወተኀሠሥዎ ፡",
+      "corrected_text": "ከ፭ ፡ ምኵራባት ፡ ተውጣጥተው ፡ አይሁድ ፡ ለምቀኝነት ፡ አያርፉምና ፡ ወተኀሠሥዎ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ካ፭ -> ከ፭",
+      "reason": "The preposition printed before the numeral ፭ is 1st-order ከ (ከ፭ ምኵራባት), not 4th-order ካ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 31,
+      "old_text": "በት፡ የዳንኤልን፡ ቆጥሮ፡ አስማምቶ፡ ቢነግራቸው፡ መርታት፡ ተሳናቸው፡ ወአምዝ፡",
+      "corrected_text": "በት፡ የዳንኤልን፡ ቆጥሮ፡ አስማምቶ፡ ቢነግራቸው፡ መርታት፡ ተሳናቸው፡ ወእምዝ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወአምዝ -> ወእምዝ",
+      "reason": "Standard Ge'ez phrase ወእምዝ ('and after this', translated immediately as ከዚህ በኋላ) is printed with 6th-order እ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 32,
+      "old_text": "አቅደሩ ፡ ሎቱ፡ ሰማዕተ፡ ሐሰት፡ ከዚህ፡ በኋላ ፡ በአፍና ፡ በመጣፍ ፡ አንተን ፡ ማን ፡",
+      "corrected_text": "አቅረቡ ፡ ሎቱ፡ ሰማዕተ፡ ሐሰት፡ ከዚህ፡ በኋላ ፡ በአፍና ፡ በመጣፍ ፡ አንተን ፡ ማን ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አቅደሩ -> አቅረቡ",
+      "reason": "In Acts 6:13 and on the page image, the Ge'ez verb is አቅረቡ ('they brought forward' false witnesses), where ረቡ was misread as ደሩ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 36,
+      "old_text": "ዝ ፡ ብእሲ ፡ አብየኑ ፡ የርምም ፡ ውጁዎች ፡ ናቸውና ፡ ሳይጠሯቸው ፡ (አንድም) ፡ ወ",
+      "corrected_text": "ዝ ፡ ብእሲ ፡ አብየነ ፡ ይርምም ፡ ውጁዎች ፡ ናቸውና ፡ ሳይጠሯቸው ፡ (አንድም) ፡ ወ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አብየኑ ፡ የርምም -> አብየነ ፡ ይርምም",
+      "reason": "The Ge'ez citation from Acts 6:13 (ዝ ብእሲ አብየነ ይርምም, 'this man refused us to keep silent', glossed on the next page as ይህ ሰው ዝም አልልም አለ) has 1st-order ነ in አብየነ and 6th-order ይ in ይርምም."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "pdf_page": 23,
+  "book_page_ethiopic": "፵፭ | ፵፮",
+  "elapsed_sec": 15.6,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 31,
+      "old_text": "ጐሞለታል ፡ ነገር ፡ ግን ፡ አትንገራቸው ፡",
+      "corrected_text": "ጕሞለታል ፡ ነገር ፡ ግን ፡ አትንገራቸው ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጐ -> ጕ",
+      "reason": "The printed glyph at the start of line 31 is 6th-order labiovelar ጕ (forming ተርጕሞለታል across the line wrap, matching line 16), not ጐ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 22,
+      "old_text": "ሕለሚሁ ፡ ይላል ፡ አለምሁ ፡ አለምሁ ፡",
+      "corrected_text": "ሕልሚሁ ፡ ይላል ፡ አለምሁ ፡ አለምሁ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሕለሚሁ -> ሕልሚሁ",
+      "reason": "Both the printed glyph (showing the 6th-order 'ል' ring on the left leg) and Classical Ge'ez morphology ('ጽድቀ ሕልሚሁ' - the truth of his dreams, Gen 37:20) confirm ሕልሚሁ rather than ሕለሚሁ."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "pdf_page": 67,
+  "book_page_ethiopic": "፭፻፸፯",
+  "elapsed_sec": 19.9,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 4,
+      "old_text": "እዜ የኃሥሠ አይሁድ ይው↵",
+      "corrected_text": "እዜ የኃሥሡ አይሁድ ይው",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "የኃሥሠ -> የኃሥሡ",
+      "reason": "In John 11:8, the plural subject አይሁድ takes the 3rd person plural verb የኃሥሡ (with the ka'eb vowel mark clearly visible on the bottom right of ሡ in the image)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 33,
+      "old_text": "ረቃ ያለች አይደለምን ቢሉ አ↵",
+      "corrected_text": "ረቃ ያለች አይደለምን ቢሉ እ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አ -> እ",
+      "reason": "The word wrapping onto line 34 (ንደ ፀሐይ) is እንደ ('like the sun'), and the glyph at the end of line 33 is 6th-order እ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 11,
+      "old_text": "ሳይደርስ አይጣላኝም ። ⟪እስ↵",
+      "corrected_text": "ሳይደርስ አይጣሉኝም ። ⟪እስ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አይጣላኝም -> አይጣሉኝም",
+      "reason": "The glyph has the 2nd-order (ካዕብ) hook at the bottom of the right leg (ሉ), forming አይጣሉኝም ('they will not cast me down'), parallel to ይጣሉኛል on line 15."
+    },
+    {
+      "column_index": 2,
+      "line_num": 25,
+      "old_text": "ሰድሜ ለርእሱ እንዲል ። አን↵",
+      "corrected_text": "ዕድሜ ለርእሱ እንዲል ። አን",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሰድሜ -> ዕድሜ",
+      "reason": "The patristic citation reads ወአሕጸረ ዕድሜ ለርእሱ እንዲል ('and He shortened the time/span for Himself'); the initial triangular glyph is ዕ, not ሰ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 26,
+      "old_text": "ለርሳቸው ግን ዕንቅልፍ ስለ↵",
+      "corrected_text": "እርሳቸው ግን ዕንቅልፍ ስለ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ለርሳቸው -> እርሳቸው",
+      "reason": "The initial character on line 26 is እ (እርሳቸው ግን ... መስሏቸው ነበር), misread as ለ."
+    }
+  ]
+}

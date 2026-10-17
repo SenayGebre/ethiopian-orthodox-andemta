@@ -1,0 +1,44 @@
+{
+  "pdf_page": 63,
+  "book_page_ethiopic": "፻፴፰ | ፻፴፱",
+  "elapsed_sec": 17.3,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 31,
+      "old_text": "በተጡን ፡ መናገር ፡ ነው ።",
+      "corrected_text": "በቀጡን ፡ መናገር ፡ ነው ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ተ -> ቀ",
+      "reason": "The bottom margin clips the lower stem of 'ቀ', making it resemble 'ተ', but the horizontal crossbar and context confirm the standard Andemta idiom 'በቀጡን መናገር ነው' (speaking directly/simply)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 9,
+      "old_text": "በቆሮንቶስ ፡ ካሉ ፡ ሰዎችም ፡ በእግዚአብ",
+      "corrected_text": "በቆሮንቶስ ፡ ካሉ ፡ ሰዎችም ፡ በእግዚአ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በእግዚአብ -> በእግዚአ",
+      "reason": "Line 9 ends at 'በእግዚአ' and 'ብሔር' begins on Line 10."
+    },
+    {
+      "column_index": 2,
+      "line_num": 10,
+      "old_text": "ሔር ፡ አምነው ፡ የተጠመቁ ፡ ብዙ ፡",
+      "corrected_text": "ብሔር ፡ አምነው ፡ የተጠመቁ ፡ ብዙ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሔር -> ብሔር",
+      "reason": "The character 'ብ' is printed at the start of Line 10 ('ብሔር'), completing 'በእግዚአ' from Line 9."
+    },
+    {
+      "column_index": 4,
+      "line_num": 16,
+      "old_text": "ሳዘነውም ፡ ሐተታ ፡ የሹመት ፡ ጎባኑ ፡",
+      "corrected_text": "ሳዘነውም ፡ ሐተታ ፡ የሹመት ፡ ኀባኑ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጎ -> ኀ",
+      "reason": "The printed glyph is 'ኀ' in 'ኀባኑ' (የሹመት ኀባኑ ነውና), which was misread as 'ጎ'."
+    }
+  ]
+}

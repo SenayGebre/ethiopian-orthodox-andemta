@@ -1,0 +1,44 @@
+{
+  "pdf_page": 111,
+  "book_page_ethiopic": "፬፻፺፫",
+  "elapsed_sec": 32.9,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 17,
+      "old_text": "ውእቱ ዘጸፍአከ ወኰርዓከ ።⟫",
+      "corrected_text": "ውእቱ ዘጸፍዓከ ወኰርዓከ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዘጸፍአከ -> ዘጸፍዓከ",
+      "reason": "The printed glyph has the triangular loop of ዓ (ዘጸፍዓከ, from the Ge'ez root ጸፍዐ as seen in L14 ወይጸፍዕዎ), which was misread as አ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 34,
+      "old_text": "፩ ማር ፲፭ ፩ ዮሐ ፲፰ ፳፰ ።",
+      "corrected_text": "፷ ማር ፲፭ ፩ ዮሐ ፲፰ ፳፰ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፩ -> ፷",
+      "reason": "The first numeral on the line is ፷ (60, completing the reference ማቴ ፳፮ ፷), visually distinct from the ፩ following ማር ፲፭."
+    },
+    {
+      "column_index": 3,
+      "line_num": 33,
+      "old_text": "⟪ወዐውየዉ ወይቤሉ የሀውክ",
+      "corrected_text": "⟪ወዐውየዉ ወይቤሉ የሀውኮ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "የሀውክ -> የሀውኮ",
+      "reason": "The final character on the line is 7th-order ኮ (with the top-right vowel loop), joining with ሙ on L34 to form the Ge'ez verb with object suffix የሀውኮሙ ('he stirs them up')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 37,
+      "old_text": "⟪ወይሜሕር በኵሉ ይሁዳ አኀ",
+      "corrected_text": "⟪ወይሜህር በኵሉ ይሁዳ አኀ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወይሜሕር -> ወይሜህር",
+      "reason": "Both the printed glyph and standard Ge'ez orthography for this verb (from መሀረ) use 6th-order ህ (ወይሜህር) rather than ሕ."
+    }
+  ]
+}

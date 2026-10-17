@@ -1,0 +1,44 @@
+{
+  "pdf_page": 32,
+  "book_page_ethiopic": "፬፻፲፬",
+  "elapsed_sec": 16.1,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 30,
+      "old_text": "⟪ሌሊተ እንዘ ነወርድ መሣግሪነ⟫",
+      "corrected_text": "⟪ሌሊተ እንዘ ናወርድ መሣግሪነ⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ነወርድ -> ናወርድ",
+      "reason": "Both the printed glyph (4th-order ና with shorter left leg) and Classical Ge'ez 1st-person plural imperfect morphology ('እንዘ ናወርድ', matching L35) confirm 'ናወርድ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 32,
+      "old_text": "ንጥል ሌሊቱን ሁሉ ደክምን",
+      "corrected_text": "ንጥል ሌሊቱን ሁሉ ደከምን",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ደክምን -> ደከምን",
+      "reason": "The printed character is 1st-order ከ ('ደከምን', Amharic 1st-person plural perfect 'we toiled/grew weary'), not 6th-order ክ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 26,
+      "old_text": "ልድሀለሁ ።",
+      "corrected_text": "ልድሃለሁ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ልድሀለሁ -> ልድሃለሁ",
+      "reason": "The printed glyph has the shortened left leg of 4th-order ሃ ('እማልድሃለሁ'), which is also required by Amharic verb morphology."
+    },
+    {
+      "column_index": 3,
+      "line_num": 32,
+      "old_text": "እያይዞ ከባሕር የሚያደርስ ስ↵",
+      "corrected_text": "አያይዞ ከባሕር የሚያደርስ ስ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እያይዞ -> አያይዞ",
+      "reason": "The initial glyph is 1st-order አ without a 6th-order kink, forming the standard Amharic gerund 'አያይዞ' ('connecting/joining')."
+    }
+  ]
+}

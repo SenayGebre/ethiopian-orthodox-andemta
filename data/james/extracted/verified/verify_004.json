@@ -1,0 +1,98 @@
+{
+  "pdf_page": 4,
+  "book_page_ethiopic": "፻፷፯ | ፻፷፰",
+  "elapsed_sec": 38.2,
+  "applied_count": 10,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 9,
+      "old_text": "ሁኖኛል ፤ ጦር ፡ አልጠፋልኝም ፡ ክሁላ↵",
+      "corrected_text": "ሁኖኛል ፤ ጦር ፡ አልጠፋልኝም ፡ ከሁላ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ክ -> ከ",
+      "reason": "The preposition is 1st-order ከ ('ከሁላችንም'), misread as 6th-order ክ due to slight ink wear on the right stroke."
+    },
+    {
+      "column_index": 1,
+      "line_num": 12,
+      "old_text": "ቸው ፡ ጦር ፡ ጠፍቶላቸው ፡ ከቶባታቸው፡",
+      "corrected_text": "ቸው ፡ ጦር ፡ ጠፍቶላቸው ፡ ከዬባታቸው፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ከቶ -> ከዬ",
+      "reason": "The printed glyph is 5th-order ዬ in 'ከዬባታቸው' (meaning ከየበዓታቸው, 'to each of their cells'), which was visually misread as ቶ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 13,
+      "old_text": "ተመልሰዋል። አንድም፡ (ወይኩን፡ ኩሉ ፡",
+      "corrected_text": "ተመልሰዋል። አንድም፡ (ወይኩን፡ ኵሉ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኩ -> ኵ",
+      "reason": "The printed Ge'ez word is labiovelar 'ኵሉ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 33,
+      "old_text": "ነው ፡ ሊሉኝ ፡ አይደለም ፡ ተነሥ ፡ እን↵",
+      "corrected_text": "ነው ፡ ሊሉኝ ፡ አይደለም ፡ ተነሡ ፡ እን",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ተነሥ -> ተነሡ",
+      "reason": "The printed glyph is 2nd-order ሡ ('ተነሡ', plural imperative addressed to the monks), with the right-side vowel stroke clearly visible."
+    },
+    {
+      "column_index": 2,
+      "line_num": 3,
+      "old_text": "ላይ)፡ አንጥፉልኝ ፡ አላቸው ፡ ከዚያ ፡",
+      "corrected_text": "ላይ ፡ አንጥፉልኝ ፡ አላቸው ፡ ከዚያ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ላይ)፡ -> ላይ ፡",
+      "reason": "There is no closing parenthesis in the print; a faint ink mark near the word-separator colon was misread as ')'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 5,
+      "old_text": "ቢገቡ ፡ ቢወጡ ፡ አጠዋቷል ፡ እኔማ ፡",
+      "corrected_text": "ቢገቡ ፡ ቢወጡ ፡ አጥዋቷል ፡ እኔማ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አጠዋቷል -> አጥዋቷል",
+      "reason": "The printed word is 'አጥዋቷል' (6th-order ጥ, contracted form of አጥተዋታል, 'they could not find her'), misread as 1st-order ጠ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 30,
+      "old_text": "ንስሐው ፡ ቁጣ ፡ ተነሳሒውን ፡ የተነሣ↵",
+      "corrected_text": "ንስሐው ፡ ቁጣ ፡ ተነሣሒውን ፡ የተነሣ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ተነሳሒውን -> ተነሣሒውን",
+      "reason": "The printed Fidel is 4th-order ሣ (ንጉሡ ሠ) in 'ተነሣሒውን', matching 'የተነሣሒው' right after it."
+    },
+    {
+      "column_index": 3,
+      "line_num": 4,
+      "old_text": "ስጥ ፡ ኃጢአትን ፡ አፍኣዊ ፡ ውሳጣዊ ፡",
+      "corrected_text": "ስጥ ፡ ኃጢአትን ፡ አፍአዊ ፡ ውሳጣዊ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አፍኣዊ -> አፍአዊ",
+      "reason": "The printed glyph in 'አፍአዊ' is 1st-order አ with both legs of equal length."
+    },
+    {
+      "column_index": 3,
+      "line_num": 32,
+      "old_text": "ጠይቆ ፡ ርእسو ፡ ርእሶም ፡ ይላል ፡ በዐ↵",
+      "corrected_text": "ጠይቆ ፡ ርእሶ ፡ ርእሶም ፡ ይላል ፡ በዐ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ርእسو -> ርእሶ",
+      "reason": "Non-Ethiopic script hallucination ('سو') replaced with the clearly printed Ge'ez Fidel 'ሶ' in 'ርእሶ'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 21,
+      "old_text": "ደለም ፡ ረሲዐ ፡ ረሳዔም ፡ ይላል ፡",
+      "corrected_text": "ደለም ፡ ረስዐ ፡ ረሳዒም ፡ ይላል ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ረሲዐ ፡ ረሳዔም -> ረስዐ ፡ ረሳዒም",
+      "reason": "The printed text cites the lemma 'ረስዐ' (6th-order ስ, matching line 19) and the variant reading 'ረሳዒም' (3rd-order ዒ with the vertical right leg, active participle nominative/construct)."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "pdf_page": 178,
+  "book_page_ethiopic": "፪፻፺፯",
+  "elapsed_sec": 16.1,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 5,
+      "old_text": "ተመክቶ የስመካቸዋል ደቀ",
+      "corrected_text": "ተመክቶ ያስመካቸዋል ደቀ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "የ -> ያ",
+      "reason": "The causative imperfect verb is 'ያስመካቸዋል' with 4th-order 'ያ', clearly visible in the image."
+    },
+    {
+      "column_index": 1,
+      "line_num": 27,
+      "old_text": "ሂዶ ስምንቱን በጌቴሴማኒ ትቶ",
+      "corrected_text": "ሂዶ ስምንቱን በጌቴሴማን ትቶ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኒ -> ን",
+      "reason": "The printed glyph at the end of 'በጌቴሴማን' is 6th-order 'ን', matching 'ጌቴሴማን' in lines 13 and 15."
+    },
+    {
+      "column_index": 2,
+      "line_num": 10,
+      "old_text": "⟪ወይቤ አቡየ እመሰ ይትከሃ↵",
+      "corrected_text": "⟪ወይቤ ኦአቡየ እመሰ ይትከሃ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አቡየ -> ኦአቡየ",
+      "reason": "The vocative particle 'ኦ' before 'አቡየ' ('ኦአቡየ') is clearly printed in the image (Matthew 26:39)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 7,
+      "old_text": "[፵፩] ⟪ትግሁ ወጸልዩ ከመ ኢትባዑ",
+      "corrected_text": "[፵፩] ⟪ትግሁ ወጸልዩ ከመ ኢትባኡ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዑ -> ኡ",
+      "reason": "The printed glyph is 'ኢትባኡ' with 2nd-order Alif 'ኡ' (matching line 17 'ኢትባኡ'), not Ayin 'ዑ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 25,
+      "old_text": "[፵፫] ፪ተኛ ወደ ደቀ መዛሙርቱ ሂደ",
+      "corrected_text": "[፵፫] ፪ተኛ ወደ ደቀ መዛሙርቱ ሄደ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሂ -> ሄ",
+      "reason": "The printed word at the end of the line is the 3rd-person singular perfective verb 'ሄደ' with 5th-order 'ሄ'."
+    }
+  ]
+}

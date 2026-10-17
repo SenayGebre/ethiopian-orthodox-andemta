@@ -1,0 +1,26 @@
+{
+  "pdf_page": 59,
+  "book_page_ethiopic": "፫፻፸፰",
+  "elapsed_sec": 18.6,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 28,
+      "old_text": "ጽዕ አጋንንተ በብዔ",
+      "corrected_text": "ጽእ አጋንንተ በብዔ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጽዕ -> ጽእ",
+      "reason": "The printed glyph in ያወጽእ ('to cast out', root ወፅአ) is 6th-order እ (ጽእ), not ዕ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 1,
+      "old_text": "የማርቆስ ወንጌል አርእስት ግውሚ",
+      "corrected_text": "የማርቆስ ወንጌል አርእስት ማውጫ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ግውሚ -> ማውጫ",
+      "reason": "The Amharic heading clearly reads ማውጫ ('Table of Contents / Index', translating Ge'ez መክሥተ), which was misread as ግውሚ due to ink bleed on ማ and ጫ."
+    }
+  ]
+}

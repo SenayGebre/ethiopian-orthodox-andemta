@@ -1,0 +1,44 @@
+{
+  "pdf_page": 185,
+  "book_page_ethiopic": "፫፻፬",
+  "elapsed_sec": 13.3,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 16,
+      "old_text": "ብለህ አናብህ፤ጭፍሮች ያሏቸ↵",
+      "corrected_text": "ብለህ አናብብ፤ጭፍሮች ያሏቸ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ህ -> ብ",
+      "reason": "The printed glyph in the image is 'ብ' forming the standard Andemta technical instruction 'ብለህ አናብብ' (read/construe it as), where 'ብ' was misread as 'ህ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 19,
+      "old_text": "የአይሁድ ንጉሣቸው ቢሰኛሀ↵",
+      "corrected_text": "የአይሁድ ንጉሣቸው ቢሰኛህ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሀ -> ህ",
+      "reason": "6th-order 'ህ' (2nd person masculine singular possessive suffix in 'ቢሰኛህን') was misread as 1st-order 'ሀ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 20,
+      "old_text": "ን ጠበኛሀን አያውለው አያሳ↵",
+      "corrected_text": "ን ጠበኛህን አያውለው አያሳ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሀ -> ህ",
+      "reason": "6th-order 'ህ' in 'ጠበኛህን' (your enemy) was misread as 1st-order 'ሀ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 2,
+      "old_text": "ቀሬናዌ ዘስሙ ስምዖን እትወ↵",
+      "corrected_text": "ቀሬናዊ ዘስሙ ስምዖን እትወ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዌ -> ዊ",
+      "reason": "Canonical Ge'ez gentilic adjective 'ቀሬናዊ' (Cyrenian, 3rd-order 'ዊ') was misread as 5th-order 'ዌ'."
+    }
+  ]
+}

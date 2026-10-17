@@ -1,0 +1,26 @@
+{
+  "pdf_page": 66,
+  "book_page_ethiopic": "፻፹፭",
+  "elapsed_sec": 8.8,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 19,
+      "old_text": "ያን ቤት እናናውጽሕ አሉት ፡",
+      "corrected_text": "ያን ቤት እናናውጽህ አሉት ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሕ -> ህ",
+      "reason": "The 2nd person masculine singular object suffix on Amharic 'እናናውጽህ' is printed with 'ህ' (6th order ሀ), not 'ሕ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 27,
+      "old_text": "ያወርዱታል ። እንደ ፅንጦስ እ↵",
+      "corrected_text": "ያወርዱታል ። እንደ ዕንጦስ እ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ፅ -> ዕ",
+      "reason": "The saint's name 'ዕንጦስ' (St. Anthony, cf. line 32) begins with 'ዕ' (6th order ዐ), which was misread as visually similar 'ፅ'."
+    }
+  ]
+}

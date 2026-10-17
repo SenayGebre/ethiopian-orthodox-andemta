@@ -1,0 +1,35 @@
+{
+  "pdf_page": 103,
+  "book_page_ethiopic": "፮፻፲፫",
+  "elapsed_sec": 19.6,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 14,
+      "old_text": "ይጠይቃል ወንበዴ ፤ ያሳ የመ",
+      "corrected_text": "ይጠይቃል ወንበዴ ፤ ያስ የመ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ያሳ -> ያስ",
+      "reason": "Both legs of 6th-order ስ are present on the image, matching the parallel Amharic contrastive particle 'ያስ የመካከለኛውስ ያስ ከነዚህ ልዩ ነው'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 1,
+      "old_text": "እት ዘእምላእሉ እንመቱ ።⟫",
+      "corrected_text": "እት ዘእምላዕሉ እንመቱ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዘእምላእሉ -> ዘእምላዕሉ",
+      "reason": "The canonical Ge'ez word in John 19:23 is 'ዘእምላዕሉ' ('from the top') printed with triangular ዕ, which was misread as እ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 5,
+      "old_text": "እርሱ በርሳቸውም አሉ አን",
+      "corrected_text": "እርስ በርሳቸውም አሉ አን",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እርሱ -> እርስ",
+      "reason": "The printed glyph is 6th-order ስ in the standard reciprocal phrase 'እርስ በርሳቸውም' ('among themselves'), not 2nd-order ሱ."
+    }
+  ]
+}

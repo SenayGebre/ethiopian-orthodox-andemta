@@ -1,0 +1,17 @@
+{
+  "pdf_page": 47,
+  "book_page_ethiopic": "፫፻፷፮",
+  "elapsed_sec": 6.4,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 25,
+      "old_text": "⟪ወተናገርዎ የሀብዎ ሠላሳ ብሩረ ።⟫",
+      "corrected_text": "⟪ወተናገርዎ የሀብዎ ፴ ብሩረ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሠላሳ -> ፴",
+      "reason": "The printed text in the Ge'ez verse uses the Ethiopic numeral ፴ (30), not the spelled-out word ሠላሳ (which appears in the Amharic translation on line 26)."
+    }
+  ]
+}

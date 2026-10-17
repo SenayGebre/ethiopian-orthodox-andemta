@@ -1,0 +1,62 @@
+{
+  "pdf_page": 94,
+  "book_page_ethiopic": "፮፻፬",
+  "elapsed_sec": 18.3,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 2,
+      "old_text": "መጽሐፍ፡ ወይዋፉዕ እምድር",
+      "corrected_text": "መጽሐፍ፡ ወይጥፋዕ እምድር",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወይዋፉዕ -> ወይጥፋዕ",
+      "reason": "Classical Ge'ez Psalter citation (Ps 108:15 'ወይጥፋዕ እምድር ዝክሩ'); the three-legged 'ጥ' and 4th-order 'ፋ' were misread as 'ዋፉ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 5,
+      "old_text": "⟪ወይእዜሰ ዛሕቱ ፡ እመጽእ ኀ",
+      "corrected_text": "⟪ወይእዜሰ ባሕቱ ፡ እመጽእ ኀ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዛሕቱ -> ባሕቱ",
+      "reason": "Canonical Ge'ez particle 'ባሕቱ' (translated as 'ግን' on L07); 'ባ' was misread as 'ዛ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 21,
+      "old_text": "ሕግሕን ፈጽሜ ነገርኋቸው ።",
+      "corrected_text": "ሕግህን ፈጽሜ ነገርኋቸው ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሕግሕን -> ሕግህን",
+      "reason": "Amharic 2nd person masculine singular possessive suffix '-ህን' ('ሕግህን', translating 'ቃለከ'); 'ህ' was misread as 'ሕ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 12,
+      "old_text": "በዕኑ ቀጠሮህ አፅናቸው ።",
+      "corrected_text": "በፅኑ ቀጠሮህ አፅናቸው ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በዕኑ -> በፅኑ",
+      "reason": "The printed glyph has the central vertical bar of 'ፅ' ('በፅኑ ቀጠሮህ አፅናቸው'), which was misread as 'ዕ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 14,
+      "old_text": "ቀጠሮህ ዕኑ ነውና ። አንድም",
+      "corrected_text": "ቀጠሮህ ፅኑ ነውና ። አንድም",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዕኑ -> ፅኑ",
+      "reason": "The printed glyph is 'ፅኑ' ('ቀጠሮህ ፅኑ ነውና'), misread as 'ዕኑ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 17,
+      "old_text": "⟪በከመ አንተ ፈነወከኒ ውስተ",
+      "corrected_text": "⟪በከመ አንተ ፈነውከኒ ውስተ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፈነወከኒ -> ፈነውከኒ",
+      "reason": "Both the printed glyph and Classical Ge'ez 2nd person singular perfect morphology have 6th-order 'ው' ('ፈነውከኒ')."
+    }
+  ]
+}

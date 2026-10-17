@@ -1,0 +1,44 @@
+{
+  "pdf_page": 116,
+  "book_page_ethiopic": "፬፻፺፰",
+  "elapsed_sec": 10.3,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 32,
+      "old_text": "ሌለያ ገይሠ ወሖራ ኀበ መ",
+      "corrected_text": "ሌለያ ገይሣ ወሖራ ኀበ መ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሠ -> ሣ",
+      "reason": "In Classical Ge'ez (Luke 24:1), the verb agrees with the feminine plural subject (the women): 'ገይሣ ወሖራ' (they rose early and went). Visually, the right leg of 'ሣ' is slightly longer in the print."
+    },
+    {
+      "column_index": 2,
+      "line_num": 23,
+      "old_text": "⟪ወፈርሃ ወአትሐታ አዕይን",
+      "corrected_text": "⟪ወፈርሀ ወአትሐታ አዕይን",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሃ -> ሀ",
+      "reason": "The printed glyph in the page image is 1st-order 'ሀ' (ወፈርሀ, a common printing variant for ወፈርሃ) rather than 4th-order 'ሃ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 18,
+      "old_text": "እርሳቸውም የመግደላዊቱ ማ",
+      "corrected_text": "እርሳቸውም መግደላዊቱ ማ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "የመግደላዊቱ -> መግደላዊቱ",
+      "reason": "There is no 'የ' printed before 'መግደላዊቱ' in the image; the first glyph after 'እርሳቸውም' is 'መ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 34,
+      "old_text": "አሉ አሏቸው ሐሠት አሏቸው",
+      "corrected_text": "አሉ አሏቸው ሐሰት አሏቸው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሠ -> ሰ",
+      "reason": "The printed character in 'ሐሰት' is clearly 'ሰ' (two legs), not 'ሠ' (three legs)."
+    }
+  ]
+}

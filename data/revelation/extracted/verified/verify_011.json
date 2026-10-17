@@ -1,0 +1,44 @@
+{
+  "pdf_page": 11,
+  "book_page_ethiopic": "፫፻፳፮ | ፫፻፳፯",
+  "elapsed_sec": 22.0,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 24,
+      "old_text": "በተዋሕዶ ፡ ገንዘብ ፡ ካደረገው ፡ ክርሱ ፡",
+      "corrected_text": "በተዋሕዶ ፡ ገንዘብ ፡ ካደረገው ፡ ከርሱ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ክርሱ -> ከርሱ",
+      "reason": "The preposition prefix is first-order ከ ('ከርሱ ፡ በቀር' = except for Him), not sixth-order ክ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 13,
+      "old_text": "ኢይወዲ ፡ ሕገ ፡ ሥጋንና ፡ ሕገ ፡ ነፍስን ፡",
+      "corrected_text": "ኢእወዲ ፡ ሕገ ፡ ሥጋንና ፡ ሕገ ፡ ነፍስን ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኢይወዲ -> ኢእወዲ",
+      "reason": "The printed Ge'ez verb is 1st person singular 'ኢእወዲ' ('I do not put/impose', translated as 'አትያዙ ፡ እላለሁ'), with 'እ' misread as 'ይ'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 20,
+      "old_text": "⟪እስከ ፡ አመ ፡ እማءል ።⟫",
+      "corrected_text": "⟪እስከ ፡ አመ ፡ እምሕል ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እማءል -> እምሕል",
+      "reason": "Stage 1 hallucinated a non-Ethiopic character for 'ምሕ' in 'እምሕል', which is clearly printed and glossed in L21 as 'ይቅር ፡ እስክላችሁ ፡ ድረስ'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 31,
+      "old_text": "⟪ወይርእዮሙ ፡ በበትረ ፡ ኅጺን ፡⟫",
+      "corrected_text": "⟪ወይርዕዮሙ ፡ በበትረ ፡ ኅጺን ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወይርእዮሙ -> ወይርዕዮሙ",
+      "reason": "Both the printed glyph and canonical Ge'ez (Rev 2:27, from ርዕየ 'to shepherd/rule', glossed in L32-33 as 'ይጠብቃቸዋል') have 'ዕ' in 'ወይርዕዮሙ', not 'እ'."
+    }
+  ]
+}

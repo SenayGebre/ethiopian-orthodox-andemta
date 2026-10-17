@@ -1,0 +1,62 @@
+{
+  "pdf_page": 45,
+  "book_page_ethiopic": "፻፷፬",
+  "elapsed_sec": 21.9,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 10,
+      "old_text": "ቂት ይዞ ሄደ ። በዚሀ ሌሊት ራ",
+      "corrected_text": "ቂት ይዞ ሄደ ። በዚህ ሌሊት ራ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በዚሀ -> በዚህ",
+      "reason": "The 6th-order ህ in 'በዚህ' was misread as 1st-order ሀ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 21,
+      "old_text": "ዘአጽገብከኒ እምጽኡክነ ዝየ",
+      "corrected_text": "ዘአጽገብከኒ እምጽኡክኒ ዝየ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እምጽኡክነ -> እምጽኡክኒ",
+      "reason": "In the Ge'ez phrase 'እምጽኡክኒ ዝየ' (from this loaf of mine), the 3rd-order ኒ was misread as 1st-order ነ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 30,
+      "old_text": "ሄድ ነዳያን ከመንገድ አግኝት",
+      "corrected_text": "ሄድ ነዳያን ከመንገድ አግኝቶ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አግኝት -> አግኝቶ",
+      "reason": "The gerundive verb 'አግኝቶ' (7th-order ቶ) was misread as 6th-order ት."
+    },
+    {
+      "column_index": 3,
+      "line_num": 17,
+      "old_text": "ሳቸዋል ። አንዲት ድኃ ልጇዋ",
+      "corrected_text": "ሳቸዋል ። አንዲት ድኃ ልጅዋ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ልጇዋ -> ልጅዋ",
+      "reason": "The printed glyph is 6th-order ጅ in 'ልጅዋ', not ጇ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 21,
+      "old_text": "ልሺ አላት ። እሱን ተክታ ልጇ",
+      "corrected_text": "ልሺ አላት ። እሱን ተክታ ልጅ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ልጇ -> ልጅ",
+      "reason": "The printed glyph at the end of the line is 6th-order ጅ in 'ልጅ↵ዋን', not ጇ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 24,
+      "old_text": "እጸደናበት አይቶ ልጅህን ባ",
+      "corrected_text": "አጽደናበት አይቶ ልጅህን ባ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እጸደናበት -> አጽደናበት",
+      "reason": "The Amharic Andemta idiom 'ኃዘን አጽደናበት' (when grief overwhelmed/weighed upon him) is printed with 1st-order አ and 6th-order ጽ, misread as እጸደናበት."
+    }
+  ]
+}

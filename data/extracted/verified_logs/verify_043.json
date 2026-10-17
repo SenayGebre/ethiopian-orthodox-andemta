@@ -1,0 +1,26 @@
+{
+  "pdf_page": 43,
+  "book_page_ethiopic": "፻፷፪",
+  "elapsed_sec": 17.3,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 5,
+      "old_text": "እገር አቅንተው ይኖሩ ነ",
+      "corrected_text": "አገር አቅንተው ይኖሩ ነ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እ -> አ",
+      "reason": "The printed glyph is 1st-order አ (አገር አቅንተው, 'developing/settling a town/land'), misread as 6th-order እ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 36,
+      "old_text": "በሐልዮ በነቢብ በገሣሥ በዘ",
+      "corrected_text": "በሐልዮ በነቢብ በግሣጼ በዘ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በገሣሥ -> በግሣጼ",
+      "reason": "Both visually and philologically, the canonical Ge'ez/Andemta term in the cinco-mode healing formula is በግሣጼ ('by rebuke/command', alongside በሐልዮ and በነቢብ), where ግ was misread as ገ and ጼ as ሥ."
+    }
+  ]
+}

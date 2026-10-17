@@ -1,0 +1,26 @@
+{
+  "pdf_page": 114,
+  "book_page_ethiopic": "፬፻፺፮",
+  "elapsed_sec": 23.6,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "አባት ሆይ ባላወቁት ይሠራ",
+      "corrected_text": "አባት ሆይ ባላወቁት ይሠሩ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ራ -> ሩ",
+      "reason": "Visual inspection of Col 1 L01 shows the 2nd order (ካዕብ) glyph ሩ at the end of the line, forming the Amharic verb ይሠሩሉና ('for they act/do [in ignorance]') across the line break."
+    },
+    {
+      "column_index": 3,
+      "line_num": 28,
+      "old_text": "ጊዜ ተሱዓት ሰዓት ።⟫",
+      "corrected_text": "ጊዜ ተስዓቱ ሰዓት ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ተሱዓት -> ተስዓቱ",
+      "reason": "Visual inspection of Col 3 L28 and canonical Ge'ez grammar (Luke 23:44) confirm ተስዓቱ ሰዓት ('the ninth hour'), with 6th order ስ and 2nd order ቱ."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "pdf_page": 55,
+  "book_page_ethiopic": "፫፻፸፬",
+  "elapsed_sec": 14.3,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 24,
+      "old_text": "ምኔሃ አውፅአ ሰብአተ አጋን",
+      "corrected_text": "ምኔሃ አውፅአ ሰብዐተ አጋን",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አ -> ዐ",
+      "reason": "Classical Ge'ez numeral for 'seven' (masculine accusative) is 'ሰብዐተ' (from ሰብዑ/ሰብዐቱ), and the printed glyph clearly shows the rounded ዐ (4th order ዐይን) rather than አ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 25,
+      "old_text": "ንተ።⟫ዮሐ ፳ ፲፮።",
+      "corrected_text": "ንተ።⟫ዮሐ ፳ ፲፬።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፲፮ -> ፲፬",
+      "reason": "The cross-reference to John 20:14 (where Jesus appears to Mary Magdalene) is printed as ፲፬ (14), where the bottom loop of ፬ was misread as ፮."
+    },
+    {
+      "column_index": 3,
+      "line_num": 31,
+      "old_text": "ወዲህ ወላድ ወዲህ መውደድ",
+      "corrected_text": "ወዲህ ወላድ ወዲህ መወደድ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "መውደድ -> መወደድ",
+      "reason": "The passive infinitive 'መወደድ' (being loved, matching L30 'ተወዳጅ' and L34 'መወደድ') is printed with 1st-order ወ, not 6th-order ው."
+    }
+  ]
+}

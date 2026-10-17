@@ -1,0 +1,17 @@
+{
+  "pdf_page": 6,
+  "book_page_ethiopic": "፳፬ | ፳፭",
+  "elapsed_sec": 11.6,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 4,
+      "line_num": 6,
+      "old_text": "ቢጠጡት ፡ ክናላ ፡ ይወጣል ፡ አእምሮ ፡",
+      "corrected_text": "ቢጠጡት ፡ ከናላ ፡ ይወጣል ፡ አእምሮ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ክናላ -> ከናላ",
+      "reason": "Both visually on the page (clear right-extending horizontal stroke of 1st-order ከ) and grammatically in Amharic ('ከናላ ይወጣል' - it rises to the crown of the head), the word is ከናላ rather than ክናላ."
+    }
+  ]
+}

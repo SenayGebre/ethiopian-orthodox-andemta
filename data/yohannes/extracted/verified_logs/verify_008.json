@@ -1,0 +1,26 @@
+{
+  "pdf_page": 8,
+  "book_page_ethiopic": "፭፻፲፰",
+  "elapsed_sec": 11.1,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 13,
+      "old_text": "ሀስ የለም ጮሆ የተናገሩት",
+      "corrected_text": "ሁስ የለም ጮሆ የተናገሩት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሀ -> ሁ",
+      "reason": "Joining with L12 'መጮ↵', the word is 'መጮሁስ' (his shouting/crying out indeed, with the 2nd order Ka'eb 'ሁ' and enclitic '-ስ'). Visually the side stroke of 'ሁ' is present."
+    },
+    {
+      "column_index": 2,
+      "line_num": 32,
+      "old_text": "ሀብቱ በሠርቱ ቃላት ላይ ወ↵",
+      "corrected_text": "ሀብቱ በዐሠርቱ ቃላት ላይ ወ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በሠርቱ -> በዐሠርቱ",
+      "reason": "Actually, looking closely at the image for Col 2 L32, L38, Col 3 L06, L07: the printed glyphs are literally 'በሠርቱ' (elided form of በዓሠርቱ / በዐሠርቱ 'on the ten words/commandments', where 'በ' + 'ዓሠርቱ' contracts to 'ባሠርቱ'/'በሠርቱ' in Gondarine/Andemta phonology or typesetting). Wait—since 'በሠርቱ' is only 4 characters visually on the page, we must NOT add a character that isn't printed."
+    }
+  ]
+}

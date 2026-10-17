@@ -1,0 +1,107 @@
+{
+  "pdf_page": 26,
+  "book_page_ethiopic": "፪፻፶፬ | ፪፻፶፭",
+  "elapsed_sec": 32.6,
+  "applied_count": 11,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 7,
+      "old_text": "ወጥንተ ፡ ለምግባረ ፡ ኵሎ ፡ ትሩፋት ፡",
+      "corrected_text": "ወጥንተ ፡ ለምግባረ ፡ ኵሉ ፡ ትሩፋት ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኵሎ -> ኵሉ",
+      "reason": "Both the printed glyph (which has the bottom-right vowel stroke of 2nd-order ሉ) and Classical Ge'ez genitive syntax ('for the doing of all virtue', ለምግባረ ኵሉ ትሩፋት) confirm ኵሉ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 21,
+      "old_text": "⟪ወሰጥዮተ ፡⟫",
+      "corrected_text": "⟪ወስጥዮተ ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወሰጥዮተ -> ወስጥዮተ",
+      "reason": "The printed Fidel has the top-left bend of 6th-order ስ (ወስጥዮተ), matching the standard Ge'ez noun ስጥዮት."
+    },
+    {
+      "column_index": 2,
+      "line_num": 22,
+      "old_text": "ሰጥዮትን ፡ የፈጸማችሁበት ። ሐተታ ፡",
+      "corrected_text": "ስጥዮትን ፡ የፈጸማችሁበት ። ሐተታ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሰጥዮትን -> ስጥዮትን",
+      "reason": "The initial character clearly shows the 6th-order ስ bend (ስጥዮትን)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 23,
+      "old_text": "ስክረት ፡ ሰጥዮት ፡ ያለው ፡ ልዩ ፡ ነው ፡",
+      "corrected_text": "ስክረት ፡ ስጥዮት ፡ ያለው ፡ ልዩ ፡ ነው ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሰጥዮት -> ስጥዮት",
+      "reason": "The printed glyph is 6th-order ስ (ስጥዮት)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 25,
+      "old_text": "ሲያጨበጭቡ ፡ ማደር ፡ ሰጥዮት ፡ ነዊ",
+      "corrected_text": "ሲያጨበጭቡ ፡ ማደር ፡ ስጥዮት ፡ ነዊ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሰጥዮት -> ስጥዮት",
+      "reason": "The printed glyph is 6th-order ስ (ስጥዮት)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 27,
+      "old_text": "ዚያው ፡ አጥفቶ ፡ ወድቆ ፡ ተዘርሮ ፡",
+      "corrected_text": "ዚያው ፡ አጥፍቶ ፡ ወድቆ ፡ ተዘርሮ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አጥفቶ -> አጥፍቶ",
+      "reason": "Stage-1 OCR erroneously output a non-Ethiopic Arabic character (ف) instead of the clearly printed Ethiopic Fidel ፍ in አጥፍቶ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 33,
+      "old_text": "ወት ፡ ነው ፡ ስክረት ፡ ነው ፡ ሰጥዮት ፡",
+      "corrected_text": "ወት ፡ ነው ፡ ስክረት ፡ ነው ፡ ስጥዮት ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሰጥዮት -> ስጥዮት",
+      "reason": "The printed glyph is 6th-order ስ (ስጥዮት)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 3,
+      "old_text": "አቅድሐ ፡ ያውም ፡ ባይሆን ፡ ሁለት ፡ ወእ",
+      "corrected_text": "አቅዳሐ ፡ ያውም ፡ ባይሆን ፡ ሁለት ፡ ወእ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አቅድሐ -> አቅዳሐ",
+      "reason": "The third glyph is 4th-order ዳ (with the shortened left leg, identical to አቅዳሐ on the next line), forming the plural accusative ክልኤተ አቅዳሐ ('two cups')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 4,
+      "old_text": "ምዕፀብ ፡ አብሖ ፡ ፫ ፡ አቅዳሐ ፡ መድኃ",
+      "corrected_text": "ምዕፀብ ፡ አብሐ ፡ ፫ ፡ አቅዳሐ ፡ መድኃ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አብሖ -> አብሐ",
+      "reason": "Both the printed glyph (1st-order ሐ without a top loop) and the Fetha Negest / patristic Ge'ez citation (ወእምዕፀብ አብሐ ፫ አቅዳሐ, 'and out of necessity he permitted three cups') confirm አብሐ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 15,
+      "old_text": "ዕወቁ ፡ ዝሙት ፡ ፍትወት ፡ ስክረት ፡ ሰጥ",
+      "corrected_text": "ዕወቁ ፡ ዝሙት ፡ ፍትወት ፡ ስክረት ፡ ስጥ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሰጥ -> ስጥ",
+      "reason": "The printed glyph at the end of the line is 6th-order ስ (ስጥዮት)."
+    },
+    {
+      "column_index": 4,
+      "line_num": 9,
+      "old_text": "⟪፮ ፤ ወበእንተ ፡ ዝንቱ ፡ ዜንዎውሙ ፡ ለምውታን ፡⟫",
+      "corrected_text": "⟪፮ ፤ ወበእንተ ፡ ዝንቱ ፡ ዜንዎሙ ፡ ለምውታን ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዜንዎውሙ -> ዜንዎሙ",
+      "reason": "The printed page clearly reads ዜንዎሙ (4 characters, with no ው between ዎ and ሙ), which is the standard Ge'ez verb form in 1 Peter 4:6."
+    }
+  ]
+}

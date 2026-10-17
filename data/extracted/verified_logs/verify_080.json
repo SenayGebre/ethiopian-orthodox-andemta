@@ -1,0 +1,35 @@
+{
+  "pdf_page": 80,
+  "book_page_ethiopic": "፻፺፱",
+  "elapsed_sec": 17.0,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 19,
+      "old_text": "ም ወይን ተከሎ ዕለቱን አድ↵",
+      "corrected_text": "ም ወይን ተክሎ ዕለቱን አድ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከ -> ክ",
+      "reason": "The gerundive form is ተክሎ ('having planted', with 6th-order ሳድስ ክ), which is clearly visible in the zoomed image."
+    },
+    {
+      "column_index": 2,
+      "line_num": 9,
+      "old_text": "[፬] ባልተነበበ ስሙ ይተረጐማሉ",
+      "corrected_text": "[፬] ባልተነበበ ስሙ ይተረጐማል",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሉ -> ል",
+      "reason": "A faint punctuation dot next to ል was misread as 2nd-order ሉ; the verb agrees with the singular subject Simon/Nathanael (ባልተነበበ ስሙ ይተረጐማል)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 7,
+      "old_text": "ማውጣትም የገዢና የተገዢ",
+      "corrected_text": "ማውጣትም የገዥና የተገዥ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዢ -> ዥ",
+      "reason": "The printed glyphs clearly show 6th-order ዥ (የገዥና የተገዥ) rather than 3rd-order ዢ."
+    }
+  ]
+}

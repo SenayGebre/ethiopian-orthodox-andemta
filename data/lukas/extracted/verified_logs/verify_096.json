@@ -1,0 +1,26 @@
+{
+  "pdf_page": 96,
+  "book_page_ethiopic": "፬፻፸፰",
+  "elapsed_sec": 14.5,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 32,
+      "old_text": "ምረከ ከመ ዕፁብ ብእሲ አንተ⟫",
+      "corrected_text": "ምርከ ከመ ዕፁብ ብእሲ አንተ⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ምረከ -> ምርከ",
+      "reason": "Classical Ge'ez 1st person singular imperfect + 2nd person masculine singular object suffix 'አእምርከ' ('I know you'), with 6th-order ር clearly visible in the scan."
+    },
+    {
+      "column_index": 3,
+      "line_num": 23,
+      "old_text": "ምናነ ወወሀብዎ ለዘቦቱ ፲ቱ",
+      "corrected_text": "ምናነ ወሀብዎ ለዘቦቱ ፲ቱ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወወሀብዎ -> ወሀብዎ",
+      "reason": "The printed text has 'ወሀብዎ' (conjunction ወ + imperative plural ሀብዎ, 'and give it'), with only a single ወ printed on the line."
+    }
+  ]
+}

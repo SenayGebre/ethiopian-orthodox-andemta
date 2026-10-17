@@ -1,0 +1,53 @@
+{
+  "pdf_page": 112,
+  "book_page_ethiopic": "፮፻፳፪",
+  "elapsed_sec": 31.1,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 30,
+      "old_text": "ልቡናህን በዋብዓት ዝናር ትታ",
+      "corrected_text": "ልቡናህን በትብዓት ዝናር ትታ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዋ -> ት",
+      "reason": "The printed glyph is 'ት' in 'በትብዓት' (with the belt of courage/boldness), which was misread as 'ዋ' due to ink fill on the crossbars."
+    },
+    {
+      "column_index": 1,
+      "line_num": 33,
+      "old_text": "ማለት ትሄዳለህ ፡ ወአመሰ ልህ",
+      "corrected_text": "ማለት ትሄዳለህ ፡ ወአመሰ ልሕ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ህ -> ሕ",
+      "reason": "The Ge'ez citation 'ወአመሰ ልሕቀ' clearly prints 'ሕ' at the end of line 33, matching line 12."
+    },
+    {
+      "column_index": 2,
+      "line_num": 18,
+      "old_text": "እንግድአሁ እንዘ ይዴረሩ ፡⟫",
+      "corrected_text": "እንግድዓሁ እንዘ ይዴረሩ ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አ -> ዓ",
+      "reason": "The Ge'ez word 'እንግድዓሁ' (his chest/bosom) is printed with 'ዓ' (4th order ዐይን), not 'አ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 33,
+      "old_text": "ጴጥሮስ እመኬ ፈቀድኩ የሃ",
+      "corrected_text": "ጴጥሮስ እመኬ ፈቀድኩ የሀ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሃ -> ሀ",
+      "reason": "The Ge'ez subjunctive 'የሀሉ' is printed with 1st-order 'ሀ' at the end of line 33."
+    },
+    {
+      "column_index": 3,
+      "line_num": 28,
+      "old_text": "መቋሚያውን መነሣንውን ከዳ",
+      "corrected_text": "መቋሚያውን መነሣኒውን ከዳ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ን -> ኒ",
+      "reason": "The word is 'መነሣኒውን' (his sandals/footwear, from መነሣኒ), where the bottom horizontal stroke of 'ኒ' is slightly faint."
+    }
+  ]
+}

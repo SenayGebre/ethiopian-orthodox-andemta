@@ -1,0 +1,17 @@
+{
+  "pdf_page": 100,
+  "book_page_ethiopic": "፬፻፹፪",
+  "elapsed_sec": 12.2,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 17,
+      "old_text": "⟪ወየኃሥሥ ሊቃነ ካህናት ወጸ↵",
+      "corrected_text": "⟪ወየኃሥሡ ሊቃነ ካህናት ወጸ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሥ -> ሡ",
+      "reason": "Both Classical Ge'ez grammar (plural verb agreeing with the compound plural subject 'ሊቃነ ካህናት ወጸሐፍት ወሊቃናተ ሕዝብ' in Luke 19:47) and visual inspection of the 2x zoomed image confirm the 2nd-order (ካዕብ) vowel marker on the right leg of 'ሡ' in 'ወየኃሥሡ'."
+    }
+  ]
+}

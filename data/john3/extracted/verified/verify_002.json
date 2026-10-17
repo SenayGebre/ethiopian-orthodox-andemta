@@ -1,0 +1,62 @@
+{
+  "pdf_page": 2,
+  "book_page_ethiopic": "፻፳፰ | ፻፳፱",
+  "elapsed_sec": 22.7,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 33,
+      "old_text": "⟪ከመ ፡ ንኩን ፡ ሱታፎ ፡ ለጽድቅ ፡⟫",
+      "corrected_text": "⟪ከመ ፡ ንኩን ፡ ሱታፌ ፡ ለጽድቅ ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፎ -> ፌ",
+      "reason": "The canonical Ge'ez noun for 'partakers/fellowship' is ሱታፌ (5th order ፌ), which is clearly visible in the image (the bottom ring of ፌ was misread as the top loop of ፎ)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 6,
+      "old_text": "ጣም ፡ ብሎ ፡ አእኀየ ፡ እሙን ፡ ግብር ፡",
+      "corrected_text": "ጣም ፡ ብሎ ፡ ኦእኀየ ፡ እሙን ፡ ግብር ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አ -> ኦ",
+      "reason": "This quotes Verse 5 (ኦ ፡ እኀየ ፡ እሙን ፡ ግብር ፡ ዘገበርከ); the vocative ኦ (7th order) is printed on the page."
+    },
+    {
+      "column_index": 2,
+      "line_num": 21,
+      "old_text": "ስለዚሀም ፡ በመጣሁ ፡ ጊዜ ፡ የሚሠራውን ፡",
+      "corrected_text": "ስለዚህም ፡ በመጣሁ ፡ ጊዜ ፡ የሚሠራውን ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሀ -> ህ",
+      "reason": "The Amharic word is ስለዚህም (with 6th order ህ, not 1st order ሀ)."
+    },
+    {
+      "column_index": 4,
+      "line_num": 19,
+      "old_text": "ለቃል ፡ እንድነጋገርህ ፡ አምናለሁና ፡ ት",
+      "corrected_text": "ለቃል ፡ እንድነጋገርህ ፡ አምናለሁና ፡ ተ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ት -> ተ",
+      "reason": "Across the line wrap (L19-L20), the word is ተሁት (contracted form of ተውሁት, 'I left it'), with 1st order ተ clearly visible at the end of Line 19."
+    },
+    {
+      "column_index": 4,
+      "line_num": 27,
+      "old_text": "ገርህ ፡ አምናለሁና ፡ ትሁት ፡ እንጅ ።",
+      "corrected_text": "ገርህ ፡ አምናለሁና ፡ ተሁት ፡ እንጅ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ት -> ተ",
+      "reason": "As in Line 19-20, the printed word is ተሁት ('I left it', from ተወ), with 1st order ተ rather than 6th order ት."
+    },
+    {
+      "column_index": 4,
+      "line_num": 33,
+      "old_text": "ወንድሞቻችንን ፡ በዬስማቸው ፡ ቸር ፡ አላ",
+      "corrected_text": "ወንድሞቻችንን ፡ በየስማቸው ፡ ቸር ፡ አላ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዬ -> የ",
+      "reason": "The distributive prefix in በየስማቸው ('by each of their names') uses 1st order የ, which is clearly printed without a 5th-order ring."
+    }
+  ]
+}

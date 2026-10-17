@@ -1,0 +1,44 @@
+{
+  "pdf_page": 27,
+  "book_page_ethiopic": "፪፻፶፬ | ፪፻፶፭",
+  "elapsed_sec": 19.6,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 9,
+      "old_text": "ቲክሙ ፡ በምልዓ ፡ ልብክሙ ፡⟫",
+      "corrected_text": "ቲክሙ ፡ በምልዐ ፡ ልብክሙ ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዓ -> ዐ",
+      "reason": "The printed Ge'ez construct form is 'በምልዐ' (1st order ዐ), not 4th order ዓ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 4,
+      "old_text": "⟪፲፪ ፤ አኅዊነ ፡ ኢታንክርዋ ፡ ለእንተ ፡ ትመጽእ",
+      "corrected_text": "⟪፲፪ ፤ አኅዊነ ፡ ኢታንክርዋ ፡ ለእንተ ፡ ትመጽእ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ትመጽእ -> ትመጽእ↵ክሙ",
+      "reason": "The word 'ትመጽእክሙ' splits across the end of line 4 onto line 5."
+    },
+    {
+      "column_index": 3,
+      "line_num": 5,
+      "old_text": "ከሙ ፡ መከራ ፡ ከመ ፡ ዘነኪር ፡ ግብር ፡ ዘይከውን ፡",
+      "corrected_text": "ክሙ ፡ መከራ ፡ ከመ ፡ ዘነኪር ፡ ግብር ፡ ዘይከውን ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ከሙ -> ክሙ",
+      "reason": "The 2nd person plural suffix completing 'ትመጽእክሙ' is printed with 6th order 'ክ' (ክሙ), not 1st order 'ከ'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 4,
+      "old_text": "ቲሁ ፡ ትትሐወዩ ፡ ፍሥሐኒክሙ ።⟫",
+      "corrected_text": "ቲሁ ፡ ትትሐወዩ ፡ ፍሡሓኒክሙ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፍሥሐኒክሙ -> ፍሡሓኒክሙ",
+      "reason": "The printed Ge'ez word is 'ፍሡሓኒክሙ' with 2nd order ሡ and 4th order ሓ, matching lines 9, 13, and 17 below."
+    }
+  ]
+}

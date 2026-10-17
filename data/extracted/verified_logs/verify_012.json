@@ -1,0 +1,17 @@
+{
+  "pdf_page": 12,
+  "book_page_ethiopic": "፻፴፩",
+  "elapsed_sec": 9.2,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 31,
+      "old_text": "ሥጋሁ ወአምአመ ኮነ ቃል",
+      "corrected_text": "ሥጋሁ ወእምአመ ኮነ ቃል",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወአምአመ -> ወእምአመ",
+      "reason": "Classical Ge'ez preposition 'ወእምአመ' ('and from when / since the time that') has 6th-order 'እ' (ወእም-), visually confusable with 1st-order 'አ'."
+    }
+  ]
+}

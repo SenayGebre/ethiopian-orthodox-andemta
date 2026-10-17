@@ -1,0 +1,35 @@
+{
+  "pdf_page": 10,
+  "book_page_ethiopic": "፻፳፱",
+  "elapsed_sec": 20.4,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 35,
+      "old_text": "ያን ሰዶ አስከ በበው ፤ ኋላም እ↵",
+      "corrected_text": "ያን ሰዶ አስከበበው ፤ ኋላም እ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አስከ በበው -> አስከበበው",
+      "reason": "Spurious space inside the causative verb 'አስከበበው' (he had him besieged)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 17,
+      "old_text": "ገንዞ መቅበር ይገባል ወዲእ",
+      "corrected_text": "ገንዞ መቅበር ይገባል ወዲህ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እ -> ህ",
+      "reason": "The printed glyph at the end of the line is 'ህ' forming 'ወዲህ' (ወዲህ አምጡት = 'bring him here'), misread as 'ወዲእ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 4,
+      "old_text": "ፍጮ ስር ልቡ ፈርሶ ሞቱዋል",
+      "corrected_text": "ፍጮ ስር ልቡ ፈርሶ ሞቶዋል",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቱ -> ቶ",
+      "reason": "The printed glyph has the top loop of 7th-order 'ቶ' ('ሞቶዋል'), misread as 2nd-order 'ቱ'."
+    }
+  ]
+}

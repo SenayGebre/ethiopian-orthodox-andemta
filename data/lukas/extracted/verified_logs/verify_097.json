@@ -1,0 +1,35 @@
+{
+  "pdf_page": 97,
+  "book_page_ethiopic": "፬፻፸፱",
+  "elapsed_sec": 11.2,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 5,
+      "old_text": "ልነግሥባቸው የማይወዱ እኔ",
+      "corrected_text": "ልነግሥባቸው የማይወዱ እኒ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እኔ -> እኒ",
+      "reason": "The word wraps onto L06 as 'እኒህን' ('these enemies of mine'). Visually on L05 the character is 'ኒ' (3rd order with a short horizontal foot on the right), not 'ኔ' (5th order ring)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 16,
+      "old_text": "፳፩ ፩፥ ማር ፲ ፩ ።",
+      "corrected_text": "፳፩ ፩፥ ማር ፲፩ ፩ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፲ ፩ -> ፲፩ ፩",
+      "reason": "Cross-reference to Mark 11:1 ('ማር ፲፩ ፩ ።'). Looking closely at Col 1 L16, after 'ማር' is '፲፩' (11) followed by '፩' (1)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 1,
+      "old_text": "⟪ወሖዊሮሙ እለ ተፈነዉ ረ",
+      "corrected_text": "⟪ወሐዊሮሙ እለ ተፈነዉ ረ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወሖዊሮሙ -> ወሐዊሮሙ",
+      "reason": "Classical Ge'ez gerundive 'ወሐዊሮሙ' (and having gone) takes 1st order 'ሐ', not 7th order 'ሖ'."
+    }
+  ]
+}

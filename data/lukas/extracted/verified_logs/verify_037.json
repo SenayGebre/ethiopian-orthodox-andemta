@@ -1,0 +1,17 @@
+{
+  "pdf_page": 37,
+  "book_page_ethiopic": "፬፻፲፱",
+  "elapsed_sec": 10.2,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 39,
+      "old_text": "ከሀገራችሁ ቢያሰዽችሁ ።",
+      "corrected_text": "ከሀገራችሁ ቢያሰዷችሁ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዽ -> ዷ",
+      "reason": "The Amharic translation of 'ወይሰድዱክሙ' (and they shall cast you out / exile you, from ሰደደ) is 'ቢያሰዷችሁ' with 'ዷ' (labialized 4th order of ደ), which was visually misread as 'ዽ'."
+    }
+  ]
+}

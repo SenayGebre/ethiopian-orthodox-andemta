@@ -1,0 +1,71 @@
+{
+  "pdf_page": 23,
+  "book_page_ethiopic": "፻፵፪",
+  "elapsed_sec": 28.3,
+  "applied_count": 7,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 9,
+      "old_text": "ካ ሶርያ ይትከፈል ይላልሳ ቢ↵",
+      "corrected_text": "ከ ሶርያ ይትከፈል ይላልሳ ቢ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ካ -> ከ",
+      "reason": "Ge'ez noun with 2nd person masculine singular suffix 'ወምህርከ ሶርያ' (Isaiah 8:4) ends with 1st-order 'ከ', not 4th-order 'ካ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 31,
+      "old_text": "ሮ ገብር አለው ። አቱአ እግዚ↵",
+      "corrected_text": "ሮ ገብር አለው ። እትአ እግዚ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አቱ -> እት",
+      "reason": "Ge'ez imperative 'እትአ እግዚእየ' ('depart/return, my lord') is printed with 'እትአ', misread as 'አቱአ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 32,
+      "old_text": "እየ ዘአየርከኒ እፀውር ብሎ ከ↵",
+      "corrected_text": "እየ ዘአጾርከኒ እፀውር ብሎ ከ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "የ -> ጾ",
+      "reason": "Canonical Ge'ez citation 'ዘአጾርከኒ እፀውር' (2 Kings 18:14, 'whatever you lay upon me I will bear') has 'ጾ' misread as 'የ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 11,
+      "old_text": "ሄ እጅ ንበረች ። እሱም ይህች↵",
+      "corrected_text": "ሄ እጅ ነበረች ። እሱም ይህች↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ን -> ነ",
+      "reason": "Amharic verb 'ነበረች' begins with 1st-order 'ነ', misread as 6th-order 'ን'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 22,
+      "old_text": "ድከኒ ። በግድ ባሪያህ በፈቃድ",
+      "corrected_text": "ድከኒ ። በግድ ባሪህ በፈቃድ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ባሪያህ -> ባሪህ",
+      "reason": "The printed text in the image clearly reads the contracted form 'ባሪህ' without 'ያ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 28,
+      "old_text": "ጠየቀ የረአሶን አሉት ። እሱ",
+      "corrected_text": "ጠየቀ የረዓሶን አሉት ። እሱ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አ -> ዓ",
+      "reason": "The proper name 'የረዓሶን' (Rezin) is printed with 'ዓ', misread as 'አ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 4,
+      "old_text": "ተመቶ ከገሩ ይሞታል ። በዚህ",
+      "corrected_text": "ተመቶ ካገሩ ይሞታል ። በዚህ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ከ -> ካ",
+      "reason": "Amharic 'ካገሩ' (ከአገሩ, 'in his country') is printed with 4th-order 'ካ', misread as 1st-order 'ከ'."
+    }
+  ]
+}

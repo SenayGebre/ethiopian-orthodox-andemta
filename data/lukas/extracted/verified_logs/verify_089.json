@@ -1,0 +1,62 @@
+{
+  "pdf_page": 89,
+  "book_page_ethiopic": "፬፻፸፩",
+  "elapsed_sec": 18.9,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 13,
+      "old_text": "ከኔህ ከታናናሾቹ አንዱን ከሚ",
+      "corrected_text": "ከኒህ ከታናናሾቹ አንዱን ከሚ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከኔህ -> ከኒህ",
+      "reason": "The printed glyph is ኒ (3rd order) forming the standard Andemta demonstrative ከኒህ ('from these'), misread as ኔ due to ink spread at the foot."
+    },
+    {
+      "column_index": 1,
+      "line_num": 37,
+      "old_text": "ኅድግ ሎቱ አለው አለ እንዴ",
+      "corrected_text": "ኅድግ ሎቱ አለው አለ እንደ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እንዴ -> እንደ",
+      "reason": "The printed glyph at the end of the line is 1st-order ደ (እንደ ምን ነው = 'how is it?'), with no 5th-order loop."
+    },
+    {
+      "column_index": 2,
+      "line_num": 11,
+      "old_text": "በሰብዕ ብሎ ከዚሀም ለእመ",
+      "corrected_text": "በሰብዕ ብሎ ከዚህም ለእመ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ከዚሀም -> ከዚህም",
+      "reason": "The printed glyph is 6th-order ህ in ከዚህም ('and here'), misread as 1st-order ሀ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 31,
+      "old_text": "⟪ቲ ሰግላ ተመልחי እምሥርው",
+      "corrected_text": "⟪ቲ ሰግላ ተመልሒ እምሥርው",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "חי -> ሒ",
+      "reason": "Stage-1 OCR hallucinated Hebrew characters חי in place of the Ethiopic 3rd-order glyph ሒ in the canonical Ge'ez feminine imperative ተመልሒ ('be uprooted', Luke 17:6)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 8,
+      "old_text": "⟪ይቤሎኑ እግዚኦ ዕርግ ነዓ ወ",
+      "corrected_text": "⟪ይቤሎኑ እግዚኡ ዕርግ ነዓ ወ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እግዚኦ -> እግዚኡ",
+      "reason": "Both the image (showing the 2nd-order right-side stroke of ኡ) and canonical Ge'ez grammar (Luke 17:7, nominative subject 'his master' = እግዚኡ) confirm እግዚኡ rather than vocative እግዚኦ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 13,
+      "old_text": "ዘአይፈር።⟫",
+      "corrected_text": "ዘእድራር።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዘአይፈር -> ዘእድራር",
+      "reason": "The printed Ge'ez word in Luke 17:8 is ዘእድራር ('that which I shall eat for supper', translated in L14 as የምበላውን), which Stage 1 misread as ዘአይፈር."
+    }
+  ]
+}

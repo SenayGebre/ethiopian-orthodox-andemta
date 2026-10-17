@@ -1,0 +1,35 @@
+{
+  "pdf_page": 136,
+  "book_page_ethiopic": "፮፻፵፭",
+  "elapsed_sec": 15.1,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 31,
+      "old_text": "፵፩ ወአቅደመ ረኪበ እኀዋሁ ።",
+      "corrected_text": "፵፩ ወአቅደመ ረኪበ እኀዊሁ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዋ -> ዊ",
+      "reason": "Canonical Ge'ez Gospel of John 1:41 accusative construct form is 'እኀዊሁ' (his brother), and the 3rd-order Fidel 'ዊ' is visible in the print."
+    },
+    {
+      "column_index": 2,
+      "line_num": 29,
+      "old_text": "፴፬ ተኀሥሥኒ ወኢትረክቡኒ ።",
+      "corrected_text": "፴፬ ተኀሥሡኒ ወኢትረክቡኒ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሥ -> ሡ",
+      "reason": "In John 7:34, the plural verb 'ተኀሥሡኒ' (you will seek me) matches 'ወኢትረክቡኒ', and the 2nd-order vowel mark on 'ሡ' is clearly printed."
+    },
+    {
+      "column_index": 2,
+      "line_num": 34,
+      "old_text": "፳፯ አሜሃ ተአምሩ ከመ አነ ውእቱ ።",
+      "corrected_text": "፳፰ አሜሃ ተአምሩ ከመ አነ ውእቱ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፳፯ -> ፳፰",
+      "reason": "The verse reference for 'አሜሃ ተአምሩ ከመ አነ ውእቱ' is John 8:28 (፳፰), and the printed numeral is '፳፰'."
+    }
+  ]
+}

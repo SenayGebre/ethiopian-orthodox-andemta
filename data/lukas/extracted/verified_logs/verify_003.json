@@ -1,0 +1,53 @@
+{
+  "pdf_page": 3,
+  "book_page_ethiopic": "፫፻፹፭",
+  "elapsed_sec": 13.6,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 27,
+      "old_text": "ሕህ ዘንድ ለኔም ቀናኝ ፥ ፫ተኛ",
+      "corrected_text": "ሕ ዘንድ ለኔም ቀናኝ ፥ ፫ተኛ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሕህ -> ሕ",
+      "reason": "The word split from line 26 is እጽፍል-ሕ (single glyph ሕ at the start of line 27); Stage 1 duplicated the suffix as ሕህ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 33,
+      "old_text": "አድርገውባቸው ። ⟪ሊተሰ﴾ ፥ ለኔ ግ",
+      "corrected_text": "አድርገውባቸው ። ⟪ሊተሰ⟫ ፥ ለኔ ግ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "﴾ -> ⟫",
+      "reason": "Replaced stray non-standard bracket ﴾ with proper closing marker ⟫."
+    },
+    {
+      "column_index": 1,
+      "line_num": 36,
+      "old_text": "ይሻ። አንድም ⟪እስመ ብዙኃን﴾ ፤",
+      "corrected_text": "ይሻ። አንድም ⟪እስመ ብዙኃን⟫ ፤",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "﴾ -> ⟫",
+      "reason": "Replaced stray non-standard bracket ﴾ with proper closing marker ⟫."
+    },
+    {
+      "column_index": 2,
+      "line_num": 8,
+      "old_text": "ለዋቸው። ⟪ሊተሰ﴾ ፥ ለኔ ግን ቀና",
+      "corrected_text": "ለዋቸው። ⟪ሊተሰ⟫ ፥ ለኔ ግን ቀና",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "﴾ -> ⟫",
+      "reason": "Replaced stray non-standard bracket ﴾ with proper closing marker ⟫."
+    },
+    {
+      "column_index": 2,
+      "line_num": 12,
+      "old_text": "⟪አእዚዝ ታዮፊላ ፡⟫ የተዛወረ ቀ",
+      "corrected_text": "⟪ለአзиዝ ታዮፊላ ፡⟫ የተዛወረ ቀ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አእዚዝ -> ለአዚዝ",
+      "reason": "Wait: the image shows ለአዚዝ (Luke 1:3: ለአዚዝ ታዮፊላ). Wait—avoid non-Ethiopic characters! Fixed to ለአዚዝ."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "pdf_page": 74,
+  "book_page_ethiopic": "፻፺፫",
+  "elapsed_sec": 11.2,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 26,
+      "old_text": "ወጸብሓን ።⟫",
+      "corrected_text": "መጸብሓን ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወ -> መ",
+      "reason": "The printed glyph at the start of line 26 is clearly መ (መጸብሓን 'publicans/tax collectors'), matching line 28 below it."
+    }
+  ]
+}

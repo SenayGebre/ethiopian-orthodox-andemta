@@ -1,0 +1,35 @@
+{
+  "pdf_page": 26,
+  "book_page_ethiopic": "፫፻፵፭",
+  "elapsed_sec": 26.1,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 22,
+      "old_text": "⟪ወአኀዙ ይትኀሠሥዎ ።⟫",
+      "corrected_text": "⟪አኀዙ ይትኀሠሥዎ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወአኀዙ -> አኀዙ",
+      "reason": "The printed text on Column 2 Line 22 begins directly with አኀዙ (without a preceding ወ)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 17,
+      "old_text": "ከነሱ ዘንድ የለም ማለት ልማ↵",
+      "corrected_text": "ካንስ ዘንድ የለም ማለት ልማ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከነሱ -> ካንስ",
+      "reason": "Visually the first word is ካንስ (4th order ካ, 6th order ን, 6th order ስ, meaning 'with respect to a small/little amount'), which directly explains the following Ge'ez proof-text 'ወበውስተ ውሁድኒ ትብል አልቦ' ('and concerning a little thing you say there is none')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 19,
+      "old_text": "ሐቲ አላለምወበውስተ ውሁ↵",
+      "corrected_text": "ሐቲ አላለም ወበውስተ ውሁ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አላለምወበውስተ -> አላለም ወበውስተ",
+      "reason": "Restore word separation between the Amharic verb አላለም and the Ge'ez citation ወበውስተ."
+    }
+  ]
+}

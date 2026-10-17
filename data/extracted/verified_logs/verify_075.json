@@ -1,0 +1,44 @@
+{
+  "pdf_page": 75,
+  "book_page_ethiopic": "፻፺፬",
+  "elapsed_sec": 38.4,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 26,
+      "old_text": "ኒትን የታተመሙ ሰዎች ይ↵",
+      "corrected_text": "ኒትን የተታመሙ ሰዎች ይ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "የታተመሙ -> የተታመሙ",
+      "reason": "The printed text clearly shows 1st-order ተ followed by 4th-order ታ (የተታመሙ, 'those who are sick'), which was transposed in Draft Pass 1."
+    },
+    {
+      "column_index": 3,
+      "line_num": 6,
+      "old_text": "ሆሙ ውእተ አሚረ ይጸውሙ⟫",
+      "corrected_text": "ሆሙ ውእተ አሚረ ይጸውሙ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ይጸውሙ -> ይጸውሙ።",
+      "reason": "The full stop ። at the end of the Ge'ez verse is clearly visible in the image."
+    },
+    {
+      "column_index": 3,
+      "line_num": 19,
+      "old_text": "[፲፮] ⟪ወአልቦ ዘይጠቅብ ግምደ ደር↵",
+      "corrected_text": "[፲፮] ⟪ወአልቦ ዘይጠቅብ ግምደ ድር↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ደር -> ድር",
+      "reason": "In canonical Ge'ez (Matt 9:16) and in the printed glyph, the word is ድርግሀ with 6th-order ድ (ድር-)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 22,
+      "old_text": "[፲፮] አዲስ ቍራጭ በረጅ ልብስ",
+      "corrected_text": "[፲፮] አዲስ ቍራጭ በረጀ ልብስ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በረጅ -> በረጀ",
+      "reason": "Both visually and grammatically in Amharic ('on an old/worn-out garment'), the final letter is 1st-order ጀ (በረጀ), not 6th-order ጅ."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "pdf_page": 117,
+  "book_page_ethiopic": "፮፻፳፯",
+  "elapsed_sec": 13.8,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 9,
+      "old_text": "ንፈሰ ቅዱሰ ። ቍ ፯",
+      "corrected_text": "ንፈስ ቅዱስ ። ቍ ፯",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሰ -> ስ",
+      "reason": "Both fidels have the 6th-order (ሳድስ) top-left kink clearly visible in the print: መንፈስ ቅዱስ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 40,
+      "old_text": "ኢየሱስ። ቍ ፴፩",
+      "corrected_text": "ኢየሱስ። ቍ ፴፰",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፴፩ -> ፴፰",
+      "reason": "The second numeral glyph has the three-looped structure of ፰ (8), giving verse ፴፰ (John 19:38, the burial of Jesus)."
+    }
+  ]
+}

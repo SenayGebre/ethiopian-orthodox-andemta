@@ -1,0 +1,35 @@
+{
+  "pdf_page": 56,
+  "book_page_ethiopic": "፻፸፭",
+  "elapsed_sec": 32.7,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 28,
+      "old_text": "[፬] ምጽዋትህ በስውር ይሆን ዘ↵",
+      "corrected_text": "[፬] ምጽዋትህ በስውር ይሁን ዘ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ይሆን -> ይሁን",
+      "reason": "The printed glyph has the 2nd-order stroke on the right leg (ይሁን), which is the standard Amharic jussive before ዘንድ ('ይሁን ዘንድ')."
+    },
+    {
+      "column_index": 2,
+      "line_num": 3,
+      "old_text": "⟪እስመ ያፈቅሩ በመኳርብት",
+      "corrected_text": "⟪እስመ ያፈቅሩ በምኵራባት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በመኳርብት -> በምኵራባት",
+      "reason": "Canonical Ge'ez Matthew 6:5 plural locative 'በምኵራባት' (in the synagogues), visually confirmed in the zoomed image."
+    },
+    {
+      "column_index": 3,
+      "line_num": 5,
+      "old_text": "ንዲል ። አንድም ጨርሣችሁ አ↵",
+      "corrected_text": "ንዲል ። አንድም ጩኻችሁ አ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጨርሣችሁ -> ጩኻችሁ",
+      "reason": "The printed word is 'ጩኻችሁ' (crying out / shouting, matching the immediately following citation 'ኢትከላህ' and line 29 'ጩኻችሁ አትጸልዩ'), misread as 'ጨርሣችሁ' due to ink bleed on ጩኻ."
+    }
+  ]
+}

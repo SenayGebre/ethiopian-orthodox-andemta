@@ -1,0 +1,35 @@
+{
+  "pdf_page": 45,
+  "book_page_ethiopic": "፬፻፳፯",
+  "elapsed_sec": 15.4,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 9,
+      "old_text": "⟪ወሐውዘ ተድላ ወፈጌዕ ያጠ↵",
+      "corrected_text": "⟪ወሐውዘ ተድላ ወፈገዕ ያጠ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጌ -> ገ",
+      "reason": "The printed Ge'ez word is ወፈገዕ with first-order ገ, not fifth-order ጌ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 12,
+      "old_text": "እስጨንቋቸው የማይሰሩት ና↵",
+      "corrected_text": "አስጨንቋቸው የማይሰሩት ና",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እ -> አ",
+      "reason": "The Amharic causative gerundive begins with first-order አ (አስጨንቋቸው), not sixth-order እ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 17,
+      "old_text": "ቃለ በሠናይ ልብ ወያአቅብዎ",
+      "corrected_text": "ቃለ በሠናይ ልብ ወየአቅብዎ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ያ -> የ",
+      "reason": "Both visually on the page and in Classical Ge'ez imperfective verb morphology, the prefix is first-order የ (ወየአቅብዎ), not fourth-order ያ."
+    }
+  ]
+}

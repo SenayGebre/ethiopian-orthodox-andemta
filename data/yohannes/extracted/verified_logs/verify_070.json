@@ -1,0 +1,17 @@
+{
+  "pdf_page": 70,
+  "book_page_ethiopic": "፭፻፹",
+  "elapsed_sec": 9.7,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 39,
+      "old_text": "ፈቃደ ሰው እንደሆንኩ ያው",
+      "corrected_text": "ፈቃድ ፥ ሰው እንደሆንኩ ያው",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ፈቃደ -> ፈቃድ ፥",
+      "reason": "The printed glyph is 6th-order ድ followed by ነጠብጣብ (ፈቃድ ፥), meaning 'by Your will, that I became man', not construct state ፈቃደ."
+    }
+  ]
+}

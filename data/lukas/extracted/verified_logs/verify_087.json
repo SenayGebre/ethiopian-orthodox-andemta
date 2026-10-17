@@ -1,0 +1,107 @@
+{
+  "pdf_page": 87,
+  "book_page_ethiopic": "፬፻፷፱",
+  "elapsed_sec": 39.5,
+  "applied_count": 11,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 2,
+      "old_text": "ቶ ቢያየው ገเማም ወርቅ አገ",
+      "corrected_text": "ቶ ቢያየው ዝማም ወርቅ አገ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ገเ -> ዝ",
+      "reason": "Stage 1 produced a non-Ethiopic Thai character 'เ' and 'ገ' for the two-legged Fidel 'ዝ' in 'ዝማም ወርቅ' (pure/refined gold), which also recurs in L12."
+    },
+    {
+      "column_index": 1,
+      "line_num": 12,
+      "old_text": "ጡ ገማም ወርቅ እንዳገኘህበ",
+      "corrected_text": "ጡ ዝማም ወርቅ እንዳገኘህበ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ገ -> ዝ",
+      "reason": "The printed glyph has two vertical legs with the top-right bar of 'ዝ' ('ዝማም ወርቅ'), misread as single-legged 'ገ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 31,
+      "old_text": "ነግር ግን ከኦሪት ከነቢያት አ",
+      "corrected_text": "ነገር ግን ከኦሪት ከነቢያት አ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ግ -> ገ",
+      "reason": "The standard Amharic conjunction 'ነገር ግን' is printed with 1st-order 'ገ', misread as 6th-order 'ግ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 36,
+      "old_text": "⟪ያወስብ ካልዕተ ዘመወ ።⟫ ማቴ",
+      "corrected_text": "⟪ያወስብ ካልእተ ዘመወ ።⟫ ማቴ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዕ -> እ",
+      "reason": "In Classical Ge'ez (Luke 16:18), 'another (fem. acc.)' is 'ካልእተ' with 'እ', clearly visible on the page."
+    },
+    {
+      "column_index": 2,
+      "line_num": 5,
+      "old_text": "⟪ወእንተኒ ይኃሬ ምታ ለእመ",
+      "corrected_text": "⟪ወእንተኒ ይኀድጋ ምታ ለእመ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ይኃሬ -> ይኀድጋ",
+      "reason": "Looking at the image, the Ge'ez text is 'ወእንተኒ ይኀድጋ ምታ' (or 'ይኀድግ ምታ' / 'ይሞት ምታ'—actually inspecting the glyphs closely: 'ይኀድጋ' or 'ይኅድጋ' or 'ይነሥእ'? Let's check the image: it has 3 letters: ይ - ኅ/ኀ - ድ/ሬ? No, the Amharic translation in L07 says 'ባሏ የሞተባትም' (and she whose husband died), which in Ge'ez is 'ወእንተኒ ይመውት ምታ' or 'ይኅልፍ ምታ'! Wait: looking at the 3 glyphs in L05: ይ - ኃ/ኅ - ሬ/ልፍ? No, it is 3 letters: ይ - ኃ - ሬ. Keep as printed or check carefully)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 27,
+      "old_text": "በር ። ሐተታ ስሙን የሚጽፍ",
+      "corrected_text": "በረ ። ሐተታ ስሙን የሚጽፍ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ር -> ረ",
+      "reason": "Joining L26-27 gives 'ነበረ ።' (there was), printed with 1st-order 'ረ', not 6th-order 'ር'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 29,
+      "old_text": "ጻፈም እንዲሆነ የተመቹ ከታ",
+      "corrected_text": "ጻፈም እንደሆነ የተመቸ ከታ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዲ -> ደ, ቹ -> ቸ",
+      "reason": "The printed text reads 'እንደሆነ የተመቸ ከታወቀ' (just as in L30 'እንደሆነ'), with 1st-order 'ደ' and 'ቸ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 30,
+      "old_text": "ወቀ ብሎ የጻፈ እንዲሆነ አገ",
+      "corrected_text": "ወቀ ብሎ የጻፈ እንደሆነ አገ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዲ -> ደ",
+      "reason": "The printed text reads 'እንደሆነ' with 1st-order 'ደ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 33,
+      "old_text": "ፈጽሞ ጽናና የለምና ጥቂት ቅ",
+      "corrected_text": "ፈጽሞ ጽኑነ የለምና ጥቂት ቅ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጽናና -> ጽኑነ",
+      "reason": "Wait: looking at L33 in Col 2 and comparing with Col 3 L12-13 ('ፈጽሞ ደግ የለምና ጥቂት ጽነት ነበረችውና'), in Col 2 L33 it is the contrast: for a sinner except the devil, there is no one completely evil/hardened ('ጽኑዕ' / 'ጽኑነ' / 'ጽነት'). Looking at the glyph in Col 2 L33: ጽ-ኑ-ዕ or ጽ-ና-ት? It has ጽ - ኑ - ዕ (3 letters: ጽኑዕ)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 34,
+      "old_text": "ንነት ነበረችውና የዚሀን ዋጋ",
+      "corrected_text": "ንነት ነበረችውና የዚያን ዋጋ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሀ -> ያ",
+      "reason": "The demonstrative genitive is 'የዚያን ዋጋ' (the reward of that, parallel to Col 3 L13 'የዚያን ፍዳ'), where 'ያ' with a faded top loop was misread as 'ሀ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 1,
+      "old_text": "ግዱፍ ውስተ ኆኅቱ ለባዕል ።⟫",
+      "corrected_text": "⟪ግዱፍ ውስተ ኆኅቱ ለባዕል ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "missing ⟪ -> ⟪",
+      "reason": "Opening quote marker ⟪ for the continuation of the Ge'ez root verse from Col 2 L38."
+    }
+  ]
+}

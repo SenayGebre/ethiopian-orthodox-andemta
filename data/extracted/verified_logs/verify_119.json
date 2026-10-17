@@ -1,0 +1,35 @@
+{
+  "pdf_page": 119,
+  "book_page_ethiopic": "፪፻፴፰",
+  "elapsed_sec": 17.1,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 7,
+      "old_text": "ሐንካሳነ ነፍስ በትምርት ሲሂዱ",
+      "corrected_text": "ሐንካሳነ ነፍስ በትምርት ሲሄዱ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሂ -> ሄ",
+      "reason": "Standard Amharic verb form ሲሄዱ (5th order ሄ) is printed in the image, misread as 3rd order ሂ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 24,
+      "old_text": "በእንተ ካልዕ አብዝኖተ",
+      "corrected_text": "በእንተ ካልዕ አብዝኆተ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኖ -> ኆ",
+      "reason": "Classical Ge'ez verbal noun አብዝኆተ ('multiplying', from አብዝኀ) uses 7th order ኆ, which is visually similar to ኖ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 18,
+      "old_text": "ሎምበ ዓሣ አለ አሉት ። ወገበ↵",
+      "corrected_text": "ሎምቢ ዓሣ አለ አሉት ። ወገበ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በ -> ቢ",
+      "reason": "Traditional Amharic Andemta term for small fish is ሎምቢ ዓሣ (with 3rd order ቢ visible in the print)."
+    }
+  ]
+}

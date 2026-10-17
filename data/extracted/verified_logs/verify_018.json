@@ -1,0 +1,26 @@
+{
+  "pdf_page": 18,
+  "book_page_ethiopic": "፻፴፯",
+  "elapsed_sec": 11.9,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 34,
+      "old_text": "ኖ ፍልስፍና ሲመለከትድንግ",
+      "corrected_text": "ኖ ፍልስፍና ሲመለከት ድንግ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሲመለከትድንግ -> ሲመለከት ድንግ",
+      "reason": "Missing word space between ሲመለከት and ድንግል."
+    },
+    {
+      "column_index": 3,
+      "line_num": 6,
+      "old_text": "ቀበል።እስር የአክዩ በዕብራው",
+      "corrected_text": "ቀበል።አሦር የአክዩ በዕብራው",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እስር -> አሦር",
+      "reason": "The printed Ge'ez citation clearly reads 'አሦር የአክዩ በዕብራውያን ወዕብራውያን የአክዩ በአሦር' (matching the parallel 'በአሦር' on line 7-8); 'አሦር' was misread as 'እስር'."
+    }
+  ]
+}

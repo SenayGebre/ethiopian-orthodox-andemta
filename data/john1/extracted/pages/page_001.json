@@ -1,0 +1,292 @@
+{
+  "pdf_page": 1,
+  "book_page_arabic": 1,
+  "book_page_ethiopic": "፩",
+  "page_type": "commentary_2col",
+  "running_header": "መልእክተ ፡ ዮሐንስ ፡ ሐዋርያ ፡ ወልደ ፡ ዘብዴዎስ ፡ ቀዳማዊ ። የመጀመሪያዪቱ ፡ የዮሐንስ ፡ መልእክት ።",
+  "column_boxes": [
+    [
+      514,
+      0,
+      1246,
+      1654
+    ],
+    [
+      1162,
+      0,
+      1847,
+      1654
+    ]
+  ],
+  "columns": [
+    {
+      "column_index": 1,
+      "lines": [
+        {
+          "line_num": 1,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "፩ኛ ፡ የሚጽፍ ፡ ነውና ፡ ቀዳማዊ ፡ አለ ።",
+          "word_wraps_to_next_line": false,
+          "stage1_text": "፪ኛ ፡ የሚጽፍ ፡ ነውና ፡ ቀዳማዊ ፡ አለ ።",
+          "stage2_correction": {
+            "pair": "፪ኛ -> ፩ኛ",
+            "reason": "The numeral at the start of line 1 is ፩ (1), forming ፩ኛ ('1st'), which explains why St. John called the epistle ቀዳማዊ ('First')."
+          },
+          "uncertain": []
+        },
+        {
+          "line_num": 2,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ዮሐንስ ፡ መሢሕ ፡ እያለ ፤ ሲያስተምር ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 3,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሰምቶ ፡ ድምጥያኖስ ፡ አሥሮ ፡ አግዞታል፤",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 4,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ዛሬስ ፡ በላዬ ፡ ላይ ፡ ንጉሥ ፡ ያነግሥብ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 5,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ኛል ፡ ሆነ ፡ ብሎ ፡ ሰባት ፡ ዓመት ፡ ነው ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 6,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ኋላ ፡ እሱ ፡ ሞተ ፡ ወነግሠ ፡ ወልዱ ፡ ጠራ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 7,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ብያኖስ ፡ ይላል ፡ ልጁ ፡ ሐራብያኖስ ፡",
+          "word_wraps_to_next_line": false,
+          "stage1_text": "ብያኖስ ፡ ይላል ፡ ልጁ ፡ ጠራብያኖስ ፡",
+          "stage2_correction": {
+            "pair": "ጠራብያኖስ -> ሐራብያኖስ",
+            "reason": "The second occurrence on line 7 is printed with ሐ (ሐራብያኖስ) rather than ጠ."
+          },
+          "uncertain": []
+        },
+        {
+          "line_num": 8,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ነገሠ ፡ (አራጥያኖስም ፡ ይላል) ፡ ደቀ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 9,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "መዛሙርቱ ፡ የኛማ፡ መምህር፡ የሚያስተ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 10,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ምርለት ፡ ምድራዊ፡ እንጂ፡ አይደለ፡ ሰማ",
+          "word_wraps_to_next_line": true,
+          "stage1_text": "ምርለት ፡ ምድራዊ፡ እንጅ፡ ያይደለ፡ ሰማ",
+          "stage2_correction": {
+            "pair": "እንጅ፡ ያይደለ -> እንጂ፡ አይደለ",
+            "reason": "The image clearly shows እንጂ (with the 3rd-order ጂ) and አይደለ (starting with አ, not ያ)."
+          },
+          "uncertain": []
+        },
+        {
+          "line_num": 11,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ያዊ ፡ ነው ፡ ብለው ፡ ሲያስተምሩ ፡ ሰም",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 12,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ቶ ፡ ምድራዊ ፡ ካልሆነ ፡ ሰማያዊ ፡ ከሆነ ፡",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 13,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ምን ፡ ዕዳዬ ፡ ብሎ ፡ በሰባት ፡ ዓመቱ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 14,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ፈቶታል ፡ ደቀ ፡ መዛሙርቱ ፡ ግን ፡ ያላ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 15,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ፈሱት ፡ ክህደት ፡ የለም ፡ ደቀ ፡ መዝሙ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 16,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ር ፡ ከመምህሩ ፡ ከተለየ ፡ ክህደት ፡ ማን",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 17,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ቃት ፡ ልማዱ ፡ ነውና ፡ ሙቶ ፡ አልተነ",
+          "word_wraps_to_next_line": true
+        }
+      ]
+    },
+    {
+      "column_index": 2,
+      "lines": [
+        {
+          "line_num": 1,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሣም ፡ ሙቶ ፡ የተነሣው ፡ ቀዳማዊ ፡ አይ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 2,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ደለም ፡ በብርሃን ፡ የሚሠራውን ፡ እንጅ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 3,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በጨለማ ፡ በነቢብ ፡ በገቢር ፡ የሚሠራ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 4,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ውን ፡ እንጅ ፡ በሐልዮ ፡ የሚሠራውን ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 5,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "አያውቅም ፡ ብለውታል ፡ አንድ ፡ ጊዜ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 6,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ካመኑ፡ ከተጠመቁ ፡ ሌላ ፡ ምን ፡ ምግባር፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 7,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ያሻል ፡ ብለዋል ፡ ለዚህ ፡ ሁሉ ፡ ይጽፋል፤",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 8,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "(ምክንያት) ፡ ንዜንወክሙ ፡ በእንተ ፡ ው",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 9,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "እቱ ፡ ዘሀሎ ፡ እምቅድም ፡ ውእቱ ፡ ዘሰ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 10,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ማዕናሁ ፡ ም ፡ ፩ ፡ ፩ ፡ (በል) ። ወንዜንወ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 11,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ክሙ ፡ ንሕነ ፡ ሕይወተ ፡ እንተ ፡ ለዓለም ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 12,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በል ፡ ቍ ፡ ፪ ። ወንዜንወክሙ ፡ ለክሙኒ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 13,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ከመ ፡ አንትሙኒ፡ በል፡ ቍ፡ ፫። ወንዜንወ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 14,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ክሙ፡ከመ፡እግዚአብሔር፡ብርሃን፡ውእቱ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 15,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በል ፡ ፭ ። ወደሙ ፡ ለኢየሱስ ፡ ክርስቶስ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 16,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ያነጽሐነ ፡ በል ፡ ፯ ። ወእመሰ ፡ ንብል ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 17,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "አልብነ ፡ ኃጢአት ፡ በል ፡ ፰ ። ደቂቅየ ፡",
+          "word_wraps_to_next_line": false
+        }
+      ]
+    }
+  ],
+  "stage2_verified": true,
+  "stage2_corrections_count": 3
+}

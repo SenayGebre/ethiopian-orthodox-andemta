@@ -1,0 +1,26 @@
+{
+  "pdf_page": 62,
+  "book_page_ethiopic": "፬፻፳፫ | ፬፻፳፬",
+  "elapsed_sec": 19.0,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 15,
+      "old_text": "እለ ፡ ምሉዐን፡ ሰብዓተ፡ መቅሠፍተ፡ ደኃርያተ ፡ ወተ",
+      "corrected_text": "እለ ፡ ምሉዓን፡ ሰብዓተ፡ መቅሠፍተ፡ ደኃርያተ ፡ ወተ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዐ -> ዓ",
+      "reason": "The printed glyph in ምሉዓን has the shortened right leg of 4th-order ዓ (matching the standard Ge'ez plural participle ምሉዓን)."
+    },
+    {
+      "column_index": 4,
+      "line_num": 8,
+      "old_text": "⟪ወኮነ ፡ አምጣኒሃ ፡ ዐሠርተ ፡ ወክልኤተ ፡ ምእተ ፡⟫",
+      "corrected_text": "⟪ወኮነ ፡ አምጣኒሃ ፡ ዐሠርቱ ፡ ወክልኤቱ ፡ ምእት ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ተ -> ቱ, ተ -> ት",
+      "reason": "Visual inspection of Col 4 L08 shows 2nd-order ቱ in both ዐሠርቱ and ወክልኤቱ and 6th-order ት in ምእት (nominative predicate after ወኮነ)."
+    }
+  ]
+}

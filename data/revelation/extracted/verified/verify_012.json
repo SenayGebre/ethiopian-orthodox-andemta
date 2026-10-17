@@ -1,0 +1,17 @@
+{
+  "pdf_page": 12,
+  "book_page_ethiopic": "፫፻፳፬ | ፫፻፳፭",
+  "elapsed_sec": 24.8,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 10,
+      "old_text": "ድም ፡ በየራሱ ፡ ኮከብ ፡ ጽባሕ ፡ አእም",
+      "corrected_text": "ድም ፡ በየራሱ ፡ ኮከበ ፡ ጽባሕ ፡ አእም",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ብ -> በ",
+      "reason": "Construct state ኮከበ ጽባሕ ('Morning Star') has 1st-order በ, matching both Ge'ez grammar and the two straight vertical legs visible on the page."
+    }
+  ]
+}

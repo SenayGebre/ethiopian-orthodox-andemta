@@ -1,0 +1,44 @@
+{
+  "pdf_page": 125,
+  "book_page_ethiopic": "፪፻፵፬",
+  "elapsed_sec": 17.6,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 21,
+      "old_text": "በድሖሙ ለምውታን የተባሉ",
+      "corrected_text": "በድሮሙ ለምውታን የተባሉ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሖ -> ሮ",
+      "reason": "Canonical Ge'ez Pauline citation (1 Thess 4:15 'ኢንበድሮሙ ለምውታን' - we shall not precede the dead) and visual inspection show 7th-order 'ሮ', not 'ሖ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 30,
+      "old_text": "ብንራብ እያመሰኽን ብንታመ↵",
+      "corrected_text": "ብንራብ እያበላኸን ብንታመ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "መሰ -> በላ",
+      "reason": "Both visual inspection of the printed glyphs and the semantic pair 'ብንራብ እያበላኸን' (when we are hungry, feeding us) confirm 'እያበላኸን' instead of 'እያመሰኽን'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 5,
+      "old_text": "ነገፀ አላለውም እኒህን ፡ ተጠ↵",
+      "corrected_text": "ነገጠ አላለውም እኒህን ፡ ተጠ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ፀ -> ጠ",
+      "reason": "The printed glyph has the three vertical legs of 'ጠ' ('ደነገጠ'), matching line 2, which was misread as 'ፀ' due to ink bleed."
+    },
+    {
+      "column_index": 3,
+      "line_num": 9,
+      "old_text": "ነገፀም አለ።አታስደንግፅ ያላ↵",
+      "corrected_text": "ነገጠም አለ።አታስደንግጥ ያላ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ፀ -> ጠ, ፅ -> ጥ",
+      "reason": "The printed glyphs are three-legged 'ጠ' and 'ጥ' ('አልደነገጠም', 'አታስደንግጥ'), matching lines 7-8, misread as 'ፀ' and 'ፅ'."
+    }
+  ]
+}

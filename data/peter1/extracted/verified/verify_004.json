@@ -1,0 +1,71 @@
+{
+  "pdf_page": 4,
+  "book_page_ethiopic": "፻፻፪ | ፻፻፫",
+  "elapsed_sec": 32.3,
+  "applied_count": 7,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "ክብሩን ፡ ቢናገረው ፡ ምን ፡ ይሆናል ፡ በመከራው ፡ ጨረሰውና ፡ እንዳይሉት ፡ ወ",
+      "corrected_text": "ክብሩን ፡ ቢናገረው ፡ ምን ፡ ይሆናል ፡ በመከራው ፡ ጨረሰውና ፡ እንዳይሉት ፡ ሠ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወ -> ሠ",
+      "reason": "The split word across L01-L02 is ሠሪዓ (ሠሪዓ ፡ ቤት ፡ ይሠራል, matching Col 2 L06), where the crown of ሠ at the right margin was misread as ወ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 6,
+      "old_text": "ኵልክሙ ፡ እለ ፡ በክርስቶስ ፡ ሀሎክሙ ፡ ይላል ፡ የጻፈበት ፡ አገር ፡ ግብፅ ፡ ከታብ ፡",
+      "corrected_text": "ኵልክሙ ፡ እለ ፡ በክርስቶስ ፡ ሀሎክሙ ፡ ይላል ፡ የጻፈበት ፡ አገር ፡ ግብፅ ፡ ክታብ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ከታብ -> ክታብ",
+      "reason": "The 6th-order ክ in ክታብ (epistle/letter, as in L24, L28, L29) was misread as 1st-order ከ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 17,
+      "old_text": "ንቆት ፡ አጥቅቶት ፡ ነው ፡ ቢሉ ፡ ንቆት ፡ አጥቅቶት ፡ አይደለም ፡ ከብዙ ፡ ባ፩ ፡ መ",
+      "corrected_text": "ንቆት ፡ አጥቅቶት ፡ ነው ፡ ቢሉ ፡ ንቆት ፡ አጥቅቶት ፡ አይደለም ፡ ከብዙ ፡ በ፩ ፡ መ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ባ፩ -> በ፩",
+      "reason": "The preposition printed before the numeral ፩ is 1st-order በ (በ፩ ፡ መጀመር), not 4th-order ባ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 12,
+      "old_text": "አኀዊነ ፡ ኢታንክርዋ ፡ ለእንተ ፡ ትመጽእክሙ ፡ መከራ ፡",
+      "corrected_text": "አኀውየ ፡ ኢታንክርዋ ፡ ለእንተ ፡ ትመጽእክሙ ፡ መከራ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አኀዊነ -> አኀውየ",
+      "reason": "Both visually on the page and in 1 Peter 4:12, the word is አኀውየ ('my brethren'), where ውየ was misread as ዊነ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 16,
+      "old_text": "ረዐዩ ፡ ዘሀለዉ ፡ ሀቤክሙ ፡ መርዔቶ ፡ ለእግዚአብሔር ፡ እንዘ ፡ ተዐቀብዎሙ ፡",
+      "corrected_text": "ረዐዩ ፡ ዘሀለወ ፡ ኀቤክሙ ፡ መርዔቶ ፡ ለእግዚአብሔር ፡ እንዘ ፡ ተዐቀብዎሙ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዘሀለዉ ፡ ሀቤክሙ -> ዘሀለወ ፡ ኀቤክሙ",
+      "reason": "Visually and grammatically (1 Peter 5:2), the singular relative verb is ዘሀለወ (modifying መርዔቶ) followed by the preposition ኀቤክሙ with ኀ, not ሀ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 20,
+      "old_text": "እግዚአ ፡ ኖሎት ፡ ትንሥኡ ፡ አክሊለ ፡ ስብሐት ፡ ዘኢይጸመሂ ፡ ቍ ፡ ፪",
+      "corrected_text": "እግዚአ ፡ ኖሎት ፡ ትነሥኡ ፡ አክሊለ ፡ ስብሐት ፡ ዘኢይጸመሂ ፡ ቍ ፡ ፪",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ትንሥኡ -> ትነሥኡ",
+      "reason": "In Ge'ez imperfective morphology (1 Peter 5:4) and on the page, the second character is 1st-order ነ (ትነሥኡ), not 6th-order ን."
+    },
+    {
+      "column_index": 2,
+      "line_num": 31,
+      "old_text": "የጻፈበት ፡ አገር ፡ በመካከል ፡ ከታብ ፡ ወሳጅ ፡ የለም ፡ አንድም ፡ አልሚናስ ፡ ጳው",
+      "corrected_text": "የጻፈበት ፡ አገር ፡ በመካከል ፡ ክታብ ፡ ወሳጅ ፡ የለም ፡ አንድም ፡ አልሚናስ ፡ ጳው",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከታብ -> ክታብ",
+      "reason": "The 6th-order ክ in ክታብ ('letter/epistle') was misread as 1st-order ከ."
+    }
+  ]
+}

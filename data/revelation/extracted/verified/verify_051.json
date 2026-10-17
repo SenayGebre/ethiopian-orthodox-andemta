@@ -1,0 +1,44 @@
+{
+  "pdf_page": 51,
+  "book_page_ethiopic": "፬፻፵፯ | ፬፻፵፰",
+  "elapsed_sec": 24.7,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 1,
+      "old_text": "የሚለካኩ ፡ ብላቴናዎችም ፡ ጨምረው ፡",
+      "corrected_text": "የሚላላኩ ፡ ብላቴናዎችም ፡ ጨምረው ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ለካ -> ላላ",
+      "reason": "Both middle characters are 4th-order ላ (የሚላላኩ, meaning 'who serve/run errands'), whereas Stage 1 misread them as ለካ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 8,
+      "old_text": "ነው ፡ የወጣነውን ፡ ሐሰት ፡ ሊያስተምር",
+      "corrected_text": "ነው ፡ የመጣነውን ፡ ሐሰት ፡ ሊያስተምር",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወ -> መ",
+      "reason": "The printed glyph clearly has the two loops of መ in የመጣነውን ('which we came [here] having hated in our country')."
+    },
+    {
+      "column_index": 2,
+      "line_num": 18,
+      "old_text": "ኮቦር ፡ ሥራውን ፡ በሠራ ፡ ጊዜ ፡ መስና ፡",
+      "corrected_text": "ኮቦር ፡ ሥራውን ፡ በሠራ ፡ ጊዜ ፡ ሙስና ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "መ -> ሙ",
+      "reason": "The printed text clearly shows 2nd-order ሙ in the standard Ge'ez/Andemta phrase ሙስና መቃብር ('corruption of the grave')."
+    },
+    {
+      "column_index": 4,
+      "line_num": 22,
+      "old_text": "ዓለም ፡ ከተፈጠረ ፡ ዠምሮ ፡ ሆኖ ፡ የማያ",
+      "corrected_text": "ዓለም ፡ ከተፈጠረ ፡ ዠምሮ ፡ ሁኖ ፡ የማያ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሆ -> ሁ",
+      "reason": "The printed glyph is clearly 2nd-order ሁ in the archaic form ሁኖ (matching L34 below)."
+    }
+  ]
+}

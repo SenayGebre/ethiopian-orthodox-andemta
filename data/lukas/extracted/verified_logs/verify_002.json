@@ -1,0 +1,44 @@
+{
+  "pdf_page": 2,
+  "book_page_ethiopic": "፫፻፹፬",
+  "elapsed_sec": 20.5,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 14,
+      "old_text": "ል። አንድም አንዳበትነቱ ከ↵",
+      "corrected_text": "ል። አንድም እንዳባትነቱ ከ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አንዳበትነቱ -> እንዳባትነቱ",
+      "reason": "Visual inspection of Col 2 L14 shows 6th-order እ and 4th-order ባ (with shortened left leg), reading እንዳባትነቱ ('in his capacity as a spiritual father')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 10,
+      "old_text": "⟪እጽሐፍ ለከ አእዚዝ ታዖፊላ",
+      "corrected_text": "⟪እጽሐፍ ለከ አእዛዝ ታዖፊላ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አእዚዝ -> አእዛዝ",
+      "reason": "In canonical Ge'ez Luke 1:3 and on the page image (Col 3 L10), the honorific title for Theophilus is አእዛዝ (with 4th-order ዛ, shortened left leg), not አእዚዝ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 19,
+      "old_text": "ካዕበ እጽሐፍ ለከ አእዚዝ ታ↵",
+      "corrected_text": "ካዕበ እጽሐፍ ለከ አእዛዝ ታ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አእዚዝ -> አእዛዝ",
+      "reason": "Matches the canonical Ge'ez title አእዛዝ ታዖፊላ and the 4th-order ዛ glyph visible on Col 3 L19."
+    },
+    {
+      "column_index": 3,
+      "line_num": 26,
+      "old_text": "ፍ ልማድ ነው።ወውእቱ ዘእ↵",
+      "corrected_text": "ፍ ልማድ ነው።ወውእቱ ዘአ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዘእ -> ዘአ",
+      "reason": "Joined across L26-L27, the Ge'ez relative verb is ዘአንበረ ('who established', 1st-order አ), clearly visible at the end of L26 without the middle loop of እ."
+    }
+  ]
+}

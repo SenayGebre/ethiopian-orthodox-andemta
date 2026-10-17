@@ -1,0 +1,35 @@
+{
+  "pdf_page": 84,
+  "book_page_ethiopic": "፻፷ | ፻፷፩",
+  "elapsed_sec": 39.9,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 14,
+      "old_text": "፳፭ ፤ ⟪ወይቤሎ ፡ ጳውሎስ ፡ እበድሰ ፡ አልብየእ፡ ፊ",
+      "corrected_text": "፳፭ ፤ ⟪ወይቤሎ ፡ ጳውሎስ ፡ እበድሰ ፡ አልብየ ፡ ኦ ፡ ፊ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አልብየእ፡ -> አልብየ ፡ ኦ ፡",
+      "reason": "The Ge'ez vocative particle 'ኦ' (translated in the following Amharic commentary line as 'ሆይ') is preceded by a wordspace colon that had faint ink, causing Stage 1 to merge it as 'አልብየእ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 28,
+      "old_text": "ራት ፡ ይካሰስብናል ፡ ሆነ ፡ እንዳይሉት ፡",
+      "corrected_text": "ራት ፡ ይኀስብናል ፡ ሆነ ፡ እንዳይሉት ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ይካሰስብናል -> ይኀስብናል",
+      "reason": "The single glyph 'ኀ' between 'ይ' and 'ስ' was misread as two characters 'ካሰ'. Visually there are six characters 'ይኀስብናል' ('he wishes/thinks [chains] upon us')."
+    },
+    {
+      "column_index": 4,
+      "line_num": 2,
+      "old_text": "አገረ ፡ ገዢዩ ፡ ፊስጦስ ።",
+      "corrected_text": "አገረ ፡ ገዡ ፡ ፊስጦስ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ገዢዩ -> ገዡ",
+      "reason": "The printed word has two characters 'ገዡ' (with the 2nd-order vowel stroke on 'ዡ'), which Stage 1 split into 'ገዢዩ'."
+    }
+  ]
+}

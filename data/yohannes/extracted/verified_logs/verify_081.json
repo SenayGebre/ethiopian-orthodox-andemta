@@ -1,0 +1,53 @@
+{
+  "pdf_page": 81,
+  "book_page_ethiopic": "፭፻፺፩",
+  "elapsed_sec": 17.6,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 14,
+      "old_text": "ዋል ። ወሖዊሮሙ አርዳኢሁ ገ",
+      "corrected_text": "ዋል ። ወሐዊሮሙ አርዳኢሁ ገ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወሖዊሮሙ -> ወሐዊሮሙ",
+      "reason": "Classical Ge'ez gerundive of ሖረ is ሐዊሮሙ (with 1st-order ሐ), as printed on the page."
+    },
+    {
+      "column_index": 1,
+      "line_num": 38,
+      "old_text": "ንተ ወፈፈቀ ውእቱ ረድዕ ዲበ",
+      "corrected_text": "ንተ ወረፈቀ ውእቱ ረድዕ ዲበ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወፈፈቀ -> ወረፈቀ",
+      "reason": "The printed glyph is ረ (ወረፈቀ, John 13:25 'and that disciple leaned back'), which was misread as ፈ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 23,
+      "old_text": "⟪ተኀሥሠኒ ።⟫ ትሹኛላችሁ",
+      "corrected_text": "⟪ተኀሥሡኒ ።⟫ ትሹኛላችሁ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ተኀሥሠኒ -> ተኀሥሡኒ",
+      "reason": "The Ge'ez verb has the 2nd-order plural marker ሡ (ተኀሥሡኒ, John 13:33 'you will seek me'), matching both the right-side stroke on the glyph and the Amharic gloss ትሹኛላችሁ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 1,
+      "old_text": "ተም ደግሞ እርሱ በርሳችሁ ተ",
+      "corrected_text": "ተም ደግሞ እርስ በርሳችሁ ተ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እርሱ -> እርስ",
+      "reason": "The printed word is እርስ (6th-order ስ) in the phrase እርስ በርሳችሁ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 28,
+      "old_text": "ንተ ምንት ኢይክል ተሊዎተከ",
+      "corrected_text": "ንተ ምንት ኢይክል ተሊወተከ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ተሊዎተከ -> ተሊወተከ",
+      "reason": "Both the printed glyph and Classical Ge'ez infinitive morphology have 1st-order ወ (ተሊወተከ, matching ተሊወትየ in line 22)."
+    }
+  ]
+}

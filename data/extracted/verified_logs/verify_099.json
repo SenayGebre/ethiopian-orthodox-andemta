@@ -1,0 +1,62 @@
+{
+  "pdf_page": 99,
+  "book_page_ethiopic": "፪፻፲፰",
+  "elapsed_sec": 31.8,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 5,
+      "old_text": "ገቡ ። እሱ ኦጋው ተነሥቶታል↵",
+      "corrected_text": "ገቡ ። እሱ ጸጋው ተነሥቶታል↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኦ -> ጸ",
+      "reason": "The printed glyph is 'ጸ' in 'ጸጋው' ('his grace was taken from him'), misread as 'ኦጋው' due to ink fill in the upper loops of 'ጸ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 25,
+      "old_text": "ባወቅ አስመስሏል ምሥጢሩ",
+      "corrected_text": "ታወቅ አስመስሏል ምሥጢሩ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ባ -> ታ",
+      "reason": "Continuation of 'እንዲ↵ታወቅ' ('so that it may be known') from line 24; the printed glyph at the start of line 25 is 'ታ', misread as 'ባ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 29,
+      "old_text": "ለማጠየቅ።አንድም ፫ቱ ዕድሞ",
+      "corrected_text": "ለማጠየቅ።አንድም ፫ቱ ዕድወ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሞ -> ወ",
+      "reason": "Classical Ge'ez plural '፫ቱ ዕድወኒሁ ለሰብእ' ('the three enemies of man', explained in lines 30-31 as sin, death, and condemnation); the final glyph is 'ወ' wrapping mid-word to 'ኒሁ' on line 30."
+    },
+    {
+      "column_index": 2,
+      "line_num": 20,
+      "old_text": "ልድ ።⟫ ፩ ነገ ፲፥፩ ፤ ፪ ዜና ፱ ፥ ፩ ።",
+      "corrected_text": "ልድ ።⟫ ፩ ነገ ፲፥፩ ፤ ሕፁ ፱ ፥ ፩ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፪ ዜና -> ሕፁ",
+      "reason": "The printed citation uses the traditional Ge'ez abbreviation 'ሕፁ' (ሕፅፅ, Paralipomenon/Chronicles), which was misread as '፪ ዜና'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 8,
+      "old_text": "ር የሚገኝ ገባድ ገጸ በረከት",
+      "corrected_text": "ር የሚገኝ ከባድ ገጸ በረከት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ገ -> ከ",
+      "reason": "The printed word is 'ከባድ' ('ከባድ ገጸ በረከት', a heavy/precious gift), where 'ከ' was misread as 'ገ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 38,
+      "old_text": "ልሽ ጠይቀዋለች ፤ ወአልቦ ዘ",
+      "corrected_text": "ልሽ ጠይቃዋለች ፤ ወአልቦ ዘ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቀ -> ቃ",
+      "reason": "3rd person feminine singular verb with 3rd person masculine object suffix is printed 'ጠይቃዋለች' (4th-order 'ቃ', 'she asked him'), and the Ge'ez relative prefix 'ዘ' wraps to 'ኢፈከረ' on line 39."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "pdf_page": 132,
+  "book_page_ethiopic": "፮፻፵፩",
+  "elapsed_sec": 18.1,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "ሰባተኛው ሰንጠረጋr ሁለቱ ወንጌላውያን ማቴዎስና ዮሐንስ የሚተባበሩበት።",
+      "corrected_text": "ሰባተኛው ሰንጠረዥ ሁለቱ ወንጌላውያን ማቴዎስና ዮሐንስ የሚተባበሩበት።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሰንጠረጋr -> ሰንጠረዥ",
+      "reason": "The old lead-type glyph for ዥ (split into two halves in this typeface) was misread by Stage-1 OCR as 'ጋr' including a Latin character. The word is clearly ሰንጠረዥ (table/chart)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 11,
+      "old_text": "ስምንተኛው ሰንጠረጋr ሁለቱ ወንጌላውያን ማርቆስና ሉቃስ የሚተባበሩበት።",
+      "corrected_text": "ስምንተኛው ሰንጠረዥ ሁለቱ ወንጌላውያን ማርቆስና ሉቃስ የሚተባበሩበት።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሰንጠረጋr -> ሰንጠረዥ",
+      "reason": "Same old lead-type glyph for ዥ misread as 'ጋr'; corrected to ሰንጠረዥ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 15,
+      "old_text": "፵፪ በጽባሐ ተንሥአ።",
+      "corrected_text": "፵፪ በጽባሕ ተንሥአ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በጽባሐ -> በጽባሕ",
+      "reason": "Both visually on the page (6th-order ሕ) and grammatically in Ge'ez (በጽባሕ ተንሥአ, 'in the morning he rose'), the final letter is ሕ, not ሐ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 23,
+      "old_text": "፳፪ ፴፯ ተኰለቁ።",
+      "corrected_text": "፳፪ ፴፯ ተኰልቈ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ተኰለቁ -> ተኰልቈ",
+      "reason": "In Luke 22:37 (ወምስለ ዐማፅያን ተኰልቈ, 'he was numbered with the transgressors'), the printed glyphs clearly show 6th-order ል and labiovelar ቈ/ቆ rather than ለቁ."
+    }
+  ]
+}

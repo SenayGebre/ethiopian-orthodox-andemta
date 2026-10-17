@@ -1,0 +1,62 @@
+{
+  "pdf_page": 94,
+  "book_page_ethiopic": "፪፻፲፫",
+  "elapsed_sec": 19.8,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 32,
+      "old_text": "ሪት እንዳየው ። አባቱ መምለ↵",
+      "corrected_text": "ራት እንዳየው ። አባቱ መምለ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሪ -> ራ",
+      "reason": "The printed glyph at the start of L32 is 4th-order 'ራ' (ዮሐንስ ወልደ ማራት), not 3rd-order 'ሪ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 40,
+      "old_text": "ሞ ያየዋል ከዳሪ መጥቶ ንገ↵",
+      "corrected_text": "ሞ ያየዋል ከዳር መጥቶ ንገ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሪ -> ር",
+      "reason": "Both visually in the image and semantically in Amharic, the word is 'ከዳር' ('from the edge/border', 6th-order 'ር'), not 'ከዳሪ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 14,
+      "old_text": "ንድማማች አዳልቼ አጋድዬ",
+      "corrected_text": "ንድማማች አጣልቼ አጋድዬ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዳ -> ጣ",
+      "reason": "The printed character is 'ጣ' in 'አጣልቼ' ('having caused them to quarrel'), matching L05 above, misread as 'ዳ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 22,
+      "old_text": "ስ አምድቼ ማዕበል ሞገድ አ↵",
+      "corrected_text": "ስ አምጥቼ ማዕበል ሞገድ አ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ድ -> ጥ",
+      "reason": "The three-legged glyph is clearly 'ጥ' in 'ነፋስ አምጥቼ' ('having brought wind'), misread as 'ድ' ('አምድቼ')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 13,
+      "old_text": "ዔል ዜቡል ያወጻል ስላላችሁ↵",
+      "corrected_text": "ዔል ዜቡል ያወጣል ስላላችሁ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጻ -> ጣ",
+      "reason": "The printed character is 'ጣ' in 'ያወጣል' (with three bottom legs), misread as 'ጻ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 28,
+      "old_text": "እግዚአብሔር ያወፃቸዋል ካላ↵",
+      "corrected_text": "እግዚአብሔር ያወጣቸዋል ካላ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ፃ -> ጣ",
+      "reason": "The printed character is 'ጣ' in 'ያወጣቸዋል' (parallel to L22), misread as 'ፃ'."
+    }
+  ]
+}

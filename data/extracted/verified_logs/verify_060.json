@@ -1,0 +1,62 @@
+{
+  "pdf_page": 60,
+  "book_page_ethiopic": "፻፸፱",
+  "elapsed_sec": 12.1,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 24,
+      "old_text": "፪ኤ አጋዕዝት ።⟫ ክፍለን መጽ↵",
+      "corrected_text": "፪ኤ አጋዕዝት ።⟫ ከፍለን መጽ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ክ -> ከ",
+      "reason": "First-order ከ in 'ከፍለን' (matching Col 3 L27 'ከፍለን መጽውተን ከፍለን')."
+    },
+    {
+      "column_index": 1,
+      "line_num": 25,
+      "old_text": "ውተን ክፍለን ብናኖር ምነዋ",
+      "corrected_text": "ውተን ከፍለን ብናኖር ምነዋ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ክ -> ከ",
+      "reason": "First-order ከ in 'ከፍለን' (matching Col 3 L27 'ከፍለን መጽውተን ከፍለን')."
+    },
+    {
+      "column_index": 1,
+      "line_num": 32,
+      "old_text": "ም ቢል አንዱን ይጠላል አን↵",
+      "corrected_text": "ም ቢል አንዱን ይጸላል አን↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጠ -> ጸ",
+      "reason": "The printed glyph in the image is clearly ጸ ('ይጸላል'), not ጠ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 27,
+      "old_text": "⟪አኮሁ ነፍስ ተዓጽብ እምሲሲት⟫",
+      "corrected_text": "⟪አኮኑ ነፍስ ተዓጽብ እምሲሲት⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሁ -> ኑ",
+      "reason": "Canonical Ge'ez interrogative particle 'አኮኑ' (Matthew 6:25), clearly printed with ኑ (not ሁ)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 33,
+      "old_text": "ራቱ ባሕርያት አዋሀዶ መፍ↵",
+      "corrected_text": "ራቱ ባሕርያት አዋህዶ መፍ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሀ -> ህ",
+      "reason": "6th-order ህ in 'አዋህዶ' is clearly printed with the left hook of ህ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 40,
+      "old_text": "አኮሁ ብለህ መልስ ። ለናንተ ም↵",
+      "corrected_text": "አኮኑ ብለህ መልስ ። ለናንተ ም↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሁ -> ኑ",
+      "reason": "Ge'ez interrogative 'አኮኑ' (matching L27), printed with ኑ."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "pdf_page": 21,
+  "book_page_ethiopic": "፬፻፫",
+  "elapsed_sec": 16.3,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 33,
+      "old_text": "ነበረች ማለት በርትዓተ መለ",
+      "corrected_text": "ነበረች ማለት በርትዓተ መለ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "መለ ያልይ -> መለያልይ",
+      "reason": "The noun መለያልይ ('limbs/bodily members') splits mid-word across the end of line 33 (መለ-) and the beginning of line 34 (-ያልይ)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 24,
+      "old_text": "ገሊላ እንዲል ተርፈ ሲል፡",
+      "corrected_text": "ገሊላ እንዲል ተርፈ ሲል።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፡ -> ።",
+      "reason": "The image clearly shows a full four-dot period (።) after ሲል at the end of line 24."
+    },
+    {
+      "column_index": 3,
+      "line_num": 25,
+      "old_text": "⟪ወኢያአመሩ ዮሴፍ ወእሙ።⟫",
+      "corrected_text": "⟪ወኢያእመሩ ዮሴፍ ወእሙ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወኢያአመሩ -> ወኢያእመሩ",
+      "reason": "Both the printed glyph (6th-order እ with the top-right hook) and classical Ge'ez morphology require ወኢያእመሩ ('and they did not know')."
+    }
+  ]
+}

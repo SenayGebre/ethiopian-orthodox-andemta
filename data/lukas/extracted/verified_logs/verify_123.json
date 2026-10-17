@@ -1,0 +1,17 @@
+{
+  "pdf_page": 123,
+  "book_page_ethiopic": "፭፻፭",
+  "elapsed_sec": 10.5,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 40,
+      "old_text": "በእንተ መናፍስት እኩያን ። ቍ ፲ሄ",
+      "corrected_text": "በእንተ መናፍስት እኩያን ። ቍ ፲፯",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፲ሄ -> ፲፯",
+      "reason": "The Ethiopic numeral ፯ (7) in ፲፯ (verse 17) was misread as the Fidel ሄ due to the numeral bars."
+    }
+  ]
+}

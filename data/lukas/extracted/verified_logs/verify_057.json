@@ -1,0 +1,26 @@
+{
+  "pdf_page": 57,
+  "book_page_ethiopic": "፬፻፴፱",
+  "elapsed_sec": 15.3,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 24,
+      "old_text": "⟪ወአልቦ ዘየአምሮ ለወልድ ዘ",
+      "corrected_text": "⟪ወአልቦ ዘየአምሮ ለወልድ ከ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዘ -> ከ",
+      "reason": "The final character on L24 is 'ከ', which wraps to 'መ' on L25 to form the canonical Ge'ez conjunction 'ከመ' ('ከመ መኑ ውእቱ ወልድ', Luke 10:22), matching the parallel clause in L28."
+    },
+    {
+      "column_index": 3,
+      "line_num": 32,
+      "old_text": "⟪ወገደፍዎ ወሖለፉ ።⟫",
+      "corrected_text": "⟪ወገደፍዎ ወሐለፉ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሖ -> ሐ",
+      "reason": "Classical Ge'ez perfective verb 'ወሐለፉ' ('and they passed by / departed', Luke 10:30) uses first-order 'ሐ', visually confirmed on the page."
+    }
+  ]
+}

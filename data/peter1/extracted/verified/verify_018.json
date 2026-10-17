@@ -1,0 +1,98 @@
+{
+  "pdf_page": 18,
+  "book_page_ethiopic": "፻፻፵ | ፻፻፵፩",
+  "elapsed_sec": 34.1,
+  "applied_count": 10,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 14,
+      "old_text": "⟪፲፰ ፤ ወአንትሙኒ ፡ ጎባሪ ፡ ተኰነኑ ፡ ለአጋእዝቲ",
+      "corrected_text": "⟪፲፰ ፤ ወአንትሙኒ ፡ ገባር ፡ ተኰነኑ ፡ ለአጋእዝቲ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጎባሪ -> ገባር",
+      "reason": "Canonical Ge'ez for 1 Peter 2:18 is 'ገባር' (servants, plural of ገብር), clearly printed as ገባር on the page."
+    },
+    {
+      "column_index": 1,
+      "line_num": 16,
+      "old_text": "እናንተም ፡ ቤተ ፡ ሰቦዎች ፡ ጌቶቻችሁን ፡",
+      "corrected_text": "እናንተም ፡ ቤተ ፡ ሰቦች ፡ ጌቶቻችሁን ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሰቦዎች -> ሰቦች",
+      "reason": "The printed word is the three-letter 'ሰቦች' (members of the household, translating ገባር); Stage 1 hallucinated an extra ዎ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 24,
+      "old_text": "መገዛታችሁም ፡ ቀደ ፡ ማልበስን ፡ ቁርሶ ፡",
+      "corrected_text": "መገዛታችሁም ፡ ቀዶ ፡ ማልበስን ፡ ቆርሶ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቀደ ... ቁርሶ -> ቀዶ ... ቆርሶ",
+      "reason": "Standard Amharic idiomatic pair 'ቀዶ ማልበስን ቆርሶ ማጉረስን' (tearing cloth to clothe, breaking bread to feed); both ቀዶ and ቆርሶ are 7th-order (ሳብዕ) gerunds on the page."
+    },
+    {
+      "column_index": 2,
+      "line_num": 3,
+      "old_text": "ሉም ፡ እንደ ፡ አባትነታቸው ፡ ይጽፉሉ ፡",
+      "corrected_text": "ሉም ፡ እንደ ፡ አባትነታቸው ፡ ይጽፋሉ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ይጽፉሉ -> ይጽፋሉ",
+      "reason": "4th-order ፋ was misread as 2nd-order ፉ; the verb is 'ይጽፋሉ' (they write)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 8,
+      "old_text": "አንድ ፡ ዘ ፡ ይጽፉል ፡ ብሎ ፡ ስለ ፡ በጎ ፡",
+      "corrected_text": "አንድ ፡ ዘ ፡ ይጽፋል ፡ ብሎ ፡ ስለ ፡ በጎ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ይጽፉል -> ይጽፋል",
+      "reason": "4th-order ፋ was misread as 2nd-order ፉ in 'ይጽፋል' (he writes)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 12,
+      "old_text": "ድም ፡ ሁለት ፡ ዘ ፡ ይጽፉል ፡ ብሎ ፡ ግብ",
+      "corrected_text": "ድም ፡ ሁለት ፡ ዘ ፡ ይጽፋል ፡ ብሎ ፡ ግብ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ይጽፉል -> ይጽፋል",
+      "reason": "4th-order ፋ was misread as 2nd-order ፉ in 'ይጽፋል' (he writes)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 16,
+      "old_text": "ዋለችና ፡ አላ ፡ ለእኩያንኒ ፡ ላለው ።",
+      "corrected_text": "ዋለችና ፡ አለ ፡ ለእኩያንኒ ፡ ላለው ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አላ -> አለ",
+      "reason": "Amharic citation verb 'አለ' (he said, referring to 'ለእኩያንኒ ላለው'); 1st-order ለ is clearly printed."
+    },
+    {
+      "column_index": 4,
+      "line_num": 2,
+      "old_text": "ይኴንን ፡ ጽድቀ ፡ ግርፉትን ፡ ለሚፈርድ ፡",
+      "corrected_text": "ይኴንን ፡ ጽድቀ ፡ ግርፋትን ፡ ለሚፈርድ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ግርፉትን -> ግርፋትን",
+      "reason": "4th-order ፋ in 'ግርፋትን' (scourging/flogging) was misread as 2nd-order ፉ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 8,
+      "old_text": "ክ ፡ አይሁድን ፡ ሊያጠፉ ፡ ሰይፉን ፡ መ",
+      "corrected_text": "ክ ፡ አይሁድን ፡ ሊያጠፋ ፡ ሰይፉን ፡ መ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሊያጠፉ -> ሊያጠፋ",
+      "reason": "3rd-person singular 'ሊያጠፋ' (in order for him [the angel] to destroy the Jews); 4th-order ፋ was misread as 2nd-order ፉ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 17,
+      "old_text": "ወትዕግሥቱ ፡ ለወልድ ፡ ወኒሩቱ ፡ ለመ",
+      "corrected_text": "ወትዕግሥቱ ፡ ለወልድ ፡ ወኂሩቱ ፡ ለመ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወኒሩቱ -> ወኂሩቱ",
+      "reason": "Classical Ge'ez 'ወኂሩቱ ፡ ለመንፈስ ፡ ቅዱስ' (and the goodness of the Holy Spirit); ኂ was misread as ኒ."
+    }
+  ]
+}

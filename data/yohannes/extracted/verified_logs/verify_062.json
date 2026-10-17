@@ -1,0 +1,53 @@
+{
+  "pdf_page": 62,
+  "book_page_ethiopic": "፭፻፸፪",
+  "elapsed_sec": 17.0,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 2,
+      "old_text": "ወይወጽእ ከፈቃደ ሥጋ ወይ↵",
+      "corrected_text": "⟪ወይወጽእ⟫ ከፈቃደ ሥጋ ⟪ወይ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወይወጽእ -> ⟪ወይወጽእ⟫",
+      "reason": "Root Ge'ez Gospel citation words (John 10:9) embedded in the Andemta commentary require ⟪ ⟫ markers."
+    },
+    {
+      "column_index": 2,
+      "line_num": 3,
+      "old_text": "በውእ ፥ ወደፈቃደ ነፍስ ። ወይረ↵",
+      "corrected_text": "በውእ ፥⟫ ወደፈቃደ ነፍስ ። ⟪ወይረ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በውእ / ወይረ -> በውእ ፥⟫ / ⟪ወይረ",
+      "reason": "Root Ge'ez Gospel citation words (John 10:9) embedded in the Andemta commentary require ⟪ ⟫ markers."
+    },
+    {
+      "column_index": 2,
+      "line_num": 4,
+      "old_text": "ክብ ፥ ክብረ ሥጋን ክብረ ነፍ↵",
+      "corrected_text": "ክብ ፥⟫ ክብረ ሥጋን ክብረ ነፍ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ክብ ፥ -> ክብ ፥⟫",
+      "reason": "Closing root Ge'ez Gospel citation marker for ⟪ወይረክብ ፥⟫ (John 10:9)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 6,
+      "old_text": "ን ይወርሳል ፥",
+      "corrected_text": "ት ይወርሳል ፥",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ን -> ት",
+      "reason": "The word wrapping from L05 is መንግሥተ ሰማያት (not ሰማያን); the first glyph on L06 is clearly ት with its top crossbar."
+    },
+    {
+      "column_index": 3,
+      "line_num": 1,
+      "old_text": "⟪ወእምዝ ይመጽእ ወይመስጥን",
+      "corrected_text": "⟪ወእምዝ ይመጽእ ወይመስጦን",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጥ -> ጦ",
+      "reason": "In Ge'ez (John 10:12), the verb takes the 3rd person feminine plural object suffix -оን referring to አባግዕ (ወይመስጦን, matching ወይዘርዎን in L05 and ወይመሥጦን in L23)."
+    }
+  ]
+}

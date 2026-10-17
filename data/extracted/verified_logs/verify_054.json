@@ -1,0 +1,35 @@
+{
+  "pdf_page": 54,
+  "book_page_ethiopic": "፻፸፫",
+  "elapsed_sec": 9.2,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 22,
+      "old_text": "ቱ ለሚወጣው ለሌላው ነው ።",
+      "corrected_text": "ቱ ለሚመጣው ለሌላው ነው ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወ -> መ",
+      "reason": "The printed glyph in the image is clearly 'ለሚመጣው' (with 'መ'), meaning 'for the other one to come', misread as 'ለሚወጣው'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 18,
+      "old_text": "[፵፬] እኔ ግን ጸላታችሁን ውደዱ",
+      "corrected_text": "[፵፬] እኔ ግን ጠላታችሁን ውደዱ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጸ -> ጠ",
+      "reason": "The printed Amharic word in the image is clearly 'ጠላታችሁን' (with three-legged 'ጠ'), misread as 'ጸላታችሁን'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 22,
+      "old_text": "ሰዷችሁን መርቋቸው ፤ ክቦታች↵",
+      "corrected_text": "ሰዷችሁን መርቋቸው ፤ ከቦታች↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ክ -> ከ",
+      "reason": "The printed preposition in the image is 'ከቦታችሁ' (1st order 'ከ'), misread as 6th order 'ክ'."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "pdf_page": 68,
+  "book_page_ethiopic": "፻፹፪ | ፻፹፫",
+  "elapsed_sec": 21.0,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 9,
+      "old_text": "፲፰ ፤ ⟪ወአነ ፡ ስምዐ ፡ ለኵሉ ፡ ዘይሰምዕ ፡ ቃለ ፡",
+      "corrected_text": "፲፰ ፤ ⟪ወአነ ፡ ስምዑ ፡ ለኵሉ ፡ ዘይሰምዕ ፡ ቃለ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ስምዐ -> ስምዑ",
+      "reason": "Both the printed glyph (which clearly shows the right-side hook of 2nd-order ዑ) and Ge'ez grammar ('ወአነ ስምዑ' = 'and I am its witness', rendered in the Amharic commentary as 'ምስክሩ ነኝ') confirm ስምዑ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 23,
+      "old_text": "ሐፍ ፡ የሴስል ፡ እግዚአብሔር ፡ ክፍሎ ፡ እምዕፀ ፡ ሕይወት ፡⟫",
+      "corrected_text": "ሐፍ ፡ ይሴስል ፡ እግዚአብሔር ፡ ክፍሎ ፡ እምዕፀ ፡ ሕይወት ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "የሴስል -> ይሴስል",
+      "reason": "The 6th-order prefix ይ in the imperfect verb ይሴስል ('God shall take away') was misread as የ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 30,
+      "old_text": "አንድም ፡ (ወአነ ፡ ስምዐ-) ፡ ዮሐንስ ፡ አፈ",
+      "corrected_text": "አንድም ፡ (ወአነ ፡ ስምዑ-) ፡ ዮሐንስ ፡ አፈ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ስምዐ -> ስምዑ",
+      "reason": "The printed parenthetical lemma clearly shows the 2nd-order ዑ in ስምዑ, matching line 9 and the Amharic gloss ምስክሩ ነኝ."
+    }
+  ]
+}

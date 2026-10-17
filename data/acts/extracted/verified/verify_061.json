@@ -1,0 +1,71 @@
+{
+  "pdf_page": 61,
+  "book_page_ethiopic": "፻፴፬ | ፻፴፭",
+  "elapsed_sec": 19.0,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 4,
+      "old_text": "⟪ወየኀሥሥ ፡ ዘይብሉ ፡ ወዘይነብቡ ፡⟫",
+      "corrected_text": "⟪ወየኀሥሡ ፡ ዘይብሉ ፡ ወዘይነብቡ ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሥ -> ሡ",
+      "reason": "Plural verb ወየኀሥሡ (they seek) matching ዘይብሉ ወዘይነብቡ and Amharic ይፈልጉ ነበር; the 2nd order stroke on ሡ is visible."
+    },
+    {
+      "column_index": 2,
+      "line_num": 8,
+      "old_text": "ኤልመክኑን ፡ ወረደ ፡ ኀበ ፡ ኤሊዓሁ ፡ ወእ↵",
+      "corrected_text": "ኤልመክኑን ፡ ወረደ ፡ ኀበ ፡ እሊዓሁ ፡ ወእ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኤሊዓሁ -> እሊዓሁ",
+      "reason": "Classical Ge'ez 'እሊዓሁ' (his own, John 1:11 citation in the Dionysius story); 6th order እ is printed just like the following ወእሊዓሁ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 18,
+      "old_text": "ክኑን ፡ ወረደ ፡ ኀበ ፡ ኤሊዓሁ ፡ ወእሊዓሁ፡",
+      "corrected_text": "ክኑን ፡ ወረደ ፡ ኀበ ፡ እሊዓሁ ፡ ወእሊዓሁ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኤሊዓሁ -> እሊዓሁ",
+      "reason": "Classical Ge'ez 'እሊዓሁ' (his own); 6th order እ is printed."
+    },
+    {
+      "column_index": 2,
+      "line_num": 27,
+      "old_text": "ዘመን ፡ ነው ፡ ወርኀስ ፡ ምን ፡ ወርኅ ፡",
+      "corrected_text": "ዘመን ፡ ነው ፡ ወርኁስ ፡ ምን ፡ ወርኅ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወርኀስ -> ወርኁስ",
+      "reason": "Amharic definite suffix -ኡ plus enclitic -ስ: ወርኁስ (and the month, parallel to ዘመኑ / ጊዜውስ / ቀኑስ)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 30,
+      "old_text": "ዮሐንስ ፡ ወርኀ ፡ ወርኃ ፡ መጋቢት ፡ ዕለ↵",
+      "corrected_text": "ዮሐንስ ፡ ወርኁ ፡ ወርኃ ፡ መጋቢት ፡ ዕለ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወርኀ -> ወርኁ",
+      "reason": "Amharic definite noun ወርኁ (the month is the month of Megabit, parallel to ዘመኑ ዘመነ ዮሐንስ / ዕለቱ ዕለተ ዐርብ)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 15,
+      "old_text": "⟪ዘውእቱ ፡ እግዚአ ፡ ሰማይ ፡ ወምድር ፡⟫",
+      "corrected_text": "⟪ዘውእቱ ፡ እግዚአ ፡ ሰማይ ፡ ወምድር ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እግዚአ -> እግዚእ",
+      "reason": "Actually wait: construct state before ሰማይ ወምድር in Ge'ez is እግዚአ ሰማይ ወምድር (Lord of heaven and earth). Keeping as is."
+    },
+    {
+      "column_index": 4,
+      "line_num": 6,
+      "old_text": "ብዝኀ ፡ ወተባዝኁ ፡ ባለው ፡ ቃል ፡ በም↵",
+      "corrected_text": "ብዝኁ ፡ ወተባዝኁ ፡ ባለው ፡ ቃል ፡ በም",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ብዝኀ -> ብዝኁ",
+      "reason": "Ge'ez imperative plural 'ብዝኁ ወተባዝኁ' (Be fruitful and multiply, Gen 1:28); the 2nd order vowel mark on ኁ is clearly visible."
+    }
+  ]
+}

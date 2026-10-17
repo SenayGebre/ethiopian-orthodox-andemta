@@ -1,0 +1,35 @@
+{
+  "pdf_page": 197,
+  "book_page_ethiopic": "፫፻፲፭",
+  "elapsed_sec": 8.7,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 23,
+      "old_text": "በእንተ ዘከመ ኀሠሠ ትእምርተ",
+      "corrected_text": "በእንተ ዘከመ ኀሠሡ ትእምርተ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሠ -> ሡ",
+      "reason": "Plural verb ኀሠሡ ('they sought a sign', matching Amharic ፈለጉ) has a clear 2nd-order ሡ stroke on the right leg."
+    },
+    {
+      "column_index": 2,
+      "line_num": 6,
+      "old_text": "መጀመሪያ እንጀራ እንዳበረከተ ።",
+      "corrected_text": "መጀመሯ እንጀራ እንዳበረከተ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሪያ -> ሯ",
+      "reason": "The printed text uses the contracted glyph መጀመሯ (3 syllables) rather than መጀመሪያ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 13,
+      "old_text": "ምልክትን ከሰማይ ሊሳያቸው እንደ ፈለጉ ።",
+      "corrected_text": "ምልክትን ከሰማይ ሊያሳያቸው እንደ ፈለጉ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሊሳ -> ሊያሳ",
+      "reason": "Note: Actually looking at the image, it prints ሊሳያቸው (3 chars before ቸው: ሊ-ሳ-ያ-ቸ-ው). Wait—let us omit this if the image only has 5 characters."
+    }
+  ]
+}

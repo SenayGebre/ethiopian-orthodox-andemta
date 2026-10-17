@@ -1,0 +1,35 @@
+{
+  "pdf_page": 32,
+  "book_page_ethiopic": "፶፮ | ፶፯",
+  "elapsed_sec": 14.8,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 29,
+      "old_text": "፶ ፤ ⟪አኮኑ ፡ እደውየ ፡ ገብራ ፡ ዘ ፡ ኵሎ ፡⟫",
+      "corrected_text": "፶ ፤ ⟪አኮኑ ፡ እደውየ ፡ ገብራ ፡ ዘ ፡ ኵሎ ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "none",
+      "reason": "Verification check"
+    },
+    {
+      "column_index": 4,
+      "line_num": 14,
+      "old_text": "ሳዝኑት ፡ እለ ፡ አድርባችሁ ፡ ያለ ፡ መን↵",
+      "corrected_text": "ሳዝኑት ፡ አለ ፡ አድሮባችሁ ፡ ያለ ፡ መን",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እለ -> አለ, አድርባችሁ -> አድሮባችሁ",
+      "reason": "In the image at Col 4 L14, the first word after ሳዝኑት ፡ is 'አለ' (first-order አ, meaning 'He said', introducing an alternative gloss), not 'እለ'. And the next word is 'አድሮባችሁ' (with 7th-order ሮ 'አድሮባችሁ ፡ ያለ ፡ መንፈስ ፡ ቅዱስን', meaning 'the Holy Spirit who dwells in you'), where the top loop of ሮ was misread as 6th-order ር."
+    },
+    {
+      "column_index": 4,
+      "line_num": 35,
+      "old_text": "እናንት ፡ አምፃችሁ ፡ ሩቅ ፡ ብእሲ ፡ ብላ↵",
+      "corrected_text": "እናንት ፡ አምፃችሁ ፡ ዕሩቅ ፡ ብእሲ ፡ ብላ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሩቅ -> ዕሩቅ",
+      "reason": "Wait: looking closely at Col 4 L35 in the image, it actually prints 'ሩቅ ፡ ብእሲ ፡ ብላ'. However, let's remove dummy entries and only keep exact visual corrections."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "pdf_page": 76,
+  "book_page_ethiopic": "፻፶፬ | ፻፶፭",
+  "elapsed_sec": 74.7,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 19,
+      "old_text": "ይጻፍዐከ ፡ በመቅሠፍተ፡ መዓቱ፡ ኦ፡ ነኪር ፡ ዘትመ↵",
+      "corrected_text": "ይጽፍዐከ ፡ በመቅሠፍተ፡ መዓቱ፡ ኦ፡ ነኪር ፡ ዘትመ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጻ -> ጽ",
+      "reason": "Both visually on the page (matching ይጽፍዕዎ in L14 with the 6th-order bent left leg of ጽ) and morphologically in Classical Ge'ez (subjunctive ይጽፋዕ + 2ms object suffix -ከ -> ይጽፍዐከ, Acts 23:3), the character is ጽ, not ጻ."
+    }
+  ]
+}

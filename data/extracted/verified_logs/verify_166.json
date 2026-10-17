@@ -1,0 +1,26 @@
+{
+  "pdf_page": 166,
+  "book_page_ethiopic": "፪፻፹፭",
+  "elapsed_sec": 18.4,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 4,
+      "old_text": "ገን አሉት።",
+      "corrected_text": "ግን አሉት።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ገ -> ግ",
+      "reason": "The printed glyph has the 6th-order (ሳድስ) top-left hook ግ ('አድርግን' = 'make us [enter]'), misread as 1st-order ገ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 24,
+      "old_text": "ጽአት ዘዘገየ ጊዜ ምእመናን",
+      "corrected_text": "ጽአት በዘገየ ጊዜ ምእመናን",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዘ -> በ",
+      "reason": "The printed text clearly reads 'በዘገየ ጊዜ' ('when [the Second Coming] is delayed'); the initial በ was misread as ዘ."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "pdf_page": 20,
+  "book_page_ethiopic": "፴፪ | ፴፫",
+  "elapsed_sec": 15.7,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 15,
+      "old_text": "⟪ወሮድዎ ፡ ወስሐብዎ ፡⟫",
+      "corrected_text": "⟪ወሮድዎ ፡ ወሰሐብዎ ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ስ -> ሰ",
+      "reason": "Classical Ge'ez perfect verb stem ወሰሐብዎ ('and they dragged him') uses 1st order ሰ, which is clearly visible without the 6th-order left kink."
+    },
+    {
+      "column_index": 1,
+      "line_num": 18,
+      "old_text": "ወደ ፡ አደባባይ ፡ አደሱረት ፡",
+      "corrected_text": "ወደ ፡ አደባባይ ፡ አደረሱት ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሱረ -> ረሱ",
+      "reason": "The printed text clearly reads አደረሱት ('they brought him', translating ወተባጽሕዎ), where ረ and ሱ were transposed in Stage 1."
+    },
+    {
+      "column_index": 3,
+      "line_num": 15,
+      "old_text": "ውታልና ፡ የክብር ፡ ባለቤት ፡ ብለው ፡",
+      "corrected_text": "ውታልና ፡ የክብር ፡ ባለቤት ፡ ብሎው ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ለ -> ሎ",
+      "reason": "The printed glyph has the 7th-order right-leg ring ሎ in ብሎው ('if one calls Him [Lord of Glory], how would I blaspheme Him?')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 19,
+      "old_text": "ተገዢ ፡ የመምለኬ ፡ እግዚአብሔር ፡",
+      "corrected_text": "ተገዢ ፡ የመምለኪ ፡ እግዚአብሔር ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኬ -> ኪ",
+      "reason": "Classical Ge'ez construct state of active participle መምለኪ እግዚአብሔር ('worshiper of God') uses 3rd order ኪ, matching the horizontal bottom foot in the image."
+    },
+    {
+      "column_index": 4,
+      "line_num": 13,
+      "old_text": "አድርጎ ፡ አስተምሯቸዋል ፤ ዘፍጥ ፡ ፲፩፥",
+      "corrected_text": "አድርጎ ፡ አስተምሯቸዋል ፤ ዘፍጥ ፡ ፲፩ ፥",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፲፩፥ -> ፲፩ ፥",
+      "reason": "Spacing normalization around punctuation."
+    },
+    {
+      "column_index": 4,
+      "line_num": 32,
+      "old_text": "፭ ፤ ⟪ወኢወሀቦ ፡ በውስቴታ ፡ ርስቶ ፥⟫",
+      "corrected_text": "፭ ፤ ⟪ወኢወሀቦ ፡ በውስቴታ ፡ ርስተ ፥⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቶ -> ተ",
+      "reason": "Canonical Ge'ez of Acts 7:5 and the printed text clearly show 1st order ተ in ርስተ ('an inheritance'), without a top ring."
+    }
+  ]
+}

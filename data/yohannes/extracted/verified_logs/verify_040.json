@@ -1,0 +1,44 @@
+{
+  "pdf_page": 40,
+  "book_page_ethiopic": "፭፻፶",
+  "elapsed_sec": 13.4,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 22,
+      "old_text": "ና ። አኮ ለመብልዕ ኃላፊ ።ወገ↵",
+      "corrected_text": "ና ። አኮ ለመብልዕ ኃላፊ ።ወገ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ገ -> ገ (wraps to ጸ)",
+      "reason": "Line 22 wraps mid-word 'ወገጸ' to Line 23."
+    },
+    {
+      "column_index": 3,
+      "line_num": 23,
+      "old_text": "ጽ ከዋክብት የሐትም እንዲል",
+      "corrected_text": "ጸ ከዋክብት የሐትም እንዲል",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጽ -> ጸ",
+      "reason": "In the Ge'ez citation from Job 9:7 ('ወገጸ ከዋክብት የሐትም'), the construct state noun is 'ወገጸ' (1st order ጸ, straight legs), not 6th order 'ጽ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 28,
+      "old_text": "ሙ መዓረ ግሩ በማኅተመ ወ↵",
+      "corrected_text": "ሙ መዓረ ግራ በማኅተመ ወ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ግሩ -> ግራ",
+      "reason": "Both visually on the page (4th order ራ with left-curving base) and philologically in the classic Qene/Andemta citation ('በከመ የሐትሙ እለ የሐትሙ መዓረ ግራ በማኅተመ ወርቅ'), the word is 'ግራ' (of the field/wild honey), not 'ግሩ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 37,
+      "old_text": "ንፈሲ ምን እናድርጋለን አሉት",
+      "corrected_text": "ንረሲ ምን እናደርጋለን አሉት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ንፈሲ -> ንረሲ, እናድርጋለን -> እናደርጋለን",
+      "reason": "The first word is the variant Ge'ez reading 'ንረሲ' (matching L33 'ምንተ ንረሲ'), where 'ረ' was misread as 'ፈ', and the imperfective Amharic gloss is 'እናደርጋለን' (with 1st order ደ, contrasting with jussive 'እናድርግ' on L36)."
+    }
+  ]
+}

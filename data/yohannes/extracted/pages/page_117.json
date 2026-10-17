@@ -1,0 +1,616 @@
+{
+  "pdf_page": 117,
+  "book_page_arabic": 627,
+  "book_page_ethiopic": "፮፻፳፯",
+  "page_type": "topical_index",
+  "running_header": "መክሥተ አርዕስት ዘወንጌለ ዮሐንስ። | የዮሐንስ ወንጌል አርእስት ማውጫ ።",
+  "toc_entries": [
+    {
+      "row_num": 1,
+      "geez_title": "በእንተ ሐረገ ወይን ወበእንተ አዕጹቂሁ ።",
+      "chapter_ethiopic": "፲፭",
+      "verse_ethiopic": "፩",
+      "amharic_title": "ስለ ወይን ሐረግ ስለ ጫፎቹ።"
+    },
+    {
+      "row_num": 2,
+      "geez_title": "በእንተ ዘከመ ይደልዎሙ ለአኀው ተፋቅሮት ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፲፪",
+      "amharic_title": "ስለ ወንድሞች ፍቅር።"
+    },
+    {
+      "row_num": 3,
+      "geez_title": "በእንተ ጸሊአ ዝንቱ ዓለም።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፲፰",
+      "amharic_title": "ዓለምን ስለ መጥላት።"
+    },
+    {
+      "row_num": 4,
+      "geez_title": "በእንተ ስደታት ።",
+      "chapter_ethiopic": "፲፮",
+      "verse_ethiopic": "፩",
+      "amharic_title": "ስለ መሰደድ።"
+    },
+    {
+      "row_num": 5,
+      "geez_title": "በእንተ ዘከመ አሰፈዎሙ ኢየሱስ ለሐዋርያት መንፈሰ ቅዱሰ ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፯",
+      "amharic_title": "ጌታ ለሐዋርያት የመንፈስ ቅዱስን ተስፋ ስለ ሰጣቸው።"
+    },
+    {
+      "row_num": 6,
+      "geez_title": "በእንተ ተመይጦቱ ኢየሱስ ውስተ ሰማይ ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፲፮",
+      "amharic_title": "ጌታ ወደ ሰማይ ስለ ተመለሰ።"
+    },
+    {
+      "row_num": 7,
+      "geez_title": "በእንተ ዘከመ ተሰነአለ ኢየሱስ እምአርድዕት ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፳፭",
+      "amharic_title": "ጌታ ከተማሪዎቹ ስለ ተሰናበተ።"
+    },
+    {
+      "row_num": 8,
+      "geez_title": "በእንተ ዘከመ ጸለየ ኢየሱስ",
+      "chapter_ethiopic": "፲፯",
+      "verse_ethiopic": "፩",
+      "amharic_title": "ጌታ ስለ ጸለየ ።"
+    },
+    {
+      "row_num": 9,
+      "geez_title": "በእንተ ዘከመ ጸለየ ኢየሱስ በጌቴሴማኒ ።",
+      "chapter_ethiopic": "፲፰",
+      "verse_ethiopic": "፩",
+      "amharic_title": "በጌቴሴማኒም ስለ ጸለየ ።"
+    },
+    {
+      "row_num": 10,
+      "geez_title": "በእንተ ዘከመ አግብአ ይሁዳ ለኢየሱስ ወዘከመ አኀዝዎ ለኢየሱስ ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፫",
+      "amharic_title": "ጌታን ይሁዳ ስለ አሲያዘው ስለ ያዙት።"
+    },
+    {
+      "row_num": 11,
+      "geez_title": "በእንተ ዘከመ ቆመ ኢየሱስ ማዕከለ ዐውድ ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፲፪",
+      "amharic_title": "ጌታ በሸንጎ ስለ ቆመ ።"
+    },
+    {
+      "row_num": 12,
+      "geez_title": "በእንተ ክህደተ ጴጥሮስ ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፲፭",
+      "amharic_title": "ስለ ጴጥሮስ መካድ ።"
+    },
+    {
+      "row_num": 13,
+      "geez_title": "በእንተ ተስእልዎ አይሁድ ለኢየሱስ ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፲፱",
+      "amharic_title": "ጌታን አይሁድ ስለ ጠየቁት።"
+    },
+    {
+      "row_num": 14,
+      "geez_title": "በእንተ ክህደተ ጴጥሮስ ዳግመ",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፳፭",
+      "amharic_title": "ስለ ጴጥሮስ ሁለተኛ መካድ ።"
+    },
+    {
+      "row_num": 15,
+      "geez_title": "በእንተ ዘከመ ቆመ ኢየሱስ ቅድመ ጲላጦስ ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፳፰",
+      "amharic_title": "ስለ ጌታ መቆም በጲላጦስ ፊት።"
+    },
+    {
+      "row_num": 16,
+      "geez_title": "በእንተ ዘከመ ኀረዩ በርባንሃ እምነ ኢየሱስ ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፴፱",
+      "amharic_title": "ከጌታ በርባንን ስለ መረጡ።"
+    },
+    {
+      "row_num": 17,
+      "geez_title": "በእንተ ዘከመ ይቤሎሙ ነዋ ብእሲ ።",
+      "chapter_ethiopic": "፲፱",
+      "verse_ethiopic": "፩",
+      "amharic_title": "ንጉሣችሁ እነሆ ስለ አላቸው።"
+    },
+    {
+      "row_num": 18,
+      "geez_title": "በእንተ ዘከመ በጽሐ ኢየሱስ ውስተ ቀራንዮ ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፲፯",
+      "amharic_title": "ጌታ ቀራንዮ ስለ ደረሰ።"
+    },
+    {
+      "row_num": 19,
+      "geez_title": "በእንተ ዘከመ ቆሙ ማርያም ወዮሐንስ በታሕተ መስቀል ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፳፭",
+      "amharic_title": "ማርያምና ዮሐንስ ከመስቀል እግር ስለ ቆሙ።"
+    },
+    {
+      "row_num": 20,
+      "geez_title": "በእንተ ገዐሩ ወሞቱ ለኢየሱስ ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፳፰",
+      "amharic_title": "ስለ ጌታ ጩኸትና ሞት ።"
+    },
+    {
+      "row_num": 21,
+      "geez_title": "በእንተ ዘከመ ተቀብረ ኢየሱስ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፴፩",
+      "amharic_title": "ጌታ ስለ ተቀበረ።"
+    }
+  ],
+  "columns": [
+    {
+      "column_index": 1,
+      "lines": [
+        {
+          "line_num": 1,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ሐረገ ወይን ወበእን",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 2,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ተ አዕጹቂሁ ። ምዕራፍ ፲፭ ቍጥር ፩",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 3,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ዘከመ ይደልዎሙ ለ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 4,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "አኀው ተፋቅሮት ። ቍ ፲፪",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 5,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ጸሊአ ዝንቱ ዓለም ። ቍ ፲፰",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 6,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ስደታት ። ም ፲፮ ቍ ፩",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 7,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ዘከመ አሰፈዎሙ ኢ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 8,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "የሱስ ለሐዋርያት መ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 9,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ንፈስ ቅዱስ ። ቍ ፯",
+          "word_wraps_to_next_line": false,
+          "stage1_text": "ንፈሰ ቅዱሰ ። ቍ ፯",
+          "stage2_correction": {
+            "pair": "ሰ -> ስ",
+            "reason": "Both fidels have the 6th-order (ሳድስ) top-left kink clearly visible in the print: መንፈስ ቅዱስ."
+          },
+          "uncertain": []
+        },
+        {
+          "line_num": 10,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ተመይጦቱ ኢየሱስ",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 11,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ውስተ ሰማይ ። ቍ ፲፮",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 12,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ዘከመ ተሰነአለ ኢየ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 13,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሱስ እምአርድዕት ። ቍ ፳፭",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 14,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ዘከመ ጸለየ ኢየሱስ ም ፲፯ ቍ ፩",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 15,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ዘከመ ጸለየ ኢየሱ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 16,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ስ በጌቴሴማኒ ። ም ፲፰ ቍ ፩",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 17,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ዘከመ አግብአ ይሁዳ",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 18,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ለኢየሱስ ወዘከመ",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 19,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "አኀዝዎ ለኢየሱስ ። ቍ ፫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 20,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ዘከመ ቆመ ኢየሱስ",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 21,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ማዕከለ ዐውድ ። ቍ ፲፪",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 22,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ክህደተ ጴጥሮስ ። ቍ ፲፭",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 23,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ተስእልዎ አይሁድ",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 24,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ለኢየሱስ ። ቍ ፲፱",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 25,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ክህደተ ጴጥሮስ ዳግመ ቍ ፳፭",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 26,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ዘከመ ቆመ ኢየሱስ",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 27,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ቅድመ ጲላጦስ ። ቍ ፳፰",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 28,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ዘከመ ኀረዩ በርባንሃ",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 29,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "እምነ ኢየሱስ ። ቍ ፴፱",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 30,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ዘከመ ይቤሎሙ",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 31,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ነዋ ብእሲ ። ም ፲፱ ቍ ፩",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 32,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ዘከመ በጽሐ ኢየሱ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 33,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ስ ውስተ ቀራንዮ ። ቍ ፲፯",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 34,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ዘከመ ቆሙ ማርያም",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 35,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ወዮሐንስ በታሕተ",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 36,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "መስቀል ። ቍ ፳፭",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 37,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ገዐሩ ወሞቱ ለኢየ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 38,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሱስ ። ቍ ፳፰",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 39,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ዘከመ ተቀብረ",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 40,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ኢየሱስ። ቍ ፴፰",
+          "word_wraps_to_next_line": false,
+          "stage1_text": "ኢየሱስ። ቍ ፴፩",
+          "stage2_correction": {
+            "pair": "፴፩ -> ፴፰",
+            "reason": "The second numeral glyph has the three-looped structure of ፰ (8), giving verse ፴፰ (John 19:38, the burial of Jesus)."
+          },
+          "uncertain": []
+        }
+      ]
+    },
+    {
+      "column_index": 2,
+      "lines": [
+        {
+          "line_num": 1,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ስለ ወይን ሐረግ ስለ ጫፎቹ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 2,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ስለ ወንድሞች ፍቅር።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 3,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ዓለምን ስለ መጥላት።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 4,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ስለ መሰደድ ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 5,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ጌታ ለሐዋርያት የመንፈስ ቅዱስን ተስፋ ስለ",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 6,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሰጣቸው።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 7,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ጌታ ወደ ሰማይ ስለ ተመለሰ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 8,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ጌታ ከተማሪዎቹ ስለ ተሰናበተ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 9,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ጌታ ስለ ጸለየ ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 10,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በጌቴሴማኒም ስለ ጸለየ ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 11,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ጌታን ይሁዳ ስለ አሲያዘው ስለ ያዙት።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 12,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ጌታ በሸንጎ ስለ ቆመ ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 13,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ስለ ጴጥሮስ መካድ ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 14,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ጌታን አይሁድ ስለ ጠየቁት።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 15,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ስለ ጴጥሮስ ሁለተኛ መካድ ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 16,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ስለ ጌታ መቆም በጲላጦስ ፊት።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 17,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ከጌታ በርባንን ስለ መረጡ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 18,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ንጉሣችሁ እነሆ ስለ አላቸው።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 19,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ጌታ ቀራንዮ ስለ ደረሰ ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 20,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ማርያምና ዮሐንስ ከመስቀል እግር ስለ ቆሙ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 21,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ስለ ጌታ ጩኸትና ሞት ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 22,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ጌታ ስለ ተቀበረ ።",
+          "word_wraps_to_next_line": false
+        }
+      ]
+    }
+  ],
+  "stage2_verified": true,
+  "stage2_corrections_count": 2
+}

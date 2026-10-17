@@ -1,0 +1,26 @@
+{
+  "pdf_page": 4,
+  "book_page_ethiopic": "፫፻፳፫",
+  "elapsed_sec": 21.9,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 24,
+      "old_text": "ሕር ፥⟫ ማቴ ፬ ፲፮ ሉቃ ፭ ፪ ፥",
+      "corrected_text": "ሕር ፥⟫ ማቴ ፬ ፲፰ ሉቃ ፭ ፪ ፥",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፲፮ -> ፲፰",
+      "reason": "The cross-reference for the calling of Simon and Andrew by the Sea of Galilee is Matthew 4:18 (ማቴ ፬ ፲፰), and the printed numeral clearly shows the two vertical chambers of ፰ (8) rather than ፮ (6)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 35,
+      "old_text": "⟪ወአንከሩ ምሕሮቶ ።⟫ ማቴ ፯",
+      "corrected_text": "⟪ወአንከሩ ምህሮቶ ።⟫ ማቴ ፯",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ምሕሮቶ -> ምህሮቶ",
+      "reason": "Both the printed glyph on line 35 and Classical Ge'ez orthography from the root ምህረ (cf. ይምህሮሙ on line 32 and ይሜህሮሙ on line 38) use ህ (ምህሮቶ) rather than ሕ."
+    }
+  ]
+}

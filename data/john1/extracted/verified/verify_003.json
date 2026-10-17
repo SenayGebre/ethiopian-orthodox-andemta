@@ -1,0 +1,53 @@
+{
+  "pdf_page": 3,
+  "book_page_ethiopic": "፪፻፹ | ፪፻፹፩",
+  "elapsed_sec": 25.6,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 6,
+      "old_text": "ቱ ፡ ርእዩ ፡ እደውየ ፡ ወእገርየ ፡ ወግሥዉ",
+      "corrected_text": "ቱ ፡ ርእዩ ፡ እደውየ ፡ ወእገሪየ ፡ ወግሥዉ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወእገርየ -> ወእገሪየ",
+      "reason": "Classical Ge'ez plural noun with 1st person singular possessive suffix ('my feet' - እገሪየ, Luke 24:39), and the 3rd-order leg of ሪ is visible on the page."
+    },
+    {
+      "column_index": 1,
+      "line_num": 8,
+      "old_text": "መ ፡ ለመንፈስስ ፡ አልቦቱ ፡ ሥጋ ፡ ወአ",
+      "corrected_text": "መ ፡ ለመንፈስሰ ፡ አልቦቱ ፡ ሥጋ ፡ ወአ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ለመንፈስስ -> ለመንፈስሰ",
+      "reason": "Ge'ez contrastive enclitic particle -ሰ ('for a spirit has not flesh and bones', Luke 24:39); the final character is 1st-order ሰ, not 6th-order ስ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 12,
+      "old_text": "ተረድተናታልና ፡ (ወሰምዐ ፡ ኮነ) ፡ መስከር",
+      "corrected_text": "ተረድተናታልና ፡ (ወሰምዐ ፡ ኮነ) ፡ መሰከር",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "መስከር -> መሰከር",
+      "reason": "Amharic past tense verb መሰከርናት ('we testified of it') uses 1st-order ሰ, which is clearly printed without a 6th-order kink."
+    },
+    {
+      "column_index": 1,
+      "line_num": 14,
+      "old_text": "ውን ፡ ውእቱስ ፡ ይቤሎሙ ፡ በእንተ ፡ ቤተ ፡",
+      "corrected_text": "ውን ፡ ውእቱሰ ፡ ይቤሎሙ ፡ በእንተ ፡ ቤተ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ውእቱስ -> ውእቱሰ",
+      "reason": "Ge'ez pronoun with contrastive enclitic -ሰ (ውእቱሰ ፡ ይቤሎሙ, John 2:21); printed with 1st-order ሰ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 23,
+      "old_text": "ወቀው ፡ ከደጋጉ ፡ ከጥቃቅኑ ፡ ኃጢአት ።",
+      "corrected_text": "ወቀው ፡ ከደቃቁ ፡ ከጥቃቅኑ ፡ ኃጢአት ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ከደጋጉ -> ከደቃቁ",
+      "reason": "Both visually (the crossbars of ቃ and ቁ are present, though slightly faded) and philologically, the commentary pairs synonymous adjectives 'from the minute (ከደቃቁ), small (ከጥቃቅኑ) sins', not ከደጋጉ ('good')."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "pdf_page": 8,
+  "book_page_ethiopic": "፻፳፯",
+  "elapsed_sec": 25.4,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 35,
+      "old_text": "ሎ ። ይህማ አችምይሆን ጌታ",
+      "corrected_text": "ሎ ። ይህማ አይሆንም ጌታ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አችምይሆን -> አይሆንም",
+      "reason": "Smudged ink in the middle of the word caused the standard Amharic negative verb 'አይሆንም' ('this cannot be, for does the Lord despise a tax collector/sinner?') to be garbled as 'አችምይሆን'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 8,
+      "old_text": "ብቶ ቢያጥኑ አዛርያስ ይበሉ",
+      "corrected_text": "ብቶ ቢያጥን አዛርያስ ይበሉ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኑ -> ን",
+      "reason": "The 6th-order sadis 'ን' in singular 'ቢያጥን' (referring to King Uzziah entering the temple to burn incense) was misread as 2nd-order 'ኑ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 6,
+      "old_text": "ቢሉ ። ሐተታ እሱ ከስተማሩ↵",
+      "corrected_text": "ቢሉ ። ሐተታ እሱ ካስተማሩ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከ -> ካ",
+      "reason": "The 4th-order rabi 'ካ' in 'ካስተማሩት' (from what they taught him, parallel to L09 'ካስተማርናችሁ') was misread as 1st-order 'ከ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 21,
+      "old_text": "ኅፁ 卅፪ 卅፫ ፡ 卅፫ ፳ ፳፭ ።",
+      "corrected_text": "ኅፁ ፴፪ ፴፫ ፡ ፴፫ ፳ ፳፭ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "卅 -> ፴",
+      "reason": "The Ethiopic numeral 30 ('፴') was misread as the visually similar CJK character '卅'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 29,
+      "old_text": "ባቢሎን ።⟫ ኅፁ 卅፮ ፥ ፩ ፪ ።",
+      "corrected_text": "ባቢሎን ።⟫ ኅፁ ፴፮ ፥ ፩ ፪ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "卅 -> ፴",
+      "reason": "The Ethiopic numeral 30 ('፴' in '፴፮') was misread as the visually similar CJK character '卅'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 38,
+      "old_text": "ሞቹ ብሎ አንድነገሠ ጊዜ",
+      "corrected_text": "ሞቹ ብሎ እንደነገሠ ጊዜ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አንድ -> እንደ",
+      "reason": "Visual lookalike between 'እንደ' and 'አንድ' in 'እንደነገሠ ጊዜ' (at the time when he reigned)."
+    }
+  ]
+}

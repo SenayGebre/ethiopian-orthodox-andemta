@@ -1,0 +1,35 @@
+{
+  "pdf_page": 40,
+  "book_page_ethiopic": "፫፻፶፱",
+  "elapsed_sec": 17.8,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 3,
+      "old_text": "⟪ወቈሰልዎ ።⟫ መቱትም ።",
+      "corrected_text": "⟪ወኰርዕዎ ።⟫ መቱትም ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወቈሰልዎ -> ወኰርዕዎ",
+      "reason": "The printed Ge'ez text in Mark 12:4 is 'ወኰርዕዎ' ('and they struck him on the head', translated as 'መቱትም'), which was misread as 'ወቈሰልዎ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 9,
+      "old_text": "⟪ወኢያኅዘነከ መኑሂ ።⟫",
+      "corrected_text": "⟪ወኢያኀፍረከ መኑሂ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወኢያኅዘነከ -> ወኢያኀፍረከ",
+      "reason": "The image clearly shows 'ወኢያኀፍረከ መኑሂ ።' (Mark 12:14, directly translated on the next line as 'ማንንም ማንን እንዳታፍር ።')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 25,
+      "old_text": "ጉሕሉቶሙ ለምንት ታሜክሩኒ⟫",
+      "corrected_text": "ጉሕሉቶሙ ። ለምንት ታሜክሩኒ⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጉሕሉቶሙ -> ጉሕሉቶሙ ።",
+      "reason": "There is a clearly printed word/clause divider '።' after 'ጉሕሉቶሙ' on line 25."
+    }
+  ]
+}

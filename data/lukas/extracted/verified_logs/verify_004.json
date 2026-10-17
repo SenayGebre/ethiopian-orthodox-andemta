@@ -1,0 +1,53 @@
+{
+  "pdf_page": 4,
+  "book_page_ethiopic": "፫፻፹፮",
+  "elapsed_sec": 22.4,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 17,
+      "old_text": "ከ ለአzዝ› ፤ በአጋንንት ለመሰ",
+      "corrected_text": "ከ ለአዚዝ⟫ ፤ በአጋንንት ለመሰ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ለአzዝ› -> ለአዚዝ⟫",
+      "reason": "Stage 1 misread the Ge'ez word ለአዚዝ (Luke 1:3, 'most excellent/mighty [Theophilus]') as containing a Latin 'z' and single angle bracket."
+    },
+    {
+      "column_index": 1,
+      "line_num": 20,
+      "old_text": "ዳግመኛ እጽፍልሕ ዘንድ ለኔ",
+      "corrected_text": "ዳግመኛ እጽፍልህ ዘንድ ለኔ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እጽፍልሕ -> እጽፍልህ",
+      "reason": "The printed character is ህ (እጽፍልህ 'that I write to you'), with slight ink bleed making it look like ሕ/ክ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 34,
+      "old_text": "ረ ዘመን አብያ ሊቀ ክህነት",
+      "corrected_text": "ረ ዘመን አብያ ሊቀ ካህናት",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ክህነት -> ካህናት",
+      "reason": "The printed text reads ሊቀ ካህናትነት (wrapped onto L35 as ነት), with ካህናት clearly visible."
+    },
+    {
+      "column_index": 1,
+      "line_num": 37,
+      "old_text": "ር ፡ አብነት ዘእምዘመደ አብያ",
+      "corrected_text": "ረ ፡ አብነት ዘእምዘመደ አብያ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ር -> ረ",
+      "reason": "Completes ነበረ from L36 (ነበ-ረ); the glyph at the start of L37 is 1st-order ረ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 34,
+      "old_text": "እድሃ ትመውት ዘእንበለ ው",
+      "corrected_text": "እዳሃ ትመውት ዘእንበለ ው",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እድሃ -> እዳሃ",
+      "reason": "The glyph is 4th-order ዳ (shorter left leg: እዳሃ 'her transgression/guilt', in the patristic citation በግብረ እዳሃ ትመውት ዘእንበለ ውሉድ)."
+    }
+  ]
+}

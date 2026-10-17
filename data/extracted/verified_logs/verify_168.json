@@ -1,0 +1,44 @@
+{
+  "pdf_page": 168,
+  "book_page_ethiopic": "፪፻፹፯",
+  "elapsed_sec": 17.6,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 11,
+      "old_text": "ሊት ነበር።አከሁ ኀምሰ መ",
+      "corrected_text": "ሊት ነበር።አኮኑ ኀምሰ መ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አከሁ -> አኮኑ",
+      "reason": "Classical Ge'ez interrogative particle 'አኮኑ' ('did you not...?', glossed as 'አልነበረምን') was misread as 'አከሁ' due to ink bleed."
+    },
+    {
+      "column_index": 1,
+      "line_num": 28,
+      "old_text": "ጌታህ ተድላ ተሚያደርግበት",
+      "corrected_text": "ጌታህ ተድላ ከሚያደርግበት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ተ -> ከ",
+      "reason": "The printed glyph is 'ከሚያደርግበት' (matching Col 2 L10), where 'ከ' was misread as 'ተ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 34,
+      "old_text": "⟪ወይቤ እግዚእ አከሁ ፪ተ መ",
+      "corrected_text": "⟪ወይቤ እግዚእ አኮኑ ፪ተ መ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አከሁ -> አኮኑ",
+      "reason": "Canonical Ge'ez Matthew 25:22 interrogative particle 'አኮኑ' ('did you not...?') misread as 'አከሁ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 1,
+      "old_text": "ትርፍኩ አራት አደረግሁ አ",
+      "corrected_text": "ትረፍኩ አራት አደረግሁ አ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ር -> ረ",
+      "reason": "Continuing 'አ↵ትረፍኩ' from Col 1 L40; both the image and Amharic verb morphology show 1st-order 'ረ' ('አትረፍኩ'), not 6th-order 'ር'."
+    }
+  ]
+}

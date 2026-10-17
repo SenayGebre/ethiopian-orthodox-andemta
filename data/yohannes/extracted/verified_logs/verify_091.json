@@ -1,0 +1,62 @@
+{
+  "pdf_page": 91,
+  "book_page_ethiopic": "፮፻፩",
+  "elapsed_sec": 21.1,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 18,
+      "old_text": "ትኃሠሥ በበይናቲክሙ እስመ",
+      "corrected_text": "ትኃሠሡ በበይናቲክሙ እስመ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሥ -> ሡ",
+      "reason": "The 2nd-orderplural verb ending -ሡ (ትትኃሠሡ, 'you inquire among yourselves') is clearly visible on the right leg of the glyph and required by the 2nd person masculine plural context."
+    },
+    {
+      "column_index": 1,
+      "line_num": 23,
+      "old_text": "ለሁና ስለዚህ እርስ በርሳችሁ",
+      "corrected_text": "ለሁና ስለዚህ እርሱ በርሳችሁ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ስ -> ሱ",
+      "reason": "The archaic Andemta form printed on the page is እርሱ በርሳችሁ (with the 2nd-order vowel mark on ሱ, matching the end of the previous page)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 10,
+      "old_text": "በቅንዐተ ወልድከ በስቅለ ወል",
+      "corrected_text": "በቅንወተ ወልድከ በስቅለ ወል",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዐ -> ወ",
+      "reason": "The printed glyph is ወ (በቅንወተ ወልድከ, 'by the nails/piercing of Your Son', paired with በስቅለ ወልድከ, 'by the crucifixion of Your Son'), which was misread as ዐ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 18,
+      "old_text": "በስሜ አላመናችሁትም ።",
+      "corrected_text": "በስሜ አለመናችሁትም ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ላ -> ለ",
+      "reason": "The glyph is 1st-order ለ (አለመናችሁትም, 'you have not asked/petitioned Him', translating Ge'ez ኢሰአልክምዎ), not 4th-order ላ (አላመናችሁትም, 'you did not believe')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 31,
+      "old_text": "⟪አላ ከሠተ አየድዓክሙ በእን",
+      "corrected_text": "⟪አላ ክሡተ አየድዓክሙ በእን",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከሠ -> ክሡ",
+      "reason": "Canonical Ge'ez Gospel of John 16:25 and the printed text read ክሡተ ('openly/plainly', adverbial accusative of ክሡት), with 6th-order ክ and 2nd-order ሡ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 36,
+      "old_text": "ወይእዜሰ ገሃደ ትናገርከነ ወአ",
+      "corrected_text": "ወይእዜሰ ገሃደ ተናገርከነ ወአ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ት -> ተ",
+      "reason": "The printed character is 1st-order ተ in the Ge'ez perfective verb ተናገርከነ ('You have spoken to us', citing John 16:29), not 6th-order ት."
+    }
+  ]
+}

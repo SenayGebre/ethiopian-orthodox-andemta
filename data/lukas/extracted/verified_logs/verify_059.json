@@ -1,0 +1,26 @@
+{
+  "pdf_page": 59,
+  "book_page_ethiopic": "፬፻፵፩",
+  "elapsed_sec": 28.5,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 3,
+      "old_text": "⟪ወእምዝ ሖዊሮሙ ቦኡ አ",
+      "corrected_text": "⟪ወእምዝ ሐዊሮሙ ቦኡ አ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሖ -> ሐ",
+      "reason": "In Classical Ge'ez gerundive morphology, the form is 'ሐዊሮሙ' (having gone, 1st order ሐ), not 7th order ሖ; the image shows ሐ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 40,
+      "old_text": "ያልወደደውን ተላጽቆተ ሥጋ",
+      "corrected_text": "ያልወደደውን ተላጽቆተ ሥዓ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሥጋ -> ሥዓ",
+      "reason": "At the bottom of Column 3, the printed text is 'ተላጽቆተ ሥዓ-' wrapping onto the next page's 'ል' to form 'ተላጽቆተ ሥዓል' (persistent/importunate asking, Luke 11:8 commentary), not 'ሥጋ'."
+    }
+  ]
+}

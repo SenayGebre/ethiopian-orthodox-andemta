@@ -1,0 +1,116 @@
+{
+  "pdf_page": 31,
+  "book_page_ethiopic": "፻፶",
+  "elapsed_sec": 19.6,
+  "applied_count": 12,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 5,
+      "old_text": "ውስተ ጉንደ ዕፀው ይንበር ፤⟫",
+      "corrected_text": "ውስተ ጕንደ ዕፀው ይንበር ፤⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጉ -> ጕ",
+      "reason": "The printed glyph has the labiovelar ring of 'ጕ' (ጕንደ), not 'ጉ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 12,
+      "old_text": "ሕገ አሕዛብ ወሕዝብ ዑና ተ↵",
+      "corrected_text": "ሕገ አሕዛብ ወሕዝብ ሁና ተ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዑ -> ሁ",
+      "reason": "The printed word is the archaic Andemta feminine gerundive 'ሁና' (ሁና ተሠርታለችና), misread as 'ዑና'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 21,
+      "old_text": "ሙ ለንሰሐ⟫ ላለው ፡",
+      "corrected_text": "ሙ ለንስሐ⟫ ላለው ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሰ -> ስ",
+      "reason": "The 6th-order 'ስ' in 'ለንስሐ' is clearly printed and grammatically required."
+    },
+    {
+      "column_index": 1,
+      "line_num": 26,
+      "old_text": "ሉ ይቆርጡታል በእሳት ያቃ↵",
+      "corrected_text": "ሉ ይቈርጡታል በእሳት ያቃ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቆ -> ቈ",
+      "reason": "The printed glyph is labiovelar 'ቈ' (ይቈርጡታል), with the horizontal crossbar and loop."
+    },
+    {
+      "column_index": 1,
+      "line_num": 31,
+      "old_text": "[፲፩] በታል ፤ ⟪አንሰኬ አጠም↵",
+      "corrected_text": "[፲፩] በታል ፤ ⟪አነሰኬ አጠም↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ን -> ነ",
+      "reason": "Canonical Ge'ez pronoun 'አነሰኬ' (1st order 'ነ', 'I indeed'), misread as 6th order 'ን'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 37,
+      "old_text": "ት ። ዘቦ ፪ኤ ክዳናት የሀብ ፩↵",
+      "corrected_text": "ት ። ዘቦ ፪ኤ ክዳናተ የሀብ ፩↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ት -> ተ",
+      "reason": "Ge'ez accusative plural 'ክዳናተ' (Luke 3:11) has 1st order 'ተ' without the 6th-order left tick."
+    },
+    {
+      "column_index": 2,
+      "line_num": 3,
+      "old_text": "ዝክሙ አላቸው አንበሳ ወደቆ",
+      "corrected_text": "ዝክሙ አላቸው አንበሳ ወይቆ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ደ -> ይ",
+      "reason": "Traditional tax-collector idiom 'አንበሳ ወይቆ የወርቅ ተኩስ'; the middle character is 'ይ' (with right hook), not 'ደ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 5,
+      "old_text": "ክንጃ የጎሙን መንጃ እያሉ",
+      "corrected_text": "ክንጃ የጐመን መንጃ እያሉ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጎሙ -> ጐመ",
+      "reason": "The printed word is 'የጐመን' (cabbage tax: የጐመን መንጃ), misread as 'የጎሙን'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 9,
+      "old_text": "ኢትሄዱ መነሂ አላ ንበሩ በ↵",
+      "corrected_text": "ኢትሂዱ መነሂ አላ ንበሩ በ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሄ -> ሂ",
+      "reason": "Ge'ez jussive 'ኢትሂዱ' ('do not plunder/rob by force', Luke 3:14) is printed with 3rd-order 'ሂ', not 5th-order 'ሄ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 13,
+      "old_text": "[፲፩] ል እኔስ ለእጁ ቢረዜን ለልብ↵",
+      "corrected_text": "[፲፩] ል እኔስ ለእድ ቢረዜን ለልብ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጁ -> ድ",
+      "reason": "Traditional Andemta analogy 'ለእድ ቢረዜን ለልብስ ገላን እንዲያጽቡለት' ('just as they wash biräzen for a stain [እድ] and the body for a garment'); printed glyph is 6th-order 'ድ', not 'ጁ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 26,
+      "old_text": "⟪ዘኢይደልወኒ እፁር ዓሣዕኖ ።⟫",
+      "corrected_text": "⟪ዘኢይደልወኒ እፁር አሣዕኖ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዓ -> አ",
+      "reason": "The printed word 'አሣዕኖ' begins with 'አ' (two legs), not 'ዓ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 21,
+      "old_text": "ጣዕምን መዓዛን ያመጻል ። መ↵",
+      "corrected_text": "ጣዕምን መዓዛን ያመጣል ። መ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጻ -> ጣ",
+      "reason": "The printed word is 'ያመጣል' (paralleling 'ያመጣልና' two lines below); the three-legged 'ጣ' was misread as 'ጻ'."
+    }
+  ]
+}

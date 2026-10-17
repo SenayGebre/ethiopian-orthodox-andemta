@@ -1,0 +1,26 @@
+{
+  "pdf_page": 56,
+  "book_page_ethiopic": "፻፳፬ | ፻፳፭",
+  "elapsed_sec": 13.2,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 31,
+      "old_text": "፴፫ ፤ ⟪ወጐንድዮሙ ፡ ፈነዉዎሙ ፡ በሰላም ፡ ቢጾ",
+      "corrected_text": "፴፫ ፤ ⟪ወጐንድዮሙ ፡ ፈነውዎሙ ፡ በሰላም ፡ ቢጾ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዉ -> ው",
+      "reason": "The printed glyph in the Ge'ez verb ፈነውዎሙ uses the 6th-order ሳድስ (ው), not the 2nd-order ካዕብ (ዉ)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 23,
+      "old_text": "በምን ፡ አኳሆን ፡ እንዳሉ ፡ እናውቅ ፡",
+      "corrected_text": "በምን ፡ አኳሁን ፡ እንዳሉ ፡ እናውቅ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሆ -> ሁ",
+      "reason": "The printed word is the archaic Andemta spelling አኳሁን with 2nd-order ሁ (visible horizontal stroke on the right), not ሆ."
+    }
+  ]
+}

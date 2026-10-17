@@ -1,0 +1,306 @@
+{
+  "pdf_page": 70,
+  "book_page_arabic": 70,
+  "book_page_ethiopic": "፸",
+  "page_type": "commentary_2col",
+  "running_header": "",
+  "column_boxes": [
+    [
+      17,
+      0,
+      894,
+      1240
+    ],
+    [
+      841,
+      0,
+      1736,
+      1240
+    ]
+  ],
+  "columns": [
+    {
+      "column_index": 1,
+      "lines": [
+        {
+          "line_num": 1,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በኟቸው ፡ ነበረ ። አለቃ ፡ ኅሩይ ፡ ግርማዊነታቸውን ፡ በሚያዩበት ፡ ጊዜ ፡ ሁሉ ፡ ከፍቅራቸው ፡ ጽን",
+          "word_wraps_to_next_line": true,
+          "stage1_text": "በኋዋቸው ፡ ነበረ ። አለቃ ፡ ኅሩይ ፡ ግርማዊነታቸውን ፡ በሚያዩበት ፡ ጊዜ ፡ ሁሉ ፡ ከፍቅራቸው ፡ ጽን",
+          "stage2_correction": {
+            "pair": "ኋዋ -> ኟ",
+            "reason": "Continuing 'ይጎ' from the previous page to form 'ይጎበኟቸው' (He used to visit him); the wide 4th-order palatalized glyph 'ኟ' was misread as two characters 'ኋዋ'."
+          },
+          "uncertain": []
+        },
+        {
+          "line_num": 2,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ዓት ፡ የተነሣ ፡ ደዌያቸውን ፡ ሁሉ ፡ ይዘነጉት ፡ ነበር ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 3,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "አለቃ ፡ ኅሩይ ፡ ዕሤተ ፡ አንብዕ ፡ የተሰጣቸው ፡ ስለ ፡ ነበረ ፡ በቅድስት ፡ ሥላሴ ፡ አጠገብ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 4,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ግርማዊነታቸው ፡ በሰጧቸው ፡ ቤት ፡ ሳሉ ፡ ትሕትና ፡ ገንዘባቸው ፡ የሚሆን ፡ ግርማዊነታቸው ፡ ሊጠ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 5,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ይቋቸው ፡ በሄዱ ፡ ጊዜ ፡ ለመንገር ፡ በሩ ፡ በተከፈተ ፡ ጊዜ ፡ ዕንባቸው ፡ በሚጸልዩዋት ፡ አርጋኖን ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 6,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ላይ ፡ ሲንጠበጠብ ፡ ታይቷል ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 7,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "እንደ ፡ ቁስጥንጢኖስ ፡ ሊቃውንቱን ፡ የሚከባከቡ ፡ ግርማዊነታቸው ፡ እኒህን ፡ ሊቅ ፡ እንደ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 8,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ዐይናቸው ፡ ብሌን ፡ ይከባከቧቸው ፡ ስለ ፡ ነበረ ፡ አስታመው ፡ አሟሙተው ፡ እስከ ፡ መቃብር ፡ ሸኝተው ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 9,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ተመልሰዋል ፤ የመምህራን ፡ አምላክ ፡ ግርማዊነታቸውን ፡ ይጠብቅልን ፤ የአለቃ ፡ ኅሩይ ፡ ሞት ፡ ሞት ፡ አ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 10,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ይባልም ፡ ከልባቸው ፡ ፈልቆ ፡ የአርድእትን ፡ ልቡና ፡ ያረካው ፡ ትርጓሜያቸው ፡ አካል ፡ ገዝቶ ፡ ስለ ፡ ተ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 11,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ገኘላቸው ፡ ነው ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 12,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "አለቃ ፡ ኅሩይ ፡ ከትዕግሥታቸው ፡ ብዛት ፡ የተነሣ ፡ የሐረሩ ፡ ሊቅ ፡ አለቃ ፡ ገብረ ፡ አብ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 13,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ዲያብሎስ ፡ ቅሉ ፡ ድል ፡ ሊነሣቸው ፡ አይችልም ፡ ብለው ፡ የተናገሩት ፡ ነገር ፡ ሲነገር ፡ ይኖራል ። አለቃ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 14,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ኅሩይ ፡ በነበሩበት ፡ ጊዜ ፡ በአዲስ ፡ ዓለም ፡ ማርያም ፡ የነበሩት ፡ ብፁዕ ፡ አቡነ ፡ ዮሐንስ ፡ በየዕለቱ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 15,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሊጠይቋቸው ፡ ሲመጡ ፡ የነበረ ፡ ፍቅር ፡ ልክ ፡ አልነበረውም ፤ ብፁዕ ፡ አቡነ ፡ ዮሐንስ ፡ እንደ ፡ አረፉ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 16,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በሰሙ ፡ ጊዜ ፡ ጉባኤውን ፡ አጥፈው ፡ በኀዘን ፡ ቆይተው ፡ የፍቅራቸው ፡ ብዛት ፡ ሊታወቅ ፡ ብፁዕ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 17,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "አቡነ ፡ ዮሐንስ ፡ በአረፉ ፡ በ፵ ፡ ቀን ፡ አለቃ ፡ ኅሩይ ፡ አርፈው ፡ በደብረ ፡ ሊባኖስ ፡ ተቀበሩ ። ልዑል ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 18,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "እግዚአብሔር ፡ የሊህን ፡ የሁለቱን ፡ ሊቃውንት ፡ ነፍሳት ፡ በዕረፍት ፡ ቦታ ፡ እንዲያሳርፍልን ፡ እንጸል",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 19,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ያለን ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 20,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "የሐረር ፡ ሥላሴ ፡ አለቃ ፤ አለቃ ፡ ለማም ፡ ከአለቃ ፡ አየለ ፡ ሃይማኖተ ፡ አበውን ፡ ለመስማ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 21,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ት ፡ ዘወትር ፡ ከአለቃ ፡ ኅሩይ ፡ ጉባኤ ፡ ይገኙ ፡ ነበር ። የዲማው ፡ ሊቅ ፡ መልአከ ፡ ብርሃን ፡ አድማሱም ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 22,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ዘወትር ፡ ከጉባኤያቸው ፡ እየተገኙ ፡ የተሠወረውን ፡ ምሥጢር ፡ የምሥጢር ፡ ባለቤት ፡ ከሆኑት ፡ ከአ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 23,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ለቃ ፡ ኅሩይ ፡ ይረዱ ፡ ነበር ። የአለቃ ፡ ኅሩይ ፡ ታሪክ ፡ ብዙ ፡ ነበር ። ከብዙ ፡ በጥቂቱ ፡ በዚህ ፡ መጽሐ",
+          "word_wraps_to_next_line": true,
+          "stage1_text": "ለቃ ፡ ኅሩይ ፡ ይረዱ ፡ ነበር ። የአለቃ ፡ ኅሩይ ፡ ታሪክ ፡ ብዙ ፡ ነበር ። ከብዙ ፡ በጥቂቱ ፡ በዚሀ ፡ መጽሐ",
+          "stage2_correction": {
+            "pair": "ሀ -> ህ",
+            "reason": "The 6th-order 'ህ' in 'በዚህ' (in this) was misread as 1st-order 'ሀ' due to slight ink fill in the left bend."
+          },
+          "uncertain": []
+        },
+        {
+          "line_num": 24,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ፍ ፡ ገልጸነዋል ።",
+          "word_wraps_to_next_line": false
+        }
+      ]
+    },
+    {
+      "column_index": 2,
+      "lines": [
+        {
+          "line_num": 1,
+          "margin_tag": null,
+          "line_type": "section_title",
+          "text": "የብፁዕ ፡ አቡነ ፡ ዮሐንስ ፡ አጭር ፡ ታሪክ ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 2,
+          "margin_tag": null,
+          "line_type": "section_title",
+          "text": "ብፁዕ ፡ አቡነ ፡ ዮሐንስ ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 3,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ብፁዕ ፡ አቡነ ፡ ዮሐንስ ፡ የመጻሕፍተ ፡ ሐዲሳትና ፡ የፍትሐ ፡ ነገሥት ፡ የአቡሻሕር ፡ መምህር ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 4,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሊቅ ፡ መሆናቸውን ፡ የኢትዮጵያ ፡ ቤተ ፡ ክርስቲያን ፡ የምታውቅላቸው ፡ ስለሆነ ፡ በሰፊው ፡ መግለጥ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 5,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "አስፈላጊ ፡ ባለመሆኑ ፤ ትተነዋል ፡ ብፁዕ ፡ አቡነ ፡ ዮሐንስ ፡ ዕድለ ፡ መልካም ፡ ሊቅ ፡ ስለ ፡ ነበሩ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 6,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በጉባኤ ፡ የወለዷቸው ፡ ብዙዎች ፡ ናቸው ፤ ከነዚህም ፡ ብዙዎች ፡ ደቀ ፡ መዛሙርት ፡ ዛሬ ፡ ለመላዋ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 7,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ኢትዮጵያ ፡ መንፈሳውያን ፡ አባት ፡ የሆኑ ፡ ይገኛሉ ። እሊህም ፡ ብፁዕ ፡ አቡነ ፡ ቴዎፍሎስ ፡ ብፁዕ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 8,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "አቡነ ፡ ያዕቆብ ፡ ብፁዕ ፡ አቡነ ፡ ታዴዎስ ፡ ናቸው ። ከመልካም ፡ ግንድ ፡ መልካም ፡ ፍሬ ፡ እንዲገኝ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 9,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ከታላቁ ፡ አባታችን ፡ ከብፁዕ ፡ አቡነ ፡ ዮሐንስ ፡ የተገኙትም ፡ መምህራኖች ፡ ለኢትዮጵያ ፡ ቤተ ፡ ክር",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 10,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ስቲያን ፡ መልካም ፡ አገልግሎትን ፡ እንዲያስገኙላት ፡ ተስፋ ፡ እናደርጋለን ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 11,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ብፁዕ ፡ አባታችን ፡ አቡነ ፡ ዮሐንስ ፡ ለኢትዮጵያ ፡ ቤተ ፡ ክርስቲያን ፡ የተዉላት ፡ ቅርስ ፡ ለዘ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 12,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ለዓለም ፡ የማይረሳ ፡ ስለሆነ ፡ ለኋላ ፡ ትውልድ ፡ ማስታወሻ ፡ እንዲሆን ፡ ፎቶግራፋቸውን ፡ በዚህ ፡ መጽ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 13,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሐፍ ፡ እናያለን ።",
+          "word_wraps_to_next_line": false
+        }
+      ]
+    }
+  ],
+  "stage2_verified": true,
+  "stage2_corrections_count": 2
+}

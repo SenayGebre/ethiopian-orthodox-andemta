@@ -1,0 +1,26 @@
+{
+  "pdf_page": 63,
+  "book_page_ethiopic": "፻፳፪ | ፻፳፫",
+  "elapsed_sec": 17.9,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 31,
+      "old_text": "መዠመሪያይቱ ፡ መሠረት ፡ ኢያስጲድ ፡",
+      "corrected_text": "መዠመሪያዪቱ ፡ መሠረት ፡ ኢያስጲድ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ይ -> ዪ",
+      "reason": "The printed glyph in መዠመሪያዪቱ clearly has the 3rd-order right-side bottom foot (ዪ), consistent with ሁለተኛዪቱም in L34 and the other ordinal feminine forms on this page."
+    },
+    {
+      "column_index": 4,
+      "line_num": 21,
+      "old_text": "ቸውንይመጻውታሉ።አንድም፡(ቀዳሚት：",
+      "corrected_text": "ቸውን፡ይመጻውታሉ።አንድም፡(ቀዳሚት：",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቸውንይ -> ቸውን፡ይ",
+      "reason": "A word-separator colon (፡) is printed between ቸውን and ይመጻውታሉ."
+    }
+  ]
+}

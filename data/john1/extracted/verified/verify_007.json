@@ -1,0 +1,53 @@
+{
+  "pdf_page": 7,
+  "book_page_ethiopic": "፻፳፰ | ፻፳፱",
+  "elapsed_sec": 47.4,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 24,
+      "old_text": "ባለ ፡ ነበር ፡ ቀንጄ ፡ ተዋሕዶን ፡ አለ ፥",
+      "corrected_text": "ባለ ፡ ነበር ፡ ቀንጆ ፡ ተዋሕዶን ፡ አለ ፥",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጄ -> ጆ",
+      "reason": "The glyph has the top-right loop of 7th-order ጆ (ቀንጆ, archaic/dialectal form of ቆንጆ 'proper/true Union'), not 5th-order ጄ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 3,
+      "old_text": "ሲናገረው፡ የመጣውን፡ ዘንተ፡ አለ፡ ስለሚ↵",
+      "corrected_text": "ሲናገረው፡ የመጣውን፡ ዝንተ፡ አለ፡ ስለሚ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዘንተ -> ዝንተ",
+      "reason": "The cited Ge'ez demonstrative pronoun from line 1 (ወዘንተ/ዝንተ) is printed with 6th-order ዝ (ዝንተ), not 1st-order ዘ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 16,
+      "old_text": "ማነን ፡ አትሹ ፥",
+      "corrected_text": "ማንን ፡ አትሹ ፥",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ማነን -> ማንን",
+      "reason": "The Amharic accusative pronoun 'anyone' is printed ማንን (with two 6th-order ን glyphs in ማንንም ፡ ማንን), where the middle ን was misread as ነ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 17,
+      "old_text": "⟪አላ ፡ መንፈሰ ፡ ዚአሁ ፡ ይሜህረክሙ ፡ በእንተ ፡ ኵሉ⟫",
+      "corrected_text": "⟪አላ ፡ መንፈስ ፡ ዚአሁ ፡ ይሜህርክሙ ፡ በእንተ ፡ ኵሉ⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "መንፈሰ -> መንፈስ, ይሜህረክሙ -> ይሜህርክሙ",
+      "reason": "In the Ge'ez root text (1 John 2:27), the nominative subject before ዚአሁ is printed መንፈስ (with 6th-order ስ) and the verb is printed ይሜህርክሙ (with 6th-order ር)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 31,
+      "old_text": "እንደ ፡ ነናን ፡ ትሉኝ ፡ እንደ ፡ ሆነ ፡ ከዚ↵",
+      "corrected_text": "እንደ ፡ ገናን ፡ ትሉኝ ፡ እንደ ፡ ሆነ ፡ ከዚ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ነናን -> ገናን",
+      "reason": "The printed word is ገናን ('እንደ ገናን ትሉኝ እንደ ሆነ' — 'if you say to me is it yet to come / in the future'), where initial ገ was visually confused with ነ."
+    }
+  ]
+}

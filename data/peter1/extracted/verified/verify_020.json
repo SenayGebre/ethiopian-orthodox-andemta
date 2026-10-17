@@ -1,0 +1,62 @@
+{
+  "pdf_page": 20,
+  "book_page_ethiopic": "፪፻፶፬ | ፪፻፶፭",
+  "elapsed_sec": 34.6,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 6,
+      "old_text": "መቀስ ፡ እያረፈ ፡ ብረት ፡ ምጣድ ፡ አግ",
+      "corrected_text": "መቀስ ፡ እየረፈ ፡ ብረት ፡ ምጣድ ፡ አግ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እያረፈ -> እየረፈ",
+      "reason": "The printed glyph in 'እየረፈ' has the 1st-order 'የ' (not 4th-order 'ያ'), which is the standard Amharic imperfective prefix 'እየ-'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 9,
+      "old_text": "ኢሳ ፡ ፫ ፡ ፲፳ ። ፩ ፡ ጢሞ ፡ ፪ ፡ ፱ ።",
+      "corrected_text": "ኢሳ ፡ ፫ ፡ ፲፰ ። ፩ ፡ ጢሞ ፡ ፪ ፡ ፱ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፲፳ -> ፲፰",
+      "reason": "The Ethiopic numeral '፰' (8) in '፲፰' (18, citing Isaiah 3:18) was misread as '፳' (20), which would be an invalid compound numeral ('፲፳')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 20,
+      "old_text": "ናሁ ፡ ናስተብፅኦሙ ፡ ለእለ ፡ ተዐገሡ ፡",
+      "corrected_text": "ናሁ ፡ ናስተብፅዖሙ ፡ ለእለ ፡ ተዐገሡ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ናስተብፅኦሙ -> ናስተብፅዖሙ",
+      "reason": "The root of 'ብፅዓን' takes pharyngeal 'ዖ' in 'ናስተብፅዖሙ' (James 5:11), which is clearly printed with the circular pharyngeal glyph 'ዖ' rather than 'ኦ'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 3,
+      "old_text": "ንም ፡ በምን ፡ ሳትፈሩ ። አንድም ፡ ከጰ",
+      "corrected_text": "ንም ፡ በምን ፡ ሳትፈሩ ። አንድም ፡ ከጨ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከጰ -> ከጨ",
+      "reason": "Across the line wrap 'ከጨ↵ፈቀ ፡ ዱር' ('from a dense/thick forest'), the triple-looped 'ጨ' was misread as 'ጰ'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 6,
+      "old_text": "ዩን ፡ እንสቅ ፡ ባያዩን ፡ እናጠልቅ ፡ ሳትሉ ።",
+      "corrected_text": "ዩን ፡ እንሳቅ ፡ ባያዩን ፡ እናጠልቅ ፡ ሳትሉ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እንสቅ -> እንሳቅ",
+      "reason": "A non-Ethiopic character ('ส') was erroneously output in Stage 1 instead of the clearly printed Fidel 'ሳ' in the proverbial phrase 'ቢያዩን ፡ እንሳቅ ፡ ባያዩን ፡ እናጠልቅ'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 33,
+      "old_text": "ይዘ ፡ መላውን ፡ አስፈጅቷቸዋል ። ሰይ",
+      "corrected_text": "ያዘ ፡ መላውን ፡ አስፈጅቷቸዋል ። ሰይ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ይዘ -> ያዘ",
+      "reason": "Joined with 'እያ↵' at the end of Line 32, the complete word is 'እያያዘ' ('one after another / together'), and the image clearly shows 4th-order 'ያ' at the start of Line 33."
+    }
+  ]
+}

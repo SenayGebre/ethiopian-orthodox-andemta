@@ -1,0 +1,17 @@
+{
+  "pdf_page": 30,
+  "book_page_ethiopic": "፬፻፲፪",
+  "elapsed_sec": 13.0,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 33,
+      "old_text": "ማቸው ዘቀናችበት መንደራ",
+      "corrected_text": "ማቸው በቀናችበት መንደራ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዘ -> በ",
+      "reason": "Slight fading in the top horizontal bar of በ caused በቀናችበት to be misread as ዘቀናችበት; both the visual glyph and the parallel Amharic Andemta construction (ከተማቸው በቀናችበት መንደራቸው በታነጸበት, glossing ዘተነድቀት ላዕሌሁ ሀገሮሙ) confirm በቀናችበት."
+    }
+  ]
+}

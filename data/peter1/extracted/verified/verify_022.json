@@ -1,0 +1,107 @@
+{
+  "pdf_page": 22,
+  "book_page_ethiopic": "፪፻፶፯ | ፪፻፶፰",
+  "elapsed_sec": 70.5,
+  "applied_count": 11,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "ሚሎቹ ፡ አይን ፡ ኅዘን ፡ ያስረሳል ፡ እህል ፡",
+      "corrected_text": "ሚሎቹ ፡ አደን ፡ ኅዘን ፡ ያስረሳል ፡ እህል ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አይን -> አደን",
+      "reason": "The printed glyph is ደ (አደን, 'hunting', which proverbially makes one forget sorrow: አደን ኅዘን ያስረሳል), misread as ይ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 4,
+      "old_text": "ቷል ። አንዲት ፡ ደግ ፡ አጎት ፡ ነበረችው ፡",
+      "corrected_text": "ቷል ። አንዲት ፡ ደግ ፡ እኅት ፡ ነበረችው ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አጎት -> እኅት",
+      "reason": "Both visually and contextually (she calls him ወንድሜን 'my brother' in L15), the printed word is እኅት ('sister'), misread as አጎት."
+    },
+    {
+      "column_index": 1,
+      "line_num": 17,
+      "old_text": "ዩኝ ፡ አለ ፡ አሳዩት ፡ እንደ ፡ ፅንቍ ፡ ሲያ",
+      "corrected_text": "ዩኝ ፡ አለ ፡ አሳዩት ፡ እንደ ፡ ዕንቍ ፡ ሲያ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ፅንቍ -> ዕንቍ",
+      "reason": "The initial character is ዕ (ዕንቍ, 'pearl/gem'), misread as ፅ due to a faint ink speck."
+    },
+    {
+      "column_index": 1,
+      "line_num": 20,
+      "old_text": "እዎን ፡ አለችው ፡ ይዘሽኝ ፡ ሂጂ ፡ አላት ፡",
+      "corrected_text": "አዎን ፡ አለችው ፡ ይዘሽኝ ፡ ሂጂ ፡ አላት ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እዎን -> አዎን",
+      "reason": "The printed word is አዎን ('yes'), where the first-order አ was misread as እ due to a stray mark below it."
+    },
+    {
+      "column_index": 2,
+      "line_num": 6,
+      "old_text": "ሪያ ፡ ትኩል ፡ እሳት ፡ መስፈሪያ ፡ ተኩል ፡",
+      "corrected_text": "ሪያ ፡ ተኩል ፡ እሳት ፡ መስፈሪያ ፡ ተኩል ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ትኩል -> ተኩል",
+      "reason": "The printed glyph is first-order ተ (ተኩል, 'and a half', matching the subsequent occurrences on lines 6 and 9), misread as ት."
+    },
+    {
+      "column_index": 3,
+      "line_num": 8,
+      "old_text": "⟪እስመ ፡ ይወርሳ ፡ አማንቱኒ ፡ ክብረ ፡ ወሕይወተ ፡",
+      "corrected_text": "⟪እስመ ፡ ይወርሳ ፡ እማንቱኒ ፡ ክብረ ፡ ወሕይወተ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አማንቱኒ -> እማንቱኒ",
+      "reason": "In Classical Ge'ez grammar and on the printed page, the feminine plural pronoun is እማንቱኒ ('they [f.] also'), with 6th-order እ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 5,
+      "old_text": "ተኮስ ፡ እንደ ፡ ታገመ ፡ እንታገም ፡ ማለ",
+      "corrected_text": "ተኮስ ፡ እንደ ፡ ታገመ ፡ እንታገም ፡ ማ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ማለ -> ማ",
+      "reason": "The line ends with ማ (followed by a hyphenation stroke), wrapping onto line 6 as ለት to form ማለት. Stage 1 hallucinated an extra ለ at the end of line 5."
+    },
+    {
+      "column_index": 4,
+      "line_num": 6,
+      "old_text": "ለት ፡ አይደለም ፡ እንዳርበን ፡ ይርበዋል ፡",
+      "corrected_text": "ለት ፡ አይደለም ፡ እንዲርበን ፡ ይርበዋል ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እንዳርበን -> እንዲርበን",
+      "reason": "The printed glyph is ዲ (እንዲርበን ፡ ይርበዋል, parallel to እንዲጠማን ፡ ይጠማዋል on L07), misread as ዳ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 29,
+      "old_text": "በረከተ ፡ ነፍሱን ፡ ትወርሱ ፡ ዘንድ ፡ ለ",
+      "corrected_text": "በረከተ ፡ ነፍስን ፡ ትወርሱ ፡ ዘንድ ፡ ለ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ነፍሱን -> ነፍስን",
+      "reason": "The printed word is በረከተ ፡ ነፍስን ('spiritual blessing / blessing of the soul') with 6th-order ስ, misread as ሱ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 31,
+      "old_text": "ድም ፡ በረከተ ፡ ነፍሱን ፡ ትወርሱ ፡",
+      "corrected_text": "ድም ፡ በረከተ ፡ ነፍስን ፡ ትወርሱ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ነፍሱን -> ነፍስን",
+      "reason": "The printed word is ነፍስን with 6th-order ስ, misread as ሱ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 32,
+      "old_text": "ዘንድ ፡ ለዚህ ፡ ለበረከተ ፡ ነፍሱ ፡ ተጠር",
+      "corrected_text": "ዘንድ ፡ ለዚህ ፡ ለበረከተ ፡ ነፍስ ፡ ተጠር",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ነፍሱ -> ነፍስ",
+      "reason": "The printed word is ነፍስ (ለበረከተ ፡ ነፍስ) with 6th-order ስ, misread as ሱ."
+    }
+  ]
+}

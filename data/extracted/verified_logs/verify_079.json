@@ -1,0 +1,44 @@
+{
+  "pdf_page": 79,
+  "book_page_ethiopic": "፻፺፰",
+  "elapsed_sec": 11.3,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 8,
+      "old_text": "፬ ቓል ውሃ አምጡ ብሎ ደግ",
+      "corrected_text": "፬ ጋን ውሃ አምጡ ብሎ ደግ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቓል -> ጋን",
+      "reason": "In 1 Kings 18:33, Elijah says to fill four jars (፬ ጋን ውሃ አምጡ). Visually, the printed glyphs after ፬ are ጋን (4th order ጋ followed by 6th order ን), misread as ቓል."
+    },
+    {
+      "column_index": 1,
+      "line_num": 19,
+      "old_text": "ግሯል ምሳሌውንም እንዲ ባ",
+      "corrected_text": "ግሯል ምሳሌውንም እንዳ ባ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እንዲ -> እንዳ",
+      "reason": "The word is እንዳባወቀ (from ማባወቅ, as he made it known/revealed). Visually, ዳ (4th order) has the left-slanted leg, misread as ዲ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 16,
+      "old_text": "ሽፎ ደንጊያ ማለት ነው ይህ",
+      "corrected_text": "ሻፎ ደንጊያ ማለት ነው ይህ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሽፎ -> ሻፎ",
+      "reason": "The traditional Amharic term for a sharp flint/cutting stone is ሻፎ ደንጊያ (which separates flesh from bone). Visually, the first glyph is 4th order ሻ with a shorter right leg, misread as 6th order ሽ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 40,
+      "old_text": "ንዳሰናከለ እሱም የመናፍቃን",
+      "corrected_text": "ንዳሰናከለ እሱም የመናፍቃን",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "የመናፍቃን -> የመናፍቃን↵",
+      "reason": "The word የመናፍቃንን wraps across the page boundary to the next page (which begins with ን ትምርት ያሰናክላልና)."
+    }
+  ]
+}

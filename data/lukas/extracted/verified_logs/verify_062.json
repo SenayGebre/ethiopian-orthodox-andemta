@@ -1,0 +1,62 @@
+{
+  "pdf_page": 62,
+  "book_page_ethiopic": "፬፻፵፬",
+  "elapsed_sec": 21.6,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 7,
+      "old_text": "ይሰምዑ ቃለ እግዚአብሔር ወ",
+      "corrected_text": "ይሰምዑ ቃለ እግዚአብሔር ወ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወ የዓቅቦ -> ወየዓቅቦ",
+      "reason": "The Ge'ez conjunction ወ- at the end of line 7 is prefixed directly to የዓቅቦ on line 8, forming a single word across the line break."
+    },
+    {
+      "column_index": 2,
+      "line_num": 12,
+      "old_text": "ብፅዕት ከርሥ ዝፁዓት አጥባ",
+      "corrected_text": "ብፅዕት ከርሥ ብፁዓት አጥባ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዝፁዓት -> ብፁዓት",
+      "reason": "Faded top arch on ብ caused it to be misread as ዝ; the commentary quotes the Ge'ez phrase ብፁዓት አጥባት ('blessed are the breasts')."
+    },
+    {
+      "column_index": 2,
+      "line_num": 28,
+      "old_text": "ተ ተኀሥሥ ።⟫ ማቴ ፲፪ ፳፱ ።",
+      "corrected_text": "ተ ተኀሥሥ ።⟫ ማቴ ፲፪ ፴፱ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፳፱ -> ፴፱",
+      "reason": "The numeral ፴ (30) was misread as ፳ (20); the cross-reference for 'An evil generation seeks for a sign' is Matthew 12:39 (ማቴ ፲፪ ፴፱)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 37,
+      "old_text": "ርተ ለሰብአ ነነዌ ።⟫ ዮሐ ፪ ፳ ።",
+      "corrected_text": "ርተ ለሰብአ ነነዌ ።⟫ ዮና ፪ ፩ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዮሐ ፪ ፳ -> ዮና ፪ ፩",
+      "reason": "The abbreviation for the Book of Jonah (ዮና) and chapter/verse ፪ ፩ (Jonah 2:1 in the Ge'ez/LXX numbering) was misread as ዮሐ ፪ ፳."
+    },
+    {
+      "column_index": 3,
+      "line_num": 9,
+      "old_text": "ትትኳነኖሙ ።⟫ ፫ነገ ፲፩ ፪ ኅፅ ፫ ፩",
+      "corrected_text": "ትትኳነኖሙ ።⟫ ፫ነገ ፲ ፩ ፪ ዜና ፱ ፩",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፲፩ ፪ ኅፅ ፫ ፩ -> ፲ ፩ ፪ ዜና ፱ ፩",
+      "reason": "The biblical cross-references for the Queen of the South (Sheba) are 3 Kingdoms (1 Kings) 10:1 (፫ነገ ፲ ፩) and 2 Chronicles 9:1 (፪ ዜና ፱ ፩); ink bleed caused ዜና ፱ to be misread as ኅፅ ፫."
+    },
+    {
+      "column_index": 3,
+      "line_num": 25,
+      "old_text": "ዮሐ ፫ ፭ ።",
+      "corrected_text": "ዮና ፫ ፭ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዮሐ -> ዮና",
+      "reason": "The cross-reference for the men of Nineveh repenting at the preaching of Jonah is Jonah 3:5 (ዮና ፫ ፭), where ና was misread as ሐ."
+    }
+  ]
+}

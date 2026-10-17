@@ -1,0 +1,26 @@
+{
+  "pdf_page": 192,
+  "book_page_ethiopic": "፫፻፲፩",
+  "elapsed_sec": 14.3,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 2,
+      "old_text": "ጸሐፎ በፍልስጥኤም በአስተ",
+      "corrected_text": "ጽሕፎ በፍልስጥኤም በአስተ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጸሐፎ -> ጽሕፎ",
+      "reason": "Both visually in the zoomed image (6th-order ጽ and 6th-order ሕ) and grammatically after 'ወኮነ', the Ge'ez verbal noun is 'ጽሕፎ' ('its writing'), not the verb 'ጸሐፎ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 5,
+      "old_text": "ስተ ሰማይ ዘበአጼዖግዮ በሰማ",
+      "corrected_text": "ስተ ሰማይ ዘበአጽዖግዮ በሰማ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጼ -> ጽ",
+      "reason": "The canonical Ge'ez colophon phrase translated in L07 as 'በሥጋ' is 'ዘበአጽዖግዮ' (with 6th-order ጽ, not 5th-order ጼ), as visible in the print."
+    }
+  ]
+}

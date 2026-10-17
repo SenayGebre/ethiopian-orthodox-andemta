@@ -1,0 +1,53 @@
+{
+  "pdf_page": 133,
+  "book_page_ethiopic": "፪፻፶፪",
+  "elapsed_sec": 54.1,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 4,
+      "old_text": "ቱው ጦር የሚናደዱ ሆኑ።ሙ",
+      "corrected_text": "ትው ጦር የሚናደዱ ሆኑ።ሙ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቱ -> ት",
+      "reason": "The printed glyph at the start of the line is 6th-order ት (completing በፈትው ጦር, 'by the war of lust/desire'), not 2nd-order ቱ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 5,
+      "old_text": "ፃዓ ሽንት ብቻ ነበራቸው ።",
+      "corrected_text": "ፃዓ ስንት ብቻ ነበራቸው ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሽ -> ስ",
+      "reason": "The printed character is clearly un-palatalized ስ (ስንት) without a top horizontal bar."
+    },
+    {
+      "column_index": 3,
+      "line_num": 6,
+      "old_text": "⟪ወቦ ሕፅዋን እለ ሐፅውዎሙ",
+      "corrected_text": "⟪ወቦ ሕፅዋን እለ ሐፀውዎሙ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፅ -> ፀ",
+      "reason": "In the Ge'ez verb ሐፀውዎሙ (as also seen in L23), the second radical is 1st-order ፀ, not 6th-order ፅ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 10,
+      "old_text": "⟪ወቦ ሕፅዋን እለ ሐፅዉ ርእ",
+      "corrected_text": "⟪ወቦ ሕፅዋን እለ ሐፀዉ ርእ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ፅ -> ፀ",
+      "reason": "In the Ge'ez perfective verb ሐፀዉ, the second radical is 1st-order ፀ, not 6th-order ፅ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 28,
+      "old_text": "ወቦ እለ ሐፅዉ ርእሶሙ በ",
+      "corrected_text": "ወቦ እለ ሐፀዉ ርእሶሙ በ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ፅ -> ፀ",
+      "reason": "In the Ge'ez perfective verb ሐፀዉ, the second radical is 1st-order ፀ, not 6th-order ፅ."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "pdf_page": 15,
+  "book_page_ethiopic": "፭፻፳፭",
+  "elapsed_sec": 30.9,
+  "applied_count": 9,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 19,
+      "old_text": "ቅድኀዎንኬ ይእዜ ወሰዱ ወ",
+      "corrected_text": "ቅድኅዎንኬ ይእዜ ወሰዱ ወ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኀ -> ኅ",
+      "reason": "Classical Ge'ez plural imperative of ቀድሐ with object suffix -ዎን is ቅድኅዎንኬ (with 6th-order ኅ, matching ቀድኅዎ in L37 and the visible top hook on ኅ in the image)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 11,
+      "old_text": "⟪ወእምድኅረ ሰክሩ ያሰቲ ዘይ",
+      "corrected_text": "⟪ወእምድኅረ ሰክሩ ያስቲ ዘይ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሰ -> ስ",
+      "reason": "Classical Ge'ez causative imperfective of ሰትየ ('to give to drink') is ያስቲ with 6th-order ስ, which is clearly visible in the print."
+    },
+    {
+      "column_index": 3,
+      "line_num": 22,
+      "old_text": "ሎ እሙ፡ስተ ሕይወት ስተመ",
+      "corrected_text": "ሎ እሙ፡ስቴ ሕይወት ስቴመ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ስተ -> ስቴ",
+      "reason": "The Andemta theological phrase is 'ስቴ ሕይወት ስቴ መድኃኒት' ('drink of life, drink of salvation', interpreting the wine of Cana via the Ge'ez noun ስቴ). The 5th-order vowel loop on ቴ is visible on the right leg."
+    },
+    {
+      "column_index": 3,
+      "line_num": 24,
+      "old_text": "በቡ ስተ ሕይወት ስተ መድ",
+      "corrected_text": "በቡ ስቴ ሕይወት ስቴ መድ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ስተ -> ስቴ",
+      "reason": "The noun is ስቴ ('drink') in 'ስቴ ሕይወት ስቴ መድኃኒት'; the 5th-order loop on ቴ is visible in the image."
+    },
+    {
+      "column_index": 3,
+      "line_num": 26,
+      "old_text": "ስተ ሕይወት ስተ መድኃኒት",
+      "corrected_text": "ስቴ ሕይወት ስቴ መድኃኒት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ስተ -> ስቴ",
+      "reason": "The noun is ስቴ ('drink') in 'ስቴ ሕይወት ስቴ መድኃኒት'; the 5th-order loop on ቴ is visible in the image."
+    },
+    {
+      "column_index": 3,
+      "line_num": 29,
+      "old_text": "ለህ ስተ ሕይወት ስተ መድ",
+      "corrected_text": "ለህ ስቴ ሕይወት ስቴ መድ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ስተ -> ስቴ",
+      "reason": "The noun is ስቴ ('drink') in 'ስቴ ሕይወት ስቴ መድኃኒት'; the 5th-order loop on ቴ is visible in the image."
+    },
+    {
+      "column_index": 3,
+      "line_num": 32,
+      "old_text": "ስተ ሕይወት ስተ መድኃኒት",
+      "corrected_text": "ስቴ ሕይወት ስቴ መድኃኒት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ስተ -> ስቴ",
+      "reason": "The noun is ስቴ ('drink') in 'ስቴ ሕይወት ስቴ መድኃኒት'; the 5th-order loop on ቴ is visible in the image."
+    },
+    {
+      "column_index": 3,
+      "line_num": 34,
+      "old_text": "ንጂ ተሰቅዬ ስተ ሕይወት ስ",
+      "corrected_text": "ንጂ ተሰቅዬ ስቴ ሕይወት ስ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ስተ -> ስቴ",
+      "reason": "The noun is ስቴ ('drink') in 'ስቴ ሕይወት'; the 5th-order loop on ቴ is visible in the image."
+    },
+    {
+      "column_index": 3,
+      "line_num": 35,
+      "old_text": "ተ መድኃኒት ላልሆናቸው ሰ",
+      "corrected_text": "ቴ መድኃኒት ላልሆናቸው ሰ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ተ -> ቴ",
+      "reason": "Continuation of split word ስ-ቴ ('drink') from end of L34 in 'ስቴ መድኃኒት'; the 5th-order loop on ቴ is visible at the start of L35."
+    }
+  ]
+}

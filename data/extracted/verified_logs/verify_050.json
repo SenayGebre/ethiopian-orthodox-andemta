@@ -1,0 +1,35 @@
+{
+  "pdf_page": 50,
+  "book_page_ethiopic": "፻፷፱",
+  "elapsed_sec": 23.0,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 30,
+      "old_text": "ን ስጥ።ሰጥቶ ቢሄድ መዛው",
+      "corrected_text": "ን ስጥ።ሰጥቶ ቢሄድ መባው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዛ -> ባ",
+      "reason": "The word is መባው ('the offering', matching L23 and L34), where a slight break in the top loop of ባ made it resemble ዛ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 31,
+      "old_text": "እንኳን የገበልኝ እንጂ ብሎ",
+      "corrected_text": "እንኳን የገባልኝ እንጂ ብሎ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በ -> ባ",
+      "reason": "The printed glyph has the shorter right leg of 4th-order ባ in የገባልኝ ('at least my offering has been presented/entered for me')."
+    },
+    {
+      "column_index": 1,
+      "line_num": 35,
+      "old_text": "እንዲቀረው ከአዳራ አኑሯለሁ",
+      "corrected_text": "እንዲቀረው ከአዳራ አኑሬለሁ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሯ -> ሬ",
+      "reason": "The printed glyph is 5th-order ሬ with a right-leg ring in አኑሬለሁ ('I have placed it in the hall/vestibule')."
+    }
+  ]
+}

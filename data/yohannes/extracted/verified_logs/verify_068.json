@@ -1,0 +1,35 @@
+{
+  "pdf_page": 68,
+  "book_page_ethiopic": "፭፻፸፰",
+  "elapsed_sec": 15.2,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 40,
+      "old_text": "⟪ወሶበ ሰምዓት ማርታ ከመ መ↵",
+      "corrected_text": "⟪ወሶበ ሰምዐት ማርታ ከመ መ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዓ -> ዐ",
+      "reason": "Classical Ge'ez 3rd person feminine singular perfective verb is ሰምዐት (with 1st-order ዐ), which matches the round printed glyph."
+    },
+    {
+      "column_index": 3,
+      "line_num": 4,
+      "old_text": "ጠብቅ በልኩ ጊዜ የማስነሣ",
+      "corrected_text": "ጠብቅ ባልኩ ጊዜ የማስነሣ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በ -> ባ",
+      "reason": "The printed glyph has the shorter right leg of 4th-order ባ (ባልኩ ጊዜ, 'at the time I say/command')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 40,
+      "old_text": "ይህን ተናግራ ማርያን አላ↵",
+      "corrected_text": "ይህን ተናግራ ማርያን እኅ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አላ -> እኅ",
+      "reason": "The word at the end of Column 3 Line 40 wraps onto the next page (ቷን) to form እኅቷን ('her sister', translating the Ge'ez እኅታ in v. 28). Visually the glyphs are እኅ, not አላ."
+    }
+  ]
+}

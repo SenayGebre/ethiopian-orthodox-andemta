@@ -1,0 +1,71 @@
+{
+  "pdf_page": 13,
+  "book_page_ethiopic": "፻፳ | ፻፳፩",
+  "elapsed_sec": 20.5,
+  "applied_count": 7,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 6,
+      "old_text": "ሥኦ ፡ እምዉታን ፡⟫",
+      "corrected_text": "ሥኦ ፡ እምውታን ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዉ -> ው",
+      "reason": "The printed glyph in እምውታን is the 6th-order sadis ው (standard Ge'ez contraction of እምሙታን), not 2nd-order ዉ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 31,
+      "old_text": "ኅላፊትም ፡ ይላል ፡ ንሕነሰ ፡ ሶበ ፡ አሥ",
+      "corrected_text": "ኅላፊትም ፡ ይላል ፡ ንሕነሰ ፡ ሶበ ፡ አሠ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አሥ -> አሠ",
+      "reason": "Rejoined across lines 31-32, the Ge'ez verb is አሠመርናሁ ('when we pleased Him', parallel to አሠመርዎ on L29), with 1st-order ሠ, not 6th-order ሥ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 32,
+      "old_text": "መርናሁ ፡ ኢንሴፎ ፡ ምድራዊተ ፡ አላ ፡",
+      "corrected_text": "መርናሁ ፡ ኢንሴፉ ፡ ምድራዊተ ፡ አላ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፎ -> ፉ",
+      "reason": "The Classical Ge'ez 1st-person plural imperfect of ተስፈወ is ኢንሴፉ ('we do not hope for'), and the image shows 2nd-order ፉ with the right-side stroke, not ፎ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 35,
+      "old_text": "ካለ ፡ ከዚሀ ፡ ቅዱስ ፡ ጴጥሮስ ፡ በወልድ ፡",
+      "corrected_text": "ካለ ፡ ከዚህ ፡ ቅዱስ ፡ ጴጥሮስ ፡ በወልድ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ከዚሀ -> ከዚህ",
+      "reason": "The Amharic word is ከዚህ ('here') with 6th-order ህ, not 1st-order ሀ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 16,
+      "old_text": "ብዝኀ ፡ ወተባዝኀ ፡ ባለው ፡ ቃል ። ለዘ",
+      "corrected_text": "ብዝኁ ፡ ወተባዝኁ ፡ ባለው ፡ ቃል ። ለዘ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ብዝኀ ፡ ወተባዝኀ -> ብዝኁ ፡ ወተባዝኁ",
+      "reason": "The canonical Ge'ez plural imperative from Genesis 1:28 is ብዝኁ ፡ ወተባዝኁ ('be fruitful and multiply') with 2nd-order ኁ (showing the horizontal right-side vowel stroke), not 4th-order ኀ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 19,
+      "old_text": "ለትእዛዝ ፡ ቢቀጥሉ ፡ ብዝኀ ፡ ወተ",
+      "corrected_text": "ለትእዛዝ ፡ ቢቀጥሉ ፡ ብዝኁ ፡ ወተ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ብዝኀ -> ብዝኁ",
+      "reason": "Same canonical Ge'ez imperative ብዝኁ with 2nd-order ኁ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 20,
+      "old_text": "ባዝኀ ፡ ያለው ፡ ቃል ፡ እስከ ፡ ምጽአት ፡",
+      "corrected_text": "ባዝኁ ፡ ያለው ፡ ቃል ፡ እስከ ፡ ምጽአት ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ባዝኀ -> ባዝኁ",
+      "reason": "Continuation of ወተባዝኁ across lines 19-20 with 2nd-order ኁ."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "pdf_page": 21,
+  "book_page_ethiopic": "፫፻፵",
+  "elapsed_sec": 11.6,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 8,
+      "old_text": "ደ ማርቆስ ። ወተቄልቄለ ፀሐይ",
+      "corrected_text": "ደ ማርቆስ ። ወተቄልቆለ ፀሐይ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቄ -> ቆ",
+      "reason": "Classical Ge'ez verb form (Luke 9:12 citation) and visual inspection show 7th-order ቆ in ወተቄልቆለ rather than 5th-order ቄ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 26,
+      "old_text": "መጠን ኃባውዝ ብክሙ ።⟫",
+      "corrected_text": "መጠን ኅባውዝ ብክሙ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኃ -> ኅ",
+      "reason": "Canonical Ge'ez plural of ኅብስት is ኅባውዝ with 6th-order ኅ, matching the printed glyph with the right-side loop."
+    }
+  ]
+}

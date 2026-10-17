@@ -1,0 +1,80 @@
+{
+  "pdf_page": 92,
+  "book_page_ethiopic": "፬፻፸፬",
+  "elapsed_sec": 27.4,
+  "applied_count": 8,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 7,
+      "old_text": "⟪ወይቤሎሙ ሀሎአ አሐዱ መ",
+      "corrected_text": "⟪ወይቤሎሙ ሀሎ አሐዱ መ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሀሎአ -> ሀሎ",
+      "reason": "The printed text reads 'ሀሎ አሐዱ' (there was a certain...); Stage 1 erroneously inserted an extra 'አ' after 'ሀሎ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 24,
+      "old_text": "⟪ወእምዝ ሀለየ በልቡ ወይቤ",
+      "corrected_text": "⟪ወእምዝ ሐለየ በልቡ ወይቤ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሀለየ -> ሐለየ",
+      "reason": "Both visually on the page and in canonical Ge'ez (Luke 18:4), the verb 'he thought' is spelled with ሐ ('ሐለየ'), not ሀ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 29,
+      "old_text": "⟪ከመ ኢታንጥየኒ ዛቲ እቤር",
+      "corrected_text": "⟪ከመ ኢታንጥየኒ ዛቲ ዕቤር",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እቤር -> ዕቤር",
+      "reason": "The Ge'ez noun for 'widow' (Luke 18:5) is printed with ዕ ('ዕቤር'), matching line 14 ('ዕቤርት')."
+    },
+    {
+      "column_index": 2,
+      "line_num": 34,
+      "old_text": "⟪ወይቤሎሙ ክልኤቱአ ዕደው",
+      "corrected_text": "⟪ወይቤሎሙ ክልኤቱ ዕደው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ክልኤቱአ -> ክልኤቱ",
+      "reason": "The printed Ge'ez text (Luke 18:10) reads 'ክልኤቱ ዕደው' (two men); there is no 'አ' after 'ክልኤቱ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 5,
+      "old_text": "ማለት ኡሉል ባሕታዊ ማለት",
+      "corrected_text": "ማለት እሉል ባሕታዊ ማለት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኡሉል -> እሉል",
+      "reason": "The traditional Andemta gloss for 'ፈሪሳዊ' (Pharisee / separated one) is 'እሉል ባሕታዊ', and the initial glyph on the page is 6th-order 'እ', not 'ኡ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 17,
+      "old_text": "⟪ወእለ የሐውሩ ብእሲተ ብእሲ⟫",
+      "corrected_text": "⟪ወእለ የሐውሩ ብእሲተ ብእሲ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ብእሲ -> ብእሲ።",
+      "reason": "There is a clearly printed '።' (አራት ነጥብ) at the end of the line after 'ብእሲ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 28,
+      "old_text": "⟪ወአበውእ አሥራተ እዴሁ እ",
+      "corrected_text": "⟪ወአበውእ አሥራተ እዴየ እ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እዴሁ -> እዴየ",
+      "reason": "In Luke 18:12 the Pharisee speaks in the 1st person singular ('አሥራተ እዴየ' - the tithe of my hand/possession), and the glyph on the page is 'የ' followed by word-divider dots, not 'ሁ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 30,
+      "old_text": "ከገንዘቤ ሁሉ ከሥር አንድ",
+      "corrected_text": "ከገንዘቤ ሁሉ ካሥር አንድ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ከሥር -> ካሥር",
+      "reason": "The Amharic translation of tithe ('አሥራተ') is 'ካሥር አንድ' (one out of ten, ከ+አሥር), and the glyph has the 4th-order shortened right leg of 'ካ' rather than 1st-order 'ከ'."
+    }
+  ]
+}

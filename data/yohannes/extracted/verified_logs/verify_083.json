@@ -1,0 +1,80 @@
+{
+  "pdf_page": 83,
+  "book_page_ethiopic": "፭፻፺፫",
+  "elapsed_sec": 25.4,
+  "applied_count": 8,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 23,
+      "old_text": "ሰራኝ የሚለው የለም ። ሰበሰ",
+      "corrected_text": "ሰራኝ የሚለው የለም ። ሶበሰ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሰበሰ -> ሶበሰ",
+      "reason": "The top ring of ሶ (7th order) was slightly faint and misread as ሰ; classical Ge'ez conditional particle ሶበሰ ('if indeed', matching L30)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 39,
+      "old_text": "ቱ ይበቃናል ። ከም መስማቱ በ",
+      "corrected_text": "ቱ ይበቃናል ። ስም መስማቱ በ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከም -> ስም",
+      "reason": "The 6th-order fidel ስ was misread as ከ; the Amharic commentary states 'ስም መስማቱ በማየት ይፈጸምልናል' ('hearing the name will be fulfilled for us by seeing')."
+    },
+    {
+      "column_index": 2,
+      "line_num": 10,
+      "old_text": "ፊልጶስ አላወቅኸኝምን እስው",
+      "corrected_text": "ፊልጶስ አላወቅኸኝምን እስመ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እስው -> እስመ",
+      "reason": "Faint top connector on መ caused it to be misread as ው; Ge'ez conjunction እስመ introducing the following clause."
+    },
+    {
+      "column_index": 2,
+      "line_num": 14,
+      "old_text": "ኃይል ወበስብሐት ዘይልው",
+      "corrected_text": "ኃይል ወበስብሐት ዘይደሉ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዘይልው -> ዘይደሉ",
+      "reason": "Visual confusion of ደሉ with ልው; standard patristic Ge'ez citation 'በኃይል ወበስብሐት ዘይደሉ ለመለኮት' ('in power and glory that befits the Godhead')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 9,
+      "old_text": "እንዲሰራ በውነት እንግራችኋ",
+      "corrected_text": "እንዲሰራ በውነት እነግራችኋ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እንግራችኋ -> እነግራችኋ",
+      "reason": "1st-order ነ was misread as 6th-order ን; standard Amharic 1st person singular imperfective 'እነግራችኋለሁ' ('I tell you')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 14,
+      "old_text": "አንድም እርሱ ያስነሣ ያ፬ ቀ",
+      "corrected_text": "አንድም እርሱ ያስነሣ የ፬ ቀ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ያ፬ -> የ፬",
+      "reason": "The 1st-order የ prefix on የ፬ ቀን ሬሳ ('a 4-day corpse') was misread as 4th-order ያ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 24,
+      "old_text": "ቃሉና ። አንድም ወአርባዕቱ አ",
+      "corrected_text": "ቃልና ። አንድም ወአርባዕቱ አ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቃሉና -> ቃልና",
+      "reason": "The 6th-order ል in ይደነቃልና (singular verb agreeing with the infinitive subject ማስነሣት) was misread as ሉ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 25,
+      "old_text": "ድዋኒሁ ለሰብእ እንዲል ሞ",
+      "corrected_text": "ጽራሪሁ ለሰብእ እንዲል ሞ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ድዋኒሁ -> ጽራሪሁ",
+      "reason": "Rejoined across L24-L25 as 'አጽራሪሁ ለሰብእ' ('the enemies of man', plural of ጸር, explained immediately as death, sin, retribution, and Satan); ጽራሪሁ was visually misread as ድዋኒሁ."
+    }
+  ]
+}

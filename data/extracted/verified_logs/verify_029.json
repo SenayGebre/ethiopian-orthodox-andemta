@@ -1,0 +1,62 @@
+{
+  "pdf_page": 29,
+  "book_page_ethiopic": "፻፵፰",
+  "elapsed_sec": 15.7,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 14,
+      "old_text": "ት አጥብቆ የመታትን እስከ ሄ",
+      "corrected_text": "ት አጥብቆ የመታትን እስከ ፮",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሄ -> ፮",
+      "reason": "The Ethiopic numeral ፮ (6, paired with እስከ ፯ ዓመት on the next line) was misread as ሄ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 23,
+      "old_text": "ደ ላምና እንደ በሬ ምንዘኀ ታ",
+      "corrected_text": "ደ ላምና እንደ በሬ ምንዠት ታ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ምንዘኀ -> ምንዠት",
+      "reason": "Amharic ምንዠት (cud, corresponding to Ge'ez ወያመሰኵዕ) is clearly printed; ዠት was misread as ዘኀ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 38,
+      "old_text": "መዓረ ገዳም አለ ። የማን ማ",
+      "corrected_text": "መዓረ ገዳም አለ ። የጫካ ማ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "የማን -> የጫካ",
+      "reason": "Andemta gloss for መዓረ ገዳም (wild/forest honey) is የጫካ ማር; ጫካ was misread as ማን due to ink bleed."
+    },
+    {
+      "column_index": 3,
+      "line_num": 30,
+      "old_text": "ርዳኖስ ያጠምቃቸው ነበር ። አ",
+      "corrected_text": "ርዳኖስ ያጠምቃቸው ነበር ። እ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አ -> እ",
+      "reason": "First syllable of እገሌ (so-and-so, baptismal formula placeholder) at the end of line 30 is 6th-order እ, misread as አ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 31,
+      "old_text": "ጊሌ ተጠመቅ በማየ ንስሐ ከ",
+      "corrected_text": "ገሌ ተጠመቅ በማየ ንስሐ ከ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጊሌ -> ገሌ",
+      "reason": "Continuation of እገሌ (so-and-so); 1st-order ገ was misread as 3rd-order ጊ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 39,
+      "old_text": "ንም ሁሉም ልጅነት ያአሰጥ",
+      "corrected_text": "ንም ሁሉም ልጅነት አይሰጥ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ያአሰጥ -> አይሰጥ",
+      "reason": "Negative verb አይሰጥ ('does neither give sonship?') was misread as non-word ያአሰጥ."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "pdf_page": 70,
+  "book_page_ethiopic": "፬፻፶፪",
+  "elapsed_sec": 58.4,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 2,
+      "old_text": "ሀለዉ ውስተ ፩ቤት ይትፌለ",
+      "corrected_text": "ሀለዉ ውስተ ፩ቤት ይትፈለ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ፌ -> ፈ",
+      "reason": "The printed Ge'ez verb is ይትፈለጡ (1st order ፈ, matching L07 ወይትፈለጡ), not 5th order ፌ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 30,
+      "old_text": "የተባሉ አራቱ በሕርያተ ሥጋ",
+      "corrected_text": "የተባሉ አራቱ ባሕርያተ ሥጋ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በ -> ባ",
+      "reason": "The image and Ge'ez/Amharic morphology clearly show ባሕርያተ ሥጋ (4th order ባ with shorter left leg), matching ባሕርየ ነፍስ on the next line."
+    },
+    {
+      "column_index": 2,
+      "line_num": 22,
+      "old_text": "ለሕዝቡም ለመዝኑም በምዕ",
+      "corrected_text": "ለሕዝቡም ለመዝነም በምዕ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኑ -> ነ",
+      "reason": "Translating the Ge'ez ዝናም ለመጺእ ('for rain to come'), the Amharic verbal noun is ለመዝነም ('to rain'), printed with 1st order ነ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 2,
+      "old_text": "ቀ ለሊክሙ ወዘይደሉ ለዕለ",
+      "corrected_text": "ቀ ለሊክሙ ወዘይደሉ ላዕለ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ለ -> ላ",
+      "reason": "Classical Ge'ez preposition ላዕለ ('upon/concerning') is printed with 4th order ላ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 30,
+      "old_text": "ቢረ ንስሐ በኵርሀ።",
+      "corrected_text": "ቢረ ንስሐ በኵርህ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሀ -> ህ",
+      "reason": "The Ge'ez noun meaning 'compulsion/constraint' is ኵርህ (ending in 6th order ህ, በኵርህ), which is clearly visible in the image."
+    }
+  ]
+}

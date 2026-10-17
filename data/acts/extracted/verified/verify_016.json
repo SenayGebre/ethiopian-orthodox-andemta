@@ -1,0 +1,17 @@
+{
+  "pdf_page": 16,
+  "book_page_ethiopic": "፶፬ | ፶፭",
+  "elapsed_sec": 21.0,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 12,
+      "old_text": "⟪ናሁኬ ፡ እገሪሆሙ ፡ ለእለ ፡ ቀበርዎ ፡ ለምትኪ ፡ ኅበ፡",
+      "corrected_text": "⟪ናሁኬ ፡ እገሪሆሙ ፡ ለእለ ፡ ቀበርዎ ፡ ለምትኪ ፡ ኀበ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኅበ -> ኀበ",
+      "reason": "The Classical Ge'ez preposition meaning 'at/by' is ኀበ (4th order ራብዕ), which is clearly printed with the straight 4th-order leg in the image rather than 6th-order ኅ."
+    }
+  ]
+}

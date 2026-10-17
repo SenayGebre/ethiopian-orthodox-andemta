@@ -1,0 +1,44 @@
+{
+  "pdf_page": 1,
+  "book_page_ethiopic": "፩",
+  "elapsed_sec": 28.2,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 12,
+      "old_text": "አክብረው ፡ ከዚያ ፡ አያይዘው ፡ ሰባት ፡ ሱባኤ ፡ ቆጥረው ፡ ባሟኛው ፡ ቀን ፡ በዓለ ፡ ሰዊ",
+      "corrected_text": "አክብረው ፡ ከዚያ ፡ አያይዘው ፡ ሰባት ፡ ሱባኤ ፡ ቆጥረው ፡ ባ፶ኛው ፡ ቀን ፡ በዓለ ፡ ሰዊ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ባሟኛው -> ባ፶ኛው",
+      "reason": "The Ethiopic numeral ፶ (50) in 'ባ፶ኛው ቀን' (on the 50th day, i.e. Pentecost after 7 weeks/suba'e) was misread as 'ሟ' due to the top and bottom numeral bars."
+    },
+    {
+      "column_index": 1,
+      "line_num": 21,
+      "old_text": "ወገሬ ፡ (ወመንፈቆሙ ፡ ሰሐቆሙሙ) ፡ እኵሌቶቹ ፡ ሳቁ ፡ እኵሌቶቹ ፡ ግን ፡ አደ",
+      "corrected_text": "ወገሬ ፡ (ወመንፈቆሙ ፡ ሰሐቅዎሙ) ፡ እኵሌቶቹ ፡ ሳቁ ፡ እኵሌቶቹ ፡ ግን ፡ አደ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሰሐቆሙሙ -> ሰሐቅዎሙ",
+      "reason": "Classical Ge'ez verb with 3rd person plural object suffix 'ሰሐቅዎሙ' (they mocked/laughed at them) was misread as 'ሰሐቆሙሙ' due to ink bleed between ቅ and ዎ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 22,
+      "old_text": "ነቁ ፡ ወይቤሉ ፡ እሉሰ ፡ ፃዕረ ፡ ጸግቡ ፡ ወሰክሩ ፡ ትሽ ፡ ጠጅ ፡ ጠጥተው ፡ የሆነውን ፡ ያል",
+      "corrected_text": "ነቁ ፡ ወይቤሉ ፡ እሉሰ ፡ ምዕረ ፡ ጸግቡ ፡ ወሰክሩ ፡ ትሽ ፡ ጠጅ ፡ ጠጥተው ፡ የሆነውን ፡ ያል",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ፃዕረ -> ምዕረ",
+      "reason": "Canonical Ge'ez quote from Acts 2:13 'እሉሰ ምዕረ ጸግቡ ወሰክሩ' (where ምዕር means sweet wine/mead, glossed in Amharic as ትሽ ጠጅ). The initial ም was misread as ፃ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 27,
+      "old_text": "እንዲል ፡ ወሰቢሆ ፡ ሠለስቱ ፡ ሰዓት ፡ እልፍም ፡ ቢል ፡ ሦስት ፡ ሰዓት ፡ ነውና ፡",
+      "corrected_text": "እንዲል ፡ ወሶቤሃ ፡ ሠለስቱ ፡ ሰዓት ፡ እልፍም ፡ ቢል ፡ ሦስት ፡ ሰዓት ፡ ነውና ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወሰቢሆ -> ወሶቤሃ",
+      "reason": "Canonical Ge'ez temporal adverb 'ወሶቤሃ' (and then / at that time, Acts 2:15 'ወሶቤሃ ሠለስቱ ሰዓት') was misread as 'ወሰቢሆ'."
+    }
+  ]
+}

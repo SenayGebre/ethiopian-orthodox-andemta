@@ -1,0 +1,80 @@
+{
+  "pdf_page": 105,
+  "book_page_ethiopic": "፮፻፲፭",
+  "elapsed_sec": 25.9,
+  "applied_count": 8,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 24,
+      "old_text": "አውቆ ያስተምራል ብሉ ምስ",
+      "corrected_text": "አውቆ ያስተምራል ብሎ ምስ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሉ -> ሎ",
+      "reason": "The printed glyph has the top-right loop of 7th-order ሎ ('ብሎ'), not 2nd-order ሉ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 8,
+      "old_text": "ኑን በጦር የወጉት ፡ በትእምራ",
+      "corrected_text": "ኑን በጦር የወጉት ፡ በተአምራ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ትእ -> ተአ",
+      "reason": "The image clearly shows 1st-order ተአ ('በተአምራት'), not 6th-order ትእ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 13,
+      "old_text": "ድ ሐራዊ አይደለምን ቢሉ ኸ",
+      "corrected_text": "ድ ሐራዊ አይደለምን ቢሉ ሺ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኸ -> ሺ",
+      "reason": "In the traditional Amharic proverb 'ሺ በመከረ አንድ ወረወረ እንዲሉ' (When a thousand counsel, one throws the spear), the glyph at the end of the line is ሺ (thousand), misread as ኸ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 16,
+      "old_text": "አንድም መጽሐፍ ስም ከልጦ",
+      "corrected_text": "አንድም መጽሐፍ ስም ካልጠ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከልጦ -> ካልጠ",
+      "reason": "Splits across the line wrap into L17 to form 'ካልጠፋ' ('አንድም መጽሐፍ ስም ካልጠፋ ማብዛት ልማድ ነውና')."
+    },
+    {
+      "column_index": 2,
+      "line_num": 17,
+      "old_text": "ፈ ማብዛት ልማድ ነውና ካህ",
+      "corrected_text": "ፋ ማብዛት ልማድ ነውና ካህ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ፈ -> ፋ",
+      "reason": "Completes the word 'ካልጠፋ' from L16; the glyph at the start of L17 is 4th-order ፋ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 18,
+      "old_text": "ናት ኀለፋነ ፍኖት ከዘቱ ፍኖተ",
+      "corrected_text": "ናት ኀለፋነ ፍኖት ከዐቱ ፍኖተ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዘ -> ዐ",
+      "reason": "Classical Ge'ez Old Testament citation (Hosea 6:9): 'ካህናት ኀለፋነ ፍኖት ከዐቱ ፍኖተ እግዚኦሙ እንዲል'. The middle character is ዐ, not ዘ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 22,
+      "old_text": "⟪ወእምድኅረ ዝንቱ ሰአሎ ከ",
+      "corrected_text": "⟪ወእምድኅረ ዝንቱ ሰአሎ ለ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከ -> ለ",
+      "reason": "Canonical Ge'ez Gospel of John 19:38 reads 'ሰአሎ ለጲላጦስ'; the preposition at the end of L22 is ለ wrapping to ጲላጦስ on L23."
+    },
+    {
+      "column_index": 3,
+      "line_num": 20,
+      "old_text": "⟪ወገነዝዎ ዘመጥባህ ክታን ዘ",
+      "corrected_text": "⟪ወገነዝዎ በመጥባህ ክታን ዘ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዘ -> በ",
+      "reason": "Canonical Ge'ez Gospel of John 19:40 and the printed image clearly show the preposition በ ('በመጥባህ ክታን'), not ዘ."
+    }
+  ]
+}

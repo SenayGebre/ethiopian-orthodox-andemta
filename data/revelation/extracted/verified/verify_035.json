@@ -1,0 +1,53 @@
+{
+  "pdf_page": 35,
+  "book_page_ethiopic": "፬፻፲፮ | ፬፻፲፯",
+  "elapsed_sec": 19.7,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 27,
+      "old_text": "ሁከት ፡ አይታጣምና ። አንድም ፡ ኪደ ፡",
+      "corrected_text": "ሁከት ፡ አይታጣምና ። አንድም ፡ ኬደ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኪደ -> ኬደ",
+      "reason": "Classical Ge'ez verb is ኬደ ('he trod/stepped', matching L14 ወኬደ); the 5th-order loop on the right leg of ኬ is clearly visible in the print."
+    },
+    {
+      "column_index": 3,
+      "line_num": 2,
+      "old_text": "ምሥጢረ፡ ምሕረቱ፡ በምሥጢረ፡ ዘይት፡",
+      "corrected_text": "ምሥጢረ፡ ምሕረት፡ በምሥጢረ፡ ዘይት፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ምሕረቱ -> ምሕረት",
+      "reason": "The printed glyph is 6th-order ት (ምሥጢረ ምሕረት), with the following word-separator dots slightly bleeding near the right side of the cross-bar."
+    },
+    {
+      "column_index": 3,
+      "line_num": 28,
+      "old_text": "⟪ወባሕረ ፡ ወኵሎ ፡ ዘውስቴቷ ፥⟫",
+      "corrected_text": "⟪ወባሕረ ፡ ወኵሎ ፡ ዘውስቴታ ፥⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዘውስቴቷ -> ዘውስቴታ",
+      "reason": "Classical Ge'ez 3rd person feminine singular suffix is -ታ (ዘውስቴታ), not the Amharic labialized ቷ; the image clearly shows ታ matching line 22."
+    },
+    {
+      "column_index": 4,
+      "line_num": 22,
+      "old_text": "ከቀኝ ፡ እጁ ፡ ይችን ፡ የተገለጠች ፡ መጽ",
+      "corrected_text": "ከቀኝ ፡ እጁ ፡ ያችን ፡ የተገለጠች ፡ መጽ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ይችን -> ያችን",
+      "reason": "Translating the Ge'ez distal demonstrative ለእንታክቲ ('that'), the printed word is ያችን (matching L26 ያችን), with 4th-order ያ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 26,
+      "old_text": "ከመልአኩ ፡ ዘንድ ፡ ሂጄ ፡ ያችን ፡ መጽ",
+      "corrected_text": "ከመልአኩ ፡ ዘንድ ፡ ሄጄ ፡ ያችን ፡ መጽ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሂጄ -> ሄጄ",
+      "reason": "The first character has the 5th-order ring at the bottom of the right leg (ሄጄ), not the 3rd-order foot of ሂ."
+    }
+  ]
+}

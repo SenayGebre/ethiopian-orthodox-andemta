@@ -1,0 +1,26 @@
+{
+  "pdf_page": 1,
+  "book_page_ethiopic": "፻፺፱",
+  "elapsed_sec": 27.1,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 11,
+      "old_text": "ቍ ፡ ፲፫ ። ወአምኀ ፡ በይነ ፡ በበአስማቲ↵",
+      "corrected_text": "ቍ ፡ ፲፫ ። ወአምኀ ፡ ቢጸነ ፡ በበአስማቲ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በይነ -> ቢጸነ",
+      "reason": "Both the zoomed image and canonical Ge'ez 3 John 1:15 ('greet our friends by name') clearly show ቢጸነ (our companions/friends), where the vowel leg on ቢ and the three-loop head of ጸ were misread as በይነ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 32,
+      "old_text": "⟪ወዘንተ ፡ ሠናየ ፡ ግበሪ ፡ ፈኖከ ፡ ቅድሜከ ፡ ዘይደሉ ፡",
+      "corrected_text": "⟪ወዘንተ ፡ ሠናየ ፡ ግብረ ፡ ፈኖከ ፡ ቅድሜከ ፡ ዘይደሉ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ግበሪ -> ግብረ",
+      "reason": "The printed Ge'ez text clearly reads ግብረ (accusative of ግብር, matching ወዘንተ ፡ ሠናየ ፡ ግብረ in Col 3 L05-06 and the Amharic translation ይህን ፡ በጎውን ፡ ሥራ in Col 4 L34-35), which was misread as ግበሪ due to slight ink wear on ብ and ረ."
+    }
+  ]
+}

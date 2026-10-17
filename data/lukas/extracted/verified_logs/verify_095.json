@@ -1,0 +1,17 @@
+{
+  "pdf_page": 95,
+  "book_page_ethiopic": "፬፻፸፯",
+  "elapsed_sec": 21.5,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 17,
+      "old_text": "⟪ወአግዓዎ ኀበ ቤቱ እንዘ ይት",
+      "corrected_text": "⟪ወአግብዖ ኀበ ቤቱ እንዘ ይት",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዓዎ -> ብዖ",
+      "reason": "The printed Ge'ez verb is ወአግብዖ ('and he brought him in', causative of ገብአ with 3rd masc. sg. object suffix, translated in line 19 as አገባው), where Stage 1 misread ብዖ as ዓዎ."
+    }
+  ]
+}

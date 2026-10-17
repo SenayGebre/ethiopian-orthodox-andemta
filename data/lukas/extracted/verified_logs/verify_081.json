@@ -1,0 +1,26 @@
+{
+  "pdf_page": 81,
+  "book_page_ethiopic": "፬፻፷፫",
+  "elapsed_sec": 16.4,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 15,
+      "old_text": "እንጂ እለዋለሁ ብለ” ።",
+      "corrected_text": "እንጂ እለዋለሁ ብሎ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ብለ” -> ብሎ",
+      "reason": "The 7th-order loop on ሎ was slightly broken in print and misread as ለ plus a quotation mark; Amharic syntax concluding the prodigal son's inner monologue requires the gerund ብሎ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 32,
+      "old_text": "ተሰ ጓ ዘልፈ ሀሎከ ምስሌየ ።⟫",
+      "corrected_text": "ተሰ ኒ ዘልፈ ሀሎከ ምስሌየ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጓ -> ኒ",
+      "reason": "The Ge'ez enclitic particle ኒ (part of አንተሰኒ, 'and as for you') was visually misread as ጓ due to ink bleed."
+    }
+  ]
+}

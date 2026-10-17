@@ -1,0 +1,107 @@
+{
+  "pdf_page": 82,
+  "book_page_ethiopic": "፭፻፺፪",
+  "elapsed_sec": 27.4,
+  "applied_count": 11,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 5,
+      "old_text": "ፈሕ ትሰጣለህን።",
+      "corrected_text": "ፈህ ትሰጣለህን።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሕ -> ህ",
+      "reason": "The word wrapping from L04 is አሳልፈህ (gerundive with 2nd person masculine suffix -ህ); the image clearly shows ህ, not ሕ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 22,
+      "old_text": "ምዖን ናሁ ሰአለ ሰኢለ ሰይ",
+      "corrected_text": "ምዖን ናሁ ሰአለ ሰኢሎ ሰይ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ለ -> ሎ",
+      "reason": "Canonical Ge'ez Luke 22:31 phrasing uses the cognate infinitive/gerundive form ሰአለ ሰኢሎ; the image clearly shows the loop of ሎ on the right leg."
+    },
+    {
+      "column_index": 2,
+      "line_num": 10,
+      "old_text": "በእንተ ፉፈያት ዘድኅነት ።",
+      "corrected_text": "በእንተ ፍኖት ዘድኅነት ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፉፈያት -> ፍኖት",
+      "reason": "Traditional chapter section heading for John 14 ('Concerning the Way of Salvation' — በእንተ ፍኖት ዘድኅነት); the glyph ፍኖት was misread as ፉፈያት."
+    },
+    {
+      "column_index": 2,
+      "line_num": 20,
+      "old_text": "የባቴ ቤት በመንግሥተ ሰማይ",
+      "corrected_text": "ባባቴ ቤት በመንግሥተ ሰማይ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "የ -> ባ",
+      "reason": "Translating ውስተ ቤተ አቡየ ('In my Father's house' — ባባቴ ቤት, matching L28 and L34); the initial character is clearly ባ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 22,
+      "old_text": "አንድም ⟪ኢይደንግድክሙ⟫ አይ",
+      "corrected_text": "አንድም ⟪ኢይደንግድክሙ⟫ ኢይ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አ -> ኢ",
+      "reason": "Cross-reference to ኢይክል [ተሊወተከ] (John 13:37, cited in Col 1 L14). The line ends with ኢይ wrapping to ክል on L23."
+    },
+    {
+      "column_index": 2,
+      "line_num": 23,
+      "old_text": "ልከ መልስ ። ፍቅር ከታዘዘ እኛ",
+      "corrected_text": "ክል መልስ ። ፍቅር ከታዘዘ እኛ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ልከ -> ክል",
+      "reason": "Completes ኢይክል መልስ ('This is the reply to ኢይክል [ተሊወተከ]'). The image clearly shows ክል at the start of L23."
+    },
+    {
+      "column_index": 2,
+      "line_num": 33,
+      "old_text": "ችሁ ኢይሸበርባችሁ ። ባባቴም",
+      "corrected_text": "ችሁ አይሸበርባችሁ ። ባባቴም",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኢ -> አ",
+      "reason": "Amharic negative jussive አይሸበርባችሁ ('let it not be troubled in you', matching L14 and L25); the image shows 1st-order አ without the bottom ring of ኢ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 13,
+      "old_text": "ከዘጋጀሁላችሁ በኋላ ።",
+      "corrected_text": "ካዘጋጀሁላችሁ በኋላ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ከ -> ካ",
+      "reason": "Amharic temporal construction ከ + አዘጋጀሁላችሁ contracts to ካዘጋጀሁላችሁ በኋላ; the shortened right leg of ካ is visible in the image."
+    },
+    {
+      "column_index": 3,
+      "line_num": 19,
+      "old_text": "በረድኤት መምጣቱን በኦ",
+      "corrected_text": "በረድኤት መምጣቱን በሞ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኦ -> ሞ",
+      "reason": "Explaining the previous line ('እመጽእ በረድኤት እነሥእክሙ በሞት'): 'His coming by grace (በረድኤት መምጣቱን) is called second (ካዕበ) relative to his coming in death (በሞት ለመምጣቱ)'. The glyph at the end of L19 is በሞ wrapping to ት on L20."
+    },
+    {
+      "column_index": 3,
+      "line_num": 32,
+      "old_text": "ነአምር ኀበ ተሐውር በእፎ እን",
+      "corrected_text": "ነአምር ኀበ ተሐውር በእፎ እ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እን -> እ",
+      "reason": "In the printed image, L32 ends with እ and ንከ begins L33."
+    },
+    {
+      "column_index": 3,
+      "line_num": 33,
+      "old_text": "ከ ነአምር ፍኖቶ ።⟫",
+      "corrected_text": "ንከ ነአምር ፍኖቶ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ከ -> ንከ",
+      "reason": "In the printed image, L33 begins with ንከ completing እንከ from the end of L32."
+    }
+  ]
+}

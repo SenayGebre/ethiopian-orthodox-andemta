@@ -1,0 +1,53 @@
+{
+  "pdf_page": 75,
+  "book_page_ethiopic": "፬፻፶፯",
+  "elapsed_sec": 16.8,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 2,
+      "old_text": "እምይእዜ እስከ ሰበ ትብሉ",
+      "corrected_text": "እምይእዜ እስከ ሶበ ትብሉ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሰበ -> ሶበ",
+      "reason": "Classical Ge'ez temporal conjunction 'እስከ ሶበ' (until when), with the 7th-order vowel ring on ሶ clearly visible in the print."
+    },
+    {
+      "column_index": 2,
+      "line_num": 12,
+      "old_text": "⟪ወእምዝ 소በ ሖረ ቦአ ቤተ አ↵",
+      "corrected_text": "⟪ወእምዝ ሶበ ሖረ ቦአ ቤተ አ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "소በ -> ሶበ",
+      "reason": "Non-Ethiopic character hallucinated for Ge'ez 'ሶ' in 'ሶበ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 13,
+      "old_text": "ሐዱ ብእሲ እምነ መልአክሙ",
+      "corrected_text": "ሐዱ ብእሲ እምነ መላእክሆሙ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "መልአክሙ -> መላእክሆሙ",
+      "reason": "The printed Ge'ez text reads 'መላእክሆሙ' (translated in L17-18 as 'ከፈሪሳውያን አለቆች')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 22,
+      "old_text": "⟪ወመሀሮሙ सोበ ርእዮሙ እን↵",
+      "corrected_text": "⟪ወመሀሮሙ ሶበ ርእዮሙ እን",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "सोበ -> ሶበ",
+      "reason": "Non-Ethiopic character hallucinated for Ge'ez 'ሶ' in 'ሶበ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 26,
+      "old_text": "ባያቸው ጊዜ ምንጣፍ መጨ↵",
+      "corrected_text": "ባያቸው ጊዜ ምንጣፍ መመ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "መጨ -> መመ",
+      "reason": "Across the line wrap, the word is 'መመጊያ' (wall-hanging/curtain, paired with 'ምንጣፍ' carpet), clearly printed as 'መመ' at the end of line 26."
+    }
+  ]
+}

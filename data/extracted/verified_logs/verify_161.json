@@ -1,0 +1,35 @@
+{
+  "pdf_page": 161,
+  "book_page_ethiopic": "፪፻፹",
+  "elapsed_sec": 20.0,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 12,
+      "old_text": "⟪ወሐሳውያነ ነبيያት ፤⟫",
+      "corrected_text": "⟪ወሐሳውያነ ነቢያት ፤⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "بي -> ቢ",
+      "reason": "Non-Ethiopic script artifact in OCR replaced with the clearly printed Ethiopic Fidel ቢ in ነቢያት."
+    },
+    {
+      "column_index": 3,
+      "line_num": 8,
+      "old_text": "[፳፰] ⟪ሀበ ሀሎ ገደላ ህየ ይትጋብ↵",
+      "corrected_text": "[፳፰] ⟪ኀበ ሀሎ ገደላ ህየ ይትጋብ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሀበ -> ኀበ",
+      "reason": "Classical Ge'ez relative locative particle ኀበ ('where') in Matthew 24:28, misread as ሀበ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 9,
+      "old_text": "ኡ አንስርት ።⟫ ሉቃ ፲፯ ፴፫ ።",
+      "corrected_text": "ኡ አንስርት ።⟫ ሉቃ ፲፯ ፴፯ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፴፫ -> ፴፯",
+      "reason": "The cross-reference is Luke 17:37 (ሉቃ ፲፯ ፴፯), where ፯ was misread as ፫."
+    }
+  ]
+}

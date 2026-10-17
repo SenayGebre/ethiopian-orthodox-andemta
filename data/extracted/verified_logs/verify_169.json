@@ -1,0 +1,62 @@
+{
+  "pdf_page": 169,
+  "book_page_ethiopic": "፪፻፹፰",
+  "elapsed_sec": 25.5,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 19,
+      "old_text": "ላጂድ ዓላውያን እሳት ስለት አ↵",
+      "corrected_text": "ላ፩ድ ዓላውያን እሳት ስለት አ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጂ -> ፩",
+      "reason": "The Ethiopic numeral ፩ in 'ባላ፩ድ' (ባለ አንድ) was misread as ጂ due to the top and bottom bars."
+    },
+    {
+      "column_index": 1,
+      "line_num": 30,
+      "old_text": "—አላውያን እሳት ስለት አሳይተ↵",
+      "corrected_text": "—ዓላውያን እሳት ስለት አሳይተ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አ -> ዓ",
+      "reason": "The printed glyph is ዓ in 'ዓላውያን' (matching L19), misread as አ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 34,
+      "old_text": "በልቡናዬ ይዠዋለሁ።ጠብልል↵",
+      "corrected_text": "በልቡናዬ ይዠዋለሁ።ጠብለል↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ል -> ለ",
+      "reason": "Classical Ge'ez perfective verb form 'ጠብለልክዋ' (1st order ለ), where ለ was misread as 6th order ል."
+    },
+    {
+      "column_index": 2,
+      "line_num": 4,
+      "old_text": "ህ ሹመትከን ልታበረክተኝ ይ↵",
+      "corrected_text": "ህ ሹመትከን ልታስረክበኝ ይ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በረክተ -> ስረክበ",
+      "reason": "The printed word is 'ልታስረክበኝ' ('you ought to have handed over your office to me'), where ስ and በ were misread as በ and ተ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 18,
+      "old_text": "ከአ ክርስቶስ ታውቋል ፍጹም",
+      "corrected_text": "ክአ ክርስቶስ ታውቋል ፍጹም",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ከ -> ክ",
+      "reason": "Proper Ge'ez construct state 'መልክአ ክርስቶስ' (6th order ክ), clearly printed in the image."
+    },
+    {
+      "column_index": 2,
+      "line_num": 32,
+      "old_text": "ብሮተ እድ ላዕለ ጳጳስ ፡ ዕይ↵",
+      "corrected_text": "ብሮተ እድ ላዕለ ጳጳስ ፡ ሠይ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዕ -> ሠ",
+      "reason": "Parallel to 'ሠይመ ዲያቆን' on the next line, the glyph at the end of L32 is 'ሠይ↵መ ቀሲስ', misread as ዕይ."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "pdf_page": 13,
+  "book_page_ethiopic": "፪፻፶፮ | ፪፻፶፯",
+  "elapsed_sec": 12.9,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 32,
+      "old_text": "ዳዊት ፡ ኢሳይያስ ፤ ሰዝራ ፡",
+      "corrected_text": "ዳዊት ፡ ኢሳይያስ ፤ ዕዝራ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሰዝራ -> ዕዝራ",
+      "reason": "The prophet's name is ዕዝራ (Ezra); the 6th-order ዕ with faded lower curve was misread as ሰ."
+    }
+  ]
+}

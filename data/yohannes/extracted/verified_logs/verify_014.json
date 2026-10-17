@@ -1,0 +1,26 @@
+{
+  "pdf_page": 14,
+  "book_page_ethiopic": "፭፻፳፬",
+  "elapsed_sec": 8.7,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 16,
+      "old_text": "እመቤታችን የሚሠሩትን ያዘ",
+      "corrected_text": "እመቤታችን ለሚሠሩት ያዘ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "የሚሠሩትን -> ለሚሠሩት",
+      "reason": "Translating 'ለእለ ይትለአኩ' (to those who serve/work): the image clearly shows 'ለሚሠሩት' (no final ን, and initial ለ rather than የ)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 37,
+      "old_text": "ይይዛሉ ። ሶስቱ ሁለት ሁለት ።",
+      "corrected_text": "ይይዛሉ ። ሶስቱ ሁለት ሁለት ሶ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "። -> ሶ",
+      "reason": "At the end of line 37, the character is 'ሶ' wrapping into 'ስቱ' on line 38 to form 'ሶስቱ ሶስት ሶስት' (the three [hold] three each, matching 'ሶስቱ ሁለት ሁለት' = 6 + 9 = 15)."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "pdf_page": 66,
+  "book_page_ethiopic": "፭፻፸፮",
+  "elapsed_sec": 17.0,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 3,
+      "old_text": "ያባቴን ስራ ግን አስራሁ ሰ",
+      "corrected_text": "ያባቴን ስራ ግን እሰራሁ ሰ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አስራሁ -> እሰራሁ",
+      "reason": "The printed glyph is 'እሰራሁ' (archaic Amharic Andemta gloss for 'እገብር' from the preceding page's end 'ወእመሰ እገብር ግብሮ ለአቡየ'), where 'እ' and 1st-order 'ሰ' were misread as 'አስ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 8,
+      "old_text": "ዘስሙ አልዓዛር በቤተንያ ዘ",
+      "corrected_text": "ዘስሙ አልዓዛር በቤታንያ ዘ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በቤተንያ -> በቤታንያ",
+      "reason": "The printed glyph clearly shows 4th-order 'ታ' with the shortened left leg ('በቤታንያ', Bethany), matching line 15 below."
+    },
+    {
+      "column_index": 2,
+      "line_num": 31,
+      "old_text": "እግሩን በጸጉሯ የበሰችው ናት",
+      "corrected_text": "እግሩን በጸጉሯ ያበሰችው ናት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "የበሰችው -> ያበሰችው",
+      "reason": "Both visually (shortened left stem of 'ያ') and grammatically in Amharic ('የ' + 'አበሰችው' -> 'ያበሰችው', 'who wiped'), the printed word is 'ያበሰችው'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 19,
+      "old_text": "ለማርያ ወለማርታ አኃታ ወ",
+      "corrected_text": "ለማርያ ወለማርታ እኅታ ወ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አኃታ -> እኅታ",
+      "reason": "Classical Ge'ez singular 'እኅታ' ('her sister', John 11:5) is printed with 6th-order 'እ' and 'ኅ', which were misread as 1st-order 'አ' and 4th-order 'ኃ'."
+    }
+  ]
+}

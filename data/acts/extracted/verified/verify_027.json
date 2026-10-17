@@ -1,0 +1,35 @@
+{
+  "pdf_page": 27,
+  "book_page_ethiopic": "፶፮ | ፶፯",
+  "elapsed_sec": 19.0,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 10,
+      "old_text": "ምን፡ ያህል ፡ አገኝ ፡ ብሎ ፤ ዘፍጥ ፡ ፵፭ ፥ ፬።",
+      "corrected_text": "ምን፡ ያህል ፡ አገኝ ፡ ብሎ ፤ ዘፍጥ ፡ ፵፭ ፥ ፪።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፬ -> ፪",
+      "reason": "The verse numeral printed on the page is ፪ (2), referring to Genesis 45:2 (and 45:16), which was misread as ፬ (4)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 22,
+      "old_text": "ሲሏችሁ ፡ ወንዶቹ ፡ ሰንጠረዦ ፡ በገና ፡",
+      "corrected_text": "ሲሏችሁ ፡ ወንዶቹ ፡ ሰንጠረዥ ፡ በገና ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዦ -> ዥ",
+      "reason": "The word for chess in Amharic is ሰንጠረዥ (with 6th-order ዥ), which was misread as 7th-order ዦ due to ink bleed on the right leg."
+    },
+    {
+      "column_index": 3,
+      "line_num": 31,
+      "old_text": "፵፮ ፥ ፩ ። ፵፱ ፥ ፴፫ ።",
+      "corrected_text": "፵፯ ፥ ፩ ። ፵፱ ፥ ፴፫ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፵፮ -> ፵፯",
+      "reason": "The chapter numeral printed is ፵፯ (Genesis 47), where the ፯ (7) was misread as ፮ (6)."
+    }
+  ]
+}

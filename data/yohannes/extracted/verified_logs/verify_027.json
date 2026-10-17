@@ -1,0 +1,89 @@
+{
+  "pdf_page": 27,
+  "book_page_ethiopic": "፭፻፴፯",
+  "elapsed_sec": 28.7,
+  "applied_count": 8,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 6,
+      "old_text": "ምናሶር በሰማርያ እጅም ክንታ",
+      "corrected_text": "ምናሶር በሰማርያ እደም ክንታ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጅ -> ደ",
+      "reason": "Visual inspection and Andemta tradition confirm 'እደም ክንታ' (the names of the peoples settled in Samaria by Shalmaneser), where 'ደ' was misread as 'ጅ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 17,
+      "old_text": "ካህን በፄዋዌ ከርሱ ሄዶ ይኖ",
+      "corrected_text": "ካህን በፄዋዌ ከርሱ ሂዶ ይኖ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሄ -> ሂ",
+      "reason": "The printed glyph has the 3rd-order leg 'ሂ' ('ሂዶ'), consistent with lines 24, 29, and 32."
+    },
+    {
+      "column_index": 1,
+      "line_num": 29,
+      "old_text": "አሰናበተው።ሲሂድ ዘመዶቹ ከ",
+      "corrected_text": "አሰናበተው።ቢሂድ ዘመዶቹ ከ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሲ -> ቢ",
+      "reason": "Top-bar ink bleed caused 'ቢ' in 'ቢሂድ' ('when he went') to be misread as 'ሲ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 32,
+      "old_text": "ት ተመልሶ ሂዶ ፡፫አኔማ ቀድ",
+      "corrected_text": "ት ተመልሶ ሂዶ ።እኔማ ቀድ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "፡፫አ -> ።እ",
+      "reason": "The four-dot punctuation '።' followed by 'እ' in '።እኔማ' was misread as '፡፫አ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 22,
+      "old_text": "ዋን እንደ ገደለባት።ይሀችንም",
+      "corrected_text": "ዋን እንደ ገደለባት።ይህችንም",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሀ -> ህ",
+      "reason": "The 6th-order 'ህ' in 'ይህችንም' was misread as 1st-order 'ሀ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 29,
+      "old_text": "ሻል። ⟪ወይእዜሰ ዘሀሎ።⟫ በኵር",
+      "corrected_text": "ሻል። ⟪ወይእዜሰ ዘሀሎ።⟫ በኩር",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኵ -> ኩ",
+      "reason": "The printed character is standard 2nd-order 'ኩ' ('በኩር') with the horizontal stroke on the right leg."
+    },
+    {
+      "column_index": 3,
+      "line_num": 30,
+      "old_text": "እኔን ግን በኵር አላደረግሽ",
+      "corrected_text": "እኔን ግን በኩር አላደረግሽ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኵ -> ኩ",
+      "reason": "The printed character is standard 2nd-order 'ኩ' ('በኩር')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 39,
+      "old_text": "ዕውነትሽ ነው ــእግዚእ ያዕቆ",
+      "corrected_text": "ዕውነትሽ ነው ።እግዚአ ያዕቆ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ــእግዚእ -> ።እግዚአ",
+      "reason": "Removed non-Ethiopic tatweel characters replacing the faded '።' punctuation, and corrected construct state 'እግዚአ' ('እግዚአ ያዕቆብ' - Lord of Jacob)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 40,
+      "old_text": "ብ እኔን ከያዕቆብ ጋራ አንድ",
+      "corrected_text": "ብ እኔን ከያዕቆብ ጋራ አንድ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አንድ -> አንድ-",
+      "reason": "The word at the end of the page wraps mid-word ('አንድ-ድረሽ') onto the next page."
+    }
+  ]
+}

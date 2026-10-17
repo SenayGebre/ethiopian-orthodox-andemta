@@ -1,0 +1,80 @@
+{
+  "pdf_page": 10,
+  "book_page_ethiopic": "፫፻፺፪",
+  "elapsed_sec": 23.6,
+  "applied_count": 8,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 9,
+      "old_text": "ዘወርቅ እንዳል ፤ ያሥር ወ",
+      "corrected_text": "ዘወርቅ እንዲል ፤ ያሥር ወ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እንዳል -> እንዲል",
+      "reason": "The standard Andemta citation marker 'እንዲል' is printed with the 3rd-order 'ዲ', which was misread as 4th-order 'ዳ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 10,
+      "old_text": "ቄት ለሁለቱ እጆቿዋ አምባር",
+      "corrected_text": "ቄት ለሁለቱ እጆቿ አምባር",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እጆቿዋ -> እጆቿ",
+      "reason": "The printed word has only three glyphs ('እጆቿ'); Stage 1 hallucinated an extra 'ዋ' at the end."
+    },
+    {
+      "column_index": 2,
+      "line_num": 12,
+      "old_text": "ቿዋ ጉትቻ አስጊጦ ሰደዳት ፤",
+      "corrected_text": "ቿ ጉትቻ አስጊጦ ሰደዳት ፤",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቿዋ -> ቿ",
+      "reason": "Completing 'ጆሮቿ' from L11, only the single character 'ቿ' is printed at the start of L12 without an extra 'ዋ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 9,
+      "old_text": "ማጭ ለልማዳ የበቅሎ ከበድ",
+      "corrected_text": "ማጭ ለልማዱ የበቅሎ ከበድ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ለልማዳ -> ለልማዱ",
+      "reason": "In the proverb 'አማጭ ለልማዱ የበቅሎ ከበድ የሐር ገመድ አለኝ ይላልና', the glyph is clearly 2nd-order 'ዱ' with the right-side hook."
+    },
+    {
+      "column_index": 3,
+      "line_num": 17,
+      "old_text": "ሳለ አታሰናክሉኝ አላቸው ፤ በ",
+      "corrected_text": "ሳለ አታሰናክሉኝ አላቸው ፤ ባ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በ -> ባ",
+      "reason": "The word wrapping onto L18 ('ይሆን') is 'ባይሆን'; the glyph at the end of L17 is 4th-order 'ባ' with a shorter right leg."
+    },
+    {
+      "column_index": 3,
+      "line_num": 27,
+      "old_text": "ውርዱኝ ብላ አጊጣ ቆዮች",
+      "corrected_text": "ውርዱኝ ብላ አጊጣ ቆየች",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቆዮች -> ቆየች",
+      "reason": "The 3rd-person feminine singular verb is 'ቆየች' ('she waited'); the middle character is 1st-order 'የ' without a top-right loop."
+    },
+    {
+      "column_index": 3,
+      "line_num": 35,
+      "old_text": "እግዚአብሔር ። አንድም ⟪ይቴ",
+      "corrected_text": "እግዚአብሔር ። አንድም ፯ቱ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ይቴ -> ፯ቱ",
+      "reason": "The printed text is '፯ቱ' ('the seven [words]'), referring to the seven Ge'ez words of Gabriel's salutation that follow on L36–39 ('ተፈሥሒ ፍሥሕት ኦምልዕተ ጸጋ ቡርክት አንቲ እምአንስት ወቡሩክ ፍሬ ከርሥኪ')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 36,
+      "old_text": "ተፈሥሒ ፍሥሕት ኦምልዕ",
+      "corrected_text": "⟪ተፈሥሒ ፍሥሕት ኦምልዕ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ተፈሥሒ -> ⟪ተፈሥሒ",
+      "reason": "Because '፯ቱ' on L35 is the Amharic commentary introducing the seven words, the opening quote marker '⟪' belongs before 'ተፈሥሒ'."
+    }
+  ]
+}

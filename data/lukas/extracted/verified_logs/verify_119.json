@@ -1,0 +1,35 @@
+{
+  "pdf_page": 119,
+  "book_page_ethiopic": "፭፻፩",
+  "elapsed_sec": 22.2,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 9,
+      "old_text": "ህ ቀን ግን ዐሥራ አንዱ እን",
+      "corrected_text": "ህ ቀን ግን አሥራ አንዱ እን",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዐ -> አ",
+      "reason": "The printed glyph in Column 1, Line 9 clearly has the two vertical legs of 'አ' (አሥራ አንዱ), not the rounded loop of 'ዐ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 34,
+      "old_text": "ኮኑ ከመ ሰብል እንዲል ።",
+      "corrected_text": "ኮኑ ከመ ሰብእ እንዲል ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሰብል -> ሰብእ",
+      "reason": "In the patristic Ge'ez citation 'ወለበዉ ወኮኑ ከመ ሰብእ እንዲል' ('and they understood and became like men'), the final character of 'ሰብእ' is 'እ', which was misread as 'ል'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 37,
+      "old_text": "⟪ወእንዘ ይባርኮሙ ተፈለጦሙ",
+      "corrected_text": "⟪ወእንዘ ይባርኮሙ ተፈልጦሙ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ተፈለጦሙ -> ተፈልጦሙ",
+      "reason": "Both visually on the page (showing the top hook of 6th-order 'ል') and grammatically in Classical Ge'ez ('ተፈልጦሙ', 'having parted from them'), the third character is 'ል' rather than 1st-order 'ለ'."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "pdf_page": 5,
+  "book_page_ethiopic": "፪፻፳፬ | ፪፻፳፭",
+  "elapsed_sec": 25.3,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 17,
+      "old_text": "⟪ወውእቱ ፡ አመን ፡ ብክሙ ፡⟫",
+      "corrected_text": "⟪ወውእቱ ፡ አማን ፡ ብክሙ ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አመን -> አማን",
+      "reason": "Canonical Ge'ez root text of 1 John 2:8 ('ወውእቱ ፡ አማን ፡ ብክሙ'); the shortened right leg of 4th-order ማ was misread as 1st-order መ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 12,
+      "old_text": "ንጽሐሙ ፡ ለሕፃናት ፡ በሥጋሆሙ ፡ እም↵",
+      "corrected_text": "ንጽሖሙ ፡ ለሕፃናት ፡ በሥጋሆሙ ፡ እም",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ንጽሐሙ -> ንጽሖሙ",
+      "reason": "Ge'ez noun 'ንጽሕ' with 3rd-person masculine plural suffix '-ሆሙ' forms 'ንጽሖሙ' (with 7th-order ሖ, visible in the middle stem ring on the image)."
+    },
+    {
+      "column_index": 4,
+      "line_num": 29,
+      "old_text": "ረብሐ ፡ ወነፍሶ ፡ ሐጉለ ፡ ያለውን ፡ አል↵",
+      "corrected_text": "ረብሐ ፡ ወነፍሶ ፡ ሐጕለ ፡ ያለውን ፡ አል",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሐጉለ -> ሐጕለ",
+      "reason": "The printed glyph in the Gospel citation ('ወነፍሶ ፡ ሐጕለ') clearly shows the labiovelar ጕ rather than plain ጉ."
+    }
+  ]
+}

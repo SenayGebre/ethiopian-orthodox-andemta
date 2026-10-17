@@ -1,0 +1,203 @@
+{
+  "pdf_page": 71,
+  "book_page_arabic": 71,
+  "book_page_ethiopic": "፸፩",
+  "page_type": "commentary_1col",
+  "running_header": "ማረሚያ ።",
+  "column_boxes": [
+    [
+      841,
+      0,
+      1718,
+      1240
+    ]
+  ],
+  "columns": [
+    {
+      "column_index": 1,
+      "lines": [
+        {
+          "line_num": 1,
+          "margin_tag": null,
+          "line_type": "section_title",
+          "text": "ማረሚያ ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 2,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ገጽ ፡ ዐምድ ፡ መሥመር ፡ ስሕተትና ፡ ግድፈት ። የታረመ ፡",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 3,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "፲፩ ፯ ሕገ ፡ ሕግ ፡",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 4,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "፲፩ ፯ ሕገ ፡ ሕግ ፡",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 5,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "፲፯ ፩ ፱ በአርብዓ ፡ ዕለት ፡ እንዘ ፡ ያስተርእዮሙ ፡",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 6,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "፳፬ ፪ ፲፰ ወፎኖጦስ ፡",
+          "word_wraps_to_next_line": false,
+          "uncertain": [],
+          "stage1_text": "፳፬ ፪ ፲፳ ወፎኖጦስ ፡",
+          "stage2_correction": {
+            "pair": "፲፳ -> ፲፰",
+            "reason": "Ethiopic numeral ፰ (8) was misread as ፳ (20); ፲፰ (18) is the valid line number."
+          }
+        },
+        {
+          "line_num": 7,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "፳፯ ፩ ፴ ራእየ ፡ ይራእዩ ፡",
+          "word_wraps_to_next_line": false,
+          "uncertain": [],
+          "stage1_text": "፳፯ ፩ ፴ ራእየ ፡ ይፈአዩ ፡",
+          "stage2_correction": {
+            "pair": "ይፈአዩ -> ይራእዩ",
+            "reason": "The printed Ge'ez verb is ይራእዩ ('they see visions', matching ራእየ), where ራእ was misread as ፈአ."
+          }
+        },
+        {
+          "line_num": 8,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "፴፯ ፩ ፲፬ ያዋሐደው ፡",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 9,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "፶፩ ፩ ፳፰ ይጸሊ ፡ ይሄሊ ፡",
+          "word_wraps_to_next_line": false,
+          "uncertain": [],
+          "stage1_text": "፶፩ ፩ ፳፳ ይጺሊ ፡ ይሄሊ ፡",
+          "stage2_correction": {
+            "pair": "፳፳ ይጺሊ -> ፳፰ ይጸሊ",
+            "reason": "The line number is ፳፰ (28, not the invalid numeral ፳፳), and the erratum word is ይጸሊ ('he prays')."
+          }
+        },
+        {
+          "line_num": 10,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "፻፸፩ ፪ ፯ ወሀዉለ ፡ ወሀለዉ ፡",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 11,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "፻፹፰ ፪ ፪ አላ ፡ ለሊነ ፡ ርኢነ ፡ ዕበዮ ፡",
+          "word_wraps_to_next_line": false,
+          "uncertain": [],
+          "stage1_text": "፻፹፳ ፪ ፪ አላ ፡ ለሊነ ፡ ርኢነ ፡ ዕበዮ ፡",
+          "stage2_correction": {
+            "pair": "፻፹፳ -> ፻፹፰",
+            "reason": "Ethiopic numeral ፰ (8) was misread as ፳ (20); the page number is ፻፹፰ (188)."
+          }
+        },
+        {
+          "line_num": 12,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "፫፻፳፱ ፪ ፳፰ ታስተሰናሉ ፡ ታስተሰናኡ ፡",
+          "word_wraps_to_next_line": false,
+          "uncertain": [],
+          "stage1_text": "፫፻፳፱ ፪ ፳፳ ታስተስናሉ ፡ ታስተሰናኡ ፡",
+          "stage2_correction": {
+            "pair": "፳፳ ታስተስናሉ -> ፳፰ ታስተሰናሉ",
+            "reason": "The line number is ፳፰ (28, not ፳፳), and the printed word has 1st-order ሰ (ታስተሰናሉ)."
+          }
+        },
+        {
+          "line_num": 13,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "፫፻፴ ፪ ፳፬ ከመ ፡ ተሀቡ ፡",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 14,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "፫፻፵፪ ፪ ፳ ወተመጠውዋ ፡ ወተመጠዋ ፡",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 15,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "፫፻፶፯ ፪ ፯ ወይዘምዉ ፡",
+          "word_wraps_to_next_line": false,
+          "uncertain": [],
+          "stage1_text": "፫፻፳፯ ፪ ፯ ወይዘምዉ ፡",
+          "stage2_correction": {
+            "pair": "፫፻፳፯ -> ፫፻፶፯",
+            "reason": "Visually and in ascending page order between ፫፻፵፪ (342) and ፫፻፹፯ (387), the numeral is ፫፻፶፯ (357), where ፶ (50) was misread as ፳ (20)."
+          }
+        },
+        {
+          "line_num": 16,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "፫፻፹፯ ፪ ፭ ወበጊዜሃ ፡ ኮንኩ ፡ በመንፈስ ፡",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 17,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "፬፻ ፪ ፳ ወሶበ ፡ አውረደ ፡ ወአውረደ ፡",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 18,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "፬፻፵፰ ፪ ፳፩ ወእምአፉሁ ፡ ለአንበሳ ፡",
+          "word_wraps_to_next_line": false,
+          "uncertain": [],
+          "stage1_text": "፬፻፵፳ ፪ ፳፩ ወእምአፉሁ ፡ ለአንበሳ ፡",
+          "stage2_correction": {
+            "pair": "፬፻፵፳ -> ፬፻፵፰",
+            "reason": "Ethiopic numeral ፰ (8) was misread as ፳ (20); the page number is ፬፻፵፰ (448)."
+          }
+        }
+      ]
+    }
+  ],
+  "stage2_verified": true,
+  "stage2_corrections_count": 7
+}

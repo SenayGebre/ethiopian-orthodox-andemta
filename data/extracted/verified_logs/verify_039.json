@@ -1,0 +1,62 @@
+{
+  "pdf_page": 39,
+  "book_page_ethiopic": "፻፶፰",
+  "elapsed_sec": 29.6,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 2,
+      "old_text": "ገው ደክማ አሰኘዋለሁ ቢያ↵",
+      "corrected_text": "ገው ደካማ አሰኘዋለሁ ቢያ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ክ -> ካ",
+      "reason": "The 4th-order fidel ካ in ደካማ ('weak') was misread as 6th-order ክ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 40,
+      "old_text": "ቱ ርኢነ ደቂቆ ለኤናቅ ነጕኖ↵",
+      "corrected_text": "ቱ ርኢነ ደቂቆ ለኤናቅ ኑኀሆ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ነጕኖ -> ኑኀሆ",
+      "reason": "Classical Ge'ez citation 'ኑኀሆሙ ከመ አርዝ ወጽንዖሙ ከመ አውልዕ' ('their height is like the cedar...'): the printed ኑኀሆ- at the end of the line was visually misread as ነጕኖ-."
+    },
+    {
+      "column_index": 2,
+      "line_num": 7,
+      "old_text": "እ ግዚአብሔር እንገባታለን አ↵",
+      "corrected_text": "እግዚአብሔር እንገባታለን አ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እ ግ -> እግ",
+      "reason": "Remove spurious space inside እግዚአብሔር."
+    },
+    {
+      "column_index": 2,
+      "line_num": 26,
+      "old_text": "እንጅ ። ነገሥታትን ድል ዪምነ↵",
+      "corrected_text": "እንጅ ። ነገሥታትን ድል በምነ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዪ -> በ",
+      "reason": "In the parallel contrast 'ድል በማልነሣበት ... ድል በምነሣበት በተራራ ቢሆን', the initial fidel በ of በምነሣበት was misread as ዪ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 22,
+      "old_text": "ፍቷአል ። ሐተታ እስካሁን ሑ↵",
+      "corrected_text": "ፍቶአል ። ሐተታ እስካሁን ሑ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቷ -> ቶ",
+      "reason": "The printed glyph in ጠፍቶአል is 7th-order ቶ, misread as ቷ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 37,
+      "old_text": "ር ምህረተ እስከ ፲ ፻ ትውል↵",
+      "corrected_text": "ር ምሕረተ እስከ ፲ ፻ ትውል↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ህ -> ሕ",
+      "reason": "Ge'ez noun ምሕረተ ('እገብር ምሕረተ') is printed with ሕ, misread as ህ."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "pdf_page": 45,
+  "book_page_ethiopic": "፬፻፴፮ | ፬፻፴፯",
+  "elapsed_sec": 24.5,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 8,
+      "old_text": "በል ፡ እንሂድ ፡ አለው ፡ ተያይዘው ፡ ሂደው ፡",
+      "corrected_text": "በል ፡ እንሂድ ፡ አለው ፡ ተያይዘው ፡ ሂዱ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሂደው -> ሂዱ",
+      "reason": "The printed text at the end of Column 1 Line 8 is clearly the two-letter word 'ሂዱ ፡' ('they went'), which Stage 1 misread/expanded as 'ሂደው ፡'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 4,
+      "old_text": "ኀፈርኩ ፡ ገጾ ፡ ኢዮሳፍጥ ፡ እምኢርኢኩከ ፡ ገ",
+      "corrected_text": "ኀፈርኩ ፡ ገጸ ፡ ኢዮሳፍጥ ፡ እምኢርኢኩከ ፡ ገ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ገጾ -> ገጸ",
+      "reason": "In Classical Ge'ez construct state before a proper noun ('the face of Jehoshaphat', 2 Kings 3:14), the form is 1st-order construct 'ገጸ ፡ ኢዮሳፍጥ', and visually the character 'ጸ' has two straight legs with no 7th-order ring."
+    },
+    {
+      "column_index": 3,
+      "line_num": 36,
+      "old_text": "ሳቶቿዋ ፡ በዐሥሩ ፡ ቃላት ፡ ጸንተው ፡ ቢ",
+      "corrected_text": "ሳቶቿ ፡ በዐሥሩ ፡ ቃላት ፡ ጸንተው ፡ ቢ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሳቶቿዋ -> ሳቶቿ",
+      "reason": "Visually on Line 36 the word is 'ሕዋሳቶቿ ፡' (three glyphs 'ሳቶቿ' on this line) with no extra 'ዋ' character printed after 'ቿ'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 2,
+      "old_text": "አምላክ ፡ ሰው ፡ ሆነ ፡ ሰው ፡ አምላክ ፡",
+      "corrected_text": "አምላክ ፡ ሰው ፡ ሁነ ፡ ሰው ፡ አምላክ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሆነ -> ሁነ",
+      "reason": "The printed glyph in the book is clearly 2nd-order 'ሁነ' (with the right-side horizontal stroke of 'ሁ'), an authentic archaic Andemta spelling that should be preserved."
+    },
+    {
+      "column_index": 4,
+      "line_num": 3,
+      "old_text": "ሆነ ፡ እያሉ ፡ ለማመስገናቸው ፡ ምሳሌ ፡",
+      "corrected_text": "ሁነ ፡ እያሉ ፡ ለማመስገናቸው ፡ ምሳሌ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሆነ -> ሁነ",
+      "reason": "As on the preceding line, the printed glyph at the start of Line 3 is clearly 2nd-order 'ሁነ' rather than 'ሆነ'."
+    }
+  ]
+}

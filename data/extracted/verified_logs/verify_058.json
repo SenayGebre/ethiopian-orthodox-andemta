@@ -1,0 +1,71 @@
+{
+  "pdf_page": 58,
+  "book_page_ethiopic": "፻፸፯",
+  "elapsed_sec": 26.0,
+  "applied_count": 7,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 4,
+      "old_text": "ቱ ቁሉ ያላንተ ፈቃድ አይሆ",
+      "corrected_text": "ቱ ቃሉ ያላንተ ፈቃድ አይሆ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቁሉ -> ቃሉ",
+      "reason": "4th order ቃ in 'ቃሉ' (the word/expression) was misread as 2nd order ቁ ('ቁሉ')."
+    },
+    {
+      "column_index": 2,
+      "line_num": 5,
+      "old_text": "ራድ ደንገጽር ሲቆሙ ሲቀ",
+      "corrected_text": "ረድ ደንገጡር ሲቆሙ ሲቀ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ራድ ደንገጽር -> ረድ ደንገጡር",
+      "reason": "Traditional Amharic pair 'ገረድ ደንገጡር' (maidservant and attendant) was misread as 'ገራድ ደንገጽር' due to vowel-order and multi-legged glyph confusion (ረ -> ራ, ጡ -> ጽ)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 16,
+      "old_text": "ትሕትና ቅዱሳን ክበቁ በኋላ",
+      "corrected_text": "ትሕትና ቅዱሳን ከበቁ በኋላ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ክበቁ -> ከበቁ",
+      "reason": "1st order ከ in the temporal clause 'ከበቁ በኋላ' (after the saints attained perfection) was misread as 6th order ክ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 31,
+      "old_text": "እንደ ጾሙ ሰው ይውቅላቸው",
+      "corrected_text": "እንደ ጾሙ ሰው ያውቅላቸው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ይውቅላቸው -> ያውቅላቸው",
+      "reason": "4th order ያ in 'ያውቅላቸው ዘንድ' (so that people may know of them) was misread as 6th order ይ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 33,
+      "old_text": "⟪አማነ እብለክሙ ነሥኡ ዕس",
+      "corrected_text": "⟪አማን እብለክሙ ነሥኡ ዕስ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አማነ / ዕس -> አማን / ዕስ",
+      "reason": "Canonical Ge'ez Matthew 6:16 'አማን እብለክሙ ነሥኡ ዕስቶሙ' had 6th order ን misread as ነ and 6th order ስ corrupted into an Arabic character."
+    },
+    {
+      "column_index": 3,
+      "line_num": 36,
+      "old_text": "ቡዕ የዓሥየክሙ ክሀት ።⟫",
+      "corrected_text": "ቡዕ የዓሥየክሙ ክህደ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ክሀት -> ክህደ",
+      "reason": "Canonical Ge'ez Matthew 6:18 adverb 'ክህደ' (openly/manifestly, in 'የዓሥየክሙ ክህደ') was misread as 'ክሀት'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 37,
+      "old_text": "ጉባኤውን ከሻችሁ ተሰውራች",
+      "corrected_text": "ጉባኤውን ሽሻችሁ ተሰውራች",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከሻችሁ -> ሽሻችሁ",
+      "reason": "The converb 'ሽሻችሁ' (having fled/shunned the crowd, 'ጉባኤውን ሽሻችሁ ተሰውራችሁ') had 6th order ሽ misread as ከ."
+    }
+  ]
+}

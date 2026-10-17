@@ -1,0 +1,44 @@
+{
+  "pdf_page": 63,
+  "book_page_ethiopic": "፻፹፪",
+  "elapsed_sec": 27.9,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 3,
+      "old_text": "[፫] በንተ ዓይን ያለ ሠረገላ ታታ↵",
+      "corrected_text": "[፫] በንተ ዓይን ያለ ሠረገላ ሳታ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ታ -> ሳ",
+      "reason": "The negative subordinate verb translating 'ኢትኔጽር' is 'ሳታይ' ('without seeing'); the initial 'ሳ' at the end of the line was misread as 'ታ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 15,
+      "old_text": "በንተ ዓይን ያለውን ሠረገላ ያ↵",
+      "corrected_text": "በንተ ዓይን ያለውን ሠረገላ ሳ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ያ -> ሳ",
+      "reason": "The negative verb translating 'ወናሁ ኢትሬኢ' is 'ሳታይ' ('while not seeing'); the printed 'ሳ' at the end of line 15 was misread as 'ያ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 26,
+      "old_text": "ህ ። ምንተ ትኔጽር ብለህ መልስ",
+      "corrected_text": "ህ ። ምንት ትኔጽር ብለህ መልስ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ምንተ -> ምንት",
+      "reason": "The printed Ge'ez interrogative is 'ምንት' (with 6th-order ሳድስ 'ት' from 'ለምንት ትኔጽር'), not 'ምንተ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 18,
+      "old_text": "ሳችሁ ጦር ሳይጠፋላችሁ ፆር",
+      "corrected_text": "ሳችሁ ፆር ሳይጠፋላችሁ ፆር",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጦር -> ፆር",
+      "reason": "Both occurrences on this line clearly print 'ፆር' (spiritual warfare/temptation), matching the rest of the paragraph; the first 'ፆር' was misread as 'ጦር'."
+    }
+  ]
+}

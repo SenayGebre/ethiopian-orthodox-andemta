@@ -1,0 +1,62 @@
+{
+  "pdf_page": 101,
+  "book_page_ethiopic": "፮፻፲፩",
+  "elapsed_sec": 19.2,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 4,
+      "old_text": "ገl ሲናገረው የመጣው ነው",
+      "corrected_text": "ዝ ሲናገረው የመጣው ነው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ገl -> ዝ",
+      "reason": "The Ge'ez demonstrative pronoun 'ዝ' (from 'ወእምዝ' in L02, glossed by 'ሲናገረው የመጣው ነው') was misread as 'ገ' plus a Latin 'l' due to the two vertical strokes of 'ዝ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 28,
+      "old_text": "ዓለም ሾህ ጥቃቅን ሰብዓ ታላ",
+      "corrected_text": "ዓለም ሺህ ጥቃቅን ሰብዓ ታላ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሾህ -> ሺህ",
+      "reason": "The word printed is 'ሺህ' (one thousand small thorns, paired with 'ሰብዓ ታላላቅ የብረት እሾህ' = seventy large iron thorns in Dersana Medhane Alem). The bottom-right leg of 'ሺ' was misread as 'ሾ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 30,
+      "old_text": "ድ ነው ይላል አንድምን ነው",
+      "corrected_text": "ድ ነው ይላል እንደምን ነው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አንድምን -> እንደምን",
+      "reason": "The standard Andemta question formula 'እንደምን ነው አይጣላም ቢሉ' (How is it? Do they not contradict?) is clearly printed as 'እንደምን', not 'አንድምን'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 37,
+      "old_text": "ስ ቀይህ ይላል ከዚህ እንደ",
+      "corrected_text": "ስ ቀይህ ይላል ከዚህ እንዲ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እንደ -> እንዲ",
+      "reason": "Joining across the line wrap with L38 ('ህ አለ') forms 'እንዲህ አለ' (said thus). The 3rd-order Fidel 'ዲ' with its bottom-right serif is visible at the end of L37."
+    },
+    {
+      "column_index": 1,
+      "line_num": 38,
+      "old_text": "ህ አለ አንድምን ነው አይጣ",
+      "corrected_text": "ህ አለ እንደምን ነው አይጣ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አንድምን -> እንደምን",
+      "reason": "As in L30, the printed word is 'እንደምን' ('እንደምን ነው አይጣላም ቢሉ')."
+    },
+    {
+      "column_index": 2,
+      "line_num": 14,
+      "old_text": "ንጉሣቸው ቢሰኛህን ጸባኛህን",
+      "corrected_text": "ንጉሣቸው ቢሰኛህን ጸበኛህን",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጸባኛህን -> ጸበኛህን",
+      "reason": "Both legs of the 1st-order 'በ' in 'ጸበኛህን' (your enemy, matching 'ጸበኛ' in L16) are of equal length on the page image."
+    }
+  ]
+}

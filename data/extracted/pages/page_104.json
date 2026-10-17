@@ -1,0 +1,941 @@
+{
+  "pdf_page": 104,
+  "book_page_arabic": 223,
+  "book_page_ethiopic": "፪፻፳፫",
+  "page_type": "commentary_3col",
+  "running_header": "፪፻፳፫ የማቴዎስ ወንጌል ።",
+  "column_boxes": [
+    [
+      0,
+      61,
+      263,
+      1024
+    ],
+    [
+      221,
+      61,
+      497,
+      1024
+    ],
+    [
+      455,
+      61,
+      768,
+      1024
+    ]
+  ],
+  "columns": [
+    {
+      "column_index": 1,
+      "lines": [
+        {
+          "line_num": 1,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሐ አእምሮ የሌለው ልቡና እ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 2,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ንደሆነ።ሦክ የተባለ በቁሙ ሦ",
+          "word_wraps_to_next_line": true,
+          "stage1_text": "ንደሆነ።ሦክ የተባለ በቀሙ ሦ",
+          "stage2_correction": {
+            "pair": "ቀ -> ቁ",
+            "reason": "The standard Andemta technical term for literal meaning is 'በቁሙ' (2nd order ቁ, clearly visible in the image), misread as 'በቀሙ'."
+          },
+          "uncertain": []
+        },
+        {
+          "line_num": 3,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ክ እንዳይደለ ብዕል ሰፋጢት",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 4,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሐልዮ መንበርት ያስቀሩበት",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 5,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "እንደሆነ ዕዝነ ልቡና ያለው",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 6,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ያስተውል ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 7,
+          "margin_tag": "፲",
+          "line_type": "body",
+          "text": "⟪ወቀሪቦሙ አርዳኢሁ ይቤልዎ",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 8,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ምንት በምሳሌ ትትና",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 9,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ገሮሙ ለሕዝብ⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 10,
+          "margin_tag": "፲",
+          "line_type": "body",
+          "text": "ደቀ መዛሙርቱ ቀርበው ለሕ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 11,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ዝቡ በምሳሌ ስለምን ታስተ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 12,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ምራቸዋለህ አሉት ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 13,
+          "margin_tag": "፲፩",
+          "line_type": "body",
+          "text": "⟪ወአውሥአ ወይቤሎሙ እስመ",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 14,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ለክሙ ተውህበ አእምሮ ም",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 15,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሥጢራቲሃ ለመንግሥተ ሰማይ⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 16,
+          "margin_tag": "፲፩",
+          "line_type": "body",
+          "text": "የመንግሥተ ሰማይን ምሥጢ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 17,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ር ማወቅ ለናንተ ተሰጥቷልና",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 18,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ማለት የወንጌልን ምሥጢር",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 19,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ማወቅ ለናንተ ተገልጧልና ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 20,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "⟪ወሎሙሰ ኢተውህበ ።⟫ ለ",
+          "word_wraps_to_next_line": true,
+          "stage1_text": "⟪ወሎሙሰ ኢተውህቦሙ ።⟫ ለ",
+          "stage2_correction": {
+            "pair": "ቦሙ -> በ",
+            "reason": "The printed Ge'ez text in the image reads 'ወሎሙሰ ኢተውህበ ።' (matching the citation 'ወሎሙሰ ኢተውህበ ላለው' in Col 1 L35 and Col 2 L03-04), without '-ቦሙ'."
+          },
+          "uncertain": []
+        },
+        {
+          "line_num": 21,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሳቸው ግን አልተገለጸላቸውም",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 22,
+          "margin_tag": "፲፪",
+          "line_type": "body",
+          "text": "⟪እስመ ለዘቦ ይሁብዎ ።⟫ ማቴ",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 23,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "፳፭፥፳፱።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 24,
+          "margin_tag": "፲፪",
+          "line_type": "body",
+          "text": "ላለው ይሰጡታልና ማለት አ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 25,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "እምሮ ላለው ይሁብዎ ምሳ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 26,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሌውን ይነግሩታልና።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 27,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "⟪ወይዌስክዎ ።⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 28,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ምሥጢሩን ይጨምሩለታልና",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 29,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ለክሙ ተውህበ ላለው።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 30,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "⟪ወለዘሰ አልቦ እለሂ ቦ የኃይ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 31,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ድዎ ።⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 32,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "አእምሮ የሌለውን ግን ያለ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 33,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ውን ይቀሙታልና ማለት እን",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 34,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ዳያውቀው አድርገው ይመስ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 35,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሉበታልና ሎሙሰ ኢተውህበ",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 36,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ላለው።፩ም ምሳሌውን ለያዘ ይ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 37,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሁብዎ ወይዌስክዎ አንድ ወገን",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 38,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ምሥጢሩን ትርጓሜውን ይነግሩ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 39,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ታልና ለክሙ ተውህበ ላለው",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 40,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ወለዘሰ አልቦ ምሳሌውን ላል",
+          "word_wraps_to_next_line": true
+        }
+      ]
+    },
+    {
+      "column_index": 2,
+      "lines": [
+        {
+          "line_num": 1,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ያዘ ግን ያለውን አእምሮ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 2,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ውን ነሥተው በግዕዘ እንስሳ",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 3,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ይቀሙታልና ወሎሙሰ ኢተ",
+          "word_wraps_to_next_line": true,
+          "stage1_text": "ይቆሙታልና ወሎሙሰ ኢተ",
+          "stage2_correction": {
+            "pair": "ቆ -> ቀ",
+            "reason": "Amharic verb 'ይቀሙታልና' ('they rob/deprive him of it', matching Col 1 L33 'ይቀሙታልና') is printed with 1st-order 'ቀ', misread as 7th-order 'ቆ'."
+          },
+          "uncertain": []
+        },
+        {
+          "line_num": 4,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ውህበ ላለው።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 5,
+          "margin_tag": "፲፫",
+          "line_type": "body",
+          "text": "⟪ወበእንተ ዝንቱ በአምሳል እ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 6,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ትናገሮሙ ።⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 7,
+          "margin_tag": "፲፫",
+          "line_type": "body",
+          "text": "ስለዚህ በምሳሌ እነግራቸዋለሁ",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 8,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "⟪እስመ እንዘ ይሬእዩ ኢይሬ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 9,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "እዩ ።⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 10,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "እናያለን ሲሉ አያዩምና ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 11,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "⟪ወእንዘ ይሰምዑ ኢይሰምዑ።⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 12,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "እንሰለማን ሲሉ አይሰሙምና።",
+          "word_wraps_to_next_line": false,
+          "uncertain": [
+            {
+              "printed_text": "እንሰለማን",
+              "alternative": "እንሰማለን",
+              "note": "print typo (transposed ለ and ማ)"
+            }
+          ]
+        },
+        {
+          "line_num": 13,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "⟪ወኢይሌብዉ።⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 14,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "እናውቃለን ሲሉ አያውቁምና",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 15,
+          "margin_tag": "፲፬",
+          "line_type": "body",
+          "text": "⟪ከመ ይትፈጸም ላዕሌሆሙ ት",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 16,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ንቢተ ኢሳይያስ ነቢይ ዘይቤ፥⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 17,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ኢሳ ፮ ፱፥ማር ፬ ፲፪፥ሉቃስ",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 18,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "፰ ፲፥ዮሐ ፲፪ ፵ ፥ ግብ ፳፰",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 19,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "፳፮፥ሮሜ ፲፩ ፰ ፥ሉቃ፲ ፳፬።",
+          "word_wraps_to_next_line": false,
+          "stage1_text": "፳፮፥ሮሜ ፪ ፰ ፥ሉቃ፲ ፳፬።",
+          "stage2_correction": {
+            "pair": "፪ -> ፲፩",
+            "reason": "The canonical cross-reference for Isaiah's prophecy of spiritual blindness is Romans 11:8 ('ሮሜ ፲፩ ፰'), and both numerals '፲፩' are printed in the image."
+          },
+          "uncertain": []
+        },
+        {
+          "line_num": 20,
+          "margin_tag": "፲፬",
+          "line_type": "body",
+          "text": "ነቢዩ ኢሳይያስ የተናገረው",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 21,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ትንቢት በሳቸው ይፈጸም ዘ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 22,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ንድ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 23,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "⟪ሰሚዓ ትሰምዑ ወኢትሌብዉ⟫",
+          "word_wraps_to_next_line": false,
+          "stage1_text": "⟪ሰሚዓ ትሰምኡ ወኢትሌብዉ⟫",
+          "stage2_correction": {
+            "pair": "ኡ -> ዑ",
+            "reason": "Classical Ge'ez verb 'ትሰምዑ' (from ሰምዐ with pharyngeal ዐ) is printed with 'ዑ', misread as 'ኡ'."
+          },
+          "uncertain": []
+        },
+        {
+          "line_num": 24,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "መስማቱን ትሰማላችሁ አታ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 25,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ስተውሉም ኢይሰምዑ ላለው",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 26,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "⟪ነጽሮተ ትኔጽሩ ወኢትሬእዩ፥⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 27,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ማየትን ታያላችሁ ማለት እ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 28,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ናያለን ትላላችሁ አታስተው",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 29,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሉም ኢይሬእዩ ላለው።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 30,
+          "margin_tag": "፲፭",
+          "line_type": "body",
+          "text": "⟪እስመ ገዝፈ ልቡ ለዝ ሕዝብ⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 31,
+          "margin_tag": "፲፭",
+          "line_type": "body",
+          "text": "አላዋቆች ሁነዋልና።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 32,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "⟪ወዕዘኒሆሙ ደንቀወ እምሰሚዕ⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 33,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "የኢሳይያስ ቃል መፍቻ።ጆሯ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 34,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ቸው ከመስማት ደንቁሯልና",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 35,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ኢይሰምዑ ላለው።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 36,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "⟪ወከደኑ አዕይንቲሆሙ ከመ",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 37,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ኢይርአዩ በአዕይንቲሆሙ ።⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 38,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "እንዳያዩ ዓይናቸውን ጨፍነዋ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 39,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ልና ማለት ምሥጢር ከማየ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 40,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ት ተከልክለዋልና ኢትሬእዩ",
+          "word_wraps_to_next_line": false
+        }
+      ]
+    },
+    {
+      "column_index": 3,
+      "lines": [
+        {
+          "line_num": 1,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ላለው። ⟪ወበዕዘኒሆሙ",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 2,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ኢይሰምዑ።⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 3,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በጆሯቸው እንዳይሰሙ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 4,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "⟪ወበልቦሙ ኢይሌብዉ።⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 5,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በልባቸው እንዳያስተውሉ ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 6,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "⟪ከመ ኢይትመየጡ ኀቤየ ።⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 7,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ወደኔ እንዳይመለሱ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 8,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "⟪ወኢይሠሃሎሙ።⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 9,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ይቅር እንዳልላቸው።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 10,
+          "margin_tag": "፲፮",
+          "line_type": "body",
+          "text": "⟪ወለክሙሰ ብፁዓት አዕይንቲ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 11,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ክሙ።⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 12,
+          "margin_tag": "፲፮",
+          "line_type": "body",
+          "text": "ለናንተ ግን ላይናችሁ ምስጋ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 13,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ና ማለት እናንተ ግን ንዑዳን",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 14,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ክቡራን ናችሁ ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 15,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "⟪እስመ ይሬእያ ።⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 16,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ያያሉና ማለት አይታችሁኛ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 17,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ልና ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 18,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "⟪ወአዕዛኒክሙ እስመ ይሰምዓ።⟫",
+          "word_wraps_to_next_line": false,
+          "stage1_text": "⟪ወእዕዛኒክሙ እስመ ይሰምዓ።⟫",
+          "stage2_correction": {
+            "pair": "እ -> አ",
+            "reason": "Ge'ez broken plural 'ወአዕዛኒክሙ' ('and your ears', Matthew 13:16) begins with 1st-order 'አ', misread as 6th-order 'እ'."
+          },
+          "uncertain": []
+        },
+        {
+          "line_num": 19,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ጆሯችሁ ይሰማልና ማለት ሰ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 20,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ምታችሁኛልና ንዑዳን ክቡ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 21,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ራን ናችሁ፥",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 22,
+          "margin_tag": "፲፯",
+          "line_type": "body",
+          "text": "⟪አማን እብለክሙ ከመ ብዙኃ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 23,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ን ነቢያት ወጻድቃን ፈተዉ",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 24,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ይርአዩ አንትሙ ዘትሬእዩ ወ",
+          "word_wraps_to_next_line": true,
+          "stage1_text": "ይርአዩ እንትሙ ዘትሬእዩ ወ",
+          "stage2_correction": {
+            "pair": "እ -> አ",
+            "reason": "Ge'ez 2nd person plural pronoun 'አንትሙ' (Matthew 13:17) begins with 1st-order 'አ', misread as 'እ'."
+          },
+          "uncertain": []
+        },
+        {
+          "line_num": 25,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ኢርእዩ፥ወፈተዉ ይስምዑ አ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 26,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ንትሙ ዘትሰምዑ ወኢሰምዑ⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 27,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሉቃ ፲ ፳፬፥",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 28,
+          "margin_tag": "፲፯",
+          "line_type": "body",
+          "text": "ብዙ ነቢያት ጻድቃን እናንት",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 29,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "የምታዩትን የምትሰሙትን ማ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 30,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ለት ዛሬ የምትሰሙኝ የምታ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 31,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ዩኝ እኔን ሊያዩኝ ሊሰሙኝ",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 32,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "እንደ ወደዱ እንዳላዩኝ እንዳ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 33,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ልሰሙኝ በእውነት እነግራች",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 34,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ኋለሁ።ሐተታ ነቢያት አላቸው",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 35,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ያባር የቸነፈር የጼዋዌን ነገር",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 36,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ተናግረዋልና፥ጻድቃን አላቸው",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 37,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "እንደመጠናቸው ጥቂት ትሩ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 38,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ፋት ሠርተዋልና ። ኢርእዩ ወ",
+          "word_wraps_to_next_line": true,
+          "stage1_text": "ፋት ሰርተዋልና ። ኢርእዩ ወ",
+          "stage2_correction": {
+            "pair": "ሰ -> ሠ",
+            "reason": "The printed glyph in the image is 'ሠርተዋልና' with 'ሠ' (ንጉሡ ሠ), misread as 'ሰ'."
+          },
+          "uncertain": []
+        },
+        {
+          "line_num": 39,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ኢሰምዑ አለ የሥጋዌ ነገር",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 40,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "አልተገለጸላቸውምና ።አንድም",
+          "word_wraps_to_next_line": false
+        }
+      ]
+    }
+  ],
+  "stage2_verified": true,
+  "stage2_corrections_count": 8
+}

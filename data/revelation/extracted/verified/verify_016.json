@@ -1,0 +1,17 @@
+{
+  "pdf_page": 16,
+  "book_page_ethiopic": "፪፻፷፰ | ፪፻፷፱",
+  "elapsed_sec": 13.7,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 8,
+      "old_text": "ምሳሌ ፡ ኖኅ ፡ ሴምን ፡ ሴም ፡ አርፋስክ",
+      "corrected_text": "ምሳሌ ፡ ኖኅ ፡ ሤምን ፡ ሤም ፡ አርፋስክ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሴ -> ሤ",
+      "reason": "The printed glyphs clearly use the 5th-order ሠ-base character (ሤምን ፡ ሤም) rather than ሴ."
+    }
+  ]
+}

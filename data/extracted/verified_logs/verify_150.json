@@ -1,0 +1,35 @@
+{
+  "pdf_page": 150,
+  "book_page_ethiopic": "፪፻፷፱",
+  "elapsed_sec": 10.2,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 36,
+      "old_text": "ለው ። ⟪ወተፈደመ ምላሽ አጣ⟫",
+      "corrected_text": "ለው ። ⟪ወተፈደመ⟫ ምላሽ አጣ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወተፈደመ ምላሽ አጣ -> ወተፈደመ⟫ ምላሽ አጣ",
+      "reason": "Tag boundary fix: 'ወተፈደመ' is the canonical Ge'ez Gospel text (Matt 22:12), while 'ምላሽ አጣ' is the Amharic Andemta translation."
+    },
+    {
+      "column_index": 1,
+      "line_num": 38,
+      "old_text": "ኝ አይለውም ቢሉ ያኑ ከመ",
+      "corrected_text": "ኝ አይለውም ቢሉ ዳኑ ከመ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ያ -> ዳ",
+      "reason": "Visual lookalike between 'ያ' and 'ዳ': the printed glyph has the closed loop of 'ዳ' (4th order ዳ) forming the canonical Ge'ez citation 'ዳኑ ከመ ምህረ ንስሐሁ' ('they were saved as having learned his repentance')."
+    },
+    {
+      "column_index": 1,
+      "line_num": 39,
+      "old_text": "ምህረ ንስሐሀ በደረስኸው ይ",
+      "corrected_text": "ምህረ ንስሐሁ በደረስኸው ይ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሀ -> ሁ",
+      "reason": "Vowel-order misread: the printed character clearly shows the 2nd order right-side stroke of 'ሁ' ('ንስሐሁ', 'his repentance'), not 1st order 'ሀ'."
+    }
+  ]
+}

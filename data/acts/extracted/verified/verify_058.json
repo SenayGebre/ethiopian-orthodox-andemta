@@ -1,0 +1,26 @@
+{
+  "pdf_page": 58,
+  "book_page_ethiopic": "፻፳፰ | ፻፳፱",
+  "elapsed_sec": 12.8,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 34,
+      "old_text": "ብጌታችን ፡ በኢየሱስ ፡ ክርስቶስ ፡ እመን ፡",
+      "corrected_text": "በጌታችን ፡ በኢየሱስ ፡ ክርስቶስ ፡ እመን ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ብ -> በ",
+      "reason": "Gutter shadow on the left leg of 1st-order በ (በጌታችን) caused it to be misread as 6th-order ብ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 13,
+      "old_text": "ውን ፡ አጠባቸው ፡ ሐተታ ፡ የተግረፈ ፡",
+      "corrected_text": "ውን ፡ አጠባቸው ፡ ሐተታ ፡ የተገረፈ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ግ -> ገ",
+      "reason": "Slight ink uneveness on the top-left of 1st-order ገ in የተገረፈ ('one who was whipped/flogged') was misread as 6th-order ግ."
+    }
+  ]
+}

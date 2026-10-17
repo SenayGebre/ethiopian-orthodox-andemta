@@ -1,0 +1,17 @@
+{
+  "pdf_page": 25,
+  "book_page_ethiopic": "፪፻፶፪ | ፪፻፶፫",
+  "elapsed_sec": 17.3,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 4,
+      "line_num": 23,
+      "old_text": "⟪ወተኰኑ ፡ ሎቱ ፡ መላእክት ፡⟫",
+      "corrected_text": "⟪ወተኰነኑ ፡ ሎቱ ፡ መላእክት ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወተኰኑ -> ወተኰነኑ",
+      "reason": "The Ge'ez root text of 1 Peter 3:22 clearly prints the 5-letter verb ወተኰነኑ ('and were subjected/governed', glossed in L24 as የተገዙለት); Stage 1 dropped the middle ነ."
+    }
+  ]
+}

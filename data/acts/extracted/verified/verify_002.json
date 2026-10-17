@@ -1,0 +1,26 @@
+{
+  "pdf_page": 2,
+  "book_page_ethiopic": "፲፮ | ፲፯",
+  "elapsed_sec": 18.9,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 4,
+      "line_num": 15,
+      "old_text": "ይህን ፡ ሲነግራቸው ፡ አፍ ፡ አለ ፡ በድ",
+      "corrected_text": "ይህን ፡ ሲነግራቸው ፡ ከፍ ፡ አለ ፡ በድ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አፍ -> ከፍ",
+      "reason": "The Amharic gloss for Ge'ez 'ተለዓለ' (he was lifted up / ascended) is 'ከፍ ፡ አለ' (he rose high), where the left stroke of 'ከ' was misread as 'አ'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 20,
+      "old_text": "ደመና ፡ አፍ ፡ አደረገችው ፡ በድረግ ፡ አደ",
+      "corrected_text": "ደመና ፡ ከፍ ፡ አደረገችው ፡ በድረግ ፡ አደ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አፍ -> ከፍ",
+      "reason": "Parallel to line 15, the commentary on 'ወነሥአቶ ፡ ደመና' reads 'ደመና ፡ ከፍ ፡ አደረገችው' (the cloud lifted him up high); 'ከ' was misread as 'አ' due to ink bleed."
+    }
+  ]
+}

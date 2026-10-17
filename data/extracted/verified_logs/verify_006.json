@@ -1,0 +1,80 @@
+{
+  "pdf_page": 6,
+  "book_page_ethiopic": "፻፳፭",
+  "elapsed_sec": 40.8,
+  "applied_count": 8,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 7,
+      "old_text": "ናገረ ጊዜ ሳራን ። የያዕቆብን",
+      "corrected_text": "ናገረ ጊዜ ሣራን ። የያዕቆብን",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሳ -> ሣ",
+      "reason": "The printed glyph in the image is ሣ (ንጉሥ ሣ) in ሣራን."
+    },
+    {
+      "column_index": 1,
+      "line_num": 19,
+      "old_text": "ኃብ ምክንያት ደወለ ምዓብ ተ",
+      "corrected_text": "ኃብ ምክንያት ደወለ ሞዓብ ተ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ምዓብ -> ሞዓብ",
+      "reason": "The printed glyph has the 7th-order loop (ሞ) for the biblical place name ደወለ ሞዓብ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 22,
+      "old_text": "ልዎን ውርፍን አጋብቷቸው",
+      "corrected_text": "ልዎን ውርፋን አጋብቷቸው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፍ -> ፋ",
+      "reason": "The printed text shows 4th-order ፋ in the proper name ውርፋን (Orpah)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 38,
+      "old_text": "ቶቿዋ ተከተሏት ። አላትና ትተ",
+      "corrected_text": "ቶቿ ተከተሏት ። እላትና ትተ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቶቿዋ -> ቶቿ, አላትና -> እላትና",
+      "reason": "The image prints ምራቶቿ (without an extra ዋ) and 6th-order እ in the traditional Amharic Andemta idiom እላትና ትተክልናለች ('she will eat and plant/conceive for us')."
+    },
+    {
+      "column_index": 2,
+      "line_num": 2,
+      "old_text": "ለቻቸው ውርፍ ከሞቱ እቴቴ",
+      "corrected_text": "ለቻቸው ውርፋ፡ ከሞተ እቴቴ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ውርፍ ከሞቱ -> ውርፋ፡ ከሞተ",
+      "reason": "The image clearly shows 4th-order ፋ in ውርፋ፡ followed by 1st-order ተ in ከሞተ (matching ከሞተ እቴቴ in line 6)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 8,
+      "old_text": "እገርሽ አገሬ ፈጣሪሽ ፈጣ",
+      "corrected_text": "አገርሽ አገሬ ፈጣሪሽ ፈጣ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እገርሽ -> አገርሽ",
+      "reason": "The initial character in the image is 1st-order አ in አገርሽ አገሬ ('your country is my country', Ruth 1:16)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 30,
+      "old_text": "ል ፤ እሆ በከመ ቃልከ ። እንደ ቃ",
+      "corrected_text": "ል ፤ ኦሆ በከመ ቃልከ ። እንደ ቃ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እሆ -> ኦሆ",
+      "reason": "Classical Ge'ez particle of assent ኦሆ ('so be it / amen') is printed with 7th-order ኦ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 38,
+      "old_text": "ንደሆነ ኡራሪ ለማራሪ ማራሪ",
+      "corrected_text": "ንደሆነ አራሪ ለማራሪ ማራሪ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኡራሪ -> አራሪ",
+      "reason": "The printed glyph is 1st-order አ in the Amharic noun አራሪ ('harvester/reaper' leaving gleanings ለማራሪ 'for the gleaner')."
+    }
+  ]
+}

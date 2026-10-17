@@ -1,0 +1,89 @@
+{
+  "pdf_page": 51,
+  "book_page_ethiopic": "፭፻፷፩",
+  "elapsed_sec": 23.0,
+  "applied_count": 9,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 22,
+      "old_text": "⟪ወይቤሎሙ ዘአልቦ ኀጢአት",
+      "corrected_text": "⟪ወይቤሎሙ ዘአልቦ ኃጢአት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኀ -> ኃ",
+      "reason": "The printed glyph has the 4th-order leg extension (ኃጢአት)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 25,
+      "old_text": "ከናንተ ወገን እርሷ የሰራች↵",
+      "corrected_text": "ከናንተ ወገን እርሷ የሠራች",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሰ -> ሠ",
+      "reason": "The printed glyph is ሠ (ንጉሥ ሠ) in የሠራችውን."
+    },
+    {
+      "column_index": 1,
+      "line_num": 26,
+      "old_text": "ውን ኃጢአት ያልሰራ ሰው",
+      "corrected_text": "ውን ኃጢአት ያልሠራ ሰው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሰ -> ሠ",
+      "reason": "The printed glyph is ሠ (ንጉሥ ሠ) in ያልሠራ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 31,
+      "old_text": "ቷል ይህስ እንዳይሆን ክባቲ",
+      "corrected_text": "ቷል ይህስ እንዳይሆን ከሳቴ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ክባቲ -> ከሳቴ",
+      "reason": "Both visually and philologically the text reads 'ከሳቴ አበሳ ነው' (revealer of sins), where ከሳቴ was misread as ክባቲ due to ink bleed."
+    },
+    {
+      "column_index": 2,
+      "line_num": 29,
+      "old_text": "⟪ወይቤላ አብእሲቶ አይቴ ሀለ↵",
+      "corrected_text": "⟪ወይቤላ ኦብእሲቶ አይቴ ሀለ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አ -> ኦ",
+      "reason": "Classical Ge'ez vocative particle ኦ (ኦብእሲቶ = 'O woman', translated in L31 as አንች ሴት)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 34,
+      "old_text": "ዘአፈአ እግዚኦ ።⟫",
+      "corrected_text": "ዘአርኢ እግዚኦ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዘአፈአ -> ዘአርኢ",
+      "reason": "The printed Ge'ez text is 'አልቦ ዘአርኢ እግዚኦ' ('There is no one whom I see, Lord'), directly glossed in L35-36 as 'አቤቱ የማየው የለም'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 15,
+      "old_text": "ተውሯቸው ከታክልት ቦታ",
+      "corrected_text": "ተሠውሯቸው ከታክልት ቦታ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ተውሯቸው -> ተሠውሯቸው",
+      "reason": "The printed word has ሠ after ተ: ተሠውሯቸው ('having hidden Himself from them')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 22,
+      "old_text": "ላ በይነዋ ጠቅሳ አሳየቻቸው",
+      "corrected_text": "ላ ባይነዋ ጠቅሳ አሳየቻቸው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በይነዋ -> ባይነዋ",
+      "reason": "The first character is 4th-order ባ (ባይነዋ = በዓይኗ / 'with her eye')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 23,
+      "old_text": "ድንጊያ ሁና ቀርታለች ፡",
+      "corrected_text": "ደንጊያ ሁና ቀርታለች ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ድ -> ደ",
+      "reason": "The printed glyph is 1st-order ደ (ደንጊያ), matching the archaic spelling used throughout the book."
+    }
+  ]
+}

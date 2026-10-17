@@ -1,0 +1,44 @@
+{
+  "pdf_page": 53,
+  "book_page_ethiopic": "፻፫ | ፻፬",
+  "elapsed_sec": 20.6,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 8,
+      "old_text": "ባታለንና ። አንድም ፡ በብዙ ፡ ጻር ፡ መንግ",
+      "corrected_text": "ባታለንና ። አንድም ፡ በብዙ ፡ ጸር ፡ መንግ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጻር -> ጸር",
+      "reason": "In the Andemta commentary, L07 gives the first reading 'በብዙ ጻር' (through much tribulation/agony, 4th order ጻ), while L08 introduces the alternative reading ('አንድም') 'በብዙ ጸር' (through many enemies/adversaries, 1st order ጸ with two equal-length legs clearly visible in the image)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 4,
+      "old_text": "ከብሔረ ፡ ይሁዳ ፡ ሂደው ፡ ለሕዝቡ ፡ ያስ",
+      "corrected_text": "ከብሔረ ፡ ይሁዳ ፡ ሄደው ፡ ለሕዝቡ ፡ ያስ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሂደው -> ሄደው",
+      "reason": "The printed glyph has the 5th-order (ኀምስ) loop on the right leg of ሀ ('ሄደው'), not the 3rd-order horizontal foot of 'ሂ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 33,
+      "old_text": "እመናን ፡ ተሰናባብተው ፡ ሂዱ ፡",
+      "corrected_text": "እመናን ፡ ተሰናባብተው ፡ ሄዱ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሂዱ -> ሄዱ",
+      "reason": "The printed glyph clearly shows the 5th-order ring 'ሄ' in 'ሄዱ', which was misread as 'ሂዱ'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 28,
+      "old_text": "⟪ወነአዝዞሙ ፡ ይዕቀቡ ፡ ሕገ ፡ ሙሴ ። ፡⟫",
+      "corrected_text": "⟪ወነአዝዞሙ ፡ ይዕቀቡ ፡ ሕገ ፡ ሙሴ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "። ፡ -> ።",
+      "reason": "Removed stray ink-bleed mark after the full stop '።' at the end of the Ge'ez verse."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "pdf_page": 46,
+  "book_page_ethiopic": "፬፻፳፰",
+  "elapsed_sec": 15.8,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 14,
+      "old_text": "⟪ወመልዓ ማየ ሐመሮሙ ።⟫",
+      "corrected_text": "⟪ወመልዓ ማይ ሐመሮሙ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ማየ -> ማይ",
+      "reason": "Both the printed glyph (which shows the 6th-order left loop of ይ) and Ge'ez syntax (where ማይ is the nominative subject and ሐመሮሙ is the accusative object, rendered in Amharic as መርከባቸውን ውሀ መላው) confirm ማይ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 29,
+      "old_text": "⟪ወኮነ ዛሕነ ዓቢየ ፤⟫",
+      "corrected_text": "⟪ወኮነ ዛሕን ዓቢይ ፤⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዛሕነ ዓቢየ -> ዛሕን ዓቢይ",
+      "reason": "The printed glyphs clearly show 6th-order ን and ይ (nominative subject of ወኮነ in Luke 8:24: ወኮነ ዛሕን ዓቢይ)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 34,
+      "old_text": "⟪ወፈርኀ ።⟫ ፈሩ ፡",
+      "corrected_text": "⟪ወፈርሁ ።⟫ ፈሩ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወፈርኀ -> ወፈርሁ",
+      "reason": "In Luke 8:25 the verb is 3rd person masculine plural ወፈርሁ (translated immediately as ፈሩ), and the image shows ሁ rather than ኀ."
+    }
+  ]
+}

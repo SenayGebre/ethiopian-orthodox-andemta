@@ -1,0 +1,44 @@
+{
+  "pdf_page": 93,
+  "book_page_ethiopic": "፮፻፫",
+  "elapsed_sec": 10.9,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 5,
+      "old_text": "ው ሥጋ ከበርኩ ።",
+      "corrected_text": "ው ሥራ ከበርኩ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሥጋ -> ሥራ",
+      "reason": "The glyph after ሥ is ራ (4th order ረ with bottom-right leg), forming ሥራ ('by their work I was glorified'), not ሥጋ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 15,
+      "old_text": "⟪አባ ቅዱስ ዕቀቦሙ በስምከ ለ",
+      "corrected_text": "⟪አባ ቅዱስ ዕቀቦሙ በስምከ ለ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ለ -> ለ (word wrap)",
+      "reason": "The preposition ለ at the end of line 15 attaches directly to እለ at the start of line 16 (ለእለ)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 31,
+      "old_text": "በሀብት ስበሕ በረድኤት አቅ↵",
+      "corrected_text": "በሀብት ስበህ በረድኤት አቅ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ስበሕ -> ስበህ",
+      "reason": "The printed glyph at the end of ስበህ is clearly ህ (6th order ሀ), matching all parallel occurrences on the page (Col 1 L35, Col 2 L28, Col 3 L18-19), not ሕ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 36,
+      "old_text": "⟪ወኢተኃጉለ ፩ሂ እምኔሆሙ",
+      "corrected_text": "⟪ወኢተኃጕለ ፩ሂ እምኔሆሙ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወኢተኃጉለ -> ወኢተኃጕለ",
+      "reason": "The printed character has the labiovelar hook of ጕ (ወኢተኃጕለ), matching ኃጕል on the next line."
+    }
+  ]
+}

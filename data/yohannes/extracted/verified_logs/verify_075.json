@@ -1,0 +1,17 @@
+{
+  "pdf_page": 75,
+  "book_page_ethiopic": "፭፻፹፭",
+  "elapsed_sec": 15.0,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 22,
+      "old_text": "እኛስ በክርስቶስ ሞት እንዴ",
+      "corrected_text": "እኛስ በክርስቶስ ሞት እንደ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እንዴ -> እንደ",
+      "reason": "The glyph at the end of line 22 is 6th-order ደ (joining with ሌለበት on line 23 to form እንደሌለበት, 'that there is no [death in Christ]'), not 5th-order ዴ."
+    }
+  ]
+}

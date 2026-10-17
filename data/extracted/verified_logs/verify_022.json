@@ -1,0 +1,44 @@
+{
+  "pdf_page": 22,
+  "book_page_ethiopic": "፻፵፩",
+  "elapsed_sec": 19.4,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 7,
+      "old_text": "ሚመ ታርእየኒሁ ኪያሃ ዕለተ",
+      "corrected_text": "ሚመ ታርእየኒኑ ኪያሃ ዕለተ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሁ -> ኑ",
+      "reason": "Ge'ez interrogative enclitic -ኑ on 'ታርእየኒኑ' (parallel to 'በመዋዕልየኑ' in L06), where 'ኑ' was misread as 'ሁ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 7,
+      "old_text": "ፆን ኒካዑን ገድሎ ሶስት ዓመት",
+      "corrected_text": "ዖን ኒካዖን ገድሎ ሶስት ዓመት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፆ -> ዖ, ዑ -> ዖ",
+      "reason": "Proper name 'ፈርዖን ኒካዖን' (Pharaoh Necho), where 7th-order 'ዖ' was misread as 'ፆ' and 'ዑ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 26,
+      "old_text": "ቢሰማው ነዓ ንትረአይ ገጸ በ",
+      "corrected_text": "ቢሰማው ነዓ ንትራአይ ገጸ በ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ረ -> ራ",
+      "reason": "Ge'ez VI-stem subjunctive 'ንትራአይ' (2 Kings 14:8) clearly printed with 4th-order 'ራ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 28,
+      "old_text": "ሱም እስመሁ ሞዕክሙ ለኤ",
+      "corrected_text": "ሱም እስመኑ ሞዕክዎ ለኤ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሁ -> ኑ, ሙ -> ዎ",
+      "reason": "Canonical Ge'ez citation (2 Kings 14:10) 'እስመኑ ሞዕክዎ ለኤዶምያስ ተዝኅረኑ ልብከ' (2nd masc. sg. perfect with 3rd masc. sg. object suffix '-ዎ' and interrogative '-ኑ')."
+    }
+  ]
+}

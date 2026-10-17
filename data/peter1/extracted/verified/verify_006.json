@@ -1,0 +1,80 @@
+{
+  "pdf_page": 6,
+  "book_page_ethiopic": "፻፻፮",
+  "elapsed_sec": 23.3,
+  "applied_count": 8,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 16,
+      "old_text": "የሚመርጥ ፡ ሆኖ ፡ አይደለም ፡ እንዲመ",
+      "corrected_text": "የሚመርጥ ፡ ሁኖ ፡ አይደለም ፡ እንዲመ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሆኖ -> ሁኖ",
+      "reason": "The printed glyph in the image is clearly archaic 2nd-order 'ሁ' (ሁኖ) with the side-stroke on the right leg, not 'ሆ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 17,
+      "old_text": "ረጡ ፡ ሆነው ፡ ቢገኙ ፡ ነው ፡ እንጅ ፡ እን",
+      "corrected_text": "ረጡ ፡ ሁነው ፡ ቢገኙ ፡ ነው ፡ እንጂ ፡ እን",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሆነው -> ሁነው, እንጅ -> እንጂ",
+      "reason": "The printed text shows archaic 'ሁነው' (2nd order ሁ) and 'እንጂ' with the 3rd-order foot ring on ጂ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 20,
+      "old_text": "የሚቆርጥ ፡ ሰው ፡ ዱር ፡ ገብቶ ፡ የቀና ፡",
+      "corrected_text": "የሚቈርጥ ፡ ሰው ፡ ዱር ፡ ገብቶ ፡ የቀና ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቆ -> ቈ",
+      "reason": "The printed glyph is labiovelar 'ቈ' (የሚቈርጥ), matching 'ቈርጦ' on the next line."
+    },
+    {
+      "column_index": 2,
+      "line_num": 21,
+      "old_text": "የቀናውን ፡ አይቶ ፡ ቈርጦ ፡ ይዞ ፡ ይሄዳል ፡",
+      "corrected_text": "የቀናውን ፡ አይቶ ፡ ቈርጦ ፡ ይዞ ፡ ይሂዳል ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ይሄዳል -> ይሂዳል",
+      "reason": "The printed glyph is clearly 'ሂ' (ይሂዳል), the standard classical Andemta orthography on this press."
+    },
+    {
+      "column_index": 2,
+      "line_num": 23,
+      "old_text": "ሶ ፡ ነውን ፡ ጥንቱን ፡ የቀና ፡ ሆኖ ፡ ቢያገ",
+      "corrected_text": "ሶ ፡ ነውን ፡ ጥንቱን ፡ የቀና ፡ ሁኖ ፡ ቢያገ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሆኖ -> ሁኖ",
+      "reason": "The image clearly prints 'ሁኖ' with 2nd-order 'ሁ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 29,
+      "old_text": "ናት ፡ ብሎ ፡ መርጦ ፡ ይዞ ፡ ይሄዳል ፤ አ",
+      "corrected_text": "ናት ፡ ብሎ ፡ መርጦ ፡ ይዞ ፡ ይሂዳል ፤ አ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ይሄዳል -> ይሂዳል",
+      "reason": "The printed glyph is clearly 'ሂ' (ይሂዳል)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 32,
+      "old_text": "ሆና ፡ ቢያገኛት ፡ ነው ፡ እንጂ ። እንደዚህ",
+      "corrected_text": "ሁና ፡ ቢያገኛት ፡ ነው ፡ እንጂ ። እንደዚህ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሆና -> ሁና",
+      "reason": "The printed glyph is clearly 'ሁና' with 2nd-order 'ሁ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 20,
+      "old_text": "ኤል ፡ ለርቱዓነ ፡ ልብ ፡ ለእጉነ ፡ ለጋይዮ",
+      "corrected_text": "ኤል ፡ ለርቱዓነ ፡ ልብ ፡ ለእኁነ ፡ ለጋይዮ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ለእጉነ -> ለእኁነ",
+      "reason": "In the Ge'ez citation from 3 John 1:1 ('ለእኁነ ፡ ለጋይዮስ' - 'to our brother Gaius'), the character is 2nd-order 'ኁ' (from እኁ-), which was visually confused with 'ጉ'."
+    }
+  ]
+}

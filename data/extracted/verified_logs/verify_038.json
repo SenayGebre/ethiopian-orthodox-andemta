@@ -1,0 +1,98 @@
+{
+  "pdf_page": 38,
+  "book_page_ethiopic": "፻፶፯",
+  "elapsed_sec": 36.6,
+  "applied_count": 10,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 3,
+      "old_text": "ግ ዳቦ ከማድረግ የያዝኸውን",
+      "corrected_text": "ማ ዳቦ ከማድረግ የያዝኸውን",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ግ -> ማ",
+      "reason": "The enclitic particle 'ማ' completing 'ደንጊያውንማ' from line 2 was misread as 'ግ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 4,
+      "old_text": "አንበሳም ያለኝ እንደሆነ አዳ",
+      "corrected_text": "እንበላም ያለኝ እንደሆነ አዳ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አንበሳም -> እንበላም",
+      "reason": "Smudged 'እንበላም' ('if he says to me: yes I will eat', contrasting with 'አትብላ' in L02) was misread as 'አንበሳም'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 18,
+      "old_text": "አዛዚ ብዬ ዕዳ አልበታለሁ ባያ",
+      "corrected_text": "አዛዚ ብዬ ዕዳ እልበታለሁ ባያ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አልበታለሁ -> እልበታለሁ",
+      "reason": "1st person imperfect 'እልበታለሁ' (with 6th-order 'እ') was misread as 'አልበታለሁ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 2,
+      "old_text": "ኅብስት ከመ ዘየሐዩ ሰብእ ።⟫",
+      "corrected_text": "ኅብስት ክመ ዘየሐዩ ሰብእ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ከመ -> ክመ",
+      "reason": "Canonical Ge'ez Matthew 4:4 'አኮ በኅብስት ክመ ዘየሐዩ ሰብእ' ('not by bread alone', 6th-order 'ክ') was misread as 'ከመ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 29,
+      "old_text": "ታ ። የሰው ባሕርዩ ባሕርይ እንስሳዊ",
+      "corrected_text": "ታ ። የሰው ባሕርዩ ባሕርይ እ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እንስሳዊ -> እ",
+      "reason": "Line 29 ends right after 'እ', while 'ንስሳዊ' is printed at the start of line 30."
+    },
+    {
+      "column_index": 2,
+      "line_num": 34,
+      "old_text": "እምር ከመ በአማን ሲያይ ቃለ",
+      "corrected_text": "እምር ከመ በአማን ሲሳይ ቃለ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሲያይ -> ሲሳይ",
+      "reason": "Ge'ez noun 'ሲሳይ' ('nourishment/sustenance', paralleling 'ሲሲተ ልብ' in L35) was misread as 'ሲያይ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 15,
+      "old_text": "ህናትን ድል ነሥቼበት በማለ",
+      "corrected_text": "ህናትን ድል ነሥቼበት በማላ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በማለ -> በማላ",
+      "reason": "Negative relative verb 'በማላውቅ' (with 4th-order 'ላ') was misread as 'በማለውቅ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 18,
+      "old_text": "ነሳበት በቤተ መቅደስ ቢሆን",
+      "corrected_text": "ነሣበት በቤተ መቅደስ ቢሆን",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ነሳበት -> ነሣበት",
+      "reason": "The printed glyph uses 'ሣ' (from ነሥአ/ነሣ) matching 'ነሥቼበት' and 'ይነሣኝ' in the same passage."
+    },
+    {
+      "column_index": 3,
+      "line_num": 26,
+      "old_text": "ከዝንቦው ማዕዘንት ያለ እን",
+      "corrected_text": "ከዝግባው ማዕዘንት ያለ እን",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከዝንቦው -> ከዝግባው",
+      "reason": "The architectural term 'ከዝግባው' ('from its cedar beam/roofing', explaining 'ተድባብ') was misread as 'ከዝንቦው'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 30,
+      "old_text": "ት አምሞ ጠምጥሞ መነሳسን",
+      "corrected_text": "ት አምሞ ጠምጥሞ መነሳንስ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "መነሳسን -> መነሳንስ",
+      "reason": "The word 'መነሳንስ' had a stray Arabic character 'س' and transposed final letters in Draft Pass 1."
+    }
+  ]
+}

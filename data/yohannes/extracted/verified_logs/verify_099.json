@@ -1,0 +1,26 @@
+{
+  "pdf_page": 99,
+  "book_page_ethiopic": "፮፻፱",
+  "elapsed_sec": 14.3,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 22,
+      "old_text": "⟪ወበጊዜሃ ነቀወ ዶርሆ ሶቤሃ ።⟫",
+      "corrected_text": "⟪ወበምልአ ነቀወ ዶርሆ ሶቤሃ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወበጊዜሃ -> ወበምልአ",
+      "reason": "The printed Ge'ez text clearly reads 'ወበምልአ ነቀወ ዶርሆ ሶቤሃ ።' (and immediately the cock crowed), which Stage 1 hallucinated as 'ወበጊዜሃ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 17,
+      "old_text": "ኴንኖ ለአኀوك እንዲል ።",
+      "corrected_text": "ኴንኖ ለእኁከ እንዲል ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ለአኀوك -> ለእኁከ",
+      "reason": "Stage 1 leaked non-Ethiopic (Arabic) characters into the Ge'ez patristic citation 'አንተ ትኴንኖ ለእኁከ እንዲል ።'. The image clearly shows the Ge'ez word 'ለእኁከ'."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "pdf_page": 85,
+  "book_page_ethiopic": "፭፻፺፭",
+  "elapsed_sec": 14.8,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 39,
+      "old_text": "ለዚሀ አይሰጥምና ። አንድም",
+      "corrected_text": "ለዚህ አይሰጥምና ። አንድም",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ለዚሀ -> ለዚህ",
+      "reason": "The final character of ለዚህ is 6th-order ህ (with the left-side sadis hook), misread as 1st-order ሀ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 3,
+      "old_text": "⟪ወኢይረክብ ብላዕሌየ ወኢም",
+      "corrected_text": "⟪ወኢይረክብ በላዕሌየ ወኢም",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ብላዕሌየ -> በላዕሌየ",
+      "reason": "In Ge'ez (John 14:30), the preposition is 1st-order በ- in በላዕሌየ ('upon me / in me'), not 6th-order ብ-."
+    }
+  ]
+}

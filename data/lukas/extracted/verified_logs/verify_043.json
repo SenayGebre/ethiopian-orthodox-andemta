@@ -1,0 +1,62 @@
+{
+  "pdf_page": 43,
+  "book_page_ethiopic": "፬፻፳፭",
+  "elapsed_sec": 63.0,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 15,
+      "old_text": "በእንተ ፈሪሳዊ ወኃጥዕት ብ",
+      "corrected_text": "በእንተ ፈሪሳዊ ወኃጥእት ብ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዕ -> እ",
+      "reason": "The printed glyph in ወኃጥእት has the two bottom legs of 6th-order እ (ኃጥእት), not ዕ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 25,
+      "old_text": "⟪ወመጽአት ብእሲት ኃጥዕት",
+      "corrected_text": "⟪ወመጽአት ብእሲት ኃጥእት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዕ -> እ",
+      "reason": "Both visually on the page and in canonical Ge'ez (Luke 7:37), the word is printed ኃጥእት with 6th-order እ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 30,
+      "old_text": "፲፬ ፫ ዮሐ ፲፪ ፪ ፥",
+      "corrected_text": "፲፬ ፫ ዮሐ ፲፪ ፫ ፥",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፪ -> ፫",
+      "reason": "The cross-reference for Mary anointing Jesus's feet with ointment of spikenard is John 12:3 (ዮሐ ፲፪ ፫), and three horizontal strokes are visible in the numeral."
+    },
+    {
+      "column_index": 2,
+      "line_num": 23,
+      "old_text": "⟪እምአያመረኑ ከመ ኃጥእት",
+      "corrected_text": "⟪እምአእመረኑ ከመ ኃጥእት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ያ -> እ",
+      "reason": "In Luke 7:39, the Ge'ez conditional verb is እምአእመረኑ ('would he not have known', from አእመረ), and the third character in the image is clearly 6th-order እ, misread as ያ due to ink bleed."
+    },
+    {
+      "column_index": 3,
+      "line_num": 5,
+      "old_text": "⟪ወካልኡኒ ሃምሳ ።⟫",
+      "corrected_text": "⟪ወካልኡኒ ኀምሳ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሃ -> ኀ",
+      "reason": "The printed Ge'ez word for 'fifty' (Luke 7:41) begins with ኀ (ኀምሳ), not ሃ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 26,
+      "old_text": "አመነ ፈታሕከ ። ዕውነት ፈረ",
+      "corrected_text": "⟪አማነ ፈታሕከ ።⟫ ዕውነት ፈረ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "መ -> ማ",
+      "reason": "The alternative Ge'ez reading cited before the Amharic gloss 'ዕውነት ፈረድህ' is አማነ ፈታሕከ ('truly you have judged'), with the 4th-order loop on ማ clearly visible."
+    }
+  ]
+}

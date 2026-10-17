@@ -1,0 +1,26 @@
+{
+  "pdf_page": 4,
+  "book_page_ethiopic": "፪፻፹፪ | ፪፻፹፫",
+  "elapsed_sec": 18.4,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 17,
+      "old_text": "ጉዳት ፡ አንስታለን ። (ወአልቦ ፡ ርትዕ) ፡",
+      "corrected_text": "ጉዳት ፡ እንስታለን ። (ወአልቦ ፡ ርትዕ) ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አንስታለን -> እንስታለን",
+      "reason": "The 1st-person plural imperfective prefix is 6th-order እ (እንስታለን 'we go astray', rendering Ge'ez ንጌጊ ለርእስነ), which is clearly visible on the page."
+    },
+    {
+      "column_index": 4,
+      "line_num": 7,
+      "old_text": "⟪አማን ፡ ፍቅረ ፡ እግዚአብሔር ፡ ፍጹም ፡ ላዕሌሁ ፡⟫",
+      "corrected_text": "⟪አማን ፡ ፍቅረ ፡ እግዚአብሔር ፡ ፍጹም ፡ ላዕሌሁ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፡ -> ።",
+      "reason": "The printed line ends with a full four-dot period (።) after ላዕሌሁ."
+    }
+  ]
+}

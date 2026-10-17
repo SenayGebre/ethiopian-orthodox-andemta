@@ -1,0 +1,35 @@
+{
+  "pdf_page": 102,
+  "book_page_ethiopic": "፪፻፳፩",
+  "elapsed_sec": 9.0,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 33,
+      "old_text": "[፫] ሉቃ ፫ ፮ እንዲህ ብሎ በም↵",
+      "corrected_text": "[፫] ሉቃ ፰ ፬ እንዲህ ብሎ በም↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "፫ ፮ -> ፰ ፬",
+      "reason": "The cross-reference to the Parable of the Sower in Luke is Luke 8:4 (ሉቃ ፰ ፬), where ፰ and ፬ were misread as ፫ and ፮."
+    },
+    {
+      "column_index": 2,
+      "line_num": 14,
+      "old_text": "ል ምሳሌውንም እንዲ ባወቀ",
+      "corrected_text": "ል ምሳሌውንም እንዲህ አውቆ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እንዲ ባወቀ -> እንዲህ አውቆ",
+      "reason": "In the image, 'እንዲህ አውቆ' (parallel to L13 'ትንቢቱን አውቆ አናግሯል') is printed, with a faint 'ህ' and 'አውቆ' misread as 'ባወቀ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 33,
+      "old_text": "⟪አልቦ መሬት ብዙኀ ወውእተ⟫",
+      "corrected_text": "⟪አልቦ መሬት ብዙኅ ወውእተ⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ብዙኀ -> ብዙኅ",
+      "reason": "In the printed Ge'ez text (Matthew 13:5), the nominative/adjectival form is 6th order 'ብዙኅ' (modifying መሬት), with the left leg hook of ኅ clearly visible."
+    }
+  ]
+}

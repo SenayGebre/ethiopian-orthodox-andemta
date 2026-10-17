@@ -1,0 +1,53 @@
+{
+  "pdf_page": 77,
+  "book_page_ethiopic": "፻፶፩ | ፻፶፪",
+  "elapsed_sec": 24.7,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 5,
+      "old_text": "⟪ወኀረሙ ፡ ኅብስተ ፡ ወማየ ፡ ወይቤሉ ፡ ኢንበልዕ ፡",
+      "corrected_text": "⟪ወኀረሙ ፡ ኅብስተ ፡ ወማየ ፡ ወይቤሉ ፡ ኢንብላዕ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በል -> ብላ",
+      "reason": "The printed Ge'ez subjunctive form is clearly ኢንብላዕ (matching lines 8 and 20), where 6th-order ብ and 4th-order ላ were misread as በል."
+    },
+    {
+      "column_index": 2,
+      "line_num": 8,
+      "old_text": "መከረውብሃል፡ብሎ፡ለጳውሎስ፡ ነገረው ።",
+      "corrected_text": "መክረውብሃል፡ብሎ፡ለጳውሎስ፡ ነገረው ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ከ -> ክ",
+      "reason": "The printed Amharic gerundive compound is መክረውብሃል (with 6th-order ክ, 'they have plotted against you'), misread as 1st-order ከ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 11,
+      "old_text": "አድግኒ ፡ ወያጽዕንዎ ፡ ለጳውሎስ ፥⟫",
+      "corrected_text": "አድገኒ ፡ ወያጽዕንዎ ፡ ለጳውሎስ ፥⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ግ -> ገ",
+      "reason": "The printed Ge'ez word is አድገኒ (accusative አድገ + enclitic -ኒ, 'a mount also'), where 1st-order ገ was misread as 6th-order ግ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 29,
+      "old_text": "⟪፳፯ ፤ ለዝአ ፡ ብእሲአ ፡ አኀዝዎአ ፡ አይሁድአ ፡",
+      "corrected_text": "⟪፳፯ ፤ ለዝ ፡ ብእሲ ፡ አኀዝዎ ፡ አይሁድ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አ ፡ -> ፡",
+      "reason": "Stage 1 hallucinated spurious አ characters before the word dividers; the printed Ge'ez text clearly reads ለዝ ፡ ብእሲ ፡ አኀዝዎ ፡ አይሁድ ፡."
+    },
+    {
+      "column_index": 4,
+      "line_num": 30,
+      "old_text": "ወፈቀዱአ ፡ ይቅትልዎአ ።⟫",
+      "corrected_text": "ወፈቀዱ ፡ ይቅትልዎ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አ ፡ -> ፡",
+      "reason": "Stage 1 hallucinated spurious አ characters before the punctuation; the printed Ge'ez text clearly reads ወፈቀዱ ፡ ይቅትልዎ ።."
+    }
+  ]
+}

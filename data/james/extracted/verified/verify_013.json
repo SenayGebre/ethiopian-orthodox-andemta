@@ -1,0 +1,44 @@
+{
+  "pdf_page": 13,
+  "book_page_ethiopic": "፻፼፴፯ | ፻፼፴፰",
+  "elapsed_sec": 15.7,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 14,
+      "old_text": "ሶበ ፡ ትሁቦ ፡ ህየንተ ፡ አሐዱ ፡ ወላሳ ፡",
+      "corrected_text": "ሶበ ፡ ትሁቦ ፡ ህየንተ ፡ አሐዱ ፡ ሠላሳ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወላሳ -> ሠላሳ",
+      "reason": "In the Ge'ez patristic citation ('ህየንተ ፡ አሐዱ ፡ ሠላሳ ፡ ወስሳ ፡ ወምእተ'), 'ሠላሳ' (thirty, matching L11 'ሠላሳ፡ ስሳ ፡ መቶ') has a faded central stroke on 'ሠ' that made it look like 'ወ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 24,
+      "old_text": "ኢበርእስክሙ ፡ ወኢበስእርተ ፡ ርእስ↵",
+      "corrected_text": "ኢበርእስክሙ ፡ ወኢበስእርተ ፡ ርእስ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ስእርተ -> ስእርተ",
+      "reason": "Removed stray wrap marker if any, verified 'ወኢበስእርተ' matches the printed glyphs on the page."
+    },
+    {
+      "column_index": 4,
+      "line_num": 4,
+      "old_text": "ወደ ፡ ገሃነም ፡ እንዳትገቡ ፡ ማቴ ፡፭፥፴፬፤",
+      "corrected_text": "ወደ ፡ ገሃነም ፡ እንዳትገቡ ፡ ማቴ ፡፭፥፴፬፥",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፴፬፤ -> ፴፬፥",
+      "reason": "The verse range separator after ፴፬ before ፴፰ on the next line is a colon/preface colon."
+    },
+    {
+      "column_index": 4,
+      "line_num": 5,
+      "old_text": "፶፰ ።",
+      "corrected_text": "፴፰ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፶፰ -> ፴፰",
+      "reason": "In the reference to Matthew 5:34-37/38 (on oaths, 'ማቴ ፡ ፭ ፥ ፴፬-፴፰'), the tens numeral is '፴' (30), not '፶' (50); the bottom loop of '፴' is clearly visible."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "pdf_page": 92,
+  "book_page_ethiopic": "፪፻፲፩",
+  "elapsed_sec": 10.2,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "ቅጠል ይርገፋ ባላላችኋቸው↵",
+      "corrected_text": "ቅጠል ይርገፉ ባላላችኋቸው↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ፋ -> ፉ",
+      "reason": "The printed glyph in the image has the 2nd-order (ካዕብ) right-side stroke of 'ፉ' (ይርገፉ), not 'ፋ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 3,
+      "old_text": "እመ ወድቆ ውስተ ግብ በሰ↵",
+      "corrected_text": "እመ ወድቀ ውስተ ግብ በሰ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቆ -> ቀ",
+      "reason": "In canonical Ge'ez (Matthew 12:11) and in the zoomed image, the conditional verb after 'ወእመ' is perfective 1st-order 'ወድቀ' ('if it falls'), not gerundive 'ወድቆ'."
+    }
+  ]
+}

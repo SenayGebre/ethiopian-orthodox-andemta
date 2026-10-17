@@ -1,0 +1,98 @@
+{
+  "pdf_page": 79,
+  "book_page_ethiopic": "፬፻፷፩",
+  "elapsed_sec": 24.1,
+  "applied_count": 10,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 5,
+      "old_text": "ምን።ከመ ሣራሮ ከጀመረ በኋ",
+      "corrected_text": "ምን።ከመ ሣረሮ ከጀመረ በኋ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ራ -> ረ",
+      "reason": "The Ge'ez citation from v. 29 is 'ከመ ሣረሮ' (after he has laid the foundation), with 1st-order ረ clearly visible on the page."
+    },
+    {
+      "column_index": 1,
+      "line_num": 24,
+      "old_text": "⟪ወእመ አኮሰ እንዘ ርኅቁ ው",
+      "corrected_text": "⟪ወእመ አኮሰ እንዘ ርኁቅ ው",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኅቁ -> ኁቅ",
+      "reason": "Canonical Ge'ez Luke 14:32 reads 'እንዘ ርኁቅ ውእቱ' (while he is yet a great way off); the 2nd-order ኁ and 6th-order ቅ are clearly printed."
+    },
+    {
+      "column_index": 2,
+      "line_num": 5,
+      "old_text": "ማቴ ፬ ፲፫ ማር ፱ ፵ ።",
+      "corrected_text": "ማቴ ፭ ፲፫ ማር ፱ ፶ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፬ -> ፭, ፵ -> ፶",
+      "reason": "Cross-reference numerals for the salt saying (Luke 14:34) are Matthew 5:13 (፭ ፲፫) and Mark 9:50 (፱ ፶), which match the printed Ethiopic numerals."
+    },
+    {
+      "column_index": 2,
+      "line_num": 18,
+      "old_text": "ከዳሪ ይጥሉታል እንጂ ።",
+      "corrected_text": "ከዱር ይጥሉታል እንጂ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዳሪ -> ዱር",
+      "reason": "The Amharic gloss for 'አፍአ ውስተ መሬት' (out into the land/field) is 'ከዱር ይጥሉታል እንጂ' (they throw it outside/into the field); ዱር was misread as ዳሪ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 32,
+      "old_text": "ቀራጮች ኃጥአንም ክርሱ ሊ",
+      "corrected_text": "ቀራጮች ኃጥአንም ከርሱ ሊ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ክ -> ከ",
+      "reason": "1st-order ከ in 'ከርሱ' (from him) was misread as 6th-order ክ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 3,
+      "old_text": "ክርሳቸውም ጋራ ይበላል ።",
+      "corrected_text": "ከርሳቸውም ጋራ ይበላል ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ክ -> ከ",
+      "reason": "1st-order ከ in 'ከርሳቸውም ጋራ' (with them) was misread as 6th-order ክ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 17,
+      "old_text": "ኅሥሥ ኅበ እንተ ተገድፎ ።⟫",
+      "corrected_text": "ኅሥሥ ኀበ እንተ ተገድፎ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኅበ -> ኀበ",
+      "reason": "The Ge'ez preposition 'ኀበ' uses 1st-order ኀ, not 6th-order ኅ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 18,
+      "old_text": "ዘጠና ዘጠኙን ክበረሀ ትቶ ወ",
+      "corrected_text": "ዘጠና ዘጠኙን ከበረሀ ትቶ ወ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ክ -> ከ",
+      "reason": "1st-order ከ in the locative prefix 'ከበረሀ' (in the wilderness) was misread as 6th-order ክ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 19,
+      "old_text": "ደጠፋበት ሊሻ ይሂድ የለምን፤",
+      "corrected_text": "ደጠፋበት ሊሻ ይሄድ የለምን፤",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሂ -> ሄ",
+      "reason": "The imperfective verb is 'ይሄድ የለምን' (does he not go?) with 5th-order ሄ clearly visible on the right leg."
+    },
+    {
+      "column_index": 3,
+      "line_num": 37,
+      "old_text": "ዓቢይ ትፍሥሕት በሰማያት በበ",
+      "corrected_text": "ዐቢይ ትፍሥሕት በሰማያት በበ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዓ -> ዐ",
+      "reason": "The printed Ge'ez adjective is 'ዐቢይ' (great) with 1st-order ዐ."
+    }
+  ]
+}

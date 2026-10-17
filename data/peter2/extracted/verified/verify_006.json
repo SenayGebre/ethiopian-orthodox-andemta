@@ -1,0 +1,62 @@
+{
+  "pdf_page": 6,
+  "book_page_ethiopic": "፪፻፸፪ | ፪፻፸፫",
+  "elapsed_sec": 25.6,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 12,
+      "old_text": "ቤዝ፡ክርስቶስ፡በልቡናችሁ፡ እስኪያድርባ",
+      "corrected_text": "ቤዛ፡ክርስቶስ፡በልቡናችሁ፡ እስኪያድርባ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቤዝ -> ቤዛ",
+      "reason": "The printed glyph is 4th-order ዛ ('ቤዛ ክርስቶስ', Christ the Redeemer/Daystar), misread as 6th-order ዝ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 33,
+      "old_text": "ሕረ ፡ ንስሓችሁ ፡ ብትሚወቱ ፡ (ወትኔ",
+      "corrected_text": "ሕረ ፡ ንስሓችሁ ፡ ብትጫወቱ ፡ (ወትኔ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ብትሚወቱ -> ብትጫወቱ",
+      "reason": "The triple-looped ጫ in 'ብትጫወቱ' ('if you converse/commune with your confessor') was misread as ሚ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 21,
+      "old_text": "ውብነ ፡ ዓዲ ፡ ዘእምዝኒ ፡ ይቀድም ፡ ቃለ ፡",
+      "corrected_text": "ወብነ ፡ ዓዲ ፡ ዘእምዝኒ ፡ ይቀድም ፡ ቃለ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ውብነ -> ወብነ",
+      "reason": "Canonical Ge'ez quote from v. 19 is 'ወብነ ዓዲ' ('And we have also...'); the round 1st-order ወ was misread as 6th-order ው."
+    },
+    {
+      "column_index": 2,
+      "line_num": 25,
+      "old_text": "⟪ከመ ፡ ኵሉ ፡ ትነብዮ ፡ ዘውስተ ፡ መጽሐፍ ፡ አልቦ ፡",
+      "corrected_text": "⟪ከመ ፡ ኵሉ ፡ ተነብዮ ፡ ዘውስተ ፡ መጽሐፍ ፡ አልቦ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ትነብዮ -> ተነብዮ",
+      "reason": "The Ge'ez verbal noun is 'ተነብዮ' (prophecy, matching L33) with a straight-stem 1st-order ተ, misread as 6th-order ት."
+    },
+    {
+      "column_index": 2,
+      "line_num": 28,
+      "old_text": "ነቱ ፡ እንደሌለ ፡ ወጥቆለት ፡ እንዳለ ፡",
+      "corrected_text": "ነቱ ፡ እንደሌለ ፡ ወጥቶለት ፡ እንዳለ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወጥቆለት -> ወጥቶለት",
+      "reason": "The printed glyph is 7th-order ቶ in 'ወጥቶለት' (having come out / been fulfilled for it), misread as ቆ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 13,
+      "old_text": "ራን ፡ ነበሩ ፡ በኤርምያስ ፤ ጊዜ ፡ እለ ፡",
+      "corrected_text": "ራን ፡ ነበሩ ፡ በኤርምያስ ፡ ጊዜ ፡ እለ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፤ -> ፡",
+      "reason": "A standard word separator (ሁለት ነጥብ) between 'በኤርምያስ' and 'ጊዜ' had slight ink bleed and was misread as ድረዝ (፤)."
+    }
+  ]
+}

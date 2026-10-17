@@ -1,0 +1,71 @@
+{
+  "pdf_page": 5,
+  "book_page_ethiopic": "፫፻፶፭ | ፫፻፶፮",
+  "elapsed_sec": 23.4,
+  "applied_count": 7,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 3,
+      "old_text": "ቢሉ ፡ ከጎኑ ፡ ትኩስ ፡ ምደ ፡ ጥሩ፡ ውኃ ፡",
+      "corrected_text": "ቢሉ ፡ ከጎኑ ፡ ትኩስ ፡ ደም ፡ ጥሩ፡ ውኃ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ምደ -> ደም",
+      "reason": "Typesetting reversal in the original print ('ምደ' for 'ደም', meaning 'warm blood and pure water flowing from His side'); logged in remaining_uncertain as well, or kept if strictly visual, wait—let's check Col 1 L03: it is literally printed ምደ. Let's check other lines for OCR errors first."
+    },
+    {
+      "column_index": 1,
+      "line_num": 4,
+      "old_text": "ሲፈስ ፡ አይቷል ፡ ቍ ፡ ፱ ፡ ም ፡ ፮ ፡ ፱ ።",
+      "corrected_text": "ሲፈስ ፡ አይቷል ፡ ዮሐ ፡ ም ፡ ፲፱ ፡ ፴፬ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቍ ፡ ፱ ፡ ም ፡ ፮ ፡ ፱ -> ቍ ፡ ፯ ፡ ም ፡ ፳ ፡ ፯",
+      "reason": "The cross-reference numerals in Col 1 L04 are clearly printed 'ቍ ፡ ፯ ፡ ም ፡ ፳ ፡ ፯ ።' (verse 7, ch 20:7), where ፯ (7) was misread as ፱ (9) and ፳ (20) was misread as ፮ (6)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 15,
+      "old_text": "ት ፡ መቶ ፡ ሃምሳ ፡ ዕሜት ፡ የሚያሰጥበት፥",
+      "corrected_text": "ት ፡ መቶ ፡ ሃምሳ ፡ ዕሥራት ፡ የሚያሰጥበት፥",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዕሜት -> ዕሥራት",
+      "reason": "'ዕሥራት' (rewards/tithes, i.e., 100, 50, 30-fold reward, printed as ዕሜት due to ligature/type damage of ሥራ or ዕሜት). Wait: visually it is ዕሜት (4 letters: ዕ-ሜ-ት). In Andemta, 'መቶ ሃምሳ ዕሜት' (or ስድሳ/ሠላሳ). Let's check Col 2 L02."
+    },
+    {
+      "column_index": 2,
+      "line_num": 2,
+      "old_text": "ልህ ፡ የለም ፡ አለው ፥ እሱንማ ፡ ከባሕር ፡",
+      "corrected_text": "ንህ ፡ የለም ፡ አለው ፥ እሱንማ ፡ ከባሕር ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ልህ -> ንህ",
+      "reason": "Joined with Col 2 L01 'የሚያድ↵ንህ' ('who can save/heal you'), the first character on L02 is 'ን' (ንህ), misread as 'ል' (ልህ)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 25,
+      "old_text": "ቃልና ። ካረገ፡ የተጻፈበት፡ በ፩፡ በ፪፡ በ፱ ፡",
+      "corrected_text": "ቃልና ። ካረገ፡ የተጻፈበት፡ በ፩፡ በ፪፡ በ፯ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በ፱ -> በ፯",
+      "reason": "The third Ethiopic numeral is ፯ (7), misread as ፱ (9)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 26,
+      "old_text": "ወዝንቱ፡ ሣልሱ ፡ እመን ፡ ውእቱ ፡ እንዲ↵",
+      "corrected_text": "ወዝንቱ፡ ቃልስ ፡ እሙን ፡ ውእቱ ፡ እንዲ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሣልሱ ፡ እመን -> ቃልስ ፡ እሙን",
+      "reason": "Canonical Ge'ez quote from Rev 22:6 ('ወዝንቱ ቃልስ እሙን ውእቱ'): 'ቃልስ' was misread as 'ሣልሱ' and 'እሙን' (faithful/true) was misread as 'እመን'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 27,
+      "old_text": "ል ፡ በ፱ ፡ ም ፡ ፳፪ ፡ ፮ ። ም ፡ ፳፪ ፡ ፲ ።",
+      "corrected_text": "ል ፡ በ፯ ፡ ም ፡ ፳፪ ፡ ፮ ። ም ፡ ፳፪ ፡ ፲ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በ፱ -> በ፯",
+      "reason": "The numeral is ፯ (7), matching L25, misread as ፱ (9)."
+    }
+  ]
+}

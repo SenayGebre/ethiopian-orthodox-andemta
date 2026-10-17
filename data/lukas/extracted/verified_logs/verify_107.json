@@ -1,0 +1,53 @@
+{
+  "pdf_page": 107,
+  "book_page_ethiopic": "፬፻፹፱",
+  "elapsed_sec": 14.3,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 5,
+      "old_text": "በገባዐ ፋሲካውን ወዴት ልና",
+      "corrected_text": "በገባዕ ፋሲካውን ወዴት ልና",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በገባዐ -> በገባዕ",
+      "reason": "The word printed is በገባዕ ('at the gathering/feast'), with 6th-order ዕ (note the top bend of ዕ), not 1st-order ዐ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 30,
+      "old_text": "⟪ወሖዊሮሙ ረከቡ በከመ ይቤ",
+      "corrected_text": "⟪ወሐዊሮሙ ረከቡ በከመ ይቤ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወሖዊሮሙ -> ወሐዊሮሙ",
+      "reason": "Classical Ge'ez gerundive of ሖረ is ሐዊሮሙ (with 1st-order ሐ), not ሖዊሮሙ; the image clearly shows ሐ without a 7th-order loop."
+    },
+    {
+      "column_index": 2,
+      "line_num": 15,
+      "old_text": "ዳቦውን አንስቶ አመስግነ ቆር",
+      "corrected_text": "ዳቦውን አንስቶ አመስግኖ ቆር",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አመስግነ -> አመስግኖ",
+      "reason": "Amharic converb translating Ge'ez አእኰተ is አመስግኖ ('having given thanks', parallel to አንስቶ and ቆርሶ); the 7th-order ring on ኖ is visible in the image."
+    },
+    {
+      "column_index": 2,
+      "line_num": 22,
+      "old_text": "ዴህ አልበላም ብዬ እነግራች",
+      "corrected_text": "ዲህ አልበላም ብዬ እነግራች",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እንግዴህ -> እንግዲህ",
+      "reason": "The split word across L21-L22 is እንግዲህ (with 3rd-order ዲ having a horizontal foot, not a 5th-order loop ዴ)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 26,
+      "old_text": "⟪ወይቤሎሙ ንሥኡ ዘንተ ወ",
+      "corrected_text": "⟪ወይቤሎሙ ንሥኡ ዘንተ ወ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወ -> ወ-",
+      "reason": "The proclitic conjunction ወ- at the end of L26 wraps directly into ተካፈልዎ on L27 (ወተካፈልዎ)."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "pdf_page": 1,
+  "book_page_ethiopic": "፫፻፲፫",
+  "elapsed_sec": 24.8,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 10,
+      "old_text": "ካሰበው ፡ ደርሶ ፡ ብዙ ፡ አስትምሮ ፡ አሳ",
+      "corrected_text": "ካሰበው ፡ ደርሶ ፡ ብዙ ፡ አስተምሮ ፡ አሳ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ት -> ተ",
+      "reason": "The printed glyph has the straight crossbar of 1st-order ተ, forming the standard Amharic gerundive አስተምሮ ('having taught')."
+    },
+    {
+      "column_index": 2,
+      "line_num": 12,
+      "old_text": "ይሀማ ፡ እሱስ ፡ እንደ ፡ አይሁድ ፡ ይሰድ",
+      "corrected_text": "ይህማ ፡ እሱስ ፡ እንደ ፡ አይሁድ ፡ ይሰድ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሀ -> ህ",
+      "reason": "The second character has the 6th-order left-side indentation of ህ, forming the Amharic demonstrative ይህማ ('as for this')."
+    },
+    {
+      "column_index": 2,
+      "line_num": 25,
+      "old_text": "በዩደጁ ፡ ይተረካል ።",
+      "corrected_text": "በየደጁ ፡ ይተረካል ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዩ -> የ",
+      "reason": "A stray ink speck below the stem of የ was misread as ዩ; the printed word is the standard Andemta phrase በየደጁ ('in its respective place/section')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 10,
+      "old_text": "አምላክ ፡ ነው። (ጥቅ) ፡ ወእምጽኡ ፡ ሜራ ፡",
+      "corrected_text": "አምላክ ፡ ነው። (ጥቅ) ፡ ወአምጽኡ ፡ ሜራ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እ -> አ",
+      "reason": "Both the image and the Ge'ez citation (Acts 14:13, ወአምጽኡ ሜራ ዘድዮስ 'and the priest of Zeus brought...') show 1st-order አ in ወአምጽኡ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 11,
+      "old_text": "ግሥት ፡ ትላለህ ፡ እንጅ ፡ ትዕግሥት ፡",
+      "corrected_text": "ግሥት ፡ ትላለህ ፡ እንጂ ፡ ትዕግሥት ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጅ -> ጂ",
+      "reason": "The 3rd-order vowel foot on ጂ is visible on the right leg, forming the standard particle እንጂ."
+    }
+  ]
+}

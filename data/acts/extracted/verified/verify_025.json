@@ -1,0 +1,26 @@
+{
+  "pdf_page": 25,
+  "book_page_ethiopic": "፳፪ | ፳፫",
+  "elapsed_sec": 13.7,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 11,
+      "old_text": "በቀር ፡ የምበልጥህ ፡ የለም ፡ ብሎ ፡ ሖቲ",
+      "corrected_text": "በቀር ፡ የምበልጥህ ፡ የለም ፡ ብሎ ፡ ኀቲ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሖ -> ኀ",
+      "reason": "The word split across lines 11-12 is ኀቲም (signet/seal ring, paired with ቀለበቱን). The 1st-order Fidel ኀ was misread as ሖ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 24,
+      "old_text": "ዘፍ ፡ ፴፩ ፥ ፴—፴፭ ፡",
+      "corrected_text": "ዘፍ ፡ ፵፩ ፥ ፵—፵፭ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፴ -> ፵",
+      "reason": "Both visually (the bottom loop of the Ethiopic numeral ፵ = 40) and biblically (Pharaoh's elevation of Joseph is in Genesis 41:40-45), the numeral is ፵ rather than ፴."
+    }
+  ]
+}

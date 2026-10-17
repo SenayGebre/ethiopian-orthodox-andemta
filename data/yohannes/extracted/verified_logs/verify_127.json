@@ -1,0 +1,35 @@
+{
+  "pdf_page": 127,
+  "book_page_ethiopic": "፮፻፴፮",
+  "elapsed_sec": 18.9,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "አራተኛው ሰንጠረዠ ሶስቱ ወንጌላውያን ማቴዎስ ማርቆስ ዮሐንስ የሚተባበሩበት ።",
+      "corrected_text": "አራተኛው ሰንጠረዥ ሶስቱ ወንጌላውያን ማቴዎስ ማርቆስ ዮሐንስ የሚተባበሩበት ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዠ -> ዥ",
+      "reason": "The printed glyph is 6th-order ዥ in ሰንጠረዥ, misread as 1st-order ዠ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 22,
+      "old_text": "አምስተኛው ሰንጠረዠ ሁለቱ ወንጌላውያን ማቴዎስና ሉቃስ የሚተባበሩበት።",
+      "corrected_text": "አምስተኛው ሰንጠረዥ ሁለቱ ወንጌላውያን ማቴዎስና ሉቃስ የሚተባበሩበት።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዠ -> ዥ",
+      "reason": "The printed glyph is 6th-order ዥ in ሰንጠረዥ, misread as 1st-order ዠ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 20,
+      "old_text": "ናሁ ወጽአ ተሠይመ ።",
+      "corrected_text": "ናሁ ወድአ ተሠይመ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጽ -> ድ",
+      "reason": "Both visually on the page and canonically in Matthew 3:10 / Luke 3:9 ('ናሁ ወድአ ተሠይመ ማኅፀ ውስተ ሥርወ ዕፀው' - 'Even now the axe is laid...'), the word is ወድአ ('already') with ድ, not ወጽአ."
+    }
+  ]
+}

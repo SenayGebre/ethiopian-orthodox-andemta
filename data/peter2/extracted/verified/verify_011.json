@@ -1,0 +1,35 @@
+{
+  "pdf_page": 11,
+  "book_page_ethiopic": "፪፻፼፪ | ፪፻፼፫",
+  "elapsed_sec": 18.0,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 21,
+      "old_text": "መንበርየ ፡ ወምድርኒ ፡ መከየደ ፡ እገርየ ፡",
+      "corrected_text": "መንበርየ ፡ ወምድርኒ ፡ መከየደ ፡ እግርየ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እገርየ -> እግርየ",
+      "reason": "The Ge'ez word for 'my foot' (Isaiah 66:1: መከየደ እግርየ) has the 6th-order 'ግ' (ሳድስ) with the top-left serif clearly visible in the image, not 1st-order 'ገ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 25,
+      "old_text": "፫ ፤ ⟪ወዘንተኒ ፡ ቅድመ ፡ አእምር ።⟫",
+      "corrected_text": "፫ ፤ ⟪ወዘንተኒ ፡ ቅድመ ፡ አእምሩ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አእምር -> አእምሩ",
+      "reason": "In 2 Peter 3:3 ('know this first', translated in L26 as አስቀድማችሁ ዕወቁ), the Ge'ez plural imperative is 'አእምሩ' (with 2nd-order 'ሩ'), which is visible on the right side of the stem in the image."
+    },
+    {
+      "column_index": 4,
+      "line_num": 18,
+      "old_text": "፳፬ ፥ ፪ ።",
+      "corrected_text": "፳፫ ፥ ፪ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፳፬ -> ፳፫",
+      "reason": "The Ge'ez Psalm reference for 'He hath founded it upon the seas' is Psalm 23:2 (መዝ ፳፫ ፥ ፪ in Septuagint/Ge'ez numbering, corresponding to Masoretic Ps 24:2). Visually, the second numeral is '፫' (3), not '፬' (4)."
+    }
+  ]
+}

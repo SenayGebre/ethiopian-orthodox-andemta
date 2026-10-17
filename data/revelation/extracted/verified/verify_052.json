@@ -1,0 +1,35 @@
+{
+  "pdf_page": 52,
+  "book_page_ethiopic": "፬፻፶ | ፬፻፶፩",
+  "elapsed_sec": 14.8,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 6,
+      "old_text": "ፈለች ፡ አለ ፡ መከፈው ፡ በሦስት ፡ ወገን ፡",
+      "corrected_text": "ፈለች ፡ አለ ፡ መከራው ፡ በሦስት ፡ ወገን ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፈ -> ራ",
+      "reason": "The printed glyph is ራ (in መከራው 'the tribulation', referring to famine, pestilence, and war), which was misread as ፈ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 24,
+      "old_text": "፮ ፤ ⟪ወሰክርት ፡ ይእቲ ፡ ብእሲት ፡ እምደሞሙ ፡",
+      "corrected_text": "፮ ፤ ⟪ወሰክረት ፡ ይእቲ ፡ ብእሲት ፡ እምደሞሙ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ር -> ረ",
+      "reason": "Both the printed glyph and Classical Ge'ez 3rd person feminine singular perfect verb morphology require ወሰክረት (with 1st-order ረ, not 6th-order ር)."
+    },
+    {
+      "column_index": 4,
+      "line_num": 29,
+      "old_text": "⟪ወአንከርክዋ ፡ सोበ ፡ ርኢክዋ ፡ ዐቢየ ፡ ተደምምኩ ።⟫",
+      "corrected_text": "⟪ወአንከርክዋ ፡ ሶበ ፡ ርኢክዋ ፡ ዐቢየ ፡ ተደምምኩ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "सो -> ሶ",
+      "reason": "Replaced non-Ethiopic Devanagari character artifact with the printed Ge'ez Fidel ሶ in ሶበ ('when')."
+    }
+  ]
+}

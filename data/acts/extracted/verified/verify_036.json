@@ -1,0 +1,26 @@
+{
+  "pdf_page": 36,
+  "book_page_ethiopic": "፷፬ | ፷፭",
+  "elapsed_sec": 21.8,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 4,
+      "line_num": 26,
+      "old_text": "መት፡ ተካሰሰ፡እንደ፡ሌባ፡አድም፡ያለ፡ነው",
+      "corrected_text": "መት፡ ተካሰበ፡እንደ፡ሌባ፡አድም፡ያለ፡ነው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሰ -> በ",
+      "reason": "Visual inspection of Col 4 L26 shows the final character of the verb is በ (two legs, no middle prong), reading ተካሰበ ('he procured/obtained [the emissary appointment]')."
+    },
+    {
+      "column_index": 4,
+      "line_num": 28,
+      "old_text": "ከመ ፡ ያእትዎሙ ፡ ኢየሩሳሌም ፡ መቁሐኒሆሙ ፡⟫",
+      "corrected_text": "ከመ ፡ ያእትዎሙ ፡ ኢየሩሳሌም ፡ ውቁሐኒሆሙ ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "መ -> ው",
+      "reason": "Both the printed glyph in Col 4 L28 and canonical Ge'ez Acts 9:2 read ውቁሐኒሆሙ ('bound/fettered', from ወቀሐ / ውቁሕ), where Stage 1 misread the initial 6th-order ው as መ."
+    }
+  ]
+}

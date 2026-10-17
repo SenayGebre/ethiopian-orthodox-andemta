@@ -1,0 +1,35 @@
+{
+  "pdf_page": 25,
+  "book_page_ethiopic": "፫፻፶፬ | ፫፻፶፭",
+  "elapsed_sec": 16.8,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 6,
+      "old_text": "ለት ፡ ነው ፡ ቢያምኑት ፡ ሰው ፡ ሆኗልና ፡",
+      "corrected_text": "ለት ፡ ነው ፡ ቢያምኑት ፡ ሰው ፡ ሁኗልና ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሆኗልና -> ሁኗልና",
+      "reason": "The printed glyph is archaic Amharic 'ሁኗልና' (with second-order 'ሁ', identical to line 10), which was normalized/misread as 'ሆኗልና'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 13,
+      "old_text": "ገዐረ ፡ ምእመናንን ፡ ሰምቶ ፡ ሰው ፡ ሆኗ",
+      "corrected_text": "ገዐረ ፡ ምእመናንን ፡ ሰምቶ ፡ ሰው ፡ ሁኗ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሆኗ -> ሁኗ",
+      "reason": "The printed glyph is 'ሁኗ' (forming 'ሁኗልና' across the line break, with second-order 'ሁ' as in line 10), misread as 'ሆኗ'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 31,
+      "old_text": "ያህል ፡ ናቸው ፡ ሌዊ ፡ ማለት ፡ ልዑቅ ፡",
+      "corrected_text": "ያህል ፡ ናቸው ፡ ሌዊ ፡ ማለት ፡ ልፁቅ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ልዑቅ -> ልፁቅ",
+      "reason": "Both visually (the central horizontal bar of 'ፁ' is clearly printed) and philologically (Ge'ez 'ልፁቅ' meaning 'joined/attached', explained on the next line by 'ተላፅቆ' and in Col 2 L15 as 'ልጹቅ'), the word is 'ልፁቅ', not 'ልዑቅ'."
+    }
+  ]
+}

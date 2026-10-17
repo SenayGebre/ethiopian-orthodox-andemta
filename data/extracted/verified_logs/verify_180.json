@@ -1,0 +1,89 @@
+{
+  "pdf_page": 180,
+  "book_page_ethiopic": "፪፻፺፱",
+  "elapsed_sec": 28.4,
+  "applied_count": 9,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 6,
+      "old_text": "ለመሆኗዋ ቀኚቱ መሆኗዋ ስ",
+      "corrected_text": "ለመሆንዋ ቀኚቱ መሆንዋ ስ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኗ -> ን",
+      "reason": "The printed glyphs are clearly 6th-order ን followed by ዋ (ለመሆንዋ ... መሆንዋ), not ኗዋ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 21,
+      "old_text": "አፎት ቈጣህን ወደ ትዕግሥ",
+      "corrected_text": "አፎት ቁጣህን ወደ ትዕግሥ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቈ -> ቁ",
+      "reason": "The printed Fidel is 2nd-order ቁ (ቁጣህን) with the right-side horizontal stroke, misread as labiovelar ቈ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 9,
+      "old_text": "ሰቆ ኤር ፬ ፳፤ ማር ፲፬ ፵፤ ሉቃ",
+      "corrected_text": "ሰቆ ኤር ፬ ፳፤ ማር ፲፬ ፵፰፤ ሉቃ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፵ -> ፵፰",
+      "reason": "The canonical parallel reference is Mark 14:48 (ማር ፲፬ ፵፰), and the numeral ፰ is visible after ፵ in the image."
+    },
+    {
+      "column_index": 2,
+      "line_num": 11,
+      "old_text": "[፶፭] ሌባን እግበ መልስ ብሎ ቢ",
+      "corrected_text": "[፶፭] ሌባን እግር መልስ ብሎ ቢ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በ -> ር",
+      "reason": "The traditional Andemta idiom is 'እግር መልስ' (tracking footsteps back); the glyph is ር, not በ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 12,
+      "old_text": "ጻላንሳ ብለው ሾተል ነመድ",
+      "corrected_text": "ያላንሳ ብለው ሾተል ነመድ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጻ -> ያ",
+      "reason": "Continuation of 'ቢያላንሳ' across the line break; the first character on L12 is ያ, misread as ጻ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 10,
+      "old_text": "[፶፱] ⟪ወየኀሥሠ ሊቃነ ካህናት ወ",
+      "corrected_text": "[፶፱] ⟪ወየኀሥሡ ሊቃነ ካህናት ወ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሠ -> ሡ",
+      "reason": "In Matthew 26:59, the plural subject 'ሊቃነ ካህናት' takes the 3rd person masculine plural verb 'ወየኀሥሡ' (2nd-order ሡ)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 17,
+      "old_text": "መሰክርት ይሹ ነበረ።",
+      "corrected_text": "መሰክርት ይሹ ነበር።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ረ -> ር",
+      "reason": "The final character of the auxiliary verb is 6th-order ር (ነበር።) with its top-left bend visible."
+    },
+    {
+      "column_index": 3,
+      "line_num": 31,
+      "old_text": "ወበሣልስት ዕለት አኅንጾ ፤⟫ ዘ፲፱",
+      "corrected_text": "ወበሣልስት ዕለት አኅንጾ ፤⟫ ዮ ፪ ፲፱",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዘ፲፱ -> ዮ ፪ ፲፱",
+      "reason": "The marginal cross-reference at the end of the line is John 2:19 (ዮ ፪ ፲፱), where cramped ዮ ፪ was misread as ዘ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 39,
+      "old_text": "ህል ሲያጣሉህ ሲያካስሱህ አ",
+      "corrected_text": "ህል ሲያጣሉህ ሲያከስሱህ አ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ካ -> ከ",
+      "reason": "Both visually in the zoomed image and morphologically in Amharic, the verb is ሲያከስሱህ (1st-order ከ, not 4th-order ካ)."
+    }
+  ]
+}

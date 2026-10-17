@@ -1,0 +1,71 @@
+{
+  "pdf_page": 12,
+  "book_page_ethiopic": "፭፻፳፪",
+  "elapsed_sec": 19.1,
+  "applied_count": 7,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "⟪ወይቤሎሙ ምንተ ተኀሥሠ⟫",
+      "corrected_text": "⟪ወይቤሎሙ ምንተ ተኀሥሡ⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ተኀሥሠ -> ተኀሥሡ",
+      "reason": "Both Ge'ez grammar (2nd person masculine plural imperfect 'what do ye seek?', matching 'ወይቤሎሙ' and 'ምን ትሻላችሁ') and the visible Ka'eb vowel stroke on the right leg confirm 'ተኀሥሡ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 22,
+      "old_text": "በዚያን ቀን እስከሥር ሰዓት",
+      "corrected_text": "በዚያን ቀን እስካሥር ሰዓት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እስከሥር -> እስካሥር",
+      "reason": "The printed glyph has the 4th-order (ራብዕ) shortened right leg 'ካ' (እስከ + አሥር -> እስካሥር)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 33,
+      "old_text": "ኀድር ብለህ መልስ፡አንደምን",
+      "corrected_text": "ኀድር ብለህ መልስ፡እንደምን",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አንደምን -> እንደምን",
+      "reason": "The interrogative Amharic word is 'እንደምን' (with 6th-order 'እ'), clearly visible in the print."
+    },
+    {
+      "column_index": 1,
+      "line_num": 39,
+      "old_text": "ስከ ዓሥሩ ሰዓት።እስከሥሩ",
+      "corrected_text": "ስከ ዓሥሩ ሰዓት።እስካሥሩ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እስከሥሩ -> እስካሥሩ",
+      "reason": "The printed glyph clearly shows 4th-order 'ካ' ('እስካሥሩ መዓርጋት ደረሱ', elision of እስከ + አሥሩ)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 5,
+      "old_text": "⟪አንተኬ ትሰመይ ኬፋ. ።⟫",
+      "corrected_text": "⟪አንተኬ ትሰመይ ኬፋ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኬፋ. -> ኬፋ",
+      "reason": "Removed stray Latin period artifact before the Ethiopic full stop."
+    },
+    {
+      "column_index": 3,
+      "line_num": 33,
+      "old_text": "⟪ወረከቦ ፊልጶስ ለናትናኤል›ዘፍ፡",
+      "corrected_text": "⟪ወረከቦ ፊልጶስ ለናትናኤል⟫ዘፍ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "› -> ⟫",
+      "reason": "Fixed malformed closing root-text bracket around the Ge'ez Gospel quote."
+    },
+    {
+      "column_index": 3,
+      "line_num": 37,
+      "old_text": "ው መሳሳብ ሆነ።",
+      "corrected_text": "ው መሳሳብ ሁነ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሆነ -> ሁነ",
+      "reason": "The original lead type clearly prints the archaic Andemta form 'ሁነ' (with the 2nd-order Ka'eb stroke on the right side of 'ሁ'), which must be preserved."
+    }
+  ]
+}

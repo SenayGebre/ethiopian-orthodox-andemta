@@ -1,0 +1,53 @@
+{
+  "pdf_page": 11,
+  "book_page_ethiopic": "፫፻፴፪ | ፫፻፴፫",
+  "elapsed_sec": 19.8,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 23,
+      "old_text": "አብሔር ፡ ወዘይግዕዝ ፡ ካልኦ ፡ ሕገ ፡ እግዚአብሔር ፡",
+      "corrected_text": "አብሔር ፡ ወዘይግዕዝ ፡ ካልአ ፡ ሕገ ፡ እግዚአብሔር ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ካልኦ -> ካልአ",
+      "reason": "The printed glyph in Col 1 L23 is clearly 1st-order 'አ' (ካልአ), matching 'ካልአና' in L26 below."
+    },
+    {
+      "column_index": 1,
+      "line_num": 26,
+      "old_text": "እግዚአብሔር ፡ ወዘይግዕዝ ፡ ካልኦና ፡",
+      "corrected_text": "እግዚአብሔር ፡ ወዘይግዕዝ ፡ ካልአና ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ካልኦና -> ካልአና",
+      "reason": "The printed glyph in Col 1 L26 is clearly 1st-order 'አ' (ካልአና), not 7th-order 'ኦ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 11,
+      "old_text": "⟪አንተኬ ፡ ምንትኑ ፡ አንተ ፡ ዘትግዕዞ ፡ ለካልእከ ፡⟫",
+      "corrected_text": "⟪አንተኬ ፡ ምንትኑ ፡ አንተ ፡ ዘትግዕዞ ፡ ለካልእከ ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "none",
+      "reason": "Actually wait, remove if no change."
+    },
+    {
+      "column_index": 3,
+      "line_num": 20,
+      "old_text": "መሄድን ፡ አው ፡ ዝክተ ፡ ወይም ፡ በዚች ፡",
+      "corrected_text": "መሄዱን ፡ አው ፡ ዝክተ ፡ ወይም ፡ በዚች ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "መሄድን -> መሄዱን",
+      "reason": "The printed character is 2nd-order 'ዱ' (መሄዱን) with the right-side hook clearly visible, matching L15 'መሄዱን' and L21 'መኖሩን'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 23,
+      "old_text": "ነዳያን ፡ ሳሉ ፡ የማይመጽውት ፡ ዕዳ ፡ ትሆ↵",
+      "corrected_text": "ነዳያን ፡ ሳሉ ፡ የማይመጸውት ፡ ዕዳ ፡ ትሆ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "የማይመጽውት -> የማይመጸውት",
+      "reason": "The printed character is 1st-order 'ጸ' (የማይመጸውት), matching the active imperfective verb form and visual glyph."
+    }
+  ]
+}

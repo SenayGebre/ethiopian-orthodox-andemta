@@ -1,0 +1,44 @@
+{
+  "pdf_page": 151,
+  "book_page_ethiopic": "፪፻፸",
+  "elapsed_sec": 100.6,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 13,
+      "old_text": "⟪ሊቅ ሙሴ ጸሐፈ ለነ ለእመ",
+      "corrected_text": "⟪ኦሊቅ ሙሴ ጸሐፈ ለነ ለእመ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሊቅ -> ኦሊቅ",
+      "reason": "The printed Ge'ez vocative particle 'ኦ' before 'ሊቅ' ('ኦሊቅ ሙሴ') is clearly visible in the image and was omitted in Draft Pass 1."
+    },
+    {
+      "column_index": 2,
+      "line_num": 15,
+      "old_text": "ሉደ፡ ያውስብ ብእሲተ እኁሁ",
+      "corrected_text": "ሉድ፡ ያውስብ ብእሲተ እኁሁ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ደ -> ድ",
+      "reason": "Both the printed glyph and Classical Ge'ez syntax ('እንዘ አልቦ ውሉድ', matching line 25) have 6th-order 'ድ' ('ውሉድ'), not 'ደ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 33,
+      "old_text": "[፳፮] እንደዚሀም ሁሉ አንዱ እየ↵",
+      "corrected_text": "[፳፮] እንደዚህም ሁሉ አንዱ እየ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሀ -> ህ",
+      "reason": "The printed character is 6th-order 'ህ' in 'እንደዚህም', misread as 1st-order 'ሀ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 34,
+      "old_text": "⟪ወይቤሎሙ ስሕትክሙ በኢይ↵",
+      "corrected_text": "⟪ወይቤሎሙ ስሕትክሙ በኢያ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ይ -> ያ",
+      "reason": "Both the printed glyph at the end of the line and canonical Ge'ez morphology ('በኢያእምሮ መጻሕፍት', Mt 22:29) have 4th-order 'ያ', not 6th-order 'ይ'."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "pdf_page": 22,
+  "book_page_ethiopic": "፫፻፷ | ፫፻፷፩",
+  "elapsed_sec": 138.7,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 29,
+      "old_text": "አንዱ ፡ ና ፡ ሳሳይህ ፡ አለኝ ፡ (አይ) ።",
+      "corrected_text": "አንዱ ፡ ና ፡ ሳሳይህ ፡ አለኝ ፡ (እይ) ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አይ -> እይ",
+      "reason": "The parenthetical alternative Amharic translation for Ge'ez ትርአይ ('that you may see') is the imperative እይ ('see!'), printed with 6th-order እ rather than 1st-order አ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 17,
+      "old_text": "ለት ፡ ነው ፡ ለአራዊት ፡ አሰጥቶ ፡ ይገላ",
+      "corrected_text": "ለት ፡ ነው ፡ ለአራዊት ፡ አስጥቶ ፡ ይገላ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አሰጥቶ -> አስጥቶ",
+      "reason": "The printed glyph is 6th-order ስ (አስጥቶ, 'having caused to be thrown/given to wild beasts', matching Col 2 L33), not 1st-order ሰ."
+    }
+  ]
+}

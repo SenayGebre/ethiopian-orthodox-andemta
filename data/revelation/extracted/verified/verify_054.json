@@ -1,0 +1,35 @@
+{
+  "pdf_page": 54,
+  "book_page_ethiopic": "፬፻፶፬ | ፬፻፶፭",
+  "elapsed_sec": 17.3,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 29,
+      "old_text": "ድር፡ብርሃን፡ሆነች፡ ም፡ ፩፥ ፲ፅ ። ሕዝ፡፵፫።",
+      "corrected_text": "ድር፡ብርሃን፡ሆነች፡ ም፡ ፩፥ ፲፬ ። ሕዝ፡፵፫።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፲ፅ -> ፲፬",
+      "reason": "The Ethiopic numeral ፬ (4) with its top and bottom horizontal bars was misread as the letter ፅ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 21,
+      "old_text": "⟪ወምንባረ ፡ ኵሉ ፡ የፍ ፡ ርኵስ ፡ ወጽሉእ ፡⟫",
+      "corrected_text": "⟪ወምንባረ ፡ ኵሉ ፡ ዖፍ ፡ ርኵስ ፡ ወጽሉእ ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "የፍ -> ዖፍ",
+      "reason": "In Classical Ge'ez (Rev 18:2), the word for 'bird' (translated immediately below as የቍራ፡ የጉጉት) is ዖፍ, where the 7th-order ዖ glyph was visually confused with የ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 25,
+      "old_text": "ሎስን ፡ በግብሩ ፡ የፍ ፡ ርኵስ ፡ ወጽሉእ ፡",
+      "corrected_text": "ሎስን ፡ በግብሩ ፡ ዖፍ ፡ ርኵስ ፡ ወጽሉእ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "የፍ -> ዖፍ",
+      "reason": "Repeating the Ge'ez root phrase ዖፍ ርኵስ ወጽሉእ ('unclean and hateful bird'), where ዖፍ was misread as የፍ."
+    }
+  ]
+}

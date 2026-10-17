@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="am">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ወንጌለ ማቴዎስ አንድምታ ትርጓሜ — Digital Scripture & Diplomatic Verification Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Ethiopic:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-parchment: #fbf8f1;
+      --bg-card: #ffffff;
+      --bg-sidebar: #f3ede0;
+      --border-warm: #dfd5c0;
+      --ink-dark: #1f1a14;
+      --ink-muted: #655b4d;
+      --rubric-red: #9e1b1b;
+      --rubric-bg: #fdf2f2;
+      --gold-accent: #b5852b;
+      --gold-light: #f9f1df;
+      --andem-badge: #1e4d3b;
+      --andem-bg: #eaf4f0;
+      --warn-amber: #b45309;
+      --warn-bg: #fef3c7;
+      --font-ethiopic: 'Noto Serif Ethiopic', 'Abyssinica SIL', 'Kefa', 'Nyala', serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: var(--font-ethiopic);
+      background-color: var(--bg-parchment);
+      color: var(--ink-dark);
+      line-height: 1.75;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    /* Top Header with Harag Motif */
+    header {
+      background: linear-gradient(135deg, #231b12 0%, #3a2b1c 100%);
+      color: #f9f3e5;
+      border-bottom: 3px solid var(--gold-accent);
+      padding: 0.65rem 1.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-shrink: 0;
+    }
+
+    .brand-title {
+      display: flex;
+      flex-direction: column;
+    }
+    .brand-title h1 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #f7dfb2;
+      letter-spacing: 0.02em;
+    }
+    .brand-title span {
+      font-size: 0.8rem;
+      color: #d1c4ab;
+    }
+
+    .nav-tabs {
+      display: flex;
+      gap: 0.4rem;
+      flex-wrap: wrap;
+    }
+    .nav-tab {
+      background: rgba(255, 255, 255, 0.08);
+      color: #efe6d5;
+      border: 1px solid rgba(212, 175, 55, 0.3);
+      padding: 0.42rem 0.85rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-family: var(--font-ethiopic);
+      font-size: 0.88rem;
+      font-weight: 600;
+      transition: all 0.15s ease;
+    }
+    .nav-tab:hover {
+      background: rgba(212, 175, 55, 0.2);
+    }
+    .nav-tab.active {
+      background: var(--gold-accent);
+      color: #fff;
+      border-color: #e6c168;
+    }
+
+    .search-bar {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+    .search-bar input {
+      background: #18120c;
+      color: #f9f3e5;
+      border: 1px solid rgba(212, 175, 55, 0.45);
+      border-radius: 6px;
+      padding: 0.4rem 0.75rem;
+      font-family: var(--font-ethiopic);
+      font-size: 0.9rem;
+      width: 230px;
+    }
+    .search-bar button {
+      background: var(--rubric-red);
+      color: #fff;
+      border: none;
+      padding: 0.42rem 0.75rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-family: var(--font-ethiopic);
+      font-size: 0.85rem;
+    }
+
+    /* Main Workspace Layout */
+    .workspace {
+      display: flex;
+      flex: 1;
+      overflow: hidden;
+    }
+
+    .sidebar {
+      width: 280px;
+      background: var(--bg-sidebar);
+      border-right: 1px solid var(--border-warm);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+
+    .sidebar-section {
+      padding: 0.75rem 0.9rem;
+      border-bottom: 1px solid var(--border-warm);
+    }
+    .sidebar-section h3 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--ink-muted);
+      margin-bottom: 0.5rem;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.4rem;
+      font-size: 0.8rem;
+    }
+    .stat-pill {
+      background: var(--bg-card);
+      border: 1px solid var(--border-warm);
+      padding: 0.35rem 0.5rem;
+      border-radius: 5px;
+    }
+    .stat-pill strong {
+      display: block;
+      font-size: 0.98rem;
+      color: var(--rubric-red);
+    }
+
+    .chapter-list {
+      flex: 1;
+      overflow-y: auto;
+      padding: 0.6rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.3rem;
+    }
+
+    .chapter-btn {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      text-align: left;
+      padding: 0.5rem 0.65rem;
+      border-radius: 6px;
+      border: 1px solid transparent;
+      background: transparent;
+      cursor: pointer;
+      font-family: var(--font-ethiopic);
+      font-size: 0.92rem;
+      color: var(--ink-dark);
+      transition: background 0.12s;
+    }
+    .chapter-btn:hover {
+      background: rgba(181, 133, 43, 0.12);
+    }
+    .chapter-btn.active {
+      background: var(--bg-card);
+      border-color: var(--gold-accent);
+      font-weight: 700;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    }
+    .chapter-btn .ch-badge {
+      background: var(--rubric-bg);
+      color: var(--rubric-red);
+      border: 1px solid rgba(158, 27, 27, 0.25);
+      border-radius: 4px;
+      padding: 0.05rem 0.45rem;
+      font-size: 0.82rem;
+      font-weight: 700;
+    }
+
+    .main-panel {
+      flex: 1;
+      overflow-y: auto;
+      padding: 1.25rem 1.75rem;
+    }
+
+    /* Verse Pills Bar */
+    .verse-nav-bar {
+      background: var(--bg-card);
+      border: 1px solid var(--border-warm);
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      margin-bottom: 1.25rem;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+    .verse-nav-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.5rem;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .verse-nav-header h2 {
+      font-size: 1.25rem;
+      color: var(--rubric-red);
+    }
+    .verse-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.3rem;
+    }
+    .verse-pill {
+      background: var(--bg-parchment);
+      border: 1px solid var(--border-warm);
+      border-radius: 4px;
+      padding: 0.15rem 0.5rem;
+      font-family: var(--font-ethiopic);
+      font-size: 0.85rem;
+      cursor: pointer;
+    }
+    .verse-pill:hover {
+      border-color: var(--rubric-red);
+      color: var(--rubric-red);
+    }
+
+    /* Verse Cards with modern-web-guidance content-visibility */
+    .verse-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-warm);
+      border-left: 4px solid var(--rubric-red);
+      border-radius: 8px;
+      padding: 1.15rem 1.35rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+    }
+    .verse-card.below-fold {
+      content-visibility: auto;
+      contain-intrinsic-size: auto none auto 160px;
+    }
+
+    .section-banner {
+      background: var(--gold-light);
+      border: 1px solid var(--gold-accent);
+      color: #5b3e0c;
+      padding: 0.45rem 0.85rem;
+      border-radius: 6px;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+      font-size: 1.02rem;
+    }
+
+    .verse-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.65rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px dashed var(--border-warm);
+    }
+    .verse-num-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      font-weight: 700;
+      color: var(--rubric-red);
+      font-size: 1.05rem;
+    }
+    .verse-actions {
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+    }
+    .btn-small {
+      background: var(--bg-parchment);
+      border: 1px solid var(--border-warm);
+      color: var(--ink-dark);
+      padding: 0.2rem 0.6rem;
+      border-radius: 4px;
+      font-family: var(--font-ethiopic);
+      font-size: 0.8rem;
+      cursor: pointer;
+    }
+    .btn-small:hover {
+      border-color: var(--gold-accent);
+      background: var(--gold-light);
+    }
+
+    .geez-root-lemma {
+      color: var(--rubric-red);
+      font-weight: 700;
+      background: var(--rubric-bg);
+      padding: 0.05rem 0.3rem;
+      border-radius: 3px;
+    }
+
+    .kw-andem {
+      color: var(--andem-badge);
+      background: var(--andem-bg);
+      font-weight: 700;
+      padding: 0.05rem 0.35rem;
+      border-radius: 4px;
+      border: 1px solid rgba(30, 77, 59, 0.25);
+    }
+    .kw-hateta {
+      color: #6b3410;
+      background: #fef3c7;
+      font-weight: 700;
+      padding: 0.05rem 0.3rem;
+      border-radius: 4px;
+    }
+
+    .verse-body-text {
+      font-size: 1.12rem;
+      line-height: 1.9;
+      text-align: justify;
+    }
+
+    /* Diplomatic Side-by-Side View */
+    .diplomatic-toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: var(--bg-card);
+      border: 1px solid var(--border-warm);
+      border-radius: 8px;
+      padding: 0.65rem 1rem;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+    .diplomatic-split {
+      display: grid;
+      grid-template-columns: 44% 56%;
+      gap: 1.1rem;
+      align-items: start;
+    }
+    .scan-viewer {
+      background: #1a1612;
+      border: 2px solid var(--border-warm);
+      border-radius: 8px;
+      padding: 0.6rem;
+      position: sticky;
+      top: 0.5rem;
+      max-height: calc(100vh - 150px);
+      overflow: auto;
+      text-align: center;
+    }
+    .scan-viewer img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+      transition: transform 0.2s ease;
+    }
+    .columns-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.65rem;
+    }
+    .diplomatic-col {
+      background: var(--bg-card);
+      border: 1px solid var(--border-warm);
+      border-radius: 8px;
+      padding: 0.65rem;
+    }
+    .diplomatic-col h4 {
+      text-align: center;
+      font-size: 0.9rem;
+      color: var(--rubric-red);
+      border-bottom: 2px solid var(--border-warm);
+      padding-bottom: 0.35rem;
+      margin-bottom: 0.5rem;
+    }
+    .dip-line {
+      display: flex;
+      align-items: baseline;
+      gap: 0.3rem;
+      padding: 0.16rem 0.25rem;
+      border-bottom: 1px dotted #eee5d3;
+      font-size: 0.9rem;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    .dip-line:hover {
+      background: var(--gold-light);
+    }
+    .dip-line.has-uncertain {
+      background: var(--warn-bg);
+      border-left: 3px solid var(--warn-amber);
+    }
+    .dip-line.has-stage2 {
+      background: rgba(21, 94, 59, 0.08);
+      border-left: 3px solid var(--andem-badge);
+    }
+    .dip-lnum {
+      font-size: 0.7rem;
+      color: var(--ink-muted);
+      min-width: 1.4rem;
+      user-select: none;
+    }
+    .dip-margin {
+      background: var(--rubric-red);
+      color: #fff;
+      font-size: 0.72rem;
+      padding: 0 0.28rem;
+      border-radius: 3px;
+      font-weight: 700;
+    }
+    .dip-text {
+      flex: 1;
+      word-break: keep-all;
+    }
+    .dip-wrap {
+      color: var(--gold-accent);
+      font-size: 0.75rem;
+      font-weight: 700;
+    }
+
+    /* Tables for Index & Apparatus */
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      background: var(--bg-card);
+      border: 1px solid var(--border-warm);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .data-table th, .data-table td {
+      padding: 0.65rem 0.85rem;
+      border-bottom: 1px solid var(--border-warm);
+      text-align: left;
+      font-size: 0.96rem;
+    }
+    .data-table th {
+      background: var(--bg-sidebar);
+      color: var(--ink-dark);
+      font-weight: 700;
+    }
+    .data-table tr:hover {
+      background: var(--gold-light);
+    }
+
+    @media (max-width: 1100px) {
+      .diplomatic-split {
+        grid-template-columns: 1fr;
+      }
+      .columns-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand-title">
+      <h1 id="headerTitle">የሐዲስ ኪዳን አንድምታ ትርጓሜ (13 Books Digital Corpus)</h1>
+      <span id="headerSubtitle">የጌታችን የኢየሱስ ክርስቶስ ቅዱስ ወንጌልና መልእክታት — Ge'ez &amp; Amharic Critical Digital Edition</span>
+    </div>
+    <div class="nav-tabs" id="bookTabs" style="background: rgba(0,0,0,0.35); max-width: 680px;">
+      <button class="nav-tab active" onclick="switchBook('matewes')" id="book-matewes">📕 ማቴዎስ (200p)</button>
+      <button class="nav-tab" onclick="switchBook('markos')" id="book-markos">🦁 ማርቆስ (62p)</button>
+      <button class="nav-tab" onclick="switchBook('lukas')" id="book-lukas">🐂 ሉቃስ (127p)</button>
+      <button class="nav-tab" onclick="switchBook('yohannes')" id="book-yohannes">🦅 ዮሐንስ (137p)</button>
+      <button class="nav-tab" onclick="switchBook('acts')" id="book-acts">🔥 ግብረ ሐዋርያት (91p)</button>
+      <button class="nav-tab" onclick="switchBook('peter1')" id="book-peter1">🗝️ ፩ኛ ጴጥሮስ (31p)</button>
+      <button class="nav-tab" onclick="switchBook('peter2')" id="book-peter2">📜 ፪ኛ ጴጥሮስ (13p)</button>
+      <button class="nav-tab" onclick="switchBook('john1')" id="book-john1">🕊️ ፩ኛ ዮሐንስ (15p)</button>
+      <button class="nav-tab" onclick="switchBook('john2')" id="book-john2">✉️ ፪ኛ ዮሐንስ (3p)</button>
+      <button class="nav-tab" onclick="switchBook('john3')" id="book-john3">✉️ ፫ኛ ዮሐንስ (3p)</button>
+      <button class="nav-tab" onclick="switchBook('james')" id="book-james">⚖️ ያዕቆብ (14p)</button>
+      <button class="nav-tab" onclick="switchBook('judah')" id="book-judah">🛡️ ይሁዳ (4p)</button>
+      <button class="nav-tab" onclick="switchBook('revelation')" id="book-revelation">👑 ራእየ ዮሐንስ (71p)</button>
+    </div>
+    <div class="nav-tabs">
+      <button class="nav-tab active" onclick="switchTab('reader')" id="tab-reader">📖 ንባብና አንድምታ</button>
+      <button class="nav-tab" onclick="switchTab('diplomatic')" id="tab-diplomatic">📜 ገጽ በገጽ ማመሳከሪያ</button>
+      <button class="nav-tab" onclick="switchTab('indices')" id="tab-indices">📑 መክሥተ አርእስት</button>
+      <button class="nav-tab" onclick="switchTab('apparatus')" id="tab-apparatus">🔬 የፊደል ማጣሪያ</button>
+    </div>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="ፈልግ (ምሳሌ፦ ልደቱ፣ ዳዊት፣ ቃል)..." onkeydown="if(event.key==='Enter') runSearch()" />
+      <button onclick="runSearch()">ፈልግ</button>
+    </div>
+  </header>
+
+  <div class="workspace">
+    <aside class="sidebar">
+      <div class="sidebar-section">
+        <h3>የመጽሐፉ መረጃ (Corpus Status)</h3>
+        <div class="stats-grid" id="statsGrid">
+          <div class="stat-pill"><strong id="statPages">-</strong>ገጾች (Pages)</div>
+          <div class="stat-pill"><strong id="statChapters">-</strong>ምዕራፎች (Ch.)</div>
+          <div class="stat-pill"><strong id="statVerses">-</strong>አንቀጾች (Verses)</div>
+          <div class="stat-pill"><strong id="statLines">-</strong>መስመሮች (Lines)</div>
+        </div>
+      </div>
+      <div class="sidebar-section" style="padding-bottom: 0.4rem;">
+        <h3 id="sidebarChaptersHeading">ምዕራፎች (Chapters)</h3>
+      </div>
+      <div class="chapter-list" id="chapterList"></div>
+    </aside>
+
+    <main class="main-panel" id="mainPanel">
+      <p style="padding: 2rem; color: var(--ink-muted);">በመጫን ላይ (Loading sacred text corpus)...</p>
+    </main>
+  </div>
+
+  <script>
+    let CURRENT_BOOK = 'matewes';
+    let BOOK_DATA = null;
+    let CURRENT_TAB = 'reader';
+    let CURRENT_CHAPTER = 1;
+    let CURRENT_PDF_PAGE = 1;
+    let ZOOM_LEVEL = 1.0;
+
+    const ALL_BOOKS = [
+      'matewes', 'markos', 'lukas', 'yohannes',
+      'acts', 'peter1', 'peter2', 'john1', 'john2', 'john3', 'james', 'judah', 'revelation'
+    ];
+
+    const BOOK_LABELS = {
+      matewes: 'ወንጌለ ማቴዎስ አንድምታ ትርጓሜ',
+      markos: 'ወንጌለ ማርቆስ አንድምታ ትርጓሜ',
+      lukas: 'ወንጌለ ሉቃስ አንድምታ ትርጓሜ',
+      yohannes: 'ወንጌለ ዮሐንስ አንድምታ ትርጓሜ',
+      acts: 'ግብረ ሐዋርያት አንድምታ ትርጓሜ',
+      peter1: 'መልእክተ ጴጥሮስ ቀዳማዊ አንድምታ ትርጓሜ',
+      peter2: 'መልእክተ ጴጥሮስ ካልዕ አንድምታ ትርጓሜ',
+      john1: 'መልእክተ ዮሐንስ ቀዳማዊ አንድምታ ትርጓሜ',
+      john2: 'መልእክተ ዮሐንስ ካልዕ አንድምታ ትርጓሜ',
+      john3: 'መልእክተ ዮሐንስ ሣልስ አንድምታ ትርጓሜ',
+      james: 'መልእክተ ያዕቆብ አንድምታ ትርጓሜ',
+      judah: 'መልእክተ ይሁዳ አንድምታ ትርጓሜ',
+      revelation: 'ራእየ ዮሐንስ አንድምታ ትርጓሜ',
+    };
+
+    async function switchBook(bookKey) {
+      CURRENT_BOOK = bookKey;
+      CURRENT_CHAPTER = 1;
+      CURRENT_PDF_PAGE = 1;
+      ALL_BOOKS.forEach(b => {
+        const el = document.getElementById('book-' + b);
+        if (el) el.classList.toggle('active', b === bookKey);
+      });
+      document.getElementById('headerTitle').textContent = BOOK_LABELS[bookKey] || bookKey;
+      await loadBookData();
+    }
+
+    async function loadBookData() {
+      const res = await fetch(`/api/book?book=${encodeURIComponent(CURRENT_BOOK)}`);
+      BOOK_DATA = await res.json();
+      if (BOOK_DATA.title_geez) {
+        document.getElementById('headerSubtitle').textContent = BOOK_DATA.title_geez;
+      }
+      updateSidebar();
+      renderCurrentTab();
+    }
+
+    function updateSidebar() {
+      if (!BOOK_DATA) return;
+      const st = BOOK_DATA.stats || {};
+      document.getElementById('statPages').textContent = `${st.extracted_pages_count || 0}/${st.total_pdf_pages || 200}`;
+      document.getElementById('statChapters').textContent = st.total_chapters || 0;
+      document.getElementById('statVerses').textContent = st.total_verses || 0;
+      document.getElementById('statLines').textContent = (st.total_diplomatic_lines || 0).toLocaleString();
+
+      const listEl = document.getElementById('chapterList');
+      listEl.innerHTML = '';
+
+      const chapters = BOOK_DATA.chapters || [];
+      chapters.forEach(ch => {
+        const btn = document.createElement('button');
+        btn.className = 'chapter-btn' + (ch.chapter_num === CURRENT_CHAPTER ? ' active' : '');
+        btn.innerHTML = `
+          <span>ምዕራፍ ${ch.chapter_ethiopic} (${ch.chapter_num})</span>
+          <span class="ch-badge">${ch.verses.length} ቍ</span>
+        `;
+        btn.onclick = () => {
+          CURRENT_CHAPTER = ch.chapter_num;
+          if (CURRENT_TAB !== 'reader') switchTab('reader');
+          else {
+            updateSidebar();
+            renderReaderView();
+          }
+        };
+        listEl.appendChild(btn);
+      });
+    }
+
+    function switchTab(tab) {
+      CURRENT_TAB = tab;
+      ['reader', 'diplomatic', 'indices', 'apparatus'].forEach(t => {
+        document.getElementById('tab-' + t).classList.toggle('active', t === tab);
+      });
+      renderCurrentTab();
+    }
+
+    function renderCurrentTab() {
+      if (!BOOK_DATA) return;
+      if (CURRENT_TAB === 'reader') renderReaderView();
+      else if (CURRENT_TAB === 'diplomatic') renderDiplomaticView(CURRENT_PDF_PAGE);
+      else if (CURRENT_TAB === 'indices') renderIndicesView();
+      else if (CURRENT_TAB === 'apparatus') renderApparatusView();
+    }
+
+    const BIRANNA_PREFIX = '(?:ለ|በ|ከ|የ|ወ|እም|እንደ|ወለ|ወእም|ወበ|ወዘ|ዘ|እለ|እነ|የነ|በነ|ከነ|ወደ|ኦ)?';
+    const BIRANNA_SUFFIX = '(?:ም|ን|ስ|ሰ|ና|ኒ|ኑ|ማ|ሃ|ሂ|ንም|ንስ|ንና|ንማ|ሃኑ|ኬ)?';
+    const BIRANNA_SAINTS = 'ሚካኤል|ገብርኤል|ሩፋኤል|ዑራኤል|ፋኑኤል|ራጉኤል|ሱራፌል|ኪሩቤል|ማቴዎስ|ማርቆስ|ሉቃስ|ዮሐንስ|ጴጥሮስ|ጳውሎስ|ያዕቆብ|እንድርያስ|ፊልጶስ|በርቶሎሜዎስ|ቶማስ|ታዴዎስ|ናትናኤል|ማትያስ|በርናባስ|ጢሞቴዎስ|አጵሎስ|እስጢፋኖስ|አብርሃም|ይስሐቅ|ሙሴ|አሮን|ዳዊት|ሰሎሞን|ኢሳይያስ|ኤርምያስ|ሕዝቅኤል|ዳንኤል|ሆሴዕ|አሞጽ|ሚክያስ|ኢዩኤል|ዮናስ|ናሆም|ዕንባቆም|ሶፎንያስ|ሐጌ|ዘካርያስ|ሚልክያስ|ኤልሳዕ|ሄኖክ|ኢዮብ|ሳሙኤል|አፈወርቅ|ቄርሎስ|አትናቴዎስ|ባስልዮስ|ጎርጎርዮስ|ኤፍሬም|ያሬድ|ኤጲፋንዮስ|ዲዮናስዮስ|ሳዊሮስ|ጊዮርጊስ';
+
+    const BIRANNA_SACRED_RE = new RegExp(
+      '(?<![ሀ-ፚ])(' +
+        'በስመ[\\s፡]+አብ[\\s፡]+ወወልድ[\\s፡]+ወመንፈስ[\\s፡]+ቅዱስ(?:[\\s፡]+አሐዱ[\\s፡]+አምላክ)?|' +
+        'ቅዱስ[\\s፡]+ቅዱስ[\\s፡]+ቅዱስ(?:[\\s፡]+እግዚአብሔር(?:[\\s፡]+ጸባዖት)?)?|' +
+        BIRANNA_PREFIX + '(?:እግዚአብሔር[\\s፡]+(?:አብ|ወልድ|መንፈስ[\\s፡]+ቅዱስ)|ኢየሱስ[\\s፡]+ክርስቶስ|መንፈስ[\\s፡]+ቅዱስ|ቅድስት[\\s፡]+ሥላሴ|መድኃኔ[\\s፡]*ዓለም|እግዚአብሔር(?:ነቱ)?|ኢየሱስ|ክርስቶስ|አማኑኤል|ሥላሴ|ጰራቅሊጦስ|ጸባዖት|እግዚእነ(?!ት)|ጌታችን|አምላካችን|ፈጣሪያችን|መድኃኒታችን|እመቤታችን(?:[\\s፡]+ቅድስት[\\s፡]+ድንግል[\\s፡]+ማርያም)?|ቅድስት[\\s፡]+ድንግል(?:[\\s፡]+ማርያም)?|ድንግል[\\s፡]+ማርያም|ወላዲተ[\\s፡]+አምላክ|እግዝእትነ(?:[\\s፡]+ማርያም)?|' + BIRANNA_SAINTS + ')' + BIRANNA_SUFFIX + '|' +
+        '(?:ለ|በ|ከ|የ|ወ|እም|እ)?ማርያም' + BIRANNA_SUFFIX + '|' +
+        '(?<!መንፈስ\\s)(?<!መንፈስ\\s፡\\s)(?<!መንፈስ፡)' + BIRANNA_PREFIX + 'ቅዱስ[\\s፡]+(?:' + BIRANNA_SAINTS + '|ይሁዳ)' + BIRANNA_SUFFIX + '|' +
+        '(?<!ሐሳዌ\\s)(?<!ሐሳዌ\\s፡\\s)(?<!ሐሳዊ\\s)' + BIRANNA_PREFIX + 'ኤልያስ' + BIRANNA_SUFFIX + '|' +
+        '(?:ለ|በ|ከ|የ|ወ)?ቲቶ(?![ሙንች])(?:ም|ን|ስ)?|' +
+        BIRANNA_PREFIX + 'ኖኅ(?![ትተቶ])' + BIRANNA_SUFFIX + '|' +
+        '(?<!ኃጢአተ\\s)(?<!ኃጢአተ\\s፡\\s)(?<!ይምህር\\s)(?<!ይምህር\\s፡\\s)(?:ለ|በ|ከ|የ|ወ)?አብ(?!\\s*ብነ)(?:ም|ን|ስ|ሰ|ና|ኒ)?|' +
+        '(?:ለ|በ|ከ|የ|ወ)?ወልድ(?:[\\s፡]+ዋህድ)?(?:ም|ን|ስ|ሰ|ና|ኒ)?' +
+      ')(?![ሀ-ፚ])',
+      'g'
+    );
+
+    function renderBirannaSpans(spans) {
+      if (!spans || !spans.length) return '';
+      return spans.map(sp => {
+        const esc = (sp.text || '')
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;');
+        const cat = sp.category;
+        if (cat === 'geez_scripture') {
+          return `<span class="geez-root-lemma" title="ንባብ (Ge'ez Scripture — ቀይ ቀለም)">${esc}</span>`;
+        }
+        if (cat === 'sacred_divine_name' || cat === 'sacred_mariology' || cat === 'sacred_saint_angel') {
+          return `<span style="color:var(--rubric-red); font-weight:700;" title="የብራና ቀይ ቀለም (${cat})">${esc}</span>`;
+        }
+        if (cat === 'andemta_rubric') {
+          return esc === 'አንድም'
+            ? `<span class="kw-andem">${esc}</span>`
+            : `<span class="kw-hateta">${esc}</span>`;
+        }
+        if (cat === 'rubric_numeral_punct') {
+          return `<span style="color:var(--rubric-red); font-weight:700;">${esc}</span>`;
+        }
+        return esc;
+      }).join('');
+    }
+
+    function formatAndemtaHtml(markedText) {
+      if (!markedText) return '';
+      let escaped = markedText
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
+      const parts = escaped.split(/(⟪[^⟫]+⟫)/g);
+      return parts.map(part => {
+        if (part.startsWith('⟪') && part.endsWith('⟫')) {
+          return `<span class="geez-root-lemma">${part.slice(1, -1)}</span>`;
+        }
+        let s = part.replace(BIRANNA_SACRED_RE, '<span style="color:var(--rubric-red); font-weight:700;">$1</span>');
+        s = s.replace(/(?<![ሀ-ፚ])(አንድም)(?![ሀ-ፚ])/g, '<span class="kw-andem">$1</span>');
+        s = s.replace(/(?<![ሀ-ፚ])(\(?(?:ሐተታ|ታሪክ|ምሳሌ|ትንቢት|ጥቅስ|ጥቅ|ግጥም)\)?)(?![ሀ-ፚ])/g, '<span class="kw-hateta">$1</span>');
+        s = s.replace(/([፩-፼]+|።|፠)/g, '<span style="color:var(--rubric-red); font-weight:700;">$1</span>');
+        return s;
+      }).join('');
+    }
+
+    function renderReaderView() {
+      const main = document.getElementById('mainPanel');
+      const ch = (BOOK_DATA.chapters || []).find(c => c.chapter_num === CURRENT_CHAPTER) || (BOOK_DATA.chapters || [])[0];
+      if (!ch) {
+        main.innerHTML = '<p style="padding:1.5rem;">ምዕራፍ በመውጣት ላይ ነው (Chapters currently extracting)...</p>';
+        return;
+      }
+
+      const maxCh = (BOOK_DATA.chapters || []).length || 28;
+
+      let pillsHtml = ch.verses.map(v =>
+        `<button class="verse-pill" onclick="document.getElementById('verse-${ch.chapter_num}-${v.verse_num}').scrollIntoView({behavior:'smooth'})">ቍ ${v.verse_ethiopic} (${v.verse_num})</button>`
+      ).join('');
+
+      let versesHtml = ch.verses.map((v, idx) => {
+        const belowFoldClass = idx > 4 ? ' below-fold' : '';
+        const secBanner = v.section_title ? `<div class="section-banner">✦ ${v.section_title}</div>` : '';
+        const firstLine = (v.lines && v.lines[0]) ? v.lines[0] : { pdf_page: v.start_pdf_page || 1, column_index: 1 };
+        const bodyHtml = (v.biranna_spans && v.biranna_spans.length)
+          ? renderBirannaSpans(v.biranna_spans)
+          : formatAndemtaHtml(v.rejoined_marked_text);
+        return `
+          <article class="verse-card${belowFoldClass}" id="verse-${ch.chapter_num}-${v.verse_num}">
+            ${secBanner}
+            <div class="verse-meta">
+              <div class="verse-num-badge">
+                <span>ምዕራፍ ${ch.chapter_ethiopic} ፥ ቍጥር ${v.verse_ethiopic} (${ch.chapter_num}:${v.verse_num})</span>
+              </div>
+              <div class="verse-actions">
+                <span style="font-size:0.82rem; color:var(--ink-muted);">ገጽ ${v.start_book_page_ethiopic || '-'} (PDF p.${v.start_pdf_page}) · ${(v.lines || []).length} መስመሮች</span>
+                <button class="btn-small" onclick="openPageVerifier(${firstLine.pdf_page})">🔍 ገጽ ${v.start_book_page_ethiopic} መስመር በመስመር አመሳክር</button>
+              </div>
+            </div>
+            <div class="verse-body-text">${bodyHtml}</div>
+          </article>
+        `;
+      }).join('');
+
+      main.innerHTML = `
+        <div class="verse-nav-bar">
+          <div class="verse-nav-header">
+            <div>
+              <h2>ምዕራፍ ${ch.chapter_ethiopic} (${ch.chapter_num}) — ${ch.geez_incipit || ch.title_geez}</h2>
+              <div style="font-size:0.9rem; color:var(--ink-muted);">${ch.amharic_incipit || ''} · መጀመሪያ ገጽ፦ ${ch.start_book_page_ethiopic || '-'}</div>
+            </div>
+            <div style="display:flex; gap:0.4rem;">
+              <button class="btn-small" onclick="if(CURRENT_CHAPTER>1){CURRENT_CHAPTER--;updateSidebar();renderReaderView();}">◀ ቀዳሚ ምዕራፍ</button>
+              <button class="btn-small" onclick="if(CURRENT_CHAPTER<${maxCh}){CURRENT_CHAPTER++;updateSidebar();renderReaderView();}">ቀጣይ ምዕራፍ ▶</button>
+            </div>
+          </div>
+          <div class="verse-pills">${pillsHtml}</div>
+        </div>
+        ${versesHtml}
+      `;
+      main.scrollTop = 0;
+    }
+
+    function openPageVerifier(pdfPage) {
+      CURRENT_PDF_PAGE = pdfPage;
+      switchTab('diplomatic');
+    }
+
+    async function renderDiplomaticView(pdfPage) {
+      const maxPages = (BOOK_DATA && BOOK_DATA.stats && BOOK_DATA.stats.total_pdf_pages) ? BOOK_DATA.stats.total_pdf_pages : 200;
+      CURRENT_PDF_PAGE = Math.max(1, Math.min(maxPages, pdfPage));
+      const main = document.getElementById('mainPanel');
+      main.innerHTML = `<p style="padding:1rem;">Loading PDF Page ${CURRENT_PDF_PAGE}...</p>`;
+
+      const res = await fetch(`/api/page/${CURRENT_PDF_PAGE}?book=${encodeURIComponent(CURRENT_BOOK)}`);
+      if (!res.ok) {
+        main.innerHTML = `
+          <div class="diplomatic-toolbar">
+            <div><strong>PDF Page ${CURRENT_PDF_PAGE}</strong> is currently being extracted by Gemini 4 Argon...</div>
+            <div>
+              <button class="btn-small" onclick="renderDiplomaticView(${CURRENT_PDF_PAGE - 1})">◀ Prev Page</button>
+              <button class="btn-small" onclick="renderDiplomaticView(${CURRENT_PDF_PAGE + 1})">Next Page ▶</button>
+            </div>
+          </div>
+        `;
+        return;
+      }
+      const pData = await res.json();
+      const cols = pData.columns || [];
+
+      let colsHtml = cols.map(col => {
+        const linesHtml = (col.lines || []).map(ln => {
+          const hasUnc = ln.uncertain && ln.uncertain.length > 0;
+          const hasS2 = !!ln.stage2_correction;
+          const mBadge = ln.margin_tag ? `<span class="dip-margin">${ln.margin_tag}</span>` : '';
+          const wrapSym = ln.word_wraps_to_next_line ? `<span class="dip-wrap" title="Word wraps onto next line">↵</span>` : '';
+          const formatted = formatAndemtaHtml(ln.text);
+          let lineTitle = 'Click to edit line';
+          if (hasS2) {
+            lineTitle = `✅ Stage-2 Fixed (${ln.stage2_correction.pair}): "${ln.stage1_text}" → "${ln.text}" — ${ln.stage2_correction.reason}`;
+          } else if (hasUnc) {
+            lineTitle = ln.uncertain.map(u => `${u.printed_text} → ${u.alternative} (${u.note})`).join(' | ');
+          }
+          const extraClass = (hasUnc ? ' has-uncertain' : '') + (hasS2 ? ' has-stage2' : '');
+          return `
+            <div class="dip-line${extraClass}" title="${lineTitle.replace(/"/g, '&quot;')}"
+                 onclick="promptEditLine(${CURRENT_PDF_PAGE}, ${col.column_index}, ${ln.line_num}, ${JSON.stringify(ln.text).replace(/"/g, '&quot;')})">
+              <span class="dip-lnum">${ln.line_num}</span>
+              ${mBadge}
+              <span class="dip-text">${formatted}</span>
+              ${wrapSym}
+            </div>
+          `;
+        }).join('');
+        return `
+          <div class="diplomatic-col">
+            <h4>ዓምድ ${col.column_index} (Column ${col.column_index} · ${(col.lines || []).length} lines)</h4>
+            ${linesHtml}
+          </div>
+        `;
+      }).join('');
+
+      main.innerHTML = `
+        <div class="diplomatic-toolbar">
+          <div style="display:flex; align-items:center; gap:0.75rem;">
+            <button class="btn-small" onclick="renderDiplomaticView(${CURRENT_PDF_PAGE - 1})">◀ ቀዳሚ ገጽ</button>
+            <strong style="font-size:1.05rem; color:var(--rubric-red);">
+              የመጽሐፍ ገጽ ${pData.book_page_ethiopic || '-'} (${pData.book_page_arabic || '-'}) · PDF Page ${CURRENT_PDF_PAGE} / ${maxPages}
+            </strong>
+            <button class="btn-small" onclick="renderDiplomaticView(${CURRENT_PDF_PAGE + 1})">ቀጣይ ገጽ ▶</button>
+            <input type="number" min="1" max="${maxPages}" value="${CURRENT_PDF_PAGE}" style="width:70px; padding:0.2rem 0.4rem;"
+                   onchange="renderDiplomaticView(parseInt(this.value || '1', 10))" />
+          </div>
+          <div style="display:flex; align-items:center; gap:0.5rem;">
+            <span style="font-size:0.82rem; color:var(--ink-muted);">የገጽ ርዕስ፦ ${pData.running_header || '-'}</span>
+            <button class="btn-small" onclick="adjustZoom(0.25)">🔍 Zoom +</button>
+            <button class="btn-small" onclick="adjustZoom(-0.25)">🔍 Zoom -</button>
+          </div>
+        </div>
+        <div class="diplomatic-split">
+          <div class="scan-viewer">
+            <img id="scanImg" src="/images/${CURRENT_BOOK}/page_${String(CURRENT_PDF_PAGE).padStart(3, '0')}.jpg" alt="Book Page ${CURRENT_PDF_PAGE}" />
+          </div>
+          <div class="columns-grid" style="grid-template-columns: repeat(${Math.max(1, cols.length)}, 1fr);">
+            ${colsHtml || '<div class="diplomatic-col">ባዶ ገጽ (Blank Page)</div>'}
+          </div>
+        </div>
+      `;
+    }
+
+    function adjustZoom(delta) {
+      ZOOM_LEVEL = Math.max(0.75, Math.min(2.5, ZOOM_LEVEL + delta));
+      const img = document.getElementById('scanImg');
+      if (img) {
+        img.style.maxWidth = `${Math.round(ZOOM_LEVEL * 100)}%`;
+      }
+    }
+
+    async function promptEditLine(pdfPage, colIdx, lineNum, currentText) {
+      const updated = window.prompt(`ማስተካከያ — ${CURRENT_BOOK} PDF Page ${pdfPage}, Column ${colIdx}, Line ${lineNum}:\n(Keep ⟪...⟫ around root Ge'ez gospel words)`, currentText);
+      if (updated === null || updated === currentText) return;
+      const res = await fetch('/api/update_line', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          book: CURRENT_BOOK,
+          pdf_page: pdfPage,
+          column_index: colIdx,
+          line_num: lineNum,
+          text: updated,
+          resolve_uncertain: true
+        })
+      });
+      if (res.ok) {
+        await loadBookData();
+        renderDiplomaticView(pdfPage);
+      }
+    }
+
+    function renderIndicesView() {
+      const main = document.getElementById('mainPanel');
+      const chIdx = BOOK_DATA.chapter_index || [];
+      const topIdx = BOOK_DATA.topical_index || [];
+      const canonTbls = BOOK_DATA.canon_tables || [];
+
+      const chRows = chIdx.map(c => `
+        <tr style="cursor:pointer;" onclick="CURRENT_CHAPTER=${c.chapter_num}; switchTab('reader'); updateSidebar();">
+          <td><strong>ምዕራፍ ${c.chapter_ethiopic} (${c.chapter_num})</strong></td>
+          <td style="color:var(--rubric-red); font-weight:600;">${c.geez_incipit}</td>
+          <td>${c.amharic_incipit}</td>
+        </tr>
+      `).join('');
+
+      const topRows = topIdx.map(t => `
+        <tr style="cursor:pointer;" onclick="jumpToTopic(${t.chapter_num}, ${t.verse_num})">
+          <td>${t.topic_id}</td>
+          <td><strong>ም ${t.chapter_ethiopic} ፥ ቍ ${t.verse_ethiopic}</strong> (${t.chapter_num}:${t.verse_num})</td>
+          <td style="color:var(--rubric-red); font-weight:600;">${t.geez_title}</td>
+          <td>${t.amharic_title}</td>
+          <td>ገጽ ${t.book_page_ethiopic}</td>
+        </tr>
+      `).join('');
+
+      let canonHtml = '';
+      if (canonTbls.length > 0) {
+        const cRows = canonTbls.map(ct =>
+          (ct.entries || []).map(e => `
+            <tr style="cursor:pointer;" onclick="openPageVerifier(${ct.pdf_page})">
+              <td>ገጽ ${ct.book_page_ethiopic} (p.${ct.pdf_page})</td>
+              <td>${e.chapter_ethiopic || ''} ${e.verse_ethiopic || ''}</td>
+              <td style="color:var(--rubric-red); font-weight:600;">${e.geez_title || ''}</td>
+              <td>${e.amharic_title || ''}</td>
+            </tr>
+          `).join('')
+        ).join('');
+        canonHtml = `
+          <h2 style="color:var(--rubric-red); margin:2rem 0 0.75rem;">፫. ዐሥሩ አዕማደ ሰንጠረዥ (10 Eusebian Gospel Harmony Canon Tables — ${canonTbls.length} pages)</h2>
+          <table class="data-table">
+            <thead>
+              <tr><th>ገጽ</th><th>ምዕራፍ/ቍጥር</th><th>የግዕዝ ንባብ (Ge'ez Entry)</th><th>የወንጌላውያን ኅብረት (Parallel References)</th></tr>
+            </thead>
+            <tbody>${cRows}</tbody>
+          </table>
+        `;
+      }
+
+      main.innerHTML = `
+        <h2 style="color:var(--rubric-red); margin-bottom:0.75rem;">፩. ኍልቈ ምዕራፍ ዓቢይ (${chIdx.length} Major Chapters Index)</h2>
+        <table class="data-table" style="margin-bottom:2rem;">
+          <thead>
+            <tr><th>ምዕራፍ</th><th>የግዕዝ መጀመሪያ (Ge'ez Incipit)</th><th>የአማርኛ ትርጓሜ (Amharic Incipit)</th></tr>
+          </thead>
+          <tbody>${chRows}</tbody>
+        </table>
+
+        <h2 style="color:var(--rubric-red); margin-bottom:0.75rem;">፪. መክሥተ አርእስት (${topIdx.length} Topical Pericopes)</h2>
+        <table class="data-table">
+          <thead>
+            <tr><th>#</th><th>ምዕራፍና ቍጥር</th><th>መክሥተ አርእስት (Ge'ez Topic)</th><th>የአማርኛ አርእስት ማውጫ (Amharic Topic)</th><th>የማውጫ ገጽ</th></tr>
+          </thead>
+          <tbody>${topRows}</tbody>
+        </table>
+        ${canonHtml}
+      `;
+    }
+
+    function jumpToTopic(chNum, vNum) {
+      CURRENT_CHAPTER = chNum;
+      switchTab('reader');
+      updateSidebar();
+      setTimeout(() => {
+        const el = document.getElementById(`verse-${chNum}-${vNum}`);
+        if (el) el.scrollIntoView({ behavior: 'smooth' });
+      }, 100);
+    }
+
+    function renderApparatusView() {
+      const main = document.getElementById('mainPanel');
+      const s2 = BOOK_DATA.stage2_corrections || [];
+      const items = BOOK_DATA.uncertain_apparatus || [];
+
+      const s2Rows = s2.map(c => `
+        <tr>
+          <td><strong>ገጽ ${c.book_page_ethiopic || c.pdf_page}</strong> (p.${c.pdf_page})<br/><small>Col ${c.column_index}, L${c.line_num}</small></td>
+          <td><span style="background:var(--warn-bg); color:var(--warn-amber); padding:0.15rem 0.4rem; border-radius:4px; font-weight:700;">${c.pair || '-'}</span></td>
+          <td style="text-decoration:line-through; color:var(--ink-muted);">${c.stage1_text}</td>
+          <td><span style="background:var(--andem-bg); color:var(--andem-badge); padding:0.15rem 0.4rem; border-radius:4px; font-weight:700;">${c.corrected_text}</span></td>
+          <td style="font-size:0.85rem; color:var(--ink-muted);">${c.reason}</td>
+          <td>
+            <button class="btn-small" onclick="openPageVerifier(${c.pdf_page})">🔍 ገጹን እይ</button>
+          </td>
+        </tr>
+      `).join('');
+
+      const rows = items.map(u => `
+        <tr>
+          <td><strong>ገጽ ${u.book_page_ethiopic || u.pdf_page}</strong> (p.${u.pdf_page})<br/><small>Col ${u.column_index}, L${u.line_num}</small></td>
+          <td><span style="background:var(--warn-bg); padding:0.15rem 0.4rem; border-radius:4px; font-weight:700;">${u.printed_text}</span></td>
+          <td><span style="background:var(--andem-bg); color:var(--andem-badge); padding:0.15rem 0.4rem; border-radius:4px; font-weight:700;">${u.alternative}</span></td>
+          <td>${u.line_text}</td>
+          <td style="font-size:0.85rem; color:var(--ink-muted);">${u.note}</td>
+          <td>
+            <button class="btn-small" onclick="openPageVerifier(${u.pdf_page})">🔍 ገጹን እይ</button>
+          </td>
+        </tr>
+      `).join('');
+
+      main.innerHTML = `
+        <div style="margin-bottom:1.25rem;">
+          <h2 style="color:var(--rubric-red);">✅ Stage-2 Yeneta Philological &amp; Visual Corrections (${s2.length} lines corrected across Ge'ez &amp; Amharic)</h2>
+          <p style="color:var(--ink-muted); font-size:0.92rem; margin-bottom:0.75rem;">
+            Ink-bleed Fidel lookalikes automatically audited and corrected by Stage-2 visual + morphological verification.
+          </p>
+          <table class="data-table" style="margin-bottom:2rem;">
+            <thead>
+              <tr><th>ገጽ / መስመር</th><th>የፊደል ለውጥ (Pair)</th><th>Stage-1 OCR (Before)</th><th>Stage-2 የተስተካከለው (Corrected)</th><th>ምክንያት (Philological &amp; Visual Note)</th><th>ድርጊት</th></tr>
+            </thead>
+            <tbody>${s2Rows}</tbody>
+          </table>
+
+          <h2 style="color:var(--rubric-red);">🔬 የኅትመት ልዩነቶች (Remaining Diplomatic Print Notes — ${items.length} spans)</h2>
+          <table class="data-table">
+            <thead>
+              <tr><th>ገጽ / መስመር</th><th>በመጽሐፉ የታተመው (Diplomatic Print)</th><th>ትክክለኛው ንባብ (Editorial Reading)</th><th>ሙሉ መስመሩ (Line Context)</th><th>ምክንያት (Philological Note)</th><th>ድርጊት</th></tr>
+            </thead>
+            <tbody>${rows}</tbody>
+          </table>
+        </div>
+      `;
+    }
+
+    async function runSearch() {
+      const q = document.getElementById('searchInput').value.trim();
+      if (!q) return;
+      const res = await fetch(`/api/search?book=${encodeURIComponent(CURRENT_BOOK)}&q=${encodeURIComponent(q)}`);
+      const data = await res.json();
+      const main = document.getElementById('mainPanel');
+
+      const cards = (data.results || []).map(v => {
+        const highlighted = formatAndemtaHtml(v.rejoined_marked_text).replace(
+          new RegExp(q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g'),
+          `<mark style="background:#fde047; padding:0 2px; border-radius:2px;">${q}</mark>`
+        );
+        return `
+          <article class="verse-card">
+            <div class="verse-meta">
+              <div class="verse-num-badge">ምዕራፍ ${v.chapter_ethiopic} ፥ ቍጥር ${v.verse_ethiopic} (${v.chapter_num}:${v.verse_num}) · ገጽ ${v.start_book_page_ethiopic}</div>
+              <div>
+                <button class="btn-small" onclick="jumpToTopic(${v.chapter_num}, ${v.verse_num})">📖 ወደ ምዕራፉ ሂድ</button>
+                <button class="btn-small" onclick="openPageVerifier(${v.start_pdf_page})">🔍 ገጽ ${v.start_book_page_ethiopic} እይ</button>
+              </div>
+            </div>
+            <div class="verse-body-text">${highlighted}</div>
+          </article>
+        `;
+      }).join('');
+
+      main.innerHTML = `
+        <div style="margin-bottom:1rem; display:flex; justify-content:space-between; align-items:center;">
+          <h2 style="color:var(--rubric-red);">የፍለጋ ውጤት ለ «${q}» (${data.count} አንቀጾች ተገኝተዋል)</h2>
+          <button class="btn-small" onclick="renderReaderView()">✕ ፍለጋ ዝጋ</button>
+        </div>
+        ${cards || '<p>ምንም ውጤት አልተገኘም።</p>'}
+      `;
+    }
+
+    loadBookData();
+  </script>
+</body>
+</html>

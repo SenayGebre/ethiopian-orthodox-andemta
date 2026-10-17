@@ -1,0 +1,35 @@
+{
+  "pdf_page": 41,
+  "book_page_ethiopic": "፬፻፳፭ | ፬፻፳፮",
+  "elapsed_sec": 19.1,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 34,
+      "old_text": "አልገኝም፡ባሕርዬ፡ ይመረአመርም፡ ሲል፡",
+      "corrected_text": "አልገኝም፡ባሕርዬ፡ አይመረመርም፡ ሲል፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ይመረአመርም -> አይመረመርም",
+      "reason": "The printed text clearly reads 'አይመረመርም፡' ('my nature cannot be scrutinized/investigated'), which Stage 1 scrambled into 'ይመረአመርም'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 18,
+      "old_text": "ስግን ፡ አሉት ፡ አንሰ፡ ዕድው ፡ እምዝንቱ፡",
+      "corrected_text": "ስግን ፡ አሉት ፡ አነሰ፡ ዕድው ፡ እምዝንቱ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አንሰ -> አነሰ",
+      "reason": "Classical Ge'ez 1st-person pronoun with enclitic '-ሰ' is 'አነሰ' ('As for me'), and the printed glyph is 1st-order 'ነ' without the top hook of 'ን'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 19,
+      "old_text": "ሕሊና ፡ ውዑእም ፡ ይላል ፡ እኔ ፡ ከዚህ ፡",
+      "corrected_text": "ሕሊና ፡ ውፁእም ፡ ይላል ፡ እኔ ፡ ከዚህ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ውዑእም -> ውፁእም",
+      "reason": "The printed character is 'ፁ' ('ውፁእም', matching the repetition 'ውፁእ ፡ ነኝ' on the next line), misread as 'ዑ' due to ink fill in the upper loop of 'ፀ'."
+    }
+  ]
+}

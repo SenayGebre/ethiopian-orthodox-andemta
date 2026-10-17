@@ -1,0 +1,147 @@
+{
+  "pdf_page": 57,
+  "book_page_arabic": 376,
+  "book_page_ethiopic": "፫፻፸፮",
+  "page_type": "commentary_3col",
+  "running_header": "፫፻፸፮ የማርቆስ ወንጌል ።",
+  "column_boxes": [
+    [
+      0,
+      38,
+      403,
+      422
+    ],
+    [
+      361,
+      38,
+      721,
+      422
+    ],
+    [
+      679,
+      38,
+      1024,
+      422
+    ]
+  ],
+  "columns": [
+    {
+      "column_index": 1,
+      "lines": [
+        {
+          "line_num": 1,
+          "margin_tag": null,
+          "line_type": "colophon",
+          "text": "⟪እምድኅረ ዕርገቱ ለእግዚእ",
+          "word_wraps_to_next_line": true,
+          "uncertain": []
+        },
+        {
+          "line_num": 2,
+          "margin_tag": null,
+          "line_type": "colophon",
+          "text": "ነ በ፲ ወ፩ ዓመት ።⟫",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 3,
+          "margin_tag": null,
+          "line_type": "colophon",
+          "text": "ጌታ ካረገ በኋላ ባሥራ አንድ",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 4,
+          "margin_tag": null,
+          "line_type": "colophon",
+          "text": "ዓመት ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": [],
+          "stage1_text": "ዓመት ፤",
+          "stage2_correction": {
+            "pair": "፤ -> ።",
+            "reason": "The punctuation mark at the end of Column 1 Line 4 is clearly the four-dot full stop (ነጥብ ።) with slight vertical ink connection, not a semicolon (፤)."
+          }
+        }
+      ]
+    },
+    {
+      "column_index": 2,
+      "lines": [
+        {
+          "line_num": 1,
+          "margin_tag": null,
+          "line_type": "colophon",
+          "text": "⟪ወበራብዕት ዓመተ መንግሥ",
+          "word_wraps_to_next_line": true,
+          "uncertain": []
+        },
+        {
+          "line_num": 2,
+          "margin_tag": null,
+          "line_type": "colophon",
+          "text": "ቱ ለቀላውዴዎስ ቄሣር ።⟫",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 3,
+          "margin_tag": null,
+          "line_type": "colophon",
+          "text": "ቀላውዴዎስ ቄሣር በነገሠ ባ",
+          "word_wraps_to_next_line": true,
+          "uncertain": []
+        },
+        {
+          "line_num": 4,
+          "margin_tag": null,
+          "line_type": "colophon",
+          "text": "ራተኛው ዓመት የጻፈው ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        }
+      ]
+    },
+    {
+      "column_index": 3,
+      "lines": [
+        {
+          "line_num": 1,
+          "margin_tag": null,
+          "line_type": "colophon",
+          "text": "⟪ወስብሐት ለእግዚአብሔር ።⟫",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 2,
+          "margin_tag": null,
+          "line_type": "colophon",
+          "text": "አስጀምሮ ላስፈጸመን ለእግዚ",
+          "word_wraps_to_next_line": true,
+          "uncertain": []
+        },
+        {
+          "line_num": 3,
+          "margin_tag": null,
+          "line_type": "colophon",
+          "text": "አብሔር ክብር ምስጋና ይግ",
+          "word_wraps_to_next_line": true,
+          "uncertain": []
+        },
+        {
+          "line_num": 4,
+          "margin_tag": null,
+          "line_type": "colophon",
+          "text": "ባው ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        }
+      ]
+    }
+  ],
+  "stage2_verified": true,
+  "stage2_corrections_count": 1
+}

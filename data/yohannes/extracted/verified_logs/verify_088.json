@@ -1,0 +1,62 @@
+{
+  "pdf_page": 88,
+  "book_page_ethiopic": "፭፻፺፰",
+  "elapsed_sec": 27.4,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 32,
+      "old_text": "ነግሬአችኋለሁና ።",
+      "corrected_text": "ነግሬችኋለሁና ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ነግሬአችኋለሁና -> ነግሬችኋለሁና",
+      "reason": "Visual inspection of Col 1 L32 shows 8 Fidels (ነ-ግ-ሬ-ች-ኋ-ለ-ሁ-ና) without an intervening አ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 34,
+      "old_text": "⟪እስመ ዓለም እሊኣሁ ያፈቅር⟫",
+      "corrected_text": "⟪እስመ ዓለም እሊአሁ ያፈቅር⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እሊኣሁ -> እሊአሁ",
+      "reason": "In Classical Ge'ez (John 15:19) and on the printed page, the plural possessive pronoun is spelled with 1st-order አ (እሊአሁ), not 4th-order ኣ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 6,
+      "old_text": "ንጅ ።",
+      "corrected_text": "ንጂ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጅ -> ጂ",
+      "reason": "The word እንጂ splits across L05-L06; the glyph on L06 has the 3rd-order right foot (ጂ), not 6th-order ጅ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 15,
+      "old_text": "በልጥ በሪ ከላኪው የሚበል",
+      "corrected_text": "በልጥ ባሪ ከላኪው የሚበል",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በሪ -> ባሪ",
+      "reason": "The printed glyph has the shortened left leg of 4th-order ባ (ባሪ = 'servant/slave', matching Col 1 L20 ባሪ ጌታው), misread as 1st-order በ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 22,
+      "old_text": "አስወጥተው ይሰዷዋችኋል ።",
+      "corrected_text": "አስወጥተው ይሰድዋችኋል ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ይሰዷዋችኋል -> ይሰድዋችኋል",
+      "reason": "The third character is 6th-order ድ followed by ዋ (ይሰድዋችኋል), not a redundant ዷዋ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 39,
+      "old_text": "ኮኖሙ ጌጋየ ።⟫",
+      "corrected_text": "ኮኖሙ ጌጋይ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጌጋየ -> ጌጋይ",
+      "reason": "Both the printed glyph and canonical Ge'ez grammar (nominative subject of ኮኖሙ in John 15:22: ወእምኢኮኖሙ ጌጋይ) have 6th-order ይ (ጌጋይ), not 1st-order የ."
+    }
+  ]
+}

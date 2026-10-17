@@ -1,0 +1,53 @@
+{
+  "pdf_page": 23,
+  "book_page_ethiopic": "፻፶፪ | ፻፶፫",
+  "elapsed_sec": 19.3,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 7,
+      "old_text": "ተግዛ ፡ አየሁ ፡ ሐተታ ፡ በምሥዋዐ ፡ ብር",
+      "corrected_text": "ተይዛ ፡ አየሁ ፡ ሐተታ ፡ በምሥዋዐ ፡ ብር",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ተግዛ -> ተይዛ",
+      "reason": "The word is ተይዛ (held/kept, cf. L26 ተይዛ ፡ አየሁ), where the 6th-order ይ (with its right-side loop) was misread as ግ due to slight ink fill."
+    },
+    {
+      "column_index": 1,
+      "line_num": 22,
+      "old_text": "አንድም ፡ በአካላዊ ፡ ቃል ፡ ሰላመኑ ፡ ሕ",
+      "corrected_text": "አንድም ፡ በአካላዊ ፡ ቃል ፡ ስላመኑ ፡ ሕ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሰላመኑ -> ስላመኑ",
+      "reason": "6th-order ስ in ስላመኑ ('because they believed', cf. L04 ስላመኑ) is clearly printed with the top-left notch of ስ, misread as 1st-order ሰ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 29,
+      "old_text": "ወኢምንትኒ ፡ እንዲል ፤ ም ፡ ፳ ፥ ፭ ።",
+      "corrected_text": "ወኢምንትኒ ፡ እንዲል ፤ ም ፡ ፯ ፥ ፲፭ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፳ ፥ ፭ -> ፯ ፥ ፲፭",
+      "reason": "The cross-reference is ም ፡ ፯ ፥ ፲፭ (Revelation 7:15); the numeral ፯ (7) was misread as ፳ (20) and ፲፭ (15) was misread as ፭ (5)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 2,
+      "old_text": "ነው ፡ ም ፡ ፫ ፥ ፭ ፡ ፯ ፥ ፱ ፡ ፲፫ ፡ ፲፬ ።",
+      "corrected_text": "ነው ፡ ም ፡ ፫ ፥ ፭ ፡ ፯ ፥ ፱ ፡ ፲፫ ፥ ፲፬ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፲፫ ፡ ፲፬ -> ፲፫ ፥ ፲፬",
+      "reason": "Between ፲፫ and ፲፬ there is a colon-dash separator (፥) rather than a plain wordspace."
+    },
+    {
+      "column_index": 4,
+      "line_num": 25,
+      "old_text": "አንድም ፡ እስከ ፡ ማዕዜኑ ፡ ኢትትቤቀሎ",
+      "corrected_text": "አንድም ፡ እስከ ፡ ማእዜኑ ፡ ኢትትቤቀሎ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ማዕዜኑ -> ማእዜኑ",
+      "reason": "The printed Fidel is 6th-order እ in ማእዜኑ (not ዕ), matching the canonical Ge'ez spelling in Col 1 L33 and Col 2 L25, L29."
+    }
+  ]
+}

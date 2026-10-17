@@ -1,0 +1,17 @@
+{
+  "pdf_page": 199,
+  "book_page_ethiopic": "፫፻፲፯",
+  "elapsed_sec": 11.5,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 24,
+      "old_text": "በእንተ ዘከመ ክሠተ ኢየሱስ ለ",
+      "corrected_text": "በእንተ ዘከመ ከሠተ ኢየሱስ ለ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ክሠተ -> ከሠተ",
+      "reason": "In Ge'ez, the perfect verb 'he revealed' is ከሠተ (1st order ግዕዝ ከ), and the printed glyph in the image is clearly ከ rather than 6th order ክ."
+    }
+  ]
+}

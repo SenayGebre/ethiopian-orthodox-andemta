@@ -1,0 +1,53 @@
+{
+  "pdf_page": 8,
+  "book_page_ethiopic": "፪፻፳፮ | ፪፻፳፯",
+  "elapsed_sec": 23.6,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 14,
+      "old_text": "⟪፲፫ ፤ ወያስተሐውዝዎ ፡ ለተድላዎ ፡ ስታየ ፡ ዕለ",
+      "corrected_text": "⟪፲፫ ፤ ወያስተሐውዝዎ ፡ ለተደልዎ ፡ ስታየ ፡ ዕለ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ለተድላዎ -> ለተደልዎ",
+      "reason": "Classical Ge'ez infinitive 'ለተደልዎ' (from ተደለወ, as repeated in line 18); the 1st-order 'ደ' and 6th-order 'ል' were transposed as 'ድላ' in Stage 1."
+    },
+    {
+      "column_index": 3,
+      "line_num": 19,
+      "old_text": "ዘያርኅቃ ፡ ዘይከልአ ፡ ዘያኀድጋ ፡ ዘያደነ",
+      "corrected_text": "ዘያርኅቃ ፡ ዘይከልኣ ፡ ዘያኀድጋ ፡ ዘያደነ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዘይከልአ -> ዘይከልኣ",
+      "reason": "Ge'ez 3rd-person feminine singular object suffix requires 4th-order 'ኣ' ('ዘይከልኣ', parallel to 'ዘያርኅቃ', 'ዘያኀድጋ'), and the shortened left leg of 'ኣ' is visible in the print."
+    },
+    {
+      "column_index": 4,
+      "line_num": 13,
+      "old_text": "የዐመጽን ፡ ዋጋ ፡ የወደዳት ። ሐተታ ፡ ለ",
+      "corrected_text": "የዐመፅን ፡ ዋጋ ፡ የወደዳት ። ሐተታ ፡ ለ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "የዐመጽን -> የዐመፅን",
+      "reason": "The printed glyph is 'ፅ' (ፀ-series 6th order with circular head, matching 'ዐመፃ' in line 12), not 'ጽ'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 24,
+      "old_text": "⟪ወከልአ ፡ ለነቢይ ፡ እበዲሁ ፥⟫",
+      "corrected_text": "⟪ወከልኦ ፡ ለነቢይ ፡ እበዲሁ ፥⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወከልአ -> ወከልኦ",
+      "reason": "Canonical Ge'ez of 2 Peter 2:16 'ወከልኦ ለነቢይ እበዲሁ' with 7th-order 'ኦ' (masculine singular pronominal object suffix anticipating 'ለነቢይ'), clearly visible with the upper right loop on 'ኦ'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 28,
+      "old_text": "ይደነግጹ ፡ ናቸው ። አንድም ፡ በለዓምን፡",
+      "corrected_text": "ይደነግፁ ፡ ናቸው ። አንድም ፡ በለዓምን፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ይደነግጹ -> ይደነግፁ",
+      "reason": "The printed glyph has the round head of 'ፁ' ('የማይደነግፁ', matching 'ኢይደነግፁ' in line 27), not 'ጹ'."
+    }
+  ]
+}

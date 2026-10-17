@@ -1,0 +1,17 @@
+{
+  "pdf_page": 60,
+  "book_page_ethiopic": "፬፻፳፮ | ፬፻፳፯",
+  "elapsed_sec": 23.8,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 30,
+      "old_text": "እንደ ፡ ሥሩ ፡ እንደ ፡ ሠሩት ፡ ዳን ፡ ፯ ፥",
+      "corrected_text": "እንደ ፡ ሠሩ ፡ እንደ ፡ ሠሩት ፡ ዳን ፡ ፯ ፥",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሥሩ -> ሠሩ",
+      "reason": "Both visually and grammatically, the first verb is 1st-order 'ሠሩ' ('as they did / worked', matching 'እንደ ፡ ሠሩት' right after it), not 6th-order 'ሥሩ'."
+    }
+  ]
+}

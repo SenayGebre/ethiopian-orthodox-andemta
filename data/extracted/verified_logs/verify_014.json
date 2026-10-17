@@ -1,0 +1,35 @@
+{
+  "pdf_page": 14,
+  "book_page_ethiopic": "፻፴፫",
+  "elapsed_sec": 23.4,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 9,
+      "old_text": "እመሕያው ወእሙራን በመ↵",
+      "corrected_text": "እመሕያው ወእሙራን ቦሙ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በመ -> ቦሙ",
+      "reason": "Both the zoomed image and Classical Ge'ez grammar ('እለ ሥሩዓን በእጓለ እመሕያው ወእሙራን ቦሙ ዘውእቶሙ...') confirm the complete word 'ቦሙ' (in them) at the end of line 9, not a wrapped prefix 'በመ-'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 28,
+      "old_text": "ምሳሌውንም እንዲ አውቆ አ↵",
+      "corrected_text": "ምሳሌውንም እንጂ አውቆ አ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እንዲ -> እንጂ",
+      "reason": "The printed glyph in Column 2, Line 28 has the distinct top crossbar of 'ጂ' ('እንጂ'), which was misread as 'ዲ' ('እንዲ')."
+    },
+    {
+      "column_index": 2,
+      "line_num": 31,
+      "old_text": "ሂተ ለሃይማኖት ዓባይ እንጂ",
+      "corrected_text": "ሂተ ለሃይማኖት ዓባይ እንዲ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እንጂ -> እንዲ↵",
+      "reason": "In traditional Andemta citation syntax following a Ge'ez quote ('ከመ ትኩን መራሂተ ለሃይማኖት ዓባይ'), the text reads 'እንዲይላታል' (as He calls her), split across the line break as 'እንዲ↵ይላታል'."
+    }
+  ]
+}

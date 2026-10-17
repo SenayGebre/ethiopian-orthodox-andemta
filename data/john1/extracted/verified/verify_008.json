@@ -1,0 +1,17 @@
+{
+  "pdf_page": 8,
+  "book_page_ethiopic": "፻፹፰ | ፻፹፱",
+  "elapsed_sec": 14.5,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 22,
+      "old_text": "ረታዊ ፡ በግርማ ፡ መንግሥት ፡ እናይዋለ",
+      "corrected_text": "ረታዊ ፡ በግርማ ፡ መንግሥት ፡ እናየዋለ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ይ -> የ",
+      "reason": "The printed glyph is 1st-order የ in እናየዋለንና ('for we shall see Him', matching L14 እናየዋለንና), misread as 6th-order ይ due to faint ink on the lower stem."
+    }
+  ]
+}

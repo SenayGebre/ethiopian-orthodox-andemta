@@ -1,0 +1,26 @@
+{
+  "pdf_page": 42,
+  "book_page_ethiopic": "፭፻፶፪",
+  "elapsed_sec": 23.8,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 31,
+      "old_text": "ኀዋሁ እንዘ ይብል አእምሮ",
+      "corrected_text": "ኀዋሁ እንዘ ይብል አእምር",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሮ -> ር",
+      "reason": "In the citation of Jeremiah 31:34 (አእምርዎ ለእግዚአብሔር 'Know the Lord!'), the verb splits across lines 31 and 32 as አእምር-ዎ. Visually on line 31 the final glyph is 6th-order ር, not ሮ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 15,
+      "old_text": "እሱን አባቱን አየው እንጂ።",
+      "corrected_text": "እሱስ አባቱን አየው እንጂ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ን -> ስ",
+      "reason": "Translating the Ge'ez enclitic -ኬ in ወውእቱኬ ('As for Him / But He'), the Amharic commentary reads እሱስ ('He, however, saw His Father'), and the printed glyph clearly shows the two-toothed crown of ስ rather than ን."
+    }
+  ]
+}

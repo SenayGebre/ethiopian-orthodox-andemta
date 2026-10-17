@@ -1,0 +1,17 @@
+{
+  "pdf_page": 4,
+  "book_page_ethiopic": "፩",
+  "elapsed_sec": 28.8,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 14,
+      "old_text": "አኩን ፡ ሰዶ ፡ የነገረው ፡ ቍ ፡ ፲፱ ፥",
+      "corrected_text": "አኩን ፡ ሰዶ ፡ የነገረው ፡ ቍ ፡ ፳ ፥",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፲፱ -> ፳",
+      "reason": "The printed numeral at the end of line 14 is clearly the single Ethiopic numeral ፳ (20), not ፲፱ (19)."
+    }
+  ]
+}

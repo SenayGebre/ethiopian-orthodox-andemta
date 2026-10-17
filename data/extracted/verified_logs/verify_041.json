@@ -1,0 +1,17 @@
+{
+  "pdf_page": 41,
+  "book_page_ethiopic": "፻፷",
+  "elapsed_sec": 21.3,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 2,
+      "old_text": "ረ ፊባኖስ ያሉ ። ⟪ገሊላ ዘአሕዛብ⟫",
+      "corrected_text": "ረ ሊባኖስ ያሉ ። ⟪ገሊላ ዘአሕዛብ⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፊ -> ሊ",
+      "reason": "The printed glyph is ሊ in 'በአንጻረ ሊባኖስ ያሉ' (opposite Mount Lebanon); ink spread at the base of ሊ made it resemble ፊ."
+    }
+  ]
+}

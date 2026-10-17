@@ -1,0 +1,17 @@
+{
+  "pdf_page": 64,
+  "book_page_ethiopic": "፬፻፵፮",
+  "elapsed_sec": 6.4,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 6,
+      "old_text": "⟪እስመ ታፀውርዎ ለሰብእ የረ",
+      "corrected_text": "⟪እስመ ታፀውርዎ ለሰብእ ፆረ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "የረ -> ፆረ",
+      "reason": "In Luke 11:46 ('እስመ ታፀውርዎ ለሰብእ ፆረ ክቡደ'), the printed glyph is 'ፆረ' (accusative of ፆር, 'burden', matching 'ሸክም' in L08 and 'ፆር' in L12), where 'ፆ' was misread as 'የ'."
+    }
+  ]
+}

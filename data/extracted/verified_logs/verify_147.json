@@ -1,0 +1,53 @@
+{
+  "pdf_page": 147,
+  "book_page_ethiopic": "፪፻፷፮",
+  "elapsed_sec": 12.7,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 5,
+      "old_text": "በየዘለላው ። ከንዱ ዘለላ ቀይ",
+      "corrected_text": "በየዘለላው ። ካንዱ ዘለላ ቀይ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ከ -> ካ",
+      "reason": "The shortened right leg of 4th-order ካ in ካንዱ ('from one') is clearly visible in the scan and was misread as 1st-order ከ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 5,
+      "old_text": "ማሁ ።⟫ እሳቸውንም እንደነዚያ",
+      "corrected_text": "ማሁ ።⟫ እነሳቸውንም እንደነዚያ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እሳቸውንም -> እነሳቸውንም",
+      "reason": "The character ነ in እነሳቸውንም ('them also') was omitted in the draft pass."
+    },
+    {
+      "column_index": 2,
+      "line_num": 9,
+      "old_text": "ሩታል በይሆን ያፍሩታል ብ↵",
+      "corrected_text": "ሩታል ባይሆን ያፍሩታል ብ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በ -> ባ",
+      "reason": "Amharic negative conditional ባይሆን ('or at least / if not') has 4th-order ባ, misread as 1st-order በ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 15,
+      "old_text": "መምሕርነቱን ገንዘብ እናድር↵",
+      "corrected_text": "መምህርነቱን ገንዘብ እናድር↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሕ -> ህ",
+      "reason": "The printed glyph in መምህርነቱን is clearly ህ (with its single loop and left hook), misread as ሕ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 28,
+      "old_text": "ንዲል ሁለቱ ክሥሩ ነገድ ከ↵",
+      "corrected_text": "ንዲል ሁለቱ ከሥሩ ነገድ ከ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ክ -> ከ",
+      "reason": "Traditional Andemta idiom ሁለቱ ከሥሩ ነገድ ('the twelve tribes', lit. two from ten) uses 1st-order ከ, misread as 6th-order ክ."
+    }
+  ]
+}

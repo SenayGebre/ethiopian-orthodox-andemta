@@ -1,0 +1,26 @@
+{
+  "pdf_page": 125,
+  "book_page_ethiopic": "፮፻፴፬",
+  "elapsed_sec": 11.2,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 1,
+      "old_text": "እምበለስ አእምሩ ምሳሌሁ ።",
+      "corrected_text": "እምበለስ አእምሩ አምሳሊሁ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ምሳሌሁ -> አምሳሊሁ",
+      "reason": "The page image clearly shows 'አምሳሊሁ' (beginning with አ and having the 3rd order ሊ with bottom right leg, not 5th order ሌ), matching the canonical Ge'ez Gospel phrasing (Matt 24:32)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 28,
+      "old_text": "ወወጽአ ፍጡነ ወሖራ እልክቱ።",
+      "corrected_text": "ወወጽኣ ፍጡነ ወሖራ እልክቱ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወወጽአ -> ወወጽኣ",
+      "reason": "The verb agrees with the feminine plural subject 'እልክቱ [አንስት]' (matching 'ወሖራ'), and the 4th order 'ኣ' with shortened left leg is visible in 'ወወጽኣ' (Matt 28:8)."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "pdf_page": 38,
+  "book_page_ethiopic": "፹፰ | ፹፱",
+  "elapsed_sec": 18.0,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 20,
+      "old_text": "ክርስቶስ ፡ ወዳንት ፡ ልኮኛል ፡",
+      "corrected_text": "ክርስቶስ ፡ ወዳንተ ፡ ልኮኛል ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወዳንት -> ወዳንተ",
+      "reason": "The 1st order 'ተ' in 'ወዳንተ' (unto you, translating Ge'ez 'ኀቤከ') was misread as 6th order 'ት' due to slight ink fade on the cross-bar."
+    },
+    {
+      "column_index": 4,
+      "line_num": 4,
+      "old_text": "፳፯ ፤ ⟪ወነሥኦ ፡ በርናባስ ፡ ወወሰዶ ፡ ኀበ ፡ ሐዋር↵",
+      "corrected_text": "፳፯ ፤ ⟪ወነሥኦ ፡ በርናባስ ፡ ወወሰዶ ፡ ኀበ ፡ ሐዋ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሐዋር -> ሐዋ",
+      "reason": "The line ends with 'ሐዋ' and wraps to 'ርያት' on line 5; Stage 1 hallucinated an extra 'ር' at the end of line 4."
+    },
+    {
+      "column_index": 4,
+      "line_num": 15,
+      "old_text": "ስቶስ ፡ ስም ፡ እንዳስተማረ ፡ አለ ፡ ስሙ ፡",
+      "corrected_text": "ስቶስ ፡ ስም ፡ እንዳስተማረ ፡ እለ ፡ ስሙ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አለ -> እለ",
+      "reason": "The word is 'እለ' (Andemta idiom 'እለ ስሙ ሕይወት መድኃኒት እንደ ሆነ' = meaning that His name is life and salvation), where the 6th order 'እ' was misread as 1st order 'አ'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 31,
+      "old_text": "፴ ፤ ⟪ወአእሚሮሙ ፡ በጺ ፡ አውረድዎ ፡ ቂሣርያ ፡⟫",
+      "corrected_text": "፴ ፤ ⟪ወአእሚሮሙ ፡ ቢጸ ፡ አውረድዎ ፡ ቂሣርያ ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በጺ -> ቢጸ",
+      "reason": "Canonical Ge'ez for Acts 9:30 ('ቢጸ' = the brethren, glossed below as 'ምእመናን'). The 3rd order leg on 'ቢ' and 1st order 'ጸ' were transposed/misread by OCR as 'በጺ'."
+    }
+  ]
+}

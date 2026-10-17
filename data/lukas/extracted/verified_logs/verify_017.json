@@ -1,0 +1,26 @@
+{
+  "pdf_page": 17,
+  "book_page_ethiopic": "፫፻፺፱",
+  "elapsed_sec": 13.7,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 15,
+      "old_text": "የበኵር ልጇዋን ወለደች።",
+      "corrected_text": "የበኵር ልጅዋን ወለደች።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጇ -> ጅ",
+      "reason": "The printed glyph is 6th-order ጅ followed by ዋን (ልጅዋን), not the labialized ጇ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 17,
+      "old_text": "መዓልት ከራት ተካፍለው ይ",
+      "corrected_text": "መዓልት ከሌት ተካፍለው ይ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከራት -> ከሌት",
+      "reason": "The printed text reads 'መዓልት ከሌት' (day and night, i.e., the twelve hours of day and night divided into four watches of three hours each), where 5th-order ሌ was misread as ራ."
+    }
+  ]
+}

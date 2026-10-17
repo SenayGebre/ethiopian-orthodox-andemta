@@ -1,0 +1,17 @@
+{
+  "pdf_page": 19,
+  "book_page_ethiopic": "፬፻፩",
+  "elapsed_sec": 13.0,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 32,
+      "old_text": "ድረበት ነበር።",
+      "corrected_text": "ድርበት ነበር።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ረ -> ር",
+      "reason": "The printed glyph is 6th-order sadis 'ር' (forming the imperfect verb 'ያድርበት ነበር'), which was misread as 1st-order 'ረ'."
+    }
+  ]
+}

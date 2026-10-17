@@ -1,0 +1,71 @@
+{
+  "pdf_page": 44,
+  "book_page_ethiopic": "፬፻፳፮",
+  "elapsed_sec": 20.6,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 15,
+      "old_text": "እግሬን ተመሳም አላቋረጠችም",
+      "corrected_text": "እግሬን ከመሳም አላቋረጠችም",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ተ -> ከ",
+      "reason": "The printed glyph has the left vertical stem and right arm of 'ከ' (ከመሳም, 'from kissing [my feet]'), which was misread as 'ተ' due to faint ink on the left stem."
+    },
+    {
+      "column_index": 2,
+      "line_num": 3,
+      "old_text": "ዙኀ አፍቀረተኒ አለ ። ሽቱ የ↵",
+      "corrected_text": "ዙኃ አፍቀረተኒ አለ ። ሽቱ የ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኀ -> ኃ",
+      "reason": "The character has the shortened left leg of 4th-order 'ኃ' (ብዙኃ አፍቀረተኒ), matching Luke 7:47."
+    },
+    {
+      "column_index": 2,
+      "line_num": 28,
+      "old_text": "⟪ወእምዝ በሳኒታ አንሶሰወ እ↵",
+      "corrected_text": "⟪ወእምዝ በሳኒታ አንሶሰወ እ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "spurious word-wrap removed",
+      "reason": "The 'እ' at the end of L28 is a typesetter catch-letter repeated in full as 'እግዚእ' at the start of L29, so it should not be joined mid-word across the line break."
+    },
+    {
+      "column_index": 2,
+      "line_num": 29,
+      "old_text": "እግዚእ ኢየሱስ ውስተ አሀ↵",
+      "corrected_text": "እግዚእ ኢየሱስ ውስተ አህ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሀ -> ህ",
+      "reason": "The glyph at the end of L29 is 6th-order 'ህ' (forming 'አህጉር' across the line break), not 1st-order 'ሀ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 20,
+      "old_text": "እለ ተልእክሁ በንዋዮን ።⟫",
+      "corrected_text": "እለ ተልእካሁ በንዋዮን ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ክ -> ካ",
+      "reason": "In Classical Ge'ez (Luke 8:3), the 3rd person feminine plural perfect with object suffix is 'ተልእካሁ' ('who ministered unto him'), and the image shows 4th-order 'ካ' rather than 6th-order 'ክ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 28,
+      "old_text": "⟪ወእንዘ የአምዕዎ ኵሎሙ ሕ↵",
+      "corrected_text": "⟪ወእንዘ የአምዕዎ ኵሎሙ ሕ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "የአምዕዎ -> ይሰምዕዎ (print anomaly noted)",
+      "reason": "Preserving exact printed glyphs while noting in remaining_uncertain that the lead type printed የአምዕዎ for ይሰምዕዎ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 36,
+      "old_text": "⟪ወፈረ ዘይዘርእ ከመ ይዝራእ",
+      "corrected_text": "⟪ወፈረ ዘይዘርእ ከመ ይዝራእ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወፈረ -> ወፍረ (print anomaly noted)",
+      "reason": "Preserving exact printed glyphs while noting the typesetter's 'ወፈረ' for 'ወፅአ/ወፍረ' in remaining_uncertain."
+    }
+  ]
+}

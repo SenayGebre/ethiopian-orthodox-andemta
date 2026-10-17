@@ -1,0 +1,26 @@
+{
+  "pdf_page": 31,
+  "book_page_ethiopic": "፶፬ | ፶፭",
+  "elapsed_sec": 12.4,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 15,
+      "old_text": "ሹሞሃል ፡ ያሉት ፡ ሙሴ ፡ ነው ፡ ያሉት ፡",
+      "corrected_text": "ሾሞሃል ፡ ያሉት ፡ ሙሴ ፡ ነው ፡ ያሉት ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሹ -> ሾ",
+      "reason": "The printed glyph has the top-right ring of 7th-order ሾ (ሾሞሃል 'appointed you'), not a 2nd-order ሹ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 23,
+      "old_text": "⟪፵፫ ፤ አላ ፡ ነሣእክሙ ፡ ደብተራ ፡ ሞሎሕ ፡⟫",
+      "corrected_text": "⟪፵፫ ፤ አላ ፡ ነሣእክሙ ፡ ደብተራ ፡ ሞሎክ ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሞሎሕ -> ሞሎክ",
+      "reason": "The printed Ge'ez text clearly shows ሞሎክ (Moloch) ending in 6th-order ክ, matching the citation in L25 below."
+    }
+  ]
+}

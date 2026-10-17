@@ -1,0 +1,26 @@
+{
+  "pdf_page": 37,
+  "book_page_ethiopic": "፬፻፳ | ፬፻፳፩",
+  "elapsed_sec": 24.6,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 5,
+      "old_text": "⟪ኅበ ፡ ተצልበ ፡ እግዚኦሙ ።⟫",
+      "corrected_text": "⟪ኀበ ፡ ተሰልበ ፡ እግዚኦሙ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኅ -> ኀ, צ -> ሰ",
+      "reason": "Stage 1 hallucinated a non-Ethiopic Hebrew character (צ) for the Fidel 'ሰ' in 'ተሰልበ' ('where their Lord was crucified') and misread 1st-order 'ኀበ' as 'ኅበ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 7,
+      "old_text": "ሳሌም ፡ ም ፡ ፲፯ ፥ ፲፱ ። ሉቃ ፡ ፲፫ ፥ ፴፬ ።",
+      "corrected_text": "ሳሌም ፡ ም ፡ ፲፮ ፥ ፲፱ ። ሉቃ ፡ ፲፫ ፥ ፴፬ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፲፯ -> ፲፮",
+      "reason": "The printed numeral is ፲፮ (16, referring to Revelation 16:19 where the great city is mentioned), with the characteristic top-left loop of ፮ misread as ፯."
+    }
+  ]
+}

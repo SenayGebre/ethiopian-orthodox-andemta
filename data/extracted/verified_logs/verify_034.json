@@ -1,0 +1,35 @@
+{
+  "pdf_page": 34,
+  "book_page_ethiopic": "፻፶፫",
+  "elapsed_sec": 17.8,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 12,
+      "old_text": "ን ነውና ኽለ ። አብ ዝንቱ ው↵",
+      "corrected_text": "ን ነውና አለ ። አብ ዝንቱ ው↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኽለ -> አለ",
+      "reason": "Ink smudge on top of አ caused it to be misread as ኽ; standard Amharic quotative verb 'አለ' (he said)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 9,
+      "old_text": "የሚሳቡ በእግር የሚያሸከረ↵",
+      "corrected_text": "የሚሳቡ በእግር የሚያሽከረ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሸ -> ሽ",
+      "reason": "6th-order ሳድስ 'ሽ' in 'የሚያሽከረክሩ' (matching line 20 below), misread as 1st-order 'ሸ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 17,
+      "old_text": "ሆን ወባረከሙ ለክልኤሆሙ",
+      "corrected_text": "ሆን ወባረኮሙ ለክልኤሆሙ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ከ -> ኮ",
+      "reason": "Classical Ge'ez verb with 3rd person masculine plural object suffix is 'ወባረኮሙ' (7th-order ሳብዕ 'ኮ', 'and He blessed them'), visually confirmed by the shortened right leg of ኮ."
+    }
+  ]
+}

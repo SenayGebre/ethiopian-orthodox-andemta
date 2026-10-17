@@ -1,0 +1,44 @@
+{
+  "pdf_page": 140,
+  "book_page_ethiopic": "፪፻፶፱",
+  "elapsed_sec": 16.0,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 4,
+      "old_text": "[፳፯] ከናንተ ወገን ገጋቦ ሊሆን የ↵",
+      "corrected_text": "[፳፯] ከናንተ ወገን ገዥ ሊሆን የ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጋቦ -> ዥ",
+      "reason": "The wide two-legged Fidel ዥ in ገዥ ('ruler', translating Ge'ez ዓቢየ) was split and misread as ጋቦ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 5,
+      "old_text": "ወደደ ሰው ተገጋቦ ይሁናች↵",
+      "corrected_text": "ወደደ ሰው ተገዥ ይሁናች↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጋቦ -> ዥ",
+      "reason": "The wide two-legged Fidel ዥ in ተገዥ ('subject/servant', translating Ge'ez ገብረ) was split and misread as ጋቦ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 39,
+      "old_text": "እምኢያሪኮ⟫ ብለሀ መልስ ከ",
+      "corrected_text": "እምኢያሪኮ⟫ ብለህ መልስ ከ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሀ -> ህ",
+      "reason": "Standard Amharic Andemta formula ብለህ መልስ (6th order ህ with faint middle stroke misread as 1st order ሀ)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 35,
+      "old_text": "፩ ፱ ።",
+      "corrected_text": "፳ ፱ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፩ -> ፳",
+      "reason": "Canonical cross-reference for Bethphage is Luke 19:29 (ሉቃ ፲፱ ፳፱ ።); the numeral ፳ was misread as ፩."
+    }
+  ]
+}

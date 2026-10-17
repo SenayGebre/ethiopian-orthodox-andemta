@@ -1,0 +1,62 @@
+{
+  "pdf_page": 43,
+  "book_page_ethiopic": "፫፻፷፪",
+  "elapsed_sec": 13.7,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 3,
+      "old_text": "⟪ወነቢሮሙ እግዚእ ኢየሱስ",
+      "corrected_text": "⟪ወነቢሮ እግዚእ ኢየሱስ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወነቢሮሙ -> ወነቢሮ",
+      "reason": "The word printed is ወነቢሮ followed by a punctuation dot/space (not ሙ), matching Classical Ge'ez Mark 12:41 (ወነቢሮ እግዚእ ኢየሱስ)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 6,
+      "old_text": "ዘይበውኡ ጸራይቀ ወይወድዩ",
+      "corrected_text": "ዘያበውኡ ጸራይቀ ወይወድዩ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዘይበውኡ -> ዘያበውኡ",
+      "reason": "Causative imperfect ዘያበውኡ ('what they bring in/contribute') with 4th-order ያ, matching the shortened right leg on the image."
+    },
+    {
+      "column_index": 2,
+      "line_num": 12,
+      "old_text": "ይህች ግን በድኅነት ሳለች ያ",
+      "corrected_text": "ይህች ግን በድኽነት ሳለች ያ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በድኅነት -> በድኽነት",
+      "reason": "The glyph printed is ኽ (በድኽነት 'in poverty', translating እምተፅናሳ), not ኅ (ድኅነት 'salvation')."
+    },
+    {
+      "column_index": 2,
+      "line_num": 17,
+      "old_text": "ቸውና ። እሷ ግን የሚያ የምት",
+      "corrected_text": "ቸውና ። እሷ ግን ጦሟን የምት",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "የሚያ -> ጦሟን",
+      "reason": "The printed text is ጦሟን (ጦሟን የምትውል ናትና 'for she spends the day fasting/hungry'), which was misread as የሚያ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 18,
+      "old_text": "ውል ናትና ። ይህች ሴት የኅ",
+      "corrected_text": "ውል ናትና ። ይህች ሴት የኃ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "የኅ -> የኃ",
+      "reason": "4th order ኃ (የኃጥእት ነፍስ 'of a sinful soul'), matching line 25 (ኃጥእት ነፍስ)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 24,
+      "old_text": "ትኖራለች ። ጻድቃንንን ከሚሉ",
+      "corrected_text": "ትኖራለች ። ጻድቃን ነን ከሚሉ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጻድቃንንን -> ጻድቃን ነን",
+      "reason": "The printed characters are ጻድቃን ነን ከሚሉ ('than those who say we are righteous'), where ነን was misread as ንን attached to ጻድቃን."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "pdf_page": 18,
+  "book_page_ethiopic": "፭፻፳፰",
+  "elapsed_sec": 15.1,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 31,
+      "old_text": "ፈባቸው ። ⟪ወገፍትአ ።⟫ ክል",
+      "corrected_text": "ፈባቸው ። ⟪ወገፍትአ ።⟫ ከል",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ክ -> ከ",
+      "reason": "Joining across the line break yields ከልዕልናቸው ('from their high station [he brought them down]'), parallel to ከሹመታቸው ሻራቸው in the next clause; the 1st-order horizontal bar on ከ was misread as 6th-order ክ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 5,
+      "old_text": "ለም ፤ ኢያየቀ ሎሙ ርእሶ ኢ",
+      "corrected_text": "ለም ፤ ኢያዐቀ ሎሙ ርእሶ ኢ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "የ -> ዐ",
+      "reason": "The Ge'ez gloss on ኢየአምኖሙ is ኢያዐቀ ሎሙ ርእሶ ('he did not entrust/commit himself to them', from ዐቀ); the rounded loop of ዐ was misread as የ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 10,
+      "old_text": "እንዱንም አንዱን ያውቀዋ",
+      "corrected_text": "አንዱንም አንዱን ያውቀዋ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እ -> አ",
+      "reason": "The Amharic distributive rendering of ለለ አሐዱ is አንዱንም አንዱን ('each and every one'); the initial glyph is 1st-order አ, misread as 6th-order እ."
+    }
+  ]
+}

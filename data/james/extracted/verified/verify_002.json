@@ -1,0 +1,44 @@
+{
+  "pdf_page": 2,
+  "book_page_ethiopic": "፫፻፲፬ | ፫፻፲፭",
+  "elapsed_sec": 22.2,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 11,
+      "old_text": "አብሔር ፡ ምን ፡ ተሁሉት ፡ ይላል ፡ ጥሬ ፡",
+      "corrected_text": "አብሔር ፡ ምን ፡ ትሁሉት ፡ ይላል ፡ ጥሬ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ተሁሉት -> ትሁሉት",
+      "reason": "The printed glyph in Col 2 L11 is clearly 6th-order 'ት' (ትሁሉት, archaic/dialectal Amharic 'ምን ትሁሉት ይላል' = what do you say he has become/gained for God?), where Stage 1 misread the cross-bar of ት as ተ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 28,
+      "old_text": "ድ ፡ የብዕል ፡ ሥጋ ፡ ፍጻሜ ፡ እንደ ፡ ሆነ↵",
+      "corrected_text": "ድ ፡ የብዕለ ፡ ሥጋ ፡ ፍጻሜ ፡ እንደ ፡ ሆነ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "የብዕል -> የብዕለ",
+      "reason": "In Ge'ez construct state (ተጸውዖ), 'የብዕለ ሥጋ' parallels 'የብዕለ ነፍስ' on the very next line (L29); visually in Col 3 L28 the character is 1st-order 'ለ' (የብዕለ), not 6th-order 'ል'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 15,
+      "old_text": "አንዱም ፡ አንዱም ፡ ወዶ ፡ በሥራው ፡",
+      "corrected_text": "አንዱም ፡ አንዱም ፡ ወዶ ፡ በሠራው ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በሥራው -> በሠራው",
+      "reason": "Both visually on the page (1st-order ሠ without the 6th-order hook) and grammatically modifying 'ኃጢአት' on the next line ('ወዶ በሠራው ኃጢአት ይፈተናል' = he is tempted by the sin that he willingly committed), the word is 'በሠራው', not 'በሥራው'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 31,
+      "old_text": "ሩ ፡ በመከራ ፡ አይፈትንም ፡ (አላ ፡ አሐዱ ፡",
+      "corrected_text": "ራ ፡ በመከራ ፡ አይፈትንም ፡ (አላ ፡ አሐዱ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሩ -> ራ",
+      "reason": "Joined across L30-L31, the word is 'ሳይሠራ' (singular, matching 'ማንንም ማንን' and L27 'ኃጢአትን ሳይሠራ በመከራ አይፈትንምና'). Visually at the start of Col 4 L31 the glyph is 4th-order 'ራ', which Stage 1 misread as 'ሩ'."
+    }
+  ]
+}

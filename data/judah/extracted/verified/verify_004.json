@@ -1,0 +1,35 @@
+{
+  "pdf_page": 4,
+  "book_page_ethiopic": "፫፻፶፮",
+  "elapsed_sec": 48.7,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 12,
+      "old_text": "⟪፳፬ ፤ ወይክል ፡ እግዚአብሔር ፡ መድኅኒነ ፡ ዕቂ",
+      "corrected_text": "⟪፳፬ ፤ ወይክል ፡ እግዚአብሔር ፡ መድኅኒነ ፡ ዐቂ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዕ -> ዐ",
+      "reason": "Classical Ge'ez infinitive/verbal noun ዐቂበቶሙ begins with 1st-order ዐ (matching ዐቂበተክሙ in L24) and the printed glyph is a clean loop ዐ without the 6th-order top hook of ዕ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 26,
+      "old_text": "እንደ ፡ አባ ፡ ዽላን ፥ ውጣ ፡ አስተምር ፡ አ",
+      "corrected_text": "እንደ ፡ አባ ፡ ጰላን ፥ ውጣ ፡ አስተምር ፡ አ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዽ -> ጰ",
+      "reason": "The desert father's name printed on the page is አባ ጰላን (Abba Pelen/Pambo); the three-legged ጰ was misread as ዽ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 27,
+      "old_text": "ለው ፤ ዝም ፡ አለ ፥ ውጣ ፡ አስተምር ፡ እላ",
+      "corrected_text": "ለው ፤ ዝም ፡ አለ ፥ ውጣ ፡ አስተምር ፡ አላ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እ -> አ",
+      "reason": "Across the line wrap አላ↵ልሁህም forms the rhetorical past negative አላልሁህም ('Did I not tell you?'), and the printed glyph is 1st-order አ without the center loop of እ."
+    }
+  ]
+}

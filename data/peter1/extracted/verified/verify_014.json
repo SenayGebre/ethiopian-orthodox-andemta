@@ -1,0 +1,71 @@
+{
+  "pdf_page": 14,
+  "book_page_ethiopic": "፪፻፳፪ | ፪፻፳፫",
+  "elapsed_sec": 26.0,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 16,
+      "old_text": "ታ ፡ መጠራጠር ፡ ሕገ ፡ አጋንንት ፡ አለ",
+      "corrected_text": "ታ ፡ መጠራጠር ፡ ሕገ ፡ አጋንንት ፡ አለ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አለ መጠራጠር -> አለመጠራጠር",
+      "reason": "The negative prefix 'አለ-' wraps at the end of line 16 directly into 'መጠራጠር' on line 17 to form the compound noun 'አለመጠራጠር' (parallel to 'አለመነቃቀፍ' in L20 and 'አለመቃናት' in L24)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 16,
+      "old_text": "ደዱ ። ሐተታ ፡ ነባቢ ፡ አለው ፡ ሰው ፡",
+      "corrected_text": "ደዱ ። ሐተታ ፡ ነባቤ ፡ አለው ፡ ሰው ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ነባቢ -> ነባቤ",
+      "reason": "The quoted Ge'ez lemma from L14 ('ሐሊበ ፡ ነባቤ') is printed in the 5th order (ነባቤ) with a clear loop on the right leg of ቤ, not 3rd order ቢ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 25,
+      "old_text": "እንዲል ። ሐተታ ፡ ነባቢ ፡ አለ ፡ በወ",
+      "corrected_text": "እንዲል ። ሐተታ ፡ ነባቤ ፡ አለ ፡ በወ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ነባቢ -> ነባቤ",
+      "reason": "The cited Ge'ez word is printed as 5th-order 'ነባቤ' (quoting the accusative 'ሐሊበ ፡ ነባቤ'), with the 5th-order loop on the right leg of ቤ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 2,
+      "old_text": "ነባቢ ፡ አላት ፡ እግዚአብሔር ፡ አባታችን፡",
+      "corrected_text": "ነባቤ ፡ አላት ፡ እግዚአብሔር ፡ አባታችን፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ነባቢ -> ነባቤ",
+      "reason": "Visually printed as 'ነባቤ' (5th order ቤ) citing the root lemma 'ሐሊበ ፡ ነባቤ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 9,
+      "old_text": "ደዱ ። ሐተታ ፡ ነባቢ ፡ አለ ፡ አድሮ ፡",
+      "corrected_text": "ደዱ ። ሐተታ ፡ ነባቤ ፡ አለ ፡ አድሮ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ነባቢ -> ነባቤ",
+      "reason": "Visually printed as 'ነባቤ' (5th order ቤ) matching the lemma in L08 ('ሐሊበ ፡ ነባቤ')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 17,
+      "old_text": "ነባቤ) ፡ ንስሐን ፡ ውደዱ ፤ ነባቢ ፡ አላት ፡",
+      "corrected_text": "ነባቤ) ፡ ንስሐን ፡ ውደዱ ፤ ነባቤ ፡ አላት ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ነባቢ -> ነባቤ",
+      "reason": "Both occurrences on this line are printed as 5th-order 'ነባቤ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 33,
+      "old_text": "በመስጠቱ ፡ መዝ ፡ ፴፬ ፥ ፱ ።",
+      "corrected_text": "በመስጠቱ ፡ መዝ ፡ ፴፫ ፥ ፰ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፴፬ ፥ ፱ -> ፴፫ ፥ ፰",
+      "reason": "Both visually on the page and according to Ge'ez Psalter numbering ('ጥዐሙ ፡ ወታእምሩ ፡ ከመ ፡ ኄር ፡ እግዚአብሔር' = LXX/Ge'ez Psalm 33:8), the printed numerals are '፴፫ ፥ ፰'."
+    }
+  ]
+}

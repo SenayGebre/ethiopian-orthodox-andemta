@@ -1,0 +1,53 @@
+{
+  "pdf_page": 29,
+  "book_page_ethiopic": "፻፶፮ | ፻፶፯",
+  "elapsed_sec": 16.7,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 15,
+      "old_text": "ልና ፡ ከ፷ሽሕ ፡ አስቀድሞ ፡ ሐዋርያት ፡",
+      "corrected_text": "ልና ፡ ከ፰ሽሕ ፡ አስቀድሞ ፡ ሐዋርያት ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፷ -> ፰",
+      "reason": "The numeral is ፰ (8, i.e., 8,000 martyrs / ፰ ሽሕ), which was misread as ፷ (60). The top and bottom bars on ፰ clearly form the Ethiopic numeral 8."
+    },
+    {
+      "column_index": 2,
+      "line_num": 16,
+      "old_text": "ከ፫፻ ፡ አስቀድሞ ፡ ፷ሽሕ ፡ እስከ ፡ ምጽ",
+      "corrected_text": "ከ፫፻ ፡ አስቀድሞ ፡ ፰ሽሕ ፡ እስከ ፡ ምጽ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "፷ -> ፰",
+      "reason": "Same numeral ፰ሽሕ (8,000) misread as ፷ሽሕ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 22,
+      "old_text": "የሚቀበልበት፡ ጊዜ፡ ደርሷልና፡ ከ፷ሽሕ ፡",
+      "corrected_text": "የሚቀበልበት፡ ጊዜ፡ ደርሷልና፡ ከ፰ሽሕ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፷ -> ፰",
+      "reason": "Same numeral ከ፰ሽሕ (from 8,000) misread as ከ፷ሽሕ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 24,
+      "old_text": "ድሞ፡ ከ፷ሽሕ ፡ እስከ ፡ ምጽአት ፡ ከሚነ",
+      "corrected_text": "ድሞ፡ ከ፰ሽሕ ፡ እስከ ፡ ምጽአት ፡ ከሚነ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "፷ -> ፰",
+      "reason": "Same numeral ከ፰ሽሕ (from 8,000) misread as ከ፷ሽሕ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 31,
+      "old_text": "፪ ፤ ⟪ረዐዩ ፡ ዘሀለዉ ፡ ኀቤክሙ ፡ መርዔቶ ፡ ለእግ",
+      "corrected_text": "፪ ፤ ⟪ረዐዩ ፡ ዘሀለወ ፡ ኀቤክሙ ፡ መርዔቶ ፡ ለእግ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዉ -> ወ",
+      "reason": "In the Ge'ez root text (1 Pet 5:2), the verb modifying singular collective መርዔቶ is ዘሀለወ (1st order ወ, not ዉ). Visually on the page, it is a plain ወ without a right-side ካዕብ hook."
+    }
+  ]
+}

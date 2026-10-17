@@ -1,0 +1,71 @@
+{
+  "pdf_page": 4,
+  "book_page_ethiopic": "፭፻፲፬",
+  "elapsed_sec": 16.1,
+  "applied_count": 7,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 8,
+      "old_text": "ሀልው በወልድ ወንፈስ ቅዱ",
+      "corrected_text": "ሀልው በወልድ መንፈስ ቅዱ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወንፈስ -> መንፈስ",
+      "reason": "The printed glyph in Col 1 L08 clearly has the two loops of 'መ' (መንፈስ ቅዱስ), which Stage 1 misread as 'ወንፈስ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 24,
+      "old_text": "ዛ ነው ። ይህስ እንደይሆን ለም",
+      "corrected_text": "ዛ ነው ። ይህስ እንዳይሆን ለም",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እንደይሆን -> እንዳይሆን",
+      "reason": "The 4th order 'ዳ' in 'እንዳይሆን' (so that this may not be / lest this be) was misread as 1st order 'ደ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 27,
+      "old_text": "ሙር ከመምሩ ሎሌ ከጌታው",
+      "corrected_text": "ሙር ከመምህሩ ሎሌ ከጌታው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ከመምሩ -> ከመምህሩ",
+      "reason": "The printed word clearly contains 'ህ' between 'ም' and 'ሩ' ('ከመምህሩ', from his teacher), which was dropped in Stage 1."
+    },
+    {
+      "column_index": 1,
+      "line_num": 36,
+      "old_text": "⟪ኅበ እግዚአብሔር ውእቱ ።⟫",
+      "corrected_text": "⟪ኀበ እግዚአብሔር ውእቱ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኅበ -> ኀበ",
+      "reason": "The classical Ge'ez preposition is printed in the 1st order 'ኀበ' (consistent with Col 2 L25, L28, L34, L35), not 6th order 'ኅበ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 38,
+      "old_text": "ቸውን ተናገረ ፥ ከዚሀም አያ",
+      "corrected_text": "ቸውን ተናገረ ፥ ከዚህም አያ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከዚሀም -> ከዚህም",
+      "reason": "The 6th order 'ህ' in 'ከዚህም' was misread as 1st order 'ሀ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 10,
+      "old_text": "ላሴ በተዋህዶ ወተወሀዶ በሥ",
+      "corrected_text": "ላሴ በተዋሕዶ ወተዋሕዶ በሥ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በተዋህዶ ወተወሀዶ -> በተዋሕዶ ወተዋሕዶ",
+      "reason": "In the classical Ge'ez Trinitarian formula ('ሥላሴ በተዋሕዶ ወተዋሕዶ በሥላሴ'), the glyphs are printed with 'ዋ' and 'ሕ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 35,
+      "old_text": "ዚሀ ይልቅ የኋላ ከዚሀ ይል",
+      "corrected_text": "ዚህ ይልቅ የኋላ ከዚህ ይል",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዚሀ -> ዚህ",
+      "reason": "Both occurrences of 'ከዚህ' have 6th order 'ህ', misread as 1st order 'ሀ'."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "pdf_page": 141,
+  "book_page_ethiopic": "፪፻፷",
+  "elapsed_sec": 29.7,
+  "applied_count": 8,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 24,
+      "old_text": "⟪በሉ እግዚእሙ ይፈቅዶሙ ።⟫",
+      "corrected_text": "⟪በሉ እግዚኦሙ ይፈቅዶሙ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እ -> ኦ",
+      "reason": "Canonical Ge'ez Matthew 21:3 and visual inspection show 7th-order ኦ in 'እግዚኦሙ' ('their Lord', translated as 'ጌታቸው' on L25), not 'እግዚእሙ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 1,
+      "old_text": "ነቢዩ የተናገረው ቃል ያደር↵",
+      "corrected_text": "ነቢዩ የተናገረው ቃል ይደር↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ያ -> ይ",
+      "reason": "Both the printed glyph and Amharic grammar ('ይደርስ ይፈጸም ዘንድ ነው') clearly show 6th-order ይ ('ይደርስ'), not ያ ('ያደርስ')."
+    },
+    {
+      "column_index": 2,
+      "line_num": 28,
+      "old_text": "ርንጫዋ ጋራ አመጡለት ፡",
+      "corrected_text": "ርንጭዋ ጋራ አመጡለት ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጫ -> ጭ",
+      "reason": "The printed glyph in the image is 6th-order ጭ ('ከውርንጭዋ'), not 4th-order ጫ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 23,
+      "old_text": "ሆነ በፈረስ ተቀምጠው ነገር ነ↵",
+      "corrected_text": "ሆነ በፈረስ ተቀምጠው ዘገር ነ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ነ -> ዘ",
+      "reason": "Both the printed glyph and traditional Andemta wartime imagery ('በፈረስ ተቀምጠው ዘገር ነጥቀው ይታያሉ', contrasting with peacetime 'መነሳንስ ይዘው') clearly read 'ዘገር' (spear/javelin), not 'ነገር'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 28,
+      "old_text": "ንቢቱን ባወቀ እናግሯል ምሳ↵",
+      "corrected_text": "ንቢቱን ባወቀ አናግሯል ምሳ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እ -> አ",
+      "reason": "Causative perfect verb 'አናግሯል' (he caused to speak / inspired the prophecy) begins with 1st-order አ, matching the printed glyph."
+    },
+    {
+      "column_index": 3,
+      "line_num": 29,
+      "old_text": "ሌውንም እንጅ ባወቀ እስመ",
+      "corrected_text": "ሌውንም እንጅ ባወቀ አስመ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እስመ -> አስመ",
+      "reason": "This is the first half of the wrapped Amharic causative verb 'አስመ↵ስሏል' (he caused the typology to be enacted, parallel to 'አናግሯል' on L28), beginning with 1st-order አ and wrapping mid-word to L30."
+    },
+    {
+      "column_index": 3,
+      "line_num": 36,
+      "old_text": "ፍስቶሙ እንዲል ። በንጹሐን",
+      "corrected_text": "ፍስትክሙ እንዲል ። በንጹሐን",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቶ -> ትክ",
+      "reason": "In the Ge'ez citation 'አላ ከመ እንተ አድግ ነፍስትክሙ' (correlating with the 2nd person pronoun 'አንተ' on L35), the printed glyphs are 'ትክ' ('ነፍስትክሙ'), which were misread as 'ቶ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 37,
+      "old_text": "መሐይምናን አድሬባቸው እና↵",
+      "corrected_text": "መሐይምናን አድሬባቸው እኖ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ና -> ኖ",
+      "reason": "Both the printed glyph (with the upper-right loop of 7th-order ኖ) and Amharic grammar require 'እኖ↵ራለሁ' ('I dwell/live in them'), not 'እናራለሁ'."
+    }
+  ]
+}

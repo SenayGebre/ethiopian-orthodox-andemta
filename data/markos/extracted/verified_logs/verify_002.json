@@ -1,0 +1,26 @@
+{
+  "pdf_page": 2,
+  "book_page_ethiopic": "፫፻፳፩",
+  "elapsed_sec": 10.3,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 18,
+      "old_text": "ያዲቅስ ባለ ጊዜ መልእክትም",
+      "corrected_text": "ኖዲቆስ ባለ ጊዜ መልእክትም",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ያዲቅስ -> ኖዲቆስ",
+      "reason": "The word split from L17 'ሲ↵' is 'ሲኖዲቆስ' (matching 'ሲኖዲቆስም' on L19). The printed glyph has the top loop of 'ኖ' and 'ቆ', which Stage 1 misread as 'ያዲቅስ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 15,
+      "old_text": "(፫) ክ በገዳም ወይብል ጺሑአ ፍ↵",
+      "corrected_text": "(፫) ክ በገዳም ወይብል ጺሑ ፍ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጺሑአ -> ጺሑ",
+      "reason": "In the canonical Ge'ez quote of Mark 1:3 and visually on the page, there is no 'አ' after 'ጺሑ'; the line reads 'ወይብል ጺሑ ፍ↵ኖተ'."
+    }
+  ]
+}

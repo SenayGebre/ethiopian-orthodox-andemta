@@ -1,0 +1,71 @@
+{
+  "pdf_page": 157,
+  "book_page_ethiopic": "፪፻፸፮",
+  "elapsed_sec": 15.5,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 25,
+      "old_text": "ዘፍ ፬ ፰ ዕብ ፩ ፬ ፪ዜዑዓ ፳፬ ፳፪",
+      "corrected_text": "ዘፍ ፬ ፰ ዕብ ፲፩ ፬ ፪ዜና ፳፬ ፳፪",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፩ -> ፲፩, ዜዑዓ -> ዜና",
+      "reason": "Biblical reference underlines misread as characters: Hebrews 11:4 (ዕብ ፲፩ ፬) and 2 Chronicles 24:22 (፪ዜና ፳፬ ፳፪)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 4,
+      "old_text": "ቀው ዘአቤል ዘቀተሎ እኅ↵",
+      "corrected_text": "ቀው ዘአቤል ዘቀተሎ እኁ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እኅ -> እኁ",
+      "reason": "In Ge'ez (1 Enoch 22:7), 'his brother' nominative is 'እኁሁ' (እኁ↵ሁ), with 2nd order ኁ clearly visible at the end of the line."
+    },
+    {
+      "column_index": 2,
+      "line_num": 23,
+      "old_text": "ይህን ልትነግረኝ ነው ሂድ",
+      "corrected_text": "ይህን ልትነግረኝ ነው ሂድ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሂድ -> ሂድ",
+      "reason": "No change needed."
+    },
+    {
+      "column_index": 2,
+      "line_num": 35,
+      "old_text": "እሱን አግኝት ኸዚያ ገድለው↵",
+      "corrected_text": "እሱን አግኝተው ኸዚያ ገድለው↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አግኝት -> አግኝተው",
+      "reason": "Looking closely at the image, the printed glyph is 'አግኝተው' (or 'አግኝቶ' / 'አግኝተው' compressed), wait: in the image it has 4 letters: አ-ግ-ኝ-ተ-ው? No, it is 4 letters: አ-ግ-ኝ-ተ? Actually let's check: አ-ግ-ኝ-ቶ! The 7th order ቶ has the top circle/bar."
+    },
+    {
+      "column_index": 3,
+      "line_num": 9,
+      "old_text": "ኵሉ ይበጽሖ ለዛቲ ትውልድ⟫",
+      "corrected_text": "ኵሉ ይበጽሕ ለዛቲ ትውልድ⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ይበጽሖ -> ይበጽሕ",
+      "reason": "Canonical Ge'ez Matthew 23:36 and visual check: 'ይበጽሕ ለዛቲ ትውልድ' (6th order ሕ, not 7th order ሖ)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 23,
+      "old_text": "እሙ ለውሉድኪ ከመ እንተ",
+      "corrected_text": "ኦሙ ለውሉድኪ ከመ እንተ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እሙ -> ኦሙ",
+      "reason": "Ge'ez Matthew 23:37 'አስተጋብ↵ኦሙ ለውሉድኪ' (7th order ኦ for the 3rd masc. pl. object suffix -omu)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 33,
+      "old_text": "ትን ፡ ዶሮ ወተት የላትም ልጆቹ↵",
+      "corrected_text": "ትን ፡ ዶሮ ወተት የላትም ልጆች↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ልጆቹ -> ልጆች",
+      "reason": "The word across the line wrap is 'ልጆች↵ዋን' (6th order ች, not 2nd order ቹ)."
+    }
+  ]
+}

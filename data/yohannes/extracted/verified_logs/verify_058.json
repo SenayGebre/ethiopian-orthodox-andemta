@@ -1,0 +1,53 @@
+{
+  "pdf_page": 58,
+  "book_page_ethiopic": "፭፻፷፰",
+  "elapsed_sec": 17.2,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 40,
+      "old_text": "ለኛ ባትነግረን እለቆች ቢጠ",
+      "corrected_text": "ለኛ ባትነግረን አለቆች በጡ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እለቆች ቢጠ -> አለቆች በጡ",
+      "reason": "Visually on the page and philologically across the column wrap into Col 2 L01 (ጡ), the phrase is 'አለቆች በጡጡ በሰንበ ጠለፍ ነድፈው ያናግሩህ የለምን' ('will not the rulers interrogate you, striking you with cords and whips?')."
+    },
+    {
+      "column_index": 2,
+      "line_num": 1,
+      "old_text": "ጡ በሰንበ ጠለፍ ነርፈው",
+      "corrected_text": "ጡ በሰንበ ጠለፍ ነድፈው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ነርፈው -> ነድፈው",
+      "reason": "The third character is 'ድ' (ነድፈው, 'striking/stinging with a whip'), which was misread as 'ር'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 6,
+      "old_text": "በምራቁ ወከሠቶ አዕይንቲሁ⟫",
+      "corrected_text": "በምራቁ ወከሠተ አዕይንቲሁ⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወከሠቶ -> ወከሠተ",
+      "reason": "Canonical Ge'ez Gospel text (John 9:14) and visual inspection show 1st-order 'ተ' (ወከሠተ አዕይንቲሁ), not 7th-order 'ቶ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 26,
+      "old_text": "ው ። ቢጋሩ ያለ ነው ቢሉ እ",
+      "corrected_text": "ው ። ቢጋሩ ዖለ ነው ቢሉ እ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ያለ -> ዖለ",
+      "reason": "In the traditional Andemta discussion of the man born blind, 'ዖለ' (hollow/eyeless socket) is the technical term printed here, visually 'ዖለ' rather than 'ያለ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 9,
+      "old_text": "ኃጥእ ነው ፡ አይደለም ። በሚሉ",
+      "corrected_text": "ኃጥእ ነው ፡ አይደለም ። በማለ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በሚሉ -> በማለ",
+      "reason": "Joining with 'ት' at the start of Col 3 L10 forms 'በማለት' ('by saying'); the printed glyphs at the end of L09 are clearly 'በማለ'."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "pdf_page": 10,
+  "book_page_ethiopic": "፻፻፲፬ | ፻፻፲፭",
+  "elapsed_sec": 15.1,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 13,
+      "old_text": "አብነት ፡ በእሳት ፡ ካጻሩት ፡ ከወርቅ ፡",
+      "corrected_text": "አብነት ፡ በእሳት ፡ ካነጠሩት ፡ ከወርቅ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ካጻሩት -> ካነጠሩት",
+      "reason": "Wait, let's look closely at Col 1 L13 image: the printed characters are ካ ጸ ሩ ት (ካጸሩት, from ማጽራት/ማጥራት - 'which they purified in fire'). Let's check whether it is ጸ or ጻ: it is ካጸሩት (1st order ጸ). Let's correct ካጻሩት to ካጸሩት."
+    },
+    {
+      "column_index": 1,
+      "line_num": 26,
+      "old_text": "አላችሁ ። ⟪ወእቱኬ ፡ ዘታፈቅርዎ ፡⟫ መጥ↵",
+      "corrected_text": "አላችሁ ። ⟪ውእቱኬ ፡ ዘታፈቅርዎ ፡⟫ መጥ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወእቱኬ -> ውእቱኬ",
+      "reason": "In Classical Ge'ez (1 Peter 1:8), the pronoun is 'ውእቱኬ' (6th order ው, clearly visible on the page with its right-side loop), not 'ወእቱኬ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 31,
+      "old_text": "⟪ኢርኢከምዎ ፡⟫ ላለው ፡ ነገር ፡ ግን ፡ ታም↵",
+      "corrected_text": "⟪ኢርኢክምዎ ፡⟫ ላለው ፡ ነገር ፡ ግን ፡ ታም",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኢርኢከምዎ -> ኢርኢክምዎ",
+      "reason": "In Classical Ge'ez verbal morphology and on the printed page, the 2nd person plural perfect suffix with object pronoun is '-ክምዎ' (6th order ክ: ኢርኢክምዎ), not '-ከምዎ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 35,
+      "old_text": "የተመቸ ፡ ዮሐንስ ፡ ፳ ፥ ፳፱ ። ፩ ፡ ቆሮ ፡",
+      "corrected_text": "የተመቸ ፡ ዮሐንስ ፡ ፳ ፥ ፳፱ ። ፩ ፡ ቆሮ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "none",
+      "reason": "No change needed on L35."
+    }
+  ]
+}

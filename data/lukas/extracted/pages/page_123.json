@@ -1,0 +1,698 @@
+{
+  "pdf_page": 123,
+  "book_page_arabic": 505,
+  "book_page_ethiopic": "፭፻፭",
+  "page_type": "topical_index",
+  "running_header": "፭፻፭ መክሥተ አርእስት ዘወንጌለ ሉቃስ ። | የሉቃስ ወንጌል አርእስት ማውጫ ።",
+  "toc_entries": [
+    {
+      "row_num": 1,
+      "geez_title": "በእንተ ወለተ ኢያዒሮስ ወበእንተ ደም ይውኅዛ",
+      "chapter_ethiopic": "ምዕራፍ ፰",
+      "verse_ethiopic": "ቍጥር ፵",
+      "amharic_title": "ስለ ኢያዒሮስ ልጅና ደም ስለሚፈሳት ።",
+      "uncertain": []
+    },
+    {
+      "row_num": 2,
+      "geez_title": "በእንተ ዘከመ መሀሮሙ ኢየሱስ ለሐዋርያት ወበእንተ ተፈንዎቶሙ",
+      "chapter_ethiopic": "ም ፱",
+      "verse_ethiopic": "ቍ ፩",
+      "amharic_title": "ጌታ ሐዋርያትን ስለ አስተማራቸውና ስለ መላካቸው",
+      "uncertain": []
+    },
+    {
+      "row_num": 3,
+      "geez_title": "በእንተ ሐልዮተ ሄሮድስ ላዕለ ኢየሱስ ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "ቍ ፯",
+      "amharic_title": "በጌታ ላይ ሄሮድስ ስለአሰበ ፤",
+      "uncertain": []
+    },
+    {
+      "row_num": 4,
+      "geez_title": "በእንተ ተመይጦት ዘሐዋርያት ፤",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "ቍ ፲",
+      "amharic_title": "ስለ ሐዋርያት መመለስ",
+      "uncertain": []
+    },
+    {
+      "row_num": 5,
+      "geez_title": "በእንተ ብዝኃተ ኅብስት ቀዳማይ ፤",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "ቍ ፲፪",
+      "amharic_title": "መጀመሪያ እንጀራ ስለአበረከተ ፤",
+      "uncertain": []
+    },
+    {
+      "row_num": 6,
+      "geez_title": "በእንተ እምነተ ጴጥሮስ ወበእንተ ትንቢት ዘሕማማት ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "ቍ ፲፰",
+      "amharic_title": "ስለጴጥሮስ ማመን ፤ ስለ ጌታ መከራ መናገር",
+      "uncertain": []
+    },
+    {
+      "row_num": 7,
+      "geez_title": "በእንተ ክሂደ ርእሱ ለክርስቲያን ፤",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "ቍ ፳፫",
+      "amharic_title": "ክርስቲያን ሰው ራሱን ስለ መካድ ።",
+      "uncertain": []
+    },
+    {
+      "row_num": 8,
+      "geez_title": "በእንተ ተወልጦተ ራእዩ ለኢየሱስ ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "ቍ ፳፰",
+      "amharic_title": "የጌታ መልኩ ስለመለወጥ ።",
+      "uncertain": []
+    },
+    {
+      "row_num": 9,
+      "geez_title": "በእንተ ዘከመ ፈወሰ ኢየሱስ ለዘያንገረግሮ ጋኔን",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "ቍ ፴፯",
+      "amharic_title": "ጌታ ጋኔን የሚጥለውን ስለ አዳነው ።",
+      "uncertain": []
+    },
+    {
+      "row_num": 10,
+      "geez_title": "በእንተ ዘከመ ተናገረ ኢየሱስ አቅዲሙ ነገረ ሞቱ ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "ቍ ፵፬",
+      "amharic_title": "ጌታ አስቀድሞ የሞቱን ነገር ስለ ተናገረ ።",
+      "uncertain": []
+    },
+    {
+      "row_num": 11,
+      "geez_title": "በእንተ ዘከመ ይደልዎ ለክርስቲያን ትሕትና ወተዓግሦተ ቢጽ ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "ቍ ፵፮",
+      "amharic_title": "ለክርስቲያን ወንድሙን መታገሥና ትሕትና ስለሚገባው ።",
+      "uncertain": []
+    },
+    {
+      "row_num": 12,
+      "geez_title": "በእንተ ዘከመ ተሰደ ኢየሱስ እምሰማርያ ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "ቍ ፶፩",
+      "amharic_title": "ጌታ ከሰማርያ ስለ ሄደ ።",
+      "uncertain": []
+    },
+    {
+      "row_num": 13,
+      "geez_title": "በእንተ ዘከመ ይደሉ በዓይ ተሊወተ ኢየሱስ ፡",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "ቍ ፶፯",
+      "amharic_title": "ጌታን በማናቸውም መከተል እንዲገባ ።",
+      "uncertain": []
+    },
+    {
+      "row_num": 14,
+      "geez_title": "በእንተ ተፈንዎት ለሐዋርያት ቀዳማውያን ።",
+      "chapter_ethiopic": "ም ፲",
+      "verse_ethiopic": "ቍ ፩",
+      "amharic_title": "ስለሐዋርያት መላክ ።",
+      "uncertain": []
+    },
+    {
+      "row_num": 15,
+      "geez_title": "በእንተ ዘከመ ተመይጡ እምዘተፈነዉ ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "ቍ ፲፯",
+      "amharic_title": "ሐዋርያት ከተላኩበት ስለተመለሱ ።",
+      "uncertain": []
+    },
+    {
+      "row_num": 16,
+      "geez_title": "በእንተ ድኅነት ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "ቍ ፳፩",
+      "amharic_title": "ስለ መዳን ።",
+      "uncertain": []
+    },
+    {
+      "row_num": 17,
+      "geez_title": "በእንተ ተራኅርኆተ ሳምራዊ",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "ቍ ፳፭",
+      "amharic_title": "ስለ ሳምራዊ መራራት ማዘን ።",
+      "uncertain": []
+    },
+    {
+      "row_num": 18,
+      "geez_title": "በእንተ ማርያ ወማርታ ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "ቍ ፴፰",
+      "amharic_title": "ስለ ማርያና ማርታ ።",
+      "uncertain": []
+    },
+    {
+      "row_num": 19,
+      "geez_title": "በእንተ ጸሎት ክርስቲያናዊት",
+      "chapter_ethiopic": "ም ፲፩",
+      "verse_ethiopic": "ቍ ፩",
+      "amharic_title": "ስለ ክርስቲያን ጸሎት ።",
+      "uncertain": []
+    },
+    {
+      "row_num": 20,
+      "geez_title": "በእንተ ጽሙም ዘአኅዞ ጋኔን",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "ቍ ፲፬",
+      "amharic_title": "ጋኔን ስለያዘው ደንቆሮ ።",
+      "uncertain": []
+    },
+    {
+      "row_num": 21,
+      "geez_title": "በእንተ መናፍስት እኩያን ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "ቍ ፲ሄ",
+      "amharic_title": "ስለ ክፉዎች አጋንንት ።",
+      "uncertain": [
+        {
+          "printed_text": "፲ሄ",
+          "alternative": "፲፯",
+          "note": "Print typo: Fidel 'ሄ' printed instead of numeral '፯' (or '፳፬')"
+        }
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "column_index": 1,
+      "lines": [
+        {
+          "line_num": 1,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ወለተ ኢያዒሮስ ወበ",
+          "word_wraps_to_next_line": true,
+          "uncertain": []
+        },
+        {
+          "line_num": 2,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "እንተ ደም ይውኅዛ ምዕራፍ ፰ ቍጥር ፵",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 3,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ዘከመ መሀሮሙ ኢ",
+          "word_wraps_to_next_line": true,
+          "uncertain": []
+        },
+        {
+          "line_num": 4,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "የሱስ ለሐዋርያት ወ",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 5,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ተፈንዎቶሙ ም ፱ ቍ ፩",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 6,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ሐልዮተ ሄሮድስ ላዕ",
+          "word_wraps_to_next_line": true,
+          "uncertain": []
+        },
+        {
+          "line_num": 7,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ለ ኢየሱስ ። ቍ ፯",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 8,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ተመይጦት ዘሐዋር",
+          "word_wraps_to_next_line": true,
+          "uncertain": []
+        },
+        {
+          "line_num": 9,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ያት ፤ ቍ ፲",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 10,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ብዝኃተ ኅብስት ቀዳ",
+          "word_wraps_to_next_line": true,
+          "uncertain": []
+        },
+        {
+          "line_num": 11,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ማይ ፤ ቍ ፲፪",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 12,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ እምነተ ጴጥሮስ ወ",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 13,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ትንቢት ዘሕ",
+          "word_wraps_to_next_line": true,
+          "uncertain": []
+        },
+        {
+          "line_num": 14,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ማማት ። ቍ ፲፰",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 15,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ክሂደ ርእሱ ለክርስ",
+          "word_wraps_to_next_line": true,
+          "uncertain": []
+        },
+        {
+          "line_num": 16,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ቲያን ፤ ቍ ፳፫",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 17,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ተወልጦተ ራእዩ ለ",
+          "word_wraps_to_next_line": true,
+          "uncertain": []
+        },
+        {
+          "line_num": 18,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ኢየሱስ ። ቍ ፳፰",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 19,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ዘከመ ፈወሰ ኢየሱ",
+          "word_wraps_to_next_line": true,
+          "uncertain": []
+        },
+        {
+          "line_num": 20,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ስ ለዘያንገረግሮ ጋኔን ቍ ፴፯",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 21,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ዘከመ ተናገረ ኢየሱ",
+          "word_wraps_to_next_line": true,
+          "uncertain": []
+        },
+        {
+          "line_num": 22,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ስ አቅዲሙ ነገረ",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 23,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሞቱ ። ቍ ፵፬",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 24,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ዘከመ ይደልዎ ለክ",
+          "word_wraps_to_next_line": true,
+          "uncertain": []
+        },
+        {
+          "line_num": 25,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ርስቲያን ትሕትና ወ",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 26,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ተዓግሦተ ቢጽ ። ቍ ፵፮",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 27,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ዘከመ ተሰደ ኢየሱ",
+          "word_wraps_to_next_line": true,
+          "uncertain": []
+        },
+        {
+          "line_num": 28,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ስ እምሰማርያ ። ቍ ፶፩",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 29,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ዘከመ ይደሉ በዓይ",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 30,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ተሊወተ ኢየሱስ ፡ ቍ ፶፯",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 31,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ተፈንዎት ለሐዋርያ",
+          "word_wraps_to_next_line": true,
+          "uncertain": []
+        },
+        {
+          "line_num": 32,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ት ቀዳማውያን ። ም ፲ ቍ ፩",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 33,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ዘከመ ተመይጡ እ",
+          "word_wraps_to_next_line": true,
+          "uncertain": []
+        },
+        {
+          "line_num": 34,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ምዘተፈነዉ ። ቍ ፲፯",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 35,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ድኅነት ። ቍ ፳፩",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 36,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ተራኅርኆተ ሳምራዊ ቍ ፳፭",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 37,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ማርያ ወማርታ ። ቍ ፴፰",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 38,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ጸሎት ክርስቲያናዊት ም ፲፩ ቍ ፩",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 39,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ ጽሙም ዘአኅዞ ጋኔን ቍ ፲፬",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 40,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በእንተ መናፍስት እኩያን ። ቍ ፲፯",
+          "word_wraps_to_next_line": false,
+          "uncertain": [],
+          "stage1_text": "በእንተ መናፍስት እኩያን ። ቍ ፲ሄ",
+          "stage2_correction": {
+            "pair": "፲ሄ -> ፲፯",
+            "reason": "The Ethiopic numeral ፯ (7) in ፲፯ (verse 17) was misread as the Fidel ሄ due to the numeral bars."
+          }
+        }
+      ]
+    },
+    {
+      "column_index": 2,
+      "lines": [
+        {
+          "line_num": 1,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ስለ ኢያዒሮስ ልጅና ደም ስለሚፈሳት ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 2,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ጌታ ሐዋርያትን ስለ አስተማራቸውና ስለ መላካቸው",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 3,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በጌታ ላይ ሄሮድስ ስለአሰበ ፤",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 4,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ስለ ሐዋርያት መመለስ",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 5,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "መጀመሪያ እንጀራ ስለአበረከተ ፤",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 6,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ስለጴጥሮስ ማመን ፤ ስለ ጌታ መከራ መናገር",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 7,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ክርስቲያን ሰው ራሱን ስለ መካድ ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 8,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "የጌታ መልኩ ስለመለወጥ ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 9,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ጌታ ጋኔን የሚጥለውን ስለ አዳነው ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 10,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ጌታ አስቀድሞ የሞቱን ነገር ስለ ተናገረ ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 11,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ለክርስቲያን ወንድሙን መታገሥና ትሕትና ስለ",
+          "word_wraps_to_next_line": true,
+          "uncertain": []
+        },
+        {
+          "line_num": 12,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሚገባው ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 13,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ጌታ ከሰማርያ ስለ ሄደ ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 14,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ጌታን በማናቸውም መከተል እንዲገባ ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 15,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ስለሐዋርያት መላክ ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 16,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሐዋርያት ከተላኩበት ስለተመለሱ ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 17,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ስለ መዳን ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 18,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ስለ ሳምራዊ መራራት ማዘን ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 19,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ስለ ማርያና ማርታ ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 20,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ስለ ክርስቲያን ጸሎት ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 21,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ጋኔን ስለያዘው ደንቆሮ ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 22,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ስለ ክፉዎች አጋንንት ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        }
+      ]
+    }
+  ],
+  "stage2_verified": true,
+  "stage2_corrections_count": 1
+}

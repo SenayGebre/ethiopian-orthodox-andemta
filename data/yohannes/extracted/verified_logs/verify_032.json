@@ -1,0 +1,53 @@
+{
+  "pdf_page": 32,
+  "book_page_ethiopic": "፭፻፵፪",
+  "elapsed_sec": 24.7,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 7,
+      "old_text": "ባቲ መጠነ ወይቤሉሙ ናየ",
+      "corrected_text": "ባቲ መጠነ ወይቤሎሙ አየ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሉ -> ሎ, ና -> አ",
+      "reason": "Classical Ge'ez grammar and the Amharic gloss on L10 ('የዳነው ምን ጊዜ ነው አላቸው') confirm 'ወይቤሎሙ አየ [ጊዜ ሐይወ]' ('and he said to them: at what [time did he recover]'). Visually the glyphs are ሎ and አ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 7,
+      "old_text": "ሱስ ኢየሩሳሌም።⟫ዘሌ ፳፱ ፭",
+      "corrected_text": "ሱስ ኢየሩሳሌም።⟫ዘሌ ፳፫ ፭",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፱ -> ፫",
+      "reason": "Biblical reference to the feasts in Leviticus (ዘሌዋውያን) is chapter 23:5 (፳፫ ፭), as Leviticus only has 27 chapters. Visually the second numeral is ፫."
+    },
+    {
+      "column_index": 2,
+      "line_num": 10,
+      "old_text": "ጣው ገ ሲናገረው የመጣው",
+      "corrected_text": "ጣው ዝ ሲናገረው የመጣው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ገ -> ዝ",
+      "reason": "Andemta glosses the Ge'ez enclitic 'ዝ' from 'ወእምድኅረዝ' ('ዝ ሲናገረው የመጣው ነው'). Visually the character has the two vertical strokes of ዝ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 23,
+      "old_text": "ር ዘጰሩጰጥቄ፤ዘፈውስ ዘበዓል",
+      "corrected_text": "ረ ዘጰሩጰጥቄ፤ዘፈውስ ዘበዓል",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ር -> ረ",
+      "reason": "Joined across the line wrap from L22 ('ነበ↵ረ'), the verb is 1st-order 'ነበረ'. Visually the first glyph on L23 is ረ without a top-left notch."
+    },
+    {
+      "column_index": 3,
+      "line_num": 14,
+      "old_text": "⟪ወጽውሳን፡⟫ ልምሹ የሆኑ",
+      "corrected_text": "⟪ወጽውሳን፡⟫ ልምሾ የሆኑ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሹ -> ሾ",
+      "reason": "The standard Amharic word for paralyzed/withered is 'ልምሾ'. Visually the character has the 7th-order top loop of ሾ rather than the side stroke of ሹ."
+    }
+  ]
+}

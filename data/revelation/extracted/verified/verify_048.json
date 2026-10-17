@@ -1,0 +1,44 @@
+{
+  "pdf_page": 48,
+  "book_page_ethiopic": "፬፻፶፪ | ፬፻፶፫",
+  "elapsed_sec": 26.6,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "ብቃሉ ፡ ትነግራለች ፡ (ወካልዕ ፡ መልአክ)",
+      "corrected_text": "በቃሉ ፡ ትነግራለች ፡ (ወካልዕ ፡ መልአክ)",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ብ -> በ",
+      "reason": "The preposition prefix is በ- ('በቃሉ', matching lines 6-7 and 12); a slightly shortened left leg on the initial በ caused it to be misread as ብ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 21,
+      "old_text": "ክት ፡ ታዩ፡ ም ፡ ፲፻ ፥ ፩ ፥ ፫ ። ም፡ ፲፩፥ ፲፰።",
+      "corrected_text": "ክት ፡ ታዩ፡ ም ፡ ፲፮ ፥ ፩ ፥ ፫ ። ም፡ ፲፩፥ ፲፰።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፲፻ -> ፲፮",
+      "reason": "The cross-reference is to Revelation chapter 16 (ም ፡ ፲፮ ፥ ፩ ፥ ፫), where the seven angels pour out the seven plagues; the numeral ፮ (6) was misread as ፻ (100)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 12,
+      "old_text": "ናት ፡ ዐቢይ ፡ ወንኡስ ፡ ገብር፡ ወእግዐዚ ፡",
+      "corrected_text": "ናት ፡ ዐቢይ ፡ ወንኡስ ፡ ገብር፡ ወአግዓዚ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወእግዐዚ -> ወአግዓዚ",
+      "reason": "Classical Ge'ez pairing 'ገብር ወአግዓዚ' (servant and free man); the printed glyphs clearly show 1st-order አ and 4th-order ዓ with a shorter right leg, which was misread as ወእግዐዚ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 14,
+      "old_text": "፲፯ ። ም ፡ ፭ ፥ ፱ ፥ ፲፻ ።",
+      "corrected_text": "፲፯ ። ም ፡ ፭ ፥ ፱ ፥ ፲፪ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፲፻ -> ፲፪",
+      "reason": "Biblical chapter/verse reference cannot have ፲፻ after ፲; the printed numeral is ፲፪ (Rev 5:9, 12), where ፪ was misread as ፻ due to ink fill."
+    }
+  ]
+}

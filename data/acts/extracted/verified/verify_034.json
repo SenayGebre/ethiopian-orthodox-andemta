@@ -1,0 +1,26 @@
+{
+  "pdf_page": 34,
+  "book_page_ethiopic": "፹ | ፹፩",
+  "elapsed_sec": 25.8,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 34,
+      "old_text": "ኑ ፡ ነበር ፡ ማቴ ፡ ፲፭ ፥ ፲፯ ።",
+      "corrected_text": "ኑ ፡ ነበር ፡ ማቴ ፡ ፲፭ ፥ ፴ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፲፯ -> ፴",
+      "reason": "The verse numeral printed on the page is ፴ (30), referring to Matthew 15:30 concerning the healing of the lame and maimed (ሐንካሳን ወፅውሳን), which Stage 1 misread as ፲፯."
+    },
+    {
+      "column_index": 3,
+      "line_num": 15,
+      "old_text": "አምላክ ፡ ነኝ ፡ ይል፡ ነበር ። ነቢየ፡ ይላል፡",
+      "corrected_text": "አምላክ ፡ ነኝ ፡ ይል፡ ነበር ። ነቢይ፡ ይላል፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ነቢየ -> ነቢይ",
+      "reason": "The printed glyph has the distinct right-side hook of 6th-order ይ (ነቢይ), citing the textual variant for ዐቢይ, which is then glossed in the next line as አዋቂ ነኝ ይል ነበር."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "pdf_page": 1,
+  "book_page_ethiopic": "፩",
+  "elapsed_sec": 17.5,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "፪ኛ ፡ የሚጽፍ ፡ ነውና ፡ ቀዳማዊ ፡ አለ ።",
+      "corrected_text": "፩ኛ ፡ የሚጽፍ ፡ ነውና ፡ ቀዳማዊ ፡ አለ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፪ኛ -> ፩ኛ",
+      "reason": "The numeral at the start of line 1 is ፩ (1), forming ፩ኛ ('1st'), which explains why St. John called the epistle ቀዳማዊ ('First')."
+    },
+    {
+      "column_index": 1,
+      "line_num": 7,
+      "old_text": "ብያኖስ ፡ ይላል ፡ ልጁ ፡ ጠራብያኖስ ፡",
+      "corrected_text": "ብያኖስ ፡ ይላል ፡ ልጁ ፡ ሐራብያኖስ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጠራብያኖስ -> ሐራብያኖስ",
+      "reason": "The second occurrence on line 7 is printed with ሐ (ሐራብያኖስ) rather than ጠ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 10,
+      "old_text": "ምርለት ፡ ምድራዊ፡ እንጅ፡ ያይደለ፡ ሰማ",
+      "corrected_text": "ምርለት ፡ ምድራዊ፡ እንጂ፡ አይደለ፡ ሰማ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እንጅ፡ ያይደለ -> እንጂ፡ አይደለ",
+      "reason": "The image clearly shows እንጂ (with the 3rd-order ጂ) and አይደለ (starting with አ, not ያ)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 12,
+      "old_text": "ቶ ፡ ምድራዊ ፡ ካልሆነ ፡ ሰማያዊ ፡ ከሆነ ፡",
+      "corrected_text": "ቶ ፡ ምድራዊ ፡ ካልሆነ ፡ ሰማያዊ ፡ ከሆነ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ካልሆነ -> ካልሆነ",
+      "reason": "No change needed here, wait—let's omit unchanged lines."
+    }
+  ]
+}

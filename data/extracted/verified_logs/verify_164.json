@@ -1,0 +1,35 @@
+{
+  "pdf_page": 164,
+  "book_page_ethiopic": "፪፻፹፫",
+  "elapsed_sec": 15.2,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 23,
+      "old_text": "ይገብር ።⟫ ሉዕ ፲፪፥፵፫ ።",
+      "corrected_text": "ይገብር ።⟫ ሉቃ ፲፪፥፵፫ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሉዕ -> ሉቃ",
+      "reason": "Biblical book abbreviation for Luke (ሉቃስ) is printed ሉቃ, with ቃ misread as ዕ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 24,
+      "old_text": "[፵፮] ጌታው በመጻ ጊዜ እንዲህ ሲ↵",
+      "corrected_text": "[፵፮] ጌታው በመጣ ጊዜ እንዲህ ሲ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "መጻ -> መጣ",
+      "reason": "Amharic verb በመጣ ጊዜ (translating ዘመጺኦ) is clearly printed with three-legged ጣ, misread as ጻ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 18,
+      "old_text": "ንም ልቅሶ ጥርስ ቀሩርጥማት",
+      "corrected_text": "ንም ልቅሶ ጥርስ ቁርጥማት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቀሩ -> ቁ",
+      "reason": "The 2nd-order glyph ቁ in ጥርስ ቁርጥማት (gnashing/aching of teeth, glossing ሐቅየ ስነን) was split-read as ቀሩ."
+    }
+  ]
+}

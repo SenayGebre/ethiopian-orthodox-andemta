@@ -1,0 +1,567 @@
+{
+  "pdf_page": 4,
+  "book_page_arabic": 202,
+  "book_page_ethiopic": "፻፻፪ | ፻፻፫",
+  "page_type": "commentary_2col",
+  "running_header": "መቅድም ።",
+  "column_boxes": [
+    [
+      23,
+      0,
+      1192,
+      1654
+    ],
+    [
+      1122,
+      0,
+      2315,
+      1654
+    ]
+  ],
+  "columns": [
+    {
+      "column_index": 1,
+      "lines": [
+        {
+          "line_num": 1,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ክብሩን ፡ ቢናገረው ፡ ምን ፡ ይሆናል ፡ በመከራው ፡ ጨረሰውና ፡ እንዳይሉት ፡ ሠ",
+          "word_wraps_to_next_line": true,
+          "stage1_text": "ክብሩን ፡ ቢናገረው ፡ ምን ፡ ይሆናል ፡ በመከራው ፡ ጨረሰውና ፡ እንዳይሉት ፡ ወ",
+          "stage2_correction": {
+            "pair": "ወ -> ሠ",
+            "reason": "The split word across L01-L02 is ሠሪዓ (ሠሪዓ ፡ ቤት ፡ ይሠራል, matching Col 2 L06), where the crown of ሠ at the right margin was misread as ወ."
+          },
+          "uncertain": []
+        },
+        {
+          "line_num": 2,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሪዓ ፡ ቤት ፡ ይሠራል ፡ አትሕቱ ፡ ርእሰክሙ ፡ ለኵሉ ፡ ፍጥረተ ፡ እግዚአብሔር ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 3,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ይላል ፡ ሥራውንም ፡ በትሕትና ፡ ይጀምራል ፡ ትኤምኃክሙ ፡ ቤተ ፡ ክርስቲ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 4,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ያን ፡ እንተ ፡ ውስተ ፡ ባቢሎን ፡ ዘግብፅ ፡ ይላል ፡ ከዚህ ፡ በኋላ ፡ ከመጀመሪያ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 5,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "እስከ ፡ መጨረሻ ፡ ሲናገራቸው ፡ የመጣውን ፡ አንድ ፡ አድርጎ ፡ ወተሰነአዉ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 6,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ኵልክሙ ፡ እለ ፡ በክርስቶስ ፡ ሀሎክሙ ፡ ይላል ፡ የጻፈበት ፡ አገር ፡ ግብፅ ፡ ክታብ ፡",
+          "word_wraps_to_next_line": false,
+          "stage1_text": "ኵልክሙ ፡ እለ ፡ በክርስቶስ ፡ ሀሎክሙ ፡ ይላል ፡ የጻፈበት ፡ አገር ፡ ግብፅ ፡ ከታብ ፡",
+          "stage2_correction": {
+            "pair": "ከታብ -> ክታብ",
+            "reason": "The 6th-order ክ in ክታብ (epistle/letter, as in L24, L28, L29) was misread as 1st-order ከ."
+          },
+          "uncertain": []
+        },
+        {
+          "line_num": 7,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ወሳጅ ፡ የለም ፡ (አንድም) ፡ አልሚናስ ፡ ጳውሎስ ፡ አልምጳስ ፡ ጳውሎስ ፡ ናቸው ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 8,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ለስዱዳን ፡ ይጽፋል ፡ ብሎ ፡ ነው ። አንድም ፡ ለባላገር ፡ ይጽፋል ፡ ብሎ ፡ ያዕ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 9,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ቆብ ፡ ትብጽሕ ፡ ለ፲ቱ ፡ ወ፪ቱ ፡ ሕዝበ ፡ ዲዮስጶራ ፡ ሲል ፡ ሰምተው ፡ ቀድሞስ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 10,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በሃይማኖት ፡ አንድ ፡ ባንሆን ፡ በሥርዐት ፡ ባንተባበር ፡ ነበር ፡ ዛሬማ ፡ ምነዋ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 11,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በሃይማኖት ፡ አንድ ፡ ከሆነ ፡ በሥርዐት ፡ ከተባበርነ ፡ ሐዋርያ ፡ ስለ ፡ ምን ፡ ለ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 12,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ይቶ ፡ ተወን ፡ ብለው ፡ አዝነዋል ፡ ይህን ፡ ሰምቶ ፡ ይጽፍላቸዋል ፡ ከጴጥሮስ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 13,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "የያዕቆብ ፡ መቅድሙ ፡ በምን ፡ ይታወቃል ፡ ቢሉ ፡ በሊቁ ፡ በቅዱስ ፡ ቄርሎስ ፡ አነ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 14,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ጋገር ፡ አሁን ፡ ነገር ፡ ያለበት ፡ ሰው ፡ መጀመሪያ ፡ ከባላገር ፡ ይሄዳል ፡ ቀጥሎ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 15,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ከወንበር ፡ ቀጥሎ ፡ ከሊቀ ፡ መጣኒ ፡ ቀጥሎ ፡ ከራስ ፡ ቢትወደድ ፡ ቀጥሎ ፡ ከንጉሥ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 16,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ይደርሳል ፡ እሱም ፡ ከባላገር ፡ እንደ ፡ መድረስ ፡ ከጳውሎስ ፡ ይጠቅሳል ፡ እሱን ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 17,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ንቆት ፡ አጥቅቶት ፡ ነው ፡ ቢሉ ፡ ንቆት ፡ አጥቅቶት ፡ አይደለም ፡ ከብዙ ፡ በ፩ ፡ መ",
+          "word_wraps_to_next_line": true,
+          "stage1_text": "ንቆት ፡ አጥቅቶት ፡ ነው ፡ ቢሉ ፡ ንቆት ፡ አጥቅቶት ፡ አይደለም ፡ ከብዙ ፡ ባ፩ ፡ መ",
+          "stage2_correction": {
+            "pair": "ባ፩ -> በ፩",
+            "reason": "The preposition printed before the numeral ፩ is 1st-order በ (በ፩ ፡ መጀመር), not 4th-order ባ."
+          },
+          "uncertain": []
+        },
+        {
+          "line_num": 18,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ጀመር ፡ ልማድ ፡ ነውና ፡ (ይቀናልና ፡ ቢል ፡ ፩ ፡ ነው) ፤ ከወንበር ፡ እንደ ፡ መሄድ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 19,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ከአርድእት ፡ ከሊቀ ፡ መጣኒ ፡ እንደ ፡ መሄድ ፡ ከሐዋርያት ፡ ከራስ ፡ ቢትወደድ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 20,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "እንደ ፡ መድረስ ፡ ከጴጥሮስ ፡ ከንጉሥ ፡ እንደ ፡ መሄድ ፡ ከወንጌል ፡ ይጠቅሳል ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 21,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "የእሱስ ፡ ነገር ፡ አያስረዳም ፡ ከዕብራውያን ፡ ጠቅሶ ፡ ከጢሞቴዎስ ፡ ከዮሐንስ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 22,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ጠቅሶ ፡ ከሉቃስ ፡ ከማርቆስ ፡ ጠቅሶ ፡ ከማቴዎስ ፡ ይጠቅሳል ፡ ብሎ ፡ በዕርፅ ፡ ም",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 23,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ላሹ ፡ የያቆብን ፡ ያስቀድማል ፤ እንዲህ ፡ ከሆነ ፡ ከያዕቆብ ፡ የጴጥሮስ ፡ መቅደሙ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 24,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ስለምን ፡ ነው ፡ ቢሉ ፡ በብያኔ ፡ የሊቀ ፡ ሐዋርያት ፡ ክታብ ፡ ሳለ ፡ የረድእ ፡ ክታብ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 25,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "አናስቀድምም ፡ ብለው ፡ ፫፻ ፡ አስቀድመውታል ፡ (አንድም ፡ በአስተጋብኦ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 26,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "መጻሕፍት ፡ ጊዜ ፡ መጀመሪያ ፡ ቢያገኙት ፡ በጥራዝ ፡ አስቀድመውታል ፡ ጥበብን ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 27,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "መክብብን ፡ ከቦታቸው ፡ እንመልስ ፡ እንዳላሉ ፡ የጴጥሮስ ፡ መቅደሙስ ፡ ይሁን ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 28,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "የዮሐንስ ፡ መቅደሙ ፡ ስለ ፡ ምን ፡ ነው ፡ ቢሉ ፡ የሐዋርያ ፡ ክታብ ፡ ሳለ ፡ የረድ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 29,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "እ ፡ ክታብ ፡ አናስቀድምም ፡ ብለው ፡ በብያኔ ፡ አስቀድመውታል ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 30,
+          "margin_tag": "፩",
+          "line_type": "body",
+          "text": "እምጴጥሮስ ፡ ለኡከ ፡ እግዚእነ ፡ ኢየሱስ ፡ ክርስቶስ ፡ ለኅሩያን ፡ ቍ ፡ ፩",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 31,
+          "margin_tag": "፪",
+          "line_type": "body",
+          "text": "ከመ ፡ ይስምዑ ፡ በንዝኀተ ፡ ደሙ ፡ ለኢየሱስ ፡ ክርስቶስ ። ቍ ፡ ፪",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 32,
+          "margin_tag": "፫",
+          "line_type": "body",
+          "text": "ይትባረክ ፡ እግዚአብሔር ፡ አቡሁ ፡ ለእግዚነ ፡ ኢየሱስ ፡ ክር",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 33,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ስቶስ ፡ ዘወለደነ ፡ በብዝኀ ፡ ምሕረቱ ። ቍ ፡ ፫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 34,
+          "margin_tag": "፮",
+          "line_type": "body",
+          "text": "ወባሕቱ ፡ ኀዳጠ ፡ ይእዜ ፡ ሀለወክሙ ፡ ትትከዘዙ ፡ በዘይመ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 35,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ጽእክሙ ፡ መከራ ፡ ዘዘዚአሁ ። ቍ ፡ ፮",
+          "word_wraps_to_next_line": false
+        }
+      ]
+    },
+    {
+      "column_index": 2,
+      "lines": [
+        {
+          "line_num": 1,
+          "margin_tag": "፯",
+          "line_type": "body",
+          "text": "ወትትረከቡ ፡ ሀለወክሙ ፡ በክብር ፡ ወበውዳሴ ፡ ወበስብሐት ። ቍ ፡ ፯",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 2,
+          "margin_tag": "፱",
+          "line_type": "body",
+          "text": "ወትነሥኡ ፡ በፍጻሜሃ ፡ ለሃይማኖትክሙ ፡ መድኃኒተ ፡ ነፍስክሙ ። ቍ ፡ ፱",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 3,
+          "margin_tag": "፲፫",
+          "line_type": "body",
+          "text": "ወይእዜኒ ፡ ቅንቱ ፡ ሐቌ ፡ ልብክሙ ፡ ጥዩቀ ፡ ወንቁሐ ። ቍ ፡ ፲፫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 4,
+          "margin_tag": "፲፩",
+          "line_type": "body",
+          "text": "አኅውየ ፡ ፍቁራን ፡ እስእለክሙ ፡ ብቍዑኒ ፡ ከመ ፡ ፈላሲ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 5,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ወከመ ፡ ነግድ ፡ ወከመ ፡ ድኩም ። ምዕ ፡ ፪ ቍ ፡ ፲፩",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 6,
+          "margin_tag": "፲፫",
+          "line_type": "body",
+          "text": "ከዚህ ፡ በኋላ ፡ ሠሪዓ ፡ ቤት ፡ ይሠራል ፡ አትሕቱ ፡ ርእሰክሙ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 7,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ለኵሉ ፡ ፍጥረተ ፡ እጓለ ፡ እመሕያው ፡ በእንተ ፡ እግዚአብሔር ። ቍ ፡ ፲፫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 8,
+          "margin_tag": "፲፭",
+          "line_type": "body",
+          "text": "ወድልዋኒክሙ ፡ ሀልዉ ፡ በኵሉ ፡ ጊዜ ፡ ከመ ፡ ታውሥእዎሙ ፡ ቃለ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 9,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ለእለ ፡ ይሴአሉክሙ ፡ በእንተ ፡ ዛቲ ፡ ተስፋክሙ ፡ ይላል ። ምዕ ፡ ፫ ፡ ቍ ፡ ፲፭",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 10,
+          "margin_tag": "፩",
+          "line_type": "body",
+          "text": "ወእመሰ ፡ ክርስቶስ ፡ ተሰቅለ ፡ በሥጋሁ ፡ በእንቲአነ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 11,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ወአንትሙኒ ፡ ተወልተዉ ፡ በይእቲ ፡ ኅሊና ። ምዕ ፡ ፬ ፡ ቍ ፡ ፩",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 12,
+          "margin_tag": "፲፪",
+          "line_type": "body",
+          "text": "አኀውየ ፡ ኢታንክርዋ ፡ ለእንተ ፡ ትመጽእክሙ ፡ መከራ ፡",
+          "word_wraps_to_next_line": false,
+          "stage1_text": "አኀዊነ ፡ ኢታንክርዋ ፡ ለእንተ ፡ ትመጽእክሙ ፡ መከራ ፡",
+          "stage2_correction": {
+            "pair": "አኀዊነ -> አኀውየ",
+            "reason": "Both visually on the page and in 1 Peter 4:12, the word is አኀውየ ('my brethren'), where ውየ was misread as ዊነ."
+          },
+          "uncertain": []
+        },
+        {
+          "line_num": 13,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ከመ ፡ ዘነኪር ፡ ግብር ፡ ዘይከውን ፡ ብክሙ ። ቍ ፡ ፲፪",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 14,
+          "margin_tag": "፩",
+          "line_type": "body",
+          "text": "ወለእለኒ ፡ ይትለሀቁ ፡ እምኔክሙ ፡ አስተበቍዖሙ ፡ አነ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 15,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ልሂቅ ፡ ካልእሙ ። ምዕ ፡ ፭ ፡ ቍ ፡ ፩",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 16,
+          "margin_tag": "፪",
+          "line_type": "body",
+          "text": "ረዐዩ ፡ ዘሀለወ ፡ ኀቤክሙ ፡ መርዔቶ ፡ ለእግዚአብሔር ፡ እንዘ ፡ ተዐቀብዎሙ ፡",
+          "word_wraps_to_next_line": false,
+          "stage1_text": "ረዐዩ ፡ ዘሀለዉ ፡ ሀቤክሙ ፡ መርዔቶ ፡ ለእግዚአብሔር ፡ እንዘ ፡ ተዐቀብዎሙ ፡",
+          "stage2_correction": {
+            "pair": "ዘሀለዉ ፡ ሀቤክሙ -> ዘሀለወ ፡ ኀቤክሙ",
+            "reason": "Visually and grammatically (1 Peter 5:2), the singular relative verb is ዘሀለወ (modifying መርዔቶ) followed by the preposition ኀቤክሙ with ኀ, not ሀ."
+          },
+          "uncertain": []
+        },
+        {
+          "line_num": 17,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ወኢትቅንይዎሙ ፡ በኵርሀ ፡ አላ ፡ በጽድቅ ፡ በእንተ ፡ እግዚአብሔር ፡ እንዘ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 18,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ኢትትረብሕዎሙ ፡ አላ ፡ በምልዓ ፡ ልብክሙ ፡ ወበትፍሥሕት ፡ እንዘ ፡ ኢትትኔ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 19,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "የሉ ፡ ሕዝቦ ፡ አላ ፡ አርአያ ፡ ኩንዎሙ ፡ ለመርዔቱ ፡ ከመ ፡ አመ ፡ አስተርአየ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 20,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "እግዚአ ፡ ኖሎት ፡ ትነሥኡ ፡ አክሊለ ፡ ስብሐት ፡ ዘኢይጸመሂ ፡ ቍ ፡ ፪",
+          "word_wraps_to_next_line": false,
+          "stage1_text": "እግዚአ ፡ ኖሎት ፡ ትንሥኡ ፡ አክሊለ ፡ ስብሐት ፡ ዘኢይጸመሂ ፡ ቍ ፡ ፪",
+          "stage2_correction": {
+            "pair": "ትንሥኡ -> ትነሥኡ",
+            "reason": "In Ge'ez imperfective morphology (1 Peter 5:4) and on the page, the second character is 1st-order ነ (ትነሥኡ), not 6th-order ን."
+          },
+          "uncertain": []
+        },
+        {
+          "line_num": 21,
+          "margin_tag": "፭",
+          "line_type": "body",
+          "text": "ወከማሁ ፡ አንትሙሂ ፡ ወራዙት ፡ ተኰነኑ ፡ ለእለ ፡ ይልህቁክሙ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 22,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ወኵልክሙ ፡ ተመሐርዋ ፡ ለአትሕቶ ፡ ርእስክሙ ። ቍ ፡ ፭",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 23,
+          "margin_tag": "፮",
+          "line_type": "body",
+          "text": "አትሕቱ ፡ እንከ ፡ ርእሰክሙ ፡ ታሕተ ፡ እዴሁ ፡ ለእግዚአ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 24,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ብሔር ፡ ጽንዕት ። ቍ ፡ ፮",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 25,
+          "margin_tag": "፲፪",
+          "line_type": "body",
+          "text": "ምስለ ፡ ስልዋኖስ ፡ እኁነ ፡ ምእመን ፡ በከመ ፡ ሐለይኩ ፡ ኀዳጠ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 26,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ጸሐፍኩ ፡ ለክሙ ። ቍ ፡ ፲፪",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 27,
+          "margin_tag": "፲፫",
+          "line_type": "body",
+          "text": "ትኤምኀክሙ ፡ ቤተ ፡ ክርስቲያን ፡ ኅሪት ፡ እንተ ፡ ውስተ ፡ ባቢሎን ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 28,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ዘግብጽ ፡ ወማርቆስ ፡ ወልድየ ። ቍ ፡ ፲፫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 29,
+          "margin_tag": "፲፬",
+          "line_type": "body",
+          "text": "ከዚህ ፡ በኋላ ፡ ከመጀመሪያ ፡ ከመጨረሻ ፡ ሲናገራቸው ፡ የመጣውን ፡ አንድ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 30,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "አድርጎ ፡ ወተሰናአዉ ፡ ኵልክሙ ፡ እለ ፡ በክርስቶስ ፡ ሀሎክሙ ፡ ይላል ፡ ቍ ፡ ፲፬",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 31,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "የጻፈበት ፡ አገር ፡ በመካከል ፡ ክታብ ፡ ወሳጅ ፡ የለም ፡ አንድም ፡ አልሚናስ ፡ ጳው",
+          "word_wraps_to_next_line": true,
+          "stage1_text": "የጻፈበት ፡ አገር ፡ በመካከል ፡ ከታብ ፡ ወሳጅ ፡ የለም ፡ አንድም ፡ አልሚናስ ፡ ጳው",
+          "stage2_correction": {
+            "pair": "ከታብ -> ክታብ",
+            "reason": "The 6th-order ክ in ክታብ ('letter/epistle') was misread as 1st-order ከ."
+          },
+          "uncertain": []
+        },
+        {
+          "line_num": 32,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሎስ ፡ አልንጳስ ፡ ጳውሎስ ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 33,
+          "margin_tag": null,
+          "line_type": "section_title",
+          "text": "በስመ ፡ አብ ፡ ወወልድ ፡ ወመንፈስ ፡ ቅዱስ ፡ አሐዱ ፡ አምላክ ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 34,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በአብ ፡ ስም ፡ አምኜ ፡ አብን ፡ ወላዲ ፡ ብዬ ፡ በወልድ ፡ ስም ፡ አምኜ ፡ ወልድን ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 35,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ተወላዲ ፡ ብዬ ፡ በመንፈስ ፡ ቅዱስ ፡ ስም ፡ አምኜ ፡ መንፈስ ፡ ቅዱስን ፡ ሠራፂ ፡",
+          "word_wraps_to_next_line": false
+        }
+      ]
+    }
+  ],
+  "stage2_verified": true,
+  "stage2_corrections_count": 7
+}

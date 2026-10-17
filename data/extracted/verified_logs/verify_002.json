@@ -1,0 +1,53 @@
+{
+  "pdf_page": 2,
+  "book_page_ethiopic": "፻፳፩",
+  "elapsed_sec": 16.3,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 2,
+      "old_text": "ውን ሺያነሱላቸው ይወዳሉና",
+      "corrected_text": "ውን ቢያነሱላቸው ይወዳሉና",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሺ -> ቢ",
+      "reason": "Top ink bleed on 'ቢ' made it look like 'ሺ'; Amharic conditional 'ቢያነሱላቸው' ('when/if they mention for them')."
+    },
+    {
+      "column_index": 1,
+      "line_num": 32,
+      "old_text": "ነው ፤ ዕውሩን በሆሣዕና ተሣ↵",
+      "corrected_text": "ነው ፤ ዕውራን በሆሣዕና ተሣ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሩ -> ራ",
+      "reason": "Plural 'ዕውራን' (the blind men) with 4th-order 'ራ' (matching plural verb 'እንዳሉ' and 'ተሣሃለነ') was misread as singular 'ዕውሩን'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 13,
+      "old_text": "ምይስሐቅ ይሰመይ ለከ ዘርአ",
+      "corrected_text": "ምይስሐቅ ይሰመይ ለከ ዘርእ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዘርአ -> ዘርእ",
+      "reason": "Canonical Ge'ez citation (Gen 21:12 / Rom 9:7 'እምይስሐቅ ይሰመይ ለከ ዘርእ') requires nominative 6th-order 'ዘርእ' (passive subject of 'ይሰመይ')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 12,
+      "old_text": "ዝ እንዳይበጠብጥበት ለ፶ ለ፰",
+      "corrected_text": "ዝ እንዳይበጠብጥበት ለ፶ ለ፷",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ለ፰ -> ለ፷",
+      "reason": "Standard Andemta idiom 'ለ፶ ለ፷' (by 50 or 60 men); Ethiopic numeral '፷' (60) was misread as '፰' (8)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 31,
+      "old_text": "ልና፤፩ም ነቢይ ቢሆንአባቶቻ↵",
+      "corrected_text": "ልና፤፩ም ነቢይ ቢሆን አባቶቻ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቢሆንአባቶቻ -> ቢሆን አባቶቻ",
+      "reason": "Missing word space between 'ቢሆን' and 'አባቶቻችንን'."
+    }
+  ]
+}

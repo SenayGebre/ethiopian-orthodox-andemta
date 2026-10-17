@@ -1,0 +1,26 @@
+{
+  "pdf_page": 54,
+  "book_page_ethiopic": "፭፻፷፬",
+  "elapsed_sec": 24.7,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 38,
+      "old_text": "አያልክ መልስ። ገብር ሙሴ በ",
+      "corrected_text": "እያልክ መልስ። ገብር ሙሴ በ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አያልክ -> እያልክ",
+      "reason": "The initial character has the 6th-order indentation of እ ('እያልክ መልስ' = 'saying [ወገብርሰ], bring back/apply the interpretation'), misread as 1st-order አ due to ink wear."
+    },
+    {
+      "column_index": 2,
+      "line_num": 26,
+      "old_text": "እኔ ከባቴ በህልውና ያየሁትን",
+      "corrected_text": "እኔ ካባቴ በህልውና ያየሁትን",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ከባቴ -> ካባቴ",
+      "reason": "The glyph clearly shows the shortened right leg of 4th-order ካ ('ካባቴ' = 'ከአባቴ', matching 'ካባታችሁ' in line 30)."
+    }
+  ]
+}

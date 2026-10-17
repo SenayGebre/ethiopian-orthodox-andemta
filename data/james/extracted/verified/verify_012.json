@@ -1,0 +1,98 @@
+{
+  "pdf_page": 12,
+  "book_page_ethiopic": "፫፻፵፬ | ፫፻፵፭",
+  "elapsed_sec": 40.0,
+  "applied_count": 10,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 31,
+      "old_text": "ጀው ፡ ዝልቅ ፡ አድርጎ ፡ ቆፍሮ ፡ ከዚያ ፡",
+      "corrected_text": "ጌው ፡ ዝልቅ ፡ አድርጎ ፡ ቆፍሮ ፡ ከዚያ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጀው -> ጌው",
+      "reason": "Completes the split word ከራስጌው ('at the head of his bed') from line 30 (እንደ ባለ መቅጹት ድስት ምሉ ወርቅ ከራስጌው ዝልቅ አድርጎ ቆፍሮ), matching line 1 of Column 2."
+    },
+    {
+      "column_index": 2,
+      "line_num": 9,
+      "old_text": "ያይዋል ፡ ምን ፡ ይሆን ፡ ሲሉ ፡ አበ ፡ ምኔ",
+      "corrected_text": "ያይዋል ፡ ምን ፡ ይሆን ፡ ሲሉ ፡ አበ ፡ ማኅ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ምኔ -> ማኅ",
+      "reason": "The word at the right margin is ማኅ- which wraps onto line 10 as -በሩ to form አበ ማኅበሩ ('the head/father of the monastic community')."
+    },
+    {
+      "column_index": 2,
+      "line_num": 12,
+      "old_text": "በልቶ ፡ ራሱን ፡ ተያይዞት፡ ሕመት ፡ አድ",
+      "corrected_text": "በልቶ ፡ ራሱን ፡ ተያይዞት፡ ሐመት ፡ አድ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሕመት -> ሐመት",
+      "reason": "The glyph is 1st-order ሐ (ሐመት, 'ashes/soot')."
+    },
+    {
+      "column_index": 2,
+      "line_num": 13,
+      "old_text": "ጎርት ፡ አክስሎት፡ ተገኝቷል፡ ዝ፡ ውእቱ፡",
+      "corrected_text": "ርጎት ፡ አክስሎት፡ ተገኝቷል፡ ዝ፡ ውእቱ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጎርት -> ርጎት",
+      "reason": "Completes the wrapped word አድርጎት ('having made/turned it into ashes') from ಅድ- at the end of line 12."
+    },
+    {
+      "column_index": 2,
+      "line_num": 20,
+      "old_text": "ድርክሙ ፡ ሄድክዎሙ ፥ ወዐመፅክምዎሙ ፡ ዐስ",
+      "corrected_text": "ድርክሙ ፡ ሄድክምዎሙ ፥ ወዐመፅክምዎሙ ፡ ዐስ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሄድክዎሙ -> ሄድክምዎሙ",
+      "reason": "The Ge'ez 2nd person masculine plural perfect with 3rd person plural object suffix is ሄድክምዎሙ, matching the print and line 26."
+    },
+    {
+      "column_index": 2,
+      "line_num": 29,
+      "old_text": "⟪ወገዓሮሙ ፡ ለዓፀድ ፡ ቦአ ፡ ውስተ ፡ እዘኒሁ ፡ ለእግ",
+      "corrected_text": "⟪ወገዓሮሙ ፡ ለዓፀድ ፡ ቦአ ፡ ውስተ ፡ እዝኒሁ ፡ ለእግ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እዘኒሁ -> እዝኒሁ",
+      "reason": "Classical Ge'ez noun 'into his ears' is እዝኒሁ with 6th-order ዝ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 28,
+      "old_text": "የቆመውን ፡ ቈረጥ ፡ የወደቀውን ፡ ፍለጥ ፡",
+      "corrected_text": "የቆመውን ፡ ቍረጥ ፡ የወደቀውን ፡ ፍለጥ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቈረጥ -> ቍረጥ",
+      "reason": "The imperative 'cut!' is printed ቍረጥ (parallel to ፍለጥ 'split!')."
+    },
+    {
+      "column_index": 4,
+      "line_num": 4,
+      "old_text": "እንኪ ፡ አጽግቦ ፡ ለርኁብ ፡ እምእክልከ ፡",
+      "corrected_text": "እንከ ፡ አጽግቦ ፡ ለርኁብ ፡ እምእክልከ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እንኪ -> እንከ",
+      "reason": "The Ge'ez particle in the Tobit citation is 1st-order እንከ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 6,
+      "old_text": "ልክምዎ)፡ ድኃውን፡ትኂቡን፡ ነሥታችሁ፡",
+      "corrected_text": "ልክምዎ)፡ ድኃውን፡ትኂዷን፡ ነሥታችሁ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ትኂቡን -> ትኂዷን",
+      "reason": "The printed word is ትኂዷን ('his alms/stipend', matching ትኂዷቸውን in Column 3 line 33 and Column 4 line 1)."
+    },
+    {
+      "column_index": 4,
+      "line_num": 7,
+      "old_text": "በረሃብ ፡ ገደላችሁት ፡ (ጥቅ) ፡ ዝሩዕ ፡ እክ",
+      "corrected_text": "በረሃብ ፡ ገደላችሁት ፡ (ጥቅ) ፡ ዝሩ ፡ እክ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዝሩዕ -> ዝሩ",
+      "reason": "The Tobit 4:17 citation reads ዝሩ ፡ እክለከ ፡ ላዕለ ፡ መቃብረ ፡ ጻድቃን ('Scatter/pour out thy bread upon the burial of the righteous'); the word-divider colon was misread as ዕ."
+    }
+  ]
+}

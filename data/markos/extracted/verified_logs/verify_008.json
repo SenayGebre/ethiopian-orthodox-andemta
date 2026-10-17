@@ -1,0 +1,53 @@
+{
+  "pdf_page": 8,
+  "book_page_ethiopic": "፫፻፳፯",
+  "elapsed_sec": 17.6,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "ዳር ወጣ። ⟪ወሖሩ ኅቤ↵",
+      "corrected_text": "ዳር ወጣ። ⟪ወሖሩ ኀቤ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኅ -> ኀ",
+      "reason": "The printed glyph in 'ኀቤሁ' is 4th-order 'ኀ' (rabi), not 5th-order 'ኅ' (hamis), matching standard Ge'ez morphology 'ኀቤሁ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 7,
+      "old_text": "መጸብሐዊ ወልደ እልፍዮስ እንዘ↵",
+      "corrected_text": "መጸብሐዌ ወልደ እልፍዮስ አ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሐዊ -> ሐዌ, እንዘ -> አ",
+      "reason": "In Ge'ez accusative following 'ርእዮ ለሌዊ', 'መጸብሐዌ' has the 5th-order 'ዌ' (with bottom right ring) on the page. Also, at the end of line 7 only 'አ' (or 'እ') is printed, while 'ንዘ' is at the start of line 8."
+    },
+    {
+      "column_index": 1,
+      "line_num": 8,
+      "old_text": "ይነብር ኀበ ምጽባሕ ።⟫ ማቴ",
+      "corrected_text": "ንዘ ይነብር ኀበ ምጽባሕ ።⟫ ማቴ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ይነብር -> ንዘ ይነብር",
+      "reason": "Line 8 begins with 'ንዘ' completing 'እንዘ' from the end of line 7."
+    },
+    {
+      "column_index": 3,
+      "line_num": 6,
+      "old_text": "የዮሐንስ ደቀ መዛሙርትና የ",
+      "corrected_text": "የዮሐንስ ደቀ መዛሙርትና የ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "የ -> የ-",
+      "reason": "The prefix 'የ' at the end of line 6 wraps onto 'ፈሪሳውያን' on line 7 to form 'የፈሪሳውያን'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 39,
+      "old_text": "ያለዚያ ግን ማለት ቢሰፋት ግ↵",
+      "corrected_text": "ያለዚያ ግን ማለት ቢሰፉት ግ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቢሰፋት -> ቢሰፉት",
+      "reason": "The glyph has the 2nd-order vowel stroke on the right ('ፉ'), reading 'ቢሰፉት' ('if they sew it'), matching standard Amharic Andemta grammar."
+    }
+  ]
+}

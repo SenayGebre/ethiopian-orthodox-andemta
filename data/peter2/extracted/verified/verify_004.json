@@ -1,0 +1,26 @@
+{
+  "pdf_page": 4,
+  "book_page_ethiopic": "፻፺፭ | ፻፺፮",
+  "elapsed_sec": 41.8,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "⟪ወረስዐ ፡ አንጽሖ ፡ ርእሶ ፡ እምእለ ፡ በላዖ ፡ በላዕ",
+      "corrected_text": "⟪ወረስኦ ፡ አንጽሖ ፡ ርእሶ ፡ እምእለ ፡ በላዖ ፡ በላዕ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዐ -> ኦ",
+      "reason": "The printed glyph in the Ge'ez root text clearly has the two legs and right-tilted top of ኦ (ወረስኦ), not ዐ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 21,
+      "old_text": "ቡሩካኑ ፡ ለአቡየ ፡ ተብላችሁ ፡ የምትጠ",
+      "corrected_text": "ቡሩካነ ፡ ለአቡየ ፡ ተብላችሁ ፡ የምትጠ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኑ -> ነ",
+      "reason": "Both visual inspection of the glyph and Classical Ge'ez grammar (construct plural ቡሩካነ ለአቡየ, Matt 25:34) confirm 1st-order ነ rather than ኑ."
+    }
+  ]
+}

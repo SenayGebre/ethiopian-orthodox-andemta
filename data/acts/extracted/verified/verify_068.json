@@ -1,0 +1,26 @@
+{
+  "pdf_page": 68,
+  "book_page_ethiopic": "፻፴፰ | ፻፴፱",
+  "elapsed_sec": 10.6,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 1,
+      "old_text": "⟪ወሲኑδοስ ፥⟫",
+      "corrected_text": "⟪ወሲኩδοስ ፥⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኑ -> ኩ",
+      "reason": "The canonical Ge'ez name in Acts 20:4 for Secundus is ሲኩδοስ (and ⟪ወሲኩδοስ⟫), clearly printed with the two-legged ኩ rather than single-legged ኑ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 2,
+      "old_text": "ሲኑδοስ ፡",
+      "corrected_text": "ሲኩδοስ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኑ -> ኩ",
+      "reason": "Matching the Ge'ez root text on the line above, the Amharic commentary repeats the name ሲኩδοስ (Secundus), printed with ኩ."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "pdf_page": 82,
+  "book_page_ethiopic": "፪፻፩",
+  "elapsed_sec": 56.8,
+  "applied_count": 7,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 5,
+      "old_text": "ማድ፤የተበደለ ሰው በጭር እን↵",
+      "corrected_text": "ማድ፤የተበደለ ሰው በጭር አ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እን -> አ",
+      "reason": "Line break boundary: only 'አ' is at the end of L05; 'ንጨት' begins L06."
+    },
+    {
+      "column_index": 1,
+      "line_num": 6,
+      "old_text": "ጨት ተክሎ ሣር ቋጥሮ መ↵",
+      "corrected_text": "ንጨት ተክሎ ሣር ቋጥሮ መ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጨት -> ንጨት",
+      "reason": "Line break boundary: 'ን' is the first character on L06 ('አ↵ንጨት')."
+    },
+    {
+      "column_index": 1,
+      "line_num": 9,
+      "old_text": "ኅሕተ ምድረ ሰዶም ወገሞራ",
+      "corrected_text": "ሳሕተ ምድረ ሰዶም ወገሞራ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኅ -> ሳ",
+      "reason": "Canonical Ge'ez Matthew 10:15 and visual inspection show 'ሳሕተ' (mildness/toleration), not 'ኅሕተ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 24,
+      "old_text": "ወዳለበት እንዲያሰማሯቸው ፥",
+      "corrected_text": "ወዳለበት እንዳያሰማሯቸው ፥",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዲ -> ዳ",
+      "reason": "Both context (parallel to 'እንዳያውሏቸው' in L23: so they do not graze them where wolves are) and the printed glyph show 4th-order 'ዳ' ('እንዳያሰማሯቸው')."
+    },
+    {
+      "column_index": 2,
+      "line_num": 38,
+      "old_text": "ሃት ሆናችሁ ተጠብቃችሁ ኑሩ",
+      "corrected_text": "ሃት ሁናችሁ ተጠብቃችሁ ኑሩ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሆ -> ሁ",
+      "reason": "The printed glyph has the 2nd-order 'ሁ' ('ሁናችሁ') with the right-side horizontal stroke."
+    },
+    {
+      "column_index": 3,
+      "line_num": 3,
+      "old_text": "ቅ ስትወጣ በምዕራብ ሽምቅ",
+      "corrected_text": "ቅ ስትወጣ በምዕራብ ሸምቆ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሽምቅ -> ሸምቆ",
+      "reason": "Visual inspection and Amharic converb grammar before 'ቆይቶ' confirm 'ሸምቆ' (lying in ambush)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 24,
+      "old_text": "⟪ከመ ይኩን ስምዓ ላእሌሆሙ⟫",
+      "corrected_text": "⟪ከመ ይኩን ስምዓ ላዕሌሆሙ⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እ -> ዕ",
+      "reason": "Canonical Ge'ez spelling and the printed triangular glyph confirm 'ላዕሌሆሙ' with 'ዕ'."
+    }
+  ]
+}

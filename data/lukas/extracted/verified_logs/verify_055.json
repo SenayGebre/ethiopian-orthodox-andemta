@@ -1,0 +1,35 @@
+{
+  "pdf_page": 55,
+  "book_page_ethiopic": "፬፻፴፯",
+  "elapsed_sec": 19.5,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 17,
+      "old_text": "እሰአል ይላል ተሰናብቼ ል↵",
+      "corrected_text": "እስአል ይላል ተሰናብቼ ል",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እሰአል -> እስአል",
+      "reason": "The second Fidel in እስአል is clearly 6th-order ስ (with the left horizontal bend), which is the standard Ge'ez 1st-person singular subjunctive ('let me ask leave / bid farewell')."
+    },
+    {
+      "column_index": 2,
+      "line_num": 35,
+      "old_text": "⟪ወኢትፁሩ ቁናማተ ፤⟫",
+      "corrected_text": "⟪ወኢትፁሩ ቆናማተ ፤⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቁናማተ -> ቆናማተ",
+      "reason": "The first Fidel of the noun is 7th-order ቆ (ቆናማተ, 'wallet/scrip' in Luke 10:4), clearly showing the top loop rather than a right-side 2nd-order tick."
+    },
+    {
+      "column_index": 3,
+      "line_num": 5,
+      "old_text": "⟪ወኅበ ቦጻእክሙ ቤት ቅድመ",
+      "corrected_text": "⟪ወኀበ በጻሕክሙ ቤተ ቅድመ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወኅበ ቦጻእክሙ ቤት -> ወኀበ በጻሕክሙ ቤተ",
+      "reason": "Canonical Ge'ez of Luke 10:5 ('And into whatsoever house ye enter/arrive') and the printed glyphs clearly read ወኀበ (1st-order ኀ) በጻሕክሙ (from በጽሐ, with 1st-order በ and 6th-order ሕ, not ቦጻእክሙ) ቤተ (accusative 1st-order ተ)."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "pdf_page": 104,
+  "book_page_ethiopic": "፮፻፲፬",
+  "elapsed_sec": 17.0,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 8,
+      "old_text": "መሆኗሞ። አንድም መለኮቱን",
+      "corrected_text": "መሆኗም። አንድም መለኮቱን",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሞ -> ም",
+      "reason": "The enclitic conjunction on የመሆኗም is 6th-order ም (not 7th-order ሞ); the right loop is clearly closed at the top."
+    },
+    {
+      "column_index": 2,
+      "line_num": 8,
+      "old_text": "ደቤቱ ይገባዋት ሄደ።ከዮሐንስ",
+      "corrected_text": "ደቤቱ ይዟት ሄደ።ከዮሐንስ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ይገባዋት -> ይዟት",
+      "reason": "The printed word is ይዟት ('taking her', translating ነሥአ... ወአእተዋ ቤቶ), where ዟ was missegmented as ገባዋ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 28,
+      "old_text": "እንዳይነ በጎ ያለ ባዘቶ ሠሀ የ",
+      "corrected_text": "እንዳይነ በጎ ያለ ባዘቶ ውሀ የ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሠሀ -> ውሀ",
+      "reason": "The word is ውሀ ('water', i.e., sponge/wool that absorbs water ውሀ የሚያነሣ), where ው was misread as ሠ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 25,
+      "old_text": "ዕለቲቱ ከባርት ናትና፡",
+      "corrected_text": "ዕለቲቱ ክብርት ናትና፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ከባርት -> ክብርት",
+      "reason": "The feminine adjective translating ዓባይ ዕለታ is ክብርት ('honorable/great'), with 6th-order ክ and ብ claramente visible."
+    },
+    {
+      "column_index": 3,
+      "line_num": 35,
+      "old_text": "ይ ዘየማንን ጭኑን ሰበሩት ፈ",
+      "corrected_text": "ይ ዘየማንን ጭኑን ሰበሩት ፊ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ፈ -> ፊ",
+      "reason": "Across the line wrap, the word is ፊቱን ('his face', ፊቱን ወደርሱ መልሶ ተሰቅሎ ነበርና), with the 3rd-order vowel mark on ፊ."
+    }
+  ]
+}

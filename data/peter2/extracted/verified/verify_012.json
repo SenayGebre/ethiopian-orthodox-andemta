@@ -1,0 +1,17 @@
+{
+  "pdf_page": 12,
+  "book_page_ethiopic": "፪፻፸፬ | ፪፻፸፭",
+  "elapsed_sec": 13.1,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 26,
+      "old_text": "ፋል ፡ ፪ ፡ ተሰ ፡ ፭ ፥ ፪ ። ቍ ፡ ፯ ። ማቴ ፡",
+      "corrected_text": "ፋል ፡ ፩ ፡ ተሰ ፡ ፭ ፥ ፪ ። ቍ ፡ ፯ ። ማቴ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፪ -> ፩",
+      "reason": "The printed numeral before 'ተሰ' (Thessalonians) is '፩' (1 Thessalonians 5:2, which speaks of the day of the Lord coming as a thief), misread as '፪' due to heavy top/bottom bars."
+    }
+  ]
+}

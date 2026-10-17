@@ -1,0 +1,44 @@
+{
+  "pdf_page": 6,
+  "book_page_ethiopic": "፭፻፲፮",
+  "elapsed_sec": 15.3,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 12,
+      "old_text": "ል። እንዳባ ማቲዎስ በስነ ፍ",
+      "corrected_text": "ል። እንዳባ ማቴዎስ በስነ ፍ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቲ -> ቴ",
+      "reason": "The 5th-order ring at the bottom of ቴ in 'ማቴዎስ' (Abba Matthew) is visible on the image and was misread as 3rd-order ቲ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 19,
+      "old_text": "ስከ በርባሮስ ያይ ነበር ወሰበ",
+      "corrected_text": "ስከ በርባሮስ ያይ ነበር ወሶበ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወሰበ -> ወሶበ",
+      "reason": "Classical Ge'ez temporal conjunction 'ወሶበ' (and when) is printed with 7th-order ሶ (cf. Col 2 L16), misread as 1st-order ሰ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 22,
+      "old_text": "በለን ሰው፡ኀጢአት ⟪ኢመይው",
+      "corrected_text": "በለን ሰው፡ኀጢአት ⟪ኢይመው",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኢመይው -> ኢይመው",
+      "reason": "In the Ge'ez phrase 'ኢይመውዖ ወኢይሄይሎ' (does not conquer/overcome him), the printed glyphs on line 22 are clearly 'ኢይመው-' (from መውዐ), which Stage 1 transposed as 'ኢመይው-'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 30,
+      "old_text": "ኵሉ ሰብእ ዘመጽእ ውስተ",
+      "corrected_text": "ኵሉ ሰብእ ዘመጽአ ውስተ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዘመጽእ -> ዘመጽአ",
+      "reason": "Canonical Ge'ez Gospel of John 1:9 perfect relative verb 'ዘመጽአ ውስተ ዓለም' is printed with 1st-order አ (shorter right leg), misread as 6th-order እ."
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "pdf_page": 51,
+  "book_page_ethiopic": "፻፸",
+  "elapsed_sec": 19.8,
+  "applied_count": 13,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "ሪዮ ቢፈርድብኝስ ብሎ የተ↵",
+      "corrected_text": "ሪዬ ቢፈርድብኝስ ብሎ የተ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሪዮ -> ሪዬ",
+      "reason": "Continuing 'ፈጣ↵ሪዬ' (my Creator) from the end of the previous page ('ፈጣ↵'); the 5th-order ዬ is clear."
+    },
+    {
+      "column_index": 1,
+      "line_num": 6,
+      "old_text": "ቷልና።ሁለት ሰዎች ክሰልፍ",
+      "corrected_text": "ቷልና።ሁለት ሰዎች ከሰልፍ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ክ -> ከ",
+      "reason": "Preposition ከሰልፍ (1st order ከ misread as 6th order ክ)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 9,
+      "old_text": "አንዱ ይድናል ክዳነው ላይ",
+      "corrected_text": "አንዱ ይድናል ከዳነው ላይ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ክ -> ከ",
+      "reason": "Preposition ከዳነው (1st order ከ misread as 6th order ክ)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 14,
+      "old_text": "ን መጥተው ክዚህ ሰው ምን",
+      "corrected_text": "ን መጥተው ከዚህ ሰው ምን",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ክ -> ከ",
+      "reason": "Preposition ከዚህ (1st order ከ misread as 6th order ክ)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 21,
+      "old_text": "ት የለም ወግду ብለዋቸዋል ።",
+      "corrected_text": "ት የለም ወግዱ ብለዋቸዋል ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ду -> ዱ",
+      "reason": "Cyrillic 'ду' artifact in OCR replaced with the printed Ethiopic Fidel ዱ in ወግዱ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 32,
+      "old_text": "አምን አርቆ ማጠር ነው ። አ↵",
+      "corrected_text": "አዎን አርቆ ማጠር ነው ። አ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ም -> ዎ",
+      "reason": "The affirmative response to 'ቢሉ' is 'አዎን' (Yes, it is fencing off from afar); the glyph is ዎ, not ም."
+    },
+    {
+      "column_index": 1,
+      "line_num": 34,
+      "old_text": "አይቶ ባገኘኋት ቢል ። ያ",
+      "corrected_text": "አይቶ ባገኘኋት ቢል ። ያ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ያ -> ያ ፡",
+      "reason": "Abbreviation/reference marker at end of line."
+    },
+    {
+      "column_index": 1,
+      "line_num": 39,
+      "old_text": "ት ብትሆንብህ ክንተ አውጥተ↵",
+      "corrected_text": "ት ብትሆንብህ ካንተ አውጥተ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ክንተ -> ካንተ",
+      "reason": "Amharic translation of እምላዕሌከ is ካንተ (4th order ካ with shortened right leg, misread as ክ)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 6,
+      "old_text": "ሃነም ክትገባ በዚህ ዓለም ሳ↵",
+      "corrected_text": "ሃነም ከትገባ በዚህ ዓለም ሳ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ክትገባ -> ከትገባ",
+      "reason": "1st order ከ in ከትገባ ('rather than entering') misread as 6th order ክ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 38,
+      "old_text": "በዚህ ዓለም ክሕዋሳትህ አ↵",
+      "corrected_text": "በዚህ ዓለም ከሕዋሳትህ አ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ክሕዋሳትህ -> ከሕዋሳትህ",
+      "reason": "Preposition ከ in ከሕዋሳትህ misread as ክ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 40,
+      "old_text": "ም ከትወርድ በዚህ ዓለም ክ↵",
+      "corrected_text": "ም ከትወርድ በዚህ ዓለም ከ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ክ -> ከ",
+      "reason": "Preposition ከ at the end of the line wrapping into ህዋሳትህ (ከህዋሳትህ) on Col 3 L01."
+    },
+    {
+      "column_index": 3,
+      "line_num": 31,
+      "old_text": "ሳያቸው ሆነ ወጥተው አባታ↵",
+      "corrected_text": "ሳያቸው ሁኖ ወጥተው አባታ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሆነ -> ሁኖ",
+      "reason": "The printed glyph in the image is clearly archaic Andemta gerund 'ሁኖ' (2nd order ሁ + 7th order ኖ), not 'ሆነ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 35,
+      "old_text": "አገኟዋት ይህች የኔ እጅ ና↵",
+      "corrected_text": "አገኟት ይህች የኔ እጅ ና↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አገኟዋት -> አገኟት",
+      "reason": "The printed word has only four characters: አገኟት (no extra ዋ)."
+    }
+  ]
+}

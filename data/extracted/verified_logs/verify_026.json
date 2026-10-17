@@ -1,0 +1,71 @@
+{
+  "pdf_page": 26,
+  "book_page_ethiopic": "፻፵፭",
+  "elapsed_sec": 23.9,
+  "applied_count": 7,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 8,
+      "old_text": "ት ነውና።አንድም ጉየተ ሕፃ↵",
+      "corrected_text": "ት ነውና።አንድም ጐየተ ሕፃ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጉ -> ጐ",
+      "reason": "The printed Ge'ez verbal noun is 'ጐየተ' (with labiovelar ጐ, matching 'አጐየዮ' on the next line), not 'ጉየተ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 16,
+      "old_text": "ሄሮድስ እንደዘበቱበት በየ ጊዜ",
+      "corrected_text": "ሄሮድስ እንደዘበቱበት ባየ ጊዜ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በየ -> ባየ",
+      "reason": "Amharic translation of Ge'ez 'ወሶበ ርእየ' ('when he saw') is 'ባየ ጊዜ' (4th order ባ), clearly visible in the print."
+    },
+    {
+      "column_index": 1,
+      "line_num": 21,
+      "old_text": "ብስጩ ለልማዱ ዛልጋው በ↵",
+      "corrected_text": "ብስጩ ለልማዱ ካልጋው በ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዛ -> ካ",
+      "reason": "The proverbial Amharic expression reads 'ብስጩ ለልማዱ ካልጋው በመክዳው በቤተ ሰቡ' ('from his bed, on his pillow, on his household'), with 'ካ' (ከ+አልጋው) misread as 'ዛ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 29,
+      "old_text": "ዝዞ ሰደደ ። ⟪ዘ፪ኤ ዓመት፤",
+      "corrected_text": "ዝዞ ሰደደ ። ⟪ዘ፪ቱ ዓመት፤",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኤ -> ቱ",
+      "reason": "Canonical Ge'ez Matthew 2:16 abbreviation for 'ዘክልኤቱ ዓመት' is printed 'ዘ፪ቱ ዓመት፤' with Phonetic complement 'ቱ', not 'ኤ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 23,
+      "old_text": "ተዋለች ፥ ሰማዕኩ ገዓሮሙ ለ↵",
+      "corrected_text": "ታዋለች ፥ ሰማዕኩ ገዓሮሙ ለ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ተ -> ታ",
+      "reason": "3rd person feminine singular compound perfective with object suffix is 'ረጭታዋለች' (4th order ታ), not 'ረጭተዋለች'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 35,
+      "old_text": "ልጆቹአ ልጆች አልሆኑአት↵",
+      "corrected_text": "ልጆችዋ ልጆች አልሆኑአት↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቹአ -> ችዋ",
+      "reason": "Translating 'ውሉዳ' ('her children'), the printed glyph is 'ልጆችዋ' ('ችዋ' misread as 'ቹአ')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 38,
+      "old_text": "ደ።⟫ልጆቹአ አይደሉምና የተ↵",
+      "corrected_text": "ደ።⟫ልጆችዋ አይደሉምና የተ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቹአ -> ችዋ",
+      "reason": "The printed word is 'ልጆችዋ' ('her children'), where 'ችዋ' was misread as 'ቹአ'."
+    }
+  ]
+}

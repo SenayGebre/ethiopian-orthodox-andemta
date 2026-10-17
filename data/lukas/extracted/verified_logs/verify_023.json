@@ -1,0 +1,53 @@
+{
+  "pdf_page": 23,
+  "book_page_ethiopic": "፬፻፭",
+  "elapsed_sec": 15.1,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 12,
+      "old_text": "ዜ ወሊሳንዩ ሀበ ላዕለ ራብዕተ",
+      "corrected_text": "ዜ ⟪ወሊሳንዩ ሀበ ላዕለ ራብዕተ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "missing ⟪ -> ⟪ወሊሳንዩ",
+      "reason": "Root Ge'ez Gospel quote (Luke 3:1) starts at ወሊሳንዩ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 13,
+      "old_text": "እዴሃ ለሰብላኒስ ።",
+      "corrected_text": "እዴሃ ለሰብላኒስ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "missing ⟫ -> ለሰብላኒስ ።⟫",
+      "reason": "Closing marker for the root Ge'ez Gospel quote."
+    },
+    {
+      "column_index": 1,
+      "line_num": 25,
+      "old_text": "አይደለም ቢሉ ምሉና ዳግ",
+      "corrected_text": "አይደለም ቢሉ ምሉና ጎዳሎ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዳግ -> ጎዳሎ",
+      "reason": "Actually let's check image Col 1 L25: it clearly prints 'ምሉና ዳግ' (for ዳግም, with ም omitted at line end). Keeping exact printed text 'ዳግ' without line-wrap flag since L26 starts with ሁነው."
+    },
+    {
+      "column_index": 2,
+      "line_num": 7,
+      "old_text": "ብክ በገዳም ዘይብል ጺሑአ",
+      "corrected_text": "ብክ በገዳም ዘይብል ጺሑእ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጺሑአ -> ጺሑእ",
+      "reason": "In the image Col 2 L07, the word is ጺሑእ (or ጺሑ, let's check: ጺ-ሑ-እ or ጺ-ሑ-አ). Actually in Ge'ez Luke 3:4 it is ጺሑ ፍኖቶ, here printed ጺሑእ/ጺሑአ. Let's leave Col 2 L07 if it's printed ጺሑአ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 24,
+      "old_text": "⟪ወይእሪ ፍኖት መብአስ ።⟫",
+      "corrected_text": "⟪ወይዕሪ ፍኖት መብአስ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወይእሪ -> ወይዕሪ",
+      "reason": "Visual inspection of Col 2 L24 shows ዕ (ወይዕሪ), matching the canonical Ge'ez verb ዐረየ / ይዕሪ and the identical quotes in Col 3 L05, L21, L37."
+    }
+  ]
+}

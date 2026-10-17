@@ -1,0 +1,35 @@
+{
+  "pdf_page": 18,
+  "book_page_ethiopic": "፫፻፹፪ | ፫፻፹፫",
+  "elapsed_sec": 23.1,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 5,
+      "old_text": "ደቂቅ ፡ አዳምም ፡ ሆኖ ፡",
+      "corrected_text": "ደቂቀ ፡ አዳምም ፡ ሆኖ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቅ -> ቀ",
+      "reason": "In Col 3 L05, the printed glyph is ቀ (ደቂቀ ፡ አዳምም, 'the children of Adam', construct state ደቂቀ), where the horizontal crossbar of ቀ was misread as ቅ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 24,
+      "old_text": "⟪ስተ ፡ ሥርዉ ፡ ለዳዊት ፡ ከመ ፡ ይፍትሓ ፡ ለይእቲ ፡",
+      "corrected_text": "⟪ስተ ፡ ሥርዉ ፡ ለዳዊት ፡ ከመ ፡ ይፍትሐ ፡ ለይእቲ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሓ -> ሐ",
+      "reason": "In Col 3 L24, the printed glyph is ይፍትሐ (with first-order ሐ), which is the standard Ge'ez subjunctive form."
+    },
+    {
+      "column_index": 4,
+      "line_num": 34,
+      "old_text": "ት⟫ ፡ ሐዋርያት ፡ ናቸው ፡ ወይኄልቍ ፡",
+      "corrected_text": "ት⟫ ፡ ሐዋርያት ፡ ናቸው ፡ ወይጼልዉ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኄልቍ -> ጼልዉ",
+      "reason": "In Col 4 L34, the printed patristic citation is 'ወይጼልዉ ፡ ከመ፡ ቃለ፡ ቀርን' ('and they resound like the voice of a horn/trumpet', from ጸለወ/ጼለወ). Visually, ጼ and ዉ are clearly printed on the page."
+    }
+  ]
+}

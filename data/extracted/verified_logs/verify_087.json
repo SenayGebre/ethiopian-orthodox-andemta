@@ -1,0 +1,35 @@
+{
+  "pdf_page": 87,
+  "book_page_ethiopic": "፪፻፮",
+  "elapsed_sec": 14.7,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 23,
+      "old_text": "ከሂዱ በኋላ የዮሐንስ መጥ↵",
+      "corrected_text": "ከሄዱ በኋላ የዮሐንስ መጥ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሂ -> ሄ",
+      "reason": "The 5th-order loop on the right leg of ሄ in ከሄዱ was misread as the 3rd-order ሂ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 26,
+      "old_text": "ተጠራጥሮ እንዳይደለ ሂደው",
+      "corrected_text": "ተጠራጥሮ እንዳይደለ ሄደው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሂ -> ሄ",
+      "reason": "The 5th-order loop on the right leg of ሄ in ሄደው was misread as ሂ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 28,
+      "old_text": "አለመናገሩ ከሂዱ በኋላ መና↵",
+      "corrected_text": "አለመናገሩ ከሄዱ በኋላ መና↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሂ -> ሄ",
+      "reason": "The 5th-order loop on the right leg of ሄ in ከሄዱ was misread as ሂ."
+    }
+  ]
+}

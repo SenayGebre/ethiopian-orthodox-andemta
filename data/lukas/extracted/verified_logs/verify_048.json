@@ -1,0 +1,35 @@
+{
+  "pdf_page": 48,
+  "book_page_ethiopic": "፬፻፴",
+  "elapsed_sec": 18.5,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 25,
+      "old_text": "በያች ጊዜ ተንቀጠቀጠች ።",
+      "corrected_text": "ባየች ጊዜ ተንቀጠቀጠች ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በያች -> ባየች",
+      "reason": "The printed text in Column 2, Line 25 clearly shows 'ባየች' (4th order ባ followed by 1st order የ, meaning 'when she saw', translating Ge'ez 'ወርእያ'), which was transposed in Stage 1 as 'በያች'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 33,
+      "old_text": "ብሱን ጫፍ ዳስሳ ያን ጊዜ",
+      "corrected_text": "ብሱን ጫፍ ዳስሳ ያን ጊዜ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጊዜ -> ጊዜ↵ውንም",
+      "reason": "The word 'ጊዜውንም' splits across the line break from Line 33 ('ጊዜ') onto Line 34 ('ውንም')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 1,
+      "old_text": "⟪እትዊ በሰላም ።⟫ በደሀና ሂ",
+      "corrected_text": "⟪እትዊ በሰላም ።⟫ በደህና ሂ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በደሀና -> በደህና",
+      "reason": "The middle character in 'በደህና' is 6th-order ህ (with the bent left leg), standard Amharic for 'in peace/well', misread as 1st-order ሀ."
+    }
+  ]
+}

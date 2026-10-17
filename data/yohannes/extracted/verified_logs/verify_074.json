@@ -1,0 +1,17 @@
+{
+  "pdf_page": 74,
+  "book_page_ethiopic": "፭፻፹፬",
+  "elapsed_sec": 28.8,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 36,
+      "old_text": "ድርሰት እንወዳለን አሉት ።",
+      "corrected_text": "ደርስበት እንወዳለን አሉት ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ድርሰት -> ደርስበት",
+      "reason": "The word wrapped from L35 ('ልና-') completes as 'ልናደርስበት' ('we want to reach Him' / 'to have access to Him', glossing 'ንርአዮ / ልናይ'). Visually on L36, there are five characters before 'እንወዳለን': ደ-ር-ስ-በ-ት, where 'ስበ' was compressed and misread as 'ሰ'."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "pdf_page": 105,
+  "book_page_ethiopic": "፪፻፳፬",
+  "elapsed_sec": 11.3,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 7,
+      "old_text": "ያለ ፍሬ የሚቀር እሱ ነው።",
+      "corrected_text": "ያለ ፍሬ የሚሐን እሱ ነው።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቀር -> ሐን",
+      "reason": "The printed glyph in the image is clearly የሚሐን (translating Ge'ez ይከውን 'becomes'), not የሚቀር."
+    },
+    {
+      "column_index": 2,
+      "line_num": 35,
+      "old_text": "በርሻው የሚዘራት የተበጠረ",
+      "corrected_text": "በርሻው የሚዘሩት የተበጠረ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ራ -> ሩ",
+      "reason": "The printed glyph has the 2nd-order stroke ሩ (የሚዘሩት 'which one sows'), not 4th-order ራ (የሚዘራት)."
+    }
+  ]
+}

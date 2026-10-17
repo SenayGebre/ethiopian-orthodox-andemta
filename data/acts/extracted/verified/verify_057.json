@@ -1,0 +1,35 @@
+{
+  "pdf_page": 57,
+  "book_page_ethiopic": "፻፳፯ | ፻፳፰",
+  "elapsed_sec": 18.7,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 12,
+      "old_text": "እግዚአብሔርን፡የምትፈራ፡የምግባር፡ ነው",
+      "corrected_text": "እግዚአብሔርን፡የምትፈራ፡የምግባር፡ ሰው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ነው -> ሰው",
+      "reason": "The left leg of 'ሰ' in 'ሰው' is slightly faint in the print, causing it to be misread as 'ነው'; philologically, the Andemta idiom for 'ፈራሂተ እግዚአብሔር' is 'የምግባር ሰው' (a person of good works)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 19,
+      "old_text": "፲፭ ፤ ⟪ወተጠምቀት ፡ ምስለ ፡ ኵሉ ፡ ሰብአ ፥⟫",
+      "corrected_text": "፲፭ ፤ ⟪ወተጠምቀት ፡ ምስለ ፡ ኵሉ ፡ ሰብኣ ፥⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሰብአ -> ሰብኣ",
+      "reason": "In Classical Ge'ez (Acts 16:15), 'ሰብኣ' has the 3rd person feminine singular possessive suffix '-ኣ' ('her household', translated in the next line as 'ከቤተ ሰቦችዋ ጋራ'), and the 4th-order 'ኣ' is visible on the page."
+    },
+    {
+      "column_index": 4,
+      "line_num": 25,
+      "old_text": "ብዙ ፡ ቀን ፡ እንዲህ ፡ እያለች ፡ ትጮኸ ፡",
+      "corrected_text": "ብዙ ፡ ቀን ፡ እንዲህ ፡ እያለች ፡ ትጮኽ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ትጮኸ -> ትጮኽ",
+      "reason": "The imperfective auxiliary construction 'ትጮኽ ነበር' requires the 6th-order (ሳድስ) 'ኽ', which is clearly printed with the top zig-zag crown of 6th-order 'ኽ'."
+    }
+  ]
+}

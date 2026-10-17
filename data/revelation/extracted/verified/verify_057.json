@@ -1,0 +1,17 @@
+{
+  "pdf_page": 57,
+  "book_page_ethiopic": "፬፻፳ | ፬፻፳፩",
+  "elapsed_sec": 14.6,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 33,
+      "old_text": "ዱለተኛ ፡ እንደ ፡ ልቅሶኛ ፡",
+      "corrected_text": "ድሎተኛ ፡ እንደ ፡ ልቅሶኛ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዱለ -> ድሎ",
+      "reason": "The printed glyphs are clearly 'ድሎተኛ' (person living in luxury/revelry, matching Col 1 L08), where 'ድ' (6th order) and 'ሎ' (7th order) were misread as 'ዱለ'."
+    }
+  ]
+}

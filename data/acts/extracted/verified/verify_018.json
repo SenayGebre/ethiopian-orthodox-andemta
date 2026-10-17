@@ -1,0 +1,62 @@
+{
+  "pdf_page": 18,
+  "book_page_ethiopic": "፶፰ | ፶፱",
+  "elapsed_sec": 30.6,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 6,
+      "old_text": "ማሳ ፡ ባለበት ፡ ክብት ፡ አይነጠቅ ፡ እን",
+      "corrected_text": "ማሳ ፡ ባለበት ፡ ከብት ፡ አይነጠቅ ፡ እን",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ክብት -> ከብት",
+      "reason": "The printed glyph is 1st-order ከ (ከብት 'cattle/livestock' in the traditional proverb 'ጉልማሳ ባለበት ከብት አይነጠቅ'), which was misread as 6th-order ክ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 9,
+      "old_text": "⟪በመዋዕለ ፡ ዘትጽሕፉ ፡ ሰብእ ፡ በእንተ ፡ ጸባሕት ፡⟫",
+      "corrected_text": "⟪በመዋዕለ ፡ ዘተጽሕፉ ፡ ሰብእ ፡ በእንተ ፡ ጸባሕት ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዘትጽሕፉ -> ዘተጽሕፉ",
+      "reason": "Both the printed glyph and Classical Ge'ez grammar (3rd person masculine plural passive perfect ተጽሕፉ 'when men were enrolled/registered') confirm 1st-order ተ rather than 6th-order ት."
+    },
+    {
+      "column_index": 3,
+      "line_num": 13,
+      "old_text": "አታስተምሩ ፡ ብለው ፡ ሽመጣጠው ፡",
+      "corrected_text": "አታስተምሩ ፡ ብለው ፡ ሸመጣጠው ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሽመጣጠው -> ሸመጣጠው",
+      "reason": "The initial character has two straight legs (1st-order ሸ in the Amharic gerund ሸመጣጠው), not the bent left leg of 6th-order ሽ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 26,
+      "old_text": "ነቀፏዋቸው ፡",
+      "corrected_text": "ነቀፉዋቸው ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ነቀፏዋቸው -> ነቀፉዋቸው",
+      "reason": "The printed glyph is 2nd-order ፉ (ነቀፉዋቸው) with the side stroke of kā'īb, misread as ፏ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 20,
+      "old_text": "ለሆዴ ቀድሞም፡ ይኸው፡ ዛሬም፡ይኸው፡",
+      "corrected_text": "ለሆዴ ፡ ቀድሞም፡ ይኸው፡ ዛሬም፡ይኸው፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ለሆዴ ቀድሞም -> ለሆዴ ፡ ቀድሞም",
+      "reason": "Restored the clearly visible word-separator Hulet Neteb (፡) after ለሆዴ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 27,
+      "old_text": "ፏዋቸው ፡ ለተግባረ ፡ ነፍሱ፡ እንጅ ፡ ለተ",
+      "corrected_text": "ፉዋቸው ፡ ለተግባረ ፡ ነፍሱ፡ እንጅ ፡ ለተ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ፏዋቸው -> ፉዋቸው",
+      "reason": "The first glyph on the line (completing ነቀፉዋቸው from L26) is 2nd-order ፉ, misread as ፏ."
+    }
+  ]
+}

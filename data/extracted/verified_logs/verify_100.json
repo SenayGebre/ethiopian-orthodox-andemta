@@ -1,0 +1,53 @@
+{
+  "pdf_page": 100,
+  "book_page_ethiopic": "፪፻፲፱",
+  "elapsed_sec": 18.4,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 7,
+      "old_text": "ህ በኋላ በቒ በዪኝ አላት የ↵",
+      "corrected_text": "ህ በኋላ በሺ በዪኝ አላት የ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በቒ -> በሺ",
+      "reason": "The printed glyph has the top horizontal bar of ሸ (ሺ), forming the idiomatic Amharic phrase 'በሺ በዪኝ' (consent to me / say yes to me), misread as 'በቒ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 26,
+      "old_text": "ላት ይሁኑን ተውኝ ፈቃድህን",
+      "corrected_text": "ላት ይህንን ተውኝ ፈቃድህን",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ይሁኑን -> ይህንን",
+      "reason": "Both visually and contextually the word is 'ይህንን' ('ይህንን ተውኝ' - let me off on this / spare me this), with 6th-order ህ and ን misread as 2nd-order ሁ and ኑ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 2,
+      "old_text": "[፵፫] ⟪ወአምከመ ወጽአ መንፈስ ር↵",
+      "corrected_text": "[፵፫] ⟪ወእምከመ ወጽአ መንፈስ ር↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወአምከመ -> ወእምከመ",
+      "reason": "Canonical Ge'ez preposition/conjunction is 'ወእምከመ' (with 6th-order እ, not 1st-order አ), clearly visible in the print."
+    },
+    {
+      "column_index": 2,
+      "line_num": 8,
+      "old_text": "ብስ ይሄዳል፤እሱስ ወሀ ወዳለ↵",
+      "corrected_text": "ብስ ይሄዳል፤እሱስ ውሀ ወዳለ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወሀ -> ውሀ",
+      "reason": "The printed glyph has the right-side hook of 6th-order ው ('ውሀ'), misread as 1st-order ወ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 15,
+      "old_text": "ረግባታል ። አንድም ⟪ወአምከ↵",
+      "corrected_text": "ረግባታል ። አንድም ⟪ወእምከ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወአምከ -> ወእምከ",
+      "reason": "Canonical Ge'ez lemma citation is 'ወእምከመ' with 6th-order እ, misread as 1st-order አ."
+    }
+  ]
+}

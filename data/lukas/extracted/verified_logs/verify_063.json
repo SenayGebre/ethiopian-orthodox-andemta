@@ -1,0 +1,53 @@
+{
+  "pdf_page": 63,
+  "book_page_ethiopic": "፬፻፵፭",
+  "elapsed_sec": 14.0,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 12,
+      "old_text": "እቱ ኵሉ ሥጋከ ብሩሀ ውእቱ⟫",
+      "corrected_text": "እቱ ኵሉ ሥጋከ ብሩህ ውእቱ⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ብሩሀ -> ብሩህ",
+      "reason": "The printed glyph in the second instance is clearly 6th-order ህ (ብሩህ), matching the first instance on L11 and standard Ge'ez nominative predicate adjective."
+    },
+    {
+      "column_index": 2,
+      "line_num": 13,
+      "old_text": "ንትሙሰ ፈሪሳውያን ይእዜ እን↵",
+      "corrected_text": "ንትሙሰ ፈሪሳውያን ይእዜ እ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እን -> እ",
+      "reason": "On line 13, only 'እ' is printed at the end of the line, while 'ንተ' begins line 14 (እ-ንተ). Stage 1 duplicated the 'ን' across the line break."
+    },
+    {
+      "column_index": 2,
+      "line_num": 18,
+      "old_text": "እናንተ ፈሪሳውያን ግን ፃሕ↵",
+      "corrected_text": "እናንተ ፈሪሳውያን ግን ጻሕ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ፃ -> ጻ",
+      "reason": "The printed character at the end of L18 is clearly two-legged ጻ (ጻሕሉን), not single-legged ፃ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 19,
+      "old_text": "ሉን ፅዋውን ውጭውን ታጥ↵",
+      "corrected_text": "ሉን ጽዋውን ውጭውን ታጥ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ፅ -> ጽ",
+      "reason": "The printed character is two-legged ጽ (ጽዋውን), matching לጽዋዕኒ on L15."
+    },
+    {
+      "column_index": 3,
+      "line_num": 5,
+      "old_text": "ም ሁሉ ከሥር አንድ የምታ↵",
+      "corrected_text": "ም ሁሉ ከዐሥር አንድ የምታ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከሥር -> ከዐሥር",
+      "reason": "Looking at the image on Col 3 L05, 'ከዐሥር' (one out of ten / tithe, translating አሥራተ) is clearly printed with the loop of ዐ between ከ and ሥ."
+    }
+  ]
+}

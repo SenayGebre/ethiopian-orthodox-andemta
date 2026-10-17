@@ -1,0 +1,35 @@
+{
+  "pdf_page": 50,
+  "book_page_ethiopic": "፻፲፪ | ፻፲፫",
+  "elapsed_sec": 23.5,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 28,
+      "old_text": "በሱ፡ ያመነ፡ ግን፡ ይከብራል፡ ሮሜ፡ ፫፡ ፬ ።",
+      "corrected_text": "በሱ፡ ያመነ፡ ግን፡ ይከብራል፡ ሮሜ፡ ፫፡ ፳ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፬ -> ፳",
+      "reason": "The printed numeral has two vertical strokes between the top and bottom bars (፳ = 20, referencing Romans 3:20), distinct from the round-looped ፬ (4) seen in ፵፬ (Col 2 L31)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 25,
+      "old_text": "⟪ወኢትፈቅዩ ፡ ርእሰክሙ ፡ ለሕይወት ፡ ዘለዓለም ፡⟫",
+      "corrected_text": "⟪ወኢትፈቅዱ ፡ ርእሰክሙ ፡ ለሕይወት ፡ ዘለዓለም ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዩ -> ዱ",
+      "reason": "Both the printed glyph and Classical Ge'ez grammar (from ፈቀደ, 'ወኢትፈቅዱ ርእሰክሙ ለሕይወት ዘለዓለም') confirm ዱ rather than ዩ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 25,
+      "old_text": "⟪ወሀυከዎን ፡ አይሁድ ፡ ለአንስት ፡ ወለዐበይተ ፡ ሀ↵",
+      "corrected_text": "⟪ወሀወከዎን ፡ አይሁድ ፡ ለአንስት ፡ ወለዐበይተ ፡ ሀ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "υ -> ወ",
+      "reason": "Stage 1 misread the Ethiopic Fidel ወ inside ወሀወከዎን ('and they stirred up/troubled them', from ሀወከ) as a non-Ethiopic Greek character υ."
+    }
+  ]
+}

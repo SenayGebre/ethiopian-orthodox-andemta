@@ -1,0 +1,53 @@
+{
+  "pdf_page": 25,
+  "book_page_ethiopic": "፬፻፯",
+  "elapsed_sec": 14.9,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 6,
+      "old_text": "የእህሉን አውድማ የሚያጻራ",
+      "corrected_text": "የእህሉን አውድማ የሚያጸራ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጻ -> ጸ",
+      "reason": "The glyph is 1st-order ጸ (የሚያጸራበት), with two symmetrical legs; Stage 1 misread it as 4th-order ጻ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 37,
+      "old_text": "ሄሮድስ ስለ ሚሰራው ክፉ ነ",
+      "corrected_text": "ሄሮድስ ስለ ሚሠራው ክፉ ነ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሰ -> ሠ",
+      "reason": "The printed character in ሚሠራው is clearly ሠ (ንጉሥ ሠ), which Stage 1 misread as ሰ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 4,
+      "old_text": "ደስታዬን ላደብህ የመረጥኩህ።",
+      "corrected_text": "ደስታዬን ላይብህ የመረጥኩህ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ደ -> ይ",
+      "reason": "Standard Andemta gloss of 'ወኪያከ ሠመርኩ' is 'ደስታዬን ላይብህ የመረጥኩህ' (whom I chose that I might see my joy in you, ል-አይብህ -> ላይብህ). Visually the glyph is ይ, misread as ደ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 28,
+      "old_text": "ቆጠረ።",
+      "corrected_text": "ቈጠረ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቆ -> ቈ",
+      "reason": "The printed glyph is labiovelar ቈ (ቈጠረ), matching ቈጥሮ in lines 32-33."
+    },
+    {
+      "column_index": 3,
+      "line_num": 29,
+      "old_text": "ሉቃስ በናታን የወረደውን ቆ",
+      "corrected_text": "ሉቃስ በናታን የወረደውን ቈ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቆ -> ቈ",
+      "reason": "The printed glyph at the end of the line is labiovelar ቈ (ቈጠረ), misread as ቆ."
+    }
+  ]
+}

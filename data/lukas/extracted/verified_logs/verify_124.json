@@ -1,0 +1,17 @@
+{
+  "pdf_page": 124,
+  "book_page_ethiopic": "፭፻፮",
+  "elapsed_sec": 19.2,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 36,
+      "old_text": "ቶ ኢየሱስ ። ቍ ፳፭",
+      "corrected_text": "ተ ኢየሱስ ። ቍ ፳፭",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቶ -> ተ",
+      "reason": "Both visually on the page and grammatically in Classical Ge'ez construct state across the line wrap (ተሊዎተ ኢየሱስ, 'following Jesus'), the first character on L36 is first-order ተ, not ቶ."
+    }
+  ]
+}

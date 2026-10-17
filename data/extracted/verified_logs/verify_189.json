@@ -1,0 +1,35 @@
+{
+  "pdf_page": 189,
+  "book_page_ethiopic": "፫፻፰",
+  "elapsed_sec": 16.6,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 27,
+      "old_text": "ን አንሥቶ ጎኑን ወጋው ወሀ↵",
+      "corrected_text": "ን አንሥቶ ጎኑን ወጋው ውሀ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወሀ -> ውሀ",
+      "reason": "The printed glyph at the end of the line has the 6th-order side loop on ው (ውሀና ደም, 'water and blood'), not 1st-order ወ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 37,
+      "old_text": "መላእክት እንዘ ይእኅዝ በእደ↵",
+      "corrected_text": "መላእክት እንዘ ይእኅዝ በእዴ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በእደ -> በእዴ",
+      "reason": "Classical Ge'ez singular noun እድ takes the 5th-order vowel before pronominal suffixes (በእዴሁ, 'in his hand'), and the 5th-order ring on ዴ is visible."
+    },
+    {
+      "column_index": 2,
+      "line_num": 1,
+      "old_text": "በጦ ዝኩ መልአክ በሰይፉ ሀ",
+      "corrected_text": "በጦ ዝኩ መልአክ በሰይፉ ለ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሀ -> ለ",
+      "reason": "In the Ge'ez clause 'ዘበጦ ዝኩ መልአክ በሰይፉ ለመንጦላዕተ ምኵራብ', the final character on L01 is the preposition ለ- wrapping onto መንጦላዕተ on L02, slightly smudged at the base to resemble ሀ."
+    }
+  ]
+}

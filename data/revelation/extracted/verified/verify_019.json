@@ -1,0 +1,26 @@
+{
+  "pdf_page": 19,
+  "book_page_ethiopic": "፫፻፳፬ | ፫፻፳፭",
+  "elapsed_sec": 11.2,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 1,
+      "old_text": "⟪ዘእልፍ ፡ እግዐዚ ።⟫",
+      "corrected_text": "⟪ዘእልፍ ፡ አግዐዚ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እግዐዚ -> አግዐዚ",
+      "reason": "In Ge'ez plural of እግዚእ (master/leader) is አግዐዚ (masters/leaders of thousands). Visually, the first character is 1st-order አ (without the central loop of 6th-order እ)."
+    },
+    {
+      "column_index": 4,
+      "line_num": 12,
+      "old_text": "⟪ወለበግዑ ፡ ለዓለም ፡ ዓለም ።⟫",
+      "corrected_text": "⟪ወለበግዑ ፡ ለዓለመ ፡ ዓለም ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ለዓለም -> ለዓለመ",
+      "reason": "In Classical Ge'ez construct state ('unto ages of ages'), the printed text clearly shows 1st-order መ in ለዓለመ ፡ ዓለም ። rather than 6th-order ም."
+    }
+  ]
+}

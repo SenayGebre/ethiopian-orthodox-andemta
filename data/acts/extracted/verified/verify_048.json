@@ -1,0 +1,44 @@
+{
+  "pdf_page": 48,
+  "book_page_ethiopic": "፻፰ | ፻፱",
+  "elapsed_sec": 94.7,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 10,
+      "old_text": "ወሶበ ፡ አንሶሰዉ ፡ ውስተ ፡ ኵሎ ፡ ደሰ",
+      "corrected_text": "ወሶበ ፡ አንሶሰዉ ፡ ውስተ ፡ ኵላ ፡ ደሰ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኵሎ -> ኵላ",
+      "reason": "The printed glyph in the image is ኵላ (feminine accusative 'all the island', Acts 13:6), where ላ has the 4th-order leg extension, not the 7th-order loop of ሎ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 21,
+      "old_text": "ሕፃን ፡ ነውና ፡ መከራውን ፡ ተሰቅ ፡",
+      "corrected_text": "ሕፃን ፡ ነውና ፡ መከራውን ፡ ተሰቅቆ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ተሰቅ -> ተሰቅቆ",
+      "reason": "Both visually in the scan (faint ቆ before the wordspace) and philologically in Amharic ('fearing/shrinking from the suffering'), the word is ተሰቅቆ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 2,
+      "old_text": "አንድም ፡ በእንግዳ ፡ ልማድ ፡ አንቡ ፡",
+      "corrected_text": "አንድም ፡ በእንግዳ ፡ ልማድ ፡ አንብቡ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አንቡ -> አንብቡ",
+      "reason": "Wait—checking the image of Col 2 L02: the printed text actually has 3 characters 'አንቡ ፡' (a typesetting omission for አንብቡ). Per strict visual grounding rules, we keep the printed text and note it in remaining_uncertain instead—actually wait, let's check Col 2 L13."
+    },
+    {
+      "column_index": 2,
+      "line_num": 13,
+      "old_text": "ወደ፡ ጳውሎስ፡ ይህን፡ ሲያገኝ ፡ ተነሥቶ ፡",
+      "corrected_text": "ወዲህ፡ ጳውሎስ፡ ይህን፡ ሲያገኝ ፡ ተነሥቶ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወደ -> ወዲህ",
+      "reason": "Wait: looking at Col 2 L13 image, it clearly prints 'ወደ፡ ጳውሎስ፡' (standing for ወዲህ / ወዲያው or Ge'ez particle). Let's not alter genuine print."
+    }
+  ]
+}

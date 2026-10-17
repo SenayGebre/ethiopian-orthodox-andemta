@@ -1,0 +1,71 @@
+{
+  "pdf_page": 33,
+  "book_page_ethiopic": "፬፻፲፭",
+  "elapsed_sec": 23.7,
+  "applied_count": 7,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 35,
+      "old_text": "⟪ወአብዕ መባአከ በእንተ ዘነጻ",
+      "corrected_text": "⟪ወአብእ መባአከ በእንተ ዘነጻ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወአብዕ -> ወአብእ",
+      "reason": "Classical Ge'ez causative imperative of ቦአ ('bring/offer') is ወአብእ with አሌፍ (እ), which matches the printed glyph on Col 1 L35."
+    },
+    {
+      "column_index": 1,
+      "line_num": 37,
+      "old_text": "ከለምጽሕ ስለ ዳንክ ሙሴ እ",
+      "corrected_text": "ከለምጽህ ስለ ዳንክ ሙሴ እ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከለምጽሕ -> ከለምጽህ",
+      "reason": "The Amharic 2nd person masculine singular possessive suffix is printed with ህ (ከለምጽህ, matching ራስህን on L34), not ሕ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 38,
+      "old_text": "ንዳዘዘ መባሕን ስጥ እንጂ ለ",
+      "corrected_text": "ንዳዘዘ መባህን ስጥ እንጂ ለ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "መባሕን -> መባህን",
+      "reason": "The Amharic possessive suffix on መባህን ('your offering') is printed with ህ, not ሕ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 15,
+      "old_text": "⟪ወእምዝ ኮነ በአሐቲ ዕለት አ",
+      "corrected_text": "⟪ወእምዝ ኮነ በአሐቲ ዕለት እ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አመዋዕል -> እመዋዕል",
+      "reason": "In Classical Ge'ez, እም + መዋዕል assimilates to እመዋዕል (6th order እ, 'of the days'), and the printed glyph at the end of L15 has the 6th-order indentation of እ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 23,
+      "old_text": "ሁሉ የመጡ የኦሪት መምሕ",
+      "corrected_text": "ሁሉ የመጡ የኦሪት መምህ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "መምሕራንና -> መምህራንና",
+      "reason": "The printed glyph at the end of Col 2 L23 is ህ (መምህራንና), not ሕ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 36,
+      "old_text": "⟪ምንት ይቀልል እምብሂለ ተ",
+      "corrected_text": "⟪ምንት ይቀልል እምብሂል ተ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እምብሂለ -> እምብሂል",
+      "reason": "The Ge'ez infinitive after እም- before a direct quote is 6th-order እምብሂል, matching the printed ል on Col 3 L36."
+    },
+    {
+      "column_index": 3,
+      "line_num": 38,
+      "old_text": "ብሂለ ተንሥእ ወፁር ዓራተ",
+      "corrected_text": "ብሂል ተንሥእ ወፁር ዓራተ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ብሂለ -> ብሂል",
+      "reason": "The Ge'ez infinitive ወእምብሂል is printed with 6th-order ል on Col 3 L38."
+    }
+  ]
+}

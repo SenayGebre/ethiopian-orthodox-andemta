@@ -1,0 +1,53 @@
+{
+  "pdf_page": 35,
+  "book_page_ethiopic": "፻፶፬",
+  "elapsed_sec": 20.1,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 4,
+      "old_text": "ዕመንናም ተጠምቀው ገድል",
+      "corrected_text": "ዕመናንም ተጠምቀው ገድል",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ንና -> ናን",
+      "reason": "The printed text reads 'ምዕመናንም' (plural 'believers' with 4th-order ና followed by 6th-order ን), which was transposed as 'ምዕመንናም'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 31,
+      "old_text": "ል ይነሳሉና።",
+      "corrected_text": "ል ይነሣሉና።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሳ -> ሣ",
+      "reason": "The printed glyph is ሣ (ይነሣሉና with ሠ-series ሣ), misread as ሳ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 9,
+      "old_text": "ስትል ቈፅለ ዕፀ ዘይት ይዛ",
+      "corrected_text": "ስትል ቈጽለ ዕፀ ዘይት ይዛ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፅ -> ጽ",
+      "reason": "Both visually in the type and in standard Ge'ez orthography ('ቈጽለ ዕፀ ዘይት'), the character is ጽ rather than ፅ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 33,
+      "old_text": "ል ወርዶ ራሱን ቈንጥጦ አድ↵",
+      "corrected_text": "ል ወርዶ ራሱን ቍንጥጥ አድ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቈንጥጦ -> ቍንጥጥ",
+      "reason": "The printed text has the Amharic ideophonic compound 'ቍንጥጥ አድርጎ ይዞታል' (6th-order ቍ and 6th-order ጥ), misread as 'ቈንጥጦ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 37,
+      "old_text": "ል።መውረዱ ግን የማኅፀኑን",
+      "corrected_text": "ል።መውረዱ ግን የማኅበሩን",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፀኑ -> በሩ",
+      "reason": "The printed text clearly reads 'የማኅበሩን ለመግለጽ ነው' (to reveal the communion/unity of the Trinity), where 'በሩ' was misread as 'ፀኑ'."
+    }
+  ]
+}

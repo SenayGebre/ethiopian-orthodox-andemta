@@ -1,0 +1,71 @@
+{
+  "pdf_page": 71,
+  "book_page_ethiopic": "፸፩",
+  "elapsed_sec": 48.1,
+  "applied_count": 7,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 6,
+      "old_text": "፳፬ ፪ ፲፳ ወፎኖጦስ ፡",
+      "corrected_text": "፳፬ ፪ ፲፰ ወፎኖጦስ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፲፳ -> ፲፰",
+      "reason": "Ethiopic numeral ፰ (8) was misread as ፳ (20); ፲፰ (18) is the valid line number."
+    },
+    {
+      "column_index": 1,
+      "line_num": 7,
+      "old_text": "፳፯ ፩ ፴ ራእየ ፡ ይፈአዩ ፡",
+      "corrected_text": "፳፯ ፩ ፴ ራእየ ፡ ይራእዩ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ይፈአዩ -> ይራእዩ",
+      "reason": "The printed Ge'ez verb is ይራእዩ ('they see visions', matching ራእየ), where ራእ was misread as ፈአ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 9,
+      "old_text": "፶፩ ፩ ፳፳ ይጺሊ ፡ ይሄሊ ፡",
+      "corrected_text": "፶፩ ፩ ፳፰ ይጸሊ ፡ ይሄሊ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፳፳ ይጺሊ -> ፳፰ ይጸሊ",
+      "reason": "The line number is ፳፰ (28, not the invalid numeral ፳፳), and the erratum word is ይጸሊ ('he prays')."
+    },
+    {
+      "column_index": 1,
+      "line_num": 11,
+      "old_text": "፻፹፳ ፪ ፪ አላ ፡ ለሊነ ፡ ርኢነ ፡ ዕበዮ ፡",
+      "corrected_text": "፻፹፰ ፪ ፪ አላ ፡ ለሊነ ፡ ርኢነ ፡ ዕበዮ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፻፹፳ -> ፻፹፰",
+      "reason": "Ethiopic numeral ፰ (8) was misread as ፳ (20); the page number is ፻፹፰ (188)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 12,
+      "old_text": "፫፻፳፱ ፪ ፳፳ ታስተስናሉ ፡ ታስተሰናኡ ፡",
+      "corrected_text": "፫፻፳፱ ፪ ፳፰ ታስተሰናሉ ፡ ታስተሰናኡ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፳፳ ታስተስናሉ -> ፳፰ ታስተሰናሉ",
+      "reason": "The line number is ፳፰ (28, not ፳፳), and the printed word has 1st-order ሰ (ታስተሰናሉ)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 15,
+      "old_text": "፫፻፳፯ ፪ ፯ ወይዘምዉ ፡",
+      "corrected_text": "፫፻፶፯ ፪ ፯ ወይዘምዉ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፫፻፳፯ -> ፫፻፶፯",
+      "reason": "Visually and in ascending page order between ፫፻፵፪ (342) and ፫፻፹፯ (387), the numeral is ፫፻፶፯ (357), where ፶ (50) was misread as ፳ (20)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 18,
+      "old_text": "፬፻፵፳ ፪ ፳፩ ወእምአፉሁ ፡ ለአንበሳ ፡",
+      "corrected_text": "፬፻፵፰ ፪ ፳፩ ወእምአፉሁ ፡ ለአንበሳ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፬፻፵፳ -> ፬፻፵፰",
+      "reason": "Ethiopic numeral ፰ (8) was misread as ፳ (20); the page number is ፬፻፵፰ (448)."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "pdf_page": 65,
+  "book_page_ethiopic": "፬፻፵፮ | ፬፻፵፯",
+  "elapsed_sec": 25.1,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 22,
+      "old_text": "ከብ ፡ ዘርዕ ፡ ምስለ ፡ ማእረር ፡ ወዮኀብር፡",
+      "corrected_text": "ከብ ፡ ዘርዕ ፡ ምስለ ፡ ማእረር ፡ ወየኀብር፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዮ -> የ",
+      "reason": "In the Classical Ge'ez citation (ውእቱ አሚረ ይትራከብ ዘርዕ ምስለ ማእረር ወየኀብር ሠርፅ ምስለ ቀሥም), the imperfect verb is ወየኀብር ('and it joins/unites'), with 1st-order የ rather than 7th-order ዮ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 21,
+      "old_text": "ቄዐ ፡ ጎምዞ ፡ በኢሰሚዕ ፡ ህየ ፡ ቃል ፡",
+      "corrected_text": "ቄዐ ፡ ኀምዞ ፡ በኢሰሚዕ ፡ ህየ ፡ ቃል ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጎ -> ኀ",
+      "reason": "In the patristic Ge'ez quote (ወኀበ አርዌ ምድር ቄዐ ኀምዞ በኢሰሚዕ), the noun is ኀምዞ ('its venom/poison', from ኀምዝ with pronominal suffix -ኦ), where ኀ was misread as ጎ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 36,
+      "old_text": "ነው ፡ ምፅ ፡ የሚጸናባት ፡ የፍ ፡ አለች ፡",
+      "corrected_text": "ነው ፡ ምፅ ፡ የሚጸናባት ፡ ወፍ ፡ አለች ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "የፍ -> ወፍ",
+      "reason": "The Amharic word is ወፍ ('bird': ምፅ የሚጸናባት ወፍ አለች 'there is a bird whose labor pains are severe'). Slight ink wear on the left curve of ወ caused it to be misread as የ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 24,
+      "old_text": "ጃል፡ እሱም፡ ጉሕቍትን፡ ቅብውን፡ እንተ",
+      "corrected_text": "ጃል፡ እሱም፡ ጉሕቍትን፡ ቅብውን፡ እንተ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እንተ -> እንተ፡",
+      "reason": "A visible word-separator colon (፡) is printed at the end of line 24 after እንተ."
+    }
+  ]
+}

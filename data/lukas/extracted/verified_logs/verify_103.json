@@ -1,0 +1,26 @@
+{
+  "pdf_page": 103,
+  "book_page_ethiopic": "፬፻፹፭",
+  "elapsed_sec": 13.7,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 6,
+      "old_text": "⟪ወእለሰ ይደልዎሙ ይረከብዎ",
+      "corrected_text": "⟪ወእለሰ ይደልዎሙ ይርከብዎ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ረ -> ር",
+      "reason": "Classical Ge'ez subjunctive of ረከበ is ይርከብ (ይርከብዎ with object suffix), and the glyph in the image shows 6th-order ር rather than 1st-order ረ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 37,
+      "old_text": "ቅዱ የንሶسዉ ተላቢሶሙ ።⟫",
+      "corrected_text": "ቅዱ የንሶስዉ ተላቢሶሙ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "س -> ስ",
+      "reason": "Stage-1 OCR erroneously output an Arabic letter (س) instead of the Ethiopic 6th-order Fidel ስ in the Ge'ez verb የንሶስዉ."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "pdf_page": 42,
+  "book_page_ethiopic": "፶፭ | ፶፮",
+  "elapsed_sec": 67.4,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 24,
+      "old_text": "ስቶስም ፡ ሕልው ፡ ሆኖ ፡ ሕዝብና ፡ አሕ↵",
+      "corrected_text": "ስቶስም ፡ ሕልው ፡ ሁኖ ፡ ሕዝብና ፡ አሕ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሆኖ -> ሁኖ",
+      "reason": "The printed glyph clearly has the 2nd-order (ካዕብ) right-side stroke of 'ሁ' ('ሁኖ', matching line 28 below), not 'ሆ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 31,
+      "old_text": "⟪በይሁዳ ፡ እኒዘ ፡ እምገሊላ ።⟫",
+      "corrected_text": "⟪በይሁዳ ፡ አንዘ ፡ እምገሊላ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እኒዘ -> አንዘ",
+      "reason": "In Ge'ez Acts 10:37 ('beginning from Galilee', glossed as 'ከገሊላ ፡ ጀምሮ' in line 32), the printed text reads 'አንዘ' (variant of አኀዘ/አንዘ), with 1st-order 'አ' and 6th-order 'ን', not 'እኒዘ'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 24,
+      "old_text": "ሆነ ፡ ለሕዝቡ ፡ እናስተምር ፡ ዘንድ ፡",
+      "corrected_text": "ሁነ ፡ ለሕዝቡ ፡ እናስተምር ፡ ዘንድ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሆነ -> ሁነ",
+      "reason": "The printed text preserves the archaic Andemta form 'ሁነ' (with 2nd-order 'ሁ'), not 'ሆነ'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 32,
+      "old_text": "ሆነ፡ ለሚያምኑበት፡ ሁሉ፡ ኃጢአታቸው፡",
+      "corrected_text": "ሁነ፡ ለሚያምኑበት፡ ሁሉ፡ ኃጢአታቸው፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሆነ -> ሁነ",
+      "reason": "The printed text preserves the archaic Andemta form 'ሁነ' (with 2nd-order 'ሁ'), not 'ሆነ'."
+    }
+  ]
+}

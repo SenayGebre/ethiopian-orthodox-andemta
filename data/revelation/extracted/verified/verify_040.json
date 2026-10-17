@@ -1,0 +1,17 @@
+{
+  "pdf_page": 40,
+  "book_page_ethiopic": "፬፻፳፮ | ፬፻፳፯",
+  "elapsed_sec": 13.5,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 34,
+      "old_text": "ዐቢይ ፡ ጎምዙ ፡⟫",
+      "corrected_text": "ዐቢይ ፡ ኀምዙ ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጎ -> ኀ",
+      "reason": "In Classical Ge'ez (Rev 12:12), the word is 'ኀምዙ' (from ኀምዝ, meaning venom/fierce wrath, glossed below as 'ከጽኑ ፡ ማሳቱ ፡ ጋራ'). The printed Fidel is clearly 'ኀ', which was visually misread as 'ጎ'."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "pdf_page": 108,
+  "book_page_ethiopic": "፮፻፲፰",
+  "elapsed_sec": 24.5,
+  "applied_count": 7,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 2,
+      "old_text": "ሄዱ ። እንደ ማርቆስ በንድ ወ",
+      "corrected_text": "ሄዱ ። እንደ ማርቆስ ባንድ ወ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በንድ -> ባንድ",
+      "reason": "The first character has a shortened right leg (4th-order ባ), forming the standard Amharic elided preposition ባንድ (በአንድ)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 6,
+      "old_text": "አይልም በንድ ወገን የመጡ",
+      "corrected_text": "አይልም ባንድ ወገን የመጡ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በንድ -> ባንድ",
+      "reason": "Visually printed with 4th-order ባ (short right leg) for ባንድ ወገን."
+    },
+    {
+      "column_index": 1,
+      "line_num": 15,
+      "old_text": "እግዚእየ ብላ ተናግራች ፡ እንደ",
+      "corrected_text": "እግዚእየ ብላ ተናገረች ፡ እንደ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ተናግራች -> ተናገረች",
+      "reason": "Both the image and Amharic finite verb grammar confirm 1st-order ገ and ረ in ተናገረች ('she spoke'), whereas ተናግራች is a misread of the 1st-order glyphs."
+    },
+    {
+      "column_index": 1,
+      "line_num": 16,
+      "old_text": "ማቴዎስ በንድ ወገን የመጡ",
+      "corrected_text": "ማቴዎስ ባንድ ወገን የመጡ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በንድ -> ባንድ",
+      "reason": "Visually printed with 4th-order ባ (short right leg) in ባንድ ወገን."
+    },
+    {
+      "column_index": 1,
+      "line_num": 26,
+      "old_text": "ስሏቸው ። እንደ ማርቆስ በንድ",
+      "corrected_text": "ስሏቸው ። እንደ ማርቆስ ባንድ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በንድ -> ባንድ",
+      "reason": "Visually printed with 4th-order ባ (short right leg) in ባንድ ወገን."
+    },
+    {
+      "column_index": 2,
+      "line_num": 15,
+      "old_text": "ር ፲፮ ፩ ሉቃ ፳፬ ፩ ።",
+      "corrected_text": "ር ፲፮ ፱ ሉቃ ፳፬ ፩ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፩ -> ፱",
+      "reason": "The verse numeral following ማር ፲፮ (Mark 16) is clearly printed as ፱ (9, citing Mark 16:9), which was misread as ፩."
+    },
+    {
+      "column_index": 2,
+      "line_num": 28,
+      "old_text": "⟪ወዘንተ ብሂሎ አርአዮሙ አ",
+      "corrected_text": "⟪ወዘንተ ብሂሎ አርአዮሙ እ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አ -> እ",
+      "reason": "The split word across lines 28–29 is the canonical Ge'ez plural noun እደዊሁ ('his hands', John 20:20), and the glyph at the end of line 28 is 6th-order እ."
+    }
+  ]
+}

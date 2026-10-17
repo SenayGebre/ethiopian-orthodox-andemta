@@ -1,0 +1,35 @@
+{
+  "pdf_page": 113,
+  "book_page_ethiopic": "፬፻፺፭",
+  "elapsed_sec": 10.1,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 24,
+      "old_text": "በቀቲለ ነፍስ ወበገቢረ ሁከክ",
+      "corrected_text": "በቀቲለ ነፍስ ወበገቢረ ሁከት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሁከክ -> ሁከት",
+      "reason": "The printed glyph at the end of line 24 is clearly ት (ሁከት, 'sedition/tumult', matching Luke 23:25 and line 26 ሁከት), which was misread as ክ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 31,
+      "old_text": "ዶሙ በከመ ኀሠሠ ።⟫",
+      "corrected_text": "ዶሙ በከመ ኀሠሡ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኀሠሠ -> ኀሠሡ",
+      "reason": "Plural verb ending ሡ ('as they desired/sought', matching ፈቃዶሙ) has the 2nd-order stroke on the right leg of the final ሠ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 36,
+      "old_text": "ዝዎ ለስምዖን እንውቶ እም",
+      "corrected_text": "ዝዎ ለስምዖን አትውቶ እም",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እንውቶ -> አትውቶ",
+      "reason": "Classical Ge'ez verbal noun/infinitive አትውቶ ('his coming in' from ሐቅል 'the country', Luke 23:26); the printed characters are clearly አ-ት-ው-ቶ, not እ-ን-ው-ቶ, and እምሐቅል wraps across L36-L37."
+    }
+  ]
+}

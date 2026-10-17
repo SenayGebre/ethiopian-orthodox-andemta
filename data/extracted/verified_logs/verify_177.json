@@ -1,0 +1,107 @@
+{
+  "pdf_page": 177,
+  "book_page_ethiopic": "፪፻፺፮",
+  "elapsed_sec": 25.5,
+  "applied_count": 11,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 24,
+      "old_text": "[፳፱] ⟪ወናሁ እብለክሙ ኢይሰቲ እን↵",
+      "corrected_text": "[፳፱] ⟪ወናሁ እብለክሙ ኢይሰቲ አ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እን -> አ",
+      "reason": "Line 24 ends with the single character 'አ' (followed by 'ንከ' at the start of Line 25, forming 'አንከ' / 'እንከ')."
+    },
+    {
+      "column_index": 1,
+      "line_num": 25,
+      "old_text": "ከ እምይእዜ እምዝንቱ አ↵",
+      "corrected_text": "ንከ እምይእዜ እምዝንቱ አ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከ -> ንከ",
+      "reason": "Preserving exact line break: 'ንከ' is printed at the beginning of Line 25."
+    },
+    {
+      "column_index": 1,
+      "line_num": 30,
+      "old_text": "[፳፱] በባቲ መንግሥት ማለት በባ↵",
+      "corrected_text": "[፳፱] በባቴ መንግሥት ማለት በባ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቲ -> ቴ",
+      "reason": "Amharic gloss of 'በመንግሥተ አቡየ' is 'በባቴ መንግሥት' (in my Father's kingdom, contracted from በአባቴ); the printed glyph has the 5th-order loop 'ቴ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 31,
+      "old_text": "ቲ ሥልጣን ታድሼ ተነስቼ",
+      "corrected_text": "ቴ ሥልጣን ታድሼ ተነስቼ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቲ -> ቴ",
+      "reason": "Continuation of 'በባ↵ቴ ሥልጣን' (in my Father's authority) with 5th-order 'ቴ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 40,
+      "old_text": "⟪ሰቢሆሙ።⟫ ሥጋውን ደሙ↵",
+      "corrected_text": "⟪ሰቢሖሙ።⟫ ሥጋውን ደሙ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሆ -> ሖ",
+      "reason": "Classical Ge'ez gerundive 'ሰቢሖሙ' (from ሰብሐ, to praise/hymn) is printed with 'ሖ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 3,
+      "old_text": "መው ወሰቢሆሙ ነገረ ጲላቅ↵",
+      "corrected_text": "መው ወሰቢሖሙ ነገረ ጲላቅ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሆ -> ሖ",
+      "reason": "Classical Ge'ez 'ወሰቢሖሙ' is printed with 'ሖ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 10,
+      "old_text": "ው ክብት በአፍአ ይቀራል መ↵",
+      "corrected_text": "ው ሀብት በአፍአ ይቀራል መ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ክብት -> ሀብት",
+      "reason": "Andemta contrast between external gifts/wealth ('የቀረው ሀብት በአፍአ ይቀራል') and food/drink that unites with the body; the printed glyph is 'ሀብት'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 27,
+      "old_text": "ቆ እናግሯል ምሳሌውንም እን↵",
+      "corrected_text": "ቆ አናግሯል ምሳሌውንም አ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እናግሯል -> አናግሯል",
+      "reason": "3rd person singular causative 'አናግሯል' (he caused it to be spoken/prophesied) with 1st-order 'አ', and exact line break ends with 'አ↵' before 'ንጂ' on Line 28."
+    },
+    {
+      "column_index": 2,
+      "line_num": 28,
+      "old_text": "ጂ ባወቀ አስመስሏል።ምሥ↵",
+      "corrected_text": "ንጂ ባወቀ አስመስሏል።ምሥ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጂ -> ንጂ",
+      "reason": "Preserving exact line break: 'ንጂ' is printed at the start of Line 28."
+    },
+    {
+      "column_index": 3,
+      "line_num": 31,
+      "old_text": "ይንቁ ዶርሆ⟫ ፥ ማር ፲፬ ፳፥",
+      "corrected_text": "ይንቁ ዶርሆ⟫ ፥ ማር ፲፬ ፴፥",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፳ -> ፴",
+      "reason": "Canonical cross-reference for Peter's denial before the cock crows is Mark 14:30 ('ማር ፲፬ ፴'); the printed numeral is '፴'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 35,
+      "old_text": "እነግርሀለሁ አለው።",
+      "corrected_text": "እነግርሃለሁ አለው።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሀ -> ሃ",
+      "reason": "Standard Amharic verb form 'እነግርሃለሁ' is printed with 4th-order 'ሃ' (shorter right leg)."
+    }
+  ]
+}

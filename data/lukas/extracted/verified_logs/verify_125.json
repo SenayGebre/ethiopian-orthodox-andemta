@@ -1,0 +1,44 @@
+{
+  "pdf_page": 125,
+  "book_page_ethiopic": "፭፻፯",
+  "elapsed_sec": 16.0,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 28,
+      "old_text": "ኩሱ ቤተ መቅደስ፤ ቍ ፵፭",
+      "corrected_text": "ክሱ ቤተ መቅደስ፤ ቍ ፵፭",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኩ -> ክ",
+      "reason": "The verb split across L27-L28 is 'ያረክሱ' (3rd person masculine plural imperfective of አርኰሰ/አርከሰ). Visually on L28 the first glyph is 6th-order 'ክ' (ክሱ), not 2nd-order 'ኩ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 32,
+      "old_text": "በእንተ ፀባሕት ዘቄሣር፡ ቍ ፲፱",
+      "corrected_text": "በእንተ ጸባሕት ዘቄሣር፡ ቍ ፲፱",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፀ -> ጸ",
+      "reason": "The printed glyph at the start of 'ጸባሕት' (tribute/tax) is the three-legged 'ጸ', not 'ፀ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 24,
+      "old_text": "ስለ ሰዱቃውያንና ስለሙታን መነሳት።",
+      "corrected_text": "ስለ ሰዱቃውያንና ስለሙታን መነሣት።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሳ -> ሣ",
+      "reason": "The printed text uses 'ሣ' (ንጉሥ ሣ) in 'መነሣት', matching the Ge'ez root ተንሥአ / ትንሣኤ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 26,
+      "old_text": "ስለ ጻፈዎች ግብዝነት።",
+      "corrected_text": "ስለ ጻፎች ግብዝነት።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፈዎ -> ፎ",
+      "reason": "The printed word is the standard 3-character Amharic plural 'ጻፎች' (scribes, translating ጸሐፍት), not 'ጻፈዎች'."
+    }
+  ]
+}

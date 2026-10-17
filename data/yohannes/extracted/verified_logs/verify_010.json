@@ -1,0 +1,26 @@
+{
+  "pdf_page": 10,
+  "book_page_ethiopic": "፭፻፳",
+  "elapsed_sec": 14.7,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 7,
+      "old_text": "ሉቃስ ፫ ፲፮ ግብ ፲፫ ፲ፅ ፲፯",
+      "corrected_text": "ሉቃስ ፫ ፲፮ ግብ ፲፫ ፳፬ ፳፭",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፲ፅ ፲፯ -> ፳፬ ፳፭",
+      "reason": "The Ethiopic numerals ፳፬ (24) and ፳፭ (25) were misread as ፲ፅ and ፲፯ due to faded crossbars; this is the canonical cross-reference to Acts (ግብረ ሐዋርያት) 13:24-25."
+    },
+    {
+      "column_index": 3,
+      "line_num": 12,
+      "old_text": "ስ ጌታ ወደርሱ ሲመጣ በየ",
+      "corrected_text": "ስ ጌታ ወደርሱ ሲመጣ ባየ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በየ -> ባየ",
+      "reason": "The 4th-order ባ in ባየ ('when he saw', translating Ge'ez ርእዮ in 'ባየ ጊዜ') was misread as 1st-order በ."
+    }
+  ]
+}

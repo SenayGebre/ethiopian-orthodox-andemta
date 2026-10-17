@@ -1,0 +1,26 @@
+{
+  "pdf_page": 5,
+  "book_page_ethiopic": "፳፪ | ፳፫",
+  "elapsed_sec": 20.8,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 15,
+      "old_text": "ያሉበቱን ፡ ቤት ፡ መላው ።",
+      "corrected_text": "ያሉበትን ፡ ቤት ፡ መላው ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቱ -> ት",
+      "reason": "The printed glyph is 6th-order ት (ያሉበትን), where slight ink bleed on the right stem was misread as ቱ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 5,
+      "old_text": "⟪ብከመ ፡ ወሀቦሙ ፡ መንፈስ ፡ ቅዱስ ፡ ይንብቡ ።⟫",
+      "corrected_text": "⟪በከመ ፡ ወሀቦሙ ፡ መንፈስ ፡ ቅዱስ ፡ ይንብቡ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ብከመ -> በከመ",
+      "reason": "Canonical Ge'ez preposition በከመ ('according as'); slight ink smudge on the left leg of በ was misread as ብ."
+    }
+  ]
+}

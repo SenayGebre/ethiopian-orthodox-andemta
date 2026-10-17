@@ -1,0 +1,35 @@
+{
+  "pdf_page": 126,
+  "book_page_ethiopic": "፮፻፴፭",
+  "elapsed_sec": 15.8,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "ሶስተኛ ሰንጠረዠ ሶስቱ ወንጌላውያን ማቴዎስና ሉቃስ ዮሐንስ የሚተባበሩበት።",
+      "corrected_text": "ሶስተኛ ሰንጠረዥ ሶስቱ ወንጌላውያን ማቴዎስና ሉቃስ ዮሐንስ የሚተባበሩበት።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዠ -> ዥ",
+      "reason": "The final character of ሰንጠረዥ is in the 6th order (ሳድስ ዥ), misread as 1st order ዠ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 20,
+      "old_text": "፲፩ ፳፭ ፲ ፳፩ ፲፭ ፸፩",
+      "corrected_text": "፲፩ ፳፭ ፲ ፳፩ ፲፭ ፳፩",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፸፩ -> ፳፩",
+      "reason": "Faded bottom stroke on the numeral ፳ (20) caused it to be misread as ፸ (70); the reference for 'እስመ ኢየአምርዎ ለዘፈነወኒ' is John 15:21 (፲፭ ፳፩)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 24,
+      "old_text": "አራተኛ ሰንጠረዠ ሶስቱ ወንጌላውያን ማቴዎስና ማርቆስ ዮሐንስ የሚተባበሩበት።",
+      "corrected_text": "አራተኛ ሰንጠረዥ ሶስቱ ወንጌላውያን ማቴዎስና ማርቆስ ዮሐንስ የሚተባበሩበት።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዠ -> ዥ",
+      "reason": "The final character of ሰንጠረዥ is 6th order ዥ, misread as 1st order ዠ."
+    }
+  ]
+}

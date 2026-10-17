@@ -1,0 +1,35 @@
+{
+  "pdf_page": 31,
+  "book_page_ethiopic": "፶፰ | ፶፱",
+  "elapsed_sec": 25.8,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "ኝም፡(ወይትጎጣእ)፡ሞት፡ይታጣል፡(ወከ",
+      "corrected_text": "ኝም፡(ወይትኀጣእ)፡ሞት፡ይታጣል፡(ወከ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጎ -> ኀ",
+      "reason": "The canonical Ge'ez verb in Revelation 9:6 is 'ወይትኀጣእ' (from ኀጥአ, translated immediately as 'ይታጣል'). The Fidel 'ኀ' was misread as 'ጎ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 12,
+      "old_text": "ግራቸው ፡ ኮቲ ፡ ወደ ፡ ሰልፍ ፡ የሚገቡ ፡",
+      "corrected_text": "ግራቸው ፡ ኮቴ ፡ ወደ ፡ ሰልፍ ፡ የሚገቡ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኮቲ -> ኮቴ",
+      "reason": "The printed word is 'ኮቴ' (5th order 'ቴ', meaning 'hoof' in 'የእግራቸው ኮቴ'), where the bottom vowel loop on the right leg was misread as the 3rd order 'ቲ'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 23,
+      "old_text": "ርጥበት ፡ ልምላሜ ፡ ከሌላው ፡ ቃል ፡",
+      "corrected_text": "ርጥበት ፡ ልምላሜ ፡ ከሌለው ፡ ቃል ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ከሌላው -> ከሌለው",
+      "reason": "Both visually on the page (equal-length legs on the second 'ለ') and philologically in the Andemta contrast ('ርጥበት ልምላሜ ያለው ሥጋ ... ርጥበት ልምላሜ ከሌለው ቃል ጋራ'), the word is 'ከሌለው' ('which lacks'), not 'ከሌላው'."
+    }
+  ]
+}

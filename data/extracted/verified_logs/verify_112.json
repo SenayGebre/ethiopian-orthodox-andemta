@@ -1,0 +1,35 @@
+{
+  "pdf_page": 112,
+  "book_page_ethiopic": "፪፻፴፩",
+  "elapsed_sec": 17.3,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 39,
+      "old_text": "⟪እስመ ከመ ነبيይ ይሬእይዎ",
+      "corrected_text": "⟪እስመ ከመ ነቢይ ይሬእይዎ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "بي -> ቢ",
+      "reason": "Typographical/OCR script-mixing artifact replaced the Ethiopic Fidel ቢ in ነቢይ with Arabic characters."
+    },
+    {
+      "column_index": 2,
+      "line_num": 36,
+      "old_text": "ው ከዚህ በኋላ ስትሄድ ምን",
+      "corrected_text": "ው ከዚህ በኋላ ስትሂድ ምን",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሄ -> ሂ",
+      "reason": "The printed glyph in the image is 3rd-order ሂ (ስትሂድ), matching the orthographic convention of ሂዳ on lines 40 and Col 3 lines 4, 7."
+    },
+    {
+      "column_index": 3,
+      "line_num": 26,
+      "old_text": "በለወጎችን ላከ ቤተ እንግ ቤ↵",
+      "corrected_text": "ባለወጎችን ላከ ቤተ እንግ ቤ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በ -> ባ",
+      "reason": "The first character is 4th-order ባ (ባለወጎችን, 'officials/titled ones'), misread as 1st-order በ."
+    }
+  ]
+}

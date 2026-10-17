@@ -1,0 +1,44 @@
+{
+  "pdf_page": 74,
+  "book_page_ethiopic": "፻፳ | ፻፳፩",
+  "elapsed_sec": 17.3,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 10,
+      "old_text": "ወለአንስትያሆሙ ፡⟫",
+      "corrected_text": "ወለአንስትዮሙ ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ያሆ -> ዮ",
+      "reason": "The printed Ge'ez text clearly shows the contracted suffix form ወለአንስትዮሙ (with ዮ), not ወለአንስትያሆሙ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 11,
+      "old_text": "ሴቶችንም ፡ ወንዶቹንም ፡ እያሠርሁ ፡",
+      "corrected_text": "ሴቶቹንም ፡ ወንዶቹንም ፡ እያሠርሁ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ች -> ቹ",
+      "reason": "The 2nd-order vowel mark on ቹ is clearly visible in ሴቶቹንም, matching the parallel ወንዶቹንም."
+    },
+    {
+      "column_index": 2,
+      "line_num": 22,
+      "old_text": "ዎሙ ፡ ሙቁሕኒሆሙ ፡ ኢየሩሳሌም ፡ ይትኰነኑ ።⟫",
+      "corrected_text": "ዎሙ ፡ ሙቁሐኒሆሙ ፡ ኢየሩሳሌም ፡ ይትኰነኑ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሕ -> ሐ",
+      "reason": "Classical Ge'ez plural passive participle with pronominal suffix requires the 4th-order ሐ (ሙቁሐኒሆሙ), which is what is printed on the page."
+    },
+    {
+      "column_index": 4,
+      "line_num": 6,
+      "old_text": "፲፩ ፤ ⟪ወእምዝ ፡ ተጸለልኩ ፡ አዕይንትየ ፡ እምግ↵",
+      "corrected_text": "፲፩ ፤ ⟪ወእምዝ ፡ ተጸለላ ፡ አዕይንትየ ፡ እምግ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ልኩ -> ላ",
+      "reason": "The printed Ge'ez verb is ተጸለላ (3rd person feminine plural agreeing with አዕይንትየ), followed by a word-space colon that was misread with the preceding ላ as ልኩ."
+    }
+  ]
+}

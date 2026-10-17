@@ -1,0 +1,26 @@
+{
+  "pdf_page": 30,
+  "book_page_ethiopic": "፫፻፵፱",
+  "elapsed_sec": 18.9,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 3,
+      "old_text": "⟪ወየሐቅዮ ስኒኒሁ ።⟫",
+      "corrected_text": "⟪ወየሐቅይ ስነኒሁ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዮ -> ይ, ኒ -> ነ",
+      "reason": "In Classical Ge'ez (Mark 9:18), the verb is የሐቅይ ('he gnashes', from ሐቀየ) and the noun is ስነኒሁ ('his teeth', plural construct ስነኒ- from ስን, translated by ጥርሱንም ያፋጫል on L04). Visually on the page, the final glyph of the first word is 6th-order ይ (with its right-side hook, not a top loop ዮ) and the second letter of ስነኒሁ is 1st-order ነ (two equal legs, whereas the third letter ኒ has the 3rd-order foot)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 22,
+      "old_text": "ይክል አውፅኦቶ ዘእንበለ በፆ",
+      "corrected_text": "ይክል አውፅኦቶ ዘእንበለ በጾ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በፆ -> በጾ",
+      "reason": "The word split across L22-L23 is በጾም ('by fasting'), matching ጾም on L24 and printed with ጸ (7th order ጾ), not ፀ (ፆ)."
+    }
+  ]
+}

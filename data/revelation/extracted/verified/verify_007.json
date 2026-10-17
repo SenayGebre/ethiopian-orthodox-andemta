@@ -1,0 +1,35 @@
+{
+  "pdf_page": 7,
+  "book_page_ethiopic": "፫፻፳ | ፫፻፳፩",
+  "elapsed_sec": 54.3,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 17,
+      "old_text": "መኑ ፡ ፊልድልፍልያ ፡ ማለት ፡ መፍቀሪ፡",
+      "corrected_text": "መኑ ፡ ፊልድልፍልያ ፡ ማለት ፡ መፍቀሬ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሪ -> ሬ",
+      "reason": "The printed glyph has the 5th-order loop (ሬ), forming the standard Ge'ez construct state መፍቀሬ ('lover of', explaining the etymology of Philadelphia)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 24,
+      "old_text": "ነው ፡ በሱ ፡ አምነው ፡ ላሉ ፡ ጽፈሕ ፡ ስ",
+      "corrected_text": "ነው ፡ በሱ ፡ አምነው ፡ ላሉ ፡ ጽፈህ ፡ ስ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሕ -> ህ",
+      "reason": "The printed glyph in ጽፈህ is clearly ህ (U-shaped), not ሕ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 25,
+      "old_text": "የወርቅ ፡ አፉ ፡ ታጥቋል ፡ ትእምርተ ፡",
+      "corrected_text": "የወርቅ ፡ አፋ ፡ ታጥቋል ፡ ትእምርተ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፉ -> ፋ",
+      "reason": "The printed glyph is 4th-order ፋ (አፋ, an Amharic term for a royal sash/girdle translating ቅናት), without a 2nd-order side stroke."
+    }
+  ]
+}

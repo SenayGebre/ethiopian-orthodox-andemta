@@ -1,0 +1,44 @@
+{
+  "pdf_page": 43,
+  "book_page_ethiopic": "፷፰ | ፷፱",
+  "elapsed_sec": 22.0,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 30,
+      "old_text": "ሩሳሌም ፡ ተዋቀሥዎ ፡ በጺ ፡ እለ ፡ እምአይሁድ ።⟫",
+      "corrected_text": "ሩሳሌም ፡ ተዋቀሥዎ ፡ ቢጹ ፡ እለ ፡ እምአይሁድ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በጺ -> ቢጹ",
+      "reason": "In Acts 11:2, the Ge'ez word is 'ቢጹ' (his brethren/companions). Visually on the page, the vowel strokes on the right legs of 'ቢ' and 'ጹ' were misread as 'በጺ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 29,
+      "old_text": "⟪፭ ፤ ወይቤሎሙ ፡ አንዘ ፡ ሀለውኩ ፡ ሀገረ ፡ ኢዮጴ ፡",
+      "corrected_text": "⟪፭ ፤ ወይቤሎሙ ፡ እንዘ ፡ ሀለውኩ ፡ ሀገረ ፡ ኢዮጴ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አንዘ -> እንዘ",
+      "reason": "The Ge'ez conjunction 'እንዘ' (while, translated 'ሳለሁ' in L31) is printed with the 6th-order 'እ', which was misread as 1st-order 'አ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 2,
+      "old_text": "እምሰማይ ፡ ወእትዝ ፡ በአርባዕቱ ፡ ጽነፊሁ ፡ ወመ↵",
+      "corrected_text": "እምሰማይ ፡ ወእኅዝ ፡ በአርባዕቱ ፡ ጽነፊሁ ፡ ወመ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወእትዝ -> ወእኅዝ",
+      "reason": "In Acts 11:5, the Ge'ez participle is 'ወእኅዝ' (and held/bound by its four corners, rendered 'የተያዘ' in L04). The middle glyph 'ኅ' was visually confused with 'ት'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 8,
+      "old_text": "⟪ወቦአነ ፡ ቤቶ ፡ ለውእቱ ፡ ብእሲ ።⟫",
+      "corrected_text": "⟪ወቦእነ ፡ ቤቶ ፡ ለውእቱ ፡ ብእሲ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወቦአነ -> ወቦእነ",
+      "reason": "The 1st-person plural perfective in Classical Ge'ez is 'ወቦእነ' (and we entered, rendered 'በገባነ ጊዜ' in L09) with 6th-order 'እ', which is clearly visible in the print."
+    }
+  ]
+}

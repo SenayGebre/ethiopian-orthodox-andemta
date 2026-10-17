@@ -1,0 +1,62 @@
+{
+  "pdf_page": 124,
+  "book_page_ethiopic": "፮፻፴፫",
+  "elapsed_sec": 30.6,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 3,
+      "old_text": "፲፯ ፳፩ ፱ ፴ ፱ ፵፬",
+      "corrected_text": "፲፯ ፳፪ ፱ ፴ ፱ ፵፬",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፳፩ -> ፳፪",
+      "reason": "The verse numeral under Matthew chapter 17 is clearly printed as ፳፪ (22), corresponding to Matthew 17:22 (ሀለዎ ለወልደ እጓለ እመሕያው)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 9,
+      "old_text": "ወእመሰ ፍጹመ ትኰን ።",
+      "corrected_text": "ወእመሰ ፍጹመ ትኩን ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ትኰን -> ትኩን",
+      "reason": "The printed glyph has the 2nd-order (ካዕብ) side stroke on the right leg (ትኩን, Ge'ez subjunctive of ከዊን), not the 7th-order ring."
+    },
+    {
+      "column_index": 2,
+      "line_num": 17,
+      "old_text": "ወረከቡ ዕዋለ አውራ ።",
+      "corrected_text": "ወረከቡ ዕዋለ እሱረ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አውራ -> እሱረ",
+      "reason": "Canonical Ge'ez Gospel phrasing (Mark 11:4) and the printed glyphs clearly show እሱረ ('a tied colt', ዕዋለ እሱረ), which Stage 1 misread as አውራ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 19,
+      "old_text": "ብእሲአ ተከለ ወይነ ።",
+      "corrected_text": "ብእሲ ተከለ ወይነ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ብእሲአ -> ብእሲ",
+      "reason": "Faint verso show-through in the space after ብእሲ was misread as አ; the printed Ge'ez text (Matthew 21:33 / Mark 12:1 / Luke 20:9) is ብእሲ ተከለ ወይነ ።"
+    },
+    {
+      "column_index": 2,
+      "line_num": 24,
+      "old_text": "ወነቢረ ፍጽም ።",
+      "corrected_text": "ወነቢሮ ፍጽሞ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወነቢረ ፍጽም -> ወነቢሮ ፍጽሞ",
+      "reason": "Both words carry the 7th-order (ሳብዕ) vowel ring in the image: ወነቢሮ ፍጽሞ ('And sitting opposite [the treasury]', Mark 12:41)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 34,
+      "old_text": "እሚሃ ይሬእይዎ።",
+      "corrected_text": "አሚሃ ይሬእይዎ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እሚሃ -> አሚሃ",
+      "reason": "The initial character is 1st-order አ (አሚሃ, 'then / at that time', Matthew 24:30), not 6th-order እ."
+    }
+  ]
+}

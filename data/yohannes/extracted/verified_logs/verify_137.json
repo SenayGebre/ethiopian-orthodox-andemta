@@ -1,0 +1,44 @@
+{
+  "pdf_page": 137,
+  "book_page_ethiopic": "፮፻፵፮",
+  "elapsed_sec": 12.8,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 6,
+      "old_text": "ሰባሕኩክሂ።",
+      "corrected_text": "ሰባሕኩከሂ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ክ -> ከ",
+      "reason": "The 2nd person masculine singular object suffix on ሰባሕኩ- (John 12:28) is -ከሂ (ሰባሕኩከሂ), clearly printed with the 1st-order ከ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 9,
+      "old_text": "ምኑ በቱ።",
+      "corrected_text": "ምኑ ቦቱ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በ -> ቦ",
+      "reason": "The Ge'ez preposition + suffix 'in him' (John 12:42) is printed ቦቱ (7th order ቦ with shortened right leg), not በቱ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 12,
+      "old_text": "ነሥአ መክፈ ዘለንጽ።",
+      "corrected_text": "ነሥአ መካፈ ዘለንጽ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "መክፈ -> መካፈ",
+      "reason": "In John 13:5 ('he took a towel'), the printed glyph has the shortened right leg of 4th-order ካ (መካፈ ዘለንጽ)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 7,
+      "old_text": "አንሰ ክሠተ ተናገርኩ፤",
+      "corrected_text": "አንሰ ክሡተ ተናገርኩ፤",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሠ -> ሡ",
+      "reason": "In John 18:20 ('I spoke openly'), the adverbial accusative passive participle is ክሡተ (2nd-order ሡ with the right-side hook clearly visible on the image)."
+    }
+  ]
+}

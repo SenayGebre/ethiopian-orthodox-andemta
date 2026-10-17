@@ -1,0 +1,80 @@
+{
+  "pdf_page": 98,
+  "book_page_ethiopic": "፪፻፲፯",
+  "elapsed_sec": 22.8,
+  "applied_count": 8,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 3,
+      "old_text": "ቢነቃ ደርቃ አገኛት ኦዘነ ጥቀ",
+      "corrected_text": "ቢነቃ ደርቃ አገኛት ኀዘነ ጥቀ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኦ -> ኀ",
+      "reason": "Classical Ge'ez verb 'ኀዘነ ጥቀ' (Jonah 4:9, 'he grieved exceedingly'); the printed glyph is 1st-order 'ኀ', misread as 'ኦ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 25,
+      "old_text": "ሐደ ኀብረ ይላል ንስሐ ያል↵",
+      "corrected_text": "ሐደ ሀገረ ይላል ንስሐ ያል↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኀብረ -> ሀገረ",
+      "reason": "Ge'ez citation 'ወበልዓ አሐደ ሀገረ' ('and it consumed one city', immediately glossed in Amharic as 'አንድ አገር አጥፍቷል'); 'ሀገረ' was misread as 'ኀብረ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 5,
+      "old_text": "ያስተምሩ በሄዱ ጊዜ አኒህ",
+      "corrected_text": "ያስተምሩ በሄዱ ጊዜ እኒህ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አ -> እ",
+      "reason": "The printed demonstrative pronoun is 6th-order 'እኒህ' ('these'), misread as 'አኒህ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 11,
+      "old_text": "ር ብለው እንዲቀለሏቸው ።",
+      "corrected_text": "ር ብለው እንዲቀበሏቸው ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ለ -> በ",
+      "reason": "The printed verb is 'እንዲቀበሏቸው' ('so that they would accept/receive them'); 'በ' was misread as 'ለ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 35,
+      "old_text": "ብሎ እስከንገታቸው የሚያጠ↵",
+      "corrected_text": "ብሎ እስካንገታቸው የሚያጠ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከ -> ካ",
+      "reason": "The printed form is 4th-order 'እስካንገታቸው' ('up to their necks', elided from እስከ + አንገታቸው)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 8,
+      "old_text": "ብልህ አልወጣም አልከ ላዘ↵",
+      "corrected_text": "ብልህ አልወጣም አልክ ላዘ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከ -> ክ",
+      "reason": "The printed Amharic verb is 6th-order 'አልክ' ('you said'), misread as 1st-order 'አልከ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 29,
+      "old_text": "ቸው።ያን አይቶ እንዳይዝኑ",
+      "corrected_text": "ቸው።ያን አይቶ እንዳያዝኑ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ይ -> ያ",
+      "reason": "The printed verb is 4th-order 'እንዳያዝኑ' ('so that they do not grieve'); 'ያ' was misread as 'ይ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 36,
+      "old_text": "መልተውለታል ። የንዱ ዋሻ",
+      "corrected_text": "መልተውለታል ። ያንዱ ዋሻ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "የ -> ያ",
+      "reason": "The printed word is 4th-order 'ያንዱ' ('of one [cave]', elided from የ + አንዱ), misread as 1st-order 'የንዱ'."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "pdf_page": 135,
+  "book_page_ethiopic": "፮፻፵፬",
+  "elapsed_sec": 13.8,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 10,
+      "old_text": "ወወጽአ እመቃብር።",
+      "corrected_text": "ወወፅአ እመቃብር።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጽ -> ፅ",
+      "reason": "The printed glyph has the round loop of ፅ (ወወፅአ እመቃብር, Mark 16:8), not ጽ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 30,
+      "old_text": "ኢትፍራኅ ኡንዑስ መርዔት።",
+      "corrected_text": "ኢትፍራኅ አንዑስ መርዔት።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኡ -> አ",
+      "reason": "The first character of አንዑስ is 1st-order አ (without a 2nd-order side stroke), not ኡ."
+    }
+  ]
+}

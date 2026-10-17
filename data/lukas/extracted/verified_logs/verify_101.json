@@ -1,0 +1,62 @@
+{
+  "pdf_page": 101,
+  "book_page_ethiopic": "፬፻፹፫",
+  "elapsed_sec": 24.9,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 3,
+      "old_text": "⟪ወአውሥኡ ወይቤሉዎ ኢነአ",
+      "corrected_text": "⟪ወአውሥኡ ወይቤልዎ ኢነአ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሉዎ -> ልዎ",
+      "reason": "Classical Ge'ez morphology and the printed glyph show 6th-order ል followed by ዎ (ወይቤልዎ, 'and they said to him'), not 2nd-order ሉ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 10,
+      "old_text": "ኢይክውን ከመዝ ።⟫",
+      "corrected_text": "ኢይከውን ከመዝ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ክ -> ከ",
+      "reason": "Classical Ge'ez imperfective verb form is ኢይከውን (1st-order ከ, 'may this not happen / it shall not be so'), clearly printed without the 6th-order left hook of ክ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 17,
+      "old_text": "ሰ ማዕዘንት ።⟫ መዝ ፻፲፯ ፳፩",
+      "corrected_text": "ሰ ማዕዘንት ።⟫ መዝ ፻፲፯ ፳፪",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፳፩ -> ፳፪",
+      "reason": "The cross-reference to Psalm 117:22 (LXX / Ge'ez numbering) is printed as ፳፪ (22), where the two horizontal strokes of ፪ were misread as ፩."
+    },
+    {
+      "column_index": 3,
+      "line_num": 19,
+      "old_text": "ብ ፬ ፳፩ ሮሜ ፱ ፴፫ ፩ ጴጥ ፪ ፯",
+      "corrected_text": "ብ ፬ ፲፩ ሮሜ ፱ ፴፫ ፩ ጴጥ ፪ ፯",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፳፩ -> ፲፩",
+      "reason": "The cross-reference to Acts 4:11 (ግብ ፬ ፲፩) is clearly printed with ፲፩ (11), not ፳፩ (21)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 21,
+      "old_text": "ወደርሳቸው አይቶ አናፂች የ",
+      "corrected_text": "ወደርሳቸው አይቶ አናፆች የ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ፂ -> ፆ",
+      "reason": "The Amharic plural noun for builders is printed as አናፆች (7th-order ፆ), not 3rd-order ፂ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 34,
+      "old_text": "ፍት ከመ የአኀዝዎ ሶቤሃ ወ",
+      "corrected_text": "ፍት ከመ የአኅዝዎ ሶቤሃ ወ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኀ -> ኅ",
+      "reason": "Classical Ge'ez subjunctive verb is የአኅዝዎ ('that they might seize him') with 6th-order ኅ."
+    }
+  ]
+}

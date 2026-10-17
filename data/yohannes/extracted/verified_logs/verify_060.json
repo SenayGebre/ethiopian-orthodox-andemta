@@ -1,0 +1,26 @@
+{
+  "pdf_page": 60,
+  "book_page_ethiopic": "፭፻፸",
+  "elapsed_sec": 10.9,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 36,
+      "old_text": "ዘነኮነኔ ቀደም በዮች ናቸው",
+      "corrected_text": "ዘነኵነኔ ቀደም ባዮች ናቸው",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኮ -> ኵ, በ -> ባ",
+      "reason": "The technical Andemta phrase is 'ዘነኵነኔ ቀደም ባዮች' (those who say judgment precedes), confirmed visually by the labiovelar 'ኵ' and 4th-order 'ባ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 8,
+      "old_text": "አገኘው አኒያ ቢለዩዋችሁ እኔ",
+      "corrected_text": "አገኘው እኒያ ቢለዩዋችሁ እኔ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አኒያ -> እኒያ",
+      "reason": "6th-order 'እ' was misread as 1st-order 'አ' in the demonstrative pronoun 'እኒያ' (those)."
+    }
+  ]
+}

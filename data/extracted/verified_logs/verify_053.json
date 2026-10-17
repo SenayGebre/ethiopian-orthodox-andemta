@@ -1,0 +1,35 @@
+{
+  "pdf_page": 53,
+  "book_page_ethiopic": "፻፸፪",
+  "elapsed_sec": 14.9,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 6,
+      "old_text": "ስእርተ ርእስክሙ ኢअፃዕድዎ",
+      "corrected_text": "ስእርተ ርእስክሙ ኢአፃዕድዎ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "अ -> አ",
+      "reason": "Non-Ethiopic character artifact (अ) in Draft Pass 1 replaced with the clearly printed Ethiopic Fidel አ in 'ኢአፃዕድዎ' (Matthew 5:36)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 9,
+      "old_text": "ጥቁርጥሩቁን ነጭ ማድረግ አ↵",
+      "corrected_text": "ጥቁርጥቁሩን ነጭ ማድረግ አ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጥሩቁን -> ጥቁሩን",
+      "reason": "The printed text in Column 3, Line 9 clearly reads 'ጥቁርጥቁሩን' ('making the white black [and] the black white'), whereas Draft Pass 1 transposed ቁ and ሩ as 'ጥሩቁን'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 28,
+      "old_text": "ሐላ ይላል።ከዚህ ጌታ ኢትመ↵",
+      "corrected_text": "ሐላ ይላል።ከዚህ ጌታ ኢትም↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "መ -> ም",
+      "reason": "Both the printed glyph at the end of Line 28 and Ge'ez grammar require 6th-order 'ም' in 'ኢትምሐሉ' ('do not swear'), not 1st-order 'መ'."
+    }
+  ]
+}

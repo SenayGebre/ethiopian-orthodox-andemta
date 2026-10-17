@@ -1,0 +1,26 @@
+{
+  "pdf_page": 5,
+  "book_page_ethiopic": "፻፳፬",
+  "elapsed_sec": 18.1,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 19,
+      "old_text": "ት አውጥታ በቀርከሃ አቲና ጠ",
+      "corrected_text": "ት አውጥታ በቀርከሃ አቴና ጠ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቲ -> ቴ",
+      "reason": "The printed glyph has the 5th-order (ኃምስ) loop on the right leg (ቴ in አቴና, reed/flax mat), not 3rd-order ቲ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 32,
+      "old_text": "ገብታ ትወርሱ ሀገረነ ወት",
+      "corrected_text": "ነገህ ትወርሱ ሀገረነ ወት",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ገብታ -> ነገህ",
+      "reason": "Both visually in the print and philologically in the Ge'ez speech of Rahab ('ነገህ ትወርሱ ሀገረነ ወትቀትሉ ነገሥታቲነ' — 'Tomorrow you shall inherit our land and slay our kings'), the first word on the line is ነገህ, misread as ገብታ."
+    }
+  ]
+}

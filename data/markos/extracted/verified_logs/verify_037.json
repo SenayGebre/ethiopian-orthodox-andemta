@@ -1,0 +1,35 @@
+{
+  "pdf_page": 37,
+  "book_page_ethiopic": "፫፻፶፮",
+  "elapsed_sec": 25.0,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 14,
+      "old_text": "ህየ ምንተ ትገብሩ ዘትፈትሕ⟫",
+      "corrected_text": "ህየ ምንተ ትገብሩ ዘትፈትሑ ፥⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዘትፈትሕ -> ዘትፈትሑ ፥",
+      "reason": "Both the 2nd-person plural verb morphology in Mark 11:5 (matching ትገብሩ) and the visible right-side vowel stroke on the final Fidel confirm ዘትፈትሑ followed by a single punctuation dot."
+    },
+    {
+      "column_index": 2,
+      "line_num": 25,
+      "old_text": "⟪ወረኃኑ አልባሲሆሙ ላዕሌሁ",
+      "corrected_text": "⟪ወደይኑ አልባሲሆሙ ላዕሌሁ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወረኃኑ -> ወደይኑ",
+      "reason": "The canonical Ge'ez text of Mark 11:7 and the printed glyphs on the page clearly read ወደይኑ ('and they laid/put their garments upon it'), where ደይ was visually misread as ረኃ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 8,
+      "old_text": "፲፯ ፳፬ ማቴ ፳፩ ፱ ሉቃ ፲፱ ፴፰",
+      "corrected_text": "፲፯ ፳፭ ማቴ ፳፩ ፱ ሉቃ ፲፱ ፴፰",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፳፬ -> ፳፭",
+      "reason": "The printed numeral for the Psalm 117 verse citation has the top loop of ፭ (፳፭ = 25), not ፬."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "pdf_page": 144,
+  "book_page_ethiopic": "፪፻፷፫",
+  "elapsed_sec": 18.1,
+  "applied_count": 9,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 27,
+      "old_text": "ፍሬ በገኝባት ብሎ ወደሷ ሄደ",
+      "corrected_text": "ፍሬ ባገኝባት ብሎ ወደሷ ሄደ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በ -> ባ",
+      "reason": "In Col 1 L27, the printed glyph is 4th order 'ባ' ('ባገኝባት' = 'if I find in her'), where the shorter right leg of 'ባ' was misread as 1st order 'በ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 5,
+      "old_text": "ም ቢሉ አንዳንድ በዝረ በለስ",
+      "corrected_text": "ም ቢሉ አንዳንድ በዝር በለስ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ረ -> ር",
+      "reason": "In Col 2 L05, the printed word is 'በዝር' (6th order ር, meaning leftover/late-hanging fig), not 'በዝረ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 6,
+      "old_text": "አይታጣም ብሎ ያው ቃሉ እ↵",
+      "corrected_text": "አይታጣም ብሎ ያው ቁሉ እ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቃ -> ቁ",
+      "reason": "In Col 2 L06, the image clearly shows the right-side horizontal stroke of 2nd order 'ቁ' ('ያው ቁሉ', standard Andemta expression for 'even taking the word literally / the literal question itself')."
+    },
+    {
+      "column_index": 2,
+      "line_num": 22,
+      "old_text": "ኀቤሃ ፥⟫ ሃይማኖት ምግባር በገ↵",
+      "corrected_text": "ኀቤሃ ፥⟫ ሃይማኖት ምግባር ባገ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በ -> ባ",
+      "reason": "In Col 2 L22, the printed glyph is 4th order 'ባ' ('ባገኝባቸው' = 'if I find in them'), misread as 1st order 'በ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 30,
+      "old_text": "ሷው ጠፋ ። ምነው እስጢፋኖ↵",
+      "corrected_text": "ሰው ጠፋ ። ምነው እስጢፋኖ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሷ -> ሰ",
+      "reason": "In Col 2 L29-30, the text reads 'ያን ጊዜ ደግ ሰው ጠፋ' ('at that time good men vanished'). The 1st order 'ሰ' at the start of L30 was misread as 'ሷ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 1,
+      "old_text": "⟪ወይቤላ ኢይኩን ፍሬ ፥⟫ በንቺ",
+      "corrected_text": "⟪ወይቤላ ኢይኩን ፍሬ ፥⟫ ባንቺ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በ -> ባ",
+      "reason": "In Col 3 L01, the printed word is 'ባንቺ' (4th order 'ባ', 'in you'), misread as 'በንቺ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 14,
+      "old_text": "ቤላ ኢይኩን እንከ ፍሬ ፤⟫ በን↵",
+      "corrected_text": "ቤላ ኢይኩን እንከ ፍሬ ፤⟫ ባን↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በ -> ባ",
+      "reason": "In Col 3 L14-15, the printed word across the line wrap is 'ባን↵ቺ' (4th order 'ባ'), misread as 'በን↵ቺ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 30,
+      "old_text": "ከመ ዕፀ ባሕቲቶ ዘትገብሩ⟫",
+      "corrected_text": "ከመ ዕፅ ባሕቲቶ ዘትገብሩ⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፀ -> ፅ",
+      "reason": "In Col 3 L30, both the image and canonical Ge'ez Matthew 21:21 read 6th order 'ዕፅ' ('አኮ ከመ ዕፅ ባሕቲቶ ዘትገብሩ'), not 1st order 'ዕፀ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 32,
+      "old_text": "[፳፩] ሃይማኖት ቢኖራችሁ በቅጠል",
+      "corrected_text": "[፳፩] ሃይማኖት ቢኖራችሁ በቅድል",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጠ -> ድ",
+      "reason": "In Col 3 L32-33, the traditional Andemta idiom for a mustard seed (citing Matt 17:20) is 'በቅድል ጠሩ' ('a single grain of mustard seed', where ቅድል = ቅንጣት/አብሽ/ሰናፍጭ). Visually in L32 the glyph after 'በቅ' is 'ድ' ('በቅድል'), not 'ጠ'."
+    }
+  ]
+}

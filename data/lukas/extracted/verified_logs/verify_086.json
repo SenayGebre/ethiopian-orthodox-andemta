@@ -1,0 +1,26 @@
+{
+  "pdf_page": 86,
+  "book_page_ethiopic": "፬፻፷፰",
+  "elapsed_sec": 24.0,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 26,
+      "old_text": "ላልከኝም አለው።በአፋኝ እኔ",
+      "corrected_text": "ላልከኝም አለው።ቢከፋኝ እኔ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በአፋኝ -> ቢከፋኝ",
+      "reason": "Visual inspection of Col 3 L26 clearly shows ቢከፋኝ ('because I was displeased/aggrieved [thinking the kingdom was disgraced]'), where ቢከ was misread as በአ due to ink wear."
+    },
+    {
+      "column_index": 3,
+      "line_num": 37,
+      "old_text": "ውን ይዞ ሂዶ መልስህ አም↵",
+      "corrected_text": "ውን ይዞ ሄደ መልስህ አም",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሂዶ -> ሄደ",
+      "reason": "The printed word on Col 3 L37 is ሄደ ('he went taking the one covered in silk, [and the king said] bring it back'), matching ሄደ in L11 and L19 rather than ሂዶ."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "pdf_page": 54,
+  "book_page_ethiopic": "፫፻፸፫",
+  "elapsed_sec": 16.3,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 24,
+      "old_text": "እንደሞተ በየ ጊዜ።",
+      "corrected_text": "እንደሞተ ባየ ጊዜ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በየ -> ባየ",
+      "reason": "The right leg of 'ባ' is shortened (4th order ራብዕ), forming the Amharic relative temporal clause 'ባየ ጊዜ' ('when he saw' translating Ge'ez 'ወርእዮ'), whereas 'በየ' ('every') is a misread of the leg length."
+    },
+    {
+      "column_index": 1,
+      "line_num": 36,
+      "old_text": "ቃ ፮ ፪፤",
+      "corrected_text": "ቃ ፰ ፪፤",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፮ -> ፰",
+      "reason": "The cross-reference numeral is ፰ (8), referring to Luke 8:2 (ሉቃ ፰ ፪) where Mary Magdalene is introduced; the bottom loop of ፰ was slightly faded and misread as ፮."
+    },
+    {
+      "column_index": 1,
+      "line_num": 40,
+      "old_text": "⟪ወእመ ለዮሳ ወለሰሎሜ እለ",
+      "corrected_text": "⟪ወእሙ ለዮሳ ወለሰሎሜ እለ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወእመ -> ወእሙ",
+      "reason": "The printed glyph has the 2nd-order (ካዕብ) right-side stroke 'ሙ' ('ወእሙ ለዮሳ' - 'and the mother of Joses' with proleptic pronominal suffix before 'ለዮሳ')."
+    }
+  ]
+}

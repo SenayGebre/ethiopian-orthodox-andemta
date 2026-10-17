@@ -1,0 +1,26 @@
+{
+  "pdf_page": 15,
+  "book_page_ethiopic": "፳፪ | ፳፫",
+  "elapsed_sec": 9.8,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 16,
+      "old_text": "ካሪ፡ እንዳንድ፡ ቃል፡ተናጋሪ፡ሆነው፡ኖሩ፡",
+      "corrected_text": "ካሪ፡ እንዳንድ፡ ቃል፡ተናጋሪ፡ሁነው፡ኖሩ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሆነው -> ሁነው",
+      "reason": "The printed glyph in the image has the right-side horizontal stroke of the 2nd order 'ሁ' (ሁነው), preserving the authentic archaic Andemta form."
+    },
+    {
+      "column_index": 2,
+      "line_num": 23,
+      "old_text": "ሰብ ፡ ሊያርዱ፡ ጉፋያን ፡ ይነዱ፡ እንዲሉ ፡",
+      "corrected_text": "ስብ ፡ ሊያርዱ፡ ጉፋያን ፡ ይነዱ፡ እንዲሉ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሰብ -> ስብ",
+      "reason": "Both visually (6th order 'ስ' with top-left bend) and philologically (the Amharic proverb 'ስብ ሊያርዱ ጉፋያን ይነዱ' — 'when about to slaughter a fat animal, they drive away the lean/chaff'), the printed word is 'ስብ'."
+    }
+  ]
+}

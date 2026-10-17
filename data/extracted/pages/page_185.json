@@ -1,0 +1,903 @@
+{
+  "pdf_page": 185,
+  "book_page_arabic": 304,
+  "book_page_ethiopic": "፫፻፬",
+  "page_type": "commentary_3col",
+  "running_header": "ወንጌል ዘማቴዎስ ።     ፫፻፹፬",
+  "column_boxes": [
+    [
+      0,
+      61,
+      282,
+      1024
+    ],
+    [
+      240,
+      61,
+      529,
+      1024
+    ],
+    [
+      487,
+      61,
+      768,
+      1024
+    ]
+  ],
+  "columns": [
+    {
+      "column_index": 1,
+      "lines": [
+        {
+          "line_num": 1,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "⟪ምውስተ ዓውድ ወወሰድዎ ኀ⟫",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 2,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "⟪በ ምኵናን ።⟫ መዝ ፳፩ ፥ ፲፮ ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 3,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ማር ፲፭ ፥ ፲፮ ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 4,
+          "margin_tag": "፳፯",
+          "line_type": "body",
+          "text": "ከዚህ በኋላ ጭፍራውን የሚ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 5,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሠሩ የሚያቅናኑ አደባባይ ወ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 6,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ደሚፈረድበት ቦታ ይዘው",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 7,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ት ሄዱ ። ሐተታ ቤተ አንሳ",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 8,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ቤተ አይጥ የሚባሉ ስቃይ ቈ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 9,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ራጭ ባለወጎች በቤተ መንግ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 10,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሥት እንዳሉ ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 11,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "⟪ወአስተጋብኡ ኵሎ ሠርዌ ሐራ⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 12,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "አለቆች ጭፍራቸውን ሰበሰቡ",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 13,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "አንድም ኵሎ ሠርዌ ሐራ ጭ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 14,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ፍሮች አለቆችን ። አንድም ወ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 15,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "አስተጋብኡ ኵሎ ሠርዌ ሐራ",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 16,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ብለህ አናብብ፤ጭፍሮች ያሏቸ",
+          "word_wraps_to_next_line": true,
+          "stage1_text": "ብለህ አናብህ፤ጭፍሮች ያሏቸ",
+          "stage2_correction": {
+            "pair": "ህ -> ብ",
+            "reason": "The printed glyph in the image is 'ብ' forming the standard Andemta technical instruction 'ብለህ አናብብ' (read/construe it as), where 'ብ' was misread as 'ህ'."
+          },
+          "uncertain": []
+        },
+        {
+          "line_num": 17,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ው አለቆች ሕዝቡን ሰበሰቡ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 18,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "⟪ወሰለብዎ አልባሲሁ ።⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 19,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ልብሱን ገፈፉት ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 20,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሐተታ የአዳም ልጅነት እንደ",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 21,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሄደበት ያጠይቃል ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 22,
+          "margin_tag": "፳፰",
+          "line_type": "body",
+          "text": "⟪ወአልበስዎ ከላሜዳ ዘለይ ።⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 23,
+          "margin_tag": "፳፰",
+          "line_type": "body",
+          "text": "ቀይ ግምጃ አለበሱት ። ደም",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 24,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ህ ይፈሳል ሲሉ ። አንድም ደ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 25,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ማችንን ባርባ ዘመን በጥጦስ",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 26,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ታፈሰዋለህ ሲሉ ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 27,
+          "margin_tag": "፳፱",
+          "line_type": "body",
+          "text": "⟪ወጸፈሩ ሐራ አክሊለ ዘሦክ",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 28,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ወአስተቀጸልዎ ዲበ ርእሱ ።⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 29,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ዮሐ ፲፱ ፥ ፪ ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 30,
+          "margin_tag": "፳፱",
+          "line_type": "body",
+          "text": "ጭፍሮች የሾህ አክሊል ታተ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 31,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ው ደፉለት።ሐተታ አነገሥንህ",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 32,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ብለውታልና በፍና ተሣልቆ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 33,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "አንድም ወወደዩ ጌራ መድኃ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 34,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ኒት ዲበ ርእሱ በአክሊል ዘ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 35,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "አስተቀጸለቶ እሙ ያለው ትን",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 36,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ቢት ሊደርስ ሊፈጸም ፥ ድርሳ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 37,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ነ መድኃኔ ዓለም ሽህ ጥቃቅን",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 38,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሰባ ታላላቅ እሾህ ያለው የብ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 39,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ረት ዘውድ ነው ይላል እንደ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 40,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ምን ነው ቢሉ ነገር እንደዚህ",
+          "word_wraps_to_next_line": false
+        }
+      ]
+    },
+    {
+      "column_index": 2,
+      "lines": [
+        {
+          "line_num": 1,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ነው ያስ ቢሆን ኢትስብሩ ዓፅ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 2,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሞ ያለው በፈረሰ ነበር ፤",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 3,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "⟪ወአስተአኃዝዎ ህለተ ውስተ የ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 4,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ማኑ ።⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 5,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "በቀኝ እጁ ዘንግ አስያዙት አ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 6,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ነገሥንህ ብለውታልና በፍና",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 7,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ተሣልቆ ፤ አንድም ብርዓ ይላል",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 8,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "አብነት ፥ ብርዕ አስያዙት ሥ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 9,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ራ ፈት ነህ ሲሉ ፤ ጽሕፈትንማ",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 10,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ርእሰ ጥበባት እንጅ ይለዋል ብ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 11,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሎ ኃጢአታችንን በፍዳ ታጽ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 12,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ፍብናለህ ሲያሰኛቸው ነው ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 13,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "⟪ወአስተብረኩ ቅድሜሁ ፡⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 14,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሰገዱለት ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 15,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "⟪ወተሣለቁ ላዕሌሁ ፡⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 16,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ዘበቱበት ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 17,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "⟪ወይቤልዎ በሀ ንጉሠ አይሁ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 18,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ድ ፤⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 19,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "የአይሁድ ንጉሣቸው ቢሰኛህ",
+          "word_wraps_to_next_line": true,
+          "stage1_text": "የአይሁድ ንጉሣቸው ቢሰኛሀ",
+          "stage2_correction": {
+            "pair": "ሀ -> ህ",
+            "reason": "6th-order 'ህ' (2nd person masculine singular possessive suffix in 'ቢሰኛህን') was misread as 1st-order 'ሀ'."
+          },
+          "uncertain": []
+        },
+        {
+          "line_num": 20,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ን ጠበኛህን አያውለው አያሳ",
+          "word_wraps_to_next_line": true,
+          "stage1_text": "ን ጠበኛሀን አያውለው አያሳ",
+          "stage2_correction": {
+            "pair": "ሀ -> ህ",
+            "reason": "6th-order 'ህ' in 'ጠበኛህን' (your enemy) was misread as 1st-order 'ሀ'."
+          },
+          "uncertain": []
+        },
+        {
+          "line_num": 21,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ድረው አሉት፤ከነሱ ሌባ ቢሰኛ",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 22,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ጠበኛ አለውን አያውለን አ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 23,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ያሳድረን ሲያሰኛቸው ነው ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 24,
+          "margin_tag": "፴",
+          "line_type": "body",
+          "text": "⟪ወይወርቁ ላዕሌሁ ።⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 25,
+          "margin_tag": "፴",
+          "line_type": "body",
+          "text": "በፊቱ ተፉበት ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 26,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሐተታ እንዳለፈው ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 27,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "⟪ወነሥኡ ህለተ ወኰርዕዎ ር",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 28,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "እሶ ።⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 29,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ያስያዙትን ዘንግ ተቀብለው ራ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 30,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሱን መቱት ፡ ሐተታ እንዳለፈው",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 31,
+          "margin_tag": "፴፩",
+          "line_type": "body",
+          "text": "⟪ወተሣሊቆሙ ላዕሌሁ ሰለብዎ",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 32,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ውእተ ከላሜዳ ዘለይ ፡⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 33,
+          "margin_tag": "፴፩",
+          "line_type": "body",
+          "text": "ከዘበቱበት በኋላ ያለበሱትን",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 34,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ቀይ ግምጃ ገፈፉት ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 35,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "⟪ወአልበስዎ አልባሲሁ ።⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 36,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "የጥንት ልብሱን አለበሱት የ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 37,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "አዳም ልጅነት እንደተመለሰለ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 38,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ት ያጠይቃል ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 39,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "⟪ወወሰድዎ ይስቅልዎ ።⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 40,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሊሰቅሉት ይዘውት ሄዱ።",
+          "word_wraps_to_next_line": false
+        }
+      ]
+    },
+    {
+      "column_index": 3,
+      "lines": [
+        {
+          "line_num": 1,
+          "margin_tag": "፴፪",
+          "line_type": "body",
+          "text": "⟪ወእንዘ ይወጽኡ ረከቡ ብእሴ",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 2,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ቀሬናዊ ዘስሙ ስምዖን እትወ",
+          "word_wraps_to_next_line": true,
+          "stage1_text": "ቀሬናዌ ዘስሙ ስምዖን እትወ",
+          "stage2_correction": {
+            "pair": "ዌ -> ዊ",
+            "reason": "Canonical Ge'ez gentilic adjective 'ቀሬናዊ' (Cyrenian, 3rd-order 'ዊ') was misread as 5th-order 'ዌ'."
+          },
+          "uncertain": []
+        },
+        {
+          "line_num": 3,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ቶ እምሐቅል ።⟫ ማር ፲፭ ፳፩ ሉቃ",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 4,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "፳፫ ፳፮ ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 5,
+          "margin_tag": "፴፪",
+          "line_type": "body",
+          "text": "ሊሰቅሉት ይዘውት ሲሄዱ ስ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 6,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ምዖን የሚባል የቀራንዮ ሰው",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 7,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ከተሠወረበት ሲመለስ አገኙ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 8,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "⟪ወአበጥዎ ይፁር መስቀሎ ፤⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 9,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "መስቀሉን ይሸከም ዘንድ ጎ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 10,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ተቱት ፤ ሐተታ ነገር ፈርቶ ተ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 11,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሰውሮ ውሏል ነገር ተፈጽሟ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 12,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ል ብሎ ሲወጣ አገኙት አን",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 13,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ተም የሱ ወገን ነህ መስቀሉ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 14,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ን ተሸከም ብለው አሸክመ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 15,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ውታል ፤ ምሥጢሩ ግን ጌታ",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 16,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ከበረከተ መስቀሉ እንዳሳተፈ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 17,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ው ያጠይቃል ፤",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 18,
+          "margin_tag": "፴፫",
+          "line_type": "body",
+          "text": "⟪ወበጺሖሙ ብሔረ ዘስሙ ጎ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 19,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ልጎታ ዘበትርጓሜሁ ቀራንዮ ።⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 20,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ማር ፲፭ ፳፪ ። ሉቃ ፳፫ ፴፫ ፤",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 21,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ዮሐ ፲፱ ፲፯ ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 22,
+          "margin_tag": "፴፫",
+          "line_type": "body",
+          "text": "ባንዱ ልሳን ቀራንዮ ወደሚሉ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 23,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ት ጎልጎታ በደረሱ ጊዜ ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 24,
+          "margin_tag": "፴፬",
+          "line_type": "body",
+          "text": "⟪ወወሀብዎ ይስተይ ወይነ ወሐ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 25,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሞተ ድሙረ ፤⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 26,
+          "margin_tag": "፴፬",
+          "line_type": "body",
+          "text": "ሐሞት የተቀላቀለበት ወይን",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 27,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ይጠጣ ዘንድ ሰጡት ፥",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 28,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "⟪ወጥዒሞ ዓበየ ሰትየ ።⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 29,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ቀምሶ አልጠጣም አለ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 30,
+          "margin_tag": null,
+          "line_type": "section_title",
+          "text": "ዘከመ ተሰቅለ ኢየሱስ",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 31,
+          "margin_tag": "፴፭",
+          "line_type": "body",
+          "text": "⟪ወእምዝ ሰቀልዎ ፡⟫ ማር ፲፭ ፳፬",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 32,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሉቃ ፳፫ ፴፬ ። ዮሐ ፲፱ ፳፫ ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 33,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "መዝ ፳፩ ፲፱ ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 34,
+          "margin_tag": "፴፭",
+          "line_type": "body",
+          "text": "ከዚህ በኋላ ሰቀሉት ።",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 35,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "⟪ወተካፈሉ አልባሲሁ እንዘ ይ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 36,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ትዓፀዉ ።⟫",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 37,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ልብሱን በዕፃ ተካፈሉ ፡",
+          "word_wraps_to_next_line": false
+        },
+        {
+          "line_num": 38,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "⟪በከመ ጽሑፍ ወተካፈሉ አ",
+          "word_wraps_to_next_line": true
+        },
+        {
+          "line_num": 39,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ልባስየ ለርእሶሙ ወተዓፀዉ⟫",
+          "word_wraps_to_next_line": false
+        }
+      ]
+    }
+  ],
+  "stage2_verified": true,
+  "stage2_corrections_count": 4
+}

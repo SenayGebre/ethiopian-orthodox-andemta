@@ -1,0 +1,71 @@
+{
+  "pdf_page": 67,
+  "book_page_ethiopic": "፻፹፮",
+  "elapsed_sec": 24.8,
+  "applied_count": 7,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 2,
+      "old_text": "አናስለቅቅሃለን ይሉታል ⟪ኢለቀ↵",
+      "corrected_text": "አናስለቅቅሃለን ይሉታል አለቀ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኢለቀ -> አለቀ",
+      "reason": "The printed glyph is 1st-order አ (አለቀቆም, Amharic 'he/it did not let go'), part of the Amharic commentary before the Ge'ez lemma እስመ ዲበ ኰኵሕ ተሣረረ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 3,
+      "old_text": "ቅም ። እስመ ዲበ ኰኵሕ ተ↵",
+      "corrected_text": "ቆም ። ⟪እስመ ዲበ ኰኵሕ ተ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቅም -> ቆም",
+      "reason": "The first character on the line is 7th-order ቆ completing Amharic አለቀቆም, followed by the Ge'ez lemma እስመ ዲበ ኰኵሕ ተሣረረ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 7,
+      "old_text": "ነስቷቸዋል ፤ ወመዊቶ ተንሣ↵",
+      "corrected_text": "ነስቷቸዋል ፤ ወመዊቶ ተንሥ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ተንሣ -> ተንሥ",
+      "reason": "In the Ge'ez citation (cf. Rom 14:9), the verb is 3rd-person masculine singular perfect ተንሥአ (with 6th-order ሥ at the end of L07 and 1st-order አ at the start of L08)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 8,
+      "old_text": "እ ሰፈኖሙ ለሕያዋን ወለሙ↵",
+      "corrected_text": "አ ሰፈኖሙ ለሕያዋን ወለሙ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እ -> አ",
+      "reason": "The first letter on L08 is 1st-order አ completing the Ge'ez verb ተንሥአ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 24,
+      "old_text": "ያን ቤት እናናዋውድሕ አሉት",
+      "corrected_text": "ያን ቤት እናናዋውድአ አሉት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሕ -> አ",
+      "reason": "Visually in the image, the glyph after ድ is 1st-order አ (እናናዋውድአ አሉት, cohortative 'let us shake it / make it fall, they said to it'), misread as ሕ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 21,
+      "old_text": "⟪ወአኮ ከመ ጸሕፍቶሙ ።⟫",
+      "corrected_text": "⟪ወአኮ ከመ ጸሐፍቶሙ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጸሕፍቶሙ -> ጸሐፍቶሙ",
+      "reason": "Both visually in the print and grammatically in Ge'ez (Matt 7:29), the plural noun is ጸሐፍቶሙ with 4th-order ሐ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 10,
+      "old_text": "ለምጻምን የምታስተራـኩስ ኦሪ↵",
+      "corrected_text": "ለምጻምን የምታስተራኩስ ኦሪ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "የምታስተራـኩስ -> የምታስተራኩስ",
+      "reason": "Removed spurious Arabic tatweel artifact (ـ) inside የምታስተራኩስ."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "pdf_page": 16,
+  "book_page_ethiopic": "፭፻፳፮",
+  "elapsed_sec": 24.6,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 25,
+      "old_text": "ቸው ። ⟪ወይቤሎሙ ቀድኃዎን፡⟫",
+      "corrected_text": "ቸው ። ⟪ወይቤሎሙ ቀድኅዎን፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኃ -> ኅ",
+      "reason": "Classical Ge'ez imperative plural suffixal form (ቀድሑ + ዎን = ቀድኅዎን, John 2:8) and visual inspection of the top-left hook of 6th-order ኅ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 32,
+      "old_text": "ገዛእትሰ እለ ቀድኃዎ⟫ መም↵",
+      "corrected_text": "ገዛእትሰ እለ ቀድኅዎ⟫ መም",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኃ -> ኅ",
+      "reason": "Classical Ge'ez 3rd person plural perfect with object suffix (ቀድሑ + ዎ = ቀድኅዎ, John 2:9) and visual confirmation of 6th-order ኅ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 33,
+      "old_text": "ሕራን ግን ⟪የውቃሉ ። እስመ",
+      "corrected_text": "ሕራን ግን የውቃሉ ። ⟪እስመ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "⟪የውቃሉ ። እስመ -> የውቃሉ ። ⟪እስመ",
+      "reason": "የውቃሉ (archaic Amharic for ያውቃሉ) is the Amharic Andemta gloss completing 'መምሕራን ግን የውቃሉ ።'; the Ge'ez root quote resumes at ⟪እስመ እሙንቱ መልዑ⟫."
+    }
+  ]
+}

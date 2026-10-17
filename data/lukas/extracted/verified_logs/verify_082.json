@@ -1,0 +1,80 @@
+{
+  "pdf_page": 82,
+  "book_page_ethiopic": "፬፻፷፬",
+  "elapsed_sec": 31.3,
+  "applied_count": 8,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 3,
+      "old_text": "ይህ ልጄ ከሞተ በኋላ ድን",
+      "corrected_text": "ይህ ልጄ ከሞተ በኋላ ድኖ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ድን -> ድኖ",
+      "reason": "The printed glyph at the end of Line 3 has the top-right vowel ring of 7th-order ኖ (forming ድኖዋል across the line wrap), which was misread as 6th-order ን."
+    },
+    {
+      "column_index": 1,
+      "line_num": 10,
+      "old_text": "ናቸው።⟪እባ ሀበኒ መክፈልተ",
+      "corrected_text": "ናቸው።⟪አባ ሀበኒ መክፈልተ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እባ -> አባ",
+      "reason": "Canonical Ge'ez Luke 15:12 vocative 'አባ ሀበኒ መክፈልተ ርስትየ' ('Father, give me the portion of my inheritance'); the printed glyph is 1st-order አ, not 6th-order እ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 17,
+      "old_text": "ሀገር ሄዱ።⟪ወበህየ ዘረወ ፡ በአ",
+      "corrected_text": "ሀገር ሄዱ።⟪ወበህየ ዘረወ ፡⟫ በአ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዘረወ ፡ -> ዘረወ ፡⟫",
+      "reason": "Restored the missing closing quote marker ⟫ after the Ge'ez root citation 'ወበህየ ዘረወ ፡' before the Amharic commentary 'በአምልኮተ ጣዖት...'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 23,
+      "old_text": "ፅነሡ፡⟫ከትምርት ተቸገሩ።⟪ወሖ",
+      "corrected_text": "ፅነሰ፡⟫ከትምርት ተቸገሩ።⟪ወሖ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ፅነሡ -> ፅነሰ",
+      "reason": "In Luke 15:14 the Ge'ez verb is singular 'ወተፅነሰ' ('and he began to be in want'); the printed glyph is 1st-order ሰ followed by ፡, which ink bleed caused to be misread as ሡ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 25,
+      "old_text": "ሉ ሰዎች ለአንዱ ተገጋቮ ሆኑ",
+      "corrected_text": "ሉ ሰዎች ለአንዱ ተገዢ ሆኑ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ተገጋቮ -> ተገዢ",
+      "reason": "The multi-stemmed character ዢ in 'ተገዢ ሆኑ' ('they became subject/servants to one of the citizens') was split and misread by OCR as ጋቮ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 30,
+      "old_text": "ዖት አሰማሯቸው ። ⟪ወፈነወ ይ",
+      "corrected_text": "ዖት አሰማሯቸው ። ⟪ወፈተወ ይ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወፈነወ -> ወፈተወ",
+      "reason": "Canonical Ge'ez Luke 15:16 reads 'ወፈተወ ይፅገብ' ('and he desired to be filled'); the printed crossbar of ተ is clearly visible and was misread as ነ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 26,
+      "old_text": "ያትን ። ⟪አልብሶ ቀድወ ።⟫ ልጅነት",
+      "corrected_text": "ያትን ። ⟪አልብሶ ቀድመ ።⟫ ልጅነት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቀድወ -> ቀድመ",
+      "reason": "In the Ge'ez citation of Luke 15:22 ('አልብሶ ቀድመ'), the final character has the double loop of መ ('quickly/first'), which was misread as ወ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 13,
+      "old_text": "ፍ፡ ኀበ ብእሲ ኃጥእ ቦአ የዓል",
+      "corrected_text": "ፍ፡ ኀበ ብእሲ ኃጥእ ቦአ ይዕል",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "የዓል -> ይዕል",
+      "reason": "This is the Ge'ez cross-reference to Luke 19:7 ('ኀበ ብእሲ ኃጥእ ቦአ ይዕል' — 'he has gone in to lodge with a sinful man'); the printed glyphs at the end of the line are ይዕል, misread as የዓል."
+    }
+  ]
+}

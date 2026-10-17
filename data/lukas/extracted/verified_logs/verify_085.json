@@ -1,0 +1,53 @@
+{
+  "pdf_page": 85,
+  "book_page_ethiopic": "፬፻፷፯",
+  "elapsed_sec": 21.6,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 3,
+      "old_text": "የሚራቀቁ ስለ ሆነ ። ሐተታ",
+      "corrected_text": "የሚራቀቁ ስለ ሆኑ ። ሐተታ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሆነ -> ሆኑ",
+      "reason": "The plural verb ending ሆኑ (matching the plural subject ሰብአ ዓለም / የሚራቀቁ and parallel to Col 2 L19 የሚራቀቁ ስለ ሆኑ) has the 2nd-order vowel stroke on the right leg of ኑ, which was misread as 1st-order ነ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 18,
+      "old_text": "በ በተድላ የሚኖር ሆነዋል",
+      "corrected_text": "በ በተድላ የሚኖር ሁኗል",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሆነዋል -> ሁኗል",
+      "reason": "The printed text at the end of Line 18 clearly has the three-character archaic contracted form ሁኗል (ሁ-ኗ-ል), which Stage 1 expanded/misread as ሆነዋል."
+    },
+    {
+      "column_index": 2,
+      "line_num": 11,
+      "old_text": "ዳል ። ⟪ወንዕዶ እግዚአብሔር⟫ ፤ በ",
+      "corrected_text": "ዲል ። ⟪ወንዕዶ እግዚአብሔር⟫ ፤ በ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዳል -> ዲል",
+      "reason": "Joined with እን- at the end of Line 10, this forms the standard Andemta citation formula እንዲል ('as it says'). The 3rd-order ዲ was misread as 4th-order ዳ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 40,
+      "old_text": "ድ ። ታሪክ እንደንድ ባለጸጋ ።",
+      "corrected_text": "ድ ። ታሪክ አንዳንድ ባለጸጋ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እንደንድ -> አንዳንድ",
+      "reason": "The printed word is አንዳንድ ('a certain / some rich man'), where the 1st-order አ and 4th-order ዳ were misread as እ and ደ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 5,
+      "old_text": "ስንቅ የምሰጥው ገጸ በረከት",
+      "corrected_text": "ስንቅ የምሰጠው ገጸ በረከት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "የምሰጥው -> የምሰጠው",
+      "reason": "Both visually and grammatically the relative verb is የምሰጠው ('that which I give him' with 1st-order ጠ), whereas 6th-order ጥ had a faint left leg in the print."
+    }
+  ]
+}

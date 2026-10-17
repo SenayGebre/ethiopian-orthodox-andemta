@@ -1,0 +1,26 @@
+{
+  "pdf_page": 29,
+  "book_page_ethiopic": "፶ | ፶፩",
+  "elapsed_sec": 15.4,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 13,
+      "old_text": "ፃዊ ፡ የዲያብሎስ ፡ ጭፃ ፡ የሦስቱ ፡ አር",
+      "corrected_text": "ፃዊ ፡ የዲያብሎስ ፡ ጭዋ ፡ የሦስቱ ፡ አር",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጭፃ -> ጭዋ",
+      "reason": "The printed glyph is ዋ (ጭዋ, sand/earth in the allegory of Moses burying the Egyptian in the sand), which was misread as ፃ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 26,
+      "old_text": "መ፡ዝ፡ ኮነ፡ዝ፡ነገር ፡ ክሡተ ፡ ወገሀደተረ ፡",
+      "corrected_text": "መ፡ዝ፡ ኮነ፡ዝ፡ነገር ፡ ክሡተ ፡ ወዝርዙረ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወገሀደተረ -> ወዝርዙረ",
+      "reason": "The printed Ge'ez citation from Exodus 2:14 reads 'ክሡተ ፡ ወዝርዙረ' (manifest and spread abroad), where 'ወዝርዙረ' was misread as 'ወገሀደተረ'."
+    }
+  ]
+}

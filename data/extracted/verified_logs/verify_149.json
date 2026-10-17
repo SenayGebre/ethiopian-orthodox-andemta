@@ -1,0 +1,35 @@
+{
+  "pdf_page": 149,
+  "book_page_ethiopic": "፪፻፷፰",
+  "elapsed_sec": 16.8,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 2,
+      "old_text": "አሱንም ነቀፉት ።",
+      "corrected_text": "እሱንም ነቀፉት ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አ -> እ",
+      "reason": "Amharic pronoun 'እሱንም' (6th order እ) was misread as 'አሱንም' (1st order አ)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 18,
+      "old_text": "ነገር ግን ለደምናቸው አላደላ↵",
+      "corrected_text": "ነገር ግን ለደግናቸው አላደላ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ም -> ግ",
+      "reason": "Traditional Amharic Andemta gloss for 'ለእለ ዓሠርናሆሙ' (those who were invited) is 'ለደግናቸው' (from ደገነ, to invite to a feast), where 'ግ' was misread as 'ም'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 19,
+      "old_text": "ሩፌ ጽልመት ።⟫ ማቴ ፰ ፲፪፥፲↵",
+      "corrected_text": "ንፌ ጽልመት ።⟫ ማቴ ፰ ፲፪፥፲↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሩ -> ን",
+      "reason": "Wait: in the image it is clearly printed 'ጽንፌ ጽልመት' (the outer darkness, Matt 22:13), where 6th-order 'ን' was misread as 'ሩ' ('ጽሩፌ')."
+    }
+  ]
+}

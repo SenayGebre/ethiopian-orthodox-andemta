@@ -1,0 +1,44 @@
+{
+  "pdf_page": 6,
+  "book_page_ethiopic": "፪፻፹፮ | ፪፻፹፯",
+  "elapsed_sec": 23.4,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 8,
+      "old_text": "ኀደገ ፡ አባሁ ፡ ወእሞ ፡ ቤቶ ፡ ወውሉዶ ፡",
+      "corrected_text": "ኀደገ ፡ አቡሁ ፡ ወእሞ ፡ ቤቶ ፡ ወውሉዶ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ባ -> ቡ",
+      "reason": "Classical Ge'ez form 'አቡሁ' (his father) is clearly printed with the 2nd-order (ካዕብ) vowel tick on the right leg of 'ቡ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 35,
+      "old_text": "ልኝ ፡ ይህን ፡ ወርቅ ፡ ይዢ ፡ ከተማ ፡ ገብ",
+      "corrected_text": "ልኝ ፡ ይህን ፡ ወርቅ ፡ ይዤ ፡ ከተማ ፡ ገብ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዢ -> ዤ",
+      "reason": "The 5th-order (ኃምስ) loop on 'ዤ' (ይዤ,gerundive 1st person singular) is clearly visible and required by grammar alongside 'ገብቼ' and 'አድርጌ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 13,
+      "old_text": "ሽሬ ፡ ወርቄን ፡ ይዢ ፡ ከተማ ፡ ገብቼ ፡",
+      "corrected_text": "ሽሬ ፡ ወርቄን ፡ ይዤ ፡ ከተማ ፡ ገብቼ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዢ -> ዤ",
+      "reason": "The 5th-order (ኃምስ) loop on 'ዤ' in 'ይዤ' is printed and required by the 1st-person gerundive sequence ('ጠጥቼ ፡ ሽሬ ፡ ወርቄን ፡ ይዤ ፡ ከተማ ፡ ገብቼ')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 8,
+      "old_text": "⟪ወፍትወቱኒ ፡ ይኀልፍ ፡⟫",
+      "corrected_text": "⟪ወፍትወቱኒ ፡ የኀልፍ ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ይ -> የ",
+      "reason": "In Classical Ge'ez laryngeal verbs (ኀለፈ), the imperfect prefix vowel assimilates to 'የኀልፍ' (just as in L06 'ዓለሙኒ ፡ የኀልፍ'), which matches the printed glyph 'የ'."
+    }
+  ]
+}

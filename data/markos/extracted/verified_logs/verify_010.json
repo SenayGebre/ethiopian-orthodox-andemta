@@ -1,0 +1,26 @@
+{
+  "pdf_page": 10,
+  "book_page_ethiopic": "፫፻፳፱",
+  "elapsed_sec": 11.8,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 27,
+      "old_text": "⟪ወእለሂ አኀዙነ አጋንንት ር↵",
+      "corrected_text": "⟪ወእለሂ አኀዞሙ አጋንንት ር",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አኀዙነ -> አኀዞሙ",
+      "reason": "In Mark 3:11, the canonical Ge'ez verb with 3rd person plural object suffix is አኀዞሙ ('possessed them', translated in L30 as ያደሩባቸው), which is clearly printed on the page; Stage 1 misread ዞሙ as ዙነ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 37,
+      "old_text": "ቦአኔርጌስ ።⟫",
+      "corrected_text": "በአኔርጌስ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቦ -> በ",
+      "reason": "The printed Fidel is 1st-order በ (በአኔርጌስ), matching the repetition at the start of the next page."
+    }
+  ]
+}

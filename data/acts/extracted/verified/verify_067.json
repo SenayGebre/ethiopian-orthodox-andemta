@@ -1,0 +1,35 @@
+{
+  "pdf_page": 67,
+  "book_page_ethiopic": "፻፴፯ | ፻፴፰",
+  "elapsed_sec": 21.9,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 18,
+      "old_text": "ሥኡ ፡ እምኔሆሙ ፡ ብእሴ ፡ አይሁዳዌ ፡ ዘስሙ ፡ እስ ፡",
+      "corrected_text": "ሥኡ ፡ እምኔሆሙ ፡ ብእሴ ፡ አይሁዳዌ ፡ ዘስሙ ፡ እለ ፡",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እስ -> እለ",
+      "reason": "The printed text at the end of line 18 is 'እለ ፡' (which joins with line 19 'እስክንድሮስ' to form 'እለእስክንድሮስ', matching the Amharic translation in lines 20-21 'እለእስክንድሮስ')."
+    },
+    {
+      "column_index": 1,
+      "line_num": 32,
+      "old_text": "⟪እንዘ ፡ ይብሉ ፡ ዕንበት ፡ ዕበያ ፡ ለአርጤምስ ፡ እንተ ፡",
+      "corrected_text": "⟪እንዘ ፡ ይብሉ ፡ ስንበት ፡ ዕበያ ፡ ለአርጤምስ ፡ እንተ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዕንበት -> ስንበት",
+      "reason": "The printed Fidel is clearly 'ስ' ('ስንበት'), matching the commentary in Col 2 L01 ('አንድም ፡ ስንበተ ፡ ይላል')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 15,
+      "old_text": "ገንዘብ ፡ ቢኖርህ ፡ መልክ ፡ ክፉ ፡ ነህ ፡",
+      "corrected_text": "ገንዘብ ፡ ቢኖርህ ፡ መልከ ፡ ክፉ ፡ ነህ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "መልክ -> መልከ",
+      "reason": "The printed glyph is 1st-order 'ከ' ('መልከ ፡ ክፉ', compound construct state matching line 18 'መልከ ፡ ክፉ' and line 19 'መልከ ፡ መልካም')."
+    }
+  ]
+}

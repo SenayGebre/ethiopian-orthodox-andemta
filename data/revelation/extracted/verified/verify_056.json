@@ -1,0 +1,44 @@
+{
+  "pdf_page": 56,
+  "book_page_ethiopic": "፬፻፶፮ | ፬፻፶፯",
+  "elapsed_sec": 24.1,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 29,
+      "old_text": "እራት ፡ ኅብር ፡ አምስተኛ ፡ ወርቅ ፡ ዘቦ ፡",
+      "corrected_text": "አራት ፡ ኅብር ፡ አምስተኛ ፡ ወርቅ ፡ ዘቦ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እ -> አ",
+      "reason": "The printed Fidel is 1st-order አ ('አራት ኅብር' = four colors/types, followed by 'አምስተኛ' = fifth), which was misread as 6th-order እ due to slight ink wear."
+    },
+    {
+      "column_index": 2,
+      "line_num": 13,
+      "old_text": "⟪፲፰ ፤ ወጸርኀ ፡ ሰበ ፡ ርእዩ ፡ ውዕየተ ፡ ሀገራ ፡⟫",
+      "corrected_text": "⟪፲፰ ፤ ወጸርኁ ፡ ሰበ ፡ ርእዩ ፡ ውዕየተ ፡ ሀገራ ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኀ -> ኁ",
+      "reason": "Both visually (the right-side 2nd-order vowel mark on ኁ) and grammatically in Ge'ez (3rd person masculine plural matching ርእዩ and ወይቤሉ), the verb is ወጸርኁ ('and they cried out')."
+    },
+    {
+      "column_index": 2,
+      "line_num": 22,
+      "old_text": "⟪ወይጸርኀ ፡ ወይበክይዋ ፡ ወይላሕውዋ ፡ ወይብሉ ፡",
+      "corrected_text": "⟪ወይጸርኁ ፡ ወይበክይዋ ፡ ወይላሕውዋ ፡ ወይብሉ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኀ -> ኁ",
+      "reason": "The printed glyph has the 2nd-order stroke of ኁ (ወይጸርኁ, 3rd person plural matching ወይበክይዋ, ወይላሕውዋ, ወይብሉ, rendered in Amharic L27-28 as እየጮሁ)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 33,
+      "old_text": "ለቅሱላታል ፡ ሐተታ ፡ ሰሎሞን ፡ በጋ",
+      "corrected_text": "ለቅሱላታል ፡ ሐተታ ፡ ሰሎሞን ፡ በዓ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጋ -> ዓ",
+      "reason": "Joined across the line wrap with L34 ስዮን ፡ ጋቤር, the biblical port where King Solomon built ships (1 Kings 9:26) is በዓስዮን ፡ ጋቤር (Ezion-geber); the final character on L33 is ዓ, not ጋ."
+    }
+  ]
+}

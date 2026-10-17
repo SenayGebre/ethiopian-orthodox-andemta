@@ -1,0 +1,35 @@
+{
+  "pdf_page": 9,
+  "book_page_ethiopic": "፫፻፳፰ | ፫፻፳፱",
+  "elapsed_sec": 25.9,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 35,
+      "old_text": "ንድ ፡ ኤፌ ፡ ፭ ፡ ፲፭ ። ም ፡ ፻ ፡ ፲፰ ።",
+      "corrected_text": "ንድ ፡ ኤፌ ፡ ፭ ፡ ፲፭ ። ም ፡ ፪ ፡ ፲፰ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፻ -> ፪",
+      "reason": "The chapter reference after ም (ምዕራፍ) is the numeral ፪ (Chapter 2, verse 18 of James), which was misread as ፻ (100)."
+    },
+    {
+      "column_index": 4,
+      "line_num": 21,
+      "old_text": "⟪ወኵሉ ፡ እኩየ ፡ ምግባር ።⟫",
+      "corrected_text": "⟪ወኵሉ ፡ እኩይ ፡ ምግባር ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እኩየ -> እኩይ",
+      "reason": "Both visually on the page (6th-order ይ with its characteristic left loop) and in Ge'ez nominative syntax (ወኵሉ እኩይ ምግባር), the word is እኩይ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 31,
+      "old_text": "⟪ወእንተ ፡ በዐቅም ፡ እሆ ፡ በሃሊት ፡⟫",
+      "corrected_text": "⟪ወእንተ ፡ በዐቅም ፡ እወ ፡ በሃሊት ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እሆ -> እወ",
+      "reason": "The Ge'ez word is እወ ('yes', translated in the next line as እሺ በጀ የምታሰኝ), and the glyph on the page is clearly ወ rather than ሆ."
+    }
+  ]
+}

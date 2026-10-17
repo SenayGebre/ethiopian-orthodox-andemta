@@ -1,0 +1,17 @@
+{
+  "pdf_page": 64,
+  "book_page_ethiopic": "፬፻፵፬ | ፬፻፵፭",
+  "elapsed_sec": 11.3,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 4,
+      "line_num": 2,
+      "old_text": "ተው ፡ ከዳር፡ቆመው፡ ሳሉ ፡ ብንያም፡ በኋላ ፡",
+      "corrected_text": "ተው ፡ ከዳር፡ቁመው፡ ሳሉ ፡ ብንያም፡ በኋላ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቆመው -> ቁመው",
+      "reason": "The printed glyph in the image is 2nd-order ቁ ('ቁመው'), matching the archaic spelling used again on the very next line (L03 'ቁመው') and L04 ('ቁማችኋል')."
+    }
+  ]
+}

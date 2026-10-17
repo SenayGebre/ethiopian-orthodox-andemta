@@ -1,0 +1,98 @@
+{
+  "pdf_page": 111,
+  "book_page_ethiopic": "፪፻፴",
+  "elapsed_sec": 16.1,
+  "applied_count": 10,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "ያዝ ይሉታል።በ፫ በ፯ ፱ በ፲",
+      "corrected_text": "ያዝ ይሉታል።በ፫ በ፭ ፯ በ፲",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በ፯ ፱ -> በ፭ ፯",
+      "reason": "In the zoomed image, the numerals are clearly በ፫ በ፭ ፯ በ፲ (matching ባ፭ተኛው በ፯ተኛው ባ፲ኛው in lines 2-3)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 2,
+      "old_text": "ምልክት ይታይለታል ባ፱ቱ",
+      "corrected_text": "ምልክት ይታይለታል ባ፭ተ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ባ፱ቱ -> ባ፭ተ",
+      "reason": "The numeral is ፭ followed by 1st-order ተ wrapping to ኛው on L03 (ባ፭ተ↵ኛው, 'on the 5th')."
+    },
+    {
+      "column_index": 1,
+      "line_num": 4,
+      "old_text": "ሕትም ይይዛል ምልክት ባይታ↵",
+      "corrected_text": "ሕትዎ ይይዛል ምልክት ባይታ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ም -> ዎ",
+      "reason": "Continuation of ተባ↵ሕትዎ ('monastic solitude/hermitage'); ዎ was misread as ም."
+    },
+    {
+      "column_index": 1,
+      "line_num": 7,
+      "old_text": "ታይምና ወእኩዮሰ፡ሳይረዳ ተ↵",
+      "corrected_text": "ታይምና ወእኩየሰ፡ሳይረዳ ተ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዮ -> የ",
+      "reason": "Canonical Ge'ez lemma from Matthew 13:48 'ወእኩየሰ' (1st-order የ, accusative singular), clearly printed without a 7th-order loop."
+    },
+    {
+      "column_index": 1,
+      "line_num": 8,
+      "old_text": "ባሕትም እይዛለሁ ያለውን ግ↵",
+      "corrected_text": "ባሕትዎ እይዛለሁ ያለውን ግ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ም -> ዎ",
+      "reason": "Continuation of ተ↵ባሕትዎ; ዎ was misread as ም."
+    },
+    {
+      "column_index": 2,
+      "line_num": 20,
+      "old_text": "⟪እስከ ሰበ ይደመሙ ወይብሉ",
+      "corrected_text": "⟪እስከ ሶበ ይደመሙ ወይብሉ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሰበ -> ሶበ",
+      "reason": "Ge'ez temporal conjunction 'እስከ ሶበ' (7th-order ሶ), clearly visible in the image."
+    },
+    {
+      "column_index": 3,
+      "line_num": 4,
+      "old_text": "ወንድሞቹስ እነዚህ እነዚህ አ↵",
+      "corrected_text": "ወንድሞቹስ እኒህ እኒህ አ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እነዚህ -> እኒህ",
+      "reason": "The printed text clearly has the three-character archaic Andemta form 'እኒህ እኒህ' (not four-character እነዚህ)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 18,
+      "old_text": "ወዴት አገኘው እንዳላፈው ።",
+      "corrected_text": "ወዴት አገኘው እንዳለፈው ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ላ -> ለ",
+      "reason": "Standard Andemta cross-reference formula 'እንዳለፈው' ('as passed/explained above'), printed with 1st-order ለ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 19,
+      "old_text": "[፶፯] ⟪ወእኃዙ ያንጐርጉሩ በእንቲ↵",
+      "corrected_text": "[፶፯] ⟪ወአኃዙ ያንጐርጕሩ በእንቲ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወእኃዙ -> ወአኃዙ",
+      "reason": "Ge'ez 3rd person plural perfect verb 'ወአኃዙ' (with 1st-order አ) and labiovelar 'ያንጐርጕሩ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 32,
+      "old_text": "በእንተ ሃለዮ ሄሮድስ",
+      "corrected_text": "በእንተ ኅለዮ ሄሮድስ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሃ -> ኅ",
+      "reason": "Ge'ez verbal noun heading 'በእንተ ኅለዮ ሄሮድስ' ('Concerning Herod's thinking/supposing'), printed with 6th-order ኅ."
+    }
+  ]
+}

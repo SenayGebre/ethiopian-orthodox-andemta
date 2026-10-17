@@ -1,0 +1,62 @@
+{
+  "pdf_page": 5,
+  "book_page_ethiopic": "፫፻፳፬",
+  "elapsed_sec": 22.9,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 28,
+      "old_text": "ክፉ ጋኔን አንዘፈዘፈው ፥ሐ",
+      "corrected_text": "ቢስ ጋኔን አንዘፈዘፈው ፥ሐ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ክፉ -> ቢስ",
+      "reason": "The printed text at the start of line 28 clearly reads 'ቢስ ጋኔን' (archaic Andemta gloss for 'ጋኔን እኩይ'), which Stage 1 hallucinated/modernized as 'ክፉ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 22,
+      "old_text": "⟪ወይትአዘዙ ሎቱ።⟫",
+      "corrected_text": "⟪ወይትኤዘዙ ሎቱ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አ -> ኤ",
+      "reason": "The Ge'ez verb is printed with 5th-order ኀምስ 'ኤ' ('ወይትኤዘዙ'), visible from the bottom-right loop on the glyph and matching 'ይኤዝዞሙ' in line 13."
+    },
+    {
+      "column_index": 3,
+      "line_num": 4,
+      "old_text": "ዘ ትፈድን ወትሰክብ።⟫",
+      "corrected_text": "ዘ ትፈፅን ወትሰክብ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ድ -> ፅ",
+      "reason": "The glyph is 6th-order 'ፅ' ('ትፈፅን', having a fever, matching 'ፈፀንታ' in line 12), not 'ድ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 10,
+      "old_text": "ወአንሥአ።⟫",
+      "corrected_text": "ወአንሥኣ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አ -> ኣ",
+      "reason": "In Classical Ge'ez, the 3rd person feminine singular object suffix on 'ወአንሥኣ' ('and he raised her up', translated 'አሥነሣት' in line 11) is 4th-order 'ኣ', clearly visible with the shortened left leg."
+    },
+    {
+      "column_index": 3,
+      "line_num": 23,
+      "old_text": "ይዞ አድኗዋታል ፥ከቤት ከገባ",
+      "corrected_text": "ይዞ አድኗታል ፥ከቤት ከገባ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አድኗዋታል -> አድኗታል",
+      "reason": "The printed word has only four Fidels ('አድኗታል'); there is no extra 'ዋ' printed between 'ኗ' and 'ታ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 39,
+      "old_text": "ውያነ ወእለሂ አኅዛነ አጋን",
+      "corrected_text": "ውያነ ወእለሂ አኀዙ አጋን",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አኅዛነ -> አኀዙ",
+      "reason": "The canonical Ge'ez Gospel text (Mark 1:32) and the printed glyphs clearly read 'ወእለሂ አኀዙ አጋንንት' ('and those whom demons seized', 3 letters 'አኀዙ'), which was misread as 'አኅዛነ'."
+    }
+  ]
+}

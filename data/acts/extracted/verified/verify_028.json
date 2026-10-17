@@ -1,0 +1,35 @@
+{
+  "pdf_page": 28,
+  "book_page_ethiopic": "፳፰ | ፳፱",
+  "elapsed_sec": 18.7,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 17,
+      "old_text": "መልኩን ፡ አይተው ፡ ወሰሖቦን ፡ አርአ",
+      "corrected_text": "መልኩን ፡ አይተው ፡ ወሰሐቦን ፡ አርአ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሖ -> ሐ",
+      "reason": "Classical Ge'ez verb ሰሐበ with feminine plural object suffix -ኦን is ወሰሐቦን ('and his appearance drew them'); the printed glyph is 1st-order ሐ, not 7th-order ሖ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 9,
+      "old_text": "ቢሉ ፡ ኩብሸ ፡ የሚባል ፡ ደዌ ፡ ነበረባትና፡",
+      "corrected_text": "ቢሉ ፡ ኩብሽ ፡ የሚባል ፡ ደዌ ፡ ነበረባትና፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሸ -> ሽ",
+      "reason": "The printed Fidel at the end of ኩብሽ has the 6th-order ሽ top-stroke, which is the standard Amharic name of the skin disease (ኩብሽ)."
+    },
+    {
+      "column_index": 4,
+      "line_num": 9,
+      "old_text": "ያጠ. ፡ ሥርን ። አንድም ፡ ነፍጥ ፡ መጠ",
+      "corrected_text": "ያጠ ፡ ሥርን ። አንድም ፡ ነፍጥ ፡ መጠ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ያጠ. -> ያጠ",
+      "reason": "Removed stray ASCII period caused by an ink speck before the Ethiopic word-space colon in ያጠ ፡ ሥርን (የዕፀ ሥርን)."
+    }
+  ]
+}

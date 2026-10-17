@@ -1,0 +1,53 @@
+{
+  "pdf_page": 57,
+  "book_page_ethiopic": "፭፻፷፯",
+  "elapsed_sec": 17.9,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 4,
+      "old_text": "ነሡ።ብእሴ ጸድተ ያለው ማ",
+      "corrected_text": "ነሡ።ብእሴ ጸድቀ ያለው ማ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ተ -> ቀ",
+      "reason": "The printed glyph has the central vertical stem of ቀ, reading the classical Ge'ez theological phrase 'ብእሴ ጸድቀ' (referring to Christ's humanity which was justified/sanctified)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 10,
+      "old_text": "ወወጽአ እምኵራብ ወኃለፈ እን",
+      "corrected_text": "ወወጽአ እምኵራብ ወኃለፈ እ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እን -> እ",
+      "reason": "In the printed column, line 10 ends with 'እ' and 'ንተ' begins line 11."
+    },
+    {
+      "column_index": 1,
+      "line_num": 11,
+      "old_text": "ተ ማዕከሎሙ፤⟫",
+      "corrected_text": "ንተ ማዕከሎሙ፤⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ተ -> ንተ",
+      "reason": "Line 11 clearly begins with 'ንተ' completing 'እንተ' from the end of line 10."
+    },
+    {
+      "column_index": 1,
+      "line_num": 14,
+      "old_text": "ት እንዲሆነ ከረቂቅ መለኮት",
+      "corrected_text": "ት እንደሆነ ከረቂቅ መለኮት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዲ -> ደ",
+      "reason": "Both visually on the page (first-order ደ without a right-side foot serif) and grammatically in Amharic ('ረቂቅ መለኮት እንደሆነ'), the character is ደ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 6,
+      "old_text": "ዕውር ሆኖ ይወለድ ዘንድ ። ሕ",
+      "corrected_text": "ዕውር ሁኖ ይወለድ ዘንድ ። ሕ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሆ -> ሁ",
+      "reason": "The printed glyph has the right-side mid-stroke of 2nd-order ሁ ('ሁኖ'), consistent with the archaic Andemta orthography throughout this page."
+    }
+  ]
+}

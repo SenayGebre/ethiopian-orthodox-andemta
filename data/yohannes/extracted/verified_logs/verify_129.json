@@ -1,0 +1,35 @@
+{
+  "pdf_page": 129,
+  "book_page_ethiopic": "፮፻፴፰",
+  "elapsed_sec": 12.7,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 20,
+      "old_text": "፲፭",
+      "corrected_text": "፳፩",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፲፭ -> ፳፩",
+      "reason": "The numeral printed on Col 1 Line 20 corresponding to 'እስከ ሰብዕኑ' (Matt 18:21) is clearly ፳፩ (21), not a duplicate ፲፭."
+    },
+    {
+      "column_index": 2,
+      "line_num": 15,
+      "old_text": "⟪ዕዉር ዕውረ ለእመ መርሐ።⟫",
+      "corrected_text": "⟪ዕውር ዕውረ ለእመ መርሐ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዉ -> ው",
+      "reason": "Both instances use the 6th-order 'ው' (ዕውር ዕውረ) in the printed text."
+    },
+    {
+      "column_index": 2,
+      "line_num": 24,
+      "old_text": "⟪እስመ የአስሩ ፆረ ክቡደ።⟫",
+      "corrected_text": "⟪እስመ የአስሩ ጾረ ክቡደ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፆ -> ጾ",
+      "reason": "The printed glyph has the two legs of ጸ-family 'ጾ' (ጾረ), not ፀ-family 'ፆ'."
+    }
+  ]
+}

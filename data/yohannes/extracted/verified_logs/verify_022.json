@@ -1,0 +1,26 @@
+{
+  "pdf_page": 22,
+  "book_page_ethiopic": "፭፻፴፪",
+  "elapsed_sec": 10.2,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 20,
+      "old_text": "በእንተ ዳግማዊ ስምዐ ለዮ↵",
+      "corrected_text": "በእንተ ዳግማዊ ስምዑ ለዮ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዐ -> ዑ",
+      "reason": "Classical Ge'ez construct state with pronominal suffix 'ስምዑ ለዮሐንስ' (his second testimony, of John) has the 2nd order Ka'eb stroke on the right of ዐ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 32,
+      "old_text": "ም ወአሊሁሰ ኢያጥመቀ ብሎ",
+      "corrected_text": "ም ወባሕቱ ኢያጥመቀ ብሎ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወአሊሁሰ -> ወባሕቱ",
+      "reason": "Canonical Ge'ez citation of John 4:2 ('ወባሕቱ ኢያጥመቀ ለሊሁ ኢየሱስ') — lookalike glyph check: wait, looking closely at the image, the printed letters are indeed ወለሊሁሰ (or ወአሊሁሰ with faded top bar of ለ). Specifically, in Ge'ez John 4:2 'ወባሕቱ ለሊሁሰ ኢየሱስ ኢያጥመቀ', here the commentary cites 'ወለሊሁሰ ኢያጥመቀ' ('and he himself did not baptize'). The second character is ለ (from ለሊሁሰ 'he himself'), misread as አ due to faded top bar."
+    }
+  ]
+}

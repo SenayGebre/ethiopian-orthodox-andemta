@@ -1,0 +1,35 @@
+{
+  "pdf_page": 66,
+  "book_page_ethiopic": "፬፻፼፳ | ፬፻፼፳፩",
+  "elapsed_sec": 22.0,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 8,
+      "old_text": "ርና ፡ ርኵሰና ፡ አሕዛብም ፡ ሁሉ ፡ ለመ",
+      "corrected_text": "ርና ፡ ርጕልና ፡ አሕዛብም ፡ ሁሉ ፡ ለመ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ርኵሰና -> ርጕልና",
+      "reason": "The printed text in Col 2 L08 clearly shows 'ርጕልና' (senility/darkness/blindness, paired with ድንቁርና), where ጕ and ል were misread as ኵ and ሰ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 10,
+      "old_text": "፳፯ ፤ ⟪ወኢይበውእ ፡ ውስቴታ ፡ ኵሉ ፡ ዘርኵሰ ፡",
+      "corrected_text": "፳፯ ፤ ⟪ወኢይበውእ ፡ ውስቴታ ፡ ኵሉ ፡ ዘርኩስ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዘርኵሰ -> ዘርኩስ",
+      "reason": "Visual inspection of Col 2 L10 shows 2nd-order 'ኩ' (not labialized ኵ) and 6th-order 'ስ' (with the top-left serif of sadis), forming the canonical Ge'ez 'ዘርኩስ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 18,
+      "old_text": "፫ ፤ ⟪ወአልቦ ፡ እንከ ፡ ርኩሰ ፡ ወኢምንትኒ ።⟫",
+      "corrected_text": "፫ ፤ ⟪ወአልቦ ፡ እንከ ፡ ርኩስ ፡ ወኢምንትኒ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ርኩሰ -> ርኩስ",
+      "reason": "The printed glyph in Col 3 L18 is 6th-order 'ስ' ('ርኩስ', nominative/predicate after አልቦ), not 1st-order 'ሰ'."
+    }
+  ]
+}

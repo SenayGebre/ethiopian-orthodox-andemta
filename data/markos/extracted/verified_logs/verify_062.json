@@ -1,0 +1,44 @@
+{
+  "pdf_page": 62,
+  "book_page_ethiopic": "፫፻፹፩",
+  "elapsed_sec": 15.9,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 3,
+      "old_text": "በእንተ ካልዕት ምጽዓቱ ለወ",
+      "corrected_text": "በእንተ ካልእት ምጽአቱ ለወ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ካልዕት ምጽዓቱ -> ካልእት ምጽአቱ",
+      "reason": "Both words are printed with Alef (እ/አ) rather than Ayin (ዕ/ዓ) in the image, matching standard Ge'ez orthography for ካልእት and ምጽአቱ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 12,
+      "old_text": "በእንተ ዘከመ ክሠተ ለሐዋ",
+      "corrected_text": "በእንተ ዘከመ ከሠተ ለሐዋ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ክሠተ -> ከሠተ",
+      "reason": "The printed glyph has the 1st-order (ግዕዝ) form ከ rather than 6th-order ክ, forming the canonical Ge'ez perfective verb ከሠተ ('he revealed')."
+    },
+    {
+      "column_index": 1,
+      "line_num": 26,
+      "old_text": "ዘከመ አስተድኀርዎ ለኢየሱ",
+      "corrected_text": "ዘከመ አስተዳኀርዎ ለኢየሱ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አስተድኀርዎ -> አስተዳኀርዎ",
+      "reason": "The printed glyph clearly shows 4th-order ዳ (አስተዳኀርዎ) rather than 6th-order ድ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 8,
+      "old_text": "የቁርባንን ምሥጢር እንደ ሠራ።",
+      "corrected_text": "የቍርባንን ምሥጢር እንደ ሠራ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "የቁርባንን -> የቍርባንን",
+      "reason": "The printed text uses the labiovelar ቍ (የቍርባንን) rather than ቁ."
+    }
+  ]
+}

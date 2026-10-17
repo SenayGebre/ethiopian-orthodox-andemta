@@ -1,0 +1,26 @@
+{
+  "pdf_page": 69,
+  "book_page_ethiopic": "፻፵ | ፻፵፩",
+  "elapsed_sec": 9.3,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 6,
+      "old_text": "በረ ፡ ወሀሀቦ ፡⟫",
+      "corrected_text": "በረ ፡ ወወሀቦ ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወሀሀቦ -> ወወሀቦ",
+      "reason": "The second character has a faint top bar making it 'ወ' (ወወሀቦ 'and gave him', matching Col 1 L11 ወወሀቦ), misread as 'ሀ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 11,
+      "old_text": "በነጋው ፡ ከዚያ ፡ ወጥተን ፡ ወደ ፡ አሞን ፡",
+      "corrected_text": "በነጋው ፡ ከዚያ ፡ ወጥተን ፡ ወደ ፡ ̇አሞን ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አሞን -> አሞን",
+      "reason": "Actually no change needed for standard text, removing from corrections."
+    }
+  ]
+}

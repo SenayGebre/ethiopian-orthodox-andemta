@@ -1,0 +1,26 @@
+{
+  "pdf_page": 80,
+  "book_page_ethiopic": "፻፶፪ | ፻፶፫",
+  "elapsed_sec": 13.7,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 3,
+      "old_text": "⟪፳፪ ፤ ወፈልክስሰ ፡ የአምር ፡ ከመ ፡ እምትካት ፡",
+      "corrected_text": "⟪፳፪ ፤ ወፊልክስሰ ፡ የአምር ፡ ከመ ፡ እምትካት ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፈ -> ፊ",
+      "reason": "The printed glyph in ወፊልክስሰ clearly has the 3rd-order vowel ring on the bottom-right leg (ፊ, not ፈ), matching standard Ge'ez spelling of Felix (ፊልክስ) throughout the page."
+    },
+    {
+      "column_index": 1,
+      "line_num": 20,
+      "old_text": "⟪፳፫ ፤ ወአዘዞ ፡ ለሓቤ ፡ ቤተ ፡ ሞቅሕ ፡ ከመ ፡ ኢያ↵",
+      "corrected_text": "⟪፳፫ ፤ ወአዘዞ ፡ ለዓቃቤ ፡ ቤተ ፡ ሞቅሕ ፡ ከመ ፡ ኢያ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሓ -> ዓቃ",
+      "reason": "In the zoomed image of Col 1 L20, the word after ወአዘዞ is clearly printed as ለዓቃቤ ('to the keeper/guard of the prison', translated in L22 as የሥር ቤት ጠባቂውንም), where ዓቃ was misread as a single character ሓ."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "pdf_page": 24,
+  "book_page_ethiopic": "፻፶፬ | ፻፶፭",
+  "elapsed_sec": 24.6,
+  "applied_count": 9,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 36,
+      "old_text": "ማሉ ፡ እንደድቃለን ፡ ብለው ፡ ይደርቃሉ ፡",
+      "corrected_text": "ማሉ ፡ እንጸድቃለን ፡ ብለው ፡ ይደርቃሉ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ደ -> ጸ",
+      "reason": "The printed glyph has the two-legged base of ጸ ('እንጸድቃለን', 'we shall be justified'), which was misread as ደ due to ink wear."
+    },
+    {
+      "column_index": 2,
+      "line_num": 15,
+      "old_text": "ኩይ ፡ ምግባሪክሙ ፡ ይትኀፈሩ ፡ እለ ፡ ይዜምዩክ",
+      "corrected_text": "ኩይ ፡ ምግባሪክሙ ፡ ይትኀፈሩ ፡ እለ ፡ ይሐምዩክ⟫",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዜ -> ሐ",
+      "reason": "The Ge'ez Scripture verb is 'ይሐምዩክሙ' ('those who slander/revile you', matching L14); the glyph ሐ was misread as ዜ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 19,
+      "old_text": "አድራጊ ፡ አድርገው ፡ የሚነቅፏዋችሁ ፡",
+      "corrected_text": "አድራጊ ፡ አድርገው ፡ የሚነቅፏችሁ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፏዋ -> ፏ",
+      "reason": "The image clearly prints 'የሚነቅፏችሁ' (4 characters after ሚ: ነ-ቅ-ፏ-ች-ሁ) without an extra ዋ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 20,
+      "old_text": "ሰዎች ፡ ቢኖሩ ፡ የሚነቅፏዋችሁ ፡ ሰዎች ፡",
+      "corrected_text": "ሰዎች ፡ ቢኖሩ ፡ የሚነቅፏችሁ ፡ ሰዎች ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፏዋ -> ፏ",
+      "reason": "The image clearly prints 'የሚነቅፏችሁ' without an extra ዋ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 21,
+      "old_text": "ምላሹ ፡ ያጡ ፡ ዘንድ ፡ (ጥቅ) ፡ ከመ ፡ ይት",
+      "corrected_text": "ምላሽ ፡ ያጡ ፡ ዘንድ ፡ (ጥቅ) ፡ ከመ ፡ ይት",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሹ -> ሽ",
+      "reason": "The printed word is 'ምላሽ' (6th order ሽ, 'so that they may lack an answer'), where a slight ink speck on the right was misread as ሹ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 22,
+      "old_text": "ኀፈር ፡ ጸላኢ ፡ ወይኅጣዕ፡ ቃለ፡ ሕሠመ ፡",
+      "corrected_text": "ኀፈር ፡ ጸላኢ ፡ ወይኅጣዕ፡ ቃለ፡ ሕሡመ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሠ -> ሡ",
+      "reason": "Both the image (showing the 2nd-order stroke on the right leg of ሡ) and Ge'ez grammar ('ቃለ ሕሡመ', 'an evil/base word', Titus 2:8) confirm 'ሕሡመ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 30,
+      "old_text": "ሻላልና፡አሠንዩ፡ግዕዘክሙ፡ላለው፡ቍ፡፲፬ ።",
+      "corrected_text": "ሻላልና፡አሠንዩ፡ግዕዘክሙ፡ላለው፡ቍ፡፲፮ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፲፬ -> ፲፮",
+      "reason": "The cross-reference points back to verse 16 ('ቍ ፡ ፲፮', where 'አሠንዩ ግዕዘክሙ' appears at L07-08 of this same column), and the glyph is ፮."
+    },
+    {
+      "column_index": 4,
+      "line_num": 17,
+      "old_text": "ቅሩ ፡ አለማለቱን ፡ ደጅ ፡ ሲጸኑ ፡ ለነበሩ።",
+      "corrected_text": "ቅሩ ፡ አለማለቱን ፡ ደጅ ፡ ሲጠኑ ፡ ለነበሩ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጸ -> ጠ",
+      "reason": "The idiom is 'ደጅ ሲጠኑ' (waiting upon/petitioning at the door, as in L14 and L21), and the printed glyph has the three legs of ጠ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 19,
+      "old_text": "ደጅ ፡ ሲጸኑ ፡ ለነበሩ ። አንድም ፡ ሕማ",
+      "corrected_text": "ደጅ ፡ ሲጠኑ ፡ ለነበሩ ። አንድም ፡ ሕማ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጸ -> ጠ",
+      "reason": "The idiom is 'ደጅ ሲጠኑ' (as in L14 and L21), and the printed glyph clearly shows the three-legged ጠ."
+    }
+  ]
+}

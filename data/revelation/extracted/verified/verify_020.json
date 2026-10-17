@@ -1,0 +1,17 @@
+{
+  "pdf_page": 20,
+  "book_page_ethiopic": "፫፻፳፮ | ፫፻፳፯",
+  "elapsed_sec": 18.4,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 4,
+      "line_num": 6,
+      "old_text": "ታል ፡ እሱም ፡ ሲሸሽ ፡ ድልድይ ፡ ተንድ፡",
+      "corrected_text": "ታል ፡ እሱም ፡ ሲሸሽ ፡ ድልድይ ፡ ተንዶ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ተንድ -> ተንዶ",
+      "reason": "The 7th-order (ሳብዕ) top loop of 'ዶ' in 'ተንዶ' ('having collapsed', from ተናደ) is slightly light in the print and was misread as 6th-order 'ድ'."
+    }
+  ]
+}

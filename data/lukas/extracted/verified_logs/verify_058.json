@@ -1,0 +1,44 @@
+{
+  "pdf_page": 58,
+  "book_page_ethiopic": "፬፻፵",
+  "elapsed_sec": 16.5,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 28,
+      "old_text": "ተፈረደበት ። ⟪ወተዳደቁ ።⟫ መል",
+      "corrected_text": "ተፈረደበት ። ⟪ወተዓደዎ ።⟫ መል",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወተዳደቁ -> ወተዓደዎ",
+      "reason": "The Ge'ez root quote from Luke 10:31 ('passed by him') is printed as ወተዓደዎ (with ዓ and ዎ), which Stage 1 misread as ወተዳደቁ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 30,
+      "old_text": "ው በጸለየው ጸሎት በቀረበው",
+      "corrected_text": "ው በጸለየው ጸሎት ባቀረበው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በቀረበው -> ባቀረበው",
+      "reason": "The image shows the 4th-order ባ in ባቀረበው ('by the sacrifice which he offered', parallel to ባቀረቡት in line 38), where the shortened left leg of ባ was misread as 1st-order በ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 18,
+      "old_text": "ንድ ፥ ⟪ወጸአኖ⟫ በአህያ ተቀመ",
+      "corrected_text": "ንድ ፥ ⟪ወጸዓኖ⟫ በአህያ ተቀመ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ወጸአኖ -> ወጸዓኖ",
+      "reason": "The printed Ge'ez verb is ወጸዓኖ (with 4th-order ዓ, 'and set him on'), where ዓ was misread as አ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 22,
+      "old_text": "ራቅሊጦስ ነው ፥ የጰራቅሊጦስ",
+      "corrected_text": "ራቅሊጦስ ነው ፥ በጰራቅሊጦስ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "የጰራቅሊጦስ -> በጰራቅሊጦስ",
+      "reason": "Visually and grammatically the text reads በጰራቅሊጦስ ('by the Paraclete bringing forth Old and New Testaments...'), where the initial በ was misread as የ."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "pdf_page": 65,
+  "book_page_ethiopic": "፻፹፬",
+  "elapsed_sec": 7.1,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 36,
+      "old_text": "[፳] በርቀው ቢያምረው ደገመው",
+      "corrected_text": "[፳] ቢርቀው ቢያምረው ደገመው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በ -> ቢ",
+      "reason": "The conditional prefix 'ቢ-' in 'ቢርቀው' (paired with 'ቢያምረው ደገመው', a standard Andemta formula meaning 'because it became distant / because it pleased him, he repeated it') clearly has the 3rd-order right-leg serif of 'ቢ' in the zoomed image, which was misread as 1st-order 'በ'."
+    }
+  ]
+}

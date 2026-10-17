@@ -1,0 +1,26 @@
+{
+  "pdf_page": 24,
+  "book_page_ethiopic": "፬፻፮",
+  "elapsed_sec": 19.3,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 5,
+      "old_text": "ዎስ ማኅצי ይላል ከዚህ ጕድ",
+      "corrected_text": "ዎስ ማኅፀ ይላል ከዚህ ጕድ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "צי -> ፀ",
+      "reason": "Stage-1 OCR hallucinated Hebrew characters 'צי' for the Ge'ez Fidel 'ፀ' in 'ማኅፀ' (axe, Matthew 3:10)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 14,
+      "old_text": "ቴዎስ ማኅצי አለ ።",
+      "corrected_text": "ቴዎስ ማኅፀ አለ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "צי -> ፀ",
+      "reason": "Stage-1 OCR hallucinated Hebrew characters 'צי' for the Ge'ez Fidel 'ፀ' in 'ማኅፀ' (axe)."
+    }
+  ]
+}

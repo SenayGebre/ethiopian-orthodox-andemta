@@ -1,0 +1,35 @@
+{
+  "pdf_page": 5,
+  "book_page_ethiopic": "፻፻፬ | ፻፻፭",
+  "elapsed_sec": 19.1,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "ብዩ ፡ ምንም ፡ ለአጠይቆ ፡ አካላት ፡ ፫ ፡ ስላልሁ ፡ በባሕርይ ፡ በሕልውና ፡ ፩ ፡",
+      "corrected_text": "ብዬ ፡ ምንም ፡ ለአጠይቆ ፡ አካላት ፡ ፫ ፡ ስላልሁ ፡ በባሕርይ ፡ በሕልውና ፡ ፩ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ብዩ -> ብዬ",
+      "reason": "The first word is clearly printed with the 5th-order loop (ብዬ 'saying'), matching the preceding page's 'ሠራፂ ፡ ብዬ' and L02/L03/L04 'ብዬ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 17,
+      "old_text": "ልል ፡ መልዕልተ ፡ ማይ ፡ ወመንፈስ ፡ ቅዱስ ፡ ዘኀደር ፡ ላዕሌሁ ፡ በመጻሕፍተ ፡ ነ↵",
+      "corrected_text": "ልል ፡ መልዕልተ ፡ ማይ ፡ ወመንፈስ ፡ ቅዱስ ፡ ዘኀደረ ፡ ላዕሌሁ ፡ በመጻሕፍተ ፡ ነ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዘኀደር -> ዘኀደረ",
+      "reason": "Ge'ez 3rd person masculine singular perfective relative verb is 'ዘኀደረ' (1st order ረ, 'who dwelt upon him', Num 11:25/26), as printed on the page."
+    },
+    {
+      "column_index": 2,
+      "line_num": 13,
+      "old_text": "እምርያም ፡ የሚሉ ፡ እለ ፡ ፎጢኖስ ፡ ፩ ፡ ገጽ ፡ የሚል ፡ ሰባልዮስ ፡ ፍጡር ፡ የ↵",
+      "corrected_text": "እምማርያም ፡ የሚሉ ፡ እለ ፡ ፎጢኖስ ፡ ፩ ፡ ገጽ ፡ የሚል ፡ ሰባልዮስ ፡ ፍጡር ፡ የ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እምርያም -> እምማርያም",
+      "reason": "Looking closely at the print at the start of Col 2 L13, the characters are 'እምማርያም' (the Photinian heresy 'ለፌ እምማርያም', claiming Christ's beginning was only from Mary), though the 'ም' and 'ማ' are tightly kerning/ligatured."
+    }
+  ]
+}

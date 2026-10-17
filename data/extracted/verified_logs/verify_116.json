@@ -1,0 +1,35 @@
+{
+  "pdf_page": 116,
+  "book_page_ethiopic": "፪፻፴፭",
+  "elapsed_sec": 22.7,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 8,
+      "old_text": "ንዱ ደክሞ ቀረ አንዱን አድ↵",
+      "corrected_text": "ንዱ ደክሞ ቀረ አንዱን እደ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አድ -> እደ",
+      "reason": "Visual inspection of Col 1 L08 shows 'እደ' (with the central loop of 6th-order 'እ' as in L09 'እየመራች', and 1st-order 'ደ' without the top-left hook of 'ድ'), forming the Patristic phrase 'እደ ብርሀት እየመራች' ('a hand of light guiding him')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 27,
+      "old_text": "በሐከ ዘበቈዓከ ይላል ። እኔን",
+      "corrected_text": "ባሐከ ዘበቈዓከ ይላል ። እኔን",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በሐከ -> ባሐከ",
+      "reason": "The first character of L27 has the shortened left leg of 4th-order 'ባ', completing the Ge'ez verb 'ዘረባሐከ' ('that which profited you')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 31,
+      "old_text": "ተታ እስሩግ እስራኤል የወለ↵",
+      "corrected_text": "ተታ አዕሩግ እስራኤል የወለ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እስሩግ -> አዕሩግ",
+      "reason": "The printed text in Col 3 L31 clearly reads 'አዕሩግ እስራኤል' ('the elders/old men of Israel', plural of 'ዓሩግ'), where 'አዕ' was misread as 'እስ'."
+    }
+  ]
+}

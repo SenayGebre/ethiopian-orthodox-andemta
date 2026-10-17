@@ -1,0 +1,598 @@
+{
+  "pdf_page": 131,
+  "book_page_arabic": 640,
+  "book_page_ethiopic": "፮፻፵",
+  "page_type": "canon_table",
+  "running_header": "፮፻፵ | ስድስተኛው ሰንጠረዠ ሁለቱ ወንጌላውያን ማቴዎስና ማርቆስ የሚተባበሩበት ።",
+  "toc_entries": [
+    {
+      "row_num": 1,
+      "geez_title": "ማቴዎስ ም ቍ",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": null,
+      "amharic_title": "ማርቆስ ም ቍ"
+    },
+    {
+      "row_num": 2,
+      "geez_title": "ወይቤሎሙ ትውልድ ዕሉት ።",
+      "chapter_ethiopic": "፲፮",
+      "verse_ethiopic": "፬",
+      "amharic_title": "፰ ፲፩"
+    },
+    {
+      "row_num": 3,
+      "geez_title": "አስመሁ ኅብስተ ኢነሣዕክሙ ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፰",
+      "amharic_title": "፲፯"
+    },
+    {
+      "row_num": 4,
+      "geez_title": "ወአኀዞ ይክልዖ ጴጥሮስ ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፳፪",
+      "amharic_title": "፴፪"
+    },
+    {
+      "row_num": 5,
+      "geez_title": "ወይቤሉ ጸሐፍት ኤልያስ ይቀድም ።",
+      "chapter_ethiopic": "፲፯",
+      "verse_ethiopic": "፲፩",
+      "amharic_title": "፱ ፲"
+    },
+    {
+      "row_num": 6,
+      "geez_title": "በጽሐ ብሔረ ይሁዳ ።",
+      "chapter_ethiopic": "፲፱",
+      "verse_ethiopic": "፩",
+      "amharic_title": "፲ ፩"
+    },
+    {
+      "row_num": 7,
+      "geez_title": "ወመጽአት እሞሙ ።",
+      "chapter_ethiopic": "፳",
+      "verse_ethiopic": "፳",
+      "amharic_title": "፴፭"
+    },
+    {
+      "row_num": 8,
+      "geez_title": "ወረከበ ዕፀ በለስ ።",
+      "chapter_ethiopic": "፳፩",
+      "verse_ethiopic": "፲፱",
+      "amharic_title": "፲፩ ፲፫"
+    },
+    {
+      "row_num": 9,
+      "geez_title": "እመ ብክሙ ሃይማኖት ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፳፩",
+      "amharic_title": "፳፪"
+    },
+    {
+      "row_num": 10,
+      "geez_title": "ወተስእሎ ጸሐፊ ።",
+      "chapter_ethiopic": "፳፪",
+      "verse_ethiopic": "፴፭",
+      "amharic_title": "፲፪ ፳፰"
+    },
+    {
+      "row_num": 11,
+      "geez_title": "ወትሰበክ ዛቲ ወንጌል ።",
+      "chapter_ethiopic": "፳፬",
+      "verse_ethiopic": "፲፬",
+      "amharic_title": "፲፫ ፲፩"
+    },
+    {
+      "row_num": 12,
+      "geez_title": "እምከመ ርኢክሙ ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፲፭",
+      "amharic_title": "፲፬"
+    },
+    {
+      "row_num": 13,
+      "geez_title": "ወጸልዩ ባሕቱ ከመ ኢይኩን ጉያክሙ ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፳",
+      "amharic_title": "፲፰"
+    },
+    {
+      "row_num": 14,
+      "geez_title": "ሶበ ኢኀጽራ ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፳፪",
+      "amharic_title": "፳"
+    },
+    {
+      "row_num": 15,
+      "geez_title": "እስመ ይመጽኡ ሐሳውያን ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፳፬",
+      "amharic_title": "፳፪"
+    },
+    {
+      "row_num": 16,
+      "geez_title": "ወበእንተሰ ይእቲ ዕለት ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፴፮",
+      "amharic_title": "፴፪"
+    },
+    {
+      "row_num": 17,
+      "geez_title": "እስመ ኢተአምሩ ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፵፬",
+      "amharic_title": "፴፭"
+    },
+    {
+      "row_num": 18,
+      "geez_title": "እምኀየሶ ሶበ ኢተወልደ ።",
+      "chapter_ethiopic": "፳፮",
+      "verse_ethiopic": "፳፬",
+      "amharic_title": "፲፬ ፳፩"
+    },
+    {
+      "row_num": 19,
+      "geez_title": "እንቢቦሙ ወሰቢሖሙ ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፴",
+      "amharic_title": "፳፮"
+    },
+    {
+      "row_num": 20,
+      "geez_title": "ወእምድኅረ ተንሣእኩ እቀድሞሙ ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፴፪",
+      "amharic_title": "፳፰"
+    },
+    {
+      "row_num": 21,
+      "geez_title": "ወይቤሎሙ ንበሩ ዝየ ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፴፮",
+      "amharic_title": "፴፪"
+    },
+    {
+      "row_num": 22,
+      "geez_title": "ወካዕበ ሖረ ወጸለየ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፵፪",
+      "amharic_title": "፴፭"
+    },
+    {
+      "row_num": 23,
+      "geez_title": "ወእምዝ ኀደግዎ አርዳኢሁ ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፶፮",
+      "amharic_title": "፶"
+    },
+    {
+      "row_num": 24,
+      "geez_title": "ወሰጠጠ አልባሲሁ ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፷፭",
+      "amharic_title": "፷፫"
+    },
+    {
+      "row_num": 25,
+      "geez_title": "ወእምዝ ተመጠውዎ ሰገራት ።",
+      "chapter_ethiopic": "፳፯",
+      "verse_ethiopic": "፳፯",
+      "amharic_title": "፲፭ ፲፮"
+    },
+    {
+      "row_num": 26,
+      "geez_title": "ወጸርሐ እግዚእ ኢየሱስ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፵፮",
+      "amharic_title": "፴፬"
+    },
+    {
+      "row_num": 27,
+      "geez_title": "ወሀለዋ አንስት ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፶፭",
+      "amharic_title": "፵"
+    },
+    {
+      "row_num": 28,
+      "geez_title": "ወተሣለቅዎ ሰለብዎ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፴፩",
+      "amharic_title": "፳"
+    },
+    {
+      "row_num": 29,
+      "geez_title": "ወእለሂ የኀልፉ ይጸርፉ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፴፱",
+      "amharic_title": "፳፱"
+    },
+    {
+      "row_num": 30,
+      "geez_title": "ወይቤሎ አንተ ትቤ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፲፩",
+      "amharic_title": "፪"
+    },
+    {
+      "row_num": 31,
+      "geez_title": "ወመስዮ መጽአ ብእሲ ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፶፯",
+      "amharic_title": "፵፪"
+    },
+    {
+      "row_num": 32,
+      "geez_title": "ወሀለዋ አንስትኒ ይቀውማ።",
+      "chapter_ethiopic": null,
+      "verse_ethiopic": "፷፩",
+      "amharic_title": "፵፯"
+    }
+  ],
+  "columns": [
+    {
+      "column_index": 1,
+      "lines": [
+        {
+          "line_num": 1,
+          "line_type": "section_title",
+          "text": "፮ ዮሰብዩ"
+        },
+        {
+          "line_num": 2,
+          "line_type": "section_title",
+          "text": "ማቴዎስ ማርቆስ"
+        },
+        {
+          "line_num": 3,
+          "line_type": "section_title",
+          "text": "ም ቍ ም ቍ"
+        },
+        {
+          "line_num": 4,
+          "line_type": "body",
+          "text": "፲፮ ፬ ፰ ፲፩"
+        },
+        {
+          "line_num": 5,
+          "line_type": "body",
+          "text": "፰ ፲፯"
+        },
+        {
+          "line_num": 6,
+          "line_type": "body",
+          "text": "፳፪ ፴፪"
+        },
+        {
+          "line_num": 7,
+          "line_type": "body",
+          "text": "፲፯ ፲፩ ፱ ፲"
+        },
+        {
+          "line_num": 8,
+          "line_type": "body",
+          "text": "፲፱ ፩ ፲ ፩"
+        },
+        {
+          "line_num": 9,
+          "line_type": "body",
+          "text": "፳ ፳ ፴፭"
+        },
+        {
+          "line_num": 10,
+          "line_type": "body",
+          "text": "፳፩ ፲፱ ፲፩ ፲፫"
+        },
+        {
+          "line_num": 11,
+          "line_type": "body",
+          "text": "፳፩ ፳፪"
+        },
+        {
+          "line_num": 12,
+          "line_type": "body",
+          "text": "፳፪ ፴፭ ፲፪ ፳፰"
+        },
+        {
+          "line_num": 13,
+          "line_type": "body",
+          "text": "፳፬ ፲፬ ፲፫ ፲፩"
+        },
+        {
+          "line_num": 14,
+          "line_type": "body",
+          "text": "፲፭ ፲፬"
+        },
+        {
+          "line_num": 15,
+          "line_type": "body",
+          "text": "፳ ፲፰"
+        },
+        {
+          "line_num": 16,
+          "line_type": "body",
+          "text": "፳፪ ፳"
+        },
+        {
+          "line_num": 17,
+          "line_type": "body",
+          "text": "፳፬ ፳፪"
+        },
+        {
+          "line_num": 18,
+          "line_type": "body",
+          "text": "፴፮ ፴፪"
+        },
+        {
+          "line_num": 19,
+          "line_type": "body",
+          "text": "፵፬ ፴፭"
+        },
+        {
+          "line_num": 20,
+          "line_type": "body",
+          "text": "፳፮ ፳፬ ፲፬ ፳፩"
+        },
+        {
+          "line_num": 21,
+          "line_type": "body",
+          "text": "፴ ፳፮"
+        },
+        {
+          "line_num": 22,
+          "line_type": "body",
+          "text": "፴፪ ፳፰"
+        },
+        {
+          "line_num": 23,
+          "line_type": "body",
+          "text": "፴፮ ፴፪"
+        },
+        {
+          "line_num": 24,
+          "line_type": "body",
+          "text": "፵፪ ፴፭"
+        },
+        {
+          "line_num": 25,
+          "line_type": "body",
+          "text": "፶፮ ፶"
+        },
+        {
+          "line_num": 26,
+          "line_type": "body",
+          "text": "፷፭ ፷፫"
+        },
+        {
+          "line_num": 27,
+          "line_type": "body",
+          "text": "፳፯ ፳፯ ፲፭ ፲፮"
+        },
+        {
+          "line_num": 28,
+          "line_type": "body",
+          "text": "፵፮ ፴፬"
+        },
+        {
+          "line_num": 29,
+          "line_type": "body",
+          "text": "፶፭ ፵"
+        },
+        {
+          "line_num": 30,
+          "line_type": "body",
+          "text": "፴፩ ፳"
+        },
+        {
+          "line_num": 31,
+          "line_type": "body",
+          "text": "፴፱ ፳፱"
+        },
+        {
+          "line_num": 32,
+          "line_type": "body",
+          "text": "፲፩ ፪"
+        },
+        {
+          "line_num": 33,
+          "line_type": "body",
+          "text": "፶፯ ፵፪"
+        },
+        {
+          "line_num": 34,
+          "line_type": "body",
+          "text": "፷፩ ፵፯"
+        }
+      ]
+    },
+    {
+      "column_index": 2,
+      "lines": [
+        {
+          "line_num": 1,
+          "line_type": "chapter_title",
+          "text": "ስድስተኛው ሰንጠረዥ ሁለቱ ወንጌላውያን ማቴዎስና ማርቆስ የሚተባበሩበት ።",
+          "stage1_text": "ስድስተኛው ሰንጠረዠ ሁለቱ ወንጌላውያን ማቴዎስና ማርቆስ የሚተባበሩበት ።",
+          "word_wraps_to_next_line": false,
+          "stage2_correction": {
+            "pair": "ዠ -> ዥ",
+            "reason": "The 6th-order ዥ in ሰንጠረዥ was misread as 1st-order ዠ."
+          },
+          "uncertain": []
+        },
+        {
+          "line_num": 2,
+          "line_type": "body",
+          "text": "ወይቤሎሙ ትውልድ ዕሉት ።"
+        },
+        {
+          "line_num": 3,
+          "line_type": "body",
+          "text": "እስመሁ ኅብስተ ኢነሣዕክሙ ።",
+          "stage1_text": "አስመሁ ኅብስተ ኢነሣዕክሙ ።",
+          "word_wraps_to_next_line": false,
+          "stage2_correction": {
+            "pair": "አ -> እ",
+            "reason": "The initial character is 6th-order እ (እስመሁ, 'is it because...'), visually confirmed by the zig-zag middle stroke of እ."
+          },
+          "uncertain": []
+        },
+        {
+          "line_num": 4,
+          "line_type": "body",
+          "text": "ወአኀዞ ይክልዖ ጴጥሮስ ።"
+        },
+        {
+          "line_num": 5,
+          "line_type": "body",
+          "text": "ወይቤሉ ጸሐፍት ኤልያስ ይቀድም ።"
+        },
+        {
+          "line_num": 6,
+          "line_type": "body",
+          "text": "በጽሐ ብሔረ ይሁዳ ።"
+        },
+        {
+          "line_num": 7,
+          "line_type": "body",
+          "text": "ወመጽአት እሞሙ ።"
+        },
+        {
+          "line_num": 8,
+          "line_type": "body",
+          "text": "ወረከበ ዕፀ በለስ ።"
+        },
+        {
+          "line_num": 9,
+          "line_type": "body",
+          "text": "እመ ብክሙ ሃይማኖት ።"
+        },
+        {
+          "line_num": 10,
+          "line_type": "body",
+          "text": "ወተስእሎ ጸሐፊ ።"
+        },
+        {
+          "line_num": 11,
+          "line_type": "body",
+          "text": "ወትሰበክ ዛቲ ወንጌል ።"
+        },
+        {
+          "line_num": 12,
+          "line_type": "body",
+          "text": "እምከመ ርኢክሙ ።"
+        },
+        {
+          "line_num": 13,
+          "line_type": "body",
+          "text": "ወጸልዩ ባሕቱ ከመ ኢይኩን ጉያክሙ ።"
+        },
+        {
+          "line_num": 14,
+          "line_type": "body",
+          "text": "ሶበ ኢኀጽራ ።"
+        },
+        {
+          "line_num": 15,
+          "line_type": "body",
+          "text": "እስመ ይመጽኡ ሐሳውያን ።"
+        },
+        {
+          "line_num": 16,
+          "line_type": "body",
+          "text": "ወበእንተሰ ይእቲ ዕለት ።"
+        },
+        {
+          "line_num": 17,
+          "line_type": "body",
+          "text": "እስመ ኢተአምሩ ።"
+        },
+        {
+          "line_num": 18,
+          "line_type": "body",
+          "text": "እምኀየሶ ሶበ ኢተወልደ ።"
+        },
+        {
+          "line_num": 19,
+          "line_type": "body",
+          "text": "እንቢቦሙ ወሰቢሖሙ ።"
+        },
+        {
+          "line_num": 20,
+          "line_type": "body",
+          "text": "ወእምድኅረ ተንሣእኩ እቀድሞሙ ።"
+        },
+        {
+          "line_num": 21,
+          "line_type": "body",
+          "text": "ወይቤሎሙ ንበሩ ዝየ ።"
+        },
+        {
+          "line_num": 22,
+          "line_type": "body",
+          "text": "ወካዕበ ሖረ ወጸለየ።"
+        },
+        {
+          "line_num": 23,
+          "line_type": "body",
+          "text": "ወእምዝ ኀደግዎ አርዳኢሁ ።"
+        },
+        {
+          "line_num": 24,
+          "line_type": "body",
+          "text": "ወሰጠጠ አልባሲሁ ።"
+        },
+        {
+          "line_num": 25,
+          "line_type": "body",
+          "text": "ወእምዝ ተመጠውዎ ሰገራት ።"
+        },
+        {
+          "line_num": 26,
+          "line_type": "body",
+          "text": "ወጸርሐ እግዚእ ኢየሱስ።"
+        },
+        {
+          "line_num": 27,
+          "line_type": "body",
+          "text": "ወሀለዋ አንስት ።"
+        },
+        {
+          "line_num": 28,
+          "line_type": "body",
+          "text": "ወተሣሊቆሙ ሰለብዎ።",
+          "stage1_text": "ወተሣለቅዎ ሰለብዎ።",
+          "word_wraps_to_next_line": false,
+          "stage2_correction": {
+            "pair": "ለቅዎ -> ሊቆሙ",
+            "reason": "The printed Ge'ez gerundive is clearly ወተሣሊቆሙ ('and having mocked him, they stripped him', Matt 27:31 / Mark 15:20), misread as ወተሣለቅዎ."
+          },
+          "uncertain": []
+        },
+        {
+          "line_num": 29,
+          "line_type": "body",
+          "text": "ወእለሂ የኀልፉ ይጸርፉ።"
+        },
+        {
+          "line_num": 30,
+          "line_type": "body",
+          "text": "ወይቤሎ አንተ ትቤ።"
+        },
+        {
+          "line_num": 31,
+          "line_type": "body",
+          "text": "ወመስዮ መጽአ ብእሲ ።"
+        },
+        {
+          "line_num": 32,
+          "line_type": "body",
+          "text": "ወሀለዋ አንስትኒ ይቀውማ።"
+        }
+      ]
+    }
+  ],
+  "stage2_verified": true,
+  "stage2_corrections_count": 3
+}

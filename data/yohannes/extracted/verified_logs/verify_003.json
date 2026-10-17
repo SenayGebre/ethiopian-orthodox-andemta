@@ -1,0 +1,17 @@
+{
+  "pdf_page": 3,
+  "book_page_ethiopic": "፭፻፲፫",
+  "elapsed_sec": 22.1,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 38,
+      "old_text": "አለፎጢኖስ ተረተውብታል ።",
+      "corrected_text": "እለፎጢኖስ ተረተውብታል ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አ -> እ",
+      "reason": "The plural marker 'እለ' (እለ ፎጢኖስ - Photinus and his followers, matching the plural verb 'የሚሉ' on L37 and 'ተረተውብታል' on L38) was misread as 'አለ' due to a faint central notch on 'እ'."
+    }
+  ]
+}

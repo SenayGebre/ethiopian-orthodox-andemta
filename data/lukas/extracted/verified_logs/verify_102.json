@@ -1,0 +1,26 @@
+{
+  "pdf_page": 102,
+  "book_page_ethiopic": "፬፻፹፬",
+  "elapsed_sec": 9.6,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 3,
+      "old_text": "⟪አርእዩኒ አሐደ ዲናሩ፤⟫",
+      "corrected_text": "⟪አርእዩኒ አሐደ ዲናረ፤⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዲናሩ -> ዲናረ",
+      "reason": "In Classical Ge'ez (Luke 20:24), 'ዲናረ' is in the accusative case (1st order ረ) agreeing with 'አሐደ', and the printed glyph clearly shows ረ rather than ሩ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 38,
+      "old_text": "ወኅደገ ብእሲቶ።⟫",
+      "corrected_text": "ወኀደገ ብእሲቶ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወኅደገ -> ወኀደገ",
+      "reason": "The printed glyph and Ge'ez perfective verb form (Luke 20:28) have the 1st-order 'ኀ' ('ወኀደገ'), not the 6th-order 'ኅ'."
+    }
+  ]
+}

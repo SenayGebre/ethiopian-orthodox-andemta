@@ -1,0 +1,107 @@
+{
+  "pdf_page": 3,
+  "book_page_ethiopic": "፻፳፪",
+  "elapsed_sec": 57.5,
+  "applied_count": 11,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 14,
+      "old_text": "፩ዜዋ ፪ ፬ ፡ ሩት ፬ ፲፰ ፡ ፳ጎ↵",
+      "corrected_text": "፩ዜዋ ፪ ፬ ፡ ሩት ፬ ፲፰ ፡ ሉቃ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፳ጎ -> ሉቃ",
+      "reason": "Canonical biblical cross-reference for Perez and Zerah in the genealogy of Christ is Luke 3:33 (ሉቃ ፫ ፴፫); 'ሉቃ' was misread as '፳ጎ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 15,
+      "old_text": "ዑ ፫ ፴፫",
+      "corrected_text": "፫ ፴፫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዑ ፫ -> ፫",
+      "reason": "The mark before ፫ ፴፫ is a printer's ornament/smudge, not the letter ዑ continuing from the previous line."
+    },
+    {
+      "column_index": 2,
+      "line_num": 5,
+      "old_text": "ሱም ሥራውን እየሠራ ክዓዊ",
+      "corrected_text": "ሱም ሥራውን እየሠራ ከዓዌ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ክዓዊ -> ከዓዌ",
+      "reason": "Classical Ge'ez construct active participle 'ከዓዌ ዘርእ' (spiller of seed, Gen 38:9) uses 1st-order ከ and 5th-order ዌ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 21,
+      "old_text": "ሂዳለች ። ማዘንዋ ግን ዝሙት",
+      "corrected_text": "ሄዳለች ። ማዘንዋ ግን ዝሙት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሂ -> ሄ",
+      "reason": "Amharic verb 'ሄዳለች' is printed with 5th-order ሄ (loop at bottom right), misread as 3rd-order ሂ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 26,
+      "old_text": "ሂድሁ ብላ ነው እንጂ ፡ በዚያ",
+      "corrected_text": "ሄድሁ ብላ ነው እንጂ ፡ በዚያ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሂ -> ሄ",
+      "reason": "Amharic 1st person perfect 'ሄድሁ' is printed with 5th-order ሄ, misread as 3rd-order ሂ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 35,
+      "old_text": "ነገር እንዳልተፈጸመላት በየች",
+      "corrected_text": "ነገር እንዳልተፈጸመላት ባየች",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በየች -> ባየች",
+      "reason": "Amharic temporal clause 'ባየች ጊዜ' (when she saw, Gen 38:14) requires 4th-order ባ ('በ + አየች'), visually confirmed by the shorter right leg of ባ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 1,
+      "old_text": "አልፎ መሂድ አይሆንላቸውም",
+      "corrected_text": "አልፎ መሄድ አይሆንላቸውም",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "መሂድ -> መሄድ",
+      "reason": "Amharic infinitive 'መሄድ' uses 5th-order ሄ, misread as 3rd-order ሂ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 3,
+      "old_text": "ያውስ ላይ ሚስቱ ሞታችበት",
+      "corrected_text": "ያውስ ላይ ሚስቱ ሞተችበት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሞታችበት -> ሞተችበት",
+      "reason": "Standard Amharic 3rd-person feminine singular perfect 'ሞተችበት' is printed with 1st-order ተ (two equal legs), misread as 4th-order ታ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 6,
+      "old_text": "ችው ። እፈኑ ለኪ ፩ ማሕስዓ",
+      "corrected_text": "ችው ። እፈኑ ለኪ ፩ መሐስዓ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ማሕስዓ -> መሐስዓ",
+      "reason": "Canonical Ge'ez citation of Gen 38:17 reads 'እፈኑ ለኪ ፩ መሐስዓ ጠሊ' (a kid of the goats) with 1st-order መ and ሐ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 9,
+      "old_text": "ያገዮ ስጠኝ አለችው ። ምን አ↵",
+      "corrected_text": "ያዣ ስጠኝ አለችው ። ምን አ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ገዮ -> ዣ",
+      "reason": "The word wrapping from L08 ('መ↵ያዣ', pledge) has the wide glyph ዣ on L09, which was split and misread as 'ገዮ' (compare 'መያዣ' on L12)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 40,
+      "old_text": "ርስዋት ሆነ ። አንኪያስ ዝ ኀ↵",
+      "corrected_text": "ርስዋት ሆነ ። እንኪያስ ዝ ኀ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አንኪያስ -> እንኪያስ",
+      "reason": "Amharic discourse particle 'እንኪያስ' begins with 6th-order እ, misread as 1st-order አ."
+    }
+  ]
+}

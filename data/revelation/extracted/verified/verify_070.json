@@ -1,0 +1,26 @@
+{
+  "pdf_page": 70,
+  "book_page_ethiopic": "፸",
+  "elapsed_sec": 15.1,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "በኋዋቸው ፡ ነበረ ። አለቃ ፡ ኅሩይ ፡ ግርማዊነታቸውን ፡ በሚያዩበት ፡ ጊዜ ፡ ሁሉ ፡ ከፍቅራቸው ፡ ጽን",
+      "corrected_text": "በኟቸው ፡ ነበረ ። አለቃ ፡ ኅሩይ ፡ ግርማዊነታቸውን ፡ በሚያዩበት ፡ ጊዜ ፡ ሁሉ ፡ ከፍቅራቸው ፡ ጽን",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኋዋ -> ኟ",
+      "reason": "Continuing 'ይጎ' from the previous page to form 'ይጎበኟቸው' (He used to visit him); the wide 4th-order palatalized glyph 'ኟ' was misread as two characters 'ኋዋ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 23,
+      "old_text": "ለቃ ፡ ኅሩይ ፡ ይረዱ ፡ ነበር ። የአለቃ ፡ ኅሩይ ፡ ታሪክ ፡ ብዙ ፡ ነበር ። ከብዙ ፡ በጥቂቱ ፡ በዚሀ ፡ መጽሐ",
+      "corrected_text": "ለቃ ፡ ኅሩይ ፡ ይረዱ ፡ ነበር ። የአለቃ ፡ ኅሩይ ፡ ታሪክ ፡ ብዙ ፡ ነበር ። ከብዙ ፡ በጥቂቱ ፡ በዚህ ፡ መጽሐ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሀ -> ህ",
+      "reason": "The 6th-order 'ህ' in 'በዚህ' (in this) was misread as 1st-order 'ሀ' due to slight ink fill in the left bend."
+    }
+  ]
+}

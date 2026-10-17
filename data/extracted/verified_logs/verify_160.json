@@ -1,0 +1,35 @@
+{
+  "pdf_page": 160,
+  "book_page_ethiopic": "፪፻፸፱",
+  "elapsed_sec": 18.9,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 18,
+      "old_text": "ችሁ እንደሆነ ⟪ዘተብህለ ፡⟫ አሜ↵",
+      "corrected_text": "ችሁ እንደሆነ ⟪ወዘተብህለ ፡⟫ አሜ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዘተብህለ -> ወዘተብህለ",
+      "reason": "The conjunction ወ in ወዘተብህለ is printed closely before ዘ (matching L10 ወዘተብህለ and Col 1 L22, L30) and was omitted in Draft Pass 1."
+    },
+    {
+      "column_index": 3,
+      "line_num": 21,
+      "old_text": "ን ቀን በተግባሮ ይሰነብታል",
+      "corrected_text": "ን ቀን በተግባር ይሰነብታል",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሮ -> ር",
+      "reason": "6th-order ር in በተግባር ('in labor/work') was misread as 7th-order ሮ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 23,
+      "old_text": "የመጣ እንደሆነ ክቀቢጸ ተስፋ",
+      "corrected_text": "የመጣ እንደሆነ ከቀቢጸ ተስፋ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ክ -> ከ",
+      "reason": "1st-order preposition ከ in ከቀቢጸ ተስፋ ('to despair') was misread as 6th-order ክ."
+    }
+  ]
+}

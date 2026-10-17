@@ -1,0 +1,44 @@
+{
+  "pdf_page": 20,
+  "book_page_ethiopic": "፬፻፪",
+  "elapsed_sec": 18.5,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 27,
+      "old_text": "ከልጋ ተጣብቆ ሲኖር መን",
+      "corrected_text": "ካልጋ ተጣብቆ ሲኖር መን",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከ -> ካ",
+      "reason": "The printed glyph is 4th-order ካ ('ካልጋ' = ከአልጋ, 'bedridden / stuck to the bed'), where the shortened right leg of ካ was misread as 1st-order ከ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 37,
+      "old_text": "ያዘጋጀከውን አድኅኖትኸን አ",
+      "corrected_text": "ያዘጋጀኸውን አድኅኖትህን አ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከ -> ኸ, ኸ -> ህ",
+      "reason": "Visual inspection of Col 2 L37 confirms 'ያዘጋጀኸውን አድኅኖትህን' matching L33-34 above."
+    },
+    {
+      "column_index": 3,
+      "line_num": 7,
+      "old_text": "ል አይደለም በወንጌል ከመኑ",
+      "corrected_text": "ል አይደለም በወንጌል ካመኑ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ከ -> ካ",
+      "reason": "Grammatical and visual verification confirms 4th-order ካ in 'ካመኑ በኋላ' ('after they believed in the Gospel')."
+    },
+    {
+      "column_index": 3,
+      "line_num": 37,
+      "old_text": "ባንቺ ግን በንቺም እንደ ጦር",
+      "corrected_text": "ባንቺ ግን ባንቺም እንደ ጦር",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በ -> ባ",
+      "reason": "Both words are clearly printed with 4th-order ባ ('ባንቺ ግን ባንቺም') glossing Ge'ez 'ወለኪሰ'."
+    }
+  ]
+}

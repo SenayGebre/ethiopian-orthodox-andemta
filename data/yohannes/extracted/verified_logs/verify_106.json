@@ -1,0 +1,62 @@
+{
+  "pdf_page": 106,
+  "book_page_ethiopic": "፮፻፲፮",
+  "elapsed_sec": 34.5,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 28,
+      "old_text": "ም መግደላዊት ማለዳ ግሥግ",
+      "corrected_text": "ም መግደላዊት ማለዳ ገሥግ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ግ -> ገ",
+      "reason": "The word split across L28-L29 is ገሥግሣ ('hastening early'), with 1st-order ገ clearly visible before ሥግ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 9,
+      "old_text": "ሻሹኑ እንደተጠመጠመ ለብ",
+      "corrected_text": "ሻሹን እንደተጠመጠመ ለብ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኑ -> ን",
+      "reason": "Accusative object marker ሻሹን ('the headcloth') has 6th-order ን on the page."
+    },
+    {
+      "column_index": 3,
+      "line_num": 13,
+      "old_text": "መط።",
+      "corrected_text": "መጥ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ط -> ጥ",
+      "reason": "Stage-1 OCR output an Arabic character instead of Ethiopic 6th-order ጥ completing ሳይቀመጥ።"
+    },
+    {
+      "column_index": 3,
+      "line_num": 21,
+      "old_text": "⟪ወርእየ ወአምነ ።⟫",
+      "corrected_text": "⟪ወርእዩ ወአምኑ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "የ/ነ -> ዩ/ኑ",
+      "reason": "Both verbs are plural 3rd-person masculine (ወርእዩ ወአምኑ) in this Ge'ez text, matching the plural Amharic gloss አይተው አመኑ in L22 and the visible right-side vowel strokes on ዩ and ኑ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 23,
+      "old_text": "⟪እስመ ዓዲሁ ኢይእመሩ ዘ",
+      "corrected_text": "⟪እስመ ዓዲሁ ኢያእመሩ ዘ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ይ -> ያ",
+      "reason": "Classical Ge'ez perfective stem አእመሩ with negative prefix ኢ- contracts to ኢያእመሩ (4th-order ያ), which is clearly printed on the page."
+    },
+    {
+      "column_index": 3,
+      "line_num": 35,
+      "old_text": "ዘከመ አስተርአይ ኢየሱስ ለ",
+      "corrected_text": "ዘከመ አስተርአየ ኢየሱስ ለ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ይ -> የ",
+      "reason": "Classical Ge'ez 3rd-person singular perfective verb is አስተርአየ ('how Jesus appeared to Mary Magdalene') with 1st-order የ."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "pdf_page": 13,
+  "book_page_ethiopic": "፻፴፪",
+  "elapsed_sec": 27.5,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 23,
+      "old_text": "ፍ ጠባቂ ሳላት አጋጋ广 ሳትሻ",
+      "corrected_text": "ፍ ጠባቂ ሳላት አጋጋዥ ሳትሻ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "广 -> ዥ",
+      "reason": "OCR misread the Ethiopic character 'ዥ' in 'አጋጋዥ' (helper/partner) as a stray CJK character '广'."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "pdf_page": 93,
+  "book_page_ethiopic": "፬፻፸፭",
+  "elapsed_sec": 9.4,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 22,
+      "old_text": "ብዙኀ ጥሪቱ ።⟫",
+      "corrected_text": "ብዙኅ ጥሪቱ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኀ -> ኅ",
+      "reason": "In Classical Ge'ez, the nominative masculine adjective modifying ጥሪቱ is ብዙኅ (6th order ሳድስ ኅ, not 4th order ኀ), which matches the printed glyph with the upper-right hook on the page."
+    }
+  ]
+}

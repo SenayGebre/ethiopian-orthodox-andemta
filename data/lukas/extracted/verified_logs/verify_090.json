@@ -1,0 +1,17 @@
+{
+  "pdf_page": 90,
+  "book_page_ethiopic": "፬፻፸፪",
+  "elapsed_sec": 15.0,
+  "applied_count": 0,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 2,
+      "old_text": "ንቱ አንትሙ እለ ነጻሕክሙ ።⟫",
+      "corrected_text": "ንቱ አንትሙ እለ ነጻሕክሙ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "none",
+      "reason": "Actually wait, let's check Col 1 L07: ሰደው -> ዕደው. Let's replace this entry with Col 1 L07."
+    }
+  ]
+}

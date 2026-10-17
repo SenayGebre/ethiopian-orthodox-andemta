@@ -1,0 +1,89 @@
+{
+  "pdf_page": 9,
+  "book_page_ethiopic": "፻፳፰",
+  "elapsed_sec": 39.4,
+  "applied_count": 9,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 3,
+      "old_text": "ማድ ይዞ ። ያዕቆብ ከላባ ከብሉ",
+      "corrected_text": "ማድ ይዞ ። ያዕቆብ ከላባ ኮብልሎ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ከብሉ -> ኮብልሎ",
+      "reason": "The printed word is the Amharic converb 'ኮብልሎ' (having fled from Laban), misread as 'ከብሉ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 28,
+      "old_text": "ሚኖሩትን ደርቦ ስደቱን ክሰ↵",
+      "corrected_text": "ሚኖሩትን ደርቦ ስደቱን ከሰ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ክሰ -> ከሰ",
+      "reason": "1st-order 'ከ' in 'ከሰመት' (as in L30) was misread as 6th-order 'ክ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 9,
+      "old_text": "አደویه ላዕለ ፈለገ ኤፍራጦን",
+      "corrected_text": "አደዊሁ ላዕለ ፈለገ ኤፍራጦን",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አደویه -> አደዊሁ",
+      "reason": "Ge'ez 'አደዊሁ' ('his hands', 2 Chr 35:20 / 1 Esdras) was corrupted by non-Ethiopic characters in Draft Pass 1."
+    },
+    {
+      "column_index": 2,
+      "line_num": 24,
+      "old_text": "ሰልፎ ቆየው ኢዮስያስ በነ↵",
+      "corrected_text": "ሰልፍ ቆየው ኢዮስያስ በነ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሰልፎ -> ሰልፍ",
+      "reason": "The printed glyph has 6th-order 'ፍ' ('ሰልፍ ቆየው' - awaited him in battle array), not 7th-order 'ፎ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 34,
+      "old_text": "ሪቱን ጫ ብላ አገኛት የዚህ↵",
+      "corrected_text": "ሪቱን ጭ ብላ አገኛት የዚህ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጫ -> ጭ",
+      "reason": "The printed ideophone is 6th-order 'ጭ' ('ጭ ብላ' - completely quiet/subdued), misread as 4th-order 'ጫ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 38,
+      "old_text": "ቀሩት መጥን ሲያገቡልኝ እነ↵",
+      "corrected_text": "ቀሩት መጡን ሲያገቡልኝ እነ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "መጥን -> መጡን",
+      "reason": "The printed glyph is 2nd-order 'ጡ' ('መጡን ሲያገቡልኝ'), misread as 6th-order 'ጥ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 21,
+      "old_text": "ጋት ጀመረ መንገድ ተይዘብ↵",
+      "corrected_text": "ጋት ጀመረ መንገድ ተይዞብ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ተይዘብ -> ተይዞብ",
+      "reason": "7th-order 'ዞ' in 'ተይዞብኝ' was misread as 1st-order 'ዘ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 27,
+      "old_text": "ግብሩን ተገብሮ ሄደ አንደ",
+      "corrected_text": "ግብሩን ተገብሮ ሄደ አንድ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አንደ -> አንድ",
+      "reason": "6th-order 'ድ' in 'አንድ ባሪያ ለሁለት ጌታ መገዛት' (a single servant serving two masters) was misread as 1st-order 'ደ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 30,
+      "old_text": "ሕዛብ ፍርድ ጠነቀቁን ባዮች",
+      "corrected_text": "ሕዛብ ፍርድ ጠነቀቅን ባዮች",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጠነቀቁን -> ጠነቀቅን",
+      "reason": "1st-person plural 'ጠነቀቅን' (6th-order 'ቅ' before 'ባዮች ናቸውና') was misread as 2nd-order 'ቁ'."
+    }
+  ]
+}

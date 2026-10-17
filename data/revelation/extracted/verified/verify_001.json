@@ -1,0 +1,17 @@
+{
+  "pdf_page": 1,
+  "book_page_ethiopic": "፩",
+  "elapsed_sec": 20.2,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 16,
+      "old_text": "ይጠራል ፡ እንጅ ፡ ሰው ፡ በቋንቋው ፡ አይጠራም ፡ ብሎ ፡ ባባታቸው ፡ በይሀያን ፡",
+      "corrected_text": "ይጠራል ፡ እንጅ ፡ ሰው ፡ በቋንቋው ፡ አይጠራም ፡ ብሎ ፡ ባባታቸው ፡ በይህያን ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሀ -> ህ",
+      "reason": "The word printed is በይህያን (matching ይህያን in lines 12 and 14), where the 6th-order ህ has its left hook clearly visible in the image."
+    }
+  ]
+}

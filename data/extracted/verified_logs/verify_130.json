@@ -1,0 +1,44 @@
+{
+  "pdf_page": 130,
+  "book_page_ethiopic": "፪፻፵፱",
+  "elapsed_sec": 15.4,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 11,
+      "old_text": "ዘበሰማያት ከመ ይትኃጐል",
+      "corrected_text": "ዘበሰማያት ከመ ይትኀጐል",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኃ -> ኀ",
+      "reason": "In the printed Ge'ez text (Matt 18:14), the verb is spelled ይትኀጐል with 1st-order ኀ, not 4th-order ኃ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 14,
+      "old_text": "፭ ፱ ፥ ፪ተሰሎ ፫ ፲፫ ።",
+      "corrected_text": "፭ ፱ ፥ ፪ተሰሎ ፫ ፲፬ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፫ -> ፬",
+      "reason": "The canonical cross-reference for church discipline is 2 Thessalonians 3:14 (፪ተሰሎ ፫ ፲፬), and the zoomed image shows the closed bottom loop of ፬."
+    },
+    {
+      "column_index": 3,
+      "line_num": 11,
+      "old_text": "[፲፱] ⟪ወዓዲ እብለክሙ ለእመ ኃብ↵",
+      "corrected_text": "[፲፱] ⟪ወዓዲ እብለክሙ ለእመ ኀብ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኃ -> ኀ",
+      "reason": "In both the printed image and classical Ge'ez orthography of Matt 18:19, the verb is ኀብሩ with 1st-order ኀ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 25,
+      "old_text": "ጉቡዓነ በስምየ ህየ እሄሉ አነ",
+      "corrected_text": "ጉቡዓን በስምየ ህየ እሄሉ አነ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ነ -> ን",
+      "reason": "In the printed Ge'ez text of Matt 18:20, the nominative plural participle is clearly printed as ጉቡዓን (with 6th-order ን) rather than ጉቡዓነ."
+    }
+  ]
+}

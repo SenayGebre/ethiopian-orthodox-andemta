@@ -1,0 +1,35 @@
+{
+  "pdf_page": 53,
+  "book_page_ethiopic": "፬፻፴፭",
+  "elapsed_sec": 18.7,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "⟪ወይሌውኖ ።⟫ ያስለግገዋል",
+      "corrected_text": "⟪ወይሌውኖ ።⟫ ያስለግጠዋል",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ገ -> ጠ",
+      "reason": "The three-legged Fidel ጠ in ያስለግጠዋል (he makes him foam/grimace, translating ወይሌውኖ) had faint inner legs and was misread as ገ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 2,
+      "old_text": "ትሕትና ወተአግሦተ በደ ።",
+      "corrected_text": "ትሕትና ወተአግሦተ በጻ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ደ -> ጻ",
+      "reason": "In the classical Ge'ez chapter heading (ወተአግሦተ በጻ = and bearing with one's neighbor/companion), the glyph ጻ was misread as ደ due to ink fill in the upper loop."
+    },
+    {
+      "column_index": 3,
+      "line_num": 31,
+      "old_text": "⟪ወይቤሎ ሊቅ በ ዝርኢነ ፩ደ",
+      "corrected_text": "⟪ወይቤሎ ሊቅነ ዘርኢነ ፩ደ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሊቅ በ ዝርኢነ -> ሊቅነ ዘርኢነ",
+      "reason": "In Luke 9:49 (ሊቅነ = 'Master', translated as መምህር ሆይ, followed by ዘርኢነ corresponding to the relative clause translation የከለከልነው አለ), the spaced/faded ነ and 1st-order ዘ were misread as በ ዝርኢነ."
+    }
+  ]
+}

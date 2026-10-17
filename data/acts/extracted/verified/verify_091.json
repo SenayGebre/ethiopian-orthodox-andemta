@@ -1,0 +1,26 @@
+{
+  "pdf_page": 91,
+  "book_page_ethiopic": "፻፷፬",
+  "elapsed_sec": 106.8,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 9,
+      "old_text": "⟪ወይትዌከል ፡ ኵሎ ፡ ዘአተወ ፥⟫",
+      "corrected_text": "⟪ወይትቄበል ፡ ኵሎ ፡ ዘአተወ ፥⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወይትዌከል -> ወይትቄበል",
+      "reason": "The printed Ge'ez text clearly reads 'ወይትቄበል' (Acts 28:30, 'and he received all who came in to him'), which directly corresponds to the Amharic Andemta gloss 'እየተቀበለ' on lines 10-11."
+    },
+    {
+      "column_index": 1,
+      "line_num": 20,
+      "old_text": "⟪እንዘ ፡ ክሠተ ፡ ይነግር ፡ ወአልቦ ፡ ዘይከልኦ ፥⟫",
+      "corrected_text": "⟪እንዘ ፡ ክሡተ ፡ ይነግር ፡ ወአልቦ ፡ ዘይከልኦ ፥⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ክሠተ -> ክሡተ",
+      "reason": "The glyph has the 2nd-order (ካዕብ) vowel marker on the right leg ('ክሡተ', the canonical Ge'ez passive participle accusative used adverbially meaning 'openly', glossed as 'ገልጦ')."
+    }
+  ]
+}

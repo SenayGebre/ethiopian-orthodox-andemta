@@ -1,0 +1,44 @@
+{
+  "pdf_page": 86,
+  "book_page_ethiopic": "፭፻፺፮",
+  "elapsed_sec": 11.8,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 17,
+      "old_text": "ለ በሶስት ዓመት ጻዕ ሠርተ",
+      "corrected_text": "ለ በሶስት ዓመት ዳስ ሠርተ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጻዕ -> ዳስ",
+      "reason": "Visually in Col 1 L17, the printed word is ዳስ ('booth/trellis' made for a vine: ዳስ ሠርተውለት ያፈራል), which was misread as ጻዕ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 22,
+      "old_text": "ድም ወይን በመት በመት",
+      "corrected_text": "ድም ወይን በመቶ በመቶ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በመት -> በመቶ",
+      "reason": "The top ring of ቶ in በመቶ በመቶ ('by the hundreds', referring to ቃዳ jars of wine) was misread as 6th-order ት."
+    },
+    {
+      "column_index": 1,
+      "line_num": 24,
+      "old_text": "እየቀደም የምትሰሩ ሕግ ሠ",
+      "corrected_text": "እየቀዳም የምትሰሩ ሕግ ሠ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እየቀደም -> እየቀዳም",
+      "reason": "Following አንዳንድ ቃዳ እያከለ ይሄዳል, the commentary continues እየቀዳም የምትሰሩ ('and pouring it out...'), with 4th-order ዳ clearly visible on the page."
+    },
+    {
+      "column_index": 3,
+      "line_num": 6,
+      "old_text": "ከጉንዱ የተለየ ጸጽቀ ማፍራ",
+      "corrected_text": "ከጉንዱ የተለየ እጽቅ ማፍራ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጸጽቀ -> እጽቅ",
+      "reason": "The printed word is እጽቅ ('branch', translating እጽቅ in L03), where ink bleed on እ and ቅ caused Stage 1 to misread it as ጸጽቀ."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "pdf_page": 20,
+  "book_page_ethiopic": "፻፴፱",
+  "elapsed_sec": 17.3,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 11,
+      "old_text": "ሚጠብቃቸው ንጉሥ በንቺ ይ",
+      "corrected_text": "ሚጠብቃቸው ንጉሥ ባንቺ ይ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በ -> ባ",
+      "reason": "The printed glyph has the shorter left leg of 4th-order ባ (ባንቺ = በ + አንቺ), misread as 1st-order በ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 30,
+      "old_text": "ው ንጉሥ ክርስቶስ በንች ይ",
+      "corrected_text": "ው ንጉሥ ክርስቶስ ባንች ይ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በ -> ባ",
+      "reason": "Both the zoomed image and Amharic contraction (በ + አንች -> ባንች) show 4th-order ባ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 36,
+      "old_text": "⟪ወይቤሎሙ ሖዊረክሙ ተሰ",
+      "corrected_text": "⟪ወይቤሎሙ ሐዊረክሙ ተሰ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሖ -> ሐ",
+      "reason": "Canonical Ge'ez gerundive ሐዊረክሙ (Matt 2:8) is printed with 1st-order ሐ, not 7th-order ሖ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 33,
+      "old_text": "ለው ሂዱ።",
+      "corrected_text": "ለው ሄዱ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሂ -> ሄ",
+      "reason": "The 3rd-person plural perfective verb ሄዱ ('they went', translating ሖሩ) is printed with 5th-order ሄ, not 3rd-order imperative ሂዱ."
+    }
+  ]
+}

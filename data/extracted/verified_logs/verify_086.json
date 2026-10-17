@@ -1,0 +1,53 @@
+{
+  "pdf_page": 86,
+  "book_page_ethiopic": "፪፻፭",
+  "elapsed_sec": 27.7,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 5,
+      "old_text": "ሴ ጻድቀ ዘጻድቅ ይነሣእከመ⟫",
+      "corrected_text": "ሴ ጻድቀ ዘጻድቅ ይነግረክሙ⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ይነሣእከመ -> ይነግረክሙ",
+      "reason": "The printed characters in the image clearly read ይነግረክሙ rather than ይነሣእከመ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 13,
+      "old_text": "ብለክሙ ኢየኃጕል ዓስበ⟫",
+      "corrected_text": "ብለክሙ ኢየኃጕል ዓስቦ⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዓስበ -> ዓስቦ",
+      "reason": "Ge'ez 3rd person masculine singular pronominal suffix on ዓስቦ ('his reward', Matt 10:42), printed with 7th-order ቦ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 17,
+      "old_text": "ጳውሎስ ብሎ በኔ ከመኑ ምዕ↵",
+      "corrected_text": "ጳውሎስ ብሎ በኔ ካመኑ ምዕ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከመኑ -> ካመኑ",
+      "reason": "Amharic relative verb with preposition (ከ + አመኑ -> ካመኑ, 'of the believers who believed in me'), printed with 4th-order ካ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 19,
+      "old_text": "⟪ወቦኑ ባዕድ ዘንሴፎ ።⟫",
+      "corrected_text": "⟪ወቦኑ ባዕድ ዘንሴፉ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዘንሴፎ -> ዘንሴፉ",
+      "reason": "Classical Ge'ez imperfect verb ዘንሴፉ ('whom we await/expect', Matt 11:3), printed with 2nd-order ፉ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 26,
+      "old_text": "[፬] ⟪ወአውሥአ ወይቤሎሙ ሖዊ↵",
+      "corrected_text": "[፬] ⟪ወአውሥአ ወይቤሎሙ ሐዊ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሖዊ -> ሐዊ",
+      "reason": "Ge'ez gerundive ሐዊረክሙ ('having gone', Matt 11:4) begins with 1st-order ሐ."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "pdf_page": 190,
+  "book_page_ethiopic": "፫፻፱",
+  "elapsed_sec": 15.3,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 4,
+      "old_text": "⟪ወትከውን ደኃሪተ ጌጋዩ እ↵",
+      "corrected_text": "⟪ወትከውን ደኃሪት ጌጋዩ እ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ተ -> ት",
+      "reason": "In the zoomed image and canonical Ge'ez Matthew 27:64, the feminine nominative form is 'ደኃሪት' (6th order 'ት' with the stem tick), not 'ደኃሪተ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 26,
+      "old_text": "ልና በማተሚያቸው ያትማሉ ።",
+      "corrected_text": "ልና በማተሚያቸው ያትማል ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሉ -> ል",
+      "reason": "The printed glyph at the end of the line is clearly 6th-order 'ል' ('ያትማል ።'), without a 2nd-order 'ሉ' side stroke."
+    }
+  ]
+}

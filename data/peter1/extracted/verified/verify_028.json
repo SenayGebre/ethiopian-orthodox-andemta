@@ -1,0 +1,44 @@
+{
+  "pdf_page": 28,
+  "book_page_ethiopic": "፻፶፬ | ፻፶፭",
+  "elapsed_sec": 23.0,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 4,
+      "old_text": "⟪ወጸልዉ ፡ ለጸሎት ።⟫",
+      "corrected_text": "⟪ወጽሕዉ ፡ ለጸሎት ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወጸልዉ -> ወጽሕዉ",
+      "reason": "The canonical Ge'ez verb in 1 Peter 4:7 is ወጽሕዉ ('be sober unto prayer'), glossed in line 5 as ንቁሀን ፡ ሁኑ and supported by the citation ወጽሕወ ፡ ኖኅ in lines 5-6; Stage 1 misread ጽሕ as ጸል due to ink wear."
+    },
+    {
+      "column_index": 1,
+      "line_num": 17,
+      "old_text": "ፍቅር ፡ ኃጣውን ፡ እንዳይሠሩ ፡ ቢሠሩም ፡",
+      "corrected_text": "ፍቅር ፡ ኃጣውእ ፡ እንዳይሠሩ ፡ ቢሠሩም ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኃጣውን -> ኃጣውእ",
+      "reason": "The printed glyph at the end of ኃጣውእ is እ (matching line 16 ኃጣውእ), which was misread as ን due to a faded right loop."
+    },
+    {
+      "column_index": 2,
+      "line_num": 32,
+      "old_text": "ሰገን ፡ ዘንድ ፡ መሐሩ ፡ ለይትለዓክ ፡",
+      "corrected_text": "ሰገን ፡ ዘንድ ፡ መሐሩ ፡ ለይትለአክ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ለይትለዓክ -> ለይትለአክ",
+      "reason": "The printed character in ለይትለአክ is 1st-order አ (matching line 12 ለይትለአክ), not 4th-order ዓ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 24,
+      "old_text": "፲፬ ፤ ⟪ወእመ ፡ ቦ ፡ ዘተዐየሩክሙ ፡ በእንተ ፡ ስሙ ፡",
+      "corrected_text": "፲፬ ፤ ⟪ወእመሰ ፡ ዘተዐየሩክሙ ፡ በእንተ ፡ ስሙ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወእመ ፡ ቦ -> ወእመሰ",
+      "reason": "In 1 Peter 4:14 the Ge'ez conditional particle is ወእመሰ ('And if...'); a slight gap and ink speck above ሰ caused Stage 1 to misread it as ቦ."
+    }
+  ]
+}

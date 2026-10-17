@@ -1,0 +1,26 @@
+{
+  "pdf_page": 69,
+  "book_page_ethiopic": "፬፻፶፩",
+  "elapsed_sec": 7.9,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 7,
+      "old_text": "የታመነ ብልሀ አስተዋይ ሹም",
+      "corrected_text": "የታመነ ብልህ አስተዋይ ሹም",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ብልሀ -> ብልህ",
+      "reason": "The 6th order ህ in ብልህ ('wise/prudent', translating ጠቢብ) was misread as 1st order ሀ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 23,
+      "old_text": "ኩይ በልቡ ይጐንዲ ኣቲወ እ↵",
+      "corrected_text": "ኩይ በልቡ ይጐንዲ አቲወ እ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኣቲወ -> አቲወ",
+      "reason": "In Ge'ez Luke 12:45, the infinitive construct is አቲወ (with 1st order አ, not 4th order ኣ)."
+    }
+  ]
+}

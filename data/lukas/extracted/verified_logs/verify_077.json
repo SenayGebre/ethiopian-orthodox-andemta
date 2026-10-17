@@ -1,0 +1,35 @@
+{
+  "pdf_page": 77,
+  "book_page_ethiopic": "፬፻፶፱",
+  "elapsed_sec": 29.8,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 24,
+      "old_text": "ወጽእዎ ዘበአሕሥሮት እንዳ",
+      "corrected_text": "ወጽእዎ ዘበአሕሥሮት እንዲ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዳ -> ዲ",
+      "reason": "Joining across the line wrap to L25 (ል) forms the standard Andemta citation marker እንዲል; the right-foot vowel stroke of ዲ is visible on the page."
+    },
+    {
+      "column_index": 3,
+      "line_num": 10,
+      "old_text": "⟪ወአሐውር አርእዮሙ ወእፍ",
+      "corrected_text": "⟪ወአሐውር አርአዮሙ ወእፍ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እ -> አ",
+      "reason": "The third character of አርአዮሙ is clearly a 1st-order አ (matching the initial አ) without the center loop of እ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 36,
+      "old_text": "ሕዋሳቶቹ አንድ ሁኖ የሚ",
+      "corrected_text": "ሕዋሳቶች አንድ ሁኖ የሚ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቹ -> ች",
+      "reason": "The final glyph of ሕዋሳቶች is 6th-order ች (identical to ሕዋሳቶች on L35 above it), reading 'አምስቱ ሕዋሳቶች ካምስቱ ሕዋሳቶች አንድ ሁኖ'."
+    }
+  ]
+}

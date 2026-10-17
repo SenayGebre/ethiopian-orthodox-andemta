@@ -1,0 +1,35 @@
+{
+  "pdf_page": 15,
+  "book_page_ethiopic": "፪፻፳፬ | ፪፻፳፭",
+  "elapsed_sec": 20.0,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 34,
+      "old_text": "ሳዊ ፡ ያለው ፡ ምሕረት ፡ ኒርውና ፡ የው",
+      "corrected_text": "ሳዊ ፡ ያለው ፡ ምሕረት ፡ ኂርውና ፡ የው",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኒ -> ኂ",
+      "reason": "The printed glyph is ኂ (from ኄር, 'goodness/kindness' = ኂርውና), which was misread as ኒ due to ink wear on the left-side strokes."
+    },
+    {
+      "column_index": 2,
+      "line_num": 22,
+      "old_text": "ይሀብ ፡ በረከቶ ፡ በአምኔሁ ፡ ለወልድ ፡",
+      "corrected_text": "ይሀብ ፡ በረከቶ ፡ በእምኔሁ ፡ ለወልድ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በአምኔሁ -> በእምኔሁ",
+      "reason": "Classical Ge'ez preposition is እምኔሁ (with እ, 1st order አልፍ), clearly visible on the page image."
+    },
+    {
+      "column_index": 4,
+      "line_num": 17,
+      "old_text": "ለዘሎሙ ፡ ዕንጨት ፡ ለደገፋ ፡ ሣሩ ፡",
+      "corrected_text": "ለዘሎሙ ፡ ዕንጨቱ ፡ ለደገፋ ፡ ሣሩ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዕንጨት -> ዕንጨቱ",
+      "reason": "The 2nd-order marker on ቱ is visible on the right leg of the character, matching the parallel phrase 'ዕንጨቱ ፡ ለደገፋ ፡ ሣሩ ፡ ለክፍክፉ' on line 20."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "pdf_page": 72,
+  "book_page_ethiopic": "፻፵፩ | ፻፵፪",
+  "elapsed_sec": 21.6,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 8,
+      "old_text": "⟪ወይቤልዎ ፡ ትሬኢኑ ፡ ኦ ፡ እኀነ ፡ ሚ ፡ መጠን ፡ ጸ",
+      "corrected_text": "⟪ወይቤልዎ ፡ ትሬኢኑ ፡ ኦ ፡ እኍነ ፡ ሚ ፡ መጠን ፡ አ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እኀነ -> እኍነ, ጸ -> አ",
+      "reason": "In Classical Ge'ez (Acts 21:20), 'our brother' is 'እኍነ' (with 2nd-order ኍ, clearly visible in the image), and the final character before 'አላፍ' on the next line is 'አ' (forming 'አአላፍ' across the line break), not 'ጸ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 22,
+      "old_text": "የሙሴን ፡ ሥርዐት ፡ እንድታስተምር ፡",
+      "corrected_text": "የሙሴን ፡ ሥርዐት ፡ እንድታስተው ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እንድታስተምር -> እንድታስተው",
+      "reason": "The image clearly prints 'እንድታስተው' ('that you make them abandon/leave'), which directly translates the Ge'ez root verb 'ወታኅድጎሙ' ('and you make them forsake [the law of Moses]'). Stage 1 hallucinated 'እንድታስተምር' from line 18."
+    }
+  ]
+}

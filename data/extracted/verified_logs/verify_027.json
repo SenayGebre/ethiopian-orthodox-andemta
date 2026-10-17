@@ -1,0 +1,80 @@
+{
+  "pdf_page": 27,
+  "book_page_ethiopic": "፻፵፮",
+  "elapsed_sec": 54.2,
+  "applied_count": 8,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 6,
+      "old_text": "በወተት አሳድግህ ለናት ለ",
+      "corrected_text": "በወተት አሳድገህ ለናት ለ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ግ -> ገ",
+      "reason": "Amharic converb form is አሳድገህ (1st order ገ), clearly visible in the print rather than 6th order ግ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 15,
+      "old_text": "በዳዊት ምክንያት ፹፭ ካህና ኖባው",
+      "corrected_text": "በዳዊት ምክንያት ፹፭ ካህና ኖባ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኖባው -> ኖባ",
+      "reason": "The line ends with ኖባ and wraps onto L16 as ውያን (ኖባውያን); Draft Pass 1 duplicated ው at the end of L15."
+    },
+    {
+      "column_index": 1,
+      "line_num": 26,
+      "old_text": "ውም ይሏል።ይህማ እንዳይሆ",
+      "corrected_text": "ውም ይላል።ይህማ እንዳይሆ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሏ -> ላ",
+      "reason": "The printed glyph is 4th order ላ (ይላል), without the labialization bar of ሏ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 15,
+      "old_text": "አበዛ ቢሉ።የምክር ጋናቸው",
+      "corrected_text": "አበዛ ቢሉ።የምክር ጓዳቸው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጋና -> ጓዳ",
+      "reason": "Traditional Andemta idiom የምክር ጓዳቸው ('their council chamber'); the printed glyphs are clearly ጓዳቸው rather than ጋናቸው."
+    },
+    {
+      "column_index": 2,
+      "line_num": 32,
+      "old_text": "ለመግዛት አርኬላኦስ እንደ ነ",
+      "corrected_text": "ለመግዛት አርኬላዎስ እንደ ነ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኦ -> ዎ",
+      "reason": "The printed glyph in the name አርኬላዎስ is ዎ, matching L28 above."
+    },
+    {
+      "column_index": 3,
+      "line_num": 1,
+      "old_text": "⟪ወአስተርእዮ በሕልም ፤⟫ በሕ",
+      "corrected_text": "⟪ወአስተርአዮ በሕልም ፤⟫ በሕ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እ -> አ",
+      "reason": "Classical Ge'ez verb morphology and the printed glyph both have 1st order አ (ወአስተርአዮ) rather than 6th order እ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 4,
+      "old_text": "ገሊላ ገባ ፤ ኅሠ አጋእዝትየ",
+      "corrected_text": "ገሊላ ገባ ፤ ኅሠው አጋእዝትየ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኅሠ -> ኅሠው",
+      "reason": "Canonical Ge'ez citation from Genesis 19:2 (ኅሠው አጋእዝትየ, plural imperative 'turn aside, my lords'); the final ው is clearly printed in the image."
+    },
+    {
+      "column_index": 3,
+      "line_num": 26,
+      "old_text": "ቀቡ በመዋዕለ እዕራር ያለው",
+      "corrected_text": "ቀቡ በመዋዕለ አዕራር ያለው",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እ -> አ",
+      "reason": "Ge'ez broken plural of ዓረር is አዕራር with initial 1st order አ, as printed in the image."
+    }
+  ]
+}

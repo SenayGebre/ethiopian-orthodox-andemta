@@ -1,0 +1,35 @@
+{
+  "pdf_page": 182,
+  "book_page_ethiopic": "፫፻፩",
+  "elapsed_sec": 18.5,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 20,
+      "old_text": "[፸፬] የያዘውን ጥሎ እንዴህ ይጣ↵",
+      "corrected_text": "[፸፬] የያዘውን ጥሎ እንዲህ ይጣ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዴ -> ዲ",
+      "reason": "3rd order ዲ in Amharic 'እንዲህ' misread as 5th order ዴ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 9,
+      "old_text": "[፪] ⟪ወአሣረርዎ ወሰድዎ ወመጠ⟫↵",
+      "corrected_text": "[፪] ⟪ወአሥርዎ ወሰድዎ ወመጠ⟫↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሣረር -> ሥር",
+      "reason": "Canonical Ge'ez Matthew 27:2 'ወአሥርዎ' ('and they bound him', glossed in L13 as 'አስረው') was misread as 'ወአሣረርዎ' due to the wide glyph ሥ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 8,
+      "old_text": "ዴህ ወዴህ ላንተ ከኛ ምን አለ↵",
+      "corrected_text": "ዲህ ወዲህ ላንተ ከኛ ምን አለ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዴ -> ዲ",
+      "reason": "3rd order ዲ in 'ከእንግዲህ ወዲህ' misread as 5th order ዴ."
+    }
+  ]
+}

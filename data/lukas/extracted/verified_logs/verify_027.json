@@ -1,0 +1,26 @@
+{
+  "pdf_page": 27,
+  "book_page_ethiopic": "፬፻፱",
+  "elapsed_sec": 13.6,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 20,
+      "old_text": "⟪ወልደ ሄኖስ ።⟫ የሄኖስ ልጅ",
+      "corrected_text": "⟪ወልደ ኄኖስ ።⟫ የኄኖስ ልጅ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሄ -> ኄ",
+      "reason": "The printed glyph in both the Ge'ez root and Amharic translation is 5th-order ኀ (ኄኖስ), distinct from ሄኖክ in line 14."
+    },
+    {
+      "column_index": 3,
+      "line_num": 17,
+      "old_text": "ማቴዎስ እላ አዕባን ይላል ሉ↵",
+      "corrected_text": "ማቴዎስ እሉ አዕባን ይላል ሉ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እላ -> እሉ",
+      "reason": "Both the visual glyph (2nd-order ሉ with side tick) and Ge'ez grammar (plural demonstrative እሉ modifying plural አዕባን from Matthew 4:3) confirm እሉ አዕባን."
+    }
+  ]
+}

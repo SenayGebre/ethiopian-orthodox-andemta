@@ -1,0 +1,35 @@
+{
+  "pdf_page": 43,
+  "book_page_ethiopic": "፬፻፶፪ | ፬፻፶፫",
+  "elapsed_sec": 17.8,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 3,
+      "old_text": "ቀርም፡ እደዚሀም፡ያሳዘነም፡ እንጅ፡ ሳያዝ",
+      "corrected_text": "ቀርም፡ እደዚሁም፡ያሳዘነም፡ እንጅ፡ ሳያዝ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሀ -> ሁ",
+      "reason": "The 2nd-order vowel marker on ሁ in እደዚሁም ('likewise') is clearly visible on the right leg of the glyph and required by Amharic grammar."
+    },
+    {
+      "column_index": 3,
+      "line_num": 7,
+      "old_text": "ንፅድ ፡ ክብርት ፡ የምትሆን ፡ የቅዱሳን ፡",
+      "corrected_text": "ንዕድ ፡ ክብርት ፡ የምትሆን ፡ የቅዱሳን ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፅ -> ዕ",
+      "reason": "The printed word is ንዕድ (feminine of ንዑድ 'praised/blessed', paired with ክብርት to gloss ብፅዕት), with ዕ rather than ፅ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 32,
+      "old_text": "ሕ ፡ ፊት ፡ ስለሚያደረገው፡ የምትሐት ፡",
+      "corrected_text": "ሕ ፡ ፊት ፡ ስለሚያደርገው፡ የምትሐት ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ረ -> ር",
+      "reason": "The glyph in ስለሚያደርገው is the 6th-order ር with its characteristic top bend, matching standard Amharic imperfective relative morphology."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "pdf_page": 44,
+  "book_page_ethiopic": "፻፷፫",
+  "elapsed_sec": 20.0,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 31,
+      "old_text": "[፭] ኢሳ ፷፩ ፥ ፪ እንደግያነ በቀል የ↵",
+      "corrected_text": "[፭] ኢሳ ፷፩ ፥ ፪ ፡ ነደግያነ በቀል የ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እን -> ፡ ነ",
+      "reason": "The word-separator colon (፡) after ፪ followed by 1st-order ነ was misread as እን; philologically 'ነደግያነ በቀል' (those who have abandoned/forsaken vengeance, from Ge'ez ነደገ) is the standard Andemta gloss for የዋሀን."
+    },
+    {
+      "column_index": 3,
+      "line_num": 27,
+      "old_text": "ከተመገብነ መንግሥተ ሰማያ↵",
+      "corrected_text": "ከተመገብን መንግሥተ ሰማያ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ነ -> ን",
+      "reason": "The printed glyph is 6th-order ን (ከተመገብን, parallel to L18 ከተመገብን), not 1st-order ነ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 32,
+      "old_text": "ልዓ ኃጢአት የሚራቡ ከስቲ",
+      "corrected_text": "ልዓ ኃጢአት የሚራቡ ከስቴ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቲ -> ቴ",
+      "reason": "The printed glyph has the 5th-order loop (ቴ) for Ge'ez 'ስቴ ኃጢአት' (drink of sin, paired with መብልዓ ኃጢአት), misread as 3rd-order ቲ."
+    }
+  ]
+}

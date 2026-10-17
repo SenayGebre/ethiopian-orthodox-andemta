@@ -1,0 +1,71 @@
+{
+  "pdf_page": 33,
+  "book_page_ethiopic": "፻፶፪",
+  "elapsed_sec": 16.2,
+  "applied_count": 7,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 6,
+      "old_text": "ሬሁ ርኢዩከ ማያት እግዚኦ ርእ",
+      "corrected_text": "ሬሁ ርእዩከ ማያት እግዚኦ ርእ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ርኢዩከ -> ርእዩከ",
+      "reason": "In the zoomed image and canonical Ge'ez Psalm citation ('ርእዩከ ማያት እግዚኦ ርእዩከ ማያት ወፈርሁ'), the second character is clearly 6th-order 'እ' (ርእዩከ), matching the repeated verb at the end of the line."
+    },
+    {
+      "column_index": 1,
+      "line_num": 27,
+      "old_text": "ሌውን ታያለህና ሑር ዕድም",
+      "corrected_text": "ሌውን ታያለህና ሑር ዕドウ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዕድም -> ዕዶ",
+      "reason": "Wait, let's check the glyph at the end of Col 1 L27: it is ዕድው (Ge'ez imperative 'cross over!', glossed in L29 as 'ተሻግረህ ሂድ'). Let's fix to ዕድው."
+    },
+    {
+      "column_index": 1,
+      "line_num": 27,
+      "old_text": "ሌውን ታያለህና ሑር ዕድም",
+      "corrected_text": "ሌውን ታያለህና ሑር ዕድው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ም -> ው",
+      "reason": "Ge'ez imperative 'ሑር ዕድው ለዝንቱ ዮርዳኖስ' ('Go, cross over this Jordan', glossed immediately in Amharic as 'ዮርዳኖስን ተሻግረህ ሂድ'); visually the final glyph is 'ው' misread as 'ም'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 38,
+      "old_text": "ምቆ ከደዌው ድነዋል ፡ ኢዮብ",
+      "corrected_text": "ምቆ ከደዌው ድኗል ፡ ኢዮብ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ድነዋል -> ድኗል",
+      "reason": "In the zoomed image of Col 1 L38, the word has only three characters: 'ድኗል' (ድ-ኗ-ል), not four ('ድነዋል')."
+    },
+    {
+      "column_index": 2,
+      "line_num": 14,
+      "old_text": "ብለው ሄዱ።እሱም መምሕረ",
+      "corrected_text": "ብለው ሄዱ።እሱም መምህረ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "መምሕረ -> መምህረ",
+      "reason": "The printed glyph in Col 2 L14 is 'ህ' (መምህረ), the standard spelling of 'መምህር'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 4,
+      "old_text": "ታም ጥምቀቱ እኛም ከመጥቀ",
+      "corrected_text": "ታም ጥምቀቱ እኛን ከመጥቀ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እኛም -> እኛን",
+      "reason": "In Col 3 L04, the printed glyph is 'እኛን' ('እኛን ከመጥቀም በላይ እሱን ከመጥቀም በታች ነውና'), parallel to 'እሱን ከመጥቀም' in L05."
+    },
+    {
+      "column_index": 3,
+      "line_num": 26,
+      "old_text": "እንጂ አውቆ አስመስሏል።ም",
+      "corrected_text": "እንዲህ አውቆ አስመስሏል።ም",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እንጂ -> እንዲህ",
+      "reason": "Looking closely at Col 3 L26 in the zoomed image, the word is 'እንዲህ' ('ትንቢቱን አውቆ አናግሯል ምሳሌውንም እንዲህ አውቆ አስመስሏል'), where 'ዲህ' was compressed/misread as 'ጂ'."
+    }
+  ]
+}

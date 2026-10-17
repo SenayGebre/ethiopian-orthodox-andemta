@@ -1,0 +1,62 @@
+{
+  "pdf_page": 21,
+  "book_page_ethiopic": "፪፻፴፯ | ፪፻፴፰",
+  "elapsed_sec": 17.1,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 16,
+      "old_text": "ቸው ፡ በፊት ፡ አዕመ ፡ ሰማዕታትን ፡ አሳ↵",
+      "corrected_text": "ቸው ፡ በፊት ፡ አፅመ ፡ ሰማዕታትን ፡ አሳ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አዕመ -> አፅመ",
+      "reason": "The printed glyph has the top loop of ፅ (አፅመ ሰማዕታትን 'relics/bones of the martyrs'), misread as ዕ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 6,
+      "old_text": "ሪያ ፡ ትኩል ፡ እሳት ፡ መስፈሪያ ፡ ተኩል ፡",
+      "corrected_text": "ሪያ ፡ ተኩል ፡ እሳት ፡ መስፈሪያ ፡ ተኩል ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ትኩል -> ተኩል",
+      "reason": "The printed word is ተኩል ('a measure and a half'), matching the subsequent occurrences on the same line and line 9."
+    },
+    {
+      "column_index": 3,
+      "line_num": 2,
+      "old_text": "ነውና ፡ ብላችሁ ፡ ሕፃን ፡ ጃንደረባ ፡ ሰጣ↵",
+      "corrected_text": "ነውና ፡ ብላችሁ ፡ ሕፃን ፡ ጃንደረባ ፡ ሰጥታ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሰጣ -> ሰጥታ",
+      "reason": "The printed line ends with ሰጥታ- (wrapping to -ችሁ on L03 to form ሰጥታችሁ 'having given'), where ጥታ was compressed and misread as ጣ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 5,
+      "old_text": "ተኮስ ፡ እንደ ፡ ታገመ ፡ እንታገም ፡ ማለ↵",
+      "corrected_text": "ተኮስ ፡ እንደ ፡ ታገመ ፡ እንታገም ፡ ማ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ማለ -> ማ",
+      "reason": "Only ማ- is printed at the end of Line 5, which wraps onto Line 6 (ለት) to form ማለት; Stage 1 duplicated ለ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 31,
+      "old_text": "ድም ፡ በረከተ ፡ ነፍሱን ፡ ትወርሱ ፡",
+      "corrected_text": "ድም ፡ በረከተ ፡ ነፍስን ፡ ትወርሱ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ነፍሱን -> ነፍስን",
+      "reason": "The printed glyph is 6th-order ስ (ነፍስን), matching L29 above."
+    },
+    {
+      "column_index": 4,
+      "line_num": 32,
+      "old_text": "ዘንድ ፡ ለዚህ ፡ ለበረከተ ፡ ነፍሱ ፡ ተጠር↵",
+      "corrected_text": "ዘንድ ፡ ለዚህ ፡ ለበረከተ ፡ ነፍስ ፡ ተጠር",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ነፍሱ -> ነፍስ",
+      "reason": "The printed glyph is 6th-order ስ (ለበረከተ ነፍስ), with a small ink dot on the right misread as 2nd-order ሱ."
+    }
+  ]
+}

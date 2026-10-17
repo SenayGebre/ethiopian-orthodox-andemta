@@ -1,0 +1,26 @@
+{
+  "pdf_page": 53,
+  "book_page_ethiopic": "፻፪ | ፻፫",
+  "elapsed_sec": 19.8,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 17,
+      "old_text": "ያኖስ ፡ ዳኬዎስ ፡ ከስሪ ፡ መርቅያን ፡ ዱድ↵",
+      "corrected_text": "ያኖስ ፡ ዳኬዎስ ፡ ከስሬ ፡ መርቅያን ፡ ዱድ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከስሪ -> ከስሬ",
+      "reason": "The printed glyph has the 5th-order (ኀምስ) loop at the base of the stem: ከስሬ (Chosroes/Khosrow), the standard Ethiopic spelling of the Persian king."
+    },
+    {
+      "column_index": 4,
+      "line_num": 13,
+      "old_text": "⟪፲፬ ፤ ወይግብኡ ፡ ምስለ ፡ በግዑ ፡ ወይመውዖሙ ፤⟫",
+      "corrected_text": "⟪፲፬ ፤ ወይትብኡ ፡ ምስለ ፡ በግዑ ፡ ወይመውዖሙ ፤⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወይግብኡ -> ወይትብኡ",
+      "reason": "The printed Ge'ez text reads ወይትብኡ ('and they shall make war/fight', from ተበአ, glossed immediately below as ይዋጋሉ), where the crossbar of ት was misread as ግ."
+    }
+  ]
+}

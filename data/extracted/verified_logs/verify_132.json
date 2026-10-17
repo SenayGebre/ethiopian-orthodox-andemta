@@ -1,0 +1,98 @@
+{
+  "pdf_page": 132,
+  "book_page_ethiopic": "፪፻፶፩",
+  "elapsed_sec": 31.2,
+  "applied_count": 10,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 2,
+      "old_text": "መላእክትን ሊቆጣጠራቸው የ↵",
+      "corrected_text": "መላእክትን ሊቈጣጠራቸው የ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ቆ -> ቈ",
+      "reason": "The printed glyph in the image is labiovelar ቈ (ሊቈጣጠራቸው), matching በተቈጻጸራቸው on L06."
+    },
+    {
+      "column_index": 1,
+      "line_num": 24,
+      "old_text": "ኋላ ከሕዝቡ አንድ ተነሳሂ አ↵",
+      "corrected_text": "ኋላ ከሕዝቡ አንድ ተነሳሒ አ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሂ -> ሒ",
+      "reason": "The printed glyph is ሒ (ተነሳሒ, from ንስሐ), not ሂ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 26,
+      "old_text": "ፍ ይዘዘውን ፈጽም ብሎ አስ↵",
+      "corrected_text": "ፍ ያዘዘውን ፈጽም ብሎ አስ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ይ -> ያ",
+      "reason": "Amharic relative verb 'ያዘዘውን' ('that which the book commanded'); the printed glyph is 4th-order ያ, not 6th-order ይ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 31,
+      "old_text": "እለዚያ አይሆንም ብሎ አወ↵",
+      "corrected_text": "አለዚያ አይሆንም ብሎ አወ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እ -> አ",
+      "reason": "Standard Amharic 'አለዚያ' ('otherwise'); the printed first character is 1st-order አ without the bottom loop of እ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 37,
+      "old_text": "ለው ። ⟪ወሖዊሮሙ ነገርዎ ፡⟫ ሂ↵",
+      "corrected_text": "ለው ። ⟪ወሐዊሮሙ ነገርዎ ፡⟫ ሂ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሖ -> ሐ",
+      "reason": "Canonical Ge'ez gerundive 'ወሐዊሮሙ' (Matt 18:31) uses 1st-order ሐ before ዊ, clearly visible in the image."
+    },
+    {
+      "column_index": 2,
+      "line_num": 4,
+      "old_text": "በደዌ ጻራው ። ⟪ወይቤሎ ፡⟫ አንተ",
+      "corrected_text": "በደዌ ጠራው ። ⟪ወይቤሎ ፡⟫ አንተ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጻ -> ጠ",
+      "reason": "Amharic gloss of 'ጸውዖ' ('he summoned/called him') is 'በደዌ ጠራው'; the three-legged ጠ was misread as ጻ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 7,
+      "old_text": "አስተብቋዕከኒ ፡⟫ ማልደኸኛልና",
+      "corrected_text": "አስተብቍዕከኒ ፡⟫ ማልደኸኛልና",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቋ -> ቍ",
+      "reason": "Ge'ez verb 'አስተብቍዕከኒ' (Matt 18:32) is printed with ቍ, not ቋ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 11,
+      "old_text": "ሰርይለት አይገባሕምን ። ⟪ትመየ↵",
+      "corrected_text": "ሰርይለት አይገባህምን ። ⟪ትመየ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሕ -> ህ",
+      "reason": "The printed glyph in the image is clearly ህ ('አይገባህምን'), not ሕ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 23,
+      "old_text": "ብእሲ አባሁ ወእሞ ወይተ↵",
+      "corrected_text": "ብእሲ አቡሁ ወእሞ ወይተ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ባ -> ቡ",
+      "reason": "Canonical Ge'ez accusative with 3ms suffix is 'አቡሁ' ('his father', Matt 19:5), and the 2nd-order stroke on ቡ is visible in the image."
+    },
+    {
+      "column_index": 3,
+      "line_num": 36,
+      "old_text": "ይታለዋ አባግዓ ቀርሜሎስ",
+      "corrected_text": "ይታለዋ አባግዐ ቀርሜሎስ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዓ -> ዐ",
+      "reason": "The printed glyph in 'አባግዐ ቀርሜሎስ' is 1st-order ዐ, not 4th-order ዓ."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "pdf_page": 69,
+  "book_page_ethiopic": "፬፻፳፬",
+  "elapsed_sec": 10.3,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 2,
+      "old_text": "አስገľምሮ ፡ ላስፈጸመን ፡ ጌታ ፡ ክብር ፡",
+      "corrected_text": "አስጀምሮ ፡ ላስፈጸመን ፡ ጌታ ፡ ክብር ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ገľ -> ጀ",
+      "reason": "The printed glyph in 'አስጀምሮ' ('having caused us to begin') is 'ጀ' (Ge'ez 'ገ' with the top horizontal bar), which Stage 1 misread as 'ገľ' due to a slight break in the top bar."
+    }
+  ]
+}

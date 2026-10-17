@@ -1,0 +1,36 @@
+{
+  "pdf_page": 1,
+  "book_page_arabic": 320,
+  "book_page_ethiopic": "፫፻፳",
+  "page_type": "illustration",
+  "running_header": "፫፻፳",
+  "illustration": {
+    "title_inscription": "ቅ ፡ ማርቆስ ።",
+    "caption_lines": [
+      {
+        "line_num": 1,
+        "margin_tag": null,
+        "line_type": "section_title",
+        "text": "ቅ ፡ ማርቆስ ።",
+        "word_wraps_to_next_line": false,
+        "uncertain": []
+      }
+    ],
+    "description": "Full-page woodcut portrait of St. Mark the Evangelist (ቅዱስ ማርቆስ) seated on a lion-carved chair at a round writing table with an open Gospel codex and inkstand. A pillar topped with a small winged figure stands to the right, and the Holy Spirit descends as a dove in the upper right corner beneath a ribbon inscribed 'ቅ ፡ ማርቆስ ።', all enclosed within an ornate traditional Ethiopian Harag (ሐረግ) interlace border."
+  },
+  "columns": [
+    {
+      "column_index": 1,
+      "lines": [
+        {
+          "line_num": 1,
+          "margin_tag": null,
+          "line_type": "section_title",
+          "text": "ቅ ፡ ማርቆስ ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        }
+      ]
+    }
+  ]
+}

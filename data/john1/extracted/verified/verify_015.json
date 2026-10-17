@@ -1,0 +1,17 @@
+{
+  "pdf_page": 15,
+  "book_page_ethiopic": "፫፻፬",
+  "elapsed_sec": 9.0,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 9,
+      "old_text": "መዠመሪያዪቱ ፡ የዮሐንስ ፡ ኪታብ ፡ ፍ",
+      "corrected_text": "መዠመሪያዪቱ ፡ የዮሐንስ ፡ ክታብ ፡ ፍ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኪታብ -> ክታብ",
+      "reason": "The printed glyph has the 6th-order 'ክ' (kətab, the standard Andemta rendering for epistle/letter), not 3rd-order 'ኪ'."
+    }
+  ]
+}

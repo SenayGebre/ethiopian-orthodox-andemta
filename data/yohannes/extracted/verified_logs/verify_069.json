@@ -1,0 +1,35 @@
+{
+  "pdf_page": 69,
+  "book_page_ethiopic": "፭፻፸፱",
+  "elapsed_sec": 20.2,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 35,
+      "old_text": "ሚል ሥጋን ተዋሕጄ አድኃኃ",
+      "corrected_text": "ሚል ሥጋን ተዋሕጄ አድንኃ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኃ -> ን",
+      "reason": "The third character of አድንኃለሁ ('I will save you') is clearly ን in the image, not a repeated ኃ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 37,
+      "old_text": "ብሎት ነበርና ያ አንድ ተፈጻ",
+      "corrected_text": "ብሎት ነበርና ያ እንደ ተፈጸ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አንድ ተፈጻ -> እንደ ተፈጸ",
+      "reason": "The printed glyphs are እንደ ተፈጸመለት ('that that was fulfilled for him'), where 1st-order ደ and ጸ were misread as 6th-order ድ and 4th-order ጻ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 15,
+      "old_text": "⟪ከሠተ አዕይንቲሁ ለዘዕውሩ",
+      "corrected_text": "⟪ከሠተ አዕይንቲሁ ለዘዕውረ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሩ -> ረ",
+      "reason": "Classical Ge'ez grammar and the printed glyph show 1st-order ረ in ለዘዕውረ ተወልደ ('for him who was born blind')."
+    }
+  ]
+}

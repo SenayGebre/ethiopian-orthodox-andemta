@@ -1,0 +1,44 @@
+{
+  "pdf_page": 67,
+  "book_page_ethiopic": "፩፻፳ | ፩፻፳፩",
+  "elapsed_sec": 17.2,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 13,
+      "old_text": "በዚሀም ፡ መጽሐፍ ፡ የተነገረውን ፡ የሚ",
+      "corrected_text": "በዚህም ፡ መጽሐፍ ፡ የተነገረውን ፡ የሚ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሀ -> ህ",
+      "reason": "The word is clearly 'በዚህም' (6th order ህ with the left bend on the leg), not 'በዚሀም'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 27,
+      "old_text": "፱ ፤ ⟪ወይቤለኒ ፡ ኢትስግድ ፡ ሊተ ፡ ዑቅ ፡ የጊ ፡⟫",
+      "corrected_text": "፱ ፤ ⟪ወይቤለኒ ፡ ኢትስግድ ፡ ሊተ ፡ ዑቅ ፡ የኒ ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "የጊ -> የኒ",
+      "reason": "In the canonical Ge'ez text of Revelation 22:9 ('ዑቅ የኒ'), the particle is 'የኒ' (translated in the next line as 'መቸም መች'), where the 3rd order 'ኒ' was misread as 'ጊ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 28,
+      "old_text": "ንጹሑም ፡ ዐስበ፡ ንጹሑን፡ ያገኝ፡ ዘንድ ፡",
+      "corrected_text": "ንጹሑም ፡ ዐስበ፡ ንጽሑን፡ ያገኝ፡ ዘንድ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ንጹሑን -> ንጽሑን",
+      "reason": "The second word after ዐስበ is 'ንጽሑን' (with 6th order ጽ, matching 'ዐስበ ንጽሑን' in lines 33-34), whereas the first word of the line is 'ንጹሑም'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 29,
+      "old_text": "ይህን፡ለናንት፡ለምእመናንይነግራችሁ፡ዘን",
+      "corrected_text": "ይህን፡ለናንት፡ለምእመናን፡ይነግራችሁ፡ዘን",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ለምእመናንይነግራችሁ -> ለምእመናን፡ይነግራችሁ",
+      "reason": "There is a faint word separator (ሁለት ነጥብ) printed between 'ለምእመናን' and 'ይነግራችሁ'."
+    }
+  ]
+}

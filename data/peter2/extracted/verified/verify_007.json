@@ -1,0 +1,17 @@
+{
+  "pdf_page": 7,
+  "book_page_ethiopic": "፪፻፳፬ | ፪፻፳፭",
+  "elapsed_sec": 20.0,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 28,
+      "old_text": "፬ ፤ ⟪ወእግዚአብሔርሰ ፡ ለመላእክቲሁኒ ፡ ጥቀ ፡ አበ↵",
+      "corrected_text": "፬ ፤ ⟪ወእግዚአብሔርሰ ፡ ለመላእክቲሁ ፡ ጥቀ ፡ አበ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ለመላእክቲሁኒ -> ለመላእክቲሁ",
+      "reason": "In Col 1 L28, a faint ink smudge before the word-separator colon was misread as 'ኒ'. Both the printed glyph and canonical 2 Peter 2:4 read 'ለመላእክቲሁ ፡ ጥቀ'."
+    }
+  ]
+}

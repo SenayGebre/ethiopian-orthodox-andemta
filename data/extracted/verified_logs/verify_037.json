@@ -1,0 +1,107 @@
+{
+  "pdf_page": 37,
+  "book_page_ethiopic": "፻፶፮",
+  "elapsed_sec": 45.5,
+  "applied_count": 11,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 2,
+      "old_text": "አንድም የእስራኤል ገብዣች",
+      "corrected_text": "አንድም የእስራኤል ገብዦች",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዣ -> ዦ",
+      "reason": "Amharic plural of ገብዥ (scout/spy) is ገብዦች (7th order ዦ), clearly visible in the print."
+    },
+    {
+      "column_index": 1,
+      "line_num": 4,
+      "old_text": "የመንግሥተ ሰማይ ገብዣ ነ",
+      "corrected_text": "የመንግሥተ ሰማይ ገብዥ ነ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዣ -> ዥ",
+      "reason": "Singular noun ገብዥ (6th order ዥ, 'scout/guide of the Kingdom of Heaven') matching the printed glyph."
+    },
+    {
+      "column_index": 1,
+      "line_num": 13,
+      "old_text": "ት።ሕዝቅኤል በፀጋማይ ገቦኑ",
+      "corrected_text": "ት።ሕዝቅኤል በፀጋማይ ጎኑ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ገቦኑ -> ጎኑ",
+      "reason": "The printed text has only two characters ጎኑ ('on his left side'), which was misread as three characters ገቦኑ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 21,
+      "old_text": "እክለ ወኢሰተይኩ ማየ።አመ",
+      "corrected_text": "እክለ ወኢሰተይኩ ማየ።እመ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አ -> እ",
+      "reason": "Ge'ez 3rd person plural pronoun እመንቱሰ ('as for them', 4 Ezra 14:42) begins with 6th-order እ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 32,
+      "old_text": "ሰነብታል ። በስቁሩረተ ዕፅ በ",
+      "corrected_text": "ሰነብታል ። በስቍረተ ዕፅ በ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ስቁሩረተ -> ስቍረተ",
+      "reason": "Ge'ez noun ስቍረት ('hole/crevice', በስቍረተ ዕፅ) has labiovelar ቍ followed directly by ረተ without an extra ሩ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 33,
+      "old_text": "ስቁሩረተ ዕብንም ቢሉ አልፎ",
+      "corrected_text": "ስቍረተ ዕብንም ቢሉ አልፎ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ስቁሩረተ -> ስቍረተ",
+      "reason": "Ge'ez noun ስቍረት ('hole/crevice of stone', በስቍረተ ዕብንም) has labiovelar ቍ followed by ረተ without an extra ሩ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 10,
+      "old_text": "ለማጠየቅ ። ከዚሀም ተራበ",
+      "corrected_text": "ለማጠየቅ ። ከዚህም ተራበ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሀ -> ህ",
+      "reason": "Amharic demonstrative ከዚህም uses 6th-order ህ, misread as ሀ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 21,
+      "old_text": "ወሖሮን እግዚእ ለ፭ስ ግብ",
+      "corrected_text": "ወሖሮን እግዚእ ለ፭ቱ ግብ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "፭ስ -> ፭ቱ",
+      "reason": "Ethiopic numeral ፭ takes the definite suffix ቱ (ለ፭ቱ ግብራት 'for the five works'), misread as ስ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 22,
+      "old_text": "ራት እንዲል፡፭ስ ግብራት የተ",
+      "corrected_text": "ራት እንዲል፡፭ቱ ግብራት የተ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "፭ስ -> ፭ቱ",
+      "reason": "Ethiopic numeral ፭ takes the definite suffix ቱ (፭ቱ ግብራት 'the five works'), misread as ስ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 32,
+      "old_text": "እኰን ሰማዕተ በጽድቅ ብሎ",
+      "corrected_text": "እኩን ሰማዕተ በጽድቅ ብሎ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኰ -> ኩ",
+      "reason": "Ge'ez 1st person singular subjunctive is እኩን (2nd order ኩ, ከመ እኩን ሰማዕተ በጽድቅ, John 18:37)."
+    },
+    {
+      "column_index": 3,
+      "line_num": 33,
+      "old_text": "ም ርኀብኩ የሚል ድምፅ እ",
+      "corrected_text": "ም ርኀብኩ የሚል ድምፅ አ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እ -> አ",
+      "reason": "Amharic causative gerund አሰምቶት ('having let him hear') begins with 1st-order አ at the line break."
+    }
+  ]
+}

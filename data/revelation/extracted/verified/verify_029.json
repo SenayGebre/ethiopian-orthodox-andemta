@@ -1,0 +1,35 @@
+{
+  "pdf_page": 29,
+  "book_page_ethiopic": "፬፻፬ | ፬፻፭",
+  "elapsed_sec": 147.5,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 17,
+      "old_text": "ርኅ፡ ኤጺስ፡ቆጶስ፡ ነው፡ ጠፉ፡በነፍስ፡ ተጎ↵",
+      "corrected_text": "ርኅ፡ ኤጲስ፡ቆጶስ፡ ነው፡ ጠፉ፡በነፍስ፡ ተጎ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጺ -> ጲ",
+      "reason": "The printed glyph in ኤጲስ፡ቆጶስ (episkopos/bishop) is ጲ (p'ait), which was misread as ጺ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 19,
+      "old_text": "ጺስ፡ቆጶስ፡ሦስተኛ፡ነውና፡ (ወሣልስተ፡እ↵",
+      "corrected_text": "ጲስ፡ቆጶስ፡ሦስተኛ፡ነውና፡ (ወሣልስተ፡እ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጺ -> ጲ",
+      "reason": "The printed glyph in ለኤጲስ፡ቆጶስ is ጲ, misread as ጺ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 24,
+      "old_text": "ውን ፡ ተከለን ፡ ላዩን ፡ የተለፋ ፡ መስክ ፡",
+      "corrected_text": "ውን ፡ ተክለን ፡ ላዩን ፡ የተለፋ ፡ መስክ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ከ -> ክ",
+      "reason": "The printed glyph is ተክለን (6th order ክ in the gerundive 'having planted'), parallel to አጐድጕደን ቆፍረን."
+    }
+  ]
+}

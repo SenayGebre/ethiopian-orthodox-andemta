@@ -1,0 +1,35 @@
+{
+  "pdf_page": 36,
+  "book_page_ethiopic": "፫፻፶፭",
+  "elapsed_sec": 16.4,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 7,
+      "old_text": "⟪አላ ለካልዓን እስተዳለወ ሎሙ",
+      "corrected_text": "⟪አላ ለካልዓን አስተዳለወ ሎሙ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እስተዳለወ -> አስተዳለወ",
+      "reason": "Both visually on the page (no central loop on the first glyph) and grammatically in Classical Ge'ez (3rd person masculine singular perfective with subject አቡየ), the verb is አስተዳለወ ('he prepared'), not 1st person እስተዳለወ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 29,
+      "old_text": "ተገዢ ይሁናችሁ ፤",
+      "corrected_text": "ተገዥ ይሁናችሁ ፤",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ተገዢ -> ተገዥ",
+      "reason": "The printed glyph ends in 6th-order ዥ (ተገዥ), which is the standard orthography in this printing."
+    },
+    {
+      "column_index": 3,
+      "line_num": 8,
+      "old_text": "መምር ይጠራሀልና እምነህ ተ↵",
+      "corrected_text": "መምር ይጠራሀልና አምነህ ተ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እምነህ -> አምነህ",
+      "reason": "Visually the initial character is 1st-order አ without a central loop, forming the Amharic gerund አምነህ ('having believed / taking heart', rendering Ge'ez ተአመን)."
+    }
+  ]
+}

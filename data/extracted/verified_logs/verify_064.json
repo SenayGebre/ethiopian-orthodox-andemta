@@ -1,0 +1,80 @@
+{
+  "pdf_page": 64,
+  "book_page_ethiopic": "፻፹፫",
+  "elapsed_sec": 32.9,
+  "applied_count": 8,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "[፯] ዱባችኋል ። ⟪ስአሉ ወ⟫",
+      "corrected_text": "[፯] ዱባችኋል ። ⟪ሰአሉ ወ⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ስ -> ሰ",
+      "reason": "Ge'ez plural imperative 'ሰአሉ' (Matt 7:7) is printed with 1st-order 'ሰ' (also repeated in L14), misread as 6th-order 'ስ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 9,
+      "old_text": "⟪ኀሠ ወትረክቡ ።⟫",
+      "corrected_text": "⟪ኀሡ ወትረክቡ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኀሠ -> ኀሡ",
+      "reason": "Ge'ez plural imperative 'ኀሡ' ('seek ye', Matt 7:7) has the 2nd-order stroke on 'ሡ', misread as 1st-order 'ሠ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 18,
+      "old_text": "የሻም ያገኛልና ፥ ኀሠ ። ሽተው",
+      "corrected_text": "የሻም ያገኛልና ፥ ኀሡ ። ሽተው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኀሠ -> ኀሡ",
+      "reason": "The cited Ge'ez lemma 'ኀሡ' has the 2nd-order vowel mark on 'ሡ', matching L09."
+    },
+    {
+      "column_index": 2,
+      "line_num": 11,
+      "old_text": "አሎ አቀረበኑ ይሁቦ ይላል ።",
+      "corrected_text": "አሎ አቅረበኑ ይሁቦ ይላል ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ቀ -> ቅ",
+      "reason": "Ge'ez noun 'አቅረበኑ' ('a scorpion?', Luke 11:12) is printed with 6th-order 'ቅ', misread as 1st-order 'ቀ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 23,
+      "old_text": "ይሁቦሙ ሠናይቶ ለእለ ይ↵",
+      "corrected_text": "ይሁቦሙ ሠናያተ ለእለ ይ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሠናይቶ -> ሠናያተ",
+      "reason": "Canonical Ge'ez 'ሠናያተ' ('good things', Matt 7:11) is clearly printed with 4th-order 'ያ' and 1st-order 'ተ', misread as 'ሠናይቶ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 5,
+      "old_text": "ና ፥ በኡ ማንሻ ።",
+      "corrected_text": "ና ፥ ባኡ ማንሻ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "በኡ -> ባኡ",
+      "reason": "The Ge'ez imperative lemma 'ባኡ' is printed with 4th-order 'ባ' (shortened left leg), matching L06 and L07."
+    },
+    {
+      "column_index": 3,
+      "line_num": 7,
+      "old_text": "[፫ኛ] ኦሪትም ነቢያትም ባኡ እንተ",
+      "corrected_text": "[፲፫] ኦሪትም ነቢያትም ባኡ እንተ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፫ኛ -> ፲፫",
+      "reason": "The marginal verse number for the Amharic commentary is '፲፫' (verse 13, matching L06), misread as '፫ኛ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 33,
+      "old_text": "በልፅ ከራሜ ከራሚከ ወይሰ↵",
+      "corrected_text": "በልዕ ከራሜ ከራሚከ ወይሰ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ፅ -> ዕ",
+      "reason": "Ge'ez verb 'ትበልዕ' ('thou shalt eat') ends with 6th-order 'ዕ', misread as 'ፅ'."
+    }
+  ]
+}

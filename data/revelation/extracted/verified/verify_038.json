@@ -1,0 +1,17 @@
+{
+  "pdf_page": 38,
+  "book_page_ethiopic": "፬፻፳፪ | ፬፻፳፫",
+  "elapsed_sec": 15.8,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 17,
+      "old_text": "⟪፲፭ ፤ ወሶበ ፡ ነፍዐ ፡ ሳብዕ ፡ መልአክ ፡⟫",
+      "corrected_text": "⟪፲፭ ፤ ወሶበ ፡ ጠቅዐ ፡ ሳብዕ ፡ መልአክ ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ነፍዐ -> ጠቅዐ",
+      "reason": "The printed Ge'ez text clearly reads 'ጠቅዐ' (sounded/blew the trumpet, canonical Ge'ez for Rev 11:15 'ወሶበ ጠቅዐ ሳብዕ መልአክ'), which was misread by Stage 1 as 'ነፍዐ'."
+    }
+  ]
+}

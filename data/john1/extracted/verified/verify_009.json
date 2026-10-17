@@ -1,0 +1,35 @@
+{
+  "pdf_page": 9,
+  "book_page_ethiopic": "፻፷፪ | ፻፷፫",
+  "elapsed_sec": 33.5,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 23,
+      "old_text": "፰ ። ማቴ ፡ ፳፫ ፥ ፳፭ ። ይሁዳ ፡ ቍ ፡ ፲፩ ።",
+      "corrected_text": "፰ ። ማቴ ፡ ፳፫ ፥ ፴፭ ። ይሁዳ ፡ ቍ ፡ ፲፩ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፳፭ -> ፴፭",
+      "reason": "The printed Ethiopic numeral is ፴፭ (35), citing Matthew 23:35 (regarding the righteous blood of Abel), not ፳፭ (25)."
+    },
+    {
+      "column_index": 4,
+      "line_num": 11,
+      "old_text": "⟪፳ ፤ ወያዐብዮ ፡ እግዚአብሔር ፡ ለልብነ ፡⟫",
+      "corrected_text": "⟪፳ ፤ ወየዐብዮ ፡ እግዚአብሔር ፡ ለልብነ ፡⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ወያዐብዮ -> ወየዐብዮ",
+      "reason": "The printed Ge'ez verb uses first-order የ (ወየዐብዮ), matching the citation on the very next line (የዐብዮ)."
+    },
+    {
+      "column_index": 4,
+      "line_num": 31,
+      "old_text": "(ያዐብዮ) ፡ እግዚአብሔር ፡ ልቡናችንን ፡",
+      "corrected_text": "(የዐብዮ) ፡ እግዚአብሔር ፡ ልቡናችንን ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ያዐብዮ -> የዐብዮ",
+      "reason": "The parenthetical Ge'ez lemma clearly prints first-order የ in (የዐብዮ), matching lines 11 and 12."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "pdf_page": 82,
+  "book_page_ethiopic": "፻፶፮ | ፻፶፯",
+  "elapsed_sec": 60.2,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 4,
+      "line_num": 3,
+      "old_text": "ዕዳው ፡ ይህ ፡ ነው ፡ ሳንል ፡ እሥረን፡ወደ፡",
+      "corrected_text": "ዕዳው ፡ ይህ ፡ ነው ፡ ሳንል ፡ አሥረን፡ወደ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "እሥረን -> አሥረን",
+      "reason": "The printed glyph is 1st-order አ (አሥረን, 'having bound [him]', matching አሥሮ on L14), misread as 6th-order እ due to slight ink wear."
+    }
+  ]
+}

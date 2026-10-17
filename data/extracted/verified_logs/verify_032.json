@@ -1,0 +1,35 @@
+{
+  "pdf_page": 32,
+  "book_page_ethiopic": "፻፶፩",
+  "elapsed_sec": 18.9,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 16,
+      "old_text": "ፋና እምስ ስልሳ ፋና ቢያበሩ↵",
+      "corrected_text": "ፋና አምሳ ስልሳ ፋና ቢያበሩ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እምስ -> አምሳ",
+      "reason": "The printed text clearly reads 'አምሳ ስልሳ ፋና' ('fifty or sixty torches'), where 1st-order 'አ' and 4th-order 'ሳ' were misread as 'እምስ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 33,
+      "old_text": "ና ዘዚአነ እሳት እንተ ኮነ ይት↵",
+      "corrected_text": "ና ዘይእቲ እሳት እንተ ኮነ ይት↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዘዚአነ -> ዘይእቲ",
+      "reason": "Canonical Ge'ez liturgical citation ('ዘይእቲ እሳት እንተ ኮነ ይትዓፀፋ አዳም') and visual inspection of the printed glyph confirm 'ዘይእቲ' rather than 'ዘዚአነ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 30,
+      "old_text": "አቡየ ብዙኃ ማኅደር ወምዕራ↵",
+      "corrected_text": "አቡየ ብዙኅ ማኅደር ወምዕራ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ብዙኃ -> ብዙኅ",
+      "reason": "In the canonical Ge'ez citation of John 14:2 ('ውስተ ቤተ አቡየ ብዙኅ ማኅደር ቦቱ') and in the printed image, 'ብዙኅ' is in the nominative 6th order (ሳድስ 'ኅ'), not 4th order 'ኃ'."
+    }
+  ]
+}

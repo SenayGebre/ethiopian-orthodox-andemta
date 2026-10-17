@@ -1,0 +1,17 @@
+{
+  "pdf_page": 3,
+  "book_page_ethiopic": "፫፻፳",
+  "elapsed_sec": 12.7,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 1,
+      "old_text": "አለ ፡ ብርዕ ፡ ቀርጬ ፡ ቀለመ ፡ በጥብጬ ፡",
+      "corrected_text": "አለ ፡ ብርዕ ፡ ቀርጬ ፡ ቀለም ፡ በጥብጬ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "መ -> ም",
+      "reason": "In the Amharic commentary phrase 'ቀለም በጥብጬ' (mixing ink), the 6th-order 'ም' has slight ink fill in its lower-right loop, causing it to be misread as 1st-order 'መ'."
+    }
+  ]
+}

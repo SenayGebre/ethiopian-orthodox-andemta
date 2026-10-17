@@ -1,0 +1,26 @@
+{
+  "pdf_page": 13,
+  "book_page_ethiopic": "፳፬ | ፻፳፭",
+  "elapsed_sec": 16.4,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 31,
+      "old_text": "⟪ወዛቲ ፡ ይእቲ ፡ መዋዕተ ፥⟫",
+      "corrected_text": "⟪ወዛቲ ፡ ይእቲ ፡ መዋዕቱ ፥⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ተ -> ቱ",
+      "reason": "The printed glyph has the clear right-side horizontal stroke of 2nd-order 'ቱ' (መዋዕቱ, 'his victory' / 'ድል መንሳቱም'), which was misread as 1st-order 'ተ'."
+    },
+    {
+      "column_index": 4,
+      "line_num": 12,
+      "old_text": "፱ ፤ ⟪ወእመሰ ፡ ስምዐ ፡ ሰብእ ፡ ነነሥእ ፡ ስምዐ ፡",
+      "corrected_text": "፱ ፤ ⟪ወእመሰ ፡ ስምዐ ፡ ሰብእ ፡ ንነሥእ ፡ ስምዐ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ነ -> ን",
+      "reason": "Both visually on the page and grammatically in Classical Ge'ez 1st person plural imperfective ('ንነሥእ' = 'የምንቀበል ከሆነ'), the initial character is 6th-order 'ን', not 1st-order 'ነ'."
+    }
+  ]
+}

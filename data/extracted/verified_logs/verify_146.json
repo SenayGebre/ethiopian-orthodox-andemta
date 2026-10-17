@@ -1,0 +1,44 @@
+{
+  "pdf_page": 146,
+  "book_page_ethiopic": "፪፻፷፭",
+  "elapsed_sec": 15.7,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 16,
+      "old_text": "⟪ወመጸብሐንስ ወዘማውያን",
+      "corrected_text": "⟪ወመጸብሐንሰ ወዘማውያን",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ስ -> ሰ",
+      "reason": "Ge'ez adversative enclitic particle -ሰ (1st order) on ወመጸብሐንሰ, misread as Amharic -ስ (6th order)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 34,
+      "old_text": "ዲል ፤ አፎ ኮነ ወልደ እጓለ እ↵",
+      "corrected_text": "ዲል ፤ እፎ ኮነ ወልደ እጓለ እ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አፎ -> እፎ",
+      "reason": "Ge'ez interrogative adverb እፎ ('how', 6th order እ) in 'እፎ ኮነ ወልደ እጓለ እመሕያው', misread as 1st order አፎ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 12,
+      "old_text": "የዘبيب ማስጫ ውድማ አ↵",
+      "corrected_text": "የዘቢብ ማስጫ ውድማ አ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "بيب -> ቢብ",
+      "reason": "Ethiopic word የዘቢብ ('of raisins/grapes') had its last two characters corrupted into Arabic script."
+    },
+    {
+      "column_index": 3,
+      "line_num": 40,
+      "old_text": "ይሰጠብታል ፥",
+      "corrected_text": "ይሰጥበታል ፥",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጠብ -> ጥበ",
+      "reason": "Amharic verb ይሰጥበታል (6th order ጥ followed by 1st order በ) was transposed in vowel orders as ይሰጠብታል."
+    }
+  ]
+}

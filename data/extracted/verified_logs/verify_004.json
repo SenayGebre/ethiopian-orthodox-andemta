@@ -1,0 +1,35 @@
+{
+  "pdf_page": 4,
+  "book_page_ethiopic": "፻፳፫",
+  "elapsed_sec": 16.3,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 26,
+      "old_text": "መልክ መልካም ማለት ነው",
+      "corrected_text": "መልከ መልካም ማለት ነው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ክ -> ከ",
+      "reason": "The printed glyph has the 1st-order (ግዕዝ) form ከ in the compound construct መልከ መልካም (matching line 27 below), rather than 6th-order ክ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 17,
+      "old_text": "ይሰድዶ ወኢያወጽኦ አፍአ እን",
+      "corrected_text": "ይሰድዶ ወኢያወጽኦ አፍአ እ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እን -> እ",
+      "reason": "In the printed column, line 17 ends after እ and the character ን begins line 18 (እ↵ንዲል)."
+    },
+    {
+      "column_index": 2,
+      "line_num": 18,
+      "old_text": "ዲል ፡ ፋሬስ የኦሪት ዛራ የ",
+      "corrected_text": "ንዲል ፡ ፋሬስ የኦሪት ዛራ የ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ዲል -> ንዲል",
+      "reason": "Line 18 begins with ንዲል continuing the word እ↵ንዲል from the end of line 17."
+    }
+  ]
+}

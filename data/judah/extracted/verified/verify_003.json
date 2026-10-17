@@ -1,0 +1,62 @@
+{
+  "pdf_page": 3,
+  "book_page_ethiopic": "፫፻፵፬ | ፫፻፵፭",
+  "elapsed_sec": 23.5,
+  "applied_count": 6,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 7,
+      "old_text": "እለ ፡ ለፍጽሜ ፡ ጽልመት ፡ ለዓለም ፡ ደይ",
+      "corrected_text": "እለ ፡ ለፍጻሜ ፡ ጽልመት ፡ ለዓለም ፡ ደይ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ለፍጽሜ -> ለፍጻሜ",
+      "reason": "The 4th-order leg of ጻ in ለፍጻሜ is clearly visible on the page, matching the Ge'ez root text in line 5."
+    },
+    {
+      "column_index": 1,
+      "line_num": 18,
+      "old_text": "ዳልና ፡ ዘውእቱ ፡ ሳብእ ፡ እምአዳም ፡ አለ፡",
+      "corrected_text": "ዳልና ፡ ዘውእቱ ፡ ሳብዕ ፡ እምአዳም ፡ አለ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሳብእ -> ሳብዕ",
+      "reason": "The printed glyph is ዕ (ሳብዕ, 'seventh' in Ge'ez, matching line 13), not እ."
+    },
+    {
+      "column_index": 1,
+      "line_num": 21,
+      "old_text": "ተውታል ፡ መዓአ ፡ ነፋሳትን ፡ ምሕዋረ ፡",
+      "corrected_text": "ተውታል ፡ ሙዓለ ፡ ነፋሳትን ፡ ምሕዋረ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "መዓአ -> ሙዓለ",
+      "reason": "The printed word is ሙዓለ (ሙዓለ ነፋሳትን, referring to the courses/days of the winds in the Book of Enoch), where ሙ (with right-side Ka'eb stroke) and ለ were misread as መ and አ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 27,
+      "old_text": "መንፈስ ፡ ቅዱስ ፡ የላደረባቸው ። አን",
+      "corrected_text": "መንፈስ ፡ ቅዱስ ፡ ያላደረባቸው ። አን",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "የላደረባቸው -> ያላደረባቸው",
+      "reason": "Both visually and grammatically in Amharic relative negative verb morphology, the initial character is 4th-order ያ (ያላደረባቸው), not የ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 30,
+      "old_text": "፳ ፤ ⟪ወአንትሙሰ ፡ አሐዊነ ፡ ሕንጹ ፡ ርእሰክሙ ፡",
+      "corrected_text": "፳ ፤ ⟪ወአንትሙሰ ፡ አኀዊነ ፡ ሕንጹ ፡ ርእሰክሙ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "አሐዊነ -> አኀዊነ",
+      "reason": "The printed Ge'ez word for 'our brethren' is አኀዊነ with ኀ, which was misread as ሐ."
+    },
+    {
+      "column_index": 4,
+      "line_num": 32,
+      "old_text": "ርቱ ፡ በሲኖዶስ ፡ ተጽφοዋል ፥ ሲኖዶስ ፡",
+      "corrected_text": "ርቱ ፡ በሲኖዶስ ፡ ተጽፎዋል ፥ ሲኖዶስ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ተጽφοዋል -> ተጽፎዋል",
+      "reason": "The printed glyph in ተጽፎዋል is clearly 7th-order ፎ."
+    }
+  ]
+}

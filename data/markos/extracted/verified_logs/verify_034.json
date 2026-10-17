@@ -1,0 +1,17 @@
+{
+  "pdf_page": 34,
+  "book_page_ethiopic": "፫፻፶፫",
+  "elapsed_sec": 11.0,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 40,
+      "old_text": "ር ኪገባ ገመል ከነጭነቱ በደ",
+      "corrected_text": "ር ሲገባ ገመል ከነጭነቱ በደ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኪገባ -> ሲገባ",
+      "reason": "The printed glyph in Column 2 Line 40 is clearly 'ሲገባ' ('when he enters' / 'than for him to enter' in comparative Andemta syntax), where 'ሲ' was misread as 'ኪ'."
+    }
+  ]
+}

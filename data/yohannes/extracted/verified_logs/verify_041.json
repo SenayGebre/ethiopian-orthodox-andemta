@@ -1,0 +1,44 @@
+{
+  "pdf_page": 41,
+  "book_page_ethiopic": "፭፻፶፩",
+  "elapsed_sec": 19.5,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 32,
+      "old_text": "ነገር ግን አባቴ እውነተኛ እን",
+      "corrected_text": "ነገር ግን አባቴ እውነተኛ አ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "እን -> አ",
+      "reason": "Visual inspection of Column 1 Line 32 shows only 'አ' at the end of the line, while 'ንጀራ፡' begins on Line 33."
+    },
+    {
+      "column_index": 1,
+      "line_num": 33,
+      "old_text": "ጀራ፡ከሰማይ ሰጣችሁ መና",
+      "corrected_text": "ንጀራ፡ከሰማይ ሰጣችሁ መና",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ጀራ -> ንጀራ",
+      "reason": "The character 'ን' is printed at the start of Line 33 rather than at the end of Line 32."
+    },
+    {
+      "column_index": 1,
+      "line_num": 40,
+      "old_text": "ይ ሥጋ ይዘሀ እንደ መጣህ",
+      "corrected_text": "ይ ሥጋ ይዘህ እንደ መጣህ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ይዘሀ -> ይዘህ",
+      "reason": "The 6th-order 'ህ' in 'ይዘህ' (2nd person masculine singular gerundive) was misread as 1st-order 'ሀ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 21,
+      "old_text": "ላል አህሎ ወእንዘ የኀድግ ህ",
+      "corrected_text": "ላል አህሎ ወእንዘ የኀድግ ሀ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ህ -> ሀ",
+      "reason": "In the Ge'ez citation from Exodus 16:14 ('ወእንዘ የኀድግ ሀቦ' - 'and when the dew went up'), the word for dew is 'ሀቦ' with 1st-order 'ሀ', which is clearly visible at the end of Line 21."
+    }
+  ]
+}

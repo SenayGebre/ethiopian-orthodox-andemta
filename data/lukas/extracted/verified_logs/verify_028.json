@@ -1,0 +1,35 @@
+{
+  "pdf_page": 28,
+  "book_page_ethiopic": "፬፻፲",
+  "elapsed_sec": 13.3,
+  "applied_count": 3,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 17,
+      "old_text": "በመጨረሻ አደረገ ። አንድም",
+      "corrected_text": "በመጨረሻ አደረገ ። እንደም",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አንድም -> እንደም",
+      "reason": "Joining across the line wrap (L17-L18) gives እንደምን ነው አይጣላም ቢሉ ('How is it that it does not contradict, if they ask?'). Visually, the first character on L17 after ። is እ (6th order) forming እንደምን across the line break, not አንድም."
+    },
+    {
+      "column_index": 3,
+      "line_num": 12,
+      "old_text": "ገሊላ ።⟫ ማቴ ፬ ፲፪ ፤ ማር ፩ ፲፤",
+      "corrected_text": "ገሊላ ።⟫ ማቴ ፬ ፲፪ ፤ ማር ፩ ፲፬",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፲፤ -> ፲፬",
+      "reason": "The cross-reference at the end of L12 is Mark 1:14 (ማር ፩ ፲፬), where ፬ was misread as punctuation ፤."
+    },
+    {
+      "column_index": 3,
+      "line_num": 37,
+      "old_text": "ያስ።⟫ማቴ ፲፫ ፶፬ ማር ፮ ፩",
+      "corrected_text": "ያስ።⟫ማቴ ፲፫ ፶፬ ማር ፩ ፳፩",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፮ ፩ -> ፩ ፳፩",
+      "reason": "Visually, the Mark reference on L37 is ማር ፩ ፳፩ (Mark 1:21, entering the synagogue on the Sabbath), not ፮ ፩."
+    }
+  ]
+}

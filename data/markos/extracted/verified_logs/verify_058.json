@@ -1,0 +1,26 @@
+{
+  "pdf_page": 58,
+  "book_page_ethiopic": "፫፻፸፯",
+  "elapsed_sec": 12.7,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 11,
+      "old_text": "ወይእተ አሚረ ካዕበ ብዙኃ ሰብእ ።",
+      "corrected_text": "ወይእተ አሚረ ካዕበ ብዙኅ ሰብእ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኃ -> ኅ",
+      "reason": "The printed glyph has the 6th-order (ሳድስ) top hook of ኅ rather than 4th-order ኃ, matching nominative Ge'ez grammar ('ብዙኅ ሰብእ' in Mark 8:1)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 17,
+      "old_text": "ወእስከ ክኑይ መዋዕል ።",
+      "corrected_text": "ወእስከ ሠኑይ መዋዕል ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ክ -> ሠ",
+      "reason": "The first character of the second word is ሠ ('ሠኑይ መዋዕል', Mark 14:1, translated in Column 2 Line 15 as 'እስከ ሁለት ቀን'), which was misread as ክ."
+    }
+  ]
+}

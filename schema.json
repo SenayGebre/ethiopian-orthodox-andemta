@@ -1,0 +1,295 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ethiopian-orthodox-tewahedo/new-testament-andemta/schema.json",
+  "title": "Ethiopian Orthodox Tewahedo New Testament Ge'ez & Amharic Andemta Commentary Schema (v2.0.0)",
+  "description": "Universal, technology-agnostic JSON schema for the 13 New Testament Andemta Commentary books with authentic Ethiopian Biranna (ብራና) red/black manuscript rubrication.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "book_order",
+    "book_key",
+    "category",
+    "title_geez",
+    "title_short_geez",
+    "title_english",
+    "title_short_english",
+    "biranna_color_rules",
+    "stats",
+    "chapters",
+    "chapter_index",
+    "topical_index",
+    "canon_tables"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "2.0.0"
+    },
+    "book_order": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 13
+    },
+    "book_key": {
+      "type": "string",
+      "enum": [
+        "matewes",
+        "markos",
+        "lukas",
+        "yohannes",
+        "acts",
+        "peter1",
+        "peter2",
+        "john1",
+        "john2",
+        "john3",
+        "james",
+        "judah",
+        "revelation"
+      ]
+    },
+    "category": {
+      "type": "string",
+      "enum": ["Gospel", "Apostolic History", "Catholic Epistle", "Apocalypse"]
+    },
+    "title_geez": { "type": "string" },
+    "title_short_geez": { "type": "string" },
+    "title_english": { "type": "string" },
+    "title_short_english": { "type": "string" },
+    "biranna_color_rules": {
+      "type": "object",
+      "required": ["red_ink_hex", "black_ink_hex", "red_categories", "black_categories"],
+      "properties": {
+        "red_ink_hex": { "type": "string", "const": "#9e1b1b" },
+        "black_ink_hex": { "type": "string", "const": "#1f1a14" },
+        "red_categories": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "geez_scripture",
+              "sacred_divine_name",
+              "sacred_mariology",
+              "sacred_saint_angel",
+              "andemta_rubric",
+              "rubric_numeral_punct"
+            ]
+          }
+        },
+        "black_categories": {
+          "type": "array",
+          "items": { "type": "string", "const": "amharic_commentary" }
+        }
+      }
+    },
+    "stats": { "type": "object" },
+    "chapters": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/Chapter" }
+    },
+    "chapter_index": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/ChapterIndexEntry" }
+    },
+    "topical_index": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/TopicalIndexEntry" }
+    },
+    "canon_tables": {
+      "type": "array"
+    }
+  },
+  "$defs": {
+    "Chapter": {
+      "type": "object",
+      "required": [
+        "id",
+        "book_key",
+        "chapter_num",
+        "chapter_ethiopic",
+        "title_geez",
+        "geez_incipit",
+        "amharic_incipit",
+        "start_pdf_page",
+        "start_book_page_ethiopic",
+        "chapter_topics",
+        "verse_count",
+        "verses"
+      ],
+      "properties": {
+        "id": { "type": "string", "description": "Unique chapter ID (<book_key>:<chapter_num>)" },
+        "book_key": { "type": "string" },
+        "chapter_num": { "type": "integer", "minimum": 1 },
+        "chapter_ethiopic": { "type": "string" },
+        "title_geez": { "type": "string" },
+        "geez_incipit": { "type": "string" },
+        "amharic_incipit": { "type": "string" },
+        "start_pdf_page": { "type": ["integer", "null"] },
+        "start_book_page_ethiopic": { "type": ["string", "null"] },
+        "chapter_topics": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/TopicalIndexEntry" }
+        },
+        "verse_count": { "type": "integer", "minimum": 1 },
+        "verses": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/Verse" }
+        }
+      }
+    },
+    "Verse": {
+      "type": "object",
+      "required": [
+        "id",
+        "book_key",
+        "chapter_num",
+        "chapter_ethiopic",
+        "verse_num",
+        "verse_ethiopic",
+        "is_prologue",
+        "reference_geez",
+        "reference_short_geez",
+        "reference_english",
+        "reference_arabic",
+        "section_title",
+        "linked_topics",
+        "start_pdf_page",
+        "start_book_page_ethiopic",
+        "geez_text",
+        "geez_root_text",
+        "geez_clauses",
+        "geez_root_lemmas",
+        "amharic_commentary_text",
+        "clause_by_clause",
+        "biranna_spans",
+        "rejoined_marked_text",
+        "rejoined_plain_text"
+      ],
+      "properties": {
+        "id": { "type": "string", "description": "Unique global verse ID (<book_key>:<chapter_num>:<verse_num>)" },
+        "book_key": { "type": "string" },
+        "chapter_num": { "type": "integer", "minimum": 1 },
+        "chapter_ethiopic": { "type": "string" },
+        "verse_num": { "type": "integer", "minimum": 0, "description": "0 indicates book Prologue (መቅድም); >= 1 indicates canonical verse" },
+        "verse_ethiopic": { "type": "string" },
+        "is_prologue": { "type": "boolean" },
+        "reference_geez": { "type": "string" },
+        "reference_short_geez": { "type": "string" },
+        "reference_english": { "type": "string" },
+        "reference_arabic": { "type": "string" },
+        "section_title": { "type": ["string", "null"] },
+        "linked_topics": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/TopicalIndexEntry" }
+        },
+        "start_pdf_page": { "type": ["integer", "null"] },
+        "start_book_page_ethiopic": { "type": ["string", "null"] },
+        "geez_text": { "type": "string", "description": "Complete Ge'ez scripture (ንባብ) of the verse joined by ' ፤ '" },
+        "geez_root_text": { "type": "string", "description": "Alias of geez_text for backward compatibility" },
+        "geez_clauses": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Ordered array of individual Ge'ez scripture clauses (ንባብ) in this verse"
+        },
+        "geez_root_lemmas": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Alias of geez_clauses for backward compatibility"
+        },
+        "amharic_commentary_text": {
+          "type": "string",
+          "description": "Pure Amharic commentary (ትርጓሜ) of the verse without the root Ge'ez scripture"
+        },
+        "clause_by_clause": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/ExegeticalClause" },
+          "description": "Structured pairing of each Ge'ez clause (ንባብ) with its Amharic explanation (ትርጓሜ), አንድም alternatives, and ሐተታ notes"
+        },
+        "biranna_spans": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/BirannaSpan" },
+          "description": "Ordered, 100% lossless array of red/black manuscript spans for direct UI rendering"
+        },
+        "rejoined_marked_text": {
+          "type": "string",
+          "description": "Complete verse text with ⟪...⟫ enclosing Ge'ez root scripture clauses"
+        },
+        "rejoined_plain_text": {
+          "type": "string",
+          "description": "Complete verse text without ⟪...⟫ brackets"
+        }
+      }
+    },
+    "ExegeticalClause": {
+      "type": "object",
+      "required": [
+        "clause_index",
+        "geez_lemma",
+        "amharic_explanation",
+        "primary_interpretation",
+        "andem_interpretations",
+        "hateta_explanations"
+      ],
+      "properties": {
+        "clause_index": { "type": "integer", "minimum": 1 },
+        "geez_lemma": { "type": "string" },
+        "amharic_explanation": { "type": "string" },
+        "primary_interpretation": { "type": "string" },
+        "andem_interpretations": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "hateta_explanations": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "BirannaSpan": {
+      "type": "object",
+      "required": ["text", "color", "hex", "category"],
+      "properties": {
+        "text": { "type": "string" },
+        "color": { "type": "string", "enum": ["red", "black"] },
+        "hex": { "type": "string", "enum": ["#9e1b1b", "#1f1a14"] },
+        "category": {
+          "type": "string",
+          "enum": [
+            "geez_scripture",
+            "sacred_divine_name",
+            "sacred_mariology",
+            "sacred_saint_angel",
+            "andemta_rubric",
+            "rubric_numeral_punct",
+            "amharic_commentary"
+          ]
+        }
+      }
+    },
+    "ChapterIndexEntry": {
+      "type": "object",
+      "properties": {
+        "chapter_num": { "type": "integer" },
+        "chapter_ethiopic": { "type": "string" },
+        "geez_incipit": { "type": "string" },
+        "amharic_incipit": { "type": "string" },
+        "pdf_page": { "type": ["integer", "null"] },
+        "book_page_ethiopic": { "type": ["string", "null"] }
+      }
+    },
+    "TopicalIndexEntry": {
+      "type": "object",
+      "properties": {
+        "topic_id": { "type": "integer" },
+        "chapter_num": { "type": "integer" },
+        "chapter_ethiopic": { "type": "string" },
+        "verse_num": { "type": "integer" },
+        "verse_ethiopic": { "type": "string" },
+        "geez_title": { "type": "string" },
+        "amharic_title": { "type": "string" },
+        "pdf_page": { "type": ["integer", "null"] },
+        "book_page_ethiopic": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "pdf_page": 11,
+  "book_page_ethiopic": "፫፻፴",
+  "elapsed_sec": 13.5,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 9,
+      "old_text": "ለት አልም ትምርት ስጦ ት",
+      "corrected_text": "ለት አልም ትምርት ስጠ ት",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ስጦ -> ስጠ",
+      "reason": "The glyph in the image is first-order ጠ (ስጠ), directly corresponding to the syllable in the compound word አልመስጠአግያ on the preceding line."
+    }
+  ]
+}

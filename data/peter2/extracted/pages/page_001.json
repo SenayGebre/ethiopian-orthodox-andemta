@@ -1,0 +1,99 @@
+{
+  "pdf_page": 1,
+  "book_page_arabic": 1,
+  "book_page_ethiopic": "፩",
+  "page_type": "commentary_2col",
+  "running_header": "መልእክተ ፡ ጴጥሮስ ፡ ዳግሚት ። ሁለተኛይቱ ፡ የጴጥሮስ ፡ መልእክት ።",
+  "column_boxes": [
+    [
+      514,
+      0,
+      1271,
+      1654
+    ],
+    [
+      1187,
+      0,
+      1847,
+      1654
+    ]
+  ],
+  "columns": [
+    {
+      "column_index": 1,
+      "lines": [
+        {
+          "line_num": 1,
+          "margin_tag": null,
+          "line_type": "section_title",
+          "text": "⟪መልእክተ ፡ ጴጥሮስ ፡ ዳግሚት ።⟫",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 2,
+          "margin_tag": null,
+          "line_type": "section_title",
+          "text": "ሁለተኛይቱ ፡ የጴጥሮስ ፡ መልእክት ።",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 3,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ከዚህም ፡ ሠራኢ ፡ መጋቢ ፡ የለም ፡ ትን",
+          "word_wraps_to_next_line": true,
+          "uncertain": []
+        },
+        {
+          "line_num": 4,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ሣኤ ፡ ሙታን ፡ ኅልፈተ ፡ ሰማይ ፡ ወምድ",
+          "word_wraps_to_next_line": true,
+          "uncertain": []
+        },
+        {
+          "line_num": 5,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ር ፡ የለም ፡ አንድ ፡ ጊዜ ፡ ካመኑ ፡ ከተጠ",
+          "word_wraps_to_next_line": true,
+          "uncertain": []
+        }
+      ]
+    },
+    {
+      "column_index": 2,
+      "lines": [
+        {
+          "line_num": 1,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "መቁ ፡ ምን ፡ ምግባር ፡ ያሻል ፡ ብለዋል ፤",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 2,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ለዚህ ፡ ሁሉ ፡ ይጽፋል ፡ ቀዳሚት ፡ ብሎ ፡",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        },
+        {
+          "line_num": 3,
+          "margin_tag": null,
+          "line_type": "body",
+          "text": "ነበረና ፡ ዳግሚት ፡ አለ ፡ (ምክንያት) ፡",
+          "word_wraps_to_next_line": false,
+          "uncertain": []
+        }
+      ]
+    }
+  ],
+  "stage2_verified": true,
+  "stage2_corrections_count": 0
+}

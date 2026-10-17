@@ -1,0 +1,26 @@
+{
+  "pdf_page": 11,
+  "book_page_ethiopic": "፴፬ | ፴፭",
+  "elapsed_sec": 12.2,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 4,
+      "line_num": 13,
+      "old_text": "⟪፲፯ ፤ ወይእዜኒ ፡ አኀውየ ፡ አእምሩ ፡ ከመ ፡ በኢ",
+      "corrected_text": "⟪፲፯ ፤ ወይእዜኒ ፡ አኃውየ ፡ አእምሩ ፡ ከመ ፡ በኢ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ኀ -> ኃ",
+      "reason": "The printed glyph in አኃውየ clearly shows the shortened left leg of 4th-order ኃ (ራብዕ), standard for the plural vocative 'my brethren' in Ge'ez."
+    },
+    {
+      "column_index": 4,
+      "line_num": 34,
+      "old_text": "ማን ፡ ያልሆኑ ፡ ናቸውና ፡ አኀዊነ ፡ አሉ ፡",
+      "corrected_text": "ማን ፡ ያልሆኑ ፡ ናቸውና ፡ አኃዊነ ፡ አሉ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኀ -> ኃ",
+      "reason": "Matches the 4th-order ኃ printed on the page (and consistent with አኃዊነ two lines above on L32)."
+    }
+  ]
+}

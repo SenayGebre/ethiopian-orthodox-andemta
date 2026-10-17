@@ -1,0 +1,53 @@
+{
+  "pdf_page": 1,
+  "book_page_ethiopic": "፻፳",
+  "elapsed_sec": 24.7,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 14,
+      "old_text": "ውን ነው እንጂ ከራቸሳው አ",
+      "corrected_text": "ውን ነው እንጂ ከራሳቸው አ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከራቸሳው -> ከራሳቸው",
+      "reason": "Transposition and lookalike misread of clearly printed Amharic ከራሳቸው ('from themselves', matching L09 ከራሳቸው አንቅተው)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 21,
+      "old_text": "ር ይህ ነው ። ጸሐፈዮ ለብእሲ",
+      "corrected_text": "ር ይህ ነው ። ጸሐፍዎ ለብእሲ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ፈዮ -> ፍዎ",
+      "reason": "Canonical Ge'ez citation (Jeremiah 22:30: ጸሐፍዎ ለብእሲ ከመ ዘሞተ 'Write this man down as one who has died'); 6th-order ፍ followed by ዎ was misread as ፈዮ."
+    },
+    {
+      "column_index": 2,
+      "line_num": 20,
+      "old_text": "መጽሐፈ ልደቱ በለው በጥቁ",
+      "corrected_text": "መጽሐፈ ልደቱ ባለው በጥቁ",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "በለው -> ባለው",
+      "reason": "4th-order ባ in Amharic ባለው ('where it says መጽሐፈ ልደቱ, it says One in black ink') misread as 1st-order በ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 16,
+      "old_text": "ቢሉ የሚበዛ የለ ህ ነውና ፡",
+      "corrected_text": "ቢሉ የሚበዛ የለኒህ ነውና ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "የለ ህ -> የለኒህ",
+      "reason": "Faintly inked ኒ in archaic Andemta form የለኒህ ('that which belongs to these [David and Abraham] is more numerous', matching L09 ለኒህ) was dropped as a space."
+    },
+    {
+      "column_index": 3,
+      "line_num": 30,
+      "old_text": "መጻል ፡ አንድም እግዚአብሔር",
+      "corrected_text": "መጣል ፡ አንድም እግዚአብሔር",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "መጻል -> መጣል",
+      "reason": "The wrapped verb ያ↵መጣል ('he will bring/cite later') had ጣ misread as ጻ."
+    }
+  ]
+}

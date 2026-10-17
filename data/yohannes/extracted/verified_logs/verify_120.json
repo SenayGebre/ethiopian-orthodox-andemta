@@ -1,0 +1,44 @@
+{
+  "pdf_page": 120,
+  "book_page_ethiopic": "፮፻፳፱",
+  "elapsed_sec": 20.0,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 19,
+      "old_text": "፻፯ ፮ ፫ ፬ ፳፪ ፮ ፵፪",
+      "corrected_text": "፶፭ ፮ ፫ ፬ ፳፪ ፮ ፵፪",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፻፯ -> ፶፭",
+      "reason": "The Ethiopic numeral is ፶፭ (55, referring to Matthew 13:55), which was misread as ፻፯ due to ink bleed on the numeral bars."
+    },
+    {
+      "column_index": 1,
+      "line_num": 20,
+      "old_text": "፻፮ ፬ ፳፮ ፬ ፵፬",
+      "corrected_text": "፶፯ ፬ ፳፬ ፬ ፵፬",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፻፮ -> ፶፯, ፳፮ -> ፳፬",
+      "reason": "The verse reference for Matthew 13:57 is printed as ፶፯ (misread as ፻፮) and Luke 4:24 is printed as ፳፬ (misread as ፳፮)."
+    },
+    {
+      "column_index": 1,
+      "line_num": 26,
+      "old_text": "፳፪ ፵፭ ፲፪ ፲፪ ፲፱ ፴፪",
+      "corrected_text": "፳፩ ፵፭ ፲፪ ፲፪ ፲፱ ፴፪",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፳፪ -> ፳፩",
+      "reason": "The chapter reference for Matthew 21:45 is printed as ፳፩, which was misread as ፳፪."
+    },
+    {
+      "column_index": 2,
+      "line_num": 26,
+      "old_text": "እስከ ይእ መዋዕል ይከውን ፋሲካ ።",
+      "corrected_text": "እስከ ፪ኤ መዋዕል ይከውን ፋሲካ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ይእ -> ፪ኤ",
+      "reason": "The text abbreviates ክልኤ ('two') using the Ethiopic numeral ፪ followed by the phonetic complement ኤ (፪ኤ መዋዕል, cf. Matthew 26:2), which Stage 1 misread as ይእ."
+    }
+  ]
+}

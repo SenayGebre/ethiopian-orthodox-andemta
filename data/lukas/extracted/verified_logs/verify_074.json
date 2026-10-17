@@ -1,0 +1,53 @@
+{
+  "pdf_page": 74,
+  "book_page_ethiopic": "፬፻፶፮",
+  "elapsed_sec": 20.2,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 1,
+      "old_text": "⟪አ ውኅዳንኑ እንጋ እሙን",
+      "corrected_text": "⟪ኦ ውኅዳንኑ እንጋ እሙን",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አ -> ኦ",
+      "reason": "Completes the vocative 'እግዚኦ' (Lord!) split from the end of the previous page ('እግዚ-ኦ'); the 7th-order vowel tilt on 'ኦ' is visible in the scan."
+    },
+    {
+      "column_index": 1,
+      "line_num": 3,
+      "old_text": "ኀወተ ሰናፔ ቢልበት ። ከነሱ",
+      "corrected_text": "ኅጠተ ሰናፔ ቢልበት ። ከነሱ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኀወተ -> ኅጠተ",
+      "reason": "The canonical Ge'ez phrase from Luke 13:19 referenced here is 'ኅጠተ ሰናፔ' (a grain of mustard seed); the three-legged 'ጠ' with faded middle leg was misread as 'ወ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 5,
+      "old_text": "ሚገቡ ጻድቃን ጥቂት ናቸዋ",
+      "corrected_text": "ሚገቡ ጻድቃን ጥቂት ናቸው",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዋ -> ው",
+      "reason": "Standard Amharic copula 'ናቸው' (they are); uneven ink on the right loop of 'ው' made it resemble 'ዋ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 31,
+      "old_text": "ማቴ ፲ ፱ ፴ ማር ፲ ፴ ።",
+      "corrected_text": "ማቴ ፲፱ ፴ ማር ፲ ፴፩ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "፴ -> ፴፩",
+      "reason": "The cross-reference to Mark 10:31 clearly shows the numeral '፩' after '፴' ('ማር ፲ ፴፩ ።')."
+    },
+    {
+      "column_index": 2,
+      "line_num": 34,
+      "old_text": "ኋለኞችም ፊተኞችን ይሆናሉ",
+      "corrected_text": "ኋለኞችም ፊተኞችን ይሆናሉ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ይሆናሉ -> ይሆናሉ ።",
+      "reason": "The four-dot punctuation mark '።' at the right margin of the line is visible in the scan."
+    }
+  ]
+}

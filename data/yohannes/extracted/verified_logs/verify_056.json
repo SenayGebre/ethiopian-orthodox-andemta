@@ -1,0 +1,26 @@
+{
+  "pdf_page": 56,
+  "book_page_ethiopic": "፭፻፷፮",
+  "elapsed_sec": 20.1,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 3,
+      "line_num": 8,
+      "old_text": "ኛ ሆንኩ ።",
+      "corrected_text": "ኛ ሁንኩ ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሆ -> ሁ",
+      "reason": "The printed glyph in Col 3 L08 clearly has the 2nd-order horizontal right-leg stroke of ሁ (ሁንኩ, archaic Andemta form of ሆንኩ), not ሆ."
+    },
+    {
+      "column_index": 3,
+      "line_num": 19,
+      "old_text": "⟪ወርእየኒ ወተፈሥሐ ።⟫",
+      "corrected_text": "⟪ወርእየሂ ወተፈሥሐ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ኒ -> ሂ",
+      "reason": "Both visual inspection of Col 3 L19 (showing the two legs of ሂ rather than single-stem ኒ) and the Amharic translation in L20 ('አይቶም' where '-ም' translates the Ge'ez enclitic '-ሂ') confirm the canonical Ge'ez Gospel reading 'ወርእየሂ ወተፈሥሐ'."
+    }
+  ]
+}

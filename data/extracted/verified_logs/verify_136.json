@@ -1,0 +1,26 @@
+{
+  "pdf_page": 136,
+  "book_page_ethiopic": "፪፻፶፭",
+  "elapsed_sec": 14.5,
+  "applied_count": 2,
+  "corrections": [
+    {
+      "column_index": 2,
+      "line_num": 27,
+      "old_text": "⟪ለዓጸደ ወይኑ ።⟫",
+      "corrected_text": "⟪ለዓፀደ ወይኑ ።⟫",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ጸ -> ፀ",
+      "reason": "The printed glyph in the Ge'ez Gospel text is ፀ (ለዓፀደ ወይኑ), matching Col 3 L03 and L21."
+    },
+    {
+      "column_index": 3,
+      "line_num": 20,
+      "old_text": "[፬] ⟪ወሎሙኒ ይቤሎሙ ሑሩ አን⟫↵",
+      "corrected_text": "[፬] ⟪ወሎሙኒ ይቤሎሙ ሖሩ አን⟫↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሑ -> ሖ",
+      "reason": "Classical Ge'ez imperative plural of ሖረ is ሖሩ (7th order ሖ), as visibly printed in the image."
+    }
+  ]
+}

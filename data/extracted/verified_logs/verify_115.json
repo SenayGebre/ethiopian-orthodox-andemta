@@ -1,0 +1,53 @@
+{
+  "pdf_page": 115,
+  "book_page_ethiopic": "፪፻፴፬",
+  "elapsed_sec": 24.4,
+  "applied_count": 5,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 2,
+      "old_text": "ከተ እንዳይሉ።ምሥጢሩ ግን",
+      "corrected_text": "ከቱ እንዳይሉ።ምሥጢሩ ግን",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ተ -> ቱ",
+      "reason": "The wrapped noun 'በረከቱ' ('its blessing') has the 2nd-order suffix 'ቱ' clearly visible in the image, misread as 1st-order 'ተ'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 21,
+      "old_text": "አካች ካልዓይ አካች ሣልሳይ",
+      "corrected_text": "አካት ካልዓይ አካት ሣልሳይ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ች -> ት",
+      "reason": "The traditional Ge'ez term for a night watch is 'አካት' (ቀዳማይ አካት ካልዓይ አካት), clearly printed with 'ት' rather than 'ች'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 22,
+      "old_text": "አካች ራብዓይ አካች አለና ።",
+      "corrected_text": "አካት ራብዓይ አካት አለና ።",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ች -> ት",
+      "reason": "As on the preceding line, the technical term for the night watches is 'አካት' (ሣልሳይ አካት ራብዓይ አካት), printed with 'ት'."
+    },
+    {
+      "column_index": 2,
+      "line_num": 40,
+      "old_text": "[፳፯] ⟪ወበጊዚሃ ተናገሮሙ እግዚእ",
+      "corrected_text": "[፳፯] ⟪ወበጊዜሃ ተናገሮሙ እግዚእ",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ዚ -> ዜ",
+      "reason": "Classical Ge'ez temporal noun 'ወበጊዜሃ' (Matt 14:27) is printed with 5th-order 'ዜ' (right-leg ring), misread as 3rd-order 'ዚ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 36,
+      "old_text": "⟪ወይቤሎ ሕውኑደ ሃይማኖት",
+      "corrected_text": "⟪ወይቤሎ እውኑደ ሃይማኖት",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ሕ -> እ",
+      "reason": "In the image, the initial letter is clearly 'እ' ('እውኑደ ሃይማኖት'), not 'ሕ'."
+    }
+  ]
+}

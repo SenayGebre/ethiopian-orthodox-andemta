@@ -1,0 +1,17 @@
+{
+  "pdf_page": 75,
+  "book_page_ethiopic": "፻፳፪ | ፻፳፫",
+  "elapsed_sec": 16.4,
+  "applied_count": 1,
+  "corrections": [
+    {
+      "column_index": 4,
+      "line_num": 18,
+      "old_text": "የሮም ፡ ሰው ፡ መሆንህን ፡ አልነግረኝ ፡",
+      "corrected_text": "የሮም ፡ ሰው ፡ መሆንህን ፡ አልነገረኝ ፡",
+      "word_wraps_to_next_line": false,
+      "visual_confusable_pair": "ግ -> ገ",
+      "reason": "Both visually on the page and grammatically in the Andemta ('አልነገረኝ ብለህ ልታሽረኝ ኑረህ' — 'intending to depose me by saying he did not tell me'), the character is first-order ገ ('አልነገረኝ'), not sixth-order ግ."
+    }
+  ]
+}

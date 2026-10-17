@@ -1,0 +1,44 @@
+{
+  "pdf_page": 73,
+  "book_page_ethiopic": "፻፺፪",
+  "elapsed_sec": 20.2,
+  "applied_count": 4,
+  "corrections": [
+    {
+      "column_index": 1,
+      "line_num": 18,
+      "old_text": "ን መጣህን ፤ ሐተታ ዝየሂ ማ↵",
+      "corrected_text": "ን መጣህን ፤ ሐተታ ዝየኒ ማ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ሂ -> ኒ",
+      "reason": "The cited Ge'ez lemma matches L16 'ዝየኒ' ('here also'); visually the glyph has the top-left bar of 'ኒ' rather than 'ሂ'."
+    },
+    {
+      "column_index": 1,
+      "line_num": 38,
+      "old_text": "እናድርባቸው ዘንድ አዘዘን አ↵",
+      "corrected_text": "እናድርባቸው ዘንድ እዘዘን አ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አዘዘን -> እዘዘን",
+      "reason": "Amharic 2nd person singular imperative translating Ge'ez 'ፈንወነ' is 'እዘዘን' ('command/permit us', 6th-order 'እ'), matching the printed glyph."
+    },
+    {
+      "column_index": 2,
+      "line_num": 11,
+      "old_text": "ደ ከብት አያረቡ ሥጋውን ይ↵",
+      "corrected_text": "ደ ከብት እያረቡ ሥጋውን ይ↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "አያረቡ -> እያረቡ",
+      "reason": "Contextual Amharic circumstantial form 'እንደ ከብት እያረቡ' ('raising them like cattle', with 6th-order 'እ') rather than negative 'አያረቡ'."
+    },
+    {
+      "column_index": 3,
+      "line_num": 13,
+      "old_text": "ባዩት ጊዜ ከገራችን እለፍል↵",
+      "corrected_text": "ባዩት ጊዜ ካገራችን እለፍል↵",
+      "word_wraps_to_next_line": true,
+      "visual_confusable_pair": "ከገራችን -> ካገራችን",
+      "reason": "Amharic elided ablative 'ካገራችን' (ከ + አገራችን, 4th-order 'ካ') translating Ge'ez 'እምደወሎሙ', clearly showing the shortened right leg of 'ካ'."
+    }
+  ]
+}

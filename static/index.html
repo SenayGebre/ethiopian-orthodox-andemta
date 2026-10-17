@@ -1,29 +1,104 @@
 <!DOCTYPE html>
-<html lang="am">
+<html lang="am" data-theme="biranna">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ወንጌለ ማቴዎስ አንድምታ ትርጓሜ — Digital Scripture & Diplomatic Verification Studio</title>
+  <title>የሐዲስ ኪዳን አንድምታ ትርጓሜ — Ethiopian Orthodox New Testament Ge'ez & Amharic Commentary</title>
+  <meta name="description" content="Complete 13-Book Open-Source Digital Edition of the Ethiopian Orthodox Tewahedo New Testament Ge'ez and Amharic Andemta Commentary with Authentic Biranna Rubrication." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Ethiopic:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+Ethiopic:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
+    /* ==========================================================================
+       1. THEME TOKENS (Biranna Parchment · Scholarly Ivory · Monastic Night)
+       ========================================================================== */
+    :root, [data-theme="biranna"] {
+      --bg-app: #f6f1e6;
+      --bg-elevated: #fdfaf3;
+      --bg-sidebar: #efe7d6;
+      --bg-header: #1d1610;
+      --bg-subtle: #eae0cc;
+      --bg-hover: rgba(181, 133, 43, 0.12);
+      --border-color: #dcd0b8;
+      --border-strong: #c5b494;
+      --ink-primary: #1f1a14;
+      --ink-secondary: #5c5243;
+      --ink-muted: #7d715f;
+      --biranna-red: #9e1b1b;
+      --biranna-red-bg: rgba(158, 27, 27, 0.08);
+      --biranna-red-border: rgba(158, 27, 27, 0.24);
+      --gold-primary: #b5852b;
+      --gold-bright: #d4a84f;
+      --gold-bg: rgba(181, 133, 43, 0.12);
+      --andem-ink: #14532d;
+      --andem-bg: #e8f5ee;
+      --andem-border: #a7dbc0;
+      --hateta-ink: #78350f;
+      --hateta-bg: #fef5e7;
+      --hateta-border: #f5cba7;
+      --shadow-sm: 0 1px 3px rgba(31, 26, 20, 0.06);
+      --shadow-md: 0 6px 20px rgba(31, 26, 20, 0.08);
+    }
+
+    [data-theme="light"] {
+      --bg-app: #f8fafc;
+      --bg-elevated: #ffffff;
+      --bg-sidebar: #f1f5f9;
+      --bg-header: #0f172a;
+      --bg-subtle: #e2e8f0;
+      --bg-hover: rgba(15, 23, 42, 0.05);
+      --border-color: #e2e8f0;
+      --border-strong: #cbd5e1;
+      --ink-primary: #0f172a;
+      --ink-secondary: #475569;
+      --ink-muted: #64748b;
+      --biranna-red: #b91c1c;
+      --biranna-red-bg: #fef2f2;
+      --biranna-red-border: #fecaca;
+      --gold-primary: #b45309;
+      --gold-bright: #d97706;
+      --gold-bg: #fef3c7;
+      --andem-ink: #065f46;
+      --andem-bg: #ecfdf5;
+      --andem-border: #a7f3d0;
+      --hateta-ink: #92400e;
+      --hateta-bg: #fffbeb;
+      --hateta-border: #fde68a;
+    }
+
+    [data-theme="dark"] {
+      --bg-app: #12100e;
+      --bg-elevated: #1b1815;
+      --bg-sidebar: #161310;
+      --bg-header: #0c0a08;
+      --bg-subtle: #26211c;
+      --bg-hover: rgba(212, 168, 79, 0.12);
+      --border-color: #2e2822;
+      --border-strong: #423930;
+      --ink-primary: #eee7db;
+      --ink-secondary: #b8ad9e;
+      --ink-muted: #877c6d;
+      --biranna-red: #f87171;
+      --biranna-red-bg: rgba(248, 113, 113, 0.12);
+      --biranna-red-border: rgba(248, 113, 113, 0.28);
+      --gold-primary: #d4a84f;
+      --gold-bright: #ecc978;
+      --gold-bg: rgba(212, 168, 79, 0.15);
+      --andem-ink: #6ee7b7;
+      --andem-bg: rgba(16, 185, 129, 0.12);
+      --andem-border: rgba(110, 231, 183, 0.25);
+      --hateta-ink: #fcd34d;
+      --hateta-bg: rgba(245, 158, 11, 0.12);
+      --hateta-border: rgba(252, 211, 77, 0.25);
+      --shadow-sm: 0 1px 4px rgba(0, 0, 0, 0.35);
+      --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.5);
+    }
+
     :root {
-      --bg-parchment: #fbf8f1;
-      --bg-card: #ffffff;
-      --bg-sidebar: #f3ede0;
-      --border-warm: #dfd5c0;
-      --ink-dark: #1f1a14;
-      --ink-muted: #655b4d;
-      --rubric-red: #9e1b1b;
-      --rubric-bg: #fdf2f2;
-      --gold-accent: #b5852b;
-      --gold-light: #f9f1df;
-      --andem-badge: #1e4d3b;
-      --andem-bg: #eaf4f0;
-      --warn-amber: #b45309;
-      --warn-bg: #fef3c7;
-      --font-ethiopic: 'Noto Serif Ethiopic', 'Abyssinica SIL', 'Kefa', 'Nyala', serif;
+      --font-ethiopic: 'Noto Serif Ethiopic', 'Abyssinica SIL', 'Kefa', serif;
+      --font-ui: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      --reader-font-size: 1.18rem;
+      --reader-line-height: 2.05;
     }
 
     * {
@@ -34,600 +109,1435 @@
 
     body {
       font-family: var(--font-ethiopic);
-      background-color: var(--bg-parchment);
-      color: var(--ink-dark);
-      line-height: 1.75;
+      background-color: var(--bg-app);
+      color: var(--ink-primary);
+      height: 100dvh;
       display: flex;
       flex-direction: column;
-      height: 100vh;
       overflow: hidden;
+      -webkit-font-smoothing: antialiased;
     }
 
-    /* Top Header with Harag Motif */
-    header {
-      background: linear-gradient(135deg, #231b12 0%, #3a2b1c 100%);
-      color: #f9f3e5;
-      border-bottom: 3px solid var(--gold-accent);
-      padding: 0.65rem 1.25rem;
+    /* ==========================================================================
+       2. TOP NAVIGATION HEADER WITH AKSUMITE HARAG ACCENT
+       ========================================================================== */
+    .top-header {
+      background: var(--bg-header);
+      color: #f7f2e7;
+      border-bottom: 2px solid var(--gold-primary);
+      padding: 0 1.15rem;
+      height: 60px;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 1rem;
+      gap: 0.85rem;
       flex-shrink: 0;
+      z-index: 40;
     }
 
-    .brand-title {
-      display: flex;
-      flex-direction: column;
-    }
-    .brand-title h1 {
-      font-size: 1.2rem;
-      font-weight: 700;
-      color: #f7dfb2;
-      letter-spacing: 0.02em;
-    }
-    .brand-title span {
-      font-size: 0.8rem;
-      color: #d1c4ab;
-    }
-
-    .nav-tabs {
-      display: flex;
-      gap: 0.4rem;
-      flex-wrap: wrap;
-    }
-    .nav-tab {
-      background: rgba(255, 255, 255, 0.08);
-      color: #efe6d5;
-      border: 1px solid rgba(212, 175, 55, 0.3);
-      padding: 0.42rem 0.85rem;
-      border-radius: 6px;
-      cursor: pointer;
-      font-family: var(--font-ethiopic);
-      font-size: 0.88rem;
-      font-weight: 600;
-      transition: all 0.15s ease;
-    }
-    .nav-tab:hover {
-      background: rgba(212, 175, 55, 0.2);
-    }
-    .nav-tab.active {
-      background: var(--gold-accent);
-      color: #fff;
-      border-color: #e6c168;
-    }
-
-    .search-bar {
+    .header-left {
       display: flex;
       align-items: center;
-      gap: 0.4rem;
-    }
-    .search-bar input {
-      background: #18120c;
-      color: #f9f3e5;
-      border: 1px solid rgba(212, 175, 55, 0.45);
-      border-radius: 6px;
-      padding: 0.4rem 0.75rem;
-      font-family: var(--font-ethiopic);
-      font-size: 0.9rem;
-      width: 230px;
-    }
-    .search-bar button {
-      background: var(--rubric-red);
-      color: #fff;
-      border: none;
-      padding: 0.42rem 0.75rem;
-      border-radius: 6px;
-      cursor: pointer;
-      font-family: var(--font-ethiopic);
-      font-size: 0.85rem;
+      gap: 0.75rem;
+      min-width: 0;
     }
 
-    /* Main Workspace Layout */
+    .sidebar-toggle-btn {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(212, 168, 79, 0.3);
+      color: #f7f2e7;
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      transition: background 0.15s;
+    }
+    .sidebar-toggle-btn:hover {
+      background: rgba(212, 168, 79, 0.22);
+    }
+
+    .brand-lockup {
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+      min-width: 0;
+    }
+
+    .brand-cross {
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      background: linear-gradient(135deg, #9e1b1b 0%, #7f1d1d 100%);
+      border: 1px solid var(--gold-bright);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #f9eac8;
+      font-size: 1.05rem;
+      flex-shrink: 0;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.35);
+    }
+
+    .brand-text {
+      min-width: 0;
+    }
+    .brand-text h1 {
+      font-size: 1.04rem;
+      font-weight: 700;
+      color: #f9eac8;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      line-height: 1.25;
+    }
+    .brand-text p {
+      font-family: var(--font-ui);
+      font-size: 0.72rem;
+      color: #bfb39e;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    /* Center View Switcher */
+    .main-view-tabs {
+      display: flex;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.06);
+      padding: 3px;
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      gap: 2px;
+    }
+
+    .view-tab {
+      background: transparent;
+      color: #d8cebe;
+      border: none;
+      padding: 0.36rem 0.78rem;
+      border-radius: 7px;
+      font-family: var(--font-ethiopic);
+      font-size: 0.84rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.38rem;
+      white-space: nowrap;
+      transition: all 0.15s ease;
+    }
+    .view-tab:hover {
+      color: #ffffff;
+      background: rgba(255, 255, 255, 0.08);
+    }
+    .view-tab.active {
+      background: var(--gold-primary);
+      color: #ffffff;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Right Search & Controls */
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 0.55rem;
+    }
+
+    .search-box {
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+    .search-box input {
+      background: rgba(0, 0, 0, 0.35);
+      color: #f7f2e7;
+      border: 1px solid rgba(212, 168, 79, 0.35);
+      border-radius: 8px;
+      padding: 0.38rem 2.1rem 0.38rem 0.75rem;
+      font-family: var(--font-ethiopic);
+      font-size: 0.86rem;
+      width: 220px;
+      transition: width 0.2s, border-color 0.2s;
+    }
+    .search-box input:focus {
+      outline: none;
+      width: 280px;
+      border-color: var(--gold-bright);
+      background: rgba(0, 0, 0, 0.55);
+    }
+    .search-box input::placeholder {
+      color: #9c9181;
+    }
+    .search-box button {
+      position: absolute;
+      right: 6px;
+      background: transparent;
+      border: none;
+      color: #d4a84f;
+      cursor: pointer;
+      font-size: 0.9rem;
+      padding: 2px 4px;
+    }
+
+    .theme-group {
+      display: flex;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.07);
+      border-radius: 8px;
+      padding: 2px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .theme-btn {
+      background: transparent;
+      border: none;
+      color: #cfc4b2;
+      padding: 0.28rem 0.5rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.76rem;
+      font-family: var(--font-ui);
+      font-weight: 500;
+    }
+    .theme-btn.active {
+      background: rgba(255, 255, 255, 0.18);
+      color: #fff;
+    }
+
+    .gh-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      background: rgba(255, 255, 255, 0.09);
+      color: #f7f2e7;
+      text-decoration: none;
+      font-family: var(--font-ui);
+      font-size: 0.78rem;
+      font-weight: 600;
+      padding: 0.38rem 0.68rem;
+      border-radius: 8px;
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      white-space: nowrap;
+    }
+    .gh-link:hover {
+      background: rgba(255, 255, 255, 0.16);
+    }
+
+    /* ==========================================================================
+       3. WORKSPACE LAYOUT (LEFT CANON SIDEBAR + MAIN SANCTUARY)
+       ========================================================================== */
     .workspace {
       display: flex;
       flex: 1;
       overflow: hidden;
+      position: relative;
     }
 
     .sidebar {
-      width: 280px;
+      width: 300px;
       background: var(--bg-sidebar);
-      border-right: 1px solid var(--border-warm);
+      border-right: 1px solid var(--border-color);
       display: flex;
       flex-direction: column;
       overflow: hidden;
       flex-shrink: 0;
+      transition: margin-left 0.22s ease;
+    }
+    .sidebar.collapsed {
+      margin-left: -300px;
     }
 
-    .sidebar-section {
-      padding: 0.75rem 0.9rem;
-      border-bottom: 1px solid var(--border-warm);
-    }
-    .sidebar-section h3 {
-      font-size: 0.85rem;
-      text-transform: uppercase;
-      letter-spacing: 0.04em;
-      color: var(--ink-muted);
-      margin-bottom: 0.5rem;
-    }
-
-    .stats-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 0.4rem;
-      font-size: 0.8rem;
-    }
-    .stat-pill {
-      background: var(--bg-card);
-      border: 1px solid var(--border-warm);
-      padding: 0.35rem 0.5rem;
-      border-radius: 5px;
-    }
-    .stat-pill strong {
-      display: block;
-      font-size: 0.98rem;
-      color: var(--rubric-red);
-    }
-
-    .chapter-list {
+    .sidebar-scroll {
       flex: 1;
       overflow-y: auto;
-      padding: 0.6rem;
+      padding: 0.85rem;
       display: flex;
       flex-direction: column;
-      gap: 0.3rem;
+      gap: 1.1rem;
     }
 
-    .chapter-btn {
+    .nav-group-label {
+      font-family: var(--font-ui);
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--ink-muted);
+      margin-bottom: 0.4rem;
+      padding: 0 0.35rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .book-list {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .book-item {
       display: flex;
       align-items: center;
       justify-content: space-between;
+      width: 100%;
       text-align: left;
-      padding: 0.5rem 0.65rem;
-      border-radius: 6px;
+      padding: 0.46rem 0.65rem;
+      border-radius: 8px;
       border: 1px solid transparent;
       background: transparent;
-      cursor: pointer;
+      color: var(--ink-primary);
       font-family: var(--font-ethiopic);
       font-size: 0.92rem;
-      color: var(--ink-dark);
-      transition: background 0.12s;
-    }
-    .chapter-btn:hover {
-      background: rgba(181, 133, 43, 0.12);
-    }
-    .chapter-btn.active {
-      background: var(--bg-card);
-      border-color: var(--gold-accent);
-      font-weight: 700;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.06);
-    }
-    .chapter-btn .ch-badge {
-      background: var(--rubric-bg);
-      color: var(--rubric-red);
-      border: 1px solid rgba(158, 27, 27, 0.25);
-      border-radius: 4px;
-      padding: 0.05rem 0.45rem;
-      font-size: 0.82rem;
-      font-weight: 700;
-    }
-
-    .main-panel {
-      flex: 1;
-      overflow-y: auto;
-      padding: 1.25rem 1.75rem;
-    }
-
-    /* Verse Pills Bar */
-    .verse-nav-bar {
-      background: var(--bg-card);
-      border: 1px solid var(--border-warm);
-      border-radius: 8px;
-      padding: 0.75rem 1rem;
-      margin-bottom: 1.25rem;
-      position: sticky;
-      top: 0;
-      z-index: 10;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-    }
-    .verse-nav-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 0.5rem;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-    }
-    .verse-nav-header h2 {
-      font-size: 1.25rem;
-      color: var(--rubric-red);
-    }
-    .verse-pills {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.3rem;
-    }
-    .verse-pill {
-      background: var(--bg-parchment);
-      border: 1px solid var(--border-warm);
-      border-radius: 4px;
-      padding: 0.15rem 0.5rem;
-      font-family: var(--font-ethiopic);
-      font-size: 0.85rem;
       cursor: pointer;
+      transition: all 0.12s ease;
     }
-    .verse-pill:hover {
-      border-color: var(--rubric-red);
-      color: var(--rubric-red);
+    .book-item:hover {
+      background: var(--bg-hover);
     }
-
-    /* Verse Cards with modern-web-guidance content-visibility */
-    .verse-card {
-      background: var(--bg-card);
-      border: 1px solid var(--border-warm);
-      border-left: 4px solid var(--rubric-red);
-      border-radius: 8px;
-      padding: 1.15rem 1.35rem;
-      margin-bottom: 1rem;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.03);
-    }
-    .verse-card.below-fold {
-      content-visibility: auto;
-      contain-intrinsic-size: auto none auto 160px;
-    }
-
-    .section-banner {
-      background: var(--gold-light);
-      border: 1px solid var(--gold-accent);
-      color: #5b3e0c;
-      padding: 0.45rem 0.85rem;
-      border-radius: 6px;
+    .book-item.active {
+      background: var(--bg-elevated);
+      border-color: var(--gold-primary);
       font-weight: 700;
-      margin-bottom: 0.75rem;
+      color: var(--biranna-red);
+      box-shadow: var(--shadow-sm);
+    }
+    .book-item-left {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      min-width: 0;
+    }
+    .book-num-tag {
+      font-size: 0.75rem;
+      color: var(--ink-muted);
+      min-width: 1.35rem;
+      font-weight: 600;
+    }
+    .book-item.active .book-num-tag {
+      color: var(--biranna-red);
+    }
+    .book-meta-pill {
+      font-family: var(--font-ui);
+      font-size: 0.7rem;
+      color: var(--ink-muted);
+      background: var(--bg-subtle);
+      padding: 0.1rem 0.42rem;
+      border-radius: 99px;
+      flex-shrink: 0;
+    }
+
+    /* Chapter Grid inside Sidebar */
+    .chapter-grid-box {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 0.7rem;
+    }
+    .chapter-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 0.32rem;
+      margin-top: 0.45rem;
+    }
+    .ch-cell {
+      background: var(--bg-app);
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      padding: 0.32rem 0.15rem;
+      text-align: center;
+      cursor: pointer;
+      font-family: var(--font-ethiopic);
+      font-size: 0.86rem;
+      font-weight: 600;
+      color: var(--ink-primary);
+      transition: all 0.12s;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      line-height: 1.15;
+    }
+    .ch-cell small {
+      font-family: var(--font-ui);
+      font-size: 0.62rem;
+      color: var(--ink-muted);
+      font-weight: 400;
+    }
+    .ch-cell:hover {
+      border-color: var(--biranna-red);
+      color: var(--biranna-red);
+    }
+    .ch-cell.active {
+      background: var(--biranna-red);
+      border-color: var(--biranna-red);
+      color: #ffffff;
+    }
+    .ch-cell.active small {
+      color: rgba(255, 255, 255, 0.82);
+    }
+
+    /* ==========================================================================
+       4. MAIN READING SANCTUARY & STICKY CONTEXT TOOLBAR
+       ========================================================================== */
+    .main-area {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      min-width: 0;
+    }
+
+    /* Secondary Context & Reading Controls Bar */
+    .reader-toolbar {
+      background: var(--bg-elevated);
+      border-bottom: 1px solid var(--border-color);
+      padding: 0.55rem 1.35rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+      flex-shrink: 0;
+      z-index: 20;
+    }
+
+    .toolbar-breadcrumb {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+    .book-title-pill {
+      font-weight: 700;
+      color: var(--biranna-red);
       font-size: 1.02rem;
     }
-
-    .verse-meta {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 0.65rem;
-      padding-bottom: 0.4rem;
-      border-bottom: 1px dashed var(--border-warm);
-    }
-    .verse-num-badge {
+    .ch-nav-group {
       display: inline-flex;
       align-items: center;
-      gap: 0.45rem;
-      font-weight: 700;
-      color: var(--rubric-red);
-      font-size: 1.05rem;
+      gap: 0.25rem;
+      background: var(--bg-app);
+      border: 1px solid var(--border-color);
+      border-radius: 7px;
+      padding: 2px;
     }
-    .verse-actions {
-      display: flex;
-      gap: 0.5rem;
-      align-items: center;
-    }
-    .btn-small {
-      background: var(--bg-parchment);
-      border: 1px solid var(--border-warm);
-      color: var(--ink-dark);
-      padding: 0.2rem 0.6rem;
-      border-radius: 4px;
+    .ch-step-btn {
+      background: transparent;
+      border: none;
+      color: var(--ink-primary);
+      padding: 0.2rem 0.5rem;
+      border-radius: 5px;
+      cursor: pointer;
       font-family: var(--font-ethiopic);
-      font-size: 0.8rem;
+      font-size: 0.82rem;
+      font-weight: 600;
+    }
+    .ch-step-btn:hover:not(:disabled) {
+      background: var(--bg-hover);
+      color: var(--biranna-red);
+    }
+    .ch-step-btn:disabled {
+      opacity: 0.35;
+      cursor: default;
+    }
+    .ch-select-dropdown {
+      background: transparent;
+      border: none;
+      color: var(--ink-primary);
+      font-family: var(--font-ethiopic);
+      font-size: 0.88rem;
+      font-weight: 700;
+      padding: 0.15rem 0.35rem;
       cursor: pointer;
     }
-    .btn-small:hover {
-      border-color: var(--gold-accent);
-      background: var(--gold-light);
+
+    /* Reading Mode Segmented Switcher */
+    .mode-switcher {
+      display: inline-flex;
+      background: var(--bg-app);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 2px;
+      gap: 2px;
+    }
+    .mode-btn {
+      background: transparent;
+      border: none;
+      color: var(--ink-secondary);
+      padding: 0.28rem 0.65rem;
+      border-radius: 6px;
+      font-family: var(--font-ethiopic);
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.12s;
+    }
+    .mode-btn:hover {
+      color: var(--ink-primary);
+    }
+    .mode-btn.active {
+      background: var(--bg-elevated);
+      color: var(--biranna-red);
+      box-shadow: var(--shadow-sm);
+      border: 1px solid var(--border-color);
     }
 
-    .geez-root-lemma {
-      color: var(--rubric-red);
+    .font-controls {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      background: var(--bg-app);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 2px 4px;
+    }
+    .font-btn {
+      background: transparent;
+      border: none;
+      color: var(--ink-secondary);
+      padding: 0.22rem 0.45rem;
+      font-family: var(--font-ui);
+      font-size: 0.76rem;
       font-weight: 700;
-      background: var(--rubric-bg);
-      padding: 0.05rem 0.3rem;
-      border-radius: 3px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .font-btn:hover {
+      background: var(--bg-hover);
+      color: var(--ink-primary);
     }
 
-    .kw-andem {
-      color: var(--andem-badge);
-      background: var(--andem-bg);
-      font-weight: 700;
-      padding: 0.05rem 0.35rem;
-      border-radius: 4px;
-      border: 1px solid rgba(30, 77, 59, 0.25);
-    }
-    .kw-hateta {
-      color: #6b3410;
-      background: #fef3c7;
-      font-weight: 700;
-      padding: 0.05rem 0.3rem;
-      border-radius: 4px;
+    /* Scrollable Content Container */
+    .main-scroll {
+      flex: 1;
+      overflow-y: auto;
+      padding: 1.5rem 1.75rem 4rem;
+      scroll-behavior: smooth;
     }
 
-    .verse-body-text {
-      font-size: 1.12rem;
-      line-height: 1.9;
-      text-align: justify;
+    .reader-container {
+      max-width: 940px;
+      margin: 0 auto;
     }
 
-    /* Diplomatic Side-by-Side View */
-    .diplomatic-toolbar {
+    /* ==========================================================================
+       5. CHAPTER BANNER, VERSE PILLS & BIRANNA COLOR LEGEND
+       ========================================================================== */
+    .chapter-hero {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-color);
+      border-top: 4px solid var(--gold-primary);
+      border-radius: 12px;
+      padding: 1.35rem 1.5rem;
+      margin-bottom: 1.25rem;
+      box-shadow: var(--shadow-sm);
+    }
+    .chapter-hero-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-bottom: 0.65rem;
+    }
+    .chapter-hero h2 {
+      font-size: 1.45rem;
+      color: var(--biranna-red);
+      font-weight: 800;
+      line-height: 1.3;
+    }
+    .chapter-incipit-geez {
+      font-size: 1.04rem;
+      color: var(--biranna-red);
+      font-weight: 600;
+      margin-top: 0.2rem;
+    }
+    .chapter-incipit-amh {
+      font-size: 0.92rem;
+      color: var(--ink-secondary);
+      margin-top: 0.15rem;
+    }
+
+    /* Interactive Biranna Color Legend Bar */
+    .biranna-legend {
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      background: var(--bg-card);
-      border: 1px solid var(--border-warm);
-      border-radius: 8px;
-      padding: 0.65rem 1rem;
-      margin-bottom: 1rem;
+      gap: 0.45rem;
       flex-wrap: wrap;
-      gap: 0.75rem;
+      padding-top: 0.75rem;
+      margin-top: 0.75rem;
+      border-top: 1px dashed var(--border-color);
+      font-size: 0.78rem;
     }
-    .diplomatic-split {
-      display: grid;
-      grid-template-columns: 44% 56%;
-      gap: 1.1rem;
-      align-items: start;
+    .legend-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.32rem;
+      padding: 0.18rem 0.55rem;
+      border-radius: 99px;
+      background: var(--bg-app);
+      border: 1px solid var(--border-color);
+      color: var(--ink-secondary);
+      cursor: pointer;
+      user-select: none;
+      transition: all 0.12s;
     }
-    .scan-viewer {
-      background: #1a1612;
-      border: 2px solid var(--border-warm);
+    .legend-chip:hover {
+      border-color: var(--biranna-red);
+    }
+    .legend-chip.active-filter {
+      background: var(--biranna-red-bg);
+      border-color: var(--biranna-red);
+      color: var(--biranna-red);
+      font-weight: 700;
+    }
+    .dot-red {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--biranna-red);
+    }
+    .dot-andem {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--andem-ink);
+    }
+    .dot-hateta {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--hateta-ink);
+    }
+    .dot-black {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--ink-primary);
+    }
+
+    /* Quick Verse Jump Strip */
+    .verse-strip {
+      display: flex;
+      gap: 0.3rem;
+      overflow-x: auto;
+      padding: 0.5rem 0 0.15rem;
+      scrollbar-width: thin;
+    }
+    .verse-jump-pill {
+      background: var(--bg-app);
+      border: 1px solid var(--border-color);
+      color: var(--ink-secondary);
+      border-radius: 6px;
+      padding: 0.2rem 0.52rem;
+      font-family: var(--font-ethiopic);
+      font-size: 0.8rem;
+      font-weight: 600;
+      white-space: nowrap;
+      cursor: pointer;
+      flex-shrink: 0;
+    }
+    .verse-jump-pill:hover {
+      border-color: var(--biranna-red);
+      color: var(--biranna-red);
+      background: var(--biranna-red-bg);
+    }
+
+    /* ==========================================================================
+       6. VERSE CARDS & BIRANNA MANUSCRIPT TYPOGRAPHY
+       ========================================================================== */
+    .verse-card {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-color);
+      border-left: 4px solid var(--biranna-red);
+      border-radius: 12px;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 1.1rem;
+      box-shadow: var(--shadow-sm);
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .verse-card:target, .verse-card.highlighted-verse {
+      border-color: var(--gold-primary);
+      box-shadow: 0 0 0 3px var(--gold-bg), var(--shadow-md);
+    }
+
+    /* modern-web-guidance: defer-rendering-heavy-content for off-screen verses */
+    .verse-card.below-fold {
+      content-visibility: auto;
+      contain-intrinsic-size: auto none auto 180px;
+    }
+
+    .pericope-banner {
+      background: var(--gold-bg);
+      border: 1px solid rgba(181, 133, 43, 0.4);
+      color: var(--ink-primary);
+      padding: 0.5rem 0.9rem;
       border-radius: 8px;
-      padding: 0.6rem;
-      position: sticky;
-      top: 0.5rem;
-      max-height: calc(100vh - 150px);
-      overflow: auto;
-      text-align: center;
+      font-weight: 700;
+      margin-bottom: 0.85rem;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
     }
-    .scan-viewer img {
-      max-width: 100%;
-      height: auto;
+    .pericope-banner span.ornament {
+      color: var(--biranna-red);
+      font-size: 1.1rem;
+    }
+
+    .verse-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .verse-ref-group {
+      display: flex;
+      align-items: center;
+      gap: 0.55rem;
+      flex-wrap: wrap;
+    }
+    .verse-badge {
+      background: var(--biranna-red);
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 0.88rem;
+      padding: 0.18rem 0.62rem;
+      border-radius: 6px;
+      letter-spacing: 0.01em;
+    }
+    .verse-ref-sub {
+      font-family: var(--font-ui);
+      font-size: 0.78rem;
+      color: var(--ink-muted);
+      font-weight: 500;
+    }
+    .topic-tag {
+      background: var(--gold-bg);
+      color: var(--gold-primary);
+      border: 1px solid rgba(181, 133, 43, 0.35);
+      font-size: 0.76rem;
+      padding: 0.1rem 0.5rem;
+      border-radius: 99px;
+      font-weight: 600;
+    }
+
+    .verse-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+    .action-btn {
+      background: var(--bg-app);
+      border: 1px solid var(--border-color);
+      color: var(--ink-secondary);
+      padding: 0.22rem 0.55rem;
+      border-radius: 6px;
+      font-family: var(--font-ethiopic);
+      font-size: 0.76rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.28rem;
+      transition: all 0.12s;
+    }
+    .action-btn:hover {
+      border-color: var(--gold-primary);
+      color: var(--ink-primary);
+      background: var(--gold-bg);
+    }
+
+    /* Biranna Manuscript Body Typography */
+    .biranna-manuscript-body {
+      font-size: var(--reader-font-size);
+      line-height: var(--reader-line-height);
+      text-align: justify;
+      word-spacing: 0.04em;
+    }
+
+    .sp-geez {
+      color: var(--biranna-red);
+      font-weight: 700;
+      background: var(--biranna-red-bg);
+      border-bottom: 1px solid var(--biranna-red-border);
+      padding: 0.04rem 0.28rem;
       border-radius: 4px;
-      transition: transform 0.2s ease;
     }
+    .sp-sacred {
+      color: var(--biranna-red);
+      font-weight: 700;
+    }
+    .sp-andem {
+      color: var(--andem-ink);
+      background: var(--andem-bg);
+      border: 1px solid var(--andem-border);
+      font-weight: 700;
+      padding: 0.02rem 0.38rem;
+      border-radius: 5px;
+      margin: 0 0.1rem;
+    }
+    .sp-hateta {
+      color: var(--hateta-ink);
+      background: var(--hateta-bg);
+      border: 1px solid var(--hateta-border);
+      font-weight: 700;
+      padding: 0.02rem 0.38rem;
+      border-radius: 5px;
+      margin: 0 0.1rem;
+    }
+    .sp-punct {
+      color: var(--biranna-red);
+      font-weight: 700;
+    }
+    .sp-dimmed {
+      opacity: 0.22;
+      transition: opacity 0.15s;
+    }
+
+    /* ==========================================================================
+       7. CLAUSE-BY-CLAUSE EXEGETICAL STUDY MODE (ንባብና ትርጓሜ በየአንቀጹ)
+       ========================================================================== */
+    .clause-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 0.85rem;
+    }
+    .clause-card {
+      background: var(--bg-app);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .clause-geez-bar {
+      background: var(--biranna-red-bg);
+      border-bottom: 1px solid var(--biranna-red-border);
+      padding: 0.6rem 1rem;
+      display: flex;
+      align-items: baseline;
+      gap: 0.55rem;
+    }
+    .clause-num-pill {
+      font-family: var(--font-ui);
+      font-size: 0.7rem;
+      font-weight: 700;
+      color: var(--biranna-red);
+      background: var(--bg-elevated);
+      border: 1px solid var(--biranna-red-border);
+      padding: 0.08rem 0.42rem;
+      border-radius: 99px;
+      flex-shrink: 0;
+    }
+    .clause-geez-lemma {
+      font-size: calc(var(--reader-font-size) * 1.02);
+      font-weight: 700;
+      color: var(--biranna-red);
+      line-height: 1.75;
+    }
+    .clause-amharic-body {
+      padding: 0.85rem 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.55rem;
+      font-size: var(--reader-font-size);
+      line-height: 1.9;
+    }
+    .clause-primary-interp {
+      color: var(--ink-primary);
+    }
+    .clause-andem-box {
+      background: var(--andem-bg);
+      border-left: 3px solid var(--andem-ink);
+      padding: 0.5rem 0.8rem;
+      border-radius: 0 7px 7px 0;
+      color: var(--ink-primary);
+      font-size: calc(var(--reader-font-size) * 0.96);
+    }
+    .clause-hateta-box {
+      background: var(--hateta-bg);
+      border-left: 3px solid var(--hateta-ink);
+      padding: 0.5rem 0.8rem;
+      border-radius: 0 7px 7px 0;
+      color: var(--ink-primary);
+      font-size: calc(var(--reader-font-size) * 0.95);
+    }
+
+    /* ==========================================================================
+       8. DIPLOMATIC PAGE COLLATOR, INDICES & JSON DOWNLOAD HUB
+       ========================================================================== */
+    .panel-card {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 1.25rem;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.94rem;
+    }
+    .data-table th, .data-table td {
+      padding: 0.65rem 0.85rem;
+      border-bottom: 1px solid var(--border-color);
+      text-align: left;
+    }
+    .data-table th {
+      background: var(--bg-sidebar);
+      color: var(--ink-secondary);
+      font-weight: 700;
+      font-size: 0.82rem;
+    }
+    .data-table tr:hover td {
+      background: var(--bg-hover);
+    }
+
     .columns-grid {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 0.65rem;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 0.85rem;
     }
     .diplomatic-col {
-      background: var(--bg-card);
-      border: 1px solid var(--border-warm);
-      border-radius: 8px;
-      padding: 0.65rem;
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 0.85rem;
     }
     .diplomatic-col h4 {
-      text-align: center;
-      font-size: 0.9rem;
-      color: var(--rubric-red);
-      border-bottom: 2px solid var(--border-warm);
-      padding-bottom: 0.35rem;
-      margin-bottom: 0.5rem;
+      color: var(--biranna-red);
+      border-bottom: 2px solid var(--border-color);
+      padding-bottom: 0.4rem;
+      margin-bottom: 0.55rem;
+      font-size: 0.92rem;
+      display: flex;
+      justify-content: space-between;
     }
     .dip-line {
       display: flex;
       align-items: baseline;
-      gap: 0.3rem;
-      padding: 0.16rem 0.25rem;
-      border-bottom: 1px dotted #eee5d3;
-      font-size: 0.9rem;
-      border-radius: 3px;
-      cursor: pointer;
-    }
-    .dip-line:hover {
-      background: var(--gold-light);
-    }
-    .dip-line.has-uncertain {
-      background: var(--warn-bg);
-      border-left: 3px solid var(--warn-amber);
+      gap: 0.35rem;
+      padding: 0.2rem 0.3rem;
+      border-bottom: 1px dotted var(--border-color);
+      font-size: 0.92rem;
+      line-height: 1.65;
     }
     .dip-line.has-stage2 {
-      background: rgba(21, 94, 59, 0.08);
-      border-left: 3px solid var(--andem-badge);
+      background: var(--andem-bg);
+      border-left: 3px solid var(--andem-ink);
     }
     .dip-lnum {
-      font-size: 0.7rem;
+      font-family: var(--font-ui);
+      font-size: 0.68rem;
       color: var(--ink-muted);
       min-width: 1.4rem;
       user-select: none;
     }
     .dip-margin {
-      background: var(--rubric-red);
+      background: var(--biranna-red);
       color: #fff;
-      font-size: 0.72rem;
-      padding: 0 0.28rem;
-      border-radius: 3px;
-      font-weight: 700;
-    }
-    .dip-text {
-      flex: 1;
-      word-break: keep-all;
-    }
-    .dip-wrap {
-      color: var(--gold-accent);
-      font-size: 0.75rem;
+      font-size: 0.7rem;
+      padding: 0 0.3rem;
+      border-radius: 4px;
       font-weight: 700;
     }
 
-    /* Tables for Index & Apparatus */
-    .data-table {
+    /* Download Grid */
+    .download-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+      gap: 0.9rem;
+      margin-top: 1rem;
+    }
+    .dl-card {
+      background: var(--bg-app);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 0.75rem;
+    }
+    .dl-card h4 {
+      color: var(--biranna-red);
+      font-size: 1rem;
+    }
+    .dl-links {
+      display: flex;
+      gap: 0.45rem;
+      flex-wrap: wrap;
+    }
+    .dl-btn {
+      text-decoration: none;
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-strong);
+      color: var(--ink-primary);
+      padding: 0.32rem 0.68rem;
+      border-radius: 6px;
+      font-family: var(--font-ui);
+      font-size: 0.76rem;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+    .dl-btn.primary {
+      background: var(--biranna-red);
+      border-color: var(--biranna-red);
+      color: #fff;
+    }
+
+    /* JSON Modal */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.65);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+      padding: 1.5rem;
+    }
+    .modal-backdrop.open {
+      display: flex;
+    }
+    .modal-box {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-strong);
+      border-radius: 12px;
+      max-width: 780px;
       width: 100%;
-      border-collapse: collapse;
-      background: var(--bg-card);
-      border: 1px solid var(--border-warm);
-      border-radius: 8px;
+      max-height: 85vh;
+      display: flex;
+      flex-direction: column;
+      box-shadow: var(--shadow-md);
       overflow: hidden;
     }
-    .data-table th, .data-table td {
-      padding: 0.65rem 0.85rem;
-      border-bottom: 1px solid var(--border-warm);
-      text-align: left;
-      font-size: 0.96rem;
+    .modal-header {
+      padding: 0.85rem 1.25rem;
+      border-bottom: 1px solid var(--border-color);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
-    .data-table th {
-      background: var(--bg-sidebar);
-      color: var(--ink-dark);
-      font-weight: 700;
-    }
-    .data-table tr:hover {
-      background: var(--gold-light);
+    .modal-pre {
+      padding: 1rem 1.25rem;
+      overflow: auto;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.8rem;
+      line-height: 1.55;
+      background: var(--bg-app);
+      color: var(--ink-primary);
+      flex: 1;
     }
 
-    @media (max-width: 1100px) {
-      .diplomatic-split {
-        grid-template-columns: 1fr;
+    /* Toast notification */
+    .toast {
+      position: fixed;
+      bottom: 1.25rem;
+      right: 1.25rem;
+      background: var(--bg-header);
+      color: #f9eac8;
+      border: 1px solid var(--gold-primary);
+      padding: 0.6rem 1rem;
+      border-radius: 8px;
+      font-size: 0.86rem;
+      box-shadow: var(--shadow-md);
+      opacity: 0;
+      transform: translateY(10px);
+      pointer-events: none;
+      transition: all 0.2s ease;
+      z-index: 120;
+    }
+    .toast.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @media (max-width: 900px) {
+      .sidebar {
+        position: absolute;
+        inset: 0 auto 0 0;
+        z-index: 35;
+        box-shadow: var(--shadow-md);
       }
-      .columns-grid {
-        grid-template-columns: 1fr;
+      .brand-text p, .gh-link span {
+        display: none;
+      }
+      .search-box input {
+        width: 145px;
+      }
+      .search-box input:focus {
+        width: 190px;
+      }
+      .main-scroll {
+        padding: 1rem 0.9rem 3.5rem;
+      }
+      .verse-card {
+        padding: 1rem 1.05rem;
       }
     }
   </style>
 </head>
 <body>
-  <header>
-    <div class="brand-title">
-      <h1 id="headerTitle">የሐዲስ ኪዳን አንድምታ ትርጓሜ (13 Books Digital Corpus)</h1>
-      <span id="headerSubtitle">የጌታችን የኢየሱስ ክርስቶስ ቅዱስ ወንጌልና መልእክታት — Ge'ez &amp; Amharic Critical Digital Edition</span>
+  <!-- TOP HEADER -->
+  <header class="top-header">
+    <div class="header-left">
+      <button class="sidebar-toggle-btn" onclick="toggleSidebar()" title="መጻሕፍትና ምዕራፎች (Toggle Sidebar)">☰</button>
+      <div class="brand-lockup">
+        <div class="brand-cross">✞</div>
+        <div class="brand-text">
+          <h1 id="headerTitle">የሐዲስ ኪዳን አንድምታ ትርጓሜ (፲፫ መጻሕፍት)</h1>
+          <p id="headerSubtitle">Ethiopian Orthodox Tewahedo New Testament Ge'ez &amp; Amharic Commentary · v2.0.0</p>
+        </div>
+      </div>
     </div>
-    <div class="nav-tabs" id="bookTabs" style="background: rgba(0,0,0,0.35); max-width: 680px;">
-      <button class="nav-tab active" onclick="switchBook('matewes')" id="book-matewes">📕 ማቴዎስ (200p)</button>
-      <button class="nav-tab" onclick="switchBook('markos')" id="book-markos">🦁 ማርቆስ (62p)</button>
-      <button class="nav-tab" onclick="switchBook('lukas')" id="book-lukas">🐂 ሉቃስ (127p)</button>
-      <button class="nav-tab" onclick="switchBook('yohannes')" id="book-yohannes">🦅 ዮሐንስ (137p)</button>
-      <button class="nav-tab" onclick="switchBook('acts')" id="book-acts">🔥 ግብረ ሐዋርያት (91p)</button>
-      <button class="nav-tab" onclick="switchBook('peter1')" id="book-peter1">🗝️ ፩ኛ ጴጥሮስ (31p)</button>
-      <button class="nav-tab" onclick="switchBook('peter2')" id="book-peter2">📜 ፪ኛ ጴጥሮስ (13p)</button>
-      <button class="nav-tab" onclick="switchBook('john1')" id="book-john1">🕊️ ፩ኛ ዮሐንስ (15p)</button>
-      <button class="nav-tab" onclick="switchBook('john2')" id="book-john2">✉️ ፪ኛ ዮሐንስ (3p)</button>
-      <button class="nav-tab" onclick="switchBook('john3')" id="book-john3">✉️ ፫ኛ ዮሐንስ (3p)</button>
-      <button class="nav-tab" onclick="switchBook('james')" id="book-james">⚖️ ያዕቆብ (14p)</button>
-      <button class="nav-tab" onclick="switchBook('judah')" id="book-judah">🛡️ ይሁዳ (4p)</button>
-      <button class="nav-tab" onclick="switchBook('revelation')" id="book-revelation">👑 ራእየ ዮሐንስ (71p)</button>
-    </div>
-    <div class="nav-tabs">
-      <button class="nav-tab active" onclick="switchTab('reader')" id="tab-reader">📖 ንባብና አንድምታ</button>
-      <button class="nav-tab" onclick="switchTab('diplomatic')" id="tab-diplomatic">📜 ገጽ በገጽ ማመሳከሪያ</button>
-      <button class="nav-tab" onclick="switchTab('indices')" id="tab-indices">📑 መክሥተ አርእስት</button>
-      <button class="nav-tab" onclick="switchTab('apparatus')" id="tab-apparatus">🔬 የፊደል ማጣሪያ</button>
-    </div>
-    <div class="search-bar">
-      <input type="text" id="searchInput" placeholder="ፈልግ (ምሳሌ፦ ልደቱ፣ ዳዊት፣ ቃል)..." onkeydown="if(event.key==='Enter') runSearch()" />
-      <button onclick="runSearch()">ፈልግ</button>
+
+    <nav class="main-view-tabs" aria-label="Main Studio Views">
+      <button class="view-tab active" id="tab-reader" onclick="switchTab('reader')">📖 ንባብና ትርጓሜ</button>
+      <button class="view-tab" id="tab-indices" onclick="switchTab('indices')">📑 ማውጫና አርእስት</button>
+      <button class="view-tab" id="tab-diplomatic" onclick="switchTab('diplomatic')">📜 የገጽ ማመሳከሪያ</button>
+      <button class="view-tab" id="tab-downloads" onclick="switchTab('downloads')">📥 JSON ዳታ</button>
+    </nav>
+
+    <div class="header-right">
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="ፈልግ (ልደቱ፣ ሥላሴ፣ ዳዊት)... [/]" onkeydown="if(event.key==='Enter') runSearch()" />
+        <button onclick="runSearch()" title="ፈልግ (Search)">🔍</button>
+      </div>
+
+      <div class="theme-group" title="የንባብ መልክ (Theme)">
+        <button class="theme-btn active" id="theme-biranna" onclick="setTheme('biranna')">ብራና</button>
+        <button class="theme-btn" id="theme-light" onclick="setTheme('light')">ነጭ</button>
+        <button class="theme-btn" id="theme-dark" onclick="setTheme('dark')">ሌሊት</button>
+      </div>
+
+      <a class="gh-link" href="https://github.com/SenayGebre/ethiopian-orthodox-andemta" target="_blank" rel="noopener">
+        ★ <span>GitHub</span>
+      </a>
     </div>
   </header>
 
+  <!-- MAIN WORKSPACE -->
   <div class="workspace">
-    <aside class="sidebar">
-      <div class="sidebar-section">
-        <h3>የመጽሐፉ መረጃ (Corpus Status)</h3>
-        <div class="stats-grid" id="statsGrid">
-          <div class="stat-pill"><strong id="statPages">-</strong>ገጾች (Pages)</div>
-          <div class="stat-pill"><strong id="statChapters">-</strong>ምዕራፎች (Ch.)</div>
-          <div class="stat-pill"><strong id="statVerses">-</strong>አንቀጾች (Verses)</div>
-          <div class="stat-pill"><strong id="statLines">-</strong>መስመሮች (Lines)</div>
+    <!-- LEFT CANON & CHAPTER SIDEBAR -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-scroll">
+        <!-- Chapter Grid for Active Book -->
+        <div class="chapter-grid-box">
+          <div class="nav-group-label">
+            <span id="sidebarBookLabel">ምዕራፎች (Chapters)</span>
+            <span id="sidebarChapterCount">28 ምዕራፍ</span>
+          </div>
+          <div class="chapter-grid" id="chapterGrid"></div>
+        </div>
+
+        <!-- Categorized 13 Books -->
+        <div>
+          <div class="nav-group-label"><span>፬ ወንጌላት (Four Gospels)</span><span>4</span></div>
+          <div class="book-list" id="bookListGospels"></div>
+        </div>
+
+        <div>
+          <div class="nav-group-label"><span>የሐዋርያት ታሪክ (History)</span><span>1</span></div>
+          <div class="book-list" id="bookListHistory"></div>
+        </div>
+
+        <div>
+          <div class="nav-group-label"><span>፯ መልእክታት (Catholic Epistles)</span><span>7</span></div>
+          <div class="book-list" id="bookListEpistles"></div>
+        </div>
+
+        <div>
+          <div class="nav-group-label"><span>ራእይ (Apocalypse)</span><span>1</span></div>
+          <div class="book-list" id="bookListApocalypse"></div>
         </div>
       </div>
-      <div class="sidebar-section" style="padding-bottom: 0.4rem;">
-        <h3 id="sidebarChaptersHeading">ምዕራፎች (Chapters)</h3>
-      </div>
-      <div class="chapter-list" id="chapterList"></div>
     </aside>
 
-    <main class="main-panel" id="mainPanel">
-      <p style="padding: 2rem; color: var(--ink-muted);">በመጫን ላይ (Loading sacred text corpus)...</p>
-    </main>
+    <!-- CENTRAL READING & STUDIO SANCTUARY -->
+    <div class="main-area">
+      <!-- Sticky Context & Reading Mode Bar -->
+      <div class="reader-toolbar">
+        <div class="toolbar-breadcrumb">
+          <span class="book-title-pill" id="toolbarBookTitle">የማቴዎስ ወንጌል አንድምታ</span>
+          <div class="ch-nav-group">
+            <button class="ch-step-btn" id="prevChBtn" onclick="stepChapter(-1)">◀ ቀዳሚ</button>
+            <select class="ch-select-dropdown" id="chapterSelect" onchange="selectChapter(parseInt(this.value, 10))"></select>
+            <button class="ch-step-btn" id="nextChBtn" onclick="stepChapter(1)">ቀጣይ ▶</button>
+          </div>
+        </div>
+
+        <div style="display:flex; align-items:center; gap:0.55rem; flex-wrap:wrap;">
+          <div class="mode-switcher" id="readingModeGroup" title="የንባብ ዘይቤ (Reading Mode)">
+            <button class="mode-btn active" id="mode-biranna" onclick="setReadingMode('biranna')">📜 የብራና ንባብ</button>
+            <button class="mode-btn" id="mode-clauses" onclick="setReadingMode('clauses')">🔬 ንባብና ትርጓሜ (በየአንቀጹ)</button>
+            <button class="mode-btn" id="mode-geez" onclick="setReadingMode('geez')">✞ ግዕዝ ብቻ</button>
+          </div>
+
+          <div class="font-controls" title="የፊደል መጠን (Font Size)">
+            <button class="font-btn" onclick="adjustFontSize(-0.08)">A-</button>
+            <button class="font-btn" onclick="adjustFontSize(0.08)">A+</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scrollable View Viewport -->
+      <main class="main-scroll" id="mainScroll">
+        <div class="reader-container" id="mainContent">
+          <div class="panel-card" style="text-align:center; padding:3rem 1.5rem;">
+            <p style="font-size:1.15rem; color:var(--biranna-red); font-weight:700;">ቅዱሳት መጻሕፍት በመጫን ላይ ናቸው...</p>
+            <p style="font-size:0.88rem; color:var(--ink-muted); margin-top:0.35rem;">Loading Ethiopian Orthodox New Testament Andemta Corpus...</p>
+          </div>
+        </div>
+      </main>
+    </div>
   </div>
 
-  <script>
-    let CURRENT_BOOK = 'matewes';
-    let BOOK_DATA = null;
-    let CURRENT_TAB = 'reader';
-    let CURRENT_CHAPTER = 1;
-    let CURRENT_PDF_PAGE = 1;
-    let ZOOM_LEVEL = 1.0;
+  <!-- VERSE JSON INSPECTOR MODAL -->
+  <div class="modal-backdrop" id="jsonModal" onclick="if(event.target===this) closeJsonModal()">
+    <div class="modal-box">
+      <div class="modal-header">
+        <strong id="jsonModalTitle" style="color:var(--biranna-red);">Verse JSON (v2.0.0 Schema)</strong>
+        <div style="display:flex; gap:0.4rem;">
+          <button class="action-btn" onclick="copyModalJson()">📋 Copy JSON</button>
+          <button class="action-btn" onclick="closeJsonModal()">✕ ዝጋ</button>
+        </div>
+      </div>
+      <pre class="modal-pre" id="jsonModalPre"></pre>
+    </div>
+  </div>
 
-    const ALL_BOOKS = [
-      'matewes', 'markos', 'lukas', 'yohannes',
-      'acts', 'peter1', 'peter2', 'john1', 'john2', 'john3', 'james', 'judah', 'revelation'
+  <!-- TOAST -->
+  <div class="toast" id="toast"></div>
+
+  <script>
+    /* ==========================================================================
+       13-BOOK CANON METADATA & STATIC/SERVER DUAL LOADER
+       ========================================================================== */
+    const BOOKS_CATALOG = [
+      { order: 1,  numEth: '፩',  key: 'matewes',    file: '01_matewes.json',    dipFile: 'data/extracted/matewes_andemta_complete.json',    pagesDir: 'data/extracted/pages',          group: 'gospels',    shortGeez: 'ማቴዎስ',      titleGeez: 'የማቴዎስ ወንጌል አንድምታ',           titleEn: 'Gospel of Matthew',   chapters: 28, verses: 1070, pages: 212 },
+      { order: 2,  numEth: '፪',  key: 'markos',     file: '02_markos.json',     dipFile: 'data/extracted/markos_andemta_complete.json',     pagesDir: 'data/markos/extracted/pages',   group: 'gospels',    shortGeez: 'ማርቆስ',      titleGeez: 'የማርቆስ ወንጌል አንድምታ',           titleEn: 'Gospel of Mark',      chapters: 16, verses: 678,  pages: 67  },
+      { order: 3,  numEth: '፫',  key: 'lukas',      file: '03_lukas.json',      dipFile: 'data/extracted/lukas_andemta_complete.json',      pagesDir: 'data/lukas/extracted/pages',    group: 'gospels',    shortGeez: 'ሉቃስ',       titleGeez: 'የሉቃስ ወንጌል አንድምታ',            titleEn: 'Gospel of Luke',      chapters: 24, verses: 1146, pages: 131 },
+      { order: 4,  numEth: '፬',  key: 'yohannes',   file: '04_yohannes.json',   dipFile: 'data/extracted/yohannes_andemta_complete.json',   pagesDir: 'data/yohannes/extracted/pages', group: 'gospels',    shortGeez: 'ዮሐንስ',      titleGeez: 'የዮሐንስ ወንጌል አንድምታ',           titleEn: 'Gospel of John',      chapters: 21, verses: 872,  pages: 116 },
+      { order: 5,  numEth: '፭',  key: 'acts',       file: '05_acts.json',       dipFile: 'data/extracted/acts_andemta_complete.json',       pagesDir: 'data/acts/extracted/pages',     group: 'history',    shortGeez: 'ሐዋርያት ሥራ',  titleGeez: 'የሐዋርያት ሥራ አንድምታ',            titleEn: 'Acts of the Apostles',chapters: 28, verses: 1004, pages: 91  },
+      { order: 6,  numEth: '፮',  key: 'peter1',     file: '06_peter1.json',     dipFile: 'data/extracted/peter1_andemta_complete.json',     pagesDir: 'data/peter1/extracted/pages',   group: 'epistles',   shortGeez: '፩ኛ ጴጥሮስ',   titleGeez: 'የጴጥሮስ መልእክት ቀዳማዊ አንድምታ',     titleEn: '1 Peter',             chapters: 5,  verses: 106,  pages: 31  },
+      { order: 7,  numEth: '፯',  key: 'peter2',     file: '07_peter2.json',     dipFile: 'data/extracted/peter2_andemta_complete.json',     pagesDir: 'data/peter2/extracted/pages',   group: 'epistles',   shortGeez: '፪ኛ ጴጥሮስ',   titleGeez: 'የጴጥሮስ መልእክት ካልዕ አንድምታ',      titleEn: '2 Peter',             chapters: 3,  verses: 61,   pages: 13  },
+      { order: 8,  numEth: '፰',  key: 'john1',      file: '08_john1.json',      dipFile: 'data/extracted/john1_andemta_complete.json',      pagesDir: 'data/john1/extracted/pages',    group: 'epistles',   shortGeez: '፩ኛ ዮሐንስ',   titleGeez: 'የዮሐንስ መልእክት ቀዳማዊ አንድምታ',     titleEn: '1 John',              chapters: 5,  verses: 105,  pages: 15  },
+      { order: 9,  numEth: '፱',  key: 'john2',      file: '09_john2.json',      dipFile: 'data/extracted/john2_andemta_complete.json',      pagesDir: 'data/john2/extracted/pages',    group: 'epistles',   shortGeez: '፪ኛ ዮሐንስ',   titleGeez: 'የዮሐንስ መልእክት ካልዕ አንድምታ',      titleEn: '2 John',              chapters: 1,  verses: 14,   pages: 3   },
+      { order: 10, numEth: '፲',  key: 'john3',      file: '10_john3.json',      dipFile: 'data/extracted/john3_andemta_complete.json',      pagesDir: 'data/john3/extracted/pages',    group: 'epistles',   shortGeez: '፫ኛ ዮሐንስ',   titleGeez: 'የዮሐንስ መልእክት ሣልስ አንድምታ',      titleEn: '3 John',              chapters: 1,  verses: 16,   pages: 3   },
+      { order: 11, numEth: '፲፩', key: 'james',      file: '11_james.json',      dipFile: 'data/extracted/james_andemta_complete.json',      pagesDir: 'data/james/extracted/pages',    group: 'epistles',   shortGeez: 'ያዕቆብ',      titleGeez: 'የያዕቆብ መልእክት አንድምታ',          titleEn: 'Epistle of James',    chapters: 5,  verses: 109,  pages: 14  },
+      { order: 12, numEth: '፲፪', key: 'judah',      file: '12_judah.json',      dipFile: 'data/extracted/judah_andemta_complete.json',      pagesDir: 'data/judah/extracted/pages',    group: 'epistles',   shortGeez: 'ይሁዳ',       titleGeez: 'የይሁዳ መልእክት አንድምታ',           titleEn: 'Epistle of Jude',     chapters: 1,  verses: 26,   pages: 4   },
+      { order: 13, numEth: '፲፫', key: 'revelation', file: '13_revelation.json', dipFile: 'data/extracted/revelation_andemta_complete.json', pagesDir: 'data/revelation/extracted/pages',group: 'apocalypse', shortGeez: 'ዮሐንስ ራእይ',  titleGeez: 'የዮሐንስ ራእይ አንድምታ',            titleEn: 'Book of Revelation',  chapters: 22, verses: 407,  pages: 71  }
     ];
 
-    const BOOK_LABELS = {
-      matewes: 'ወንጌለ ማቴዎስ አንድምታ ትርጓሜ',
-      markos: 'ወንጌለ ማርቆስ አንድምታ ትርጓሜ',
-      lukas: 'ወንጌለ ሉቃስ አንድምታ ትርጓሜ',
-      yohannes: 'ወንጌለ ዮሐንስ አንድምታ ትርጓሜ',
-      acts: 'ግብረ ሐዋርያት አንድምታ ትርጓሜ',
-      peter1: 'መልእክተ ጴጥሮስ ቀዳማዊ አንድምታ ትርጓሜ',
-      peter2: 'መልእክተ ጴጥሮስ ካልዕ አንድምታ ትርጓሜ',
-      john1: 'መልእክተ ዮሐንስ ቀዳማዊ አንድምታ ትርጓሜ',
-      john2: 'መልእክተ ዮሐንስ ካልዕ አንድምታ ትርጓሜ',
-      john3: 'መልእክተ ዮሐንስ ሣልስ አንድምታ ትርጓሜ',
-      james: 'መልእክተ ያዕቆብ አንድምታ ትርጓሜ',
-      judah: 'መልእክተ ይሁዳ አንድምታ ትርጓሜ',
-      revelation: 'ራእየ ዮሐንስ አንድምታ ትርጓሜ',
-    };
+    const BOOK_BY_KEY = Object.fromEntries(BOOKS_CATALOG.map(b => [b.key, b]));
+    const BOOK_CACHE = {};
 
-    async function switchBook(bookKey) {
-      CURRENT_BOOK = bookKey;
-      CURRENT_CHAPTER = 1;
-      CURRENT_PDF_PAGE = 1;
-      ALL_BOOKS.forEach(b => {
-        const el = document.getElementById('book-' + b);
-        if (el) el.classList.toggle('active', b === bookKey);
+    let CURRENT_BOOK = 'matewes';
+    let BOOK_DATA = null;
+    let CURRENT_CHAPTER = 1;
+    let CURRENT_TAB = 'reader';
+    let READING_MODE = 'biranna'; // 'biranna' | 'clauses' | 'geez'
+    let ACTIVE_CATEGORY_FILTER = null; // null or category string
+    let CURRENT_PDF_PAGE = 1;
+    let FONT_SIZE_REM = 1.18;
+
+    function escapeHtml(str) {
+      return (str || '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    function showToast(msg) {
+      const t = document.getElementById('toast');
+      t.textContent = msg;
+      t.classList.add('show');
+      clearTimeout(window._toastTimer);
+      window._toastTimer = setTimeout(() => t.classList.remove('show'), 2400);
+    }
+
+    function toggleSidebar() {
+      document.getElementById('sidebar').classList.toggle('collapsed');
+    }
+
+    function setTheme(theme) {
+      document.documentElement.setAttribute('data-theme', theme);
+      ['biranna', 'light', 'dark'].forEach(k => {
+        document.getElementById('theme-' + k).classList.toggle('active', k === theme);
       });
-      document.getElementById('headerTitle').textContent = BOOK_LABELS[bookKey] || bookKey;
-      await loadBookData();
+      localStorage.setItem('andemta_theme', theme);
     }
 
-    async function loadBookData() {
-      const res = await fetch(`/api/book?book=${encodeURIComponent(CURRENT_BOOK)}`);
-      BOOK_DATA = await res.json();
-      if (BOOK_DATA.title_geez) {
-        document.getElementById('headerSubtitle').textContent = BOOK_DATA.title_geez;
-      }
-      updateSidebar();
-      renderCurrentTab();
+    function adjustFontSize(delta) {
+      FONT_SIZE_REM = Math.max(0.95, Math.min(1.65, +(FONT_SIZE_REM + delta).toFixed(2)));
+      document.documentElement.style.setProperty('--reader-font-size', FONT_SIZE_REM + 'rem');
     }
 
-    function updateSidebar() {
-      if (!BOOK_DATA) return;
-      const st = BOOK_DATA.stats || {};
-      document.getElementById('statPages').textContent = `${st.extracted_pages_count || 0}/${st.total_pdf_pages || 200}`;
-      document.getElementById('statChapters').textContent = st.total_chapters || 0;
-      document.getElementById('statVerses').textContent = st.total_verses || 0;
-      document.getElementById('statLines').textContent = (st.total_diplomatic_lines || 0).toLocaleString();
+    function setReadingMode(mode) {
+      READING_MODE = mode;
+      ['biranna', 'clauses', 'geez'].forEach(m => {
+        document.getElementById('mode-' + m).classList.toggle('active', m === mode);
+      });
+      if (CURRENT_TAB !== 'reader') switchTab('reader');
+      else renderReaderView();
+    }
 
-      const listEl = document.getElementById('chapterList');
-      listEl.innerHTML = '';
+    /* Render Left Sidebar Book Lists */
+    function initSidebarBooks() {
+      const groups = {
+        gospels: document.getElementById('bookListGospels'),
+        history: document.getElementById('bookListHistory'),
+        epistles: document.getElementById('bookListEpistles'),
+        apocalypse: document.getElementById('bookListApocalypse')
+      };
+      Object.values(groups).forEach(el => { el.innerHTML = ''; });
 
-      const chapters = BOOK_DATA.chapters || [];
-      chapters.forEach(ch => {
+      BOOKS_CATALOG.forEach(b => {
         const btn = document.createElement('button');
-        btn.className = 'chapter-btn' + (ch.chapter_num === CURRENT_CHAPTER ? ' active' : '');
+        btn.className = 'book-item' + (b.key === CURRENT_BOOK ? ' active' : '');
+        btn.id = 'nav-book-' + b.key;
         btn.innerHTML = `
-          <span>ምዕራፍ ${ch.chapter_ethiopic} (${ch.chapter_num})</span>
-          <span class="ch-badge">${ch.verses.length} ቍ</span>
+          <span class="book-item-left">
+            <span class="book-num-tag">${b.numEth}.</span>
+            <span>${b.shortGeez}</span>
+          </span>
+          <span class="book-meta-pill">${b.chapters} ም · ${b.verses} ቍ</span>
         `;
-        btn.onclick = () => {
-          CURRENT_CHAPTER = ch.chapter_num;
-          if (CURRENT_TAB !== 'reader') switchTab('reader');
-          else {
-            updateSidebar();
-            renderReaderView();
-          }
-        };
-        listEl.appendChild(btn);
+        btn.onclick = () => selectBook(b.key, 1);
+        groups[b.group].appendChild(btn);
       });
+    }
+
+    /* Universal Static + Local Server Fetcher */
+    async function fetchBookJson(bookKey) {
+      if (BOOK_CACHE[bookKey]) return BOOK_CACHE[bookKey];
+      const meta = BOOK_BY_KEY[bookKey];
+      // Try static root JSON first (fast & works on GitHub Pages AND local root), fallback to /api/book
+      const urls = [
+        `./${meta.file}`,
+        `./${meta.dipFile}`,
+        `/api/book?book=${encodeURIComponent(bookKey)}`
+      ];
+      for (const u of urls) {
+        try {
+          const res = await fetch(u);
+          if (res.ok) {
+            const data = await res.json();
+            BOOK_CACHE[bookKey] = data;
+            return data;
+          }
+        } catch (_) {}
+      }
+      throw new Error(`Could not load book ${bookKey}`);
+    }
+
+    async function selectBook(bookKey, chapterNum = 1, targetVerse = null) {
+      if (!BOOK_BY_KEY[bookKey]) bookKey = 'matewes';
+      CURRENT_BOOK = bookKey;
+      CURRENT_CHAPTER = chapterNum || 1;
+      CURRENT_PDF_PAGE = 1;
+
+      BOOKS_CATALOG.forEach(b => {
+        const el = document.getElementById('nav-book-' + b.key);
+        if (el) el.classList.toggle('active', b.key === bookKey);
+      });
+
+      const meta = BOOK_BY_KEY[bookKey];
+      document.getElementById('toolbarBookTitle').textContent = meta.titleGeez;
+      document.getElementById('headerTitle').textContent = meta.titleGeez;
+      document.getElementById('headerSubtitle').textContent = `${meta.titleEn} · ${meta.chapters} Chapters · ${meta.verses} Verses`;
+
+      const main = document.getElementById('mainContent');
+      if (!BOOK_CACHE[bookKey]) {
+        main.innerHTML = `
+          <div class="panel-card" style="text-align:center; padding:2.5rem;">
+            <p style="font-size:1.1rem; color:var(--biranna-red); font-weight:700;">${meta.titleGeez} በመጫን ላይ...</p>
+          </div>
+        `;
+      }
+
+      BOOK_DATA = await fetchBookJson(bookKey);
+      updateChapterControls();
+      renderCurrentTab();
+
+      if (targetVerse !== null) {
+        setTimeout(() => scrollToVerse(CURRENT_CHAPTER, targetVerse), 60);
+      } else {
+        document.getElementById('mainScroll').scrollTop = 0;
+      }
+      updateUrlHash(CURRENT_BOOK, CURRENT_CHAPTER, targetVerse);
+
+      if (window.innerWidth <= 900) {
+        document.getElementById('sidebar').classList.add('collapsed');
+      }
+    }
+
+    function updateChapterControls() {
+      if (!BOOK_DATA) return;
+      const chapters = BOOK_DATA.chapters || [];
+      const meta = BOOK_BY_KEY[CURRENT_BOOK];
+
+      document.getElementById('sidebarBookLabel').textContent = `${meta.shortGeez} — ምዕራፎች`;
+      document.getElementById('sidebarChapterCount').textContent = `${chapters.length} ምዕራፍ`;
+
+      const grid = document.getElementById('chapterGrid');
+      const select = document.getElementById('chapterSelect');
+      grid.innerHTML = '';
+      select.innerHTML = '';
+
+      chapters.forEach(ch => {
+        const cell = document.createElement('button');
+        cell.className = 'ch-cell' + (ch.chapter_num === CURRENT_CHAPTER ? ' active' : '');
+        cell.title = `ምዕራፍ ${ch.chapter_ethiopic} (${ch.chapter_num}) — ${ch.verses.length} አንቀጾች`;
+        cell.innerHTML = `<span>${ch.chapter_ethiopic}</span><small>${ch.chapter_num}</small>`;
+        cell.onclick = () => selectChapter(ch.chapter_num);
+        grid.appendChild(cell);
+
+        const opt = document.createElement('option');
+        opt.value = ch.chapter_num;
+        opt.selected = ch.chapter_num === CURRENT_CHAPTER;
+        opt.textContent = `ምዕራፍ ${ch.chapter_ethiopic} (${ch.chapter_num}) · ${ch.verses.length} ቍ`;
+        select.appendChild(opt);
+      });
+
+      document.getElementById('prevChBtn').disabled = CURRENT_CHAPTER <= 1;
+      document.getElementById('nextChBtn').disabled = CURRENT_CHAPTER >= chapters.length;
+    }
+
+    function selectChapter(chNum, targetVerse = null) {
+      const chapters = (BOOK_DATA && BOOK_DATA.chapters) || [];
+      CURRENT_CHAPTER = Math.max(1, Math.min(chapters.length || 1, chNum));
+      updateChapterControls();
+      if (CURRENT_TAB !== 'reader') switchTab('reader');
+      else renderReaderView();
+      if (targetVerse !== null) {
+        setTimeout(() => scrollToVerse(CURRENT_CHAPTER, targetVerse), 50);
+      } else {
+        document.getElementById('mainScroll').scrollTop = 0;
+      }
+      updateUrlHash(CURRENT_BOOK, CURRENT_CHAPTER, targetVerse);
+    }
+
+    function stepChapter(delta) {
+      selectChapter(CURRENT_CHAPTER + delta);
     }
 
     function switchTab(tab) {
       CURRENT_TAB = tab;
-      ['reader', 'diplomatic', 'indices', 'apparatus'].forEach(t => {
+      ['reader', 'indices', 'diplomatic', 'downloads'].forEach(t => {
         document.getElementById('tab-' + t).classList.toggle('active', t === tab);
       });
       renderCurrentTab();
@@ -636,417 +1546,517 @@
     function renderCurrentTab() {
       if (!BOOK_DATA) return;
       if (CURRENT_TAB === 'reader') renderReaderView();
-      else if (CURRENT_TAB === 'diplomatic') renderDiplomaticView(CURRENT_PDF_PAGE);
       else if (CURRENT_TAB === 'indices') renderIndicesView();
-      else if (CURRENT_TAB === 'apparatus') renderApparatusView();
+      else if (CURRENT_TAB === 'diplomatic') renderDiplomaticView(CURRENT_PDF_PAGE);
+      else if (CURRENT_TAB === 'downloads') renderDownloadsView();
     }
 
-    const BIRANNA_PREFIX = '(?:ለ|በ|ከ|የ|ወ|እም|እንደ|ወለ|ወእም|ወበ|ወዘ|ዘ|እለ|እነ|የነ|በነ|ከነ|ወደ|ኦ)?';
-    const BIRANNA_SUFFIX = '(?:ም|ን|ስ|ሰ|ና|ኒ|ኑ|ማ|ሃ|ሂ|ንም|ንስ|ንና|ንማ|ሃኑ|ኬ)?';
-    const BIRANNA_SAINTS = 'ሚካኤል|ገብርኤል|ሩፋኤል|ዑራኤል|ፋኑኤል|ራጉኤል|ሱራፌል|ኪሩቤል|ማቴዎስ|ማርቆስ|ሉቃስ|ዮሐንስ|ጴጥሮስ|ጳውሎስ|ያዕቆብ|እንድርያስ|ፊልጶስ|በርቶሎሜዎስ|ቶማስ|ታዴዎስ|ናትናኤል|ማትያስ|በርናባስ|ጢሞቴዎስ|አጵሎስ|እስጢፋኖስ|አብርሃም|ይስሐቅ|ሙሴ|አሮን|ዳዊት|ሰሎሞን|ኢሳይያስ|ኤርምያስ|ሕዝቅኤል|ዳንኤል|ሆሴዕ|አሞጽ|ሚክያስ|ኢዩኤል|ዮናስ|ናሆም|ዕንባቆም|ሶፎንያስ|ሐጌ|ዘካርያስ|ሚልክያስ|ኤልሳዕ|ሄኖክ|ኢዮብ|ሳሙኤል|አፈወርቅ|ቄርሎስ|አትናቴዎስ|ባስልዮስ|ጎርጎርዮስ|ኤፍሬም|ያሬድ|ኤጲፋንዮስ|ዲዮናስዮስ|ሳዊሮስ|ጊዮርጊስ';
-
-    const BIRANNA_SACRED_RE = new RegExp(
-      '(?<![ሀ-ፚ])(' +
-        'በስመ[\\s፡]+አብ[\\s፡]+ወወልድ[\\s፡]+ወመንፈስ[\\s፡]+ቅዱስ(?:[\\s፡]+አሐዱ[\\s፡]+አምላክ)?|' +
-        'ቅዱስ[\\s፡]+ቅዱስ[\\s፡]+ቅዱስ(?:[\\s፡]+እግዚአብሔር(?:[\\s፡]+ጸባዖት)?)?|' +
-        BIRANNA_PREFIX + '(?:እግዚአብሔር[\\s፡]+(?:አብ|ወልድ|መንፈስ[\\s፡]+ቅዱስ)|ኢየሱስ[\\s፡]+ክርስቶስ|መንፈስ[\\s፡]+ቅዱስ|ቅድስት[\\s፡]+ሥላሴ|መድኃኔ[\\s፡]*ዓለም|እግዚአብሔር(?:ነቱ)?|ኢየሱስ|ክርስቶስ|አማኑኤል|ሥላሴ|ጰራቅሊጦስ|ጸባዖት|እግዚእነ(?!ት)|ጌታችን|አምላካችን|ፈጣሪያችን|መድኃኒታችን|እመቤታችን(?:[\\s፡]+ቅድስት[\\s፡]+ድንግል[\\s፡]+ማርያም)?|ቅድስት[\\s፡]+ድንግል(?:[\\s፡]+ማርያም)?|ድንግል[\\s፡]+ማርያም|ወላዲተ[\\s፡]+አምላክ|እግዝእትነ(?:[\\s፡]+ማርያም)?|' + BIRANNA_SAINTS + ')' + BIRANNA_SUFFIX + '|' +
-        '(?:ለ|በ|ከ|የ|ወ|እም|እ)?ማርያም' + BIRANNA_SUFFIX + '|' +
-        '(?<!መንፈስ\\s)(?<!መንፈስ\\s፡\\s)(?<!መንፈስ፡)' + BIRANNA_PREFIX + 'ቅዱስ[\\s፡]+(?:' + BIRANNA_SAINTS + '|ይሁዳ)' + BIRANNA_SUFFIX + '|' +
-        '(?<!ሐሳዌ\\s)(?<!ሐሳዌ\\s፡\\s)(?<!ሐሳዊ\\s)' + BIRANNA_PREFIX + 'ኤልያስ' + BIRANNA_SUFFIX + '|' +
-        '(?:ለ|በ|ከ|የ|ወ)?ቲቶ(?![ሙንች])(?:ም|ን|ስ)?|' +
-        BIRANNA_PREFIX + 'ኖኅ(?![ትተቶ])' + BIRANNA_SUFFIX + '|' +
-        '(?<!ኃጢአተ\\s)(?<!ኃጢአተ\\s፡\\s)(?<!ይምህር\\s)(?<!ይምህር\\s፡\\s)(?:ለ|በ|ከ|የ|ወ)?አብ(?!\\s*ብነ)(?:ም|ን|ስ|ሰ|ና|ኒ)?|' +
-        '(?:ለ|በ|ከ|የ|ወ)?ወልድ(?:[\\s፡]+ዋህድ)?(?:ም|ን|ስ|ሰ|ና|ኒ)?' +
-      ')(?![ሀ-ፚ])',
-      'g'
-    );
-
-    function renderBirannaSpans(spans) {
+    /* ==========================================================================
+       BIRANNA SPAN & CLAUSE-BY-CLAUSE RENDERERS
+       ========================================================================== */
+    function renderBirannaSpansHtml(spans) {
       if (!spans || !spans.length) return '';
       return spans.map(sp => {
-        const esc = (sp.text || '')
-          .replace(/&/g, '&amp;')
-          .replace(/</g, '&lt;')
-          .replace(/>/g, '&gt;');
+        const esc = escapeHtml(sp.text);
         const cat = sp.category;
+        const dim = (ACTIVE_CATEGORY_FILTER && ACTIVE_CATEGORY_FILTER !== cat) ? ' sp-dimmed' : '';
         if (cat === 'geez_scripture') {
-          return `<span class="geez-root-lemma" title="ንባብ (Ge'ez Scripture — ቀይ ቀለም)">${esc}</span>`;
+          return `<span class="sp-geez${dim}" title="ንባብ (Root Ge'ez Scripture)">${esc}</span>`;
         }
         if (cat === 'sacred_divine_name' || cat === 'sacred_mariology' || cat === 'sacred_saint_angel') {
-          return `<span style="color:var(--rubric-red); font-weight:700;" title="የብራና ቀይ ቀለም (${cat})">${esc}</span>`;
+          return `<span class="sp-sacred${dim}" title="የብራና ቀይ ቀለም — ${cat}">${esc}</span>`;
         }
         if (cat === 'andemta_rubric') {
           return esc === 'አንድም'
-            ? `<span class="kw-andem">${esc}</span>`
-            : `<span class="kw-hateta">${esc}</span>`;
+            ? `<span class="sp-andem${dim}">${esc}</span>`
+            : `<span class="sp-hateta${dim}">${esc}</span>`;
         }
         if (cat === 'rubric_numeral_punct') {
-          return `<span style="color:var(--rubric-red); font-weight:700;">${esc}</span>`;
+          return `<span class="sp-punct${dim}">${esc}</span>`;
         }
-        return esc;
+        return `<span class="${dim.trim()}">${esc}</span>`;
       }).join('');
     }
 
-    function formatAndemtaHtml(markedText) {
-      if (!markedText) return '';
-      let escaped = markedText
-        .replace(/&/g, '&amp;')
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;');
-      const parts = escaped.split(/(⟪[^⟫]+⟫)/g);
-      return parts.map(part => {
-        if (part.startsWith('⟪') && part.endsWith('⟫')) {
-          return `<span class="geez-root-lemma">${part.slice(1, -1)}</span>`;
-        }
-        let s = part.replace(BIRANNA_SACRED_RE, '<span style="color:var(--rubric-red); font-weight:700;">$1</span>');
-        s = s.replace(/(?<![ሀ-ፚ])(አንድም)(?![ሀ-ፚ])/g, '<span class="kw-andem">$1</span>');
-        s = s.replace(/(?<![ሀ-ፚ])(\(?(?:ሐተታ|ታሪክ|ምሳሌ|ትንቢት|ጥቅስ|ጥቅ|ግጥም)\)?)(?![ሀ-ፚ])/g, '<span class="kw-hateta">$1</span>');
-        s = s.replace(/([፩-፼]+|።|፠)/g, '<span style="color:var(--rubric-red); font-weight:700;">$1</span>');
-        return s;
-      }).join('');
+    function formatFallbackBirannaText(txt) {
+      const esc = escapeHtml(txt || '');
+      return esc
+        .replace(/(?<![ሀ-ፚ])(አንድም)(?![ሀ-ፚ])/g, '<span class="sp-andem">$1</span>')
+        .replace(/(?<![ሀ-ፚ])(\(?(?:ሐተታ|ታሪክ|ምሳሌ|ትንቢት|ጥቅስ)\)?)(?![ሀ-ፚ])/g, '<span class="sp-hateta">$1</span>')
+        .replace(/([፩-፼]+|።|፠)/g, '<span class="sp-punct">$1</span>');
     }
 
+    function renderClauseByClauseHtml(verse) {
+      const clauses = verse.clause_by_clause || [];
+      if (!clauses.length) {
+        return `<div class="biranna-manuscript-body">${renderBirannaSpansHtml(verse.biranna_spans)}</div>`;
+      }
+      return `
+        <div class="clause-stack">
+          ${clauses.map(c => {
+            const geezBar = c.geez_lemma ? `
+              <div class="clause-geez-bar">
+                <span class="clause-num-pill">ንባብ ${c.clause_index}</span>
+                <div class="clause-geez-lemma">${escapeHtml(c.geez_lemma)}</div>
+              </div>
+            ` : '';
+            const primaryHtml = c.primary_interpretation
+              ? `<div class="clause-primary-interp">${formatFallbackBirannaText(c.primary_interpretation)}</div>`
+              : '';
+            const andemHtml = (c.andem_interpretations || []).map(a =>
+              `<div class="clause-andem-box">${formatFallbackBirannaText(a)}</div>`
+            ).join('');
+            const hatetaHtml = (c.hateta_explanations || []).map(h =>
+              `<div class="clause-hateta-box">${formatFallbackBirannaText(h)}</div>`
+            ).join('');
+            const bodyExists = primaryHtml || andemHtml || hatetaHtml;
+            return `
+              <div class="clause-card">
+                ${geezBar}
+                ${bodyExists ? `<div class="clause-amharic-body">${primaryHtml}${andemHtml}${hatetaHtml}</div>` : ''}
+              </div>
+            `;
+          }).join('')}
+        </div>
+      `;
+    }
+
+    function toggleCategoryFilter(cat) {
+      ACTIVE_CATEGORY_FILTER = (ACTIVE_CATEGORY_FILTER === cat) ? null : cat;
+      renderReaderView();
+    }
+
+    /* ==========================================================================
+       VIEW 1: MAIN SCRIPTURE & ANDEMTA READER
+       ========================================================================== */
     function renderReaderView() {
-      const main = document.getElementById('mainPanel');
-      const ch = (BOOK_DATA.chapters || []).find(c => c.chapter_num === CURRENT_CHAPTER) || (BOOK_DATA.chapters || [])[0];
+      const container = document.getElementById('mainContent');
+      const chapters = BOOK_DATA.chapters || [];
+      const ch = chapters.find(c => c.chapter_num === CURRENT_CHAPTER) || chapters[0];
       if (!ch) {
-        main.innerHTML = '<p style="padding:1.5rem;">ምዕራፍ በመውጣት ላይ ነው (Chapters currently extracting)...</p>';
+        container.innerHTML = `<div class="panel-card">ምዕራፍ አልተገኘም።</div>`;
         return;
       }
 
-      const maxCh = (BOOK_DATA.chapters || []).length || 28;
+      const verses = ch.verses || [];
+      const pillsHtml = verses.map(v => {
+        const label = v.is_prologue ? 'መቅድም' : `ቍ. ${v.verse_ethiopic} (${v.verse_num})`;
+        return `<button class="verse-jump-pill" onclick="scrollToVerse(${ch.chapter_num}, ${v.verse_num})">${label}</button>`;
+      }).join('');
 
-      let pillsHtml = ch.verses.map(v =>
-        `<button class="verse-pill" onclick="document.getElementById('verse-${ch.chapter_num}-${v.verse_num}').scrollIntoView({behavior:'smooth'})">ቍ ${v.verse_ethiopic} (${v.verse_num})</button>`
-      ).join('');
+      const legendCategories = [
+        { key: 'geez_scripture', label: 'ንባብ (Ge\'ez Scripture)', dot: 'dot-red' },
+        { key: 'sacred_divine_name', label: 'አስማተ መለኮት (Divine Names)', dot: 'dot-red' },
+        { key: 'sacred_mariology', label: 'ቅድስት ድንግል ማርያም', dot: 'dot-red' },
+        { key: 'sacred_saint_angel', label: 'ቅዱሳንና መላእክት', dot: 'dot-red' },
+        { key: 'andemta_rubric', label: 'አንድም / ሐተታ', dot: 'dot-andem' },
+        { key: 'amharic_commentary', label: 'ትርጓሜ (Amharic Commentary)', dot: 'dot-black' }
+      ];
 
-      let versesHtml = ch.verses.map((v, idx) => {
-        const belowFoldClass = idx > 4 ? ' below-fold' : '';
-        const secBanner = v.section_title ? `<div class="section-banner">✦ ${v.section_title}</div>` : '';
-        const firstLine = (v.lines && v.lines[0]) ? v.lines[0] : { pdf_page: v.start_pdf_page || 1, column_index: 1 };
-        const bodyHtml = (v.biranna_spans && v.biranna_spans.length)
-          ? renderBirannaSpans(v.biranna_spans)
-          : formatAndemtaHtml(v.rejoined_marked_text);
+      const legendHtml = legendCategories.map(item => `
+        <span class="legend-chip${ACTIVE_CATEGORY_FILTER === item.key ? ' active-filter' : ''}"
+              onclick="toggleCategoryFilter('${item.key}')"
+              title="Click to highlight only ${item.label}">
+          <span class="${item.dot}"></span>
+          <span>${item.label}</span>
+        </span>
+      `).join('');
+
+      const versesHtml = verses.map((v, idx) => {
+        const belowFold = idx > 5 ? ' below-fold' : '';
+        const secBanner = v.section_title
+          ? `<div class="pericope-banner"><span class="ornament">❖</span><span>${escapeHtml(v.section_title)}</span></div>`
+          : '';
+        const topicBadges = (v.linked_topics || []).map(t =>
+          `<span class="topic-tag" title="${escapeHtml(t.amharic_title || '')}">✦ ${escapeHtml(t.geez_title || t.amharic_title || '')}</span>`
+        ).join('');
+
+        let innerContent = '';
+        if (READING_MODE === 'clauses') {
+          innerContent = renderClauseByClauseHtml(v);
+        } else if (READING_MODE === 'geez') {
+          innerContent = `<div class="biranna-manuscript-body"><span class="sp-geez" style="background:transparent; border:none; padding:0;">${escapeHtml(v.geez_text || v.geez_root_text || v.rejoined_plain_text)}</span></div>`;
+        } else {
+          innerContent = `<div class="biranna-manuscript-body">${renderBirannaSpansHtml(v.biranna_spans)}</div>`;
+        }
+
+        const badgeLabel = v.is_prologue
+          ? 'መቅድም (Prologue)'
+          : `ቍጥር ${v.verse_ethiopic} (${ch.chapter_num}:${v.verse_num})`;
+
         return `
-          <article class="verse-card${belowFoldClass}" id="verse-${ch.chapter_num}-${v.verse_num}">
+          <article class="verse-card${belowFold}" id="verse-${ch.chapter_num}-${v.verse_num}">
             ${secBanner}
-            <div class="verse-meta">
-              <div class="verse-num-badge">
-                <span>ምዕራፍ ${ch.chapter_ethiopic} ፥ ቍጥር ${v.verse_ethiopic} (${ch.chapter_num}:${v.verse_num})</span>
+            <div class="verse-header">
+              <div class="verse-ref-group">
+                <span class="verse-badge">${badgeLabel}</span>
+                <span class="verse-ref-sub">${escapeHtml(v.reference_english || '')} · ገጽ ${escapeHtml(v.start_book_page_ethiopic || '-')} (p.${v.start_pdf_page || 1})</span>
+                ${topicBadges}
               </div>
               <div class="verse-actions">
-                <span style="font-size:0.82rem; color:var(--ink-muted);">ገጽ ${v.start_book_page_ethiopic || '-'} (PDF p.${v.start_pdf_page}) · ${(v.lines || []).length} መስመሮች</span>
-                <button class="btn-small" onclick="openPageVerifier(${firstLine.pdf_page})">🔍 ገጽ ${v.start_book_page_ethiopic} መስመር በመስመር አመሳክር</button>
+                <button class="action-btn" onclick="copyVerse(${ch.chapter_num}, ${v.verse_num})" title="አንቀጹን ቅዳ (Copy Verse)">📋 ቅዳ</button>
+                <button class="action-btn" onclick="inspectVerseJson(${ch.chapter_num}, ${v.verse_num})" title="View Verse JSON">{ } JSON</button>
+                <button class="action-btn" onclick="openPageVerifier(${v.start_pdf_page || 1})" title="የመጽሐፉን ገጽ እይ">📜 ገጽ ${escapeHtml(v.start_book_page_ethiopic || '')}</button>
               </div>
             </div>
-            <div class="verse-body-text">${bodyHtml}</div>
+            ${innerContent}
           </article>
         `;
       }).join('');
 
-      main.innerHTML = `
-        <div class="verse-nav-bar">
-          <div class="verse-nav-header">
+      container.innerHTML = `
+        <section class="chapter-hero">
+          <div class="chapter-hero-top">
             <div>
-              <h2>ምዕራፍ ${ch.chapter_ethiopic} (${ch.chapter_num}) — ${ch.geez_incipit || ch.title_geez}</h2>
-              <div style="font-size:0.9rem; color:var(--ink-muted);">${ch.amharic_incipit || ''} · መጀመሪያ ገጽ፦ ${ch.start_book_page_ethiopic || '-'}</div>
+              <h2>ምዕራፍ ${escapeHtml(ch.chapter_ethiopic)} (${ch.chapter_num}) — ${escapeHtml(BOOK_DATA.title_geez)}</h2>
+              <div class="chapter-incipit-geez">«${escapeHtml(ch.geez_incipit || ch.title_geez || '')}»</div>
+              <div class="chapter-incipit-amh">${escapeHtml(ch.amharic_incipit || '')}</div>
             </div>
             <div style="display:flex; gap:0.4rem;">
-              <button class="btn-small" onclick="if(CURRENT_CHAPTER>1){CURRENT_CHAPTER--;updateSidebar();renderReaderView();}">◀ ቀዳሚ ምዕራፍ</button>
-              <button class="btn-small" onclick="if(CURRENT_CHAPTER<${maxCh}){CURRENT_CHAPTER++;updateSidebar();renderReaderView();}">ቀጣይ ምዕራፍ ▶</button>
+              <button class="action-btn" onclick="stepChapter(-1)" ${CURRENT_CHAPTER <= 1 ? 'disabled' : ''}>◀ ምዕራፍ ${CURRENT_CHAPTER - 1}</button>
+              <button class="action-btn" onclick="stepChapter(1)" ${CURRENT_CHAPTER >= chapters.length ? 'disabled' : ''}>ምዕራፍ ${CURRENT_CHAPTER + 1} ▶</button>
             </div>
           </div>
-          <div class="verse-pills">${pillsHtml}</div>
-        </div>
+
+          <div class="verse-strip">${pillsHtml}</div>
+
+          <div class="biranna-legend">
+            <strong style="color:var(--ink-primary);">የብራና ቀለም ሥርዓት፦</strong>
+            ${legendHtml}
+            ${ACTIVE_CATEGORY_FILTER ? `<button class="action-btn" onclick="toggleCategoryFilter(null)">✕ ሁሉንም አሳይ</button>` : ''}
+          </div>
+        </section>
+
         ${versesHtml}
+
+        <div class="panel-card" style="display:flex; justify-content:space-between; align-items:center;">
+          <button class="action-btn" style="padding:0.45rem 0.95rem;" onclick="stepChapter(-1)" ${CURRENT_CHAPTER <= 1 ? 'disabled' : ''}>◀ ቀዳሚ ምዕራፍ</button>
+          <span style="color:var(--ink-muted); font-size:0.86rem;">ምዕራፍ ${ch.chapter_ethiopic} ተፈጸመ · ${verses.length} አንቀጾች</span>
+          <button class="action-btn" style="padding:0.45rem 0.95rem;" onclick="stepChapter(1)" ${CURRENT_CHAPTER >= chapters.length ? 'disabled' : ''}>ቀጣይ ምዕራፍ ▶</button>
+        </div>
       `;
-      main.scrollTop = 0;
     }
 
+    function scrollToVerse(chNum, vNum) {
+      const el = document.getElementById(`verse-${chNum}-${vNum}`);
+      if (!el) return;
+      document.querySelectorAll('.verse-card.highlighted-verse').forEach(c => c.classList.remove('highlighted-verse'));
+      el.classList.add('highlighted-verse');
+      el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      updateUrlHash(CURRENT_BOOK, chNum, vNum);
+    }
+
+    function updateUrlHash(book, ch, v) {
+      const hash = v !== null && v !== undefined ? `#${book}:${ch}:${v}` : `#${book}:${ch}`;
+      history.replaceState(null, '', hash);
+    }
+
+    function copyVerse(chNum, vNum) {
+      const ch = (BOOK_DATA.chapters || []).find(c => c.chapter_num === chNum);
+      const v = ch && (ch.verses || []).find(x => x.verse_num === vNum);
+      if (!v) return;
+      const citation = `${BOOK_DATA.title_geez} — ${v.reference_geez} (${v.reference_english})`;
+      const text = `${citation}\nንባብ፦ ${v.geez_text}\nትርጓሜ፦ ${v.amharic_commentary_text || v.rejoined_plain_text}`;
+      navigator.clipboard.writeText(text);
+      showToast(`ተቀድቷል (Copied ${v.reference_short_geez || citation})`);
+    }
+
+    function inspectVerseJson(chNum, vNum) {
+      const ch = (BOOK_DATA.chapters || []).find(c => c.chapter_num === chNum);
+      const v = ch && (ch.verses || []).find(x => x.verse_num === vNum);
+      if (!v) return;
+      document.getElementById('jsonModalTitle').textContent = `${v.id} — ${v.reference_geez} (${v.reference_english})`;
+      document.getElementById('jsonModalPre').textContent = JSON.stringify(v, null, 2);
+      document.getElementById('jsonModal').classList.add('open');
+    }
+
+    function closeJsonModal() {
+      document.getElementById('jsonModal').classList.remove('open');
+    }
+
+    function copyModalJson() {
+      const txt = document.getElementById('jsonModalPre').textContent;
+      navigator.clipboard.writeText(txt);
+      showToast('Verse JSON copied to clipboard!');
+    }
+
+    /* ==========================================================================
+       VIEW 2: CHAPTER & TOPICAL INDICES (መክሥተ አርእስትና ኍልቈ ምዕራፍ)
+       ========================================================================== */
+    function renderIndicesView() {
+      const container = document.getElementById('mainContent');
+      const chIdx = BOOK_DATA.chapter_index || [];
+      const topIdx = BOOK_DATA.topical_index || [];
+      const canonTbls = BOOK_DATA.canon_tables || [];
+
+      const chRows = chIdx.map(c => `
+        <tr style="cursor:pointer;" onclick="selectChapter(${c.chapter_num})">
+          <td><strong style="color:var(--biranna-red);">ምዕራፍ ${escapeHtml(c.chapter_ethiopic)} (${c.chapter_num})</strong></td>
+          <td style="color:var(--biranna-red); font-weight:600;">${escapeHtml(c.geez_incipit || '')}</td>
+          <td>${escapeHtml(c.amharic_incipit || '')}</td>
+          <td>ገጽ ${escapeHtml(c.book_page_ethiopic || '-')}</td>
+        </tr>
+      `).join('');
+
+      const topRows = topIdx.map(t => `
+        <tr style="cursor:pointer;" onclick="selectChapter(${t.chapter_num}, ${t.verse_num})">
+          <td>${t.topic_id || '-'}</td>
+          <td><strong>ም. ${escapeHtml(t.chapter_ethiopic || '')} ፥ ቍ. ${escapeHtml(t.verse_ethiopic || '')}</strong> (${t.chapter_num}:${t.verse_num})</td>
+          <td style="color:var(--biranna-red); font-weight:700;">${escapeHtml(t.geez_title || '')}</td>
+          <td>${escapeHtml(t.amharic_title || '')}</td>
+          <td>ገጽ ${escapeHtml(t.book_page_ethiopic || '-')}</td>
+        </tr>
+      `).join('');
+
+      let canonSection = '';
+      if (canonTbls.length > 0) {
+        const cRows = canonTbls.map(ct =>
+          (ct.entries || []).map(e => `
+            <tr>
+              <td>ገጽ ${escapeHtml(ct.book_page_ethiopic || '')} (p.${ct.pdf_page})</td>
+              <td>${escapeHtml(e.chapter_ethiopic || '')} ${escapeHtml(e.verse_ethiopic || '')}</td>
+              <td style="color:var(--biranna-red); font-weight:600;">${escapeHtml(e.geez_title || '')}</td>
+              <td>${escapeHtml(e.amharic_title || '')}</td>
+            </tr>
+          `).join('')
+        ).join('');
+        canonSection = `
+          <div class="panel-card">
+            <h3 style="color:var(--biranna-red); margin-bottom:0.75rem;">፫. ዐሥሩ አዕማደ ሰንጠረዥ (Eusebian Gospel Canon Tables — ${canonTbls.length} Pages)</h3>
+            <table class="data-table">
+              <thead>
+                <tr><th>ገጽ</th><th>ምዕራፍ/ቍጥር</th><th>የግዕዝ ንባብ</th><th>የወንጌላውያን ኅብረት</th></tr>
+              </thead>
+              <tbody>${cRows}</tbody>
+            </table>
+          </div>
+        `;
+      }
+
+      container.innerHTML = `
+        <div class="panel-card">
+          <h3 style="color:var(--biranna-red); margin-bottom:0.75rem;">፩. ኍልቈ ምዕራፍ (${chIdx.length} Chapters Index — ${escapeHtml(BOOK_DATA.title_geez)})</h3>
+          <table class="data-table">
+            <thead>
+              <tr><th>ምዕራፍ</th><th>የግዕዝ መጀመሪያ (Ge'ez Incipit)</th><th>የአማርኛ ትርጓሜ (Amharic Incipit)</th><th>ገጽ</th></tr>
+            </thead>
+            <tbody>${chRows}</tbody>
+          </table>
+        </div>
+
+        <div class="panel-card">
+          <h3 style="color:var(--biranna-red); margin-bottom:0.75rem;">፪. መክሥተ አርእስት (${topIdx.length} Topical Pericope Headings)</h3>
+          <table class="data-table">
+            <thead>
+              <tr><th>#</th><th>ምዕራፍና ቍጥር</th><th>የግዕዝ አርእስት (Ge'ez Topic)</th><th>የአማርኛ አርእስት (Amharic Topic)</th><th>ገጽ</th></tr>
+            </thead>
+            <tbody>${topRows}</tbody>
+          </table>
+        </div>
+        ${canonSection}
+      `;
+    }
+
+    /* ==========================================================================
+       VIEW 3: DIPLOMATIC PAGE-BY-PAGE COLLATOR (Works on GitHub Pages & Local)
+       ========================================================================== */
     function openPageVerifier(pdfPage) {
-      CURRENT_PDF_PAGE = pdfPage;
+      CURRENT_PDF_PAGE = pdfPage || 1;
       switchTab('diplomatic');
     }
 
     async function renderDiplomaticView(pdfPage) {
-      const maxPages = (BOOK_DATA && BOOK_DATA.stats && BOOK_DATA.stats.total_pdf_pages) ? BOOK_DATA.stats.total_pdf_pages : 200;
-      CURRENT_PDF_PAGE = Math.max(1, Math.min(maxPages, pdfPage));
-      const main = document.getElementById('mainPanel');
-      main.innerHTML = `<p style="padding:1rem;">Loading PDF Page ${CURRENT_PDF_PAGE}...</p>`;
+      const meta = BOOK_BY_KEY[CURRENT_BOOK];
+      const maxPages = (BOOK_DATA && BOOK_DATA.stats && BOOK_DATA.stats.total_pdf_pages) || meta.pages;
+      CURRENT_PDF_PAGE = Math.max(1, Math.min(maxPages, pdfPage || 1));
 
-      const res = await fetch(`/api/page/${CURRENT_PDF_PAGE}?book=${encodeURIComponent(CURRENT_BOOK)}`);
-      if (!res.ok) {
-        main.innerHTML = `
-          <div class="diplomatic-toolbar">
-            <div><strong>PDF Page ${CURRENT_PDF_PAGE}</strong> is currently being extracted by Gemini 4 Argon...</div>
-            <div>
-              <button class="btn-small" onclick="renderDiplomaticView(${CURRENT_PDF_PAGE - 1})">◀ Prev Page</button>
-              <button class="btn-small" onclick="renderDiplomaticView(${CURRENT_PDF_PAGE + 1})">Next Page ▶</button>
-            </div>
-          </div>
-        `;
+      const container = document.getElementById('mainContent');
+      container.innerHTML = `<div class="panel-card">ገጽ ${CURRENT_PDF_PAGE} በመጫን ላይ...</div>`;
+
+      const pageFile = `page_${String(CURRENT_PDF_PAGE).padStart(3, '0')}.json`;
+      const urls = [
+        `./${meta.pagesDir}/${pageFile}`,
+        `/api/page/${CURRENT_PDF_PAGE}?book=${encodeURIComponent(CURRENT_BOOK)}`
+      ];
+
+      let pData = null;
+      for (const u of urls) {
+        try {
+          const res = await fetch(u);
+          if (res.ok) {
+            pData = await res.json();
+            break;
+          }
+        } catch (_) {}
+      }
+
+      if (!pData) {
+        container.innerHTML = `<div class="panel-card">PDF Page ${CURRENT_PDF_PAGE} JSON not found.</div>`;
         return;
       }
-      const pData = await res.json();
-      const cols = pData.columns || [];
 
-      let colsHtml = cols.map(col => {
+      const cols = pData.columns || [];
+      const colsHtml = cols.map(col => {
         const linesHtml = (col.lines || []).map(ln => {
-          const hasUnc = ln.uncertain && ln.uncertain.length > 0;
           const hasS2 = !!ln.stage2_correction;
-          const mBadge = ln.margin_tag ? `<span class="dip-margin">${ln.margin_tag}</span>` : '';
-          const wrapSym = ln.word_wraps_to_next_line ? `<span class="dip-wrap" title="Word wraps onto next line">↵</span>` : '';
-          const formatted = formatAndemtaHtml(ln.text);
-          let lineTitle = 'Click to edit line';
-          if (hasS2) {
-            lineTitle = `✅ Stage-2 Fixed (${ln.stage2_correction.pair}): "${ln.stage1_text}" → "${ln.text}" — ${ln.stage2_correction.reason}`;
-          } else if (hasUnc) {
-            lineTitle = ln.uncertain.map(u => `${u.printed_text} → ${u.alternative} (${u.note})`).join(' | ');
-          }
-          const extraClass = (hasUnc ? ' has-uncertain' : '') + (hasS2 ? ' has-stage2' : '');
+          const mBadge = ln.margin_tag ? `<span class="dip-margin">${escapeHtml(ln.margin_tag)}</span>` : '';
+          const wrapSym = ln.word_wraps_to_next_line ? `<span style="color:var(--gold-primary); font-weight:700;" title="Word wraps">↵</span>` : '';
+          const txtHtml = escapeHtml(ln.text || '')
+            .replace(/⟪([^⟫]+)⟫/g, '<span class="sp-geez">$1</span>');
           return `
-            <div class="dip-line${extraClass}" title="${lineTitle.replace(/"/g, '&quot;')}"
-                 onclick="promptEditLine(${CURRENT_PDF_PAGE}, ${col.column_index}, ${ln.line_num}, ${JSON.stringify(ln.text).replace(/"/g, '&quot;')})">
+            <div class="dip-line${hasS2 ? ' has-stage2' : ''}" title="${hasS2 ? escapeHtml(ln.stage2_correction.reason || '') : ''}">
               <span class="dip-lnum">${ln.line_num}</span>
               ${mBadge}
-              <span class="dip-text">${formatted}</span>
+              <span style="flex:1;">${txtHtml}</span>
               ${wrapSym}
             </div>
           `;
         }).join('');
         return `
           <div class="diplomatic-col">
-            <h4>ዓምድ ${col.column_index} (Column ${col.column_index} · ${(col.lines || []).length} lines)</h4>
+            <h4><span>ዓምድ ${col.column_index} (Column ${col.column_index})</span><span>${(col.lines || []).length} መስመሮች</span></h4>
             ${linesHtml}
           </div>
         `;
       }).join('');
 
-      main.innerHTML = `
-        <div class="diplomatic-toolbar">
-          <div style="display:flex; align-items:center; gap:0.75rem;">
-            <button class="btn-small" onclick="renderDiplomaticView(${CURRENT_PDF_PAGE - 1})">◀ ቀዳሚ ገጽ</button>
-            <strong style="font-size:1.05rem; color:var(--rubric-red);">
-              የመጽሐፍ ገጽ ${pData.book_page_ethiopic || '-'} (${pData.book_page_arabic || '-'}) · PDF Page ${CURRENT_PDF_PAGE} / ${maxPages}
+      container.innerHTML = `
+        <div class="panel-card" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.75rem;">
+          <div style="display:flex; align-items:center; gap:0.5rem;">
+            <button class="action-btn" onclick="renderDiplomaticView(${CURRENT_PDF_PAGE - 1})" ${CURRENT_PDF_PAGE <= 1 ? 'disabled' : ''}>◀ ቀዳሚ ገጽ</button>
+            <strong style="color:var(--biranna-red); font-size:1.05rem;">
+              የመጽሐፍ ገጽ ${escapeHtml(pData.book_page_ethiopic || '-')} · PDF Page ${CURRENT_PDF_PAGE} / ${maxPages}
             </strong>
-            <button class="btn-small" onclick="renderDiplomaticView(${CURRENT_PDF_PAGE + 1})">ቀጣይ ገጽ ▶</button>
-            <input type="number" min="1" max="${maxPages}" value="${CURRENT_PDF_PAGE}" style="width:70px; padding:0.2rem 0.4rem;"
+            <button class="action-btn" onclick="renderDiplomaticView(${CURRENT_PDF_PAGE + 1})" ${CURRENT_PDF_PAGE >= maxPages ? 'disabled' : ''}>ቀጣይ ገጽ ▶</button>
+            <input type="number" min="1" max="${maxPages}" value="${CURRENT_PDF_PAGE}"
+                   style="width:68px; padding:0.25rem 0.4rem; border-radius:6px; border:1px solid var(--border-color); background:var(--bg-app); color:var(--ink-primary);"
                    onchange="renderDiplomaticView(parseInt(this.value || '1', 10))" />
           </div>
-          <div style="display:flex; align-items:center; gap:0.5rem;">
-            <span style="font-size:0.82rem; color:var(--ink-muted);">የገጽ ርዕስ፦ ${pData.running_header || '-'}</span>
-            <button class="btn-small" onclick="adjustZoom(0.25)">🔍 Zoom +</button>
-            <button class="btn-small" onclick="adjustZoom(-0.25)">🔍 Zoom -</button>
+          <div style="font-size:0.84rem; color:var(--ink-muted);">
+            የገጽ ርዕስ፦ <strong>${escapeHtml(pData.running_header || '-')}</strong>
           </div>
         </div>
-        <div class="diplomatic-split">
-          <div class="scan-viewer">
-            <img id="scanImg" src="/images/${CURRENT_BOOK}/page_${String(CURRENT_PDF_PAGE).padStart(3, '0')}.jpg" alt="Book Page ${CURRENT_PDF_PAGE}" />
-          </div>
-          <div class="columns-grid" style="grid-template-columns: repeat(${Math.max(1, cols.length)}, 1fr);">
-            ${colsHtml || '<div class="diplomatic-col">ባዶ ገጽ (Blank Page)</div>'}
-          </div>
-        </div>
+        <div class="columns-grid">${colsHtml}</div>
       `;
     }
 
-    function adjustZoom(delta) {
-      ZOOM_LEVEL = Math.max(0.75, Math.min(2.5, ZOOM_LEVEL + delta));
-      const img = document.getElementById('scanImg');
-      if (img) {
-        img.style.maxWidth = `${Math.round(ZOOM_LEVEL * 100)}%`;
-      }
-    }
-
-    async function promptEditLine(pdfPage, colIdx, lineNum, currentText) {
-      const updated = window.prompt(`ማስተካከያ — ${CURRENT_BOOK} PDF Page ${pdfPage}, Column ${colIdx}, Line ${lineNum}:\n(Keep ⟪...⟫ around root Ge'ez gospel words)`, currentText);
-      if (updated === null || updated === currentText) return;
-      const res = await fetch('/api/update_line', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          book: CURRENT_BOOK,
-          pdf_page: pdfPage,
-          column_index: colIdx,
-          line_num: lineNum,
-          text: updated,
-          resolve_uncertain: true
-        })
-      });
-      if (res.ok) {
-        await loadBookData();
-        renderDiplomaticView(pdfPage);
-      }
-    }
-
-    function renderIndicesView() {
-      const main = document.getElementById('mainPanel');
-      const chIdx = BOOK_DATA.chapter_index || [];
-      const topIdx = BOOK_DATA.topical_index || [];
-      const canonTbls = BOOK_DATA.canon_tables || [];
-
-      const chRows = chIdx.map(c => `
-        <tr style="cursor:pointer;" onclick="CURRENT_CHAPTER=${c.chapter_num}; switchTab('reader'); updateSidebar();">
-          <td><strong>ምዕራፍ ${c.chapter_ethiopic} (${c.chapter_num})</strong></td>
-          <td style="color:var(--rubric-red); font-weight:600;">${c.geez_incipit}</td>
-          <td>${c.amharic_incipit}</td>
-        </tr>
+    /* ==========================================================================
+       VIEW 4: OPEN-SOURCE JSON DOWNLOADS & DEVELOPER HUB
+       ========================================================================== */
+    function renderDownloadsView() {
+      const container = document.getElementById('mainContent');
+      const cardsHtml = BOOKS_CATALOG.map(b => `
+        <div class="dl-card">
+          <div>
+            <h4>${b.numEth}. ${b.titleGeez}</h4>
+            <p style="font-family:var(--font-ui); font-size:0.78rem; color:var(--ink-muted); margin-top:0.2rem;">
+              ${b.titleEn} · ${b.chapters} Chapters · ${b.verses} Verses · ${b.pages} Pages
+            </p>
+          </div>
+          <div class="dl-links">
+            <a class="dl-btn primary" href="./${b.file}" download="${b.file}">⬇ Universal JSON (${b.file})</a>
+            <a class="dl-btn" href="./${b.dipFile}" download="${b.key}_diplomatic.json">📜 Diplomatic JSON</a>
+          </div>
+        </div>
       `).join('');
 
-      const topRows = topIdx.map(t => `
-        <tr style="cursor:pointer;" onclick="jumpToTopic(${t.chapter_num}, ${t.verse_num})">
-          <td>${t.topic_id}</td>
-          <td><strong>ም ${t.chapter_ethiopic} ፥ ቍ ${t.verse_ethiopic}</strong> (${t.chapter_num}:${t.verse_num})</td>
-          <td style="color:var(--rubric-red); font-weight:600;">${t.geez_title}</td>
-          <td>${t.amharic_title}</td>
-          <td>ገጽ ${t.book_page_ethiopic}</td>
-        </tr>
-      `).join('');
-
-      let canonHtml = '';
-      if (canonTbls.length > 0) {
-        const cRows = canonTbls.map(ct =>
-          (ct.entries || []).map(e => `
-            <tr style="cursor:pointer;" onclick="openPageVerifier(${ct.pdf_page})">
-              <td>ገጽ ${ct.book_page_ethiopic} (p.${ct.pdf_page})</td>
-              <td>${e.chapter_ethiopic || ''} ${e.verse_ethiopic || ''}</td>
-              <td style="color:var(--rubric-red); font-weight:600;">${e.geez_title || ''}</td>
-              <td>${e.amharic_title || ''}</td>
-            </tr>
-          `).join('')
-        ).join('');
-        canonHtml = `
-          <h2 style="color:var(--rubric-red); margin:2rem 0 0.75rem;">፫. ዐሥሩ አዕማደ ሰንጠረዥ (10 Eusebian Gospel Harmony Canon Tables — ${canonTbls.length} pages)</h2>
-          <table class="data-table">
-            <thead>
-              <tr><th>ገጽ</th><th>ምዕራፍ/ቍጥር</th><th>የግዕዝ ንባብ (Ge'ez Entry)</th><th>የወንጌላውያን ኅብረት (Parallel References)</th></tr>
-            </thead>
-            <tbody>${cRows}</tbody>
-          </table>
-        `;
-      }
-
-      main.innerHTML = `
-        <h2 style="color:var(--rubric-red); margin-bottom:0.75rem;">፩. ኍልቈ ምዕራፍ ዓቢይ (${chIdx.length} Major Chapters Index)</h2>
-        <table class="data-table" style="margin-bottom:2rem;">
-          <thead>
-            <tr><th>ምዕራፍ</th><th>የግዕዝ መጀመሪያ (Ge'ez Incipit)</th><th>የአማርኛ ትርጓሜ (Amharic Incipit)</th></tr>
-          </thead>
-          <tbody>${chRows}</tbody>
-        </table>
-
-        <h2 style="color:var(--rubric-red); margin-bottom:0.75rem;">፪. መክሥተ አርእስት (${topIdx.length} Topical Pericopes)</h2>
-        <table class="data-table">
-          <thead>
-            <tr><th>#</th><th>ምዕራፍና ቍጥር</th><th>መክሥተ አርእስት (Ge'ez Topic)</th><th>የአማርኛ አርእስት ማውጫ (Amharic Topic)</th><th>የማውጫ ገጽ</th></tr>
-          </thead>
-          <tbody>${topRows}</tbody>
-        </table>
-        ${canonHtml}
-      `;
-    }
-
-    function jumpToTopic(chNum, vNum) {
-      CURRENT_CHAPTER = chNum;
-      switchTab('reader');
-      updateSidebar();
-      setTimeout(() => {
-        const el = document.getElementById(`verse-${chNum}-${vNum}`);
-        if (el) el.scrollIntoView({ behavior: 'smooth' });
-      }, 100);
-    }
-
-    function renderApparatusView() {
-      const main = document.getElementById('mainPanel');
-      const s2 = BOOK_DATA.stage2_corrections || [];
-      const items = BOOK_DATA.uncertain_apparatus || [];
-
-      const s2Rows = s2.map(c => `
-        <tr>
-          <td><strong>ገጽ ${c.book_page_ethiopic || c.pdf_page}</strong> (p.${c.pdf_page})<br/><small>Col ${c.column_index}, L${c.line_num}</small></td>
-          <td><span style="background:var(--warn-bg); color:var(--warn-amber); padding:0.15rem 0.4rem; border-radius:4px; font-weight:700;">${c.pair || '-'}</span></td>
-          <td style="text-decoration:line-through; color:var(--ink-muted);">${c.stage1_text}</td>
-          <td><span style="background:var(--andem-bg); color:var(--andem-badge); padding:0.15rem 0.4rem; border-radius:4px; font-weight:700;">${c.corrected_text}</span></td>
-          <td style="font-size:0.85rem; color:var(--ink-muted);">${c.reason}</td>
-          <td>
-            <button class="btn-small" onclick="openPageVerifier(${c.pdf_page})">🔍 ገጹን እይ</button>
-          </td>
-        </tr>
-      `).join('');
-
-      const rows = items.map(u => `
-        <tr>
-          <td><strong>ገጽ ${u.book_page_ethiopic || u.pdf_page}</strong> (p.${u.pdf_page})<br/><small>Col ${u.column_index}, L${u.line_num}</small></td>
-          <td><span style="background:var(--warn-bg); padding:0.15rem 0.4rem; border-radius:4px; font-weight:700;">${u.printed_text}</span></td>
-          <td><span style="background:var(--andem-bg); color:var(--andem-badge); padding:0.15rem 0.4rem; border-radius:4px; font-weight:700;">${u.alternative}</span></td>
-          <td>${u.line_text}</td>
-          <td style="font-size:0.85rem; color:var(--ink-muted);">${u.note}</td>
-          <td>
-            <button class="btn-small" onclick="openPageVerifier(${u.pdf_page})">🔍 ገጹን እይ</button>
-          </td>
-        </tr>
-      `).join('');
-
-      main.innerHTML = `
-        <div style="margin-bottom:1.25rem;">
-          <h2 style="color:var(--rubric-red);">✅ Stage-2 Yeneta Philological &amp; Visual Corrections (${s2.length} lines corrected across Ge'ez &amp; Amharic)</h2>
-          <p style="color:var(--ink-muted); font-size:0.92rem; margin-bottom:0.75rem;">
-            Ink-bleed Fidel lookalikes automatically audited and corrected by Stage-2 visual + morphological verification.
+      container.innerHTML = `
+        <div class="panel-card">
+          <h2 style="color:var(--biranna-red); margin-bottom:0.4rem;">ክፍት የJSON መረጃ ክምችት (Open-Source JSON Corpus v2.0.0)</h2>
+          <p style="color:var(--ink-secondary); font-size:0.95rem; margin-bottom:1rem;">
+            Every JSON file is 100% self-contained, validated against <code>schema.json</code>, and ready for React, Next.js, Flutter, iOS/SwiftUI, Android, Python/NLP, and AI/RAG pipelines.
           </p>
-          <table class="data-table" style="margin-bottom:2rem;">
-            <thead>
-              <tr><th>ገጽ / መስመር</th><th>የፊደል ለውጥ (Pair)</th><th>Stage-1 OCR (Before)</th><th>Stage-2 የተስተካከለው (Corrected)</th><th>ምክንያት (Philological &amp; Visual Note)</th><th>ድርጊት</th></tr>
-            </thead>
-            <tbody>${s2Rows}</tbody>
-          </table>
-
-          <h2 style="color:var(--rubric-red);">🔬 የኅትመት ልዩነቶች (Remaining Diplomatic Print Notes — ${items.length} spans)</h2>
-          <table class="data-table">
-            <thead>
-              <tr><th>ገጽ / መስመር</th><th>በመጽሐፉ የታተመው (Diplomatic Print)</th><th>ትክክለኛው ንባብ (Editorial Reading)</th><th>ሙሉ መስመሩ (Line Context)</th><th>ምክንያት (Philological Note)</th><th>ድርጊት</th></tr>
-            </thead>
-            <tbody>${rows}</tbody>
-          </table>
+          <div class="dl-links">
+            <a class="dl-btn primary" href="./00_all_13_books_complete.json" download="00_all_13_books_complete.json">⬇ Download All 13 Books Master JSON (48 MB)</a>
+            <a class="dl-btn" href="./schema.json" target="_blank">📐 View JSON Schema (schema.json)</a>
+            <a class="dl-btn" href="https://github.com/SenayGebre/ethiopian-orthodox-andemta" target="_blank">★ View GitHub Repository</a>
+          </div>
         </div>
+
+        <div class="download-grid">${cardsHtml}</div>
       `;
     }
 
-    async function runSearch() {
+    /* ==========================================================================
+       INSTANT CLIENT-SIDE SEARCH (Works 100% Offline / Static on GitHub Pages)
+       ========================================================================== */
+    function runSearch() {
       const q = document.getElementById('searchInput').value.trim();
-      if (!q) return;
-      const res = await fetch(`/api/search?book=${encodeURIComponent(CURRENT_BOOK)}&q=${encodeURIComponent(q)}`);
-      const data = await res.json();
-      const main = document.getElementById('mainPanel');
+      if (!q || !BOOK_DATA) return;
 
-      const cards = (data.results || []).map(v => {
-        const highlighted = formatAndemtaHtml(v.rejoined_marked_text).replace(
-          new RegExp(q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g'),
-          `<mark style="background:#fde047; padding:0 2px; border-radius:2px;">${q}</mark>`
-        );
+      const matches = [];
+      for (const ch of (BOOK_DATA.chapters || [])) {
+        for (const v of (ch.verses || [])) {
+          const hay = (v.rejoined_plain_text || '') + ' ' + (v.section_title || '');
+          if (hay.includes(q)) {
+            matches.push({ ch, v });
+            if (matches.length >= 120) break;
+          }
+        }
+        if (matches.length >= 120) break;
+      }
+
+      const container = document.getElementById('mainContent');
+      const safeRe = new RegExp(q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g');
+
+      const resultsHtml = matches.map(({ ch, v }) => {
+        const rawHtml = renderBirannaSpansHtml(v.biranna_spans);
+        const highlighted = rawHtml.replace(safeRe, `<mark style="background:#fde047; color:#000; padding:0 3px; border-radius:3px;">${escapeHtml(q)}</mark>`);
         return `
           <article class="verse-card">
-            <div class="verse-meta">
-              <div class="verse-num-badge">ምዕራፍ ${v.chapter_ethiopic} ፥ ቍጥር ${v.verse_ethiopic} (${v.chapter_num}:${v.verse_num}) · ገጽ ${v.start_book_page_ethiopic}</div>
-              <div>
-                <button class="btn-small" onclick="jumpToTopic(${v.chapter_num}, ${v.verse_num})">📖 ወደ ምዕራፉ ሂድ</button>
-                <button class="btn-small" onclick="openPageVerifier(${v.start_pdf_page})">🔍 ገጽ ${v.start_book_page_ethiopic} እይ</button>
+            <div class="verse-header">
+              <div class="verse-ref-group">
+                <span class="verse-badge">ምዕራፍ ${ch.chapter_ethiopic} ፥ ቍጥር ${v.verse_ethiopic} (${ch.chapter_num}:${v.verse_num})</span>
+                <span class="verse-ref-sub">${escapeHtml(v.reference_english || '')} · ገጽ ${escapeHtml(v.start_book_page_ethiopic || '-')}</span>
+              </div>
+              <div class="verse-actions">
+                <button class="action-btn" onclick="selectChapter(${ch.chapter_num}, ${v.verse_num})">📖 ወደ ምዕራፉ ሂድ</button>
               </div>
             </div>
-            <div class="verse-body-text">${highlighted}</div>
+            <div class="biranna-manuscript-body">${highlighted}</div>
           </article>
         `;
       }).join('');
 
-      main.innerHTML = `
-        <div style="margin-bottom:1rem; display:flex; justify-content:space-between; align-items:center;">
-          <h2 style="color:var(--rubric-red);">የፍለጋ ውጤት ለ «${q}» (${data.count} አንቀጾች ተገኝተዋል)</h2>
-          <button class="btn-small" onclick="renderReaderView()">✕ ፍለጋ ዝጋ</button>
+      container.innerHTML = `
+        <div class="panel-card" style="display:flex; justify-content:space-between; align-items:center;">
+          <div>
+            <h3 style="color:var(--biranna-red);">የፍለጋ ውጤት ለ «${escapeHtml(q)}» በ${escapeHtml(BOOK_DATA.title_geez)}</h3>
+            <p style="font-size:0.85rem; color:var(--ink-muted);">${matches.length} አንቀጾች ተገኝተዋል</p>
+          </div>
+          <button class="action-btn" onclick="renderReaderView()">✕ ፍለጋ ዝጋ</button>
         </div>
-        ${cards || '<p>ምንም ውጤት አልተገኘም።</p>'}
+        ${resultsHtml || '<div class="panel-card">ምንም ውጤት አልተገኘም።</div>'}
       `;
     }
 
-    loadBookData();
+    /* Keyboard shortcut `/` to focus search & URL Hash Router */
+    window.addEventListener('keydown', e => {
+      if (e.key === '/' && document.activeElement !== document.getElementById('searchInput')) {
+        e.preventDefault();
+        document.getElementById('searchInput').focus();
+      } else if (e.key === 'Escape') {
+        closeJsonModal();
+      }
+    });
+
+    function parseInitialHash() {
+      const h = (window.location.hash || '').replace(/^#/, '').trim();
+      if (!h) return { book: 'matewes', ch: 1, v: null };
+      const parts = h.split(':');
+      const book = BOOK_BY_KEY[parts[0]] ? parts[0] : 'matewes';
+      const ch = parseInt(parts[1] || '1', 10) || 1;
+      const v = parts[2] !== undefined ? parseInt(parts[2], 10) : null;
+      return { book, ch, v };
+    }
+
+    (function init() {
+      const savedTheme = localStorage.getItem('andemta_theme') || 'biranna';
+      setTheme(savedTheme);
+      initSidebarBooks();
+      const { book, ch, v } = parseInitialHash();
+      selectBook(book, ch, v);
+    })();
   </script>
 </body>
 </html>
